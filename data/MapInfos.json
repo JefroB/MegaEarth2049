@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Mega Earth","order":1,"parentId":0,"scrollX":488,"scrollY":878.6666666666666},
+{"id":1,"expanded":false,"name":"Mega Earth","order":1,"parentId":0,"scrollX":1184.5714285714284,"scrollY":764.5714285714286},
 {"id":2,"expanded":false,"name":"Timbuc 2","order":2,"parentId":1,"scrollX":1398,"scrollY":892},
 {"id":3,"expanded":false,"name":"Item Shop","order":3,"parentId":2,"scrollX":466,"scrollY":297.3333333333333},
 {"id":4,"expanded":false,"name":"Weapon Shop","order":4,"parentId":2,"scrollX":466,"scrollY":297.3333333333333},
@@ -23,8 +23,12 @@ null,
 {"id":21,"expanded":false,"name":"Room F","order":21,"parentId":15,"scrollX":466,"scrollY":297.3333333333333},
 {"id":22,"expanded":false,"name":"Passageway 1","order":22,"parentId":15,"scrollX":466,"scrollY":297.3333333333333},
 {"id":23,"expanded":false,"name":"Passageway 2","order":23,"parentId":15,"scrollX":466,"scrollY":297.3333333333333},
-{"id":24,"expanded":true,"name":"Timbuc 2 Body Modification & Neural Enhancement Center","order":24,"parentId":1,"scrollX":1398,"scrollY":892},
+{"id":24,"expanded":false,"name":"Timbuc 2 Body Modification & Neural Enhancement Center","order":24,"parentId":1,"scrollX":1198.2857142857142,"scrollY":764.5714285714286},
 {"id":25,"expanded":false,"name":"B.M.N.E.C. Floor 1","order":25,"parentId":24,"scrollX":1398,"scrollY":892},
 {"id":26,"expanded":true,"name":"B.M.N.E.C. Floor 2","order":26,"parentId":24,"scrollX":1398,"scrollY":892},
-{"id":27,"expanded":false,"name":"B.M.N.E.C. Floor 3","order":27,"parentId":24,"scrollX":1398,"scrollY":892}
+{"id":27,"expanded":false,"name":"B.M.N.E.C. Floor 3","order":27,"parentId":24,"scrollX":1398,"scrollY":892},
+{"id":28,"expanded":false,"name":"Planet Ork","order":28,"parentId":0,"scrollX":1184.5714285714284,"scrollY":764.5714285714286},
+{"id":29,"expanded":false,"name":"Alien Craft","order":30,"parentId":30,"scrollX":1198.2857142857142,"scrollY":764.5714285714286},
+{"id":30,"expanded":true,"name":"Alien Craft","order":29,"parentId":0,"scrollX":1198.2857142857142,"scrollY":764.5714285714286},
+{"id":31,"expanded":false,"name":"Alien Craft","order":31,"parentId":30,"scrollX":1198.2857142857142,"scrollY":764.5714285714286}
 ]
