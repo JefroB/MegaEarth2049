@@ -35,7 +35,7 @@ null,
 {"id":33,"expanded":true,"name":"Village","order":29,"parentId":1,"scrollX":699,"scrollY":446},
 {"id":34,"expanded":true,"name":"Shack 1","order":30,"parentId":33,"scrollX":699,"scrollY":446},
 {"id":35,"expanded":false,"name":"Shack 2","order":31,"parentId":33,"scrollX":832,"scrollY":640},
-{"id":36,"expanded":false,"name":"Shack 3","order":32,"parentId":33,"scrollX":832,"scrollY":640},
+{"id":36,"expanded":false,"name":"Shack 3","order":32,"parentId":33,"scrollX":699,"scrollY":446},
 {"id":37,"expanded":false,"name":"Bridge to Timbuc 2","order":33,"parentId":1,"scrollX":699,"scrollY":446},
 {"id":38,"expanded":false,"name":"Floating Mansion (Outside)","order":34,"parentId":1,"scrollX":762.5454545454546,"scrollY":486.54545454545456},
 {"id":39,"expanded":false,"name":"Planet Ting Ting","order":39,"parentId":0,"scrollX":1068,"scrollY":821}
