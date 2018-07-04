@@ -39,5 +39,5 @@ null,
 {"id":37,"expanded":false,"name":"Bridge to Timbuc 2","order":33,"parentId":1,"scrollX":722.6666666666666,"scrollY":414},
 {"id":38,"expanded":true,"name":"Floating Mansion (Outside)","order":34,"parentId":1,"scrollX":722.6666666666666,"scrollY":414},
 {"id":39,"expanded":false,"name":"Planet Ting Ting","order":40,"parentId":0,"scrollX":1068,"scrollY":820.6666666666666},
-{"id":40,"expanded":false,"name":"Floating Mansion 1st floor","order":35,"parentId":38,"scrollX":722.6666666666666,"scrollY":414}
+{"id":40,"expanded":false,"name":"Floating Mansion 1st floor","order":35,"parentId":38,"scrollX":699,"scrollY":446}
 ]
