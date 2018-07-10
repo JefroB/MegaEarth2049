@@ -76,12 +76,12 @@ null,
 {"id":74,"expanded":false,"name":"Newtown Item Shop","order":67,"parentId":49,"scrollX":699,"scrollY":446},
 {"id":75,"expanded":false,"name":"Upper Newtown Lake","order":69,"parentId":70,"scrollX":1184.5714285714284,"scrollY":764.5714285714286},
 {"id":76,"expanded":true,"name":"Big Ass Desert","order":70,"parentId":39,"scrollX":2655,"scrollY":751},
-{"id":77,"expanded":true,"name":"D Town","order":71,"parentId":39,"scrollX":1211,"scrollY":602},
+{"id":77,"expanded":false,"name":"D Town","order":71,"parentId":39,"scrollX":691,"scrollY":438},
 {"id":78,"expanded":false,"name":"Mountain Pass","order":78,"parentId":39,"scrollX":2641.7142857142853,"scrollY":750.8571428571428},
 {"id":79,"expanded":false,"name":"D Town Weapon Shop","order":72,"parentId":77,"scrollX":699,"scrollY":446},
 {"id":80,"expanded":false,"name":"D Town Armor Shop","order":73,"parentId":77,"scrollX":699,"scrollY":446},
 {"id":81,"expanded":false,"name":"D Town Item Shop","order":74,"parentId":77,"scrollX":699,"scrollY":446},
-{"id":82,"expanded":false,"name":"MAP082","order":75,"parentId":77,"scrollX":699,"scrollY":446},
-{"id":83,"expanded":false,"name":"MAP083","order":76,"parentId":77,"scrollX":1198.2857142857142,"scrollY":764.5714285714286},
-{"id":84,"expanded":false,"name":"MAP084","order":77,"parentId":77,"scrollX":1198.2857142857142,"scrollY":764.5714285714286}
+{"id":82,"expanded":false,"name":"D Town Inn","order":75,"parentId":77,"scrollX":699,"scrollY":446},
+{"id":83,"expanded":false,"name":"D Town Body Mod Center","order":76,"parentId":77,"scrollX":699,"scrollY":446},
+{"id":84,"expanded":false,"name":"D Town Bar","order":77,"parentId":77,"scrollX":699,"scrollY":446}
 ]
