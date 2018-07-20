@@ -58,9 +58,9 @@ Yanfly.BASO.version = 1.01;
  * ---------
  * Settings:
  * ---------
- * 
+ *
  * Name:
- * \i[302]Battle Animation Speed
+ * \i[302]Battle Speed
  *
  * Help Description:
  * Changes the speed of battle animations.
@@ -80,7 +80,7 @@ Yanfly.BASO.version = 1.01;
  * ----------
  * Functions:
  * ----------
- * 
+ *
  * Make Option Code:
  * this.addCommand(name, symbol, enabled, ext);
  *
@@ -123,7 +123,7 @@ Yanfly.BASO.version = 1.01;
  * value -= 1;
  * value = value.clamp(1, 4);
  * this.changeValue(symbol, value);
- * 
+ *
  * Cursor Left Code:
  * var index = this.index();
  * var symbol = this.commandSymbol(index);
