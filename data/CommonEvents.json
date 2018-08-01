@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"list":[{"code":315,"indent":0,"parameters":[0,0,0,0,25,false]},{"code":0,"indent":0,"parameters":[]}],"name":"Exploration Exp","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":122,"indent":0,"parameters":[10,10,0,2,0,49]},{"code":102,"indent":0,"parameters":[["Yes","No"],1,0,2,0]},{"code":402,"indent":0,"parameters":[0,"Yes"]},{"code":111,"indent":1,"parameters":[1,10,0,47,3]},{"code":101,"indent":2,"parameters":["",0,0,0]},{"code":401,"indent":2,"parameters":["You found really rare thing."]},{"code":0,"indent":2,"parameters":[]},{"code":411,"indent":1,"parameters":[]},{"code":111,"indent":2,"parameters":[1,10,0,35,4]},{"code":101,"indent":3,"parameters":["",0,0,0]},{"code":401,"indent":3,"parameters":["You found a common thing."]},{"code":0,"indent":3,"parameters":[]},{"code":411,"indent":2,"parameters":[]},{"code":101,"indent":3,"parameters":["",0,0,0]},{"code":401,"indent":3,"parameters":["You found a somewhat rare thing."]},{"code":0,"indent":3,"parameters":[]},{"code":412,"indent":2,"parameters":[]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"No"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Mining Event","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
