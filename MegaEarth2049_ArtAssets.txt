@@ -1,24 +1,67 @@
 # MegaEarth 2049 - Required Art Assets
 
-This document provides a comprehensive list of art assets needed for MegaEarth 2049, organized by category and usage.
+This document provides a comprehensive list of art assets needed for MegaEarth 2049, organized by category and usage, with detailed specifications for artists.
+
+## Art Style Guidelines
+
+- **Overall Style**: 16-bit pixel art with a cyberpunk aesthetic
+- **Resolution**: Various sizes depending on asset type (specified below)
+- **Detail Level**: Medium to high detail with clear silhouettes
+- **Animation**: Most assets require basic animations (idle, action)
+- **Theme**: Cyberpunk with elements of humor, absurdity, and digital glitches
 
 ## Enemy Battlers
 
 These are the side-view battler images used for enemies in combat. Many of these were referenced in the Enemies.json file but may be missing from the actual game files.
 
+**Technical Specifications:**
+- **Size**: 64x64 pixels for standard enemies, 96x96 pixels for bosses and larger enemies
+- **Style**: 16-bit pixel art with distinctive silhouettes and character
+- **Animation**: Each enemy should have at minimum:
+  - Idle animation (4-8 frames)
+  - Attack animation (4-8 frames)
+  - Damage reaction (2-4 frames)
+- **Format**: PNG files with transparency
+
 ### SF Series (Security Forces)
 - SF_Doll - Basic security drone
+  - Size: 64x64 pixels
+  - Style: Sleek, corporate security drone with cyberpunk aesthetic
+  - Colors: Metallic grays with blue/red accents and corporate branding
+  - Animation: Hovering idle + attack animation
+  - Reference: Security drones from sci-fi media with corporate logos
 - SF_Parasite - Parasitic security entity
+  - Size: 64x64 pixels
+  - Style: Organic-mechanical hybrid with parasitic features
+  - Colors: Flesh tones with metallic implants and red warning lights
+  - Animation: Pulsing idle + lunge attack
+  - Reference: Parasitic organisms with technological components
 - SF_Thug - Security enforcer
+  - Size: 64x64 pixels
+  - Style: Heavily armored corporate security with intimidating presence
+  - Colors: Dark armor with corporate insignia and glowing elements
+  - Animation: Menacing idle + weapon swing
+  - Reference: Riot police mixed with corporate branding
 
 ### Punks
 - punk1 - Basic punk enemy
-- punk2 - Punk variant
-- punk3 - Punk variant
-- punk4 - Punk variant
-- punk5 - Punk variant
-- punk6 - Punk variant
+  - Size: 64x64 pixels
+  - Style: 16-bit pixel art with gritty street punk aesthetic
+  - Colors: Neon colors against dark clothing, mohawk, leather
+  - Animation: Idle stance + attack animation
+  - Reference: 80s/90s punk aesthetic with cyberpunk elements
+- punk2 through punk6 - Punk variants
+  - Size: 64x64 pixels
+  - Style: Variations on the punk theme with different weapons/accessories
+  - Colors: Each should have a distinctive color scheme while maintaining punk aesthetic
+  - Animation: Similar to punk1 but with unique character
+  - Reference: Diverse punk subcultures with cyberpunk elements
 - punkBoss1 - Punk leader/boss
+  - Size: 96x96 pixels
+  - Style: Imposing punk leader with exaggerated features
+  - Colors: Bold, contrasting colors with metallic enhancements
+  - Animation: Intimidating idle + powerful attack sequence
+  - Reference: Punk gang leader with cybernetic enhancements
 
 ### Ninjas
 - greenninja - Green-clad ninja
@@ -159,17 +202,67 @@ These are the side-view battler images used for enemies in combat. Many of these
 
 These are the sprites used for player characters, NPCs, and other entities in the game world.
 
+**Technical Specifications:**
+- **Size**: 32x48 pixels for character sheets (8 directions x 3 poses minimum)
+- **Style**: 16-bit pixel art with distinctive silhouettes and character
+- **Animation**: Each character should have:
+  - Walking animations in 4 or 8 directions
+  - Idle animations
+  - Action animations (specific to character)
+- **Format**: PNG files with transparency
+- **Sheet Layout**: Character sheets should follow RPG Maker MV format
+
 ### Main Characters
 - Rex - The protagonist
+  - Size: 32x48 pixels (character sheet)
+  - Style: Distinctive cyberpunk protagonist with unique silhouette
+  - Colors: Outfit should have cyberpunk elements with a color scheme that stands out
+  - Animation: Walking in 4/8 directions + action animations
+  - Reference: Cyberpunk protagonist with unique, recognizable design
 - Jen - The Priest/Medic
+  - Size: 32x48 pixels (character sheet)
+  - Style: Medical professional with religious/spiritual elements
+  - Colors: Clean medical whites with spiritual/religious accents
+  - Animation: Walking in 4/8 directions + healing animations
+  - Reference: Futuristic medic with spiritual/religious symbolism
 - Zack/Jose - The Construction Worker
+  - Size: 32x48 pixels (character sheet)
+  - Style: Rugged construction worker with practical tools and gear
+  - Colors: Construction yellows/oranges with worn work clothes
+  - Animation: Walking in 4/8 directions + construction tool animations
+  - Reference: Futuristic construction worker with practical, worn equipment
 - Zed - The Back-Alley Mod Doctor
+  - Size: 32x48 pixels (character sheet)
+  - Style: Sketchy underground doctor with cybernetic tools
+  - Colors: Dark clothing with medical and tech highlights
+  - Animation: Walking in 4/8 directions + surgical animations
+  - Reference: Underground cyberpunk surgeon with questionable methods
 - Jack - The Smuggler
+  - Size: 32x48 pixels (character sheet)
+  - Style: Stealthy character with hidden compartments and gear
+  - Colors: Subdued colors with subtle tech highlights
+  - Animation: Walking in 4/8 directions + sneaking animations
+  - Reference: Cyberpunk smuggler with concealed tech and contraband
 - Dick - The Thief
+  - Size: 32x48 pixels (character sheet)
+  - Style: Agile thief with tech-enhanced abilities
+  - Colors: Dark, stealthy colors with tech accents
+  - Animation: Walking in 4/8 directions + theft animations
+  - Reference: High-tech thief with specialized equipment
 - Niles "Stinky" - King of the Punks
+  - Size: 32x48 pixels (character sheet)
+  - Style: Flamboyant punk leader with exaggerated features
+  - Colors: Bright punk colors with distinctive accessories
+  - Animation: Walking in 4/8 directions + punk attitude animations
+  - Reference: Charismatic punk leader with outrageous style
 
 ### NPCs
 - Dr. Francine "Frankie" Stein - Vitalix surgeon with six arms
+  - Size: 32x48 pixels (character sheet)
+  - Style: Multi-armed surgeon with unique silhouette
+  - Colors: Medical whites with cybernetic arm attachments
+  - Animation: Standing idle + arm movement animations
+  - Reference: Multi-armed surgeon with both medical and tech elements
 - MAX-E-MUM - Sentient cleaning robot obsessed with fitness
 - The Narrator - Fourth-wall breaking character
 - Madame Fortuna - Fortune teller with cybernetic eye
@@ -214,48 +307,236 @@ These are the sprites used for player characters, NPCs, and other entities in th
 ## Environmental Art
 
 ### Map Tilesets
-- Cyberpunk city streets
-- Corporate facilities
-- Sewers and underground areas
-- Space station interiors
-- Asteroid field
-- Alien landscapes
-- Glitchy digital environments
-- Floating Mansion areas
-- Matrix/digital realm
+**Technical Specifications:**
+- **Size**: 16x16 pixels per tile, arranged in tilesheets
+- **Style**: 16-bit pixel art with detailed environmental elements
+- **Animation**: Some tiles should be animated (water, lights, screens, etc.)
+- **Format**: PNG files following RPG Maker MV tileset format
+
+- Cyberpunk City
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Detailed urban cyberpunk environment
+  - Colors: Neon colors against dark urban backdrop
+  - Animation: Animated elements (signs, lights, rain effects)
+  - Reference: Blade Runner-inspired cityscape with dense urban elements
+- Corporate Facilities
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Clean, sterile corporate environments with high-tech elements
+  - Colors: Whites, blues, and grays with corporate branding
+  - Animation: Computer screens, sliding doors, security systems
+  - Reference: Futuristic corporate offices with surveillance elements
+- Sewers and Underground Areas
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Gritty, industrial underground environments
+  - Colors: Dark, damp colors with industrial elements and waste
+  - Animation: Flowing water/waste, steam vents, dripping elements
+  - Reference: Cyberpunk underground with industrial infrastructure
+- Space Station Interiors
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Futuristic space station with technological elements
+  - Colors: Metallic with viewports showing space
+  - Animation: Control panels, airlocks, space views
+  - Reference: Sci-fi space station interiors with functional design
+- Asteroid Field
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Space environment with various asteroid formations
+  - Colors: Space blacks with asteroid grays and mineral highlights
+  - Animation: Floating asteroids, space dust, distant stars
+  - Reference: Sci-fi asteroid fields with mining operations
+- Alien Landscapes
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Otherworldly environments with alien flora/features
+  - Colors: Unusual color schemes distinct from Earth environments
+  - Animation: Alien plant movement, atmospheric effects
+  - Reference: Alien worlds with bizarre and unique features
+- Glitchy Digital Environments
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Digital realm with corruption and glitch elements
+  - Colors: Digital color schemes with glitch artifacts
+  - Animation: Glitching elements, data streams, corruption effects
+  - Reference: Digital landscapes with visual corruption
+- Floating Mansion Areas
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Luxurious mansion with floating/anti-gravity elements
+  - Colors: Opulent colors with technological enhancements
+  - Animation: Floating elements, luxury tech features
+  - Reference: Futuristic luxury with impossible architecture
+- Matrix/Digital Realm
+  - Size: Tileset (multiple tiles 16x16 each)
+  - Style: Abstract digital environment with code elements
+  - Colors: Matrix-inspired greens and blacks with code elements
+  - Animation: Flowing code, digital constructs, reality distortions
+  - Reference: The Matrix and other digital reality representations
 
 ### Background Elements
-- Parallax backgrounds for different environments
-- GlitchBG - Special background for glitchy areas
-- Weather effects (rain, snow, digital distortion)
+**Technical Specifications:**
+- **Size**: 544x416 pixels minimum (RPG Maker MV background size)
+- **Style**: 16-bit pixel art with parallax scrolling elements
+- **Animation**: Some backgrounds should have animated elements
+- **Format**: PNG files with optional animated elements
+
+- Parallax Backgrounds for Different Environments
+  - Size: 544x416 pixels minimum, potentially larger for scrolling
+  - Style: Layered backgrounds with depth for parallax effect
+  - Colors: Themed to match their respective environments
+  - Animation: Subtle movement in different layers
+  - Reference: Parallax backgrounds that create depth and atmosphere
+- GlitchBG - Special Background for Glitchy Areas
+  - Size: 544x416 pixels minimum
+  - Style: Digital distortion with glitch artifacts
+  - Colors: Corrupted digital color schemes
+  - Animation: Constant glitching and visual corruption
+  - Reference: Digital glitch art and corrupted video feeds
+- Weather Effects
+  - Size: Various overlay elements
+  - Style: Environmental effects that layer over backgrounds
+  - Colors: Appropriate to the effect (rain, snow, digital distortion)
+  - Animation: Animated weather patterns
+  - Reference: Dynamic weather systems with cyberpunk twists
 
 ## UI Elements
 
 ### Battle UI
-- Health/MP/TP bars
-- Command icons
-- Status effect icons
-- Damage numbers
+**Technical Specifications:**
+- **Size**: Various sizes appropriate to UI function
+- **Style**: Clean, readable pixel art with cyberpunk aesthetic
+- **Animation**: Subtle animations for feedback and state changes
+- **Format**: PNG files with transparency
+
+- Health Bar
+  - Size: Variable length x 8px height
+  - Style: Clean pixel art UI design
+  - Colors: Red/green gradient with tech border
+  - Animation: Depleting/filling animation
+  - Reference: Futuristic HUD elements with digital readout
+- MP Bar
+  - Size: Variable length x 8px height
+  - Style: Clean pixel art UI design
+  - Colors: Blue gradient with tech border
+  - Animation: Depleting/filling animation
+  - Reference: Energy meter with digital elements
+- TP Bar
+  - Size: Variable length x 8px height
+  - Style: Clean pixel art UI design
+  - Colors: Yellow/orange gradient with tech border
+  - Animation: Depleting/filling animation
+  - Reference: Technical/tactical readout with charging visual
+- Command Icons
+  - Size: 24x24 pixels each
+  - Style: Clear, intuitive pixel art icons
+  - Colors: Distinctive colors for different commands
+  - Animation: Selection/activation animations
+  - Reference: Intuitive command icons with tech aesthetic
+- Status Effect Icons
+  - Size: 16x16 pixels each
+  - Style: Clear, symbolic representations of status effects
+  - Colors: Color-coded by effect type
+  - Animation: Subtle pulsing or effect-appropriate animation
+  - Reference: Clear status symbols with cyberpunk style
+- Damage Numbers
+  - Size: Variable based on damage amount
+  - Style: Clear, readable pixel numbers
+  - Colors: Color-coded by damage type
+  - Animation: Rising/fading animation
+  - Reference: Dynamic damage numbers with impact
 
 ### Menu UI
-- Inventory icons
-- Equipment icons
-- Skill icons
-- Status screen elements
+**Technical Specifications:**
+- **Size**: Various sizes appropriate to UI function
+- **Style**: Clean, readable pixel art with cyberpunk aesthetic
+- **Animation**: Subtle animations for feedback and state changes
+- **Format**: PNG files with transparency
+
+- Inventory Icons
+  - Size: 24x24 pixels each
+  - Style: Clear representations of item types
+  - Colors: Color-coded by item category
+  - Animation: Selection highlight
+  - Reference: Intuitive inventory system with cyberpunk aesthetic
+- Equipment Icons
+  - Size: 24x24 pixels each
+  - Style: Clear representations of equipment types
+  - Colors: Color-coded by equipment category
+  - Animation: Selection highlight
+  - Reference: Distinctive equipment icons with tech details
+- Skill Icons
+  - Size: 24x24 pixels each
+  - Style: Visual representations of different skills
+  - Colors: Color-coded by skill type
+  - Animation: Selection highlight
+  - Reference: Skill icons that visually communicate function
+- Status Screen Elements
+  - Size: Various sizes for different UI components
+  - Style: Clean, information-rich display elements
+  - Colors: Cyberpunk UI color scheme
+  - Animation: Data updating animations
+  - Reference: Futuristic status displays with technical readouts
 
 ## Special Effects
 
 ### Battle Animations
-- Weapon attacks
-- Skill effects
-- Magic spells
-- Status effect visualizations
+**Technical Specifications:**
+- **Size**: Various sizes based on effect (64x64 to 192x192 pixels)
+- **Style**: Dynamic pixel art effects with impact
+- **Animation**: 8-16 frames per animation
+- **Format**: PNG files with transparency, potentially sprite sheets
+
+- Weapon Attacks
+  - Size: 64x64 to 128x128 pixels
+  - Style: Dynamic weapon swing/impact effects
+  - Colors: Weapon-appropriate with impact highlights
+  - Animation: 8-12 frames of attack motion
+  - Reference: Impactful weapon animations with appropriate physics
+- Skill Effects
+  - Size: 64x64 to 192x192 pixels
+  - Style: Distinctive visual effects for different skills
+  - Colors: Skill-appropriate color schemes
+  - Animation: 8-16 frames of skill activation/impact
+  - Reference: Unique skill effects that communicate function
+- Magic Spells
+  - Size: 64x64 to 192x192 pixels
+  - Style: Magical/technological spell effects
+  - Colors: Spell-appropriate color schemes
+  - Animation: 12-16 frames of spell casting/impact
+  - Reference: Visually distinctive spell effects with appropriate elements
+- Status Effect Visualizations
+  - Size: 32x32 to 64x64 pixels
+  - Style: Clear visual indicators of status conditions
+  - Colors: Status-appropriate color schemes
+  - Animation: Looping animations (4-8 frames)
+  - Reference: Status effects that clearly communicate condition
 
 ### Environmental Effects
-- Reality glitches
-- Digital distortions
-- Teleportation effects
-- Holographic displays
+**Technical Specifications:**
+- **Size**: Various sizes based on effect
+- **Style**: Environmental effects that integrate with the game world
+- **Animation**: Looping or sequence animations
+- **Format**: PNG files with transparency
+
+- Reality Glitches
+  - Size: Variable sizes
+  - Style: Distorted pixel art with digital artifacts
+  - Colors: Corrupted colors with digital noise
+  - Animation: Glitching/warping animation sequence
+  - Reference: Digital glitch art and VHS corruption effects
+- Digital Distortions
+  - Size: Variable sizes
+  - Style: Digital reality breaking down
+  - Colors: Digital color schemes with distortion
+  - Animation: Warping, pixelation, and corruption effects
+  - Reference: Digital distortion and reality breakdown effects
+- Teleportation Effects
+  - Size: 64x64 to 96x96 pixels
+  - Style: Energy/particle effects for teleportation
+  - Colors: Energy-appropriate colors (blues, whites)
+  - Animation: Disappear/reappear sequence
+  - Reference: Sci-fi teleportation with energy particles
+- Holographic Displays
+  - Size: Variable based on display content
+  - Style: Semi-transparent holographic projections
+  - Colors: Blues/cyans with transparency
+  - Animation: Flickering, scanning, data flow
+  - Reference: Futuristic holographic interfaces with glitches
 
 ## Audio Assets
 
@@ -289,6 +570,28 @@ These assets should be prioritized as they are central to the game experience:
 7. UI elements for battle and menus
 8. Special effects for reality glitches and digital environments
 
+## Technical Requirements
+
+### File Formats and Organization
+- All art assets should be delivered as PNG files with transparency where appropriate
+- Sprite sheets should follow RPG Maker MV conventions where applicable
+- File naming should match the asset names in this document exactly
+- Animations should be provided as either sprite sheets or sequenced PNG files
+
+### Resolution and Scaling
+- Pixel art should be created at 1:1 scale (no upscaling)
+- Character sprites: 32x48 pixels for character sheets
+- Enemy battlers: 64x64 pixels for standard, 96x96 pixels for larger enemies
+- Tiles: 16x16 pixels each
+- UI elements: Various sizes as specified above
+
+### Animation Guidelines
+- Character walking animations: 3 frames per direction
+- Enemy idle animations: 4-8 frames
+- Enemy attack animations: 4-8 frames
+- Effect animations: 8-16 frames depending on complexity
+- UI animations: 2-4 frames for simple effects
+
 ## Notes for Artists
 
 - The game has a cyberpunk aesthetic with elements of humor and absurdity
@@ -299,3 +602,6 @@ These assets should be prioritized as they are central to the game experience:
 - Color palette should include neon colors against dark backgrounds for cyberpunk areas
 - Corporate facilities should have sterile, minimalist designs with corporate logos
 - Alien worlds should be visually distinct from Earth-based environments
+- UI elements should be clean and readable while maintaining the cyberpunk aesthetic
+- Animations should be smooth but maintain the pixel art style (no tweening)
+- Consider the game's humor when designing assets - exaggeration and absurdity are welcome
