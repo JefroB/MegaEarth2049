@@ -221,6 +221,203 @@ const villageAlchemist = {
  * 6. The Village Elder rewards the player with a Thermal Regulator and shop discounts
  */
 
+// Village Elder NPC (Quest Giver)
+const villageElder = {
+    name: "Village Elder",
+    mapId: 47, // Snowy Village
+    x: 10,
+    y: 10,
+    appearance: "People1", // Character sprite sheet
+    index: 6, // Index in the sprite sheet
+    
+    // Initial dialogue
+    initialDialogue: [
+        "*The elder looks worried as she stares at a data pad*",
+        "Our food storage system is malfunctioning. The temperature",
+        "regulator has gone haywire, and our winter supplies are at risk."
+    ],
+    
+    // Quest acceptance dialogue
+    questDialogue: [
+        "You'll help us? Thank the digital spirits!",
+        "The storage facility is just north of the village.",
+        "The temperature regulator needs replacement parts.",
+        "You can find them in the abandoned tech sites around the village.",
+        "But be careful - the maintenance drones have gone rogue.",
+        "They're attacking anyone who approaches the facility."
+    ],
+    
+    // Dialogue when player returns but hasn't collected all parts
+    waitingDialogue: [
+        "Have you found all the replacement parts?",
+        "We need them quickly before our food supplies spoil.",
+        "Check the abandoned tech sites around the village."
+    ],
+    
+    // Dialogue when player has repaired the regulator
+    completionDialogue: [
+        "You've fixed the temperature regulator! Our food supplies are safe.",
+        "The maintenance drones have returned to normal operation as well.",
+        "Please, take this Thermal Regulator as a token of our gratitude.",
+        "It will protect you from extreme temperatures in your travels.",
+        "And please, consider our village your home. All our shops",
+        "will offer you special discounts from now on."
+    ],
+    
+    // Dialogue after completing the quest
+    postQuestDialogue: [
+        "Our village is thriving thanks to your help.",
+        "The food storage system is working perfectly now.",
+        "Remember, you're always welcome here."
+    ]
+};
+
+// Temperature Regulator (Quest Objective)
+const temperatureRegulator = {
+    name: "Temperature Regulator",
+    mapId: 47, // Snowy Village (Storage Facility area)
+    x: 5,
+    y: 8,
+    appearance: "!Crystal", // Object sprite sheet
+    index: 3, // Index in the sprite sheet
+    
+    // Dialogue when player interacts with the regulator before having all parts
+    initialDialogue: [
+        "The temperature regulator is malfunctioning.",
+        "It's missing several critical components.",
+        "You'll need to find replacement parts to repair it."
+    ],
+    
+    // Dialogue when player has all parts
+    repairDialogue: [
+        "You have all the necessary replacement parts.",
+        "You carefully disassemble the regulator and replace the damaged components.",
+        "The system hums back to life, and the temperature begins to stabilize.",
+        "Suddenly, an alarm sounds! The maintenance drones are approaching!"
+    ]
+};
+
+// Replacement Part 1
+const replacementPart1 = {
+    name: "Thermal Coupling",
+    mapId: 47, // Snowy Village (Abandoned Tech Site 1)
+    x: 18,
+    y: 5,
+    appearance: "!Chest", // Object sprite sheet
+    index: 1, // Index in the sprite sheet
+    
+    // Dialogue when player interacts with the part
+    dialogue: [
+        "You found a Thermal Coupling!",
+        "This component regulates heat exchange in temperature control systems.",
+        "It looks like it will fit the regulator in the storage facility."
+    ]
+};
+
+// Replacement Part 2
+const replacementPart2 = {
+    name: "Control Circuit",
+    mapId: 47, // Snowy Village (Abandoned Tech Site 2)
+    x: 25,
+    y: 20,
+    appearance: "!Chest", // Object sprite sheet
+    index: 1, // Index in the sprite sheet
+    
+    // Dialogue when player interacts with the part
+    dialogue: [
+        "You found a Control Circuit!",
+        "This microprocessor manages the temperature regulation algorithms.",
+        "It's an essential component for the storage facility's system."
+    ]
+};
+
+// Replacement Part 3
+const replacementPart3 = {
+    name: "Power Cell",
+    mapId: 47, // Snowy Village (Abandoned Tech Site 3)
+    x: 8,
+    y: 22,
+    appearance: "!Chest", // Object sprite sheet
+    index: 1, // Index in the sprite sheet
+    
+    // Dialogue when player interacts with the part
+    dialogue: [
+        "You found a Power Cell!",
+        "This high-capacity energy source will provide stable power",
+        "to the temperature regulator in the storage facility."
+    ]
+};
+
+// Rogue Maintenance Drone (Enemy)
+const rogueDrone = {
+    name: "Rogue Maintenance Drone",
+    mapId: 47, // Snowy Village (Storage Facility area)
+    x: 6,
+    y: 10,
+    appearance: "Monster", // Character sprite sheet
+    index: 2, // Index in the sprite sheet
+    
+    // Battle properties
+    battleProperties: {
+        level: 34,
+        hp: 2500,
+        attack: 180,
+        defense: 160,
+        agility: 120,
+        magic: 100,
+        magicDefense: 140,
+        exp: 800,
+        gold: 500,
+        drops: [
+            { name: "Drone Parts", chance: 0.5 },
+            { name: "Tech Scrap", chance: 0.8 }
+        ],
+        skills: [
+            "Laser Beam",
+            "Repair Protocol",
+            "System Overload"
+        ]
+    },
+    
+    // Dialogue before battle
+    preBattleDialogue: [
+        "INTRUDER DETECTED. SECURITY PROTOCOL ACTIVATED.",
+        "UNAUTHORIZED MODIFICATION OF TEMPERATURE REGULATION SYSTEM.",
+        "INITIATING DEFENSIVE MEASURES."
+    ],
+    
+    // Dialogue after defeat
+    postBattleDialogue: [
+        "SYSTEM MALFUNCTION... REBOOTING...",
+        "DIAGNOSTICS COMPLETE. RESUMING NORMAL OPERATION.",
+        "TEMPERATURE REGULATION SYSTEM RECOGNIZED AS FUNCTIONAL.",
+        "RETURNING TO MAINTENANCE DUTIES."
+    ]
+};
+
+/*
+ * Side Quest: "Digital Archaeologist"
+ * 
+ * Location: Snowy Village (Map047)
+ * 
+ * Quest Overview:
+ * A researcher is studying ancient digital artifacts buried in the snow. The player
+ * must help recover these artifacts while avoiding the security systems that still
+ * protect them.
+ * 
+ * Key NPCs:
+ * - Digital Archaeologist (quest giver)
+ * - Ancient Security System (enemy)
+ * - Digital Artifacts (collectible items)
+ * 
+ * Quest Flow:
+ * 1. Player meets the Digital Archaeologist who explains their research
+ * 2. Player agrees to help recover artifacts from three excavation sites
+ * 3. Player must solve puzzles to bypass security at each site
+ * 4. Player collects the artifacts and returns them to the researcher
+ * 5. The researcher rewards the player with a Data Extractor and ancient knowledge
+ */
+
 // Export all quest data
 module.exports = {
     frozenMelody: {
@@ -232,6 +429,11 @@ module.exports = {
         villageAlchemist
     },
     coldStorage: {
-        // To be implemented
+        villageElder,
+        temperatureRegulator,
+        replacementPart1,
+        replacementPart2,
+        replacementPart3,
+        rogueDrone
     }
 };
