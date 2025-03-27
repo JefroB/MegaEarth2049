@@ -20,13 +20,13 @@ Throughout the story, Rex's implant causes increasingly severe reality glitches,
 
 ## Q: How many side quests are there?
 
-A: MegaEarth 2049 features over 200 side quests, ranging from serious to absurd. They're categorized as follows:
+A: MegaEarth 2049 features over 800 side quests, ranging from serious to absurd. They're categorized as follows:
 
-- **Corporate Quests (50)**: Tasks for the five MegaCorps, often involving corporate espionage or product testing.
-- **Faction Quests (40)**: Missions for various factions like the Timbuc Punks or the Resistance.
-- **Character Quests (30)**: Personal quests for party members and major NPCs.
-- **Location Quests (50)**: Area-specific quests found in different regions of MegaEarth.
-- **Joke Quests (30+)**: Absurd missions with equally absurd rewards, like collecting all STDs or testing burlap pants.
+- **Corporate Quests (200)**: Tasks for the five MegaCorps, often involving corporate espionage, product testing, internal politics, and interdepartmental rivalries.
+- **Faction Quests (160)**: Missions for various factions like the Timbuc Punks, the Resistance, the Snack Liberation Front, and many smaller groups across the planets.
+- **Character Quests (120)**: Personal quests for party members, major NPCs, and numerous minor characters with surprising depth.
+- **Location Quests (200)**: Area-specific quests found in different regions of MegaEarth and other planets in the system.
+- **Joke Quests (120+)**: Absurd missions with equally absurd rewards, like collecting all STDs, testing burlap pants, dating sentient vending machines, and more fourth-wall breaking adventures.
 
 Side quests can be tracked in your Neural Log and often provide unique rewards not available elsewhere.
 
