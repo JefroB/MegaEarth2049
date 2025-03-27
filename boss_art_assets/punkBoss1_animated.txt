@@ -1,0 +1,10 @@
+=== punkBoss1_animated ===
+Type: Boss Enemy Battler
+Description: Punk leader/boss - Imposing gang leader with cybernetic enhancements
+Size: 96x96 pixels
+Style: 16-bit pixel art with exaggerated punk features and imposing presence
+Colors: Multicolored mohawk with spiked armor and tech enhancements, neon highlights against dark clothing
+Animation: Intimidating idle (6-8 frames) + multiple attack animations (8-12 frames) + damage reaction (4-6 frames) + near-death state
+Special Effects: Should include a 'near-death' state that flashes red when HP is low
+Reference: Exaggerated punk gang leader with cybernetic augmentations, imposing and threatening
+

@@ -1,0 +1,9 @@
+=== greenninja_animated ===
+Type: Enemy Battler
+Description: Green-clad ninja
+Size: 64x64 pixels
+Style: 16-bit pixel art with sleek ninja design
+Colors: Green/black with subtle neon highlights
+Animation: Stealthy idle (4-6 frames) + quick attack animation (6-8 frames)
+Reference: Classic ninja design with futuristic tech elements
+

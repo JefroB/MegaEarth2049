@@ -1,0 +1,10 @@
+=== corporateBoss_animated ===
+Type: Boss Enemy Battler
+Description: Corporate executive with combat enhancements
+Size: 96x96 pixels
+Style: 16-bit pixel art with corporate aesthetic and hidden weapons
+Colors: Business suit with corporate logo, glowing cybernetic enhancements revealed during combat
+Animation: Professional idle stance (6-8 frames) + transformation to combat mode (8 frames) + multiple attack animations (8-12 frames) + damage reaction (4-6 frames) + near-death state
+Special Effects: Should include a 'near-death' state that flashes red when HP is low
+Reference: Corporate executive with hidden combat capabilities, reveals cybernetic enhancements during battle
+

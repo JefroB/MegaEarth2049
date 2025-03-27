@@ -1,0 +1,9 @@
+=== Firespirit ===
+Type: Enemy Battler
+Description: Fire elemental entity
+Size: 64x64 pixels
+Style: 16-bit pixel art with fire elemental design
+Colors: Reds/oranges/yellows with flame effects and ember particles
+Animation: Flickering idle + fire-based attack animation (8-12 frames)
+Reference: Fire elemental with dynamic flame effects, similar to Earthspirit but with fire theme
+

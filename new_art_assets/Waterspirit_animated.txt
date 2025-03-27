@@ -1,0 +1,9 @@
+=== Waterspirit_animated ===
+Type: Enemy Battler
+Description: Water elemental entity
+Size: 64x64 pixels
+Style: 16-bit pixel art with water elemental design
+Colors: Blues/cyans with flowing water effects and droplet particles
+Animation: Flowing idle (6-8 frames) + water-based attack animation (8-10 frames)
+Reference: Water elemental with dynamic liquid effects
+

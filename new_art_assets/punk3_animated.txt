@@ -1,0 +1,9 @@
+=== punk3_animated ===
+Type: Enemy Battler
+Description: Punk variant with green spikes
+Size: 64x64 pixels
+Style: 16-bit pixel art with punk aesthetic (variant 3)
+Colors: Green spikes with torn clothing and tech implants
+Animation: Idle stance (4-6 frames) + ranged attack animation (6-8 frames)
+Reference: Tech-enhanced punk with improvised weapons
+

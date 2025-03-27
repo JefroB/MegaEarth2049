@@ -1,0 +1,10 @@
+=== roboticTitan_animated ===
+Type: Boss Enemy Battler
+Description: Massive security robot with heavy weaponry
+Size: 96x96 pixels
+Style: 16-bit pixel art with imposing mechanical design
+Colors: Industrial metals with warning lights and corporate branding
+Animation: Mechanical idle with moving parts (6-8 frames) + weapon deployment animations (6-8 frames) + attack animations (8-12 frames) + damage reaction with exposed circuits (4-6 frames) + near-death state
+Special Effects: Should include a 'near-death' state that flashes red when HP is low
+Reference: Massive security robot with multiple weapon systems, industrial and threatening
+

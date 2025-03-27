@@ -1,0 +1,9 @@
+=== Soldier10_animated ===
+Type: Enemy Battler
+Description: Soldier variant
+Size: 64x64 pixels
+Style: 16-bit pixel art with military design
+Colors: Desert camo with distinctive insignia
+Animation: Military stance idle (4-6 frames) + rifle attack animation (6-8 frames)
+Reference: Desert ops soldier with futuristic equipment
+

@@ -1,0 +1,10 @@
+=== alienOverlord_animated ===
+Type: Boss Enemy Battler
+Description: Alien leader with psychic abilities
+Size: 96x96 pixels
+Style: 16-bit pixel art with otherworldly alien design
+Colors: Unusual alien color scheme with glowing psychic effects
+Animation: Hovering idle (6-8 frames) + psychic attack animations (8-12 frames) + mind control effect (8 frames) + damage reaction (4-6 frames) + near-death state
+Special Effects: Should include a 'near-death' state that flashes red when HP is low
+Reference: Alien entity with obvious intelligence and psychic capabilities, otherworldly and unsettling
+

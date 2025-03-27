@@ -1,0 +1,136 @@
+# MegaEarth2049 Boss Sprite Sheet Example
+
+This file provides an ASCII art representation of how a boss sprite sheet should be structured. This is meant as a conceptual guide to help visualize the layout and animation frames described in the BOSS_ART_CREATION_GUIDE.md.
+
+## Example: Punk Boss (punkBoss1_animated)
+
+Below is a simplified ASCII representation of how the sprite sheet for the Punk Boss might be organized. Each character represents a pixel block, and the actual sprite would be 96x96 pixels per frame.
+
+```
++--------------------------------------------------------------+
+|                     IDLE ANIMATION (8 frames)                |
+|                                                              |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |
+|  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  |
+|  | #### |  | #### |  | #### |  | #### |  | #### |  | #### |  |
+|  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  |
+|  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |
+|  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  |
+|  | /  \ |  | /  \ |  | /  \ |  | /  \ |  | /  \ |  | /  \ |  |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  Frame 1    Frame 2    Frame 3    Frame 4    Frame 5    Frame 6  |
+|  (base)     (slight    (mohawk    (shift     (return    (back to |
+|             head tilt) sway)      weight)    to base)   base)    |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+|                  PRIMARY ATTACK (8 frames)                   |
+|                                                              |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |
+|  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  |
+|  | #### |  | #### |  | #### |  | #### |  | #### |  | #### |  |
+|  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  |
+|  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |
+|  | /||\ |  |//|\\ |  |///\\\|  |///\\\|  |//|\\ |  | /||\ |  |
+|  | /  \ |  |/   \||  |/   \||  |/   \||  |/   \||  | /  \ |  |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  Frame 1    Frame 2    Frame 3    Frame 4    Frame 5    Frame 6  |
+|  (wind-up)  (prepare   (swing     (impact)   (follow   (return  |
+|             attack)    attack)               through)  to idle) |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+|                 DAMAGE REACTION (6 frames)                   |
+|                                                              |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  |  /\  |  | _/\_ |  | _/\_ |  | _/\_ |  |  /\  |  |  /\  |  |
+|  | /##\ |  |//##\\|  |//##\\|  |//##\\|  | /##\ |  | /##\ |  |
+|  | #### |  | #### |  | #### |  | #### |  | #### |  | #### |  |
+|  | X  X |  | X  X |  | X  X |  | O  O |  | O  O |  | O  O |  |
+|  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |
+|  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  |
+|  | /  \ |  |/   \ |  |/   \ |  |/   \ |  | /  \ |  | /  \ |  |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  Frame 1    Frame 2    Frame 3    Frame 4    Frame 5    Frame 6  |
+|  (impact)   (recoil)   (stunned)  (recovery) (almost    (back to |
+|                                              normal)    idle)    |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+|                 NEAR-DEATH STATE (8 frames)                  |
+|          (Same as idle animation but with red tint)          |
+|                                                              |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |  /\  |  |
+|  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  | /##\ |  |
+|  | #### |  | #### |  | #### |  | #### |  | #### |  | #### |  |
+|  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  | O  O |  |
+|  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |  --  |  |
+|  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  | /||\ |  |
+|  | /  \ |  | /  \ |  | /  \ |  | /  \ |  | /  \ |  | /  \ |  |
+|  +------+  +------+  +------+  +------+  +------+  +------+  |
+|  (All frames have a red tint and may include glitching       |
+|   cybernetic parts or other damage indicators)               |
++--------------------------------------------------------------+
+```
+
+## Actual Pixel Art Implementation
+
+In the actual pixel art implementation:
+
+1. Each frame would be 96x96 pixels
+2. The entire sprite sheet would be 768x384 pixels (8 frames × 96 pixels wide, 4 animation types × 96 pixels tall)
+3. The punk boss would have:
+   - Tall, colorful mohawk
+   - Spiked leather jacket
+   - Cybernetic arm enhancements
+   - Chains and other punk accessories
+   - Threatening posture
+
+## Key Visual Elements to Include
+
+For the Punk Boss specifically:
+
+1. **Mohawk**: Tall, multicolored (green, pink, blue) with exaggerated height
+2. **Cybernetics**: Glowing arm or eye enhancements that flash or spark when near death
+3. **Leather Jacket**: Covered in spikes, studs, and possibly a gang logo
+4. **Chains**: Hanging from belt or jacket for dynamic movement during animations
+5. **Boots**: Heavy with metal plating or spikes
+6. **Expression**: Menacing, possibly with a scar or cybernetic eye
+
+## Animation Details
+
+### Idle Animation
+- Subtle shifting of weight from one foot to another
+- Slight movement of the mohawk
+- Occasional glint or pulse from cybernetic parts
+- Chains swaying slightly
+
+### Attack Animation
+- Wind-up: Pulling back cybernetic arm, which begins to glow
+- Execution: Powerful forward punch or swing of a weapon
+- Impact: Energy burst or impact effect at the end of the attack
+- Recovery: Return to idle stance with residual energy effects
+
+### Damage Reaction
+- Impact: Head jerking back, eyes widening
+- Recoil: Staggering slightly but maintaining imposing presence
+- Recovery: Straightening up with an angry expression
+
+### Near-Death State
+- Red tint over the entire sprite
+- Cybernetic parts sparking or malfunctioning
+- Possibly more hunched posture
+- Damaged appearance but still threatening
+
+## Technical Notes
+
+1. The actual sprite sheet would use a limited color palette (12-20 colors)
+2. Each animation frame would have clear silhouettes
+3. The near-death frames would use the same poses as the idle animation but with red tint and additional damage effects
+4. Special effects like glowing cybernetics would use brighter colors against the darker base
+5. The sprite would maintain a consistent light source direction
+
+This ASCII representation is simplified - the actual pixel art would have much more detail and nuance in the animations and visual elements.

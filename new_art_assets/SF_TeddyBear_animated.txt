@@ -1,0 +1,9 @@
+=== SF_TeddyBear_animated ===
+Type: Enemy Battler
+Description: Possessed/security teddy bear
+Size: 64x64 pixels
+Style: 16-bit pixel art with cute but menacing teddy bear
+Colors: Brown/tan with glowing red eyes and security force insignia
+Animation: Menacing idle animation (4-6 frames) + attack animation (6-8 frames)
+Reference: Cute teddy bear with sinister elements and security/military features
+

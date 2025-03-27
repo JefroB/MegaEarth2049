@@ -1,0 +1,9 @@
+=== thug_animated ===
+Type: Enemy Battler
+Description: Basic thug
+Size: 64x64 pixels
+Style: 16-bit pixel art with street thug design
+Colors: Dark urban colors with street wear
+Animation: Threatening idle (4-6 frames) + melee attack animation (6-8 frames)
+Reference: Urban street thug with cyberpunk elements
+

@@ -1,0 +1,9 @@
+=== Windspirit_animated ===
+Type: Enemy Battler
+Description: Wind elemental entity
+Size: 64x64 pixels
+Style: 16-bit pixel art with wind elemental design
+Colors: Light blues/whites with swirling air currents and leaf particles
+Animation: Swirling idle (6-8 frames) + wind-based attack animation (8-10 frames)
+Reference: Wind elemental with dynamic air current effects
+

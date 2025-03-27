@@ -1,0 +1,9 @@
+=== punkBoss1_animated ===
+Type: Enemy Battler
+Description: Punk leader/boss
+Size: 96x96 pixels
+Style: 16-bit pixel art with imposing punk leader design
+Colors: Multicolored mohawk with spiked armor and tech enhancements
+Animation: Intimidating idle (6-8 frames) + multiple attack animations (8-12 frames)
+Reference: Exaggerated punk gang leader with cybernetic augmentations
+

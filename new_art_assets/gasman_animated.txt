@@ -1,0 +1,9 @@
+=== gasman_animated ===
+Type: Enemy Battler
+Description: Gas Man
+Size: 64x64 pixels
+Style: 16-bit pixel art with hazmat/gas mask design
+Colors: Yellow hazmat suit with dark mask and tanks
+Animation: Lumbering idle (4-6 frames) + gas attack animation (6-8 frames)
+Reference: Hazmat worker or gas mask-wearing enemy with toxic elements
+

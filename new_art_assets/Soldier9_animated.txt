@@ -1,0 +1,9 @@
+=== Soldier9_animated ===
+Type: Enemy Battler
+Description: Soldier variant
+Size: 64x64 pixels
+Style: 16-bit pixel art with military design
+Colors: Military greens/browns with distinctive insignia
+Animation: Military stance idle (4-6 frames) + rifle attack animation (6-8 frames)
+Reference: Military soldier with futuristic equipment
+

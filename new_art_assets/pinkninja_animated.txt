@@ -1,0 +1,9 @@
+=== pinkninja_animated ===
+Type: Enemy Battler
+Description: Pink-clad ninja
+Size: 64x64 pixels
+Style: 16-bit pixel art with sleek ninja design
+Colors: Pink/black with neon pink highlights
+Animation: Stealthy idle (4-6 frames) + quick attack animation (6-8 frames)
+Reference: Agile ninja with bright pink tech-enhanced outfit
+

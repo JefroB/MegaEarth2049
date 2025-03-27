@@ -1,0 +1,10 @@
+=== digitalEntity_animated ===
+Type: Boss Enemy Battler
+Description: Digital consciousness manifested in reality
+Size: 96x96 pixels
+Style: 16-bit pixel art with digital/glitch aesthetic
+Colors: Digital blues/greens with glitch effects and corruption artifacts
+Animation: Glitching idle animation (6-8 frames) + reality distortion attacks (8-12 frames) + corruption effect (8 frames) + damage reaction with code exposure (4-6 frames) + near-death state
+Special Effects: Should include a 'near-death' state that flashes red when HP is low
+Reference: Digital entity with glitching effects and reality-warping capabilities, abstract and unsettling
+
