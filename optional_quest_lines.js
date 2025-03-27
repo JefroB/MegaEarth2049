@@ -1,27 +1,6 @@
 // Optional Quest Lines for MegaEarth 2049
 // This file contains 6 optional quest lines, each with 4+ side quests
 
-/*
- * Quest Line 1: "Digital Archaeology"
- * 
- * Theme: Uncovering the lost digital history of the world before the collapse
- * 
- * Side Quests:
- * 1. "Data Miners" - Help an eccentric historian recover data from ancient servers
- * 2. "Corrupted Memories" - Clean up corrupted data to reveal historical footage
- * 3. "Ghost in the Machine" - Track down an AI that claims to be a digital copy of a pre-collapse celebrity
- * 4. "Forgotten Passwords" - Crack the passwords to access secured historical archives
- * 5. "Digital Time Capsule" - Assemble a complete pre-collapse entertainment library
- * 
- * Rewards:
- * - "Data Miners": Neural Interface Upgrade (+10% XP gain)
- * - "Corrupted Memories": Holographic Projector (summons temporary ally)
- * - "Ghost in the Machine": Celebrity Endorsement (50% discount at certain vendors)
- * - "Forgotten Passwords": Encryption Key (opens special chests)
- * - "Digital Time Capsule": Vintage Entertainment System (permanent stat boost when rested)
- * - Complete Quest Line: "Historian's Credentials" (access to secret historical area with unique equipment)
- */
-
 const digitalArchaeology = {
     name: "Digital Archaeology",
     description: "Uncover the lost digital history of the world before the collapse.",
@@ -35,7 +14,9 @@ const digitalArchaeology = {
             "Ah, a fellow seeker of knowledge! I'm Professor Bitwise,",
             "and I'm trying to piece together our digital history.",
             "So much was lost in the collapse... would you help me recover it?"
-        ]
+        ],
+        x: 10,
+        y: 8
     },
     sideQuests: [
         {
@@ -88,7 +69,7 @@ const digitalArchaeology = {
                 description: "The AI celebrity vouches for you at certain vendors.",
                 effect: "50% discount at entertainment and luxury vendors",
                 icon: 145
-            ],
+            },
             humor: "The 'celebrity' AI turns out to be based on a pre-collapse influencer famous for doing absolutely nothing of value."
         },
         {
@@ -106,7 +87,7 @@ const digitalArchaeology = {
                 description: "A master key that can decrypt secured data storages.",
                 effect: "Opens special encrypted chests found throughout the game",
                 icon: 83
-            ],
+            },
             humor: "After all that work, one of the passwords turns out to be 'password123'."
         },
         {
@@ -124,7 +105,7 @@ const digitalArchaeology = {
                 description: "A fully restored pre-collapse gaming system.",
                 effect: "Provides permanent stat boost when used during rest",
                 icon: 189
-            ],
+            },
             humor: "The 'pinnacle of pre-collapse gaming' is just a device that plays a game about a plumber jumping on mushrooms."
         }
     ],
@@ -135,27 +116,6 @@ const digitalArchaeology = {
         icon: 87
     }
 };
-
-/*
- * Quest Line 2: "Corporate Espionage"
- * 
- * Theme: Infiltrating and sabotaging the operations of rival megacorporations
- * 
- * Side Quests:
- * 1. "Resume Builder" - Create a fake identity to infiltrate a corporation
- * 2. "Climbing the Ladder" - Complete corporate tasks to gain trust and access
- * 3. "Industrial Secrets" - Steal proprietary technology blueprints
- * 4. "Whistleblower" - Expose corporate corruption to the public
- * 5. "Hostile Takeover" - Help orchestrate a corporate coup
- * 
- * Rewards:
- * - "Resume Builder": Corporate ID (access to corporate areas)
- * - "Climbing the Ladder": Executive Access Card (unlocks high-security doors)
- * - "Industrial Secrets": Prototype Gadget (unique utility item)
- * - "Whistleblower": Corporate Blackmail Data (can be used to get out of certain situations)
- * - "Hostile Takeover": Corporate Shares (passive income of credits)
- * - Complete Quest Line: "Corporate Overlord" (ability to call in corporate security as allies)
- */
 
 const corporateEspionage = {
     name: "Corporate Espionage",
@@ -170,7 +130,9 @@ const corporateEspionage = {
             "I represent certain... interests... that would benefit from",
             "some inside information on our competitors.",
             "Nothing illegal, of course. Just... aggressive market research."
-        ]
+        ],
+        x: 15,
+        y: 12
     },
     sideQuests: [
         {
@@ -272,27 +234,6 @@ const corporateEspionage = {
     }
 };
 
-/*
- * Quest Line 3: "Cybernetic Enhancement"
- * 
- * Theme: Upgrading your body with experimental cybernetics
- * 
- * Side Quests:
- * 1. "Spare Parts" - Collect rare components for a rogue cyberdoc
- * 2. "Human Guinea Pig" - Test experimental cybernetics with unpredictable results
- * 3. "Rejection Syndrome" - Deal with unexpected side effects of your implants
- * 4. "Wetware Upgrade" - Find a specialist who can fine-tune your neural implants
- * 5. "More Machine Than Man" - Make a final decision about how far to take your enhancements
- * 
- * Rewards:
- * - "Spare Parts": Scrap Converter (turns junk items into useful components)
- * - "Human Guinea Pig": Experimental Implant (random powerful effect with occasional glitches)
- * - "Rejection Syndrome": Immune Booster (resistance to status effects)
- * - "Wetware Upgrade": Neural Accelerator (reduced cooldowns on abilities)
- * - "More Machine Than Man": Integrated Weapon System (powerful weapon that doesn't take an equipment slot)
- * - Complete Quest Line: "Transcendence" (unique cybernetic appearance and special dialogue options)
- */
-
 const cyberneticEnhancement = {
     name: "Cybernetic Enhancement",
     description: "Upgrade your body with experimental cybernetics, pushing the boundaries of human capability.",
@@ -306,7 +247,9 @@ const cyberneticEnhancement = {
             "I can see you're still mostly meat. How... primitive.",
             "I could fix that for you. Make you better. Stronger. Faster.",
             "Just don't ask where I get my parts. Or my medical license."
-        ]
+        ],
+        x: 8,
+        y: 14
     },
     sideQuests: [
         {
@@ -342,7 +285,7 @@ const cyberneticEnhancement = {
                 description: "A prototype cybernetic enhancement with powerful but unstable effects.",
                 effect: "Provides random powerful buffs with occasional glitches",
                 icon: 176
-            ],
+            },
             humor: "One malfunction causes you to see everyone as dancing cartoon characters for an hour, which is especially disturbing during a serious negotiation."
         },
         {
@@ -378,7 +321,7 @@ const cyberneticEnhancement = {
                 description: "A brain implant that speeds up neural processes.",
                 effect: "Reduces cooldowns on abilities by 20%",
                 icon: 79
-            ],
+            },
             humor: "The neural specialist lives in a Faraday cage and wears a tinfoil hat over their cybernetic implants, 'just to be safe from THEIR signals'."
         },
         {
@@ -396,7 +339,7 @@ const cyberneticEnhancement = {
                 description: "A weapon system built directly into your cybernetic arm.",
                 effect: "Powerful weapon that doesn't take an equipment slot",
                 icon: 98
-            ],
+            },
             humor: "Your new built-in weapons system occasionally activates when you sneeze, leading to some very awkward social situations."
         }
     ],
@@ -407,27 +350,6 @@ const cyberneticEnhancement = {
         icon: 188
     }
 };
-
-/*
- * Quest Line 4: "Virtual Reality Addiction"
- * 
- * Theme: Helping people trapped in virtual reality simulations
- * 
- * Side Quests:
- * 1. "Disconnection Syndrome" - Help a VR addict's family bring them back to reality
- * 2. "Game Over, Man" - Enter a combat simulation to rescue a veteran who can't distinguish reality from VR
- * 3. "Paradise Program" - Convince people to leave a too-perfect virtual world
- * 4. "Corrupted Instance" - Fix a glitched VR world that's harming its users
- * 5. "Reality Check" - Determine if you yourself are in a simulation
- * 
- * Rewards:
- * - "Disconnection Syndrome": Reality Anchor (immunity to confusion effects)
- * - "Game Over, Man": Combat Simulator (practice combat for XP without risk)
- * - "Paradise Program": Bliss Inducer (temporarily charm enemies)
- * - "Corrupted Instance": Debug Tool (chance to "glitch" through obstacles)
- * - "Reality Check": Perception Filter (see hidden objects and enemies)
- * - Complete Quest Line: "The Red Pill" (ability to slow down time in combat)
- */
 
 const virtualRealityAddiction = {
     name: "Virtual Reality Addiction",
@@ -442,7 +364,9 @@ const virtualRealityAddiction = {
             "The new immersive VR systems are causing unprecedented addiction rates.",
             "People are choosing to live in fantasy worlds rather than face reality.",
             "I need someone who can go in after them. Someone like you."
-        ]
+        ],
+        x: 12,
+        y: 9
     },
     sideQuests: [
         {
@@ -496,7 +420,7 @@ const virtualRealityAddiction = {
                 description: "A device that creates feelings of happiness and contentment.",
                 effect: "Temporarily charms enemies, making them friendly",
                 icon: 72
-            ],
+            },
             humor: "The 'paradise' includes oddly specific wish fulfillment, like a room where you always find matching socks and ice cream that doesn't melt."
         },
         {
@@ -514,7 +438,7 @@ const virtualRealityAddiction = {
                 description: "A device that can temporarily manipulate reality in small ways.",
                 effect: "Provides a chance to 'glitch' through obstacles and walls",
                 icon: 83
-            ],
+            },
             humor: "The glitched world includes people walking in midair, rain falling upward, and NPCs stuck repeating the same sentence fragment like 'Would you like to—Would you like to—Would you like to—'"
         },
         {
@@ -532,7 +456,7 @@ const virtualRealityAddiction = {
                 description: "A device that allows you to see through illusions.",
                 effect: "Reveals hidden objects, enemies, and pathways",
                 icon: 79
-            ],
+            },
             humor: "One of the 'tests of reality' is trying to walk through a wall, which results in a broken nose and a very confused doctor explaining that 'No, that's not how you test if this is real.'"
         }
     ],
@@ -543,27 +467,6 @@ const virtualRealityAddiction = {
         icon: 72
     }
 };
-
-/*
- * Quest Line 5: "Culinary Wasteland"
- * 
- * Theme: Rediscovering the lost art of cooking in the post-apocalyptic world
- * 
- * Side Quests:
- * 1. "Recipe for Disaster" - Find ancient cooking recipes in unexpected places
- * 2. "Ingredient Hunt" - Gather rare ingredients from dangerous locations
- * 3. "Kitchen Nightmare" - Help a struggling wasteland restaurant become successful
- * 4. "Food Critic" - Serve a meal to a notorious wasteland food critic
- * 5. "Molecular Gastronomy" - Use high-tech methods to create revolutionary dishes
- * 
- * Rewards:
- * - "Recipe for Disaster": Cookbook (unlocks crafting of basic food items)
- * - "Ingredient Hunt": Preservation Unit (ingredients never spoil)
- * - "Kitchen Nightmare": Chef's Toolkit (improved food crafting)
- * - "Food Critic": Gourmet Reputation (better prices from food vendors)
- * - "Molecular Gastronomy": Food Synthesizer (create food items from basic components)
- * - Complete Quest Line: "Master Chef" (ability to create legendary food with powerful buffs)
- */
 
 const culinaryWasteland = {
     name: "Culinary Wasteland",
@@ -578,7 +481,9 @@ const culinaryWasteland = {
             "Another disaster! How am I supposed to create haute cuisine",
             "when all I have is irradiated mutant meat and canned mystery paste?",
             "The world has forgotten what real food tastes like. We must change that!"
-        ]
+        ],
+        x: 7,
+        y: 10
     },
     sideQuests: [
         {
@@ -650,7 +555,7 @@ const culinaryWasteland = {
                 description: "Your reputation as a culinary expert spreads throughout the wasteland.",
                 effect: "Receive better prices and special items from food vendors",
                 icon: 145
-            ],
+            },
             humor: "The feared food critic turns out to be a 10-year-old kid who became powerful because they're the only person who can read and write in their settlement."
         },
         {
@@ -668,7 +573,7 @@ const culinaryWasteland = {
                 description: "A device that can create food items from basic components.",
                 effect: "Create food items using simplified ingredient requirements",
                 icon: 189
-            ],
+            },
             humor: "Your revolutionary cooking technique of 'spherification' is misunderstood by wasteland dwellers who spread rumors that you're 'turning food into suspicious balls through witchcraft'."
         }
     ],
@@ -679,27 +584,6 @@ const culinaryWasteland = {
         icon: 87
     }
 };
-
-/*
- * Quest Line 6: "Wasteland Radio"
- * 
- * Theme: Establishing a radio network across the wasteland
- * 
- * Side Quests:
- * 1. "Signal Boost" - Repair and activate radio towers across the region
- * 2. "Breaking News" - Gather newsworthy stories from remote settlements
- * 3. "Airwave Interference" - Deal with a rival radio station spreading misinformation
- * 4. "Musical Wasteland" - Collect music recordings to build a broadcast library
- * 5. "Voice of Freedom" - Defend the radio station from those who want to control information
- * 
- * Rewards:
- * - "Signal Boost": Signal Tracker (locate hidden signals and frequencies)
- * - "Breaking News": Press Pass (access to restricted areas)
- * - "Airwave Interference": Signal Jammer (temporarily disable enemy communications)
- * - "Musical Wasteland": Portable Radio (passive buff to nearby allies)
- * - "Voice of Freedom": Emergency Broadcast System (call for NPC allies)
- * - Complete Quest Line: "Wasteland DJ" (ability to influence faction relations through broadcasts)
- */
 
 const wastelandRadio = {
     name: "Wasteland Radio",
@@ -714,7 +598,9 @@ const wastelandRadio = {
             "You know what this wasteland needs? A voice. A connection.",
             "I've got the equipment, I've got the voice, but I need someone",
             "to help me reach the people. Someone like you, friend."
-        ]
+        ],
+        x: 14,
+        y: 11
     },
     sideQuests: [
         {
