@@ -103,6 +103,42 @@ A: Each companion has personal quests that unlock based on relationship level an
 
 Completing all companion quests unlocks their ultimate abilities and equipment, as well as special dialogue options in the final confrontation.
 
+## Q: What are the optional quest lines?
+
+A: MegaEarth 2049 features six major optional quest lines, each consisting of 4-5 interconnected side quests with an overarching narrative. Completing all quests in a line unlocks a powerful final reward:
+
+1. **"Digital Archaeology"**: Help Professor Bitwise uncover the lost digital history of the world before the collapse.
+   - **Quests**: "Data Miners," "Corrupted Memories," "Ghost in the Machine," "Forgotten Passwords," "Digital Time Capsule"
+   - **Rewards**: Neural Interface Upgrade (+10% XP gain), Holographic Projector (summons temporary ally), Celebrity Endorsement (50% discount at certain vendors), Encryption Key (opens special chests), Vintage Entertainment System (permanent stat boost when rested)
+   - **Final Reward**: Historian's Credentials (access to a secret historical area with unique equipment)
+
+2. **"Corporate Espionage"**: Infiltrate and sabotage the operations of rival megacorporations.
+   - **Quests**: "Resume Builder," "Climbing the Ladder," "Industrial Secrets," "Whistleblower," "Hostile Takeover"
+   - **Rewards**: Corporate ID (access to corporate areas), Executive Access Card (unlocks high-security doors), Prototype Gadget (unique utility item), Corporate Blackmail Data (can be used to get out of certain situations), Corporate Shares (passive income of credits)
+   - **Final Reward**: Corporate Overlord (ability to call in corporate security as allies)
+
+3. **"Cybernetic Enhancement"**: Upgrade your body with experimental cybernetics, pushing the boundaries of human capability.
+   - **Quests**: "Spare Parts," "Human Guinea Pig," "Rejection Syndrome," "Wetware Upgrade," "More Machine Than Man"
+   - **Rewards**: Scrap Converter (turns junk items into useful components), Experimental Implant (random powerful effect with occasional glitches), Immune Booster (resistance to status effects), Neural Accelerator (reduced cooldowns on abilities), Integrated Weapon System (powerful weapon that doesn't take an equipment slot)
+   - **Final Reward**: Transcendence (unique cybernetic appearance and special dialogue options with machines and humans)
+
+4. **"Virtual Reality Addiction"**: Help people who have become trapped in virtual reality simulations.
+   - **Quests**: "Disconnection Syndrome," "Game Over, Man," "Paradise Program," "Corrupted Instance," "Reality Check"
+   - **Rewards**: Reality Anchor (immunity to confusion effects), Combat Simulator (practice combat for XP without risk), Bliss Inducer (temporarily charm enemies), Debug Tool (chance to "glitch" through obstacles), Perception Filter (see hidden objects and enemies)
+   - **Final Reward**: The Red Pill (ability to slow down time in combat)
+
+5. **"Culinary Wasteland"**: Rediscover the lost art of cooking in the post-apocalyptic world.
+   - **Quests**: "Recipe for Disaster," "Ingredient Hunt," "Kitchen Nightmare," "Food Critic," "Molecular Gastronomy"
+   - **Rewards**: Wasteland Cookbook (unlocks crafting of basic food items), Preservation Unit (ingredients never spoil), Chef's Toolkit (improved food crafting), Gourmet Reputation (better prices from food vendors), Food Synthesizer (create food items from basic components)
+   - **Final Reward**: Master Chef (ability to create legendary food items with powerful temporary buffs)
+
+6. **"Wasteland Radio"**: Establish a radio network across the wasteland to connect isolated communities.
+   - **Quests**: "Signal Boost," "Breaking News," "Airwave Interference," "Musical Wasteland," "Voice of Freedom"
+   - **Rewards**: Signal Tracker (locate hidden signals and frequencies), Press Pass (access to restricted areas), Signal Jammer (temporarily disable enemy communications), Portable Radio (passive buff to nearby allies), Emergency Broadcast System (call for NPC allies)
+   - **Final Reward**: Wasteland DJ (ability to influence faction relations through broadcasts)
+
+These quest lines can be completed in any order and at any time during the main story, though some may be more challenging at lower levels. Each quest line features unique humor, memorable characters, and rewards that can significantly impact gameplay.
+
 ## Q: What are the most challenging quests?
 
 A: The most difficult quests in MegaEarth 2049 include:
@@ -126,6 +162,10 @@ A: The most difficult quests in MegaEarth 2049 include:
 9. **"Captain Calamari's Mother"**: An optional boss fight against a giant cybernetic octopus with attacks that can instantly kill party members.
 
 10. **"The Developer's Deadline"**: Racing against a real-time countdown to fix "bugs" in the game world before it crashes.
+
+11. **"More Machine Than Man"**: The final quest in the Cybernetic Enhancement quest line, requiring difficult moral choices and a challenging boss fight against a rogue AI controlling cybernetic implants.
+
+12. **"Reality Check"**: The mind-bending final quest in the Virtual Reality Addiction quest line, where you must determine what's real and what's simulation through a series of increasingly difficult perception challenges.
 
 ## Q: How do I solve the "Burlap Pants Conspiracy" quest?
 
