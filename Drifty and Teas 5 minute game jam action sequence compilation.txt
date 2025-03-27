@@ -1,0 +1,2305 @@
+
+
+
+-------------------Lie of Sequence
+-------------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+-------------------Credit MSASAKO for use of sequence code under creative commons license with attribution
+NOTES:
+- I am only sharing some action sequences for only 3 characters.
+- You will have to replace some with your own animations and sound effects.
+- Common Events are there to invoke image busts, as well as change backgrounds
+for a character's "Ultimate Technique".
+- The zooming is to maintain the illusion that the field of view ranges between the battler
+and enemies.
+BE CREATIVE!
+--------------------------------------------------------------------------------------------------------------------
+ELYSION
+--------------------------------------------------------------------------------------------------------------------
+[Impale]
+<setup action>
+display action
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+immortal: targets, true
+perform start
+MOTION EVADE: user
+SE: SFX-Hugesawd, 100, 105, 0
+jump user: 20%, 30
+move user: target, front, 30
+wait: 30
+MOTION WALK: user
+wait: 20
+FACE user: FORWARD
+CAMERA FOCUS: target, FRONT BASE, 60
+wait: 15
+MOTION STANDBY: user
+</setup action>
+
+<target action>
+wait: 10
+DAMAGE RATE: 400%
+MOTION THRUST: user
+MOVE user: FORWARD, 40, 2
+
+SE: SFX-SaberSlash, 100, 70, 0
+MOTION ATTACK: user
+animation 139: target
+action effect: target
+wait: 5
+MOTION STANDBY: user
+wait: 5
+SE: SFX-SaberSlash, 100, 70, 0
+MOTION THRUST: user
+animation 139: target
+action effect: target
+wait: 5
+MOTION STANDBY: user
+wait: 5
+DAMAGE RATE: 700%
+SE: SFX-SaberSlash, 100, 70, 0
+MOVE user: FORWARD, 100, 1
+MOTION THRUST: user
+animation 283: target
+action effect: target
+wait: 10
+wait for animation
+wait for movement
+wait: 2
+wait:30
+death break
+immortal: targets, false
+wait for animation
+</target action>
+
+<finish action>
+RESET CAMERA
+ZOOM: 150%, 1
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOVE targets: HOME, 10
+</finish action>
+
+---------------------------------------------------------------------------------------------------------------------------
+[Warding Blast]
+<setup action>
+display action
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+immortal: targets, true
+perform start
+MOTION EVADE: user
+SE: SFX-Hugesawd, 100, 105, 0
+jump user: 20%, 30
+move user: target, front, 30
+wait: 30
+MOTION WALK: user
+wait: 20
+FACE user: FORWARD
+MOTION EVADE: user
+CAMERA FOCUS: target, FRONT BASE, 60
+SE: SFX-Hugesawd, 100, 105, 0
+FACE user: FORWARD
+
+jump user: 20%, 30
+MOVE user: BACKWARD, 40, 30
+FACE user: FORWARD
+MOTION EVADE: user
+wait: 30
+MOTION STANDBY: user
+</setup action>
+
+<target action>
+wait: 10
+DAMAGE RATE: 400%
+SE: SFX-SaberSlash, 100, 70, 0
+MOTION ATTACK: user
+MOVE user: FORWARD, 80, 2
+
+MOTION THRUST: user
+animation 139: target
+animation 282: target
+action effect: target
+wait: 20
+MOTION SKILL: user
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+DAMAGE RATE: 700%
+SE: SFX-SaberSlash, 100, 70, 0
+MOVE user: BACKWARD, 80, 1
+FACE user: FORWARD
+MOTION SWING: user
+
+
+MOVE target: BACKWARD, 20, 1
+FACE target: FORWARD
+animation 278: target
+action effect: target
+
+
+wait: 1
+
+MOVE target: BACKWARD, 20, 1
+FACE target: FORWARD
+animation 279: target
+action effect: target
+add def debuff: target, 5, show
+add mdf debuff: target, 5, show
+wait: 1
+
+MOVE target: BACKWARD, 20, 1
+FACE target: FORWARD
+animation 280: target
+action effect: target
+add def debuff: target, 5, show
+add mdf debuff: target, 5, show
+wait: 1
+
+MOVE target: BACKWARD, 20, 1
+FACE target: FORWARD
+animation 281: target
+action effect: target
+add def debuff: target, 5, show
+add mdf debuff: target, 5, show
+wait: 30
+wait for animation
+wait for movement
+wait: 2
+wait:30
+death break
+immortal: targets, false
+wait for animation
+</target action>
+
+<finish action>
+RESET CAMERA
+ZOOM: 150%, 1
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOVE targets: HOME, 10
+</finish action>
+
+----------------------------------------------------------------------------------------------------------------------------
+
+[Gáe Bulg]
+
+<Cooldown: 10>
+<setup action>
+DAMAGE RATE: 320%
+CAMERA FOCUS: user, 15
+ZOOM: 150%, 60
+OPACITY friends not user: 0%, 60
+wait for movement
+display action
+immortal: targets, true
+perform start
+wait for movement
+
+animation 27: user
+animation 29: user
+common event: 51
+wait: 60
+common event: 30
+Fade out: 30
+wait: 30
+common event: 33
+common event: 25
+ZOOM: 300%, 10
+CAMERA FOCUS: target, CENTER, 0
+OPACITY all enemies: 0%, 1
+OPACITY target: 100%, 1
+wait: 10
+Fade in: 30
+SE: SFX-SPDdown, 100, 100, 0
+move user: target, front
+</setup action>
+
+<target action>
+perform action
+MOTION STANDBY: user
+wait: 30
+
+
+MOTION MISSILE: user
+animation 140: target
+action effect: target
+wait: 1
+
+animation 141: target
+action effect: target
+wait: 1
+
+animation 142: target
+action effect: target
+wait: 1
+
+animation 140: target
+action effect: target
+wait: 1
+
+animation 141: target
+action effect: target
+wait: 1
+
+animation 142: target
+action effect: target
+wait: 1
+
+animation 140: target
+action effect: target
+wait: 1
+
+animation 141: target
+action effect: target
+wait: 1
+
+animation 142: target
+action effect: target
+wait: 1
+
+animation 140: target
+action effect: target
+wait: 1
+
+animation 141: target
+action effect: target
+wait: 1
+
+animation 142: target
+action effect: target
+wait: 1
+
+animation 140: target
+action effect: target
+wait: 1
+
+animation 141: target
+action effect: target
+wait: 1
+
+animation 142: target
+action effect: target
+wait: 1
+MOTION STANDBY: user
+wait: 1
+MOTION THRUST: user
+DAMAGE RATE: 700%
+animation 143: target
+action effect: target
+shake screen: 3, 9, 30
+move user: target, back base
+CAMERA FOCUS: target, BACK CENTER, 60
+wait: 30
+CAMERA FOCUS: user, CENTER, 60
+
+FACE user: BACKWARD
+MOTION WALK: user
+wait: 10
+animation 29: user
+MOTION SKILL: user
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+SE: SFX-SaberSlash, 55, 70, 0
+wait: 5
+
+DAMAGE RATE: 900%
+SE: SFX-SaberSlash, 100, 70, 0
+MOVE user: FORWARD, 80, 1
+FACE user: BACKWARD
+MOTION SWING: user
+
+animation 284: target
+action effect: target
+ZOOM: 200%, 10
+shake screen: 4, 9, 1
+
+wait: 8
+
+shake screen: 4, 9, 1
+animation 282: target
+action effect: target
+wait: 8
+
+shake screen: 4, 9, 1
+animation 286: target
+action effect: target
+wait: 8
+
+shake screen: 5, 9, 1
+animation 287: target
+action effect: target
+wait: 8
+
+shake screen: 7, 9, 1
+animation 288: target
+action effect: target
+wait: 8
+
+shake screen: 8, 9, 1
+animation 289: target
+action effect: target
+wait: 8
+
+shake screen: 8, 9, 5
+action effect: target
+animation 289: target
+wait: 2
+animation 290: target
+wait: 2
+animation 291: target
+
+wait: 8
+
+wait: 60
+MOTION GUARD: user
+wait: 2
+death break
+immortal: targets, false
+wait for animation
+wait: 60
+Fade out: 30
+wait: 30
+OPACITY enemies: 100%, 1
+ZOOM: 0%, 1
+common event: 34
+wait: 10
+Fade in: 30
+common event: 31
+</target action>
+
+<finish action>
+RESET CAMERA
+ZOOM: 150%, 1
+OPACITY friends not user: 100%, 60
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOVE targets: HOME, 10
+</finish action>
+
+---------------------------------------------------------------------------------------------------------------------
+ARUKE
+---------------------------------------------------------------------------------------------------------------------
+
+[Breathe]
+
+<setup action>
+
+display action
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+wait: 10
+</setup action>
+
+<target action>
+
+MOTION SKILL: user
+animation 193: user
+animation 254: user
+ACTION EFFECT: user
+wait: 30
+wait for animation
+</target action>
+
+<finish action>
+ZOOM: 150%, 1
+RESET CAMERA
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOTION WALK: opponents
+MOVE targets: HOME, 10
+face targets: forward
+</finish action>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Proxima]
+
+<setup action>
+display action
+immortal: targets, true
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+MOTION EVADE: user
+OPACITY user: 0%, 1
+CAMERA FOCUS: user, FRONT BASE, 1
+animation 276: user
+move user: forward, 100, 5
+MOTION EVADE: user
+FLOAT user: 50%, 5
+MOTION EVADE: user
+wait: 2
+wait for movement
+wait for animation
+</setup action>
+
+<target action>
+move user: target, front, 5
+wait: 5
+move user: backward, 100, 1
+face user: forward
+wait: 5
+OPACITY user: 100%, 1
+MOTION EVADE: user
+animation 292: user
+wait: 20
+MOTION SKILL: user
+animation 184: user
+wait: 20
+DAMAGE RATE: 225%
+
+CAMERA FOCUS: target, FRONT BASE, 60
+ZOOM: 150%, 60
+MOTION MISSILE: user
+animation 275: user
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 30
+MOTION EVADE: user
+FLOAT user: 0%, 30
+MOTION EVADE: user
+JUMP user: 200%, 60
+face user: forward
+move user: backward, 100, 60
+face user: forward
+MOTION EVADE: user
+death break
+immortal: targets, false
+wait: 5
+
+wait: 5
+
+wait: 10
+
+wait: 10
+
+wait: 10
+
+wait: 10
+MOTION WALK: user
+wait: 10
+</target action>
+
+<finish action>
+clear battle log
+RESET CAMERA
+ZOOM: 150%, 1
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOTION WALK: opponents
+MOVE targets: HOME, 10
+face targets: forward
+</finish action>
+
+---------------------------------------------------------------------------------------------------------------------------
+
+[Inferna Quake]
+
+<setup action>
+display action
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+immortal: targets, true
+opacity user: 100%, 10
+
+</setup action>
+
+
+<target action>
+
+DAMAGE RATE: 700%
+SE: SFX-Hugesawd, 100, 100, 0
+jump user: 100%, 30
+move user: target, front, 60
+
+MOTION EVADE: user
+
+move user: target, back base, 30
+ZOOM: 150%, 1
+CAMERA FOCUS: target, BACK BASE, 30
+wait: 7
+animation 231: user
+wait: 27
+animation 232: target
+shake screen: 2, 15, 30
+MOTION SWING: user
+
+
+action effect: opponents
+MOVE target: BACKWARD, 10, 2
+face target: forward
+wait: 5
+action effect: opponents
+MOVE target: BACKWARD, 10, 2
+face target: forward
+wait: 5
+action effect: opponents
+MOVE target: BACKWARD, 10, 2
+face target: forward
+wait: 5
+action effect: opponents
+MOVE target: BACKWARD, 10, 2
+face target: forward
+wait: 5
+wait: 60
+
+
+death break
+immortal: targets, false
+wait for animation
+</target action>
+
+<finish action>
+clear battle log
+RESET CAMERA
+ZOOM: 150%, 1
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOTION WALK: opponents
+MOVE targets: HOME, 10
+face targets: forward
+</finish action>
+
+---------------------------------------------------------------------------------------------------------------------
+RITA
+---------------------------------------------------------------------------------------------------------------------
+
+[Luxra]
+
+<setup action>
+display action
+ZOOM: 200%, 1
+CAMERA FOCUS: USER, BASE, 1
+wait: 30
+immortal: targets, true
+MOTION EVADE: user
+SE: SFX-SPDdown, 100, 100, 0
+jump user: 35%, 30
+move user: target, front, 30
+wait for movement
+SE: SFX-SPDdown, 100, 100, 0
+opacity user: 100%, 10
+CAMERA FOCUS: target, FRONT BASE, 60
+</setup action>
+
+<target action>
+MOTION WALK: user
+ZOOM: 150%, 180
+wait: 10
+MOTION THRUST: user
+animation 303: user
+wait: 60
+
+DAMAGE RATE: 325%
+
+shake screen: 8, 9, 120
+
+MOTION SWING: user
+animation 304: user
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+action effect: opponents
+wait: 8
+death break
+immortal: targets, false
+wait for animation
+wait: 70
+MOTION THRUST: user
+wait: 5
+MOTION WALK: user
+</target action>
+
+<finish action>
+ZOOM: 150%, 1
+RESET CAMERA
+clear battle log
+MOTION EVADE: user
+move user: return, 30
+jump user: 25%, 30
+MOTION EVADE: user
+wait for movement
+MOTION WALK: user
+MOTION WALK: opponents
+MOVE targets: HOME, 10
+</finish action>
+
+---------------------------------------------------------------------------------------------------------------------------
+------------Great Demon Lord Adventure Demo
+------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+------------Credit Techhero90 for use of sequence code under creative commons license with attribution
+Attack
+<setup action>
+display action
+immortal: target, true
+perform start
+</setup action>
+
+<target action>
+move user: target, front base, 10
+camera screen: target, front, 10
+camera focus: target, front, 10
+zoom: 175%, 10
+wait for movement
+motion attack: user
+attack animation: target
+wait for animation
+jump target: 200, 30
+action effect
+death break
+</target action>
+
+<finish action>
+clear battle log
+immortal: target, false
+perform finish
+</finish action>
+--------------------------------------------------
+Demon Wave
+
+<setup action>
+display action
+action common event
+immortal: targets, true
+cast animation
+</setup action>
+
+<whole action>
+perform start
+camera focus: target, center, 10
+camera screen: target, center, 10
+zoom: 150%, 20
+perform action
+motion chant: user
+wait for movement
+action animation
+wait for animation
+jump target: 200, 30
+action effect
+death break
+</whole action>
+
+<finish>
+immortal: targets, false
+clear battle log
+perform finish
+</finish>
+--------------------------------------------------
+Mana Cannon
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+------------Scatkat's Game Jam Entry
+------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+------------Credit Scatkat for use of sequence code under creative commons license with attribution
+
+=============
+TO THE SKIES
+=============
+<setup action>
+display action
+camera focus: user
+zoom: 120%, 40
+perform start
+wait for movement
+immortal: targets, true
+</setup action>
+
+<whole action>
+motion chant: user
+animation 1: user
+wait for animation
+motion spell: user
+wait: 30
+camera focus: target
+wait for camera
+animation 2: target
+float target: 800%, 10
+wait: 60
+camera focus: user
+wait: 30
+motion abnormal: user
+wait: 30
+motion item: user
+float user: 200%, 10
+float target: 0%, 10
+opacity not focus: 0%
+battleback 3 add: battlebacks1, Sky
+battleback 4 add: battlebacks2, Sky
+wait: 30
+motion normal: user
+zoom: 100%, 40
+wait: 30
+face user: forward
+motion attack: user
+action animation
+action effect
+wait: 10
+animation 3: user
+opacity user: 0%
+wait for animation
+move user: point, 650, 415, 5
+wait: 5
+opacity user: 100%
+face user: forward
+motion attack: user
+action animation
+action effect
+wait: 10
+animation 3: user
+opacity user: 0%
+wait for animation
+move user: point, 425, 280, 5
+wait: 5
+opacity user: 100%
+face user: forward
+motion attack: user
+action animation
+action effect
+wait: 10
+animation 3: user
+opacity user: 0%
+wait for animation
+move user: point, 715, 310, 5
+wait: 5
+opacity user: 100%
+face user: forward
+motion attack: user
+action animation
+action effect
+wait: 10
+animation 3: user
+opacity user: 0%
+wait for animation
+move user: point, 625, 290, 5
+wait: 5
+opacity user: 100%
+face user: forward
+motion attack: user
+action animation
+action effect
+wait: 10
+animation 3: user
+opacity user: 0%
+wait for animation
+move user: home, 5
+float user: 0%, 5
+wait: 5
+opacity user: 100%
+face user: forward
+wait: 45
+motion chant: user
+animation 1: user
+wait for animation
+motion spell: user
+wait: 60
+animation 5: target
+wait: 30
+float target: -800%, 10
+float user: 800%, 10
+wait: 60
+opacity target: 0%
+battleback 3 remove
+battleback 4 remove
+opacity not focus: 100%
+wait: 20
+float target 800%, 10
+wait: 10
+opacity target: 100%
+float target: 0%, 40
+wait: 20
+animation 4: target
+wait for animation
+wait: 45
+float user: 0%, 40
+motion abnormal: user
+wait: 30
+motion normal: user
+wait: 30
+</whole action>
+
+<target action>
+</target action>
+
+<follow action>
+</follow action>
+
+<finish action>
+zoom: 100%, 40
+clear battle log
+wait: 30
+perform finish
+wait for movement
+show battle hud
+wait: 5
+</finish action>
+wait: 30
+</whole action>
+
+<target action>
+</target action>
+
+<follow action>
+</follow action>
+
+<finish action>
+immortal: targets, false
+zoom: 100%, 30
+clear battle log
+wait: 30
+perform finish
+wait for movement
+show battle hud
+reset camera: 10
+wait: 25
+</finish action>
+
+=========
+REBIRTH
+=========
+<setup action>
+display action
+camera focus: user
+zoom: 120%, 60
+perform start
+wait for movement
+</setup action>
+
+<whole action>
+motion chant: user
+animation 7: user
+float user: 200%, 300
+opacity all not user: 0%
+wait: 60
+battleback 3 add: battlebacks1, Sky
+battleback 4 add: battlebacks2, Sky
+wait: 180
+animation 8: user
+wait: 5
+float user: 0%, 10
+motion abnormal: user
+battleback 3 remove
+battleback 4 remove
+opacity all not user: 100%
+wait: 60
+zoom: 120%, 45
+wait: 70
+animation 8: targets
+motion abnormal: targets
+wait for animation
+wait: 45
+animation 8: targets
+motion dead: targets
+wait for animation
+wait: 90
+animation 9: user
+wait for animation
+motion abnormal: user
+motion wait: user
+wait: 30
+motion chant: user
+motion wait: user
+motion spell: user
+wait: 30
+camera focus: target
+wait for camera
+action animation
+action effect
+shake screen: 4, 9, 30
+wait: 30
+</whole action>
+
+<target action>
+</target action>
+
+<follow action>
+</follow action>
+
+<finish action>
+zoom: 100%, 40
+clear battle log
+wait: 30
+perform finish
+wait for movement
+show battle hud
+reset camera: 10
+wait: 25
+</finish action>
+
+==================
+RECKLESS SAVAGERY
+==================
+<setup action>
+display action
+camera focus: user
+zoom: 140%, 40
+perform start
+wait for movement
+immortal: targets, true
+</setup action>
+
+<whole action>
+motion chant: user
+animation 11: user
+wait: 10
+battleback 3 add: battlebacks1, Darkspace
+wait for animation
+wait: 30
+zoom: 100%, 40
+wait for zoom
+</whole action>
+
+<target action>
+jump user: 200%, 10
+move user: target, front, 10
+wait: 8
+motion attack: user
+action animation
+animation 13: target
+action effect
+shake screen: 6, 10, 30
+wait: 30
+jump user: 100%, 10
+move user: backward, 250, 10
+face user: forward
+wait: 30
+</target action>
+
+<follow action>
+wait: 30
+face user: backward
+zoom: 120%, 40
+wait for zoom
+motion abnormal: user
+wait: 20
+motion chant: user
+animation 14: user
+shake screen: 6, 10, 30
+animation 15: all actors
+wait for animation
+add atk buff: all actors, 3, show
+add mat buff: all actors, 3, show
+wait: 60
+</follow action>
+
+<finish action>
+zoom: 100%, 40
+battleback 3 remove
+clear battle log
+wait: 30
+immortal: targets, false
+perform finish
+wait for movement
+show battle hud
+reset camera: 10
+wait: 25
+</finish action>
+--------------------------------------------------------------------------------------------------------------------------------------------------
+---------------Suzuki VS Megumi
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit KayZaman for use of sequence code under creative commons license with attribution
+
+No Text file provided, can't extract code.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------Dragon Crystal X
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit Onslaught Supply Gamesfor use of sequence code under creative commons license with attribution
+ATTACK
+Attack
+<After ATB: 100%>
+<setup action>
+hide battle hud
+camera focus: user
+wait: 5
+zoom: 120%, 30
+wait for zoom
+immortal: targets, true
+</setup action>
+
+<target action>
+animation 157: user, mirror
+wait: 1
+motion escape: user
+move user: targets, front base, 15
+wait for movement
+motion thrust: user
+wait: 10
+attack animation: target
+wait: 1
+action effect
+wait for animation
+zoom: 100%, 30
+wait for zoom
+reset camera
+add state 14: user
+show battle hud
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+DROPLET
+<After ATB: 100%>
+<Cooldown: 1>
+<setup action>
+hide battle hud
+perform start
+fade out: 50
+wait: 60
+wait: 5
+battleback 3 add: battlebacks2, PurpleUpSpeed
+wait: 15
+BATTLEBACK 3 SCROLL SPEED Y: -6
+wait: 60
+camera focus: user
+wait: 30
+opacity not focus: 0, 5
+wait for opacity
+opacity target: 0, 5
+wait for opacity
+tint screen: dark, 15
+wait: 15
+MOVE user: POINT, 600, 350, 5
+wait for movement
+fade in: 60
+motion standby: user
+wait: 9
+zoom: 180%, 30
+wait: 30
+animation 129: user, mirror
+wait: 30
+wait for animation
+animation 148: user
+wait for animation
+immortal: targets, true
+</setup action>
+<target action>
+battleback 4 add: battlebacks2, BlueSpeed
+BATTLEBACK 4 SCROLL SPEED X: -9
+wait: 20
+motion skill: user
+wait: 2
+animation 150: user, mirror
+wait for motion
+motion spell: user
+wait for animation
+fade out: 20
+wait: 40
+motion escape: user
+wait: 3
+camera focus: target
+opacity user: 0, 5
+wait for opacity
+opacity target: 255, 5
+wait for opacity
+zoom: 200%, 20
+wait for camera
+wait for zoom
+fade in: 20
+wait: 20
+action animation
+wait: 30
+action effect
+wait for animation
+zoom: 100%, 20
+battleback 4 remove
+battleback 3 remove
+wait: 40
+move user: home, 5
+wait for movement
+face user: target, 5
+wait: 5
+motion walk: user
+immortal: targets false
+opacity user: 255, 20
+wait for opacity
+opacity not focus: 255, 30
+wait for opacity
+reset camera
+wait for camera
+tint screen: normal, 15
+wait: 20
+show battle hud
+wait: 5
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+ELECTRIFY
+Ougi Animation: _Spell
+<Cooldown: 2>
+<After ATB: 100%>
+<setup action>
+motion walk: user
+hide battle hud
+fade out: 50
+wait: 60
+move user: point, 650, 350, 5
+wait for movement
+wait: 30
+battleback 7 add: battlebacks1, DarkSpace1
+wait: 60
+camera focus: user
+wait for camera
+wait: 5
+opacity not focus: 0, 10
+wait for opacity
+opacity targets: 0, 5
+wait for opacity
+tint screen: dark, 3
+wait: 5
+motion standby: user
+wait: 3
+fade in: 50
+wait: 60
+wait: 15
+animation 122: user, mirror
+wait: 30
+zoom: 175%, 30
+wait: 30
+wait for animation
+animation 121: user, mirror
+wait for animation
+immortal: targets, true
+</setup action>
+<whole action>
+motion skill: user
+wait: 2
+animation 132: user, mirror
+wait: 4
+motion spell: user
+wait for animation
+fade out: 10
+wait: 20
+tint screen: normal, 3
+wait: 5
+opacity user: 0, 3
+wait for opacity
+opacity target: 255, 3
+wait for opacity
+camera focus: target
+wait: 3
+zoom: 120%, 5
+wait for camera
+wait for zoom
+fade in: 20
+wait: 30
+action animation
+wait: 30
+action effect
+wait for effect
+wait: 3
+wait for animation
+wait: 5
+battleback 7 remove
+wait: 60
+move user: home, 5
+wait for movement
+wait: 5
+opacity user: 255, 30
+wait: 5
+immortal: targets, false
+wait for opacity
+opacity not focus: 255, 30
+wait for opacity
+reset camera
+wait for camera
+tint screen: normal, 15
+wait 20
+show battle hud
+wait: 5
+</whole action>
+<target action>
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+FIREBALL
+<After ATB: 100%>
+<Cooldown: 1>
+<setup action>
+hide battle hud
+perform start
+fade out: 50
+wait: 60
+wait: 5
+battleback 5 add: battlebacks2, PurpleUpSpeed
+wait: 15
+BATTLEBACK 5 SCROLL SPEED Y: -6
+wait: 60
+camera focus: user
+wait: 30
+opacity not focus: 0, 5
+wait for opacity
+opacity target: 0, 5
+wait for opacity
+tint screen: dark, 15
+wait: 15
+MOVE user: POINT, 600, 350, 5
+wait for movement
+fade in: 60
+motion standby: user
+wait: 9
+zoom: 180%, 30
+wait: 30
+animation 129: user, mirror
+wait: 30
+wait for animation
+motion chant: user
+animation 127: user, mirror
+wait for animation
+immortal: targets, true
+</setup action>
+<target action>
+battleback 6 add: battlebacks2, RedSpeed
+BATTLEBACK 6 SCROLL SPEED X: -9
+wait: 20
+motion skill: user
+wait: 2
+animation 130: user, mirror
+wait for motion
+motion spell: user
+wait for animation
+fade out: 20
+wait: 40
+motion escape: user
+wait: 3
+camera focus: target
+opacity user: 0, 5
+wait for opacity
+opacity target: 255, 5
+wait for opacity
+zoom: 200%, 20
+wait for camera
+wait for zoom
+fade in: 20
+wait: 20
+action animation
+wait: 30
+action effect
+wait for animation
+zoom: 100%, 20
+battleback 6 remove
+battleback 5 remove
+wait: 40
+move user: home, 5
+wait for movement
+face user: target, 5
+wait: 5
+motion walk: user
+immortal: targets false
+opacity user: 255, 20
+wait for opacity
+opacity not focus: 255, 30
+wait for opacity
+reset camera
+wait for camera
+tint screen: normal, 15
+wait: 20
+show battle hud
+wait: 5
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+HEAL
+<After ATB: 100%>
+<target action>
+motion item: user
+wait: 5
+action animation
+wait: 15
+action effect
+wait for animation
+</target animation>
+----------------------------------------------------------------------------------------------------------------------------
+SEIZEMIC
+SEIZEMICOugi Animation: _Spell
+<Cooldown: 3>
+<After ATB: 100%>
+<setup action>
+motion standby: user
+hide battle hud
+immortal: targets, true
+camera focus: user
+wait for camera
+opacity not focus: 0, 30
+wait for opacity
+tint screen: dark, 30
+wait for tint
+zoom: 175%, 30
+wait for zoom
+animation 123: user
+wait for animation
+motion abnormal: user
+wait: 3
+animation 86: user, mirror
+wait for animation
+animation 88: user, mirror
+wait for animation
+</setup action>
+<target action>
+animation 142: targets
+wait: 10
+camera focus: targets
+wait for camera
+zoom: 130%, 20
+wait for zoom
+wait for animation
+action animation
+wait: 20
+action effect
+wait: 5
+float target: 300%, 15
+wait for float
+wait for animation
+zoom: 100%, 30
+wait for zoom
+wait: 120
+motion escape: user
+wait: 5
+animation 159: user, mirror
+wait: 1
+opacity user: 0, 5
+wait for opacity
+wait: 120
+animation 164: target
+wait: 3
+action effect
+wait for animation
+wait: 30
+float target: 0%, 20
+wait for float
+action effect
+motion abnormal: user
+wait: 120
+animation 162: user, mirror
+wait: 1
+opacity user: 255, 5
+wait for opacity
+immortal: targets, false
+reset camera
+wait for camera
+wait: 3
+show battle hud
+opacity not focus: 255, 20
+wait for opacity
+tint screen: normal, 30
+wait for tint
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+SNOWSTORM
+Ougi Animation: _Spell
+<After ATB: 100%>
+<Cooldown: 2>
+<setup action>
+hide battle hud
+immortal: targets, true
+camera focus: user
+wait for camera
+opacity not focus: 0, 30
+wait for opacity
+tint screen: dark, 30
+wait for tint
+zoom: 200%, 30
+wait for zoom
+motion standby: user
+wait: 3
+animation 71: user
+wait for animation
+motion chant: user
+animation 74: user
+wait for animation
+</setup action>
+<whole action>
+animation 74: targets
+wait: 10
+camera focus: targets
+wait for camera
+zoom: 130%, 20
+wait for zoom
+wait for animation
+action animation
+wait: 65
+action effect
+wait for animation
+wait for effect
+zoom: 100%, 30
+wait for zoom
+immortal: targets, false
+reset camera
+wait for camera
+wait: 3
+show battle hud
+opacity not focus: 255, 20
+wait for opacity
+tint screen: normal, 30
+wait for tint
+</whole action>
+------------------------------------------------------------------------------------------------------------------------------
+SUPERCUT
+<After ATB: 0%>
+<setup action>
+motion dying: user
+hide battle hud
+camera focus: user
+wait: 5
+zoom: 175%, 60
+wait for zoom
+immortal: targets, true
+animation 98: user, mirror
+wait for animation
+</setup action>
+
+<target action>
+animation 157: user, mirror
+wait: 1
+motion escape: user
+move user: targets, front, 15
+wait for movement
+zoom: 100%, 60
+wait: 1
+motion thrust: user
+wait: 3
+action animation: target
+wait: 1
+action effect
+wait for animation
+motion escape: user
+wait: 5
+animation 159: user
+wait: 5
+move user: target, back base, 5
+wait for movement
+face user: target
+wait: 5
+motion swing: user
+wait: 1
+animation 164: target, mirror
+wait: 1
+action effect
+wait for animation
+animation 159: user, mirror
+wait: 5
+move user: target, head, 5
+wait for movement
+wait for animation
+wait: 30
+opacity user: 0, 5
+wait for opacity
+animation 162: user, mirror
+wait for animation
+move user: target, base, 10
+wait for movement
+animation 155: target
+wait: 5
+action effect
+wait for animation
+motion abnormal: user
+opacity user: 255, 5
+wait for opacity
+face user: target
+wait: 5
+zoom: 100%, 30
+wait for zoom
+reset camera
+wait for camera
+remove state 14: user
+wait: 5
+add state 15: user
+show battle hud
+</target action>
+----------------------------------------------------------------------------------------------------------------------------
+SUPERSLICE
+<After ATB: 70%>
+<setup action>
+motion dying: user
+hid battle hud
+camera focus: user
+wait: 5
+zoom: 150%, 60
+wait for zoom
+immortal: targets, true
+</setup action>
+
+<target action>
+animation 157: user, mirror
+wait: 3
+motion escape: user
+move user: targets, front, 15
+wait for movement
+motion thrust: user
+wait: 1
+action animation: target
+wait: 1
+action effect
+wait for animation
+motion escape: user
+wait: 5
+animation 159: user
+wait: 5
+move user: target, back base, 5
+wait for movement
+face user: target
+wait: 5
+motion swing: user
+wait: 1
+animation 164: target, mirror
+wait: 1
+action effect
+wait for animation
+zoom: 100%, 30
+wait for zoom
+reset camera
+wait for camera
+remove state 14: user
+wait: 5
+add state 15: user
+</target action>
+---------------------------------------------------------------------------------------------------------------------------
+TELECUT
+<After ATB: 100%>
+<Cooldown: 2>
+<setup action>
+hide battle hud
+immortal: targets, true
+camera focus: user
+wait for camera
+opacity not focus: 0, 30
+wait for opacity
+tint screen: dark, 30
+wait: 15
+motion evade: user
+wait: 3
+zoom: 150%, 10
+wait for zoom
+</setup action>
+<target action>
+opacity user: 0, 60
+wait: 10
+animation 160: user, mirror
+wait for opacity
+wait for animation
+wait: 10
+move user: target, back, 60
+wait for movement
+wait: 60
+move user: home, 60
+wait for movement
+wait: 60
+move user: target, head, 60
+wait for movement
+wait: 60
+zoom: 100%, 20
+wait for zoom
+move user: target, head, 10
+wait for movement
+wait: 10
+face user: target
+wait: 5
+motion escape: user
+wait: 3
+animation 160: user, mirror
+wait: 5
+move user: target, center, 60
+wait for animation
+wait: 10
+action animation
+wait: 15
+action effect
+wait: 30
+action effect
+wait: 30
+action effect
+wait for animation
+action effect
+wait for effect
+motion walk: user
+wait: 5
+MOVE user: home, 60
+wait for movement
+wait: 15
+face user: target
+wait: 5
+opacity user: 255, 5
+wait for opacity
+wait: 60
+opacity not focus: 255, 30
+wait: 3
+tint screen: normal, 30
+wait for opacity
+immortal: targets, false
+wait: 5
+reset camera
+wait: 15
+wait for movement
+wait for camera
+show battle hud
+</target action>
+------------------------------------------------------------------------------------------------------------------------------
+UTILILAZAR
+Ougi Animation: _Spell
+<After ATB: 0%>
+<Limit Uses: 1>
+<setup action>
+motion walk: user
+hide battle hud
+perform start
+fade out: 50
+wait: 60
+wait: 5
+battleback 8 add: battlebacks2, PurpleUpSpeed
+wait: 15
+BATTLEBACK 8 SCROLL SPEED Y: -6
+wait: 60
+camera focus: user
+wait: 30
+opacity not focus: 0, 5
+wait for opacity
+opacity target: 0, 5
+wait for opacity
+tint screen: dark, 15
+wait: 15
+MOVE user: POINT, 600, 350, 5
+wait for movement
+fade in: 60
+motion walk: user
+wait: 9
+zoom: 180%, 30
+wait: 30
+animation 121: user, mirror
+wait for animation
+motion standby: user
+animation 122: user, mirror
+wait for animation
+animation 123: user, mirror
+wait for animation
+animation 127: user, mirror
+wait: 15
+motion chant: user
+wait for animation
+immortal: targets, true
+</setup action>
+<whole action>
+battleback 9 add: battlebacks2, RedSpeed
+BATTLEBACK 9 SCROLL SPEED X: -9
+wait: 20
+tint screen: 170, -255, 170, 0, 120
+wait: 5
+motion skill: user
+wait: 1
+animation 124: user, mirror
+wait: 7
+motion spell: user
+wait: 1
+wait for animation
+opacity user: 0, 20
+----------------------------------------------------------------------------------------------------------------------------
+---------------A Dope Trope
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit RPGTime for use of sequence code under creative commons license with attribution
+
+Ez:
+<setup action>
+
+tint screen: -60, -60, -60, 0
+jump user: 200, 20
+animation 121: user
+wait for animation
+display action
+hide battle hud
+if user.attackMotion() !== 'missile'
+
+camera focus: target
+zoom: 150%, 20
+
+ camera offset: right, 50
+
+
+else
+
+camera focus: user
+zoom: 250%, 20
+wait: 20
+camera focus: target
+zoom: 150%, 20
+ camera offset: right, 50
+
+end
+
+immortal: targets, true
+show battle hud
+</setup action>
+
+<target action>
+hide battle hud
+if user.attackMotion() !== 'missile'
+  move user: target, front base, 20
+  jump user: 200, 20
+
+wait for movement
+motion attack: user
+wait: 10
+attack animation: target
+wait for animation
+
+action effect
+wait for animation
+wait for movement
+wait: 5
+move user: target, back base, 5
+wait for movement
+motion attack: user
+face user: target
+action animation: target
+wait for animation
+action effect
+wait: 1
+
+jump user: 200, 20
+wait for movement
+move user: target, back base, 5
+wait for movement
+motion skill: user
+face user: target
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------SINTAX
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit Studio Daeera  for use of sequence code under creative commons license with attribution
+
+No text file submitted
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------Dragon Crystal X
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit Onslaught Supply Gamesfor use of sequence code under creative commons license with attribution
+
+No text file submitted
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+---------------L'aile Noire
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit Aile Noire for use of sequence code under creative commons license with attribution
+/*****************
+** ATTACK
+******************/
+<Setup Action>
+move user: target, FRONT BASE, 10
+motion wait: user
+</Setup Action>
+<Target Action>
+action animation
+motion swing: user
+action effect
+wait: 10
+opacity user: 0%, 1
+animation 168: user
+wait: 10
+move user: target, BACK BASE, 5
+face user: HOME
+opacity user: 100%, 5
+action animation
+motion swing: user
+action effect
+wait: 10
+opacity user: 0%, 1
+wait for opacity
+animation 168: user
+wait for animation
+move user: backward, 500, 10
+face user: FORWARD
+opacity user: 100%, 5
+wait for opacity
+jump user: 300%, 30
+move user: target, BACK BASE, 30
+wait: 15
+motion swing: user
+action animation
+action effect
+wait for animation
+</Target Action>
+<Follow Action>
+opacity user: 100%, 1
+move user: HOME, 10
+motion wait: user
+</Follow Action>
+
+
+/*****************
+** TRANSFORMATION
+******************/
+<After Eval>
+user.startAnimation(139);
+setTimeout(function() {
+  user.addState(11);
+}, 2500);
+</After Eval>
+
+/*****************
+** THUNDER X FIRE
+******************/
+<Dual: 5, 48, 7, 49>
+<Setup Action>
+zoom: 110%
+jump character 5: 150%
+move character 5: target, BACK BASE, 30
+face character 5: HOME
+jump character 7: 150%
+move character 7: target, FRONT BASE, 30
+camera focus: target, BASE, 30
+motion chant: character 5
+motion chant: character 7
+motion wait: character 5
+animation 51: character 5
+animation 51: character 7
+wait for animation
+</Setup Action>
+<Target Action>
+motion attack: character 5
+motion attack: character 7
+action animation
+move character 5: target, FRONT HEAD, 10
+move character 7: target, BACK HEAD, 10
+action effect: target
+motion swing: character 5
+motion swing: character 7
+wait for movement
+move character 5: target, BACK HEAD, 10
+move character 7: target, FRONT HEAD, 10
+action effect: target
+motion swing: character 5
+motion swing: character 7
+wait for movement
+move character 5: target, FRONT BASE, 10
+move character 7: target, BACK BASE, 10
+action effect: target
+motion swing: character 5
+motion swing: character 7
+wait for movement
+motion chant: character 5
+motion chant: character 7
+wait: 120
+shake screen: 5, 9, 60
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait for animation
+</Target Action>
+<Follow Action>
+motion evade: character 5
+motion evade: character 7
+motion wait: character 5
+move character 5: HOME, 30
+move character 7: HOME, 30
+</Follow Action>
+
+/*****************
+** ICE X FIRE
+******************/
+<Dual: 7, 54, 8, 55>
+<Critical Rate: 10%>
+<Critical Multiplier: 2.00>
+<Setup Action>
+zoom: 110%
+jump character 7: 150%
+move character 7: target, BACK BASE, 30
+face character 7: HOME
+jump character 8: 150%
+move character 8: target, FRONT BASE, 30
+camera focus: target, BASE, 30
+motion chant: character 7
+motion chant: character 8
+motion wait: character 8
+animation 51: character 7
+animation 51: character 8
+wait for animation
+</Setup Action>
+<Target Action>
+action animation
+wait: 40
+shake screen: 5, 9, 60
+action effect: target
+wait: 15
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+shake screen: 9, 9, 30
+action effect: target
+wait: 150
+shake screen: 5, 5, 30
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+wait for animation
+</Target Action>
+<Follow Action>
+motion evade: user
+float target: 0%
+jump user: 75%, 30
+move user: HOME, 30
+motion wait: user
+</Follow Action>
+
+/*****************
+** WIND SLASH
+******************/
+<setup action>
+display action
+camera focus: user
+zoom: 120%, 40
+perform start
+wait for movement
+animation 171: user
+opacity user: 0%, 40
+zoom: 120%, 20
+wait for animation
+</setup action>
+<target action>
+move user: target, BACK BASE, 40
+wait for movement
+animation 170: target
+wait: 40
+opacity user: 100%, 40
+face user: HOME
+wait: 15
+motion swing: user
+move user: backward, 300, 10
+action effect: target
+wait for animation
+perform finish
+</target action>
+
+/*****************
+** SUKADARTHLASS
+******************/
+<Dual: 5, 72, 6, 73, 7, 74, 8, 75>
+<Setup Action>
+opacity character 5: 0%, 10
+move character 5: target, BACK BASE, 30
+animation 168: character 5 
+opacity character 6: 0%, 10
+move character 6: target, BACK BASE, 30
+animation 168: character 6 
+opacity character 7: 0%, 10
+move character 7: target, FRONT BASE, 30
+animation 168: character 7 
+opacity character 8: 0%, 10
+move character 8: target, FRONT HEAD, 30
+animation 168: character 8 
+wait for animation
+zoom: 120%
+camera focus: target, BASE, 60
+wait for camera
+wait: 30
+</Setup Action>
+<Target Action>
+DisableTurnOrderDisplay
+hide battle hud
+eval: $gameSystem._bhud_visible = false
+face character 5: HOME
+wait: 5
+opacity character 5: 100%, 10
+move character 5: backward, 300, 10
+animation 168: character 5
+animation 10: target, mirror
+motion swing: character 5
+action effect
+wait for movement
+opacity character 5: 0%, 30
+wait: 5
+
+opacity character 7: 100%, 10
+move character 7: TARGET, BACK HEAD, 10
+animation 168: character 7
+animation 8: target
+motion swing: character 7
+action effect
+wait for movement
+opacity character 7: 0%, 30
+wait: 5
+
+opacity character 8: 100%, 10
+move character 8: TARGET, BACK BASE, 10
+animation 168: character 8
+animation 9: target
+motion swing: character 8
+action effect
+wait for movement
+opacity character 8: 0%, 30
+motion dying: target
+wait: 5
+
+animation 170: target
+wait: 40
+opacity character 6: 100%, 40
+face character 6: HOME
+wait: 15
+motion swing: character 6
+move character 6: backward, 400, 10
+action effect: target
+wait for animation
+
+opacity character 5: 100%, 10
+opacity character 7: 100%, 10
+opacity character 8: 100%, 10
+wait for opacity
+move character 5: backward, 300, 30
+move character 7: backward, 500, 30
+move character 8: backward, 500, 30
+wait for movement
+face character 8: target
+face character 7: target
+face character 6: target
+face character 5: target
+motion chant: character 5
+motion chant: character 7
+motion chant: character 8
+wait: 60
+FLOAT character 8: 350, 30
+wait: 5
+
+fade out: 30
+wait: 30
+opacity enemies: 0%
+opacity character 5: 0%
+opacity character 6: 0%
+opacity character 7: 0%
+battleback 3 ADD: battlebacks1, Sky
+battleback 4 ADD: battlebacks2, Sky
+wait: 30
+motion chant: character 8
+zoom: 150%
+camera OFFSET: RIGHT, 500, 1
+fade in: 30
+camera OFFSET: UP, 1800, 120
+wait for camera
+wait: 60
+animation 180: character 8
+wait for animation
+fade out: 30
+wait: 120
+opacity character 8: 0%
+opacity enemies: 100%
+opacity character 5: 100%
+opacity character 6: 100%
+opacity character 7: 100%
+battleback 3 remove
+battleback 4 remove
+fade in: 30
+reset zoom
+wait: 30
+animation 181: target
+wait: 40
+animation 52: character 5
+animation 52: character 7
+shake screen: 5, 9, 60
+action effect: target
+wait: 15
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+shake screen: 9, 9, 30
+action effect: target
+
+animation 182: target
+wait: 70
+shake screen: 5, 9, 60
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+wait: 5
+action effect: target
+
+animation 171: character 6
+opacity character 6: 0%, 30
+wait: 15
+
+move character 6: target, FRONT HEAD, 40
+wait for movement
+animation 166: target
+wait: 8
+action effect: target
+wait: 2
+action effect: target
+wait: 4
+action effect: target
+wait: 2
+action effect: target
+wait: 2
+action effect: target
+wait: 30
+opacity character 6: 100%, 10
+motion swing: character 6
+move character 6: target, FRONT BASE, 10
+action effect: target
+wait for animation
+
+</Target Action>
+<Follow Action>
+show battle hud
+eval: $gameSystem._bhud_visible = true
+EnableTurnOrderDisplay
+FLOAT character 8: 0, 10
+opacity character 5: 100%, 10
+opacity character 6: 100%, 10
+opacity character 7: 100%, 10
+opacity character 8: 100%, 10
+</Follow Action>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+---------------Drifty's Jam Version
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit KayZaman for use of sequence code under creative commons license with attribution
+
+No text file provided
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+---------------Memories Within
+---------------Plugins Used: Yanfly's Battle Core + Action Sequence Packs 1, 2 + 3
+---------------Credit Hatepool for use of sequence code under creative commons license with attribution
+
+No text file provided
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+{
+  "name": "Quantum Terminal 3",
+  "mapId": 110,
+  "x": 12,
+  "y": 18,
+  "appearance": "!Crystal",
+  "index": 3,
+  "initialDialogue": [
+    "A high-tech terminal with the Quantum Dynamics logo.",
+    "It seems to be running some kind of simulation."
+  ],
+  "activeDialogue": [
+    "The main Project Crossover control terminal.",
+    "The screen shows a countdown to 'CORPORATE SINGULARITY' with various metrics and projections."
+  ],
+  "sabotageDialogue": [
+    "You access the terminal and upload a virus that replaces all corporate synergy algorithms with recipes for various pasta dishes.",
+    "The screen flashes 'CRITICAL ERROR: INSUFFICIENT GARLIC BREAD FOR CORPORATE MERGER' before shutting down completely."
+  ]
+}

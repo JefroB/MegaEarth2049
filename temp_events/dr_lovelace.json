@@ -1,0 +1,31 @@
+{
+  "name": "Dr. Lovelace",
+  "mapId": 106,
+  "x": 10,
+  "y": 10,
+  "appearance": "People1",
+  "index": 0,
+  "initialDialogue": [
+    "*Dr. Lovelace is typing furiously on her computer terminal*",
+    "Not now! I'm having a very important conversation with ALAN."
+  ],
+  "waitingDialogue": [
+    "You're looking for memory fragments? Yes, I've been tracking those.",
+    "My poor test subjects... I mean, valued volunteers.",
+    "Find all three fragments and bring them back."
+  ],
+  "completionDialogue": [
+    "You found all three memory fragments! Let me analyze them...",
+    "*Dr. Lovelace connects the fragments to her terminal. Her face grows increasingly alarmed*",
+    "This is worse than I thought. They've corrupted my memory integration technology!",
+    "It was supposed to help people share experiences, not force-feed them ads for burlap underwear!",
+    "And now they're working with Quantum Dynamics on something called 'Project Crossover.' They're going to merge corporate realities!",
+    "Take this Neural Firewall. It will protect you from their memory manipulation.",
+    "You need to infiltrate Quantum Dynamics and find out what they're planning."
+  ],
+  "postQuestDialogue": [
+    "Hurry to Quantum Dynamics! If they activate Project Crossover, we could see reality glitches everywhere.",
+    "Imagine - OmniCorp guns that shoot Vitalix flesh-mods while playing Armatek construction jingles!",
+    "*whispers to her computer* Don't worry, ALAN. I won't let them corrupt our love with their corporate nonsense."
+  ]
+}

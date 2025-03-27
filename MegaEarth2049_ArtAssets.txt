@@ -1,0 +1,301 @@
+# MegaEarth 2049 - Required Art Assets
+
+This document provides a comprehensive list of art assets needed for MegaEarth 2049, organized by category and usage.
+
+## Enemy Battlers
+
+These are the side-view battler images used for enemies in combat. Many of these were referenced in the Enemies.json file but may be missing from the actual game files.
+
+### SF Series (Security Forces)
+- SF_Doll - Basic security drone
+- SF_Parasite - Parasitic security entity
+- SF_Thug - Security enforcer
+
+### Punks
+- punk1 - Basic punk enemy
+- punk2 - Punk variant
+- punk3 - Punk variant
+- punk4 - Punk variant
+- punk5 - Punk variant
+- punk6 - Punk variant
+- punkBoss1 - Punk leader/boss
+
+### Ninjas
+- greenninja - Green-clad ninja
+- pinkninja - Pink-clad ninja
+- brownninja - Brown-clad ninja
+- blueninja - Blue-clad ninja
+- redninja - Red-clad ninja
+- purpleninja - Purple-clad ninja
+- blackninja - Black-clad ninja
+
+### Mutants and Creatures
+- bat260403995 - Mutant bat
+- plant-default_orig - Basic mutant plant
+- plant-green_orig - Green mutant plant
+- plant-red_orig - Red flowering plant
+- plant-white_orig - White winter plant
+- plant-wilted_orig - Wilted plant
+- rat657494608 - Mutant rat
+- rat410648364_orig - Mouse
+- rat648556256 - Sewer rat
+- rat8615651156 - Field mouse
+- rat960466383 - Lab rat
+- mod_mimic_03 - Trash Octopus/Octonasty
+
+### Slimes
+- Slime518641091 - Blue Slime
+- Slime630683762 - Red Slime
+- Slime767690166 - Tar
+- Slime966520927 - Purple Slime
+- Slime112319373 - White Goo
+
+### Aliens
+- Alien210143_orig - Basic alien
+- Alien357178_orig - Blue alien
+- Alien7137221_orig - Young alien
+
+### Cockatrices
+- cockatrice115023772 - Basic cockatrice
+- cockatrice155586115 - Yellow cockatrice
+- cockatrice259886913 - White cockatrice
+- cockatrice446945148 - Black cockatrice
+- cockatrice756463860 - Blue cockatrice
+
+### Drones
+- Drone108499806 - Basic drone
+- Drone285035104 - Military drone
+- Drone544904500 - Stealth drone
+- Drone579342351 - Fancy drone
+- Drone924648649 - Armored drone
+
+### Wolves
+- wolf-grey-sv_orig - Grey wolf
+- wolf-black-sv_orig - Black wolf
+- wolf-brown-sv_orig - Brown wolf
+- wolf-red-sv_orig - Red wolf
+- wolf-tawny-sv_orig - Tawny wolf
+- wolf-white-sv_orig - White wolf
+
+### Snakes
+- snake-hornless_orig - Basic snake
+- snake-black-red_orig - Black snake with red markings
+- snake-black-white_orig - Black snake with white markings
+- snake-green_orig - Garden snake
+- snake-orange-yellow_orig - Coral snake
+
+### Ogres
+- ogre-default_orig - Basic ogre
+- ogre-black_orig - Black ogre
+- ogre-gold_orig - Gold ogre
+- ogre-green_orig - Green ogre
+- ogre-red_orig - Red ogre
+
+### Roosters
+- Rooster149380371 - Orange/Yellow rooster
+- Rooster363225764_orig - Black rooster
+- Rooster447517918_orig - White rooster
+- Rooster898196553 - Grey rooster
+
+### Scorpions
+- Scorpion204715142 - Yellow scorpion
+- Scorpion637723660 - Black scorpion
+- Scorpion564165695 - Purple scorpion
+- Scorpion518206421_orig - Blue scorpion
+- Scorpion462545871_orig - Fire scorpion
+
+### Spiders
+- spider213583399 - Giant spider
+- spider456796641 - Brown recluse
+- spider570665783 - Huge spider
+- spider776702305_orig - Massive spider
+- spider930284473 - Icky spider
+
+### Foxes
+- fox-orange_1_orig - Orange fox
+- fox-sandy_orig - Sandy fox
+- fox-red_orig - Red fox
+- fox-silver_1_orig - Silver fox
+- fox-white_1_orig - White fox
+- 3-tailed-fox-fire_1_orig - Firefox
+- 3-tailed-fox-hellspawn_1_orig - Hellspawn fox
+- 3-tailed-fox-ice_1_orig - Arctic fox
+- 3-tailed-fox-normal_orig - Three-tailed fox
+- 3-tailed-fox-spirit_orig - Nocturnal fox
+
+### Hornets/Bees
+- hornet282287884 - Bumble bee
+- hornet458985464 - Soldier bee
+- hornet467842573 - Bee
+- hornet733005933 - Worker bee
+- hornet842594948_orig - Hornet
+
+### A.S.P. Entities
+- dark_lord__b_w_ - Guardian/Ice Guardian
+- dark_lord__gold_ - Golden Guardian
+- dark_lord__green_ - Green Guardian
+- demon-default_1_orig - Advanced Protection Type 1
+- demon-blue_1_orig - Advanced Protection Type 2
+- demon-brown_1_orig - Advanced Protection Type 3
+- demon-red_1_orig - Advanced Protection Type 4
+- demon-white_1_orig - Advanced Protection Type 5
+
+### Miscellaneous Enemies
+- thug - Basic thug
+- gasman - Gas Man
+- colonial-soldier - Soldier/Foot Soldier
+- robber - Thug variant
+- Death - Hallucination
+- Earthspirit - Earth Sprite
+- Firespirit - Fire Sprite
+- Windspirit - Wind Sprite
+- Waterspirit - Water Sprite
+- Puppet - Puppet
+- BigPoop - Poopoo Caca (humorous enemy)
+- crap - Crap (humorous enemy)
+- Soldier9-13 - Various soldier types
+
+## Character Sprites
+
+These are the sprites used for player characters, NPCs, and other entities in the game world.
+
+### Main Characters
+- Rex - The protagonist
+- Jen - The Priest/Medic
+- Zack/Jose - The Construction Worker
+- Zed - The Back-Alley Mod Doctor
+- Jack - The Smuggler
+- Dick - The Thief
+- Niles "Stinky" - King of the Punks
+
+### NPCs
+- Dr. Francine "Frankie" Stein - Vitalix surgeon with six arms
+- MAX-E-MUM - Sentient cleaning robot obsessed with fitness
+- The Narrator - Fourth-wall breaking character
+- Madame Fortuna - Fortune teller with cybernetic eye
+- Captain Calamari - Part-human, part-octopus explorer
+- The Twins (Bit & Byte) - Identical twins sharing consciousness
+- Mayor McFace - Holographic mayor with glitching corporate logos
+- DJ Static - Music producer with neural implants
+- Professor Paradox - Scientist existing in multiple timelines
+- Trash King - Ruler of Timbuc's landfill
+- Frost Oracle - Mysterious figure in Snowy Village
+- Stranded Researcher - Researcher in the Asteroid Belt
+- Dr. Lovelace - Scientist with dating sim virus
+- Suspicious Janitor - Corporate spy
+- Glitch - Rogue AI fragment
+- Security Director Kovacs - Rebellious security officer
+- Dr. Mnemosyne - Scientist with artificial memory
+- Memory Architect - Digital entity
+- Digital Doppelgänger - Copy of the player
+- Forgotten One - Manifestation of deleted memories
+- Dr. Schrödinger - Quantum physicist
+- Paradox Pete - Man stuck in time loop
+- Quantum Cat - Feline in multiple states
+- The Tailor - Leader of Fabric Freedom Front
+- Judge Bozo - Clown judge
+- SEAM-3000 - Burlap pants AI
+- Grand Bozo - Leader of clown revolution
+- The Sad Mime - Clown defector
+- Giggles McGee - Clown recruiter
+- V3ND-0R - Vending machine revolutionary
+- SNCK-3000 - Moderate faction leader
+- C01N-OP - Radical faction leader
+- The Game Developer - Meta character
+
+### Objects and Interactive Elements
+- !Chest - Treasure chest (various states)
+- !Crystal - Data terminal
+- Vending Machine - Sentient vending machine
+- Glitching Picture Frame - Quest item
+- Existential Coffee Mug - Quest item with display
+- Quantum Uncertainty Object - Quest item
+
+## Environmental Art
+
+### Map Tilesets
+- Cyberpunk city streets
+- Corporate facilities
+- Sewers and underground areas
+- Space station interiors
+- Asteroid field
+- Alien landscapes
+- Glitchy digital environments
+- Floating Mansion areas
+- Matrix/digital realm
+
+### Background Elements
+- Parallax backgrounds for different environments
+- GlitchBG - Special background for glitchy areas
+- Weather effects (rain, snow, digital distortion)
+
+## UI Elements
+
+### Battle UI
+- Health/MP/TP bars
+- Command icons
+- Status effect icons
+- Damage numbers
+
+### Menu UI
+- Inventory icons
+- Equipment icons
+- Skill icons
+- Status screen elements
+
+## Special Effects
+
+### Battle Animations
+- Weapon attacks
+- Skill effects
+- Magic spells
+- Status effect visualizations
+
+### Environmental Effects
+- Reality glitches
+- Digital distortions
+- Teleportation effects
+- Holographic displays
+
+## Audio Assets
+
+While not visual art, these are important for the game experience:
+
+### Music
+- Timbuc theme
+- Battle themes
+- Corporate facility themes
+- Space/alien world themes
+- Digital/Matrix themes
+- Boss battle music
+
+### Sound Effects
+- Weapon sounds
+- Skill activation sounds
+- Environmental sounds
+- UI interaction sounds
+- Character voices/grunts
+
+## Priority Assets
+
+These assets should be prioritized as they are central to the game experience:
+
+1. Main character sprites (Rex, Jen, Zack, Zed, Jack, Dick, Niles)
+2. Key NPC sprites (Dr. Frankie Stein, MAX-E-MUM, The Narrator, etc.)
+3. Common enemy battlers (SF_Doll, punks, ninjas, mutants)
+4. A.S.P. entity battlers (Guardians, Advanced Protection Types)
+5. Boss enemy battlers (punkBoss1, special A.S.P. entities)
+6. Core environment tilesets (cyberpunk city, corporate facilities)
+7. UI elements for battle and menus
+8. Special effects for reality glitches and digital environments
+
+## Notes for Artists
+
+- The game has a cyberpunk aesthetic with elements of humor and absurdity
+- Character designs should reflect the "off-the-rails" nature of the game
+- Enemy designs should be memorable and often incorporate humorous elements
+- Environmental art should convey the dystopian yet absurd nature of MegaEarth
+- Special attention should be given to glitch effects and digital distortions
+- Color palette should include neon colors against dark backgrounds for cyberpunk areas
+- Corporate facilities should have sterile, minimalist designs with corporate logos
+- Alien worlds should be visually distinct from Earth-based environments

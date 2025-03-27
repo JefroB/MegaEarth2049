@@ -1,0 +1,207 @@
+Asset Type,Asset Name,Description,Usage,Priority,Status
+Enemy Battler,SF_Doll,Basic security drone,Used for security force enemies,High,Needed
+Enemy Battler,SF_Parasite,Parasitic security entity,Used for security force enemies,Medium,Needed
+Enemy Battler,SF_Thug,Security enforcer,Used for security force enemies,Medium,Needed
+Enemy Battler,punk1,Basic punk enemy,Used for punk enemies,High,Needed
+Enemy Battler,punk2,Punk variant,Used for punk enemies,High,Needed
+Enemy Battler,punk3,Punk variant,Used for punk enemies,High,Needed
+Enemy Battler,punk4,Punk variant,Used for punk enemies,High,Needed
+Enemy Battler,punk5,Punk variant,Used for punk enemies,High,Needed
+Enemy Battler,punk6,Punk variant,Used for punk enemies,High,Needed
+Enemy Battler,punkBoss1,Punk leader/boss,Used for punk boss battle,High,Needed
+Enemy Battler,greenninja,Green-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,pinkninja,Pink-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,brownninja,Brown-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,blueninja,Blue-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,redninja,Red-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,purpleninja,Purple-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,blackninja,Black-clad ninja,Used for ninja enemies,High,Needed
+Enemy Battler,bat260403995,Mutant bat,Used for mutant enemies,Medium,Needed
+Enemy Battler,plant-default_orig,Basic mutant plant,Used for mutant enemies,Medium,Needed
+Enemy Battler,plant-green_orig,Green mutant plant,Used for mutant enemies,Medium,Needed
+Enemy Battler,plant-red_orig,Red flowering plant,Used for mutant enemies,Medium,Needed
+Enemy Battler,plant-white_orig,White winter plant,Used for mutant enemies,Medium,Needed
+Enemy Battler,plant-wilted_orig,Wilted plant,Used for mutant enemies,Medium,Needed
+Enemy Battler,rat657494608,Mutant rat,Used for mutant enemies,Medium,Needed
+Enemy Battler,rat410648364_orig,Mouse,Used for mutant enemies,Medium,Needed
+Enemy Battler,rat648556256,Sewer rat,Used for mutant enemies,Medium,Needed
+Enemy Battler,rat8615651156,Field mouse,Used for mutant enemies,Medium,Needed
+Enemy Battler,rat960466383,Lab rat,Used for mutant enemies,Medium,Needed
+Enemy Battler,mod_mimic_03,Trash Octopus/Octonasty,Used for mutant enemies,Medium,Needed
+Enemy Battler,Slime518641091,Blue Slime,Used for slime enemies,Medium,Needed
+Enemy Battler,Slime630683762,Red Slime,Used for slime enemies,Medium,Needed
+Enemy Battler,Slime767690166,Tar,Used for slime enemies,Medium,Needed
+Enemy Battler,Slime966520927,Purple Slime,Used for slime enemies,Medium,Needed
+Enemy Battler,Slime112319373,White Goo,Used for slime enemies,Medium,Needed
+Enemy Battler,Alien210143_orig,Basic alien,Used for alien enemies,Medium,Needed
+Enemy Battler,Alien357178_orig,Blue alien,Used for alien enemies,Medium,Needed
+Enemy Battler,Alien7137221_orig,Young alien,Used for alien enemies,Medium,Needed
+Enemy Battler,cockatrice115023772,Basic cockatrice,Used for cockatrice enemies,Medium,Needed
+Enemy Battler,cockatrice155586115,Yellow cockatrice,Used for cockatrice enemies,Medium,Needed
+Enemy Battler,cockatrice259886913,White cockatrice,Used for cockatrice enemies,Medium,Needed
+Enemy Battler,cockatrice446945148,Black cockatrice,Used for cockatrice enemies,Medium,Needed
+Enemy Battler,cockatrice756463860,Blue cockatrice,Used for cockatrice enemies,Medium,Needed
+Enemy Battler,Drone108499806,Basic drone,Used for drone enemies,Medium,Needed
+Enemy Battler,Drone285035104,Military drone,Used for drone enemies,Medium,Needed
+Enemy Battler,Drone544904500,Stealth drone,Used for drone enemies,Medium,Needed
+Enemy Battler,Drone579342351,Fancy drone,Used for drone enemies,Medium,Needed
+Enemy Battler,Drone924648649,Armored drone,Used for drone enemies,Medium,Needed
+Enemy Battler,wolf-grey-sv_orig,Grey wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,wolf-black-sv_orig,Black wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,wolf-brown-sv_orig,Brown wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,wolf-red-sv_orig,Red wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,wolf-tawny-sv_orig,Tawny wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,wolf-white-sv_orig,White wolf,Used for wolf enemies,Medium,Needed
+Enemy Battler,snake-hornless_orig,Basic snake,Used for snake enemies,Medium,Needed
+Enemy Battler,snake-black-red_orig,Black snake with red markings,Used for snake enemies,Medium,Needed
+Enemy Battler,snake-black-white_orig,Black snake with white markings,Used for snake enemies,Medium,Needed
+Enemy Battler,snake-green_orig,Garden snake,Used for snake enemies,Medium,Needed
+Enemy Battler,snake-orange-yellow_orig,Coral snake,Used for snake enemies,Medium,Needed
+Enemy Battler,ogre-default_orig,Basic ogre,Used for ogre enemies,Medium,Needed
+Enemy Battler,ogre-black_orig,Black ogre,Used for ogre enemies,Medium,Needed
+Enemy Battler,ogre-gold_orig,Gold ogre,Used for ogre enemies,Medium,Needed
+Enemy Battler,ogre-green_orig,Green ogre,Used for ogre enemies,Medium,Needed
+Enemy Battler,ogre-red_orig,Red ogre,Used for ogre enemies,Medium,Needed
+Enemy Battler,Rooster149380371,Orange/Yellow rooster,Used for rooster enemies,Low,Needed
+Enemy Battler,Rooster363225764_orig,Black rooster,Used for rooster enemies,Low,Needed
+Enemy Battler,Rooster447517918_orig,White rooster,Used for rooster enemies,Low,Needed
+Enemy Battler,Rooster898196553,Grey rooster,Used for rooster enemies,Low,Needed
+Enemy Battler,Scorpion204715142,Yellow scorpion,Used for scorpion enemies,Medium,Needed
+Enemy Battler,Scorpion637723660,Black scorpion,Used for scorpion enemies,Medium,Needed
+Enemy Battler,Scorpion564165695,Purple scorpion,Used for scorpion enemies,Medium,Needed
+Enemy Battler,Scorpion518206421_orig,Blue scorpion,Used for scorpion enemies,Medium,Needed
+Enemy Battler,Scorpion462545871_orig,Fire scorpion,Used for scorpion enemies,Medium,Needed
+Enemy Battler,spider213583399,Giant spider,Used for spider enemies,Medium,Needed
+Enemy Battler,spider456796641,Brown recluse,Used for spider enemies,Medium,Needed
+Enemy Battler,spider570665783,Huge spider,Used for spider enemies,Medium,Needed
+Enemy Battler,spider776702305_orig,Massive spider,Used for spider enemies,Medium,Needed
+Enemy Battler,spider930284473,Icky spider,Used for spider enemies,Medium,Needed
+Enemy Battler,fox-orange_1_orig,Orange fox,Used for fox enemies,Medium,Needed
+Enemy Battler,fox-sandy_orig,Sandy fox,Used for fox enemies,Medium,Needed
+Enemy Battler,fox-red_orig,Red fox,Used for fox enemies,Medium,Needed
+Enemy Battler,fox-silver_1_orig,Silver fox,Used for fox enemies,Medium,Needed
+Enemy Battler,fox-white_1_orig,White fox,Used for fox enemies,Medium,Needed
+Enemy Battler,3-tailed-fox-fire_1_orig,Firefox,Used for special fox enemies,Medium,Needed
+Enemy Battler,3-tailed-fox-hellspawn_1_orig,Hellspawn fox,Used for special fox enemies,Medium,Needed
+Enemy Battler,3-tailed-fox-ice_1_orig,Arctic fox,Used for special fox enemies,Medium,Needed
+Enemy Battler,3-tailed-fox-normal_orig,Three-tailed fox,Used for special fox enemies,Medium,Needed
+Enemy Battler,3-tailed-fox-spirit_orig,Nocturnal fox,Used for special fox enemies,Medium,Needed
+Enemy Battler,hornet282287884,Bumble bee,Used for bee/hornet enemies,Medium,Needed
+Enemy Battler,hornet458985464,Soldier bee,Used for bee/hornet enemies,Medium,Needed
+Enemy Battler,hornet467842573,Bee,Used for bee/hornet enemies,Medium,Needed
+Enemy Battler,hornet733005933,Worker bee,Used for bee/hornet enemies,Medium,Needed
+Enemy Battler,hornet842594948_orig,Hornet,Used for bee/hornet enemies,Medium,Needed
+Enemy Battler,dark_lord__b_w_,Guardian/Ice Guardian,Used for A.S.P. entities,High,Needed
+Enemy Battler,dark_lord__gold_,Golden Guardian,Used for A.S.P. entities,High,Needed
+Enemy Battler,dark_lord__green_,Green Guardian,Used for A.S.P. entities,High,Needed
+Enemy Battler,demon-default_1_orig,Advanced Protection Type 1,Used for A.S.P. entities,High,Needed
+Enemy Battler,demon-blue_1_orig,Advanced Protection Type 2,Used for A.S.P. entities,High,Needed
+Enemy Battler,demon-brown_1_orig,Advanced Protection Type 3,Used for A.S.P. entities,High,Needed
+Enemy Battler,demon-red_1_orig,Advanced Protection Type 4,Used for A.S.P. entities,High,Needed
+Enemy Battler,demon-white_1_orig,Advanced Protection Type 5,Used for A.S.P. entities,High,Needed
+Enemy Battler,thug,Basic thug,Used for human enemies,Medium,Needed
+Enemy Battler,gasman,Gas Man,Used for human enemies,Medium,Needed
+Enemy Battler,colonial-soldier,Soldier/Foot Soldier,Used for human enemies,Medium,Needed
+Enemy Battler,robber,Thug variant,Used for human enemies,Medium,Needed
+Enemy Battler,Death,Hallucination,Used for special enemies,Medium,Needed
+Enemy Battler,Earthspirit,Earth Sprite,Used for elemental enemies,Medium,Needed
+Enemy Battler,Firespirit,Fire Sprite,Used for elemental enemies,Medium,Needed
+Enemy Battler,Windspirit,Wind Sprite,Used for elemental enemies,Medium,Needed
+Enemy Battler,Waterspirit,Water Sprite,Used for elemental enemies,Medium,Needed
+Enemy Battler,Puppet,Puppet,Used for special enemies,Medium,Needed
+Enemy Battler,BigPoop,Poopoo Caca (humorous enemy),Used for humorous enemies,Low,Needed
+Enemy Battler,crap,Crap (humorous enemy),Used for humorous enemies,Low,Needed
+Enemy Battler,Soldier9,Soldier variant,Used for soldier enemies,Medium,Needed
+Enemy Battler,Soldier10,Soldier variant,Used for soldier enemies,Medium,Needed
+Enemy Battler,Soldier11,Soldier variant,Used for soldier enemies,Medium,Needed
+Enemy Battler,Soldier12,Soldier variant,Used for soldier enemies,Medium,Needed
+Enemy Battler,Soldier13,Soldier variant,Used for soldier enemies,Medium,Needed
+Character Sprite,Rex,The protagonist,Main character,Critical,Needed
+Character Sprite,Jen,The Priest/Medic,Main character,Critical,Needed
+Character Sprite,Zack/Jose,The Construction Worker,Main character,Critical,Needed
+Character Sprite,Zed,The Back-Alley Mod Doctor,Main character,Critical,Needed
+Character Sprite,Jack,The Smuggler,Main character,Critical,Needed
+Character Sprite,Dick,The Thief,Main character,Critical,Needed
+Character Sprite,Niles "Stinky",King of the Punks,Main character,Critical,Needed
+Character Sprite,Dr. Francine "Frankie" Stein,Vitalix surgeon with six arms,NPC,High,Needed
+Character Sprite,MAX-E-MUM,Sentient cleaning robot obsessed with fitness,NPC,High,Needed
+Character Sprite,The Narrator,Fourth-wall breaking character,NPC,High,Needed
+Character Sprite,Madame Fortuna,Fortune teller with cybernetic eye,NPC,High,Needed
+Character Sprite,Captain Calamari,Part-human part-octopus explorer,NPC,High,Needed
+Character Sprite,Bit & Byte,Identical twins sharing consciousness,NPC,High,Needed
+Character Sprite,Mayor McFace,Holographic mayor with glitching corporate logos,NPC,High,Needed
+Character Sprite,DJ Static,Music producer with neural implants,NPC,High,Needed
+Character Sprite,Professor Paradox,Scientist existing in multiple timelines,NPC,High,Needed
+Character Sprite,Trash King,Ruler of Timbuc's landfill,NPC,High,Needed
+Character Sprite,Frost Oracle,Mysterious figure in Snowy Village,NPC,Medium,Needed
+Character Sprite,Stranded Researcher,Researcher in the Asteroid Belt,NPC,Medium,Needed
+Character Sprite,Dr. Lovelace,Scientist with dating sim virus,NPC,Medium,Needed
+Character Sprite,Suspicious Janitor,Corporate spy,NPC,Medium,Needed
+Character Sprite,Glitch,Rogue AI fragment,NPC,Medium,Needed
+Character Sprite,Security Director Kovacs,Rebellious security officer,NPC,Medium,Needed
+Character Sprite,Dr. Mnemosyne,Scientist with artificial memory,NPC,Medium,Needed
+Character Sprite,Memory Architect,Digital entity,NPC,Medium,Needed
+Character Sprite,Digital Doppelgänger,Copy of the player,NPC,Medium,Needed
+Character Sprite,Forgotten One,Manifestation of deleted memories,NPC,Medium,Needed
+Character Sprite,Dr. Schrödinger,Quantum physicist,NPC,Medium,Needed
+Character Sprite,Paradox Pete,Man stuck in time loop,NPC,Medium,Needed
+Character Sprite,Quantum Cat,Feline in multiple states,NPC,Medium,Needed
+Character Sprite,The Tailor,Leader of Fabric Freedom Front,NPC,Medium,Needed
+Character Sprite,Judge Bozo,Clown judge,NPC,Medium,Needed
+Character Sprite,SEAM-3000,Burlap pants AI,NPC,Medium,Needed
+Character Sprite,Grand Bozo,Leader of clown revolution,NPC,Medium,Needed
+Character Sprite,The Sad Mime,Clown defector,NPC,Medium,Needed
+Character Sprite,Giggles McGee,Clown recruiter,NPC,Medium,Needed
+Character Sprite,V3ND-0R,Vending machine revolutionary,NPC,Medium,Needed
+Character Sprite,SNCK-3000,Moderate faction leader,NPC,Medium,Needed
+Character Sprite,C01N-OP,Radical faction leader,NPC,Medium,Needed
+Character Sprite,The Game Developer,Meta character,NPC,Medium,Needed
+Object Sprite,!Chest,Treasure chest (various states),Interactive object,High,Needed
+Object Sprite,!Crystal,Data terminal,Interactive object,High,Needed
+Object Sprite,Vending Machine,Sentient vending machine,Interactive object,High,Needed
+Object Sprite,Glitching Picture Frame,Quest item with visual glitches,Quest item,Medium,Needed
+Object Sprite,Existential Coffee Mug,Quest item with display,Quest item,Medium,Needed
+Object Sprite,Quantum Uncertainty Object,Quest item with quantum effects,Quest item,Medium,Needed
+Tileset,Cyberpunk City,Cyberpunk city streets,Map tileset,High,Needed
+Tileset,Corporate Facilities,Corporate interiors and labs,Map tileset,High,Needed
+Tileset,Sewers,Underground sewers and tunnels,Map tileset,High,Needed
+Tileset,Space Station,Space station interiors,Map tileset,High,Needed
+Tileset,Asteroid Field,Asteroid field environment,Map tileset,High,Needed
+Tileset,Alien Landscapes,Various alien world environments,Map tileset,High,Needed
+Tileset,Digital Realm,Glitchy digital environments,Map tileset,High,Needed
+Tileset,Floating Mansion,Floating Mansion areas,Map tileset,High,Needed
+Tileset,Matrix,Digital Matrix realm,Map tileset,High,Needed
+Background,Cyberpunk Parallax,Parallax background for cyberpunk areas,Background,Medium,Needed
+Background,Corporate Parallax,Parallax background for corporate areas,Background,Medium,Needed
+Background,Space Parallax,Parallax background for space areas,Background,Medium,Needed
+Background,GlitchBG,Special background for glitchy areas,Background,Medium,Needed
+Background,Digital Parallax,Parallax background for digital areas,Background,Medium,Needed
+UI Element,Health Bar,Player and enemy health display,Battle UI,High,Needed
+UI Element,MP Bar,Magic/mana point display,Battle UI,High,Needed
+UI Element,TP Bar,Technical/tactical point display,Battle UI,High,Needed
+UI Element,Command Icons,Battle command icons,Battle UI,High,Needed
+UI Element,Status Icons,Status effect icons,Battle UI,High,Needed
+UI Element,Damage Numbers,Damage display numbers,Battle UI,High,Needed
+UI Element,Inventory Icons,Icons for inventory items,Menu UI,High,Needed
+UI Element,Equipment Icons,Icons for equipment items,Menu UI,High,Needed
+UI Element,Skill Icons,Icons for character skills,Menu UI,High,Needed
+UI Element,Status Screen,Character status display elements,Menu UI,High,Needed
+Effect,Weapon Attacks,Various weapon attack animations,Battle animation,High,Needed
+Effect,Skill Effects,Various skill effect animations,Battle animation,High,Needed
+Effect,Magic Spells,Various spell animations,Battle animation,High,Needed
+Effect,Status Effects,Status effect visualizations,Battle animation,High,Needed
+Effect,Reality Glitches,Visual glitch effects,Environmental effect,High,Needed
+Effect,Digital Distortions,Digital distortion effects,Environmental effect,High,Needed
+Effect,Teleportation,Teleportation visual effects,Environmental effect,Medium,Needed
+Effect,Holographic Displays,Holographic UI and display effects,Environmental effect,Medium,Needed
+Audio,Timbuc Theme,Music for Timbuc area,Background music,Medium,Needed
+Audio,Battle Theme,Music for standard battles,Background music,Medium,Needed
+Audio,Boss Battle Theme,Music for boss battles,Background music,Medium,Needed
+Audio,Corporate Theme,Music for corporate facilities,Background music,Medium,Needed
+Audio,Space Theme,Music for space environments,Background music,Medium,Needed
+Audio,Digital Theme,Music for digital/Matrix environments,Background music,Medium,Needed
+Audio,Weapon Sounds,Various weapon sound effects,Sound effect,Medium,Needed
+Audio,Skill Sounds,Various skill activation sounds,Sound effect,Medium,Needed
+Audio,Environmental Sounds,Various environmental sounds,Sound effect,Medium,Needed
+Audio,UI Sounds,Various UI interaction sounds,Sound effect,Medium,Needed
+Audio,Character Voices,Various character voice clips/grunts,Sound effect,Low,Needed

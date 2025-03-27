@@ -1,0 +1,15 @@
+{
+  "name": "Memory Fragment 2",
+  "mapId": 104,
+  "x": 18,
+  "y": 15,
+  "appearance": "!Crystal",
+  "index": 2,
+  "dialogue": [
+    "You found a memory fragment!",
+    "It pulses with digital energy as you touch it.",
+    "*The fragment projects a holographic memory*",
+    "You see a boardroom meeting at NeuraTech. Executives are reviewing sales charts.",
+    "EXECUTIVE: 'The neural ad integration is working perfectly. Sales of completely useless products are up 500%. But we need to push further. Quantum Dynamics has the tech to make this go multiverse-wide.'"
+  ]
+}

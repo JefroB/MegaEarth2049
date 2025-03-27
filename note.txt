@@ -1,0 +1,1 @@
+Taking MegaEarth2049_EditingGuide.md and ReducingClineRequests.md into account to reduce cline api requests, and taking MegaEarth2049_Story.md into account for the story, let's add quests and story into the game files for levels 21-30.

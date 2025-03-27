@@ -1,0 +1,1858 @@
+{
+  "autoplayBgm": false,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "bgs": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "disableDashing": false,
+  "displayName": "Quantum Dynamics Facility",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 13,
+  "note": "",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 5,
+  "width": 17,
+  "data": [
+    2648,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2652,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2648,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2816,
+    2640,
+    2626,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2644,
+    2625,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624,
+    2624
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "Exit",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Move1",
+                  "pan": 0,
+                  "pitch": 100,
+                  "volume": 90
+                }
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                10,
+                8,
+                8,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 1,
+          "walkAnime": true
+        }
+      ],
+      "x": 8,
+      "y": 11
+    },
+    {
+      "id": 2,
+      "name": "Quantum Security Field",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!Flame",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "A shimmering quantum security field blocks your path."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "It appears to exist in multiple states simultaneously,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "making it impossible to bypass conventionally."
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Use A.S.P. Disruptor",
+                  "Try to pass through",
+                  "Leave"
+                ],
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Use A.S.P. Disruptor"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                83,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You use the A.S.P. Disruptor on the quantum field."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "The field's quantum states collapse into a single"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "reality, temporarily disabling the security barrier."
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You need a specialized device to bypass this"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "quantum security field."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Try to pass through"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You attempt to pass through the field, but it"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "reacts violently to your presence. The quantum"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "energies cause severe damage to your body."
+              ]
+            },
+            {
+              "code": 301,
+              "indent": 1,
+              "parameters": [
+                0,
+                10,
+                false,
+                false
+              ]
+            },
+            {
+              "code": 601,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 602,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 603,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Leave"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!Flame",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The quantum security field remains collapsed,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "allowing you to pass freely."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 8,
+      "y": 6
+    },
+    {
+      "id": 3,
+      "name": "Quantum Dynamics Terminal",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!Crystal",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "A secure terminal containing Quantum Dynamics research data."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "With the quantum field collapsed, you can access it freely."
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Access the terminal",
+                  "Leave it alone"
+                ],
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Access the terminal"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You access the terminal and download research data"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "on Quantum Dynamics' reality-warping technology and"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "their contribution to A.S.P.'s development."
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 1,
+              "parameters": [
+                82,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You obtained Corporate Research Data!"
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "B",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Leave it alone"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "B",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!Crystal",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The terminal has been accessed. The research data"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "has already been downloaded."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 8,
+      "y": 4
+    },
+    {
+      "id": 4,
+      "name": "Jack - Asteroid Field Quest",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 3,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "Actor2",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Hey there! You're the one with the neural implant,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "right? I've been looking for someone like you."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The name's Jack. I'm the captain of the Marcus Garvey 2.0,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "the fastest ship this side of Jupiter. Well, when it's"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "working properly, that is."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "I've got a dangerous smuggling run through an asteroid"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "field. The cargo is refugees fleeing from an"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "A.S.P.-controlled space station."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "But I need an Asteroid Field Navigation Chart and a"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Shield Modulator to protect my ship. Think you can"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "help me find those?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "I'll help",
+                  "Not interested"
+                ],
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "I'll help"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Great! The Navigation Chart should be in the old"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "spaceport control room in Timbuc 2. And the Shield"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Modulator is probably in the abandoned space station"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "maintenance bay."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Once you've got both items, come find me at the"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "spaceport. We'll make the run together!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 1,
+              "parameters": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Not interested"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Your loss. If you change your mind, I'll be around."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Those refugees are counting on someone to help them."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 4,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "Actor2",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                76,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                77,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You got both items! Perfect. Now we can make the"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "smuggling run through the asteroid field."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "*Several hours later*"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "That was close! But we made it through and rescued"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "the refugees."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "They told me some disturbing information about A.S.P."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "It's been experimenting with alien technology found"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "in an abandoned space station, creating hybrid"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "creatures and new forms of control technology."
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 2,
+              "parameters": [
+                0,
+                0,
+                76,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 2,
+              "parameters": [
+                0,
+                0,
+                77,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 2,
+              "parameters": [
+                78,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                5,
+                5,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                4,
+                4,
+                1
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "B",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Still working on getting those items? The Navigation"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Chart should be in the old spaceport control room in"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Timbuc 2, and the Shield Modulator is in the abandoned"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "space station maintenance bay."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "B",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "Actor2",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Thanks for helping with the smuggling run. Those"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "refugees are safe now. The information they provided"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "about A.S.P. is disturbing, though."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Actor2",
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "I've heard rumors about an alien artifact in the"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "abandoned space station. If you could get your hands"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "on it, it might help in the fight against A.S.P."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 12,
+      "y": 8
+    },
+    {
+      "name": "Suspicious Janitor",
+      "mapId": 110,
+      "x": 8,
+      "y": 12,
+      "appearance": "Actor1",
+      "index": 7,
+      "initialDialogue": [
+        "*The janitor mops the same spot repeatedly*",
+        "Nothing to see here. Just cleaning up.",
+        "Definitely not spying on anything. Nope."
+      ],
+      "questDialogue": [
+        "*The janitor looks around nervously*",
+        "Psst! Over here! You're looking for info on Project Crossover, right?",
+        "I've been spying on Quantum Dynamics for months. They're planning to merge all five corporate realities!",
+        "You need to sabotage three key systems to stop the project. They're scattered around the facility.",
+        "Look for terminals with the Quantum Dynamics logo. But watch out for MAX-E-MUM, the security robot. He's... enthusiastic."
+      ],
+      "followupDialogue": [
+        "*pretends to mop while whispering*",
+        "Remember, three terminals. And if anyone asks, you never saw me.",
+        "I'm just a janitor who happens to know top-secret corporate plans. Totally normal. Nothing suspicious at all."
+      ]
+    },
+    {
+      "name": "MAX-E-MUM",
+      "mapId": 110,
+      "x": 15,
+      "y": 15,
+      "appearance": "Monster",
+      "index": 3,
+      "initialDialogue": [
+        "SECURITY PROTOCOL ACTIVE. SCANNING...",
+        "NO THREATS DETECTED. CONTINUING PATROL.",
+        "REMEMBER: MAXIMUM SECURITY MEANS MAXIMUM GAINS!"
+      ],
+      "confrontationDialogue": [
+        "INTRUDER DETECTED! PREPARE FOR MAXIMUM SECURITY!",
+        "*flexes robotic arms threateningly*",
+        "DO YOU EVEN LIFT, INTRUDER? I LIFT SECURITY PROTOCOLS ALL DAY! EVERY DAY IS SECURITY DAY!"
+      ],
+      "combatDialogue": [
+        "COMBAT MODE ACTIVATED! PREPARE FOR MAXIMUM PAIN!",
+        "SYSTEM... FAILURE... NEED... MORE... PROTEIN..."
+      ],
+      "fitnessDialogue": [
+        "YOU WANT FITNESS TIPS? FINALLY, SOMEONE WHO APPRECIATES THE TEMPLE THAT IS MY CHASSIS!",
+        "*spends 20 minutes talking about oil-based protein shakes and proper joint lubrication*",
+        "...AND THAT'S WHY I NEVER SKIP SECURITY DAY! WAIT, I WAS SUPPOSED TO BE GUARDING SOMETHING.",
+        "OH WELL, YOU SEEM COOL. CARRY ON, BRO!"
+      ],
+      "runDialogue": [
+        "CARDIO IS THE FOUNDATION OF FITNESS! RUN, HUMAN!",
+        "I'LL CATCH YOU EVENTUALLY! LEG DAY WAS YESTERDAY AND I'M STILL FEELING IT!"
+      ],
+      "defeatedDialogue": [
+        "*MAX-E-MUM is doing robot push-ups*",
+        "999,997... 999,998... 999,999... ONE MILLION!",
+        "YEAH! MAXIMUM EFFORT! MAXIMUM RESULTS!",
+        "*completely ignores you now*"
+      ]
+    },
+    {
+      "name": "Quantum Terminal 1",
+      "mapId": 110,
+      "x": 5,
+      "y": 5,
+      "appearance": "!Crystal",
+      "index": 3,
+      "initialDialogue": [
+        "A high-tech terminal with the Quantum Dynamics logo.",
+        "It seems to be running some kind of simulation."
+      ],
+      "activeDialogue": [
+        "A terminal running Project Crossover simulations.",
+        "The screen shows various corporate products merging together in disturbing ways."
+      ],
+      "sabotageDialogue": [
+        "You access the terminal and begin corrupting the simulation data.",
+        "The screen flickers and displays: 'REALITY COEFFICIENT DESTABILIZED'",
+        "As you finish, the terminal briefly shows an ad for 'QUANTUM BURLAP - UNDERWEAR THAT EXISTS IN MULTIPLE DIMENSIONS SIMULTANEOUSLY!'"
+      ]
+    },
+    {
+      "name": "Quantum Terminal 2",
+      "mapId": 110,
+      "x": 18,
+      "y": 8,
+      "appearance": "!Crystal",
+      "index": 3,
+      "initialDialogue": [
+        "A high-tech terminal with the Quantum Dynamics logo.",
+        "It seems to be running some kind of simulation."
+      ],
+      "activeDialogue": [
+        "A terminal controlling reality stabilizers.",
+        "The screen shows five corporate logos slowly merging into one horrifying mega-logo."
+      ],
+      "sabotageDialogue": [
+        "You access the terminal and reverse the polarity of the reality stabilizers.",
+        "The screen glitches and displays: 'DIMENSIONAL INTEGRITY COMPROMISED'",
+        "For a moment, you see yourself wearing burlap underwear in the reflection of the screen.",
+        "Thankfully, it's just a glitch... you hope."
+      ]
+    },
+    {
+      "name": "Quantum Terminal 3",
+      "mapId": 110,
+      "x": 12,
+      "y": 18,
+      "appearance": "!Crystal",
+      "index": 3,
+      "initialDialogue": [
+        "A high-tech terminal with the Quantum Dynamics logo.",
+        "It seems to be running some kind of simulation."
+      ],
+      "activeDialogue": [
+        "The main Project Crossover control terminal.",
+        "The screen shows a countdown to 'CORPORATE SINGULARITY' with various metrics and projections."
+      ],
+      "sabotageDialogue": [
+        "You access the terminal and upload a virus that replaces all corporate synergy algorithms with recipes for various pasta dishes.",
+        "The screen flashes 'CRITICAL ERROR: INSUFFICIENT GARLIC BREAD FOR CORPORATE MERGER' before shutting down completely."
+      ]
+    },
+    {
+      "name": "Professor Paradox",
+      "mapId": 110,
+      "x": 10,
+      "y": 10,
+      "appearance": "Actor3",
+      "index": 6,
+      "initialDialogue": [
+        "*The professor appears to be having a conversation with... himself? But there's only one of him.*",
+        "Yes, I know the temporal implications! I was there yesterday! Or will be tomorrow! Whatever!"
+      ],
+      "midQuestDialogue": [
+        "Ah! You're the one who will sabotage/has sabotaged/is sabotaging the terminals!",
+        "Excellent! I've been expecting you since last week, which is actually next month from your perspective.",
+        "You need to sabotage all three terminals to prevent the corporate reality merger.",
+        "Trust me, I've seen the future/past/alternate timeline where it happens. Everyone wears burlap EVERYTHING."
+      ],
+      "completionDialogue": [
+        "You did it! You've sabotaged all three terminals!",
+        "Project Crossover has been stopped! The corporate realities will remain separate, as nature intended.",
+        "*The professor hands you a strange device*",
+        "Take this Quantum Stabilizer. It will protect you from any lingering reality glitches.",
+        "I've already given it to you next Tuesday, but this timeline needs it now.",
+        "Oh, and watch out for those burlap underwear ads. They're surprisingly persuasive across all quantum realities.",
+        "Even I bought three pairs! *scratches uncomfortably*"
+      ]
+    }
+  ]
+}

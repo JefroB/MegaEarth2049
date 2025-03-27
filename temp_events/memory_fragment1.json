@@ -1,0 +1,15 @@
+{
+  "name": "Memory Fragment 1",
+  "mapId": 104,
+  "x": 5,
+  "y": 12,
+  "appearance": "!Crystal",
+  "index": 2,
+  "dialogue": [
+    "You found a memory fragment!",
+    "It pulses with digital energy as you touch it.",
+    "*The fragment projects a holographic memory*",
+    "You see the employee in a NeuraTech lab, strapped to a chair while scientists inject glowing blue fluid into their neural ports.",
+    "SCIENTIST: 'Ad integration successful. Subject now perceives Burlap-brand products as essential to survival. Moving to phase 2.'"
+  ]
+}

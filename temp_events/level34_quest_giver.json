@@ -1,0 +1,658 @@
+{
+  "id": 0,
+  "name": "Frost Oracle",
+  "note": "",
+  "pages": [
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": false,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 7,
+        "characterName": "People1",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "I sense a disturbance in the digital aether."
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "The ancient technology buried beneath the"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "snow is awakening. It calls to you..."
+          ]
+        },
+        {
+          "code": 102,
+          "indent": 0,
+          "parameters": [
+            [
+              "Investigate",
+              "Not now"
+            ],
+            1
+          ]
+        },
+        {
+          "code": 402,
+          "indent": 0,
+          "parameters": [
+            0,
+            "Investigate"
+          ]
+        },
+        {
+          "code": 121,
+          "indent": 1,
+          "parameters": [
+            34,
+            34,
+            0
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Seek the three frozen data crystals hidden"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "throughout the village. They contain crucial"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "information about A.S.P.'s early development."
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "The first crystal lies in the abandoned"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "research outpost to the north. The second"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "is hidden in the village elder's home."
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "The third... that you must discover yourself."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 402,
+          "indent": 0,
+          "parameters": [
+            1,
+            "Not now"
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "The digital whispers grow stronger. Time"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "is of the essence. Return when you are"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "ready to face what lies beneath the ice."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    },
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": false,
+        "switch1Id": 34,
+        "switch1Valid": true,
+        "switch2Id": 35,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 7,
+        "characterName": "People1",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 111,
+          "indent": 0,
+          "parameters": [
+            1,
+            34,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Have you found all three data crystals?"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "The digital whispers grow more urgent."
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "We must uncover what lies beneath the ice."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 411,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "You've found all three crystals! Let me"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "combine them to reveal their secrets..."
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "*The Oracle places the crystals in a triangle"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "formation. They glow with an eerie light and"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "project a holographic message*"
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "HOLOGRAM: Project A.S.P. initial testing"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "successful. Neural integration complete."
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Moving to phase two: deployment in"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "abandoned space station sector."
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "This confirms my suspicions. A.S.P. was"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "first tested here on Ting Ting before being"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "moved to the abandoned space station."
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "You must travel there next. Take this"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Neural Amplifier. It will enhance your"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "abilities and protect you from A.S.P.'s"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "digital influence."
+          ]
+        },
+        {
+          "code": 128,
+          "indent": 1,
+          "parameters": [
+            {
+              "name": "Neural Amplifier",
+              "icon": 176,
+              "description": "A device that enhances neural capabilities and provides protection against digital intrusion.",
+              "effects": [
+                {
+                  "code": 22,
+                  "dataId": 0,
+                  "value": 0.05
+                },
+                {
+                  "code": 22,
+                  "dataId": 7,
+                  "value": 0.05
+                },
+                {
+                  "code": 22,
+                  "dataId": 8,
+                  "value": 0.05
+                }
+              ],
+              "occasion": 3,
+              "price": 0,
+              "consumable": false,
+              "itypeId": 1,
+              "scope": 7,
+              "speed": 0,
+              "successRate": 100,
+              "repeats": 1,
+              "tpGain": 0,
+              "hitType": 0,
+              "animationId": 0,
+              "damage": {
+                "critical": false,
+                "elementId": 0,
+                "formula": "0",
+                "type": 0,
+                "variance": 20
+              },
+              "note": ""
+            }
+          ]
+        },
+        {
+          "code": 121,
+          "indent": 1,
+          "parameters": [
+            35,
+            35,
+            0
+          ]
+        },
+        {
+          "code": 123,
+          "indent": 1,
+          "parameters": [
+            "A",
+            0
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 412,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    },
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": true,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 7,
+        "characterName": "People1",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "People1",
+            7,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "The abandoned space station holds the key"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "to understanding A.S.P.'s true nature."
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "Be careful. The digital aether is turbulent."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    }
+  ],
+  "x": 20,
+  "y": 20
+}

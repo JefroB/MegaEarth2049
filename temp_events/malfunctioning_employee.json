@@ -1,0 +1,29 @@
+{
+  "name": "Malfunctioning Employee",
+  "mapId": 104,
+  "x": 12,
+  "y": 8,
+  "appearance": "Actor2",
+  "index": 5,
+  "dialogue": [
+    "*The employee's eyes flicker with digital static*",
+    "NEW! BURLAP UNDERWEAR! FEEL THE SCRATCH THAT MEANS IT'S WORKING! Wait... what was I...",
+    "Sorry about that. I keep getting these... DRINK LIQUID COURAGE! IT'S LIKE REGULAR COURAGE BUT WET AND PROBABLY FLAMMABLE!",
+    "*shakes head violently* Something's wrong with my neural implant. NeuraTech was testing some new memory tech and now I can't stop... ASPARAGUS-FLAVORED TOOTHPASTE! TASTE THE VEGETABLE FRESHNESS!"
+  ],
+  "questDialogue": [
+    "Thank you! You need to find Dr. Lovelace at the NeuraTech Facility. She was leading the memory experiments.",
+    "But first, I need you to collect three memory fragments that escaped from my brain. They're floating around the station somewhere.",
+    "They look like little glowing orbs. BIOLUMINESCENT NOSE HAIR! LIGHT UP THE NIGHT WITH YOUR NOSTRILS!"
+  ],
+  "waitingDialogue": [
+    "Have you found all three memory fragments?",
+    "I can feel the holes in my brain where they should be. MEMORY HOLES! PERFECT FOR STORING SMALL ITEMS OR EXISTENTIAL DREAD!"
+  ],
+  "completionDialogue": [
+    "You found them all! I can feel my mind clearing up already. Still getting some...",
+    "QUANTUM TOAST! IT'S SIMULTANEOUSLY BURNT AND RAW UNTIL YOU OBSERVE IT!",
+    "Now you need to take those fragments to Dr. Lovelace at the NeuraTech Facility.",
+    "She'll know what to do with them. And maybe she can explain why NeuraTech is pumping these bizarre ads into our brains."
+  ]
+}

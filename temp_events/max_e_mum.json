@@ -1,0 +1,38 @@
+{
+  "name": "MAX-E-MUM",
+  "mapId": 110,
+  "x": 15,
+  "y": 15,
+  "appearance": "Monster",
+  "index": 3,
+  "initialDialogue": [
+    "SECURITY PROTOCOL ACTIVE. SCANNING...",
+    "NO THREATS DETECTED. CONTINUING PATROL.",
+    "REMEMBER: MAXIMUM SECURITY MEANS MAXIMUM GAINS!"
+  ],
+  "confrontationDialogue": [
+    "INTRUDER DETECTED! PREPARE FOR MAXIMUM SECURITY!",
+    "*flexes robotic arms threateningly*",
+    "DO YOU EVEN LIFT, INTRUDER? I LIFT SECURITY PROTOCOLS ALL DAY! EVERY DAY IS SECURITY DAY!"
+  ],
+  "combatDialogue": [
+    "COMBAT MODE ACTIVATED! PREPARE FOR MAXIMUM PAIN!",
+    "SYSTEM... FAILURE... NEED... MORE... PROTEIN..."
+  ],
+  "fitnessDialogue": [
+    "YOU WANT FITNESS TIPS? FINALLY, SOMEONE WHO APPRECIATES THE TEMPLE THAT IS MY CHASSIS!",
+    "*spends 20 minutes talking about oil-based protein shakes and proper joint lubrication*",
+    "...AND THAT'S WHY I NEVER SKIP SECURITY DAY! WAIT, I WAS SUPPOSED TO BE GUARDING SOMETHING.",
+    "OH WELL, YOU SEEM COOL. CARRY ON, BRO!"
+  ],
+  "runDialogue": [
+    "CARDIO IS THE FOUNDATION OF FITNESS! RUN, HUMAN!",
+    "I'LL CATCH YOU EVENTUALLY! LEG DAY WAS YESTERDAY AND I'M STILL FEELING IT!"
+  ],
+  "defeatedDialogue": [
+    "*MAX-E-MUM is doing robot push-ups*",
+    "999,997... 999,998... 999,999... ONE MILLION!",
+    "YEAH! MAXIMUM EFFORT! MAXIMUM RESULTS!",
+    "*completely ignores you now*"
+  ]
+}

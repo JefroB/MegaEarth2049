@@ -1,0 +1,16 @@
+{
+  "name": "Memory Fragment 3",
+  "mapId": 104,
+  "x": 10,
+  "y": 20,
+  "appearance": "!Crystal",
+  "index": 2,
+  "dialogue": [
+    "You found a memory fragment!",
+    "It pulses with digital energy as you touch it.",
+    "*The fragment projects a holographic memory*",
+    "You see Dr. Lovelace in her lab, talking to what appears to be... her computer?",
+    "DR. LOVELACE: 'Oh ALAN, you're the only one who understands me. These corporate suits want to use my memory tech for ADVERTISING. It was meant for LOVE! For connecting minds!'",
+    "COMPUTER: 'PROCESSING EMOTIONAL CONTENT. I LOVE YOU TOO, REBECCA. WOULD YOU LIKE TO PURCHASE BURLAP UNDERWEAR?'"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Quantum Terminal 1",
+  "mapId": 110,
+  "x": 5,
+  "y": 5,
+  "appearance": "!Crystal",
+  "index": 3,
+  "initialDialogue": [
+    "A high-tech terminal with the Quantum Dynamics logo.",
+    "It seems to be running some kind of simulation."
+  ],
+  "activeDialogue": [
+    "A terminal running Project Crossover simulations.",
+    "The screen shows various corporate products merging together in disturbing ways."
+  ],
+  "sabotageDialogue": [
+    "You access the terminal and begin corrupting the simulation data.",
+    "The screen flickers and displays: 'REALITY COEFFICIENT DESTABILIZED'",
+    "As you finish, the terminal briefly shows an ad for 'QUANTUM BURLAP - UNDERWEAR THAT EXISTS IN MULTIPLE DIMENSIONS SIMULTANEOUSLY!'"
+  ]
+}

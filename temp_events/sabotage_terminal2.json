@@ -1,0 +1,22 @@
+{
+  "name": "Quantum Terminal 2",
+  "mapId": 110,
+  "x": 18,
+  "y": 8,
+  "appearance": "!Crystal",
+  "index": 3,
+  "initialDialogue": [
+    "A high-tech terminal with the Quantum Dynamics logo.",
+    "It seems to be running some kind of simulation."
+  ],
+  "activeDialogue": [
+    "A terminal controlling reality stabilizers.",
+    "The screen shows five corporate logos slowly merging into one horrifying mega-logo."
+  ],
+  "sabotageDialogue": [
+    "You access the terminal and reverse the polarity of the reality stabilizers.",
+    "The screen glitches and displays: 'DIMENSIONAL INTEGRITY COMPROMISED'",
+    "For a moment, you see yourself wearing burlap underwear in the reflection of the screen.",
+    "Thankfully, it's just a glitch... you hope."
+  ]
+}

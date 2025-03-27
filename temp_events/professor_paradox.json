@@ -1,0 +1,27 @@
+{
+  "name": "Professor Paradox",
+  "mapId": 110,
+  "x": 10,
+  "y": 10,
+  "appearance": "Actor3",
+  "index": 6,
+  "initialDialogue": [
+    "*The professor appears to be having a conversation with... himself? But there's only one of him.*",
+    "Yes, I know the temporal implications! I was there yesterday! Or will be tomorrow! Whatever!"
+  ],
+  "midQuestDialogue": [
+    "Ah! You're the one who will sabotage/has sabotaged/is sabotaging the terminals!",
+    "Excellent! I've been expecting you since last week, which is actually next month from your perspective.",
+    "You need to sabotage all three terminals to prevent the corporate reality merger.",
+    "Trust me, I've seen the future/past/alternate timeline where it happens. Everyone wears burlap EVERYTHING."
+  ],
+  "completionDialogue": [
+    "You did it! You've sabotaged all three terminals!",
+    "Project Crossover has been stopped! The corporate realities will remain separate, as nature intended.",
+    "*The professor hands you a strange device*",
+    "Take this Quantum Stabilizer. It will protect you from any lingering reality glitches.",
+    "I've already given it to you next Tuesday, but this timeline needs it now.",
+    "Oh, and watch out for those burlap underwear ads. They're surprisingly persuasive across all quantum realities.",
+    "Even I bought three pairs! *scratches uncomfortably*"
+  ]
+}

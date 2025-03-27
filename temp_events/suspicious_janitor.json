@@ -1,0 +1,25 @@
+{
+  "name": "Suspicious Janitor",
+  "mapId": 110,
+  "x": 8,
+  "y": 12,
+  "appearance": "Actor1",
+  "index": 7,
+  "initialDialogue": [
+    "*The janitor mops the same spot repeatedly*",
+    "Nothing to see here. Just cleaning up.",
+    "Definitely not spying on anything. Nope."
+  ],
+  "questDialogue": [
+    "*The janitor looks around nervously*",
+    "Psst! Over here! You're looking for info on Project Crossover, right?",
+    "I've been spying on Quantum Dynamics for months. They're planning to merge all five corporate realities!",
+    "You need to sabotage three key systems to stop the project. They're scattered around the facility.",
+    "Look for terminals with the Quantum Dynamics logo. But watch out for MAX-E-MUM, the security robot. He's... enthusiastic."
+  ],
+  "followupDialogue": [
+    "*pretends to mop while whispering*",
+    "Remember, three terminals. And if anyone asks, you never saw me.",
+    "I'm just a janitor who happens to know top-secret corporate plans. Totally normal. Nothing suspicious at all."
+  ]
+}
