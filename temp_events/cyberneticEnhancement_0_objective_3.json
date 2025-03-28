@@ -42,7 +42,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Objective 4: Steal experimental alloys from a metallurgy lab"
+            "Objective 4: Purchase black market power cells from an underground dealer"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "indent": 0,
           "parameters": [
             0,
-            1562,
+            1284,
             0,
             0,
             0
@@ -88,7 +88,7 @@
           "indent": 1,
           "parameters": [
             0,
-            1278,
+            1928,
             0,
             0,
             0
@@ -115,8 +115,8 @@
           "code": 121,
           "indent": 2,
           "parameters": [
-            1278,
-            1278,
+            1928,
+            1928,
             0
           ]
         },
@@ -124,8 +124,8 @@
           "code": 122,
           "indent": 2,
           "parameters": [
-            1815,
-            1815,
+            1969,
+            1969,
             1,
             0,
             1
@@ -136,9 +136,9 @@
           "indent": 2,
           "parameters": [
             1,
-            1815,
+            1969,
             0,
-            47,
+            60,
             0
           ]
         },
@@ -146,8 +146,8 @@
           "code": 121,
           "indent": 3,
           "parameters": [
-            1601,
-            1601,
+            1521,
+            1521,
             0
           ]
         },

@@ -42,7 +42,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Objective 4: Debug the critical errors while fighting manifestations of the corruption"
+            "Objective 4: Identify what the corporation is using the data for"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "indent": 0,
           "parameters": [
             0,
-            1128,
+            1013,
             0,
             0,
             0
@@ -88,7 +88,7 @@
           "indent": 1,
           "parameters": [
             0,
-            1844,
+            1687,
             0,
             0,
             0
@@ -115,8 +115,8 @@
           "code": 121,
           "indent": 2,
           "parameters": [
-            1844,
-            1844,
+            1687,
+            1687,
             0
           ]
         },
@@ -124,8 +124,8 @@
           "code": 122,
           "indent": 2,
           "parameters": [
-            1533,
-            1533,
+            1914,
+            1914,
             1,
             0,
             1
@@ -136,9 +136,9 @@
           "indent": 2,
           "parameters": [
             1,
-            1533,
+            1914,
             0,
-            73,
+            51,
             0
           ]
         },
@@ -146,8 +146,8 @@
           "code": 121,
           "indent": 3,
           "parameters": [
-            1125,
-            1125,
+            1554,
+            1554,
             0
           ]
         },

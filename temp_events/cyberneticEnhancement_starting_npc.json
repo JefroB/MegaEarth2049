@@ -21,7 +21,7 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 2,
+        "characterIndex": 3,
         "characterName": "Actor2",
         "direction": 2,
         "pattern": 1,
@@ -33,7 +33,7 @@
           "indent": 0,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -42,28 +42,28 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "*A doctor with more metal than flesh examines you with a mechanical eye*"
+            "*A doctor with mechanical arms adjusts a holographic display*"
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "I can see you're still mostly meat. How... primitive."
+            "You look like someone who wants to transcend the limitations of flesh."
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "I could fix that for you. Make you better. Stronger. Faster."
+            "I've got some... experimental enhancements that could change your life."
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Just don't ask where I get my parts. Or my medical license."
+            "The procedures aren't exactly approved, but the results? Magnificent!"
           ]
         },
         {
@@ -99,7 +99,7 @@
           "indent": 1,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -136,7 +136,7 @@
           "indent": 1,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -197,7 +197,7 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 2,
+        "characterIndex": 3,
         "characterName": "Actor2",
         "direction": 2,
         "pattern": 1,
@@ -209,7 +209,7 @@
           "indent": 0,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -272,7 +272,7 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 2,
+        "characterIndex": 3,
         "characterName": "Actor2",
         "direction": 2,
         "pattern": 1,
@@ -284,7 +284,7 @@
           "indent": 0,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -301,7 +301,7 @@
           "indent": 0,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -411,7 +411,7 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 2,
+        "characterIndex": 3,
         "characterName": "Actor2",
         "direction": 2,
         "pattern": 1,
@@ -423,7 +423,7 @@
           "indent": 0,
           "parameters": [
             "Actor2",
-            2,
+            3,
             0,
             2
           ]
@@ -470,5 +470,5 @@
     }
   ],
   "x": 8,
-  "y": 14
+  "y": 12
 }

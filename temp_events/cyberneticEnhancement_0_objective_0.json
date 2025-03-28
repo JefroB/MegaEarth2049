@@ -42,7 +42,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Objective 1: Salvage military-grade servos from a restricted zone"
+            "Objective 1: Steal a prototype neural interface from Armatek Labs"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "indent": 0,
           "parameters": [
             0,
-            1562,
+            1284,
             0,
             0,
             0
@@ -88,7 +88,7 @@
           "indent": 1,
           "parameters": [
             0,
-            1275,
+            1925,
             0,
             0,
             0
@@ -115,8 +115,8 @@
           "code": 121,
           "indent": 2,
           "parameters": [
-            1275,
-            1275,
+            1925,
+            1925,
             0
           ]
         },
@@ -124,8 +124,8 @@
           "code": 122,
           "indent": 2,
           "parameters": [
-            1815,
-            1815,
+            1969,
+            1969,
             1,
             0,
             1
@@ -136,7 +136,7 @@
           "indent": 2,
           "parameters": [
             1,
-            1815,
+            1969,
             0,
             52,
             0
@@ -146,8 +146,8 @@
           "code": 121,
           "indent": 3,
           "parameters": [
-            1601,
-            1601,
+            1521,
+            1521,
             0
           ]
         },

@@ -21,8 +21,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -32,8 +32,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -49,8 +49,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -59,14 +59,14 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Here is your final reward: The Red Pill"
+            "Here is your final reward: Digital Enlightenment"
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Your extensive experience with virtual realities has given you insight into manipulating perception itself."
+            "The ability to perceive the digital underpinnings of modern reality and manipulate them to your advantage."
           ]
         },
         {
@@ -74,9 +74,9 @@
           "indent": 0,
           "parameters": [
             {
-              "name": "The Red Pill",
-              "icon": 72,
-              "description": "Your extensive experience with virtual realities has given you insight into manipulating perception itself.",
+              "name": "Digital Enlightenment",
+              "icon": 87,
+              "description": "The ability to perceive the digital underpinnings of modern reality and manipulate them to your advantage.",
               "effects": [
                 {
                   "code": 21,
@@ -167,8 +167,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -178,8 +178,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -195,7 +195,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "I hope you're enjoying your The Red Pill."
+            "I hope you're enjoying your Digital Enlightenment."
           ]
         },
         {

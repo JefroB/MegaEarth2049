@@ -42,7 +42,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Objective 2: Speak with both pro-cybernetic and pro-organic advocates"
+            "Objective 2: Protect other cybernetically enhanced people from attacks"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "indent": 0,
           "parameters": [
             0,
-            1182,
+            1647,
             0,
             0,
             0
@@ -88,7 +88,7 @@
           "indent": 1,
           "parameters": [
             0,
-            1708,
+            1399,
             0,
             0,
             0
@@ -115,8 +115,8 @@
           "code": 121,
           "indent": 2,
           "parameters": [
-            1708,
-            1708,
+            1399,
+            1399,
             0
           ]
         },
@@ -124,8 +124,8 @@
           "code": 122,
           "indent": 2,
           "parameters": [
-            1881,
-            1881,
+            1476,
+            1476,
             1,
             0,
             1
@@ -136,9 +136,9 @@
           "indent": 2,
           "parameters": [
             1,
-            1881,
+            1476,
             0,
-            56,
+            57,
             0
           ]
         },
@@ -146,8 +146,8 @@
           "code": 121,
           "indent": 3,
           "parameters": [
-            1329,
-            1329,
+            1276,
+            1276,
             0
           ]
         },

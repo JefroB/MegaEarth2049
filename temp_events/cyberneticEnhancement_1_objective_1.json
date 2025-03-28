@@ -42,7 +42,7 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "Objective 2: Test the implants in a combat situation"
+            "Objective 2: Complete basic motor function calibration exercises"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "indent": 0,
           "parameters": [
             0,
-            1423,
+            1898,
             0,
             0,
             0
@@ -88,7 +88,7 @@
           "indent": 1,
           "parameters": [
             0,
-            1565,
+            1640,
             0,
             0,
             0
@@ -115,8 +115,8 @@
           "code": 121,
           "indent": 2,
           "parameters": [
-            1565,
-            1565,
+            1640,
+            1640,
             0
           ]
         },
@@ -124,8 +124,8 @@
           "code": 122,
           "indent": 2,
           "parameters": [
-            1758,
-            1758,
+            1469,
+            1469,
             1,
             0,
             1
@@ -136,9 +136,9 @@
           "indent": 2,
           "parameters": [
             1,
-            1758,
+            1469,
             0,
-            39,
+            51,
             0
           ]
         },
@@ -146,8 +146,8 @@
           "code": 121,
           "indent": 3,
           "parameters": [
-            1822,
-            1822,
+            1197,
+            1197,
             0
           ]
         },

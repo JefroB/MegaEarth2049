@@ -1,6 +1,6 @@
 {
   "id": 0,
-  "name": "Dr. Reeves",
+  "name": "Iris Disconnect",
   "note": "",
   "pages": [
     {
@@ -21,8 +21,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -32,8 +32,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -42,28 +42,28 @@
           "code": 401,
           "indent": 0,
           "parameters": [
-            "*A concerned doctor shows you brain scans of VR users*"
+            "*A woman with VR implant scars stares at you with unnervingly steady eyes*"
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "The new immersive VR systems are causing unprecedented addiction rates."
+            "My brother's been jacked in for three weeks. The clinic says it's 'normal adjustment'."
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "People are choosing to live in fantasy worlds rather than face reality."
+            "Nothing's normal about living in a fantasy while your body wastes away."
           ]
         },
         {
           "code": 401,
           "indent": 0,
           "parameters": [
-            "I need someone who can go in after them. Someone like you."
+            "I need someone who can go in after him. Someone who can resist the pull of paradise."
           ]
         },
         {
@@ -98,8 +98,8 @@
           "code": 101,
           "indent": 1,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -135,8 +135,8 @@
           "code": 101,
           "indent": 1,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -197,8 +197,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -208,8 +208,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -272,8 +272,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -283,8 +283,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -300,8 +300,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -411,8 +411,8 @@
       },
       "directionFix": false,
       "image": {
-        "characterIndex": 7,
-        "characterName": "Actor3",
+        "characterIndex": 6,
+        "characterName": "Actor1",
         "direction": 2,
         "pattern": 1,
         "tileId": 0
@@ -422,8 +422,8 @@
           "code": 101,
           "indent": 0,
           "parameters": [
-            "Actor3",
-            7,
+            "Actor1",
+            6,
             0,
             2
           ]
@@ -469,6 +469,6 @@
       "walkAnime": true
     }
   ],
-  "x": 12,
-  "y": 9
+  "x": 15,
+  "y": 7
 }
