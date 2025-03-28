@@ -6,8 +6,12 @@ const path = require('path');
 const templatesPath = path.join(__dirname, 'event-templates.json');
 const templates = JSON.parse(fs.readFileSync(templatesPath, 'utf8'));
 
-// Load the optional quest lines
-const optionalQuestLines = require('./optional_quest_lines.js');
+// Determine which quest lines file to use
+const questLinesFile = process.argv[2] || './optional_quest_lines.js';
+console.log(`Using quest lines from: ${questLinesFile}`);
+
+// Load the quest lines
+const optionalQuestLines = require(questLinesFile);
 
 // Create a temporary directory for our event files
 const tempDir = path.join(__dirname, 'temp_events');

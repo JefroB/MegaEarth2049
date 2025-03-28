@@ -1,0 +1,333 @@
+{
+  "id": 0,
+  "name": "Objective 2",
+  "note": "",
+  "pages": [
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": false,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": true,
+      "image": {
+        "characterIndex": 0,
+        "characterName": "!Chest",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "Objective 2: Repair the Clown Court's dilapidated big top"
+          ]
+        },
+        {
+          "code": 111,
+          "indent": 0,
+          "parameters": [
+            0,
+            1116,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "You need to start the quest first."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 411,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 111,
+          "indent": 1,
+          "parameters": [
+            0,
+            1710,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 2,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 2,
+          "parameters": [
+            "Objective completed!"
+          ]
+        },
+        {
+          "code": 121,
+          "indent": 2,
+          "parameters": [
+            1710,
+            1710,
+            0
+          ]
+        },
+        {
+          "code": 122,
+          "indent": 2,
+          "parameters": [
+            1327,
+            1327,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "code": 111,
+          "indent": 2,
+          "parameters": [
+            1,
+            1327,
+            0,
+            44,
+            0
+          ]
+        },
+        {
+          "code": 121,
+          "indent": 3,
+          "parameters": [
+            1303,
+            1303,
+            0
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 3,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 3,
+          "parameters": [
+            "All objectives completed! Return to the quest giver."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 3,
+          "parameters": []
+        },
+        {
+          "code": 412,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "code": 123,
+          "indent": 2,
+          "parameters": [
+            "A",
+            0
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "code": 411,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 101,
+          "indent": 2,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 2,
+          "parameters": [
+            "You've already completed this objective."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "code": 412,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 412,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": false
+    },
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": true,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 0,
+        "characterName": "",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "",
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "Objective completed."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    }
+  ],
+  "x": 12,
+  "y": 11
+}
