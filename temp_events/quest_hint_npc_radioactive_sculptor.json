@@ -1,0 +1,167 @@
+{
+  "id": 1,
+  "name": "Radioactive Sculptor",
+  "note": "Quest Hint NPC",
+  "pages": [
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": false,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 6,
+        "characterName": "Actor2",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "Actor2",
+            6,
+            0,
+            2,
+            "Radioactive Sculptor"
+          ]
+        },
+        {
+          "code": 111,
+          "indent": 0,
+          "parameters": [
+            0,
+            "QUEST_HINT_RADIOACTIVE_SCULPTOR_1",
+            0
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "*glowing faintly* Art requires sacrifice. In my case, it's my immune system and probably a few organs."
+          ]
+        },
+        {
+          "code": 123,
+          "indent": 1,
+          "parameters": [
+            "QUEST_HINT_RADIOACTIVE_SCULPTOR_1",
+            0,
+            1
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 411,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 111,
+          "indent": 1,
+          "parameters": [
+            0,
+            "QUEST_HINT_RADIOACTIVE_SCULPTOR_2",
+            0
+          ]
+        },
+        {
+          "code": 111,
+          "indent": 2,
+          "parameters": [
+            0,
+            "QUEST_HINT_RADIOACTIVE_SCULPTOR_1",
+            1
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 3,
+          "parameters": [
+            "I'm working on a masterpiece made from radioactive waste. It really captures the essence of our world."
+          ]
+        },
+        {
+          "code": 123,
+          "indent": 3,
+          "parameters": [
+            "QUEST_HINT_RADIOACTIVE_SCULPTOR_2",
+            0,
+            1
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 3,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Curator Vex asked me to display it in their new gallery, but I need help transporting it safely."
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 412,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    }
+  ],
+  "x": 15,
+  "y": 8
+}

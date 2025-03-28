@@ -1,0 +1,33 @@
+# RPG Maker specific
+save/
+Game.rpgproject.bak
+*.rpgsave
+*.rmmzsave
+*.rpgproject.bak
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+backups/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
