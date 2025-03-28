@@ -4,15 +4,40 @@ This document provides an overview of the new optional quest lines generated for
 
 ## Quest Lines Overview
 
-1. **Wasteland Radio DJ**
-   - Become a radio DJ and bring music and news to the wasteland while uncovering a conspiracy.
+1. **Drone Swarm Commander**
+   - Master the art of controlling a swarm of combat and utility drones while uncovering a conspiracy involving autonomous weapons.
    - 5 side quests with unique rewards
-   - Starting NPC: Old Mike in Abandoned Radio Station (Map028)
+   - Starting NPC: Hive Mind in Drone Pit (Map053)
 
-2. **Mutant Cooking Show**
-   - Compete in and eventually host a popular cooking show that uses mutated ingredients from the wasteland.
+2. **Memory Merchant**
+   - Enter the dangerous world of memory trading, where experiences and skills can be bought, sold, and stolen.
    - 5 side quests with unique rewards
-   - Starting NPC: Chef Radix in Wasteland Diner (Map019)
+   - Starting NPC: Mnemosyne in Memory Den (Map047)
+
+3. **Synthetic Emotions**
+   - Investigate a new drug that allows people to experience artificial emotions, and the corporation that's using it for social control.
+   - 5 side quests with unique rewards
+   - Starting NPC: Dr. Feelgood in Underground Clinic (Map039)
+
+4. **Cybernetic Enhancement**
+   - (Previously added quest line)
+   - 1 side quests with unique rewards
+
+5. **Virtual Reality Addiction**
+   - (Previously added quest line)
+   - 1 side quests with unique rewards
+
+6. **Neon Street Racing**
+   - (Previously added quest line)
+   - 1 side quests with unique rewards
+
+7. **Wasteland Radio DJ**
+   - (Previously added quest line)
+   - 1 side quests with unique rewards
+
+8. **Mutant Cooking Show**
+   - (Previously added quest line)
+   - 1 side quests with unique rewards
 
 ## Implementation Details
 
@@ -25,8 +50,9 @@ Each quest line includes:
 ## How to Add These Quest Lines to the Game
 
 1. The quest lines are defined in individual files:
-   - wastelandRadioDJ_quest.js
-   - mutantCookingShow_quest.js
+   - droneSwarmCommander_quest.js
+   - memoryMerchant_quest.js
+   - syntheticEmotions_quest.js
 
 2. These are combined in the combined_quest_lines.js file.
 
@@ -42,11 +68,25 @@ Each quest line includes:
 
 When adding the quest events to maps, use the following locations:
 
-1. **Wasteland Radio DJ**
-   - Starting NPC: Abandoned Radio Station (Map028)
-   - Recommended maps for objectives: Maps 28, 29, 30
+1. **Drone Swarm Commander**
+   - Starting NPC: Drone Pit (Map053)
+   - Recommended maps for objectives: Maps 53, 54, 55
 
-2. **Mutant Cooking Show**
-   - Starting NPC: Wasteland Diner (Map019)
-   - Recommended maps for objectives: Maps 19, 20, 21
+2. **Memory Merchant**
+   - Starting NPC: Memory Den (Map047)
+   - Recommended maps for objectives: Maps 47, 48, 49
+
+3. **Synthetic Emotions**
+   - Starting NPC: Underground Clinic (Map039)
+   - Recommended maps for objectives: Maps 39, 40, 41
+
+4. **Cybernetic Enhancement**
+
+5. **Virtual Reality Addiction**
+
+6. **Neon Street Racing**
+
+7. **Wasteland Radio DJ**
+
+8. **Mutant Cooking Show**
 
