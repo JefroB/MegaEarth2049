@@ -3195,6 +3195,2670 @@
       ],
       "x": 16,
       "y": 13
+    },
+    {
+      "id": 10,
+      "name": "Objective 3",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 3: Acquire neural interface components from the black market"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1274,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1541,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1541,
+                1541,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1119,
+                1119,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1119,
+                0,
+                57,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1137,
+                1137,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 14,
+      "y": 12
+    },
+    {
+      "id": 11,
+      "name": "Objective 1",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 1: Win a qualifying race in the industrial district"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1630,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1505,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1505,
+                1505,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1333,
+                1333,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1333,
+                0,
+                48,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1675,
+                1675,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": 12,
+      "name": "Objective 4",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 4: Participate in a team relay race with other rookies"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1630,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1502,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1502,
+                1502,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1333,
+                1333,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1333,
+                0,
+                51,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1675,
+                1675,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 16,
+      "y": 13
+    },
+    {
+      "id": 13,
+      "name": "Objective 2",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 2: Gather evidence of your rival's illegal race tampering"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1509,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1085,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1085,
+                1085,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1232,
+                1232,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1232,
+                0,
+                54,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1432,
+                1432,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 12,
+      "y": 11
+    },
+    {
+      "id": 14,
+      "name": "Objective 5",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 5: Choose whether to forgive or humiliate your rival after their defeat"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1509,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1088,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1088,
+                1088,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1232,
+                1232,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1232,
+                0,
+                68,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1432,
+                1432,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 18,
+      "y": 14
+    },
+    {
+      "id": 15,
+      "name": "Objective 3",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 3: Download the technical specifications while avoiding security"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1139,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1096,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1096,
+                1096,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1902,
+                1902,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1902,
+                0,
+                61,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1638,
+                1638,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 14,
+      "y": 12
+    },
+    {
+      "id": 16,
+      "name": "Objective 1",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 1: Qualify for the invitation-only Ultimate Circuit"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1678,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1291,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1291,
+                1291,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1615,
+                1615,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1615,
+                0,
+                48,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1489,
+                1489,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": 17,
+      "name": "Objective 4",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!Chest",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective 4: Complete the most dangerous track ever designed"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1678,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You need to start the quest first."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                0,
+                1294,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Objective completed!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1294,
+                1294,
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                1615,
+                1615,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                1615,
+                0,
+                47,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 3,
+              "parameters": [
+                1489,
+                1489,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "All objectives completed! Return to the quest giver."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 2,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "You've already completed this objective."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Objective completed."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 16,
+      "y": 13
     }
   ]
 }

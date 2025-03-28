@@ -1,0 +1,214 @@
+{
+  "id": 1,
+  "name": "Wasteland Observatory - Research Program - Objective 1",
+  "note": "",
+  "pages": [
+    {
+      "conditions": {
+        "actorId": 1,
+        "actorValid": false,
+        "itemId": 1,
+        "itemValid": false,
+        "selfSwitchCh": "A",
+        "selfSwitchValid": false,
+        "switch1Id": 1,
+        "switch1Valid": false,
+        "switch2Id": 1,
+        "switch2Valid": false,
+        "variableId": 1,
+        "variableValid": false,
+        "variableValue": 0
+      },
+      "directionFix": false,
+      "image": {
+        "characterIndex": 0,
+        "characterName": "",
+        "direction": 2,
+        "pattern": 1,
+        "tileId": 0
+      },
+      "list": [
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "",
+            0,
+            0,
+            2,
+            "Protocol Developer Penny"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "Develop atmospheric monitoring protocols"
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 0,
+          "parameters": [
+            "",
+            0,
+            0,
+            2,
+            "Protocol Developer Penny"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 0,
+          "parameters": [
+            "Complete this task to receive a reward."
+          ]
+        },
+        {
+          "code": 102,
+          "indent": 0,
+          "parameters": [
+            [
+              "Complete",
+              "Not yet"
+            ],
+            1,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "code": 402,
+          "indent": 0,
+          "parameters": [
+            0,
+            "Complete"
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "",
+            0,
+            0,
+            2,
+            "Protocol Developer Penny"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "You've completed objective 1 of Research Program! Here's your reward."
+          ]
+        },
+        {
+          "code": 125,
+          "indent": 1,
+          "parameters": [
+            0,
+            0,
+            1,
+            false,
+            5
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "",
+            0,
+            0,
+            2,
+            "System"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "Received Wasteland Observatory Token 3-1!"
+          ]
+        },
+        {
+          "code": 123,
+          "indent": 1,
+          "parameters": [
+            "A",
+            0
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 402,
+          "indent": 0,
+          "parameters": [
+            1,
+            "Not yet"
+          ]
+        },
+        {
+          "code": 101,
+          "indent": 1,
+          "parameters": [
+            "",
+            0,
+            0,
+            2,
+            "Protocol Developer Penny"
+          ]
+        },
+        {
+          "code": 401,
+          "indent": 1,
+          "parameters": [
+            "You haven't completed the objective yet. Keep trying!"
+          ]
+        },
+        {
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "code": 404,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "moveFrequency": 3,
+      "moveRoute": {
+        "list": [
+          {
+            "code": 0,
+            "parameters": []
+          }
+        ],
+        "repeat": true,
+        "skippable": false,
+        "wait": false
+      },
+      "moveSpeed": 3,
+      "moveType": 0,
+      "priorityType": 1,
+      "stepAnime": false,
+      "through": false,
+      "trigger": 0,
+      "walkAnime": true
+    }
+  ],
+  "x": 0,
+  "y": 0
+}
