@@ -4,7 +4,7 @@
 
 Welcome to 2049 After Earth (A.E.), where "After" really means "What's left after we totally screwed up Old Earth." Humanity, led by the five profit-hungry MegaCorps (NeuraTech - brains & wires, OmniCorp - guns & goons, Vitalix - questionable flesh-crafting, Armatek - rusty girders, Quantum Dynamics - weird science nobody understands), built MegaEarth. It was supposed to be paradise. It's... not. It's a sprawling, smog-choked, cybernetically-enhanced, disease-ridden, corporate-controlled mess held together by duct tape and desperation.
 
-Below the opulent corporate spires, the streets crawl with Punks hopped up on Liquid Courage, mutated sewer critters, Ninjas who might steal your wallet *and* give you The Clap, and Clowns whose jokes inflict actual physical harm. Body modification is less fashion, more survival necessity – courtesy of back-alley Mod Doctors like Zed, whose work might give you super-strength or uncontrollable explosive diarrhea (sometimes both). The digital "Matrix" is a psychedelic escape where hackers sling code and A.I.s whisper sweet insanities.
+Below the opulent corporate spires, the streets crawl with Punks hopped up on Liquid Courage, mutated sewer critters, members of the Digital Shadow Collective (aka Ninjas) who move between physical and digital space, and Clowns whose jokes inflict actual physical harm. Body modification is less fashion, more survival necessity – courtesy of back-alley Mod Doctors like Zed, whose work might give you super-strength or uncontrollable explosive diarrhea (sometimes both). The digital "Matrix" is a psychedelic escape where hackers sling code and A.I.s whisper sweet insanities.
 
 Life is cheap, STDs are rampant (thanks, Acme Pharmaceuticals, for Rabinex and Gon-A-Gone!), and getting frostbite from an ice pistol is just another Tuesday. Survival means navigating corporate crackdowns, gang turf wars, spontaneous mutant uprisings, and trying not to catch something nasty from that suspiciously cheap burrito.
 
@@ -62,7 +62,9 @@ Necklace complete, Rex's brain becomes a high-speed modem to the Matrix. Final s
 
 **The Choice:** Destroy A.S.P. (crash the planet's systems, maybe?), Reprogram A.S.P. (turn the control-freak AI into a helpful, slightly sarcastic assistant?), Merge with A.S.P. (become a godlike digital entity, potentially losing yourself?), or Use A.S.P. to fix Old Earth (because why not add inter-planetary ecological restoration to the mix?). The ending depends on this choice, player actions, and possibly whether Zack successfully weaponized that monorail.
 
-## Side Quests (Even Weirder)
+## Side Quests & Quest Lines
+
+### Classic Side Quests
 
 *   **Necklace Quest:** Pieces are guarded by things like a choir of sonic-screaming bats, a sentient pile of garbage (Trash Octopus!), and requires trading a rare STD cure on Planet Ting Ting.
 *   **Engine Quest:** Requires parts salvaged from malfunctioning A.S.P. drones, navigating booby-trapped construction sites, and possibly bribing Armatek officials with counterfeit luxury toilet paper.
@@ -74,6 +76,24 @@ Necklace complete, Rex's brain becomes a high-speed modem to the Matrix. Final s
 *   **The Great Vending Machine Uprising:** Vending machines across Timbuc start dispensing unsolicited advice instead of products. Track down the hacker collective "Snack Liberation Front" who believe vending machines deserve rights and retirement plans.
 *   **Dating Sim Virus:** A corrupted dating sim program is infecting neural implants, causing victims to see romance options floating above people's heads. Help Dr. Lovelace debug the virus before everyone starts engaging in spontaneous dating mini-games.
 *   **Corporate Mascot Throwdown:** Compete in an underground fighting tournament where contestants must wear costumes of corporate mascots. Face off against "OmniCorp Oscar" and "Vitalix Vince" while wearing the dreaded "NeuraTech Norman" suit that randomly shocks you.
+
+### New Wasteland Quest Lines
+
+*   **Wasteland Radio DJ:** Help a charismatic radio host maintain the last free broadcast network in the wasteland while evading corporate censors and A.S.P. signal jammers.
+*   **Digital Graffiti:** Join a group of digital artists who use holographic projections to create subversive art throughout Timbuc, challenging corporate propaganda.
+*   **Synthetic Pets:** Investigate a black market operation selling genetically modified and cybernetically enhanced pets with unexpected abilities and side effects.
+*   **Holographic Nightclub:** Help establish an underground nightclub where reality is augmented by cutting-edge holographic technology, creating experiences that blur the line between real and virtual.
+*   **Underground Farming:** Assist a collective of urban farmers who are growing food in abandoned subway tunnels using experimental Vitalix bio-luminescent plants.
+*   **Wasteland Postal Service:** Join the last functioning mail delivery service that connects isolated communities across the wasteland, facing raiders, mutants, and corporate interference.
+*   **Synthetic Emotions:** Help test a new black market neural implant that allows users to experience emotions they've never felt before, with unexpected consequences.
+*   **Wasteland Art Gallery:** Protect a collection of pre-apocalypse art from corporate collectors who want to privatize cultural heritage.
+*   **Mutant Cooking Show:** Compete in an underground cooking competition using mutated ingredients with unpredictable properties.
+*   **Neon Street Racing:** Participate in illegal street races with vehicles enhanced by experimental technology and questionable modifications.
+*   **Wasteland Historians:** Join a group dedicated to preserving the true history of Old Earth against corporate revisionism.
+*   **Memory Merchant:** Work with a mysterious vendor who trades in artificial memories, helping clients experience events that never happened to them.
+*   **Drone Swarm Commander:** Aid a former OmniCorp engineer who has reprogrammed a swarm of maintenance drones to perform elaborate aerial shows that secretly transmit resistance messages.
+*   **Mutant Pet Rescue:** Help rescue and rehabilitate genetically modified pets abandoned by their owners after unexpected mutations.
+*   **Cybernetic Enhancement:** Participate in an underground fighting tournament where competitors showcase experimental cybernetic enhancements.
 
 ## Locations (Now with more Weird)
 
@@ -96,6 +116,102 @@ Necklace complete, Rex's brain becomes a high-speed modem to the Matrix. Final s
 *   **DJ Static:** Music producer whose neural implants let him "hear" electronic signals and convert them into beats. His club, "The Interference," features music created from hacked corporate communications. Has a pet robot dog that transforms into a mixing board.
 *   **Professor Paradox:** Quantum Dynamics scientist who exists in multiple timelines simultaneously. Sometimes answers questions before they're asked or references conversations that haven't happened yet. Runs experiments on "temporal displacement" that occasionally cause patrons of nearby businesses to age backwards.
 *   **Trash King:** Self-proclaimed ruler of Timbuc's landfill who wears a crown made of salvaged circuit boards. Has developed immunity to all known toxins and diseases through constant exposure. Trades valuable salvage for stories about the "surface world."
+
+## Special Systems
+
+### The Digital Shadow Collective (Ninja System)
+
+The Digital Shadow Collective represents one of the most organized resistance movements against corporate control in MegaEarth. Once elite corporate security operatives, these ninjas discovered the true nature of A.S.P. and rebelled against the MegaCorps, stealing experimental neural implants that allow them to move between digital and physical space.
+
+#### Ninja Types
+- **Pink Ninja**: Former NeuraTech mind-control specialist. The most willing to join outsiders. Specializes in mental techniques and can detect A.S.P. influence.
+- **Blue Ninja**: Former OmniCorp security enforcer. Expert in weapons and tactical combat.
+- **Black Ninja**: Former Quantum Dynamics reality manipulator. Can create small distortions in the physical world.
+- **Green Ninja**: Former Vitalix bio-enhancement expert. Specializes in herbal medicine and toxins.
+- **Red Ninja**: Former Armatek demolitions expert. Master of explosives and structural weaknesses.
+- **Purple Ninja**: Former corporate infiltration specialist. Expert in disguise and stealth.
+- **Brown Ninja**: Former corporate data archivist. Living repository of corporate secrets.
+
+#### Ninja Encounters & Recruitment
+What appears to be random ninja attacks are actually carefully orchestrated tests of the player's abilities. The Digital Shadow Collective is constantly seeking potential allies but can't risk recruiting just anyone.
+
+The primary recruitment path involves defeating the Pink Ninja in battle. Unlike other ninjas who test abilities and then disappear, the Pink Ninja recognizes potential allies and may join the party after being defeated.
+
+Recruiting other ninjas requires completing the "Shadows in the Code" quest line, which unlocks after the Pink Ninja joins the party.
+
+#### The Hidden Dojo & The Compiler
+The ninjas follow a mysterious figure known as "The Compiler" – the original architect of A.S.P. who realized the dangers of the system they had created. The Compiler exists primarily in digital form, appearing as a glitching, hooded figure in the Hidden Dojo.
+
+The Hidden Dojo exists in a pocket dimension between physical reality and the Matrix, accessible only through special Neural Access Points scattered throughout MegaEarth. These terminals can only be activated by those with ninja neural implants.
+
+#### Ninja Equipment & Abilities
+- **Neural Bandanas**: Provide resistance to mental status effects and boost agility
+- **Digital Tantō**: Short blades that exist simultaneously in physical and digital space
+- **Shadow Garb**: Ninja armor that increases evasion and provides stealth capabilities
+- **Compiler's Mask**: Allows the wearer to see through digital illusions and detect A.S.P. influence
+- **Neural Shurikens**: Throwing weapons that can temporarily disrupt enemy neural implants
+
+All ninjas share the "Shadow Step" ability, which allows them to occasionally avoid attacks by briefly shifting into digital space.
+
+### Disease System
+
+MegaEarth's disease system adds a layer of complexity and absurdity to the game's health mechanics. Diseases come in several categories:
+
+#### Standard Diseases
+- **Viral Infections**: Ranging from common colds to exotic space viruses
+- **Bacterial Infections**: Including antibiotic-resistant strains engineered by Vitalix
+- **Parasitic Infestations**: From brain worms to digital parasites that infect both flesh and cybernetics
+- **Radiation Sickness**: Various stages of exposure to the many radioactive substances in MegaEarth
+
+#### Minor Ailments
+- **Temporary Conditions**: Sneezing fits, hiccups that cause weapon misfires, eye twitches that affect accuracy
+- **Allergic Reactions**: To synthetic materials, mutant pollen, or corporate jingles
+- **Food Poisoning**: From questionable street vendors and expired vending machine products
+
+#### Mental Illnesses
+- **Digital Psychosis**: Believing you're actually code in a simulation
+- **Corporate Drone Syndrome**: Compulsive organizing and speaking in buzzwords
+- **Reality Rejection**: Inability to perceive certain aspects of reality
+- **Nostalgia Paralysis**: Becoming frozen in memories of a better time
+
+#### STDs (Synthetically Transmitted Diseases)
+- **Designer STDs**: Created by Vitalix for "recreational" purposes
+- **Alien Infections**: Exotic diseases brought back by space travelers
+- **Digital STDs**: Transmitted through neural interface connections
+
+Each disease has unique symptoms, transmission methods, and cures. Some diseases even provide temporary benefits alongside their debuffs, leading to strategic decisions about when to seek treatment.
+
+### Boss Features
+
+The game features enhanced boss battles with unique mechanics and personality:
+
+#### Boss Types
+- **Corporate Executives**: MegaCorp leaders with specialized security systems and corporate minions
+- **Rogue AIs**: Digital entities that manipulate reality and control technological systems
+- **Mutant Abominations**: Results of Vitalix experiments gone wrong
+- **Alien Entities**: Mysterious beings from beyond MegaEarth with incomprehensible abilities
+
+#### Boss Battle Mechanics
+- **Multiple Phases**: Bosses transform or change tactics as their health decreases
+- **Environmental Interactions**: Bosses use the arena to their advantage
+- **Minion Summoning**: Calling reinforcements or creating them from the environment
+- **Status Effect Specialization**: Bosses that focus on inflicting specific status effects
+
+#### Boss Personality
+- **Unique Dialogue**: Each boss has distinctive speech patterns and personality quirks
+- **Reactive Commentary**: Bosses comment on player actions and strategy
+- **Background Stories**: Discoverable lore that explains each boss's motivations
+- **Post-Defeat Consequences**: Some bosses may return in altered forms or affect the world after defeat
+
+### Dictionary & Language Systems
+
+The game features enhanced dialogue and language systems:
+
+- **Rhyming Dictionary**: Used for verse generation in poetic NPCs and singing enemies
+- **Contextual Dialogue**: NPCs respond differently based on player actions and status effects
+- **Corporate Jargon Generator**: Creates meaningless but authentic-sounding corporate speak
+- **Slang Evolution**: Different areas and social groups have their own evolving slang
+- **Singing Enemies**: Some enemies attack through musical sequences with rhythm-based mechanics
 
 ## Themes (Dialed to 11)
 

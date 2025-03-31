@@ -48,4 +48,4 @@ var $plugins =
 {"name":"HIME_ActorBattleCommands","status":true,"description":"v1.4 - Provides you with tools to customize actor battle commands.","parameters":{}},
 {"name":"HIME_PlaceholderStates","status":true,"description":"v1.0 - allows you to create a state that may resolve to a different state.","parameters":{}},
 {"name":"BossFeatures","status":true,"description":"Adds special features for boss enemies, including red flashing when near death.","parameters":{}}
-]
+];

@@ -73,8 +73,9 @@ Rex and Zed track the final Necklace piece to the Floating Mansion, the A.S.P. c
 
 4. **Restoration Ending**: Rex redirects A.S.P.'s vast resources toward healing Old Earth, giving humanity a new shared purpose. A.S.P. begins Project Genesis to restore Old Earth, consulting with artists about the "aesthetics" of restoration because it now understands the importance of beauty alongside function.
 
-## Absurd Side Quests
+## Absurd Side Quests & Quest Lines
 
+### Classic Side Quests
 - **Necklace Quest**: Find pieces guarded by a choir of sonic-screaming bats, a sentient pile of garbage (Trash Octopus!), and requires trading a rare STD cure on Planet Ting Ting.
 
 - **Engine Quest**: Collect parts salvaged from malfunctioning A.S.P. drones, navigate booby-trapped construction sites, and possibly bribe Armatek officials with counterfeit luxury toilet paper.
@@ -90,6 +91,23 @@ Rex and Zed track the final Necklace piece to the Floating Mansion, the A.S.P. c
 - **The Great Vending Machine Uprising**: Vending machines across Timbuc start dispensing unsolicited advice instead of products. Track down the hacker collective "Snack Liberation Front" who believe vending machines deserve rights and retirement plans.
 
 - **Dating Sim Virus**: A corrupted dating sim program is infecting neural implants, causing victims to see romance options floating above people's heads. Help Dr. Lovelace debug the virus before everyone starts engaging in spontaneous dating mini-games.
+
+### New Wasteland Quest Lines
+- **Wasteland Radio DJ**: Help a charismatic radio host maintain the last free broadcast network in the wasteland while evading corporate censors and A.S.P. signal jammers.
+
+- **Digital Graffiti**: Join a group of digital artists who use holographic projections to create subversive art throughout Timbuc, challenging corporate propaganda.
+
+- **Synthetic Pets**: Investigate a black market operation selling genetically modified and cybernetically enhanced pets with unexpected abilities and side effects.
+
+- **Holographic Nightclub**: Help establish an underground nightclub where reality is augmented by cutting-edge holographic technology, creating experiences that blur the line between real and virtual.
+
+- **Underground Farming**: Assist a collective of urban farmers who are growing food in abandoned subway tunnels using experimental Vitalix bio-luminescent plants.
+
+- **Wasteland Postal Service**: Join the last functioning mail delivery service that connects isolated communities across the wasteland, facing raiders, mutants, and corporate interference.
+
+- **Memory Merchant**: Work with a mysterious vendor who trades in artificial memories, helping clients experience events that never happened to them.
+
+- **Drone Swarm Commander**: Aid a former OmniCorp engineer who has reprogrammed a swarm of maintenance drones to perform elaborate aerial shows that secretly transmit resistance messages.
 
 ## Bizarre Locations
 
@@ -164,6 +182,7 @@ Rex and Zed track the final Necklace piece to the Floating Mansion, the A.S.P. c
 - **Mutants**: Rats the size of dogs, Spiders that tell existential jokes, Plants that shoot poison darts
 - **Machines**: Drones with passive-aggressive personalities, SF_Dolls with identity crises, Guardians that enforce arbitrary rules
 - **A.S.P. Entities**: Demons made of corrupted code, digital manifestations of corporate jargon
+- **Boss Enemies**: Unique enemies with special attack patterns, multiple phases, and custom animations
 
 ## Technical & Development Info
 
@@ -174,27 +193,65 @@ Rex and Zed track the final Necklace piece to the Floating Mansion, the A.S.P. c
   - Buffs & States Core
   - Skill Core
   - Item Core
+- Custom plugins for boss battles and special features
 - Extensive custom battle animations and action sequences
-- Project structure follows standard RPG Maker MV organization:
+- Project structure follows enhanced RPG Maker MV organization:
   - `data/`: JSON files containing game data (maps, items, skills, etc.)
   - `js/`: JavaScript files for game logic and plugins
-  - `img/`: Image assets for characters, tilesets, etc.
+  - `img/`: Image assets for characters, tilesets, etc.)
   - `audio/`: Sound and music files
+  - `AI_GENERATED_SCRIPTS/`: Helper scripts for content generation and game editing
+  - `AI_GUIDELINES/`: Documentation and guidelines for development
+  - `DICTIONARY/`: Language resources for dialogue and text generation
+  - `GameFAQs/`: Player guides and documentation
+  - `json_tools/`: Utilities for working with game data files
+  - `utils/`: Core utility functions organized by domain
 
 ### Documentation Files
 
 - `MegaEarth2049_Story.md`: Comprehensive story bible with character details, plot progression, and thematic elements
 - `MegaEarth2049_EditingGuide.md`: Technical reference for JSON structures, event patterns, and editing tips
 - `ReducingClineRequests.md`: Guide for efficient development workflow
-- `MegaEarth2049_ArtAssets.txt`: Detailed descriptions of required art assets
-- `MegaEarth2049_ArtAssets.csv`: Spreadsheet for tracking art asset creation progress
+- `MegaEarth2049_ArtAssets.txt/csv`: Detailed descriptions and tracking of required art assets
+- `BOSS_FEATURES_README.md` & `BOSS_ART_CREATION_GUIDE.md`: Documentation for boss implementation
 - Quest summary files (e.g., `level34_35_quests_summary.md`): Detailed information about quests for specific level ranges
+- `FAQ_*.md` files: Comprehensive player guides covering all aspects of gameplay
 
-### Helper Scripts
+### Helper Scripts & Tools
 
-- `batch-edit-tool.js`: Tool for making batch edits across multiple files
-- `add_quests.js` and related scripts: Tools for adding quests to the game
-- `event-templates.json`: Collection of ready-to-use templates for common game elements
+- Organized in the `AI_GENERATED_SCRIPTS/` directory:
+  - Quest generation and management scripts
+  - Disease system implementation
+  - NPC creation and dialogue enhancement
+  - Dictionary and language processing tools
+  - Batch editing and file management utilities
+- `json_tools/`: Specialized utilities for JSON validation, repair, and safe editing
+- `utils/`: Core utilities organized by domain (core, game, powershell)
+
+### Special Systems
+
+#### Disease System
+The game features a comprehensive disease system with multiple categories:
+- Standard diseases with various symptoms and effects
+- Minor ailments that cause temporary debuffs
+- Mental illnesses that affect character behavior and dialogue
+- STDs with unique transmission mechanics and social implications
+
+Each disease has custom animations, dialogue effects, and cure methods, adding depth to the game's health mechanics and storytelling.
+
+#### Boss Features
+Enhanced boss battles with:
+- Custom sprites and animations
+- Special attack patterns and phases
+- Unique dialogue and personality traits
+- Integration with the story progression
+- Special rewards and achievements
+
+#### Dictionary & Language Systems
+- Rhyming dictionary for verse generation and poetic dialogue
+- Enhanced dialogue system with contextual responses
+- Singing enemies with musical battle sequences
+- Thesaurus integration for varied NPC speech patterns
 
 ### Running the Game
 
@@ -218,6 +275,9 @@ Rex and Zed track the final Necklace piece to the Floating Mansion, the A.S.P. c
 4. With the advent of AI technology, the project was revitalized
 5. Google Gemini analyzed the codebase and contributed to the story development
 6. Claude Dev + VSCode integration helped fill in the remaining gaps and expand the project
+7. Extensive quest lines, NPCs, and game systems were added through AI assistance
+8. Project organization was improved with dedicated directories for scripts and utilities
+9. Special systems like the disease mechanics, boss features, and language tools were implemented
 
 ## Development Credits
 
