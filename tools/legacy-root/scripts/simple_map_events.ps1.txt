@@ -1,0 +1,113 @@
+# MegaEarth2049 Simple Map Events Extractor
+# This script extracts basic event information from RPG Maker MV map files
+
+# Function to extract basic event information
+function Get-MapEvents {
+    param (
+        [string]$mapFile,
+        [string]$outputDir = "map_events"
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Extracting events from map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Create an events summary file
+        $eventsSummaryFile = "$outputDir/Map${mapId}_events_summary.txt"
+        "Events Summary for Map $mapId" | Out-File -FilePath $eventsSummaryFile -Encoding utf8
+        if ($mapContent.displayName) {
+            "Map Name: $($mapContent.displayName)" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        }
+        "Map Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        
+        # Count non-null events
+        $eventCount = 0
+        $namedEventCount = 0
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+                if ($event.name -and -not $event.name.StartsWith("EV")) {
+                    $namedEventCount++
+                }
+            }
+        }
+        "Total Events: $eventCount" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        "Named Events: $namedEventCount" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        
+        # List named events
+        if ($namedEventCount -gt 0) {
+            "Named Events:" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null -and $event.name -and -not $event.name.StartsWith("EV")) {
+                    "  $($event.name) at ($($event.x), $($event.y))" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+                }
+            }
+        }
+        
+        Write-Host "  Created events summary at $eventsSummaryFile" -ForegroundColor Green
+        Write-Host "Completed extracting events from map $mapId" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error extracting events from map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Function to process all maps in a directory
+function Get-AllMapEvents {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_events"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        Get-MapEvents -mapFile $mapFile.FullName -outputDir $outputDir
+    }
+    
+    Write-Host "Completed extracting events from all maps" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# Get events from a single map:
+# Get-MapEvents -mapFile "data/Map001.json"
+#
+# Get events from all maps in the data directory:
+# Get-AllMapEvents

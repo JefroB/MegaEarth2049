@@ -1,0 +1,1092 @@
+{
+  "authoredOutliers": [
+    {
+      "category": "se",
+      "name": "Powerup",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/2/timing2",
+      "animation": 2,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Fire1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/3/timing0",
+      "animation": 3,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Blow3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/3/timing1",
+      "animation": 3,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Ice4",
+      "volume": 100,
+      "pitch": 75,
+      "pan": 0,
+      "source": "Animation/4/timing0",
+      "animation": 4,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Blow3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/4/timing1",
+      "animation": 4,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder8",
+      "volume": 100,
+      "pitch": 80,
+      "pan": 0,
+      "source": "Animation/5/timing0",
+      "animation": 5,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Blow3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/5/timing1",
+      "animation": 5,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Powerup",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/7/timing2",
+      "animation": 7,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/8/timing0",
+      "animation": 8,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Fire1",
+      "volume": 100,
+      "pitch": 120,
+      "pan": 0,
+      "source": "Animation/8/timing1",
+      "animation": 8,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/9/timing0",
+      "animation": 9,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Ice4",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/9/timing1",
+      "animation": 9,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/10/timing0",
+      "animation": 10,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder8",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/10/timing1",
+      "animation": 10,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Powerup",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/12/timing2",
+      "animation": 12,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Sword5",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/13/timing1",
+      "animation": 13,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Fire1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/13/timing2",
+      "animation": 13,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Sword5",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/14/timing1",
+      "animation": 14,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Ice4",
+      "volume": 100,
+      "pitch": 75,
+      "pan": 0,
+      "source": "Animation/14/timing2",
+      "animation": 14,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Sword5",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/15/timing1",
+      "animation": 15,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Thunder8",
+      "volume": 100,
+      "pitch": 80,
+      "pan": 0,
+      "source": "Animation/15/timing2",
+      "animation": 15,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Attack2",
+      "volume": 90,
+      "pitch": 200,
+      "pan": 0,
+      "source": "Animation/16/timing0",
+      "animation": 16,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Powerup",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/17/timing2",
+      "animation": 17,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Attack2",
+      "volume": 90,
+      "pitch": 200,
+      "pan": 0,
+      "source": "Animation/18/timing0",
+      "animation": 18,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Fire1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/18/timing2",
+      "animation": 18,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Attack2",
+      "volume": 90,
+      "pitch": 200,
+      "pan": 0,
+      "source": "Animation/19/timing0",
+      "animation": 19,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Ice4",
+      "volume": 100,
+      "pitch": 75,
+      "pan": 0,
+      "source": "Animation/19/timing2",
+      "animation": 19,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Attack2",
+      "volume": 90,
+      "pitch": 200,
+      "pan": 0,
+      "source": "Animation/20/timing0",
+      "animation": 20,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder8",
+      "volume": 100,
+      "pitch": 80,
+      "pan": 0,
+      "source": "Animation/20/timing2",
+      "animation": 20,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Blow1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/22/timing4",
+      "animation": 22,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Blow2",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/22/timing5",
+      "animation": 22,
+      "frame": 7
+    },
+    {
+      "category": "se",
+      "name": "Blow1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/22/timing6",
+      "animation": 22,
+      "frame": 9
+    },
+    {
+      "category": "se",
+      "name": "Blow3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/22/timing8",
+      "animation": 22,
+      "frame": 14
+    },
+    {
+      "category": "se",
+      "name": "Blow2",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/22/timing9",
+      "animation": 22,
+      "frame": 17
+    },
+    {
+      "category": "se",
+      "name": "Damage2",
+      "volume": 100,
+      "pitch": 120,
+      "pan": 0,
+      "source": "Animation/22/timing11",
+      "animation": 22,
+      "frame": 19
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/24/timing2",
+      "animation": 24,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Wind7",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/24/timing5",
+      "animation": 24,
+      "frame": 7
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/25/timing0",
+      "animation": 25,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Slash3",
+      "volume": 100,
+      "pitch": 120,
+      "pan": 0,
+      "source": "Animation/25/timing2",
+      "animation": 25,
+      "frame": 8
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/25/timing4",
+      "animation": 25,
+      "frame": 15
+    },
+    {
+      "category": "se",
+      "name": "Slash3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/25/timing6",
+      "animation": 25,
+      "frame": 22
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/26/timing2",
+      "animation": 26,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/26/timing4",
+      "animation": 26,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/26/timing6",
+      "animation": 26,
+      "frame": 7
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/26/timing8",
+      "animation": 26,
+      "frame": 9
+    },
+    {
+      "category": "se",
+      "name": "Sword4",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing1",
+      "animation": 27,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Sword5",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing2",
+      "animation": 27,
+      "frame": 4
+    },
+    {
+      "category": "se",
+      "name": "Sword4",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing4",
+      "animation": 27,
+      "frame": 7
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing6",
+      "animation": 27,
+      "frame": 10
+    },
+    {
+      "category": "se",
+      "name": "Sword4",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing7",
+      "animation": 27,
+      "frame": 13
+    },
+    {
+      "category": "se",
+      "name": "Sword5",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing8",
+      "animation": 27,
+      "frame": 16
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/27/timing9",
+      "animation": 27,
+      "frame": 17
+    },
+    {
+      "category": "se",
+      "name": "Crossbow",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/29/timing0",
+      "animation": 29,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Attack3",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/29/timing1",
+      "animation": 29,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Attack3",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/29/timing2",
+      "animation": 29,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Attack3",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/29/timing3",
+      "animation": 29,
+      "frame": 8
+    },
+    {
+      "category": "se",
+      "name": "Attack3",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/29/timing4",
+      "animation": 29,
+      "frame": 13
+    },
+    {
+      "category": "se",
+      "name": "Wind6",
+      "volume": 90,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/29/timing5",
+      "animation": 29,
+      "frame": 13
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/30/timing1",
+      "animation": 30,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Slash4",
+      "volume": 100,
+      "pitch": 90,
+      "pan": 0,
+      "source": "Animation/30/timing2",
+      "animation": 30,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Slash5",
+      "volume": 100,
+      "pitch": 90,
+      "pan": 0,
+      "source": "Animation/30/timing3",
+      "animation": 30,
+      "frame": 8
+    },
+    {
+      "category": "se",
+      "name": "Slash2",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/30/timing4",
+      "animation": 30,
+      "frame": 12
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 120,
+      "pan": 0,
+      "source": "Animation/30/timing5",
+      "animation": 30,
+      "frame": 15
+    },
+    {
+      "category": "se",
+      "name": "Damage2",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/30/timing7",
+      "animation": 30,
+      "frame": 17
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/31/timing1",
+      "animation": 31,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Slash1",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/31/timing4",
+      "animation": 31,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Powerup",
+      "volume": 100,
+      "pitch": 180,
+      "pan": 0,
+      "source": "Animation/31/timing7",
+      "animation": 31,
+      "frame": 11
+    },
+    {
+      "category": "se",
+      "name": "Slash3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/31/timing9",
+      "animation": 31,
+      "frame": 15
+    },
+    {
+      "category": "se",
+      "name": "Monster1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/37/timing1",
+      "animation": 37,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Blow2",
+      "volume": 100,
+      "pitch": 70,
+      "pan": 0,
+      "source": "Animation/38/timing2",
+      "animation": 38,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Blow3",
+      "volume": 100,
+      "pitch": 50,
+      "pan": 0,
+      "source": "Animation/39/timing2",
+      "animation": 39,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Saint2",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/42/timing1",
+      "animation": 42,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Ice5",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/50/timing1",
+      "animation": 50,
+      "frame": 9
+    },
+    {
+      "category": "se",
+      "name": "Darkness4",
+      "volume": 100,
+      "pitch": 60,
+      "pan": 0,
+      "source": "Animation/57/timing1",
+      "animation": 57,
+      "frame": 2
+    },
+    {
+      "category": "se",
+      "name": "Darkness1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/57/timing3",
+      "animation": 57,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 100,
+      "pitch": 90,
+      "pan": 0,
+      "source": "Animation/69/timing0",
+      "animation": 69,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Ice4",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/72/timing0",
+      "animation": 72,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder3",
+      "volume": 100,
+      "pitch": 85,
+      "pan": 0,
+      "source": "Animation/77/timing0",
+      "animation": 77,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder8",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/77/timing1",
+      "animation": 77,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Thunder10",
+      "volume": 100,
+      "pitch": 120,
+      "pan": 0,
+      "source": "Animation/79/timing0",
+      "animation": 79,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Thunder9",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/79/timing1",
+      "animation": 79,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Water1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/82/timing1",
+      "animation": 82,
+      "frame": 7
+    },
+    {
+      "category": "se",
+      "name": "Water1",
+      "volume": 100,
+      "pitch": 50,
+      "pan": 0,
+      "source": "Animation/84/timing0",
+      "animation": 84,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Earth5",
+      "volume": 100,
+      "pitch": 50,
+      "pan": 0,
+      "source": "Animation/87/timing1",
+      "animation": 87,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 100,
+      "pitch": 50,
+      "pan": 0,
+      "source": "Animation/88/timing1",
+      "animation": 88,
+      "frame": 5
+    },
+    {
+      "category": "se",
+      "name": "Earth4",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/89/timing0",
+      "animation": 89,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Earth1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/89/timing1",
+      "animation": 89,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Earth5",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/89/timing2",
+      "animation": 89,
+      "frame": 3
+    },
+    {
+      "category": "se",
+      "name": "Damage4",
+      "volume": 100,
+      "pitch": 50,
+      "pan": 0,
+      "source": "Animation/90/timing3",
+      "animation": 90,
+      "frame": 26
+    },
+    {
+      "category": "se",
+      "name": "Wind5",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/92/timing0",
+      "animation": 92,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Wind5",
+      "volume": 100,
+      "pitch": 80,
+      "pan": 0,
+      "source": "Animation/94/timing0",
+      "animation": 94,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Sand",
+      "volume": 100,
+      "pitch": 70,
+      "pan": 0,
+      "source": "Animation/94/timing1",
+      "animation": 94,
+      "frame": 1
+    },
+    {
+      "category": "se",
+      "name": "Saint4",
+      "volume": 100,
+      "pitch": 115,
+      "pan": 0,
+      "source": "Animation/97/timing2",
+      "animation": 97,
+      "frame": 6
+    },
+    {
+      "category": "se",
+      "name": "Skill1",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/99/timing0",
+      "animation": 99,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Explosion1",
+      "volume": 100,
+      "pitch": 150,
+      "pan": 0,
+      "source": "Animation/99/timing1",
+      "animation": 99,
+      "frame": 8
+    },
+    {
+      "category": "se",
+      "name": "Darkness3",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/102/timing0",
+      "animation": 102,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Teleport",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/104/timing0",
+      "animation": 104,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Explosion2",
+      "volume": 100,
+      "pitch": 105,
+      "pan": 0,
+      "source": "Animation/107/timing0",
+      "animation": 107,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Sand",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Animation/109/timing0",
+      "animation": 109,
+      "frame": 0
+    },
+    {
+      "category": "se",
+      "name": "Explosion2",
+      "volume": 100,
+      "pitch": 110,
+      "pan": 0,
+      "source": "Animation/109/timing3",
+      "animation": 109,
+      "frame": 10
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing5",
+      "animation": 110,
+      "frame": 37
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing6",
+      "animation": 110,
+      "frame": 40
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing8",
+      "animation": 110,
+      "frame": 46
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing9",
+      "animation": 110,
+      "frame": 50
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing11",
+      "animation": 110,
+      "frame": 52
+    },
+    {
+      "category": "se",
+      "name": "Fire3",
+      "volume": 95,
+      "pitch": 130,
+      "pan": 0,
+      "source": "Animation/110/timing13",
+      "animation": 110,
+      "frame": 55
+    },
+    {
+      "category": "se",
+      "name": "Knock",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Map056/event1/page0/command0",
+      "command": 250
+    },
+    {
+      "category": "se",
+      "name": "Knock",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Map056/event1/page0/command2",
+      "command": 250
+    },
+    {
+      "category": "se",
+      "name": "Knock",
+      "volume": 100,
+      "pitch": 100,
+      "pan": 0,
+      "source": "Map056/event1/page0/command4",
+      "command": 250
+    }
+  ],
+  "interpretation": "Legacy high pitch/volume settings retained; runtime permits positive playback rates. These are listening-review candidates, not automatically invalid or missing effects."
+}

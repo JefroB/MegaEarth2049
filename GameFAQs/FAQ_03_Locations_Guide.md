@@ -1,118 +1,52 @@
-# MegaEarth 2049 A.E. - FAQ: Locations Guide
+# MegaEarth 2049 — Locations
 
-## Q: What are the main locations in MegaEarth 2049?
+## Which areas have maps?
 
-A: MegaEarth is a sprawling dystopian world with numerous locations to explore, get lost in, contract diseases from, or be mugged at. The main areas include:
+| Area | Map IDs / examples |
+|---|---|
+| Mega Earth | 001 world map; 010 Timbuc; 002 Timbuc 2 |
+| Early dungeon | 015 Timbuc Cellar and linked rooms |
+| Digital / medical areas | 008 Internet Cafe, 009 Matrix, 024–027 and 041 B.M.N.E.C. |
+| Planet Ork | 028 world map, Dorlund maps, 062 lava fields |
+| Planet Ting Ting | 039 world map, Snowy Village, Newtown and lake maps |
+| Planet Needsaname | 102 world map and 107 naming office |
+| Floating Mansion/castle | 038 exterior, 040/091 floors and associated rooms |
+| New local settlements | 103 salvage yard, 104 thaw house, 105 reclamation market, 106 canteen |
+| New dungeon branches | 110–115 and interconnected maze maps 116–223 |
+| Custodian chambers and service access | 224–237 |
+| Underwriter branch |238 Executive Liability,239 Claims Audit Archive|
+| Underworks service annex |240, optional Third Eye/filter bypass|
+| Clown Court |241–243, connected filing/evidence/hearing rooms|
+| SLF break room |244, through Pip after machine diagnostics|
+| Hidden Dojo |245–248, first Collective trial|
+| Perfect Fit showroom |249–250, paired projection rooms|
+| Iron Circuits |251, optional MAX-E-MUM recruitment gym|
 
-### MegaEarth (Main Planet)
-- **Timbuc**: The urban cesspit where your adventure begins
-- **Timbuc 2**: The slightly less crappy but more corporate district
-- **B.M.N.E.C.**: Body Modification & Neural Enhancement Center, where you might walk in human and leave with tentacles
-- **NeuraTech Tower**: Corporate headquarters and A.S.P.'s main hub
-- **Floating Mansion**: A.S.P. creator's abandoned sky-palace with physics-defying architecture
+These are map records, not a promise that every older story location or every passage has been fully playtested.
 
-### Other Planets
-- **Planet Ork**: Features the Dorlund Lava Fields, haunted mines, and "Magma Mama's" bar
-- **Planet Ting Ting**: Home to the Snowy Village, Big Ass Desert, and Newtown Lake
-- **Planet Needsaname**: A bizarre world with questionable geography and even more questionable inhabitants
+## Is there fast travel?
 
-## Q: I'm new to the game. Where should I go first?
+Use the Ship Transponder from the menu on the MegaEarth, Ork or Ting Ting world map to board the Marcus Garvey 2.0. Choose a destination at its navigation station. It cannot summon the ship from inside dungeons. No universal clinic hotline, VIP teleport or random body-swapping transport system is verified.
 
-A: Start by exploring Timbuc thoroughly. Key locations include:
-- **The Squeaky Clean**: Zed's definitely-not-sterile clinic
-- **Niles's "Office"**: A repurposed dumpster where the King of Punks holds court
-- **The Glitch Pit**: Area where reality flickers due to Rex's implant
-- **The Busted Flush**: Bar where drinks change flavor based on your emotional state
-- **Timbuc Cellar**: Underground area filled with mutants, trash, and your first major quest item
+## Does Needsaname rearrange itself every day?
 
-Complete the initial quests in Timbuc to unlock access to Timbuc 2 and eventually other areas of MegaEarth.
+No. It has authored maps. The [Perfect Fit showroom](FAQ_06_Quests_and_Storylines.md#the-perfect-fit) in Timbuc2 now uses two fixed projection layouts for an optional puzzle. It does not regenerate Needsaname or any other campaign geography.
 
-## Q: How do I get to Planet Ork?
+## Where is the finale?
 
-A: To reach Planet Ork, you'll need to:
-1. Complete the "Engine Quest" to help Jack repair his ship, the *Marcus Garvey 2.0*
-2. Find all the engine parts scattered across Timbuc and Timbuc 2
-3. Bring the parts to Jack at the Spaceport
-4. Survive the journey (the ship has a "minor A.S.P. infestation, mostly harmless")
+The confirmed plan returns to **Map001**, enters and traverses the floating castle, then presents **two consecutive final bosses**. Their final identities and handoff still require implementation decisions. The new service vestibule is not a shortcut that replaces the castle or Necklace requirements.
 
-Once on Planet Ork, prepare for extreme heat, hostile miners, and creatures that find corporate jargon offensive. Don't forget to visit "Magma Mama's" where drinks are served literally on fire and patrons sign liability waivers at the door.
+## What about the Hidden Dojo, Clown Court and vending-machine headquarters?
 
-## Q: What's the deal with the Floating Mansion?
+Clown Court is now accessible through Bailiff Honk in Timbuc, west of the Burlap package/researcher area. Its filing hall, evidence discovery room and hearing chamber are separate connected maps. See [the court guide](FAQ_06_Quests_and_Storylines.md#clown-court). The Snack Liberation Front break room is now reached through Pip in Timbuc after inspecting machines in Timbuc, Timbuc2 and B.M.N.E.C. public frontage; see [the uprising guide](FAQ_06_Quests_and_Storylines.md#vending-machine-uprising). The [Hidden Dojo](FAQ_10_Ninja_System.md#hidden-dojo-first-trial) now opens through the Internet Cafe/Matrix Collective handshake after Pink Ninja joins.
 
-A: The Floating Mansion is the abandoned sky-palace of Dr. Eliza Voss, A.S.P.'s creator. It defies the laws of physics and contains several unique areas:
-- **The Paradox Room**: Where physics works backwards
-- **The Memory Pool**: A literal swimming pool filled with forgotten data
-- **The Ego Chamber**: A room that compliments you so much it becomes uncomfortable
+Evidence: `data/MapInfos.json`, `data/CommonEvents.json` 1, `data/Items.json` 144, [confirmed progression](../docs/story/STORY_PROGRESSION.md).
 
-To access the Floating Mansion, you'll need to complete the "Reality Rewrite Protocol" quest and obtain the Reality Stabilizer from Professor Paradox. The mansion is guarded by holographic laser-sharks and killer cleaning robots, so come prepared.
+## How does the Marcus Garvey2.0 work?
 
-## Q: I keep dying in the B.M.N.E.C. Any tips?
+It is the party’s spaceship for travel between planets. Reusable Ship Transponder144 works from the menu on worlds001,028 and 039 when owned; it boards the existing bridge Map050 at(7,11). The navigation station retains its authored destinations and berth checks. It does not summon the ship inside a dungeon, grant ownership, bypass castle requirements or repurpose Beanstalk Access switch21. Jack’s bridge invitation does not award the ship. See [Jack’s chapter](FAQ_04_Characters_and_NPCs.md#jack-passengers-are-not-freight).
 
-A: The Body Modification & Neural Enhancement Center (B.M.N.E.C.) is one of the most dangerous locations in the game. To survive:
 
-1. Bring plenty of antidotes and STD medications - the place is crawling with experimental bioweapons
-2. Don't drink anything from the vending machines labeled "Experimental Fluids"
-3. Avoid the "Volunteer Testing" rooms unless you want to become part of the furniture (literally)
-4. The security systems can be bypassed by wearing a lab coat and looking confident
-5. If you encounter Dr. Francine "Frankie" Stein, compliment her extra arms - she attached them herself and is quite proud
-6. The lower levels contain stronger enemies but better loot
-7. Look for air ducts - they often contain shortcuts and hidden treasures
+## Underworks service annex
 
-## Q: What's in Timbuc 2 that's worth visiting?
-
-A: Timbuc 2 is the slightly more upscale district with several points of interest:
-
-- **Acme Pharma Vending Machines**: Dispense cures and sometimes side-effects
-- **The Laughing Stock**: Comedy club run by weaponized clowns
-- **Bits & Bytes**: Restaurant serving digital-themed food that occasionally phases through the plate
-- **Internet Cafe**: Where DJ Static mixes beats created from hacked corporate communications
-- **Pants-O-Rama**: Mysterious shop that only sells burlap pants (avoid at all costs)
-- **Corporate Access Terminal**: Hack in to access restricted areas of the MegaCorp networks
-
-## Q: How do I navigate Planet Needsaname?
-
-A: Planet Needsaname is intentionally confusing and constantly changing. Some tips:
-
-1. The map is useless - the geography rearranges itself every 24 hours
-2. Follow the philosophical slime molds - they always lead to something interesting
-3. The "Quantum Quandary" casino has the best loot, but probabilities shift based on how much you're winning
-4. At the "Existential Eatery," order the "Crisis Special" - the food questions your life choices but grants temporary stat boosts
-5. Avoid areas that look too normal - they're usually the most dangerous
-6. If you encounter sentient cheese, DO NOT mention dairy allergies
-
-## Q: What's the most dangerous location in the game?
-
-A: The most dangerous location is the "Protocol Zero" hub inside NeuraTech Tower during the final confrontation with A.S.P. The area features:
-
-- Reality distortions that can turn your party members against each other
-- Enemies that adapt to your combat style
-- Sections where gravity reverses randomly
-- Memory corridors that force you to replay your worst decisions
-- A.S.P. manifestations that can delete your inventory items
-- The "Blue Screen of Death" room where saving is disabled
-
-Bring your strongest equipment, all your healing items, and maybe write a will before entering.
-
-## Q: Are there any secret locations?
-
-A: Yes! Several secret areas can be discovered:
-
-1. **The Narrator's Pocket Dimension**: Only accessible if Rex breaks the fourth wall enough times
-2. **The Clown Court**: Hidden beneath The Laughing Stock, where laws are made up and evidence is pie-based
-3. **Vending Machine Collective Headquarters**: Secret base of the Snack Liberation Front
-4. **The Burlap Dimension**: A horrifying realm made entirely of uncomfortable pants fabric
-5. **Captain Calamari's Underwater Lair**: Accessible only if you have the "Gill Mod" from Zed
-6. **The Developer's Office**: A meta-location that appears during the "Final Glitch" quest
-
-## Q: How do I unlock fast travel?
-
-A: Fast travel becomes available after completing the "Quantum Entanglement" side quest for Professor Paradox. You'll receive the "Quantum Jumper" device that allows instant travel between discovered locations.
-
-However, there's a 5% chance that using the Quantum Jumper will:
-1. Send you to a random location instead
-2. Swap your body parts with a party member
-3. Turn you inside out (don't worry, it's temporary)
-4. Create a clone of you that immediately tries to take your place
-5. Transport you correctly but leave your clothes behind
-
-The choice is yours: walk slowly or teleport nakedly.
+- **Armatek Underworks (Map110), maintenance grievance panel:** the existing clue remains. Third Eye Mod134 reveals a safe service bypass without consuming the mod. The scratched filter instruction offers another entrance by consuming one Pathogen Purge157. Unsafe overrides refuse entry without damage or consumption. Both lead to new optional annex240. Its cabinet gives one Panacea, two Green Herbs and 90 Credits once; exit is unconditional. Registry, necklace, castle and other campaign flags are unchanged.

@@ -1,0 +1,118 @@
+# MegaEarth2049 Documentation Index Updater
+# This script updates the documentation index to include the new map documentation tools
+
+# Function to update the documentation index
+function Update-DocumentationIndex {
+    param (
+        [string]$indexFile = "MegaEarth2049_Documentation_Index.md",
+        [string]$mapDocFile = "MegaEarth2049_Map_Documentation.md",
+        [string]$toolsReadmeFile = "Map_Documentation_Tools_README.md"
+    )
+    
+    # Check if the files exist
+    if (-not (Test-Path $indexFile)) {
+        Write-Host "Error: Index file $indexFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    if (-not (Test-Path $mapDocFile)) {
+        Write-Host "Error: Map documentation file $mapDocFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    if (-not (Test-Path $toolsReadmeFile)) {
+        Write-Host "Error: Tools README file $toolsReadmeFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    Write-Host "Updating documentation index..." -ForegroundColor Cyan
+    
+    # Read the index file
+    $indexContent = Get-Content $indexFile -Raw
+    
+    # Check if the map documentation tools are already in the index
+    if ($indexContent -match "Map_Documentation_Tools_README.md") {
+        Write-Host "Map documentation tools are already in the index." -ForegroundColor Yellow
+        return
+    }
+    
+    # Update the documentation overview section
+    $overviewPattern = "The MegaEarth2049 documentation is organized into fifteen specialized documents"
+    $overviewReplacement = "The MegaEarth2049 documentation is organized into seventeen specialized documents"
+    $indexContent = $indexContent -replace $overviewPattern, $overviewReplacement
+    
+    # Find the list of documents
+    $listPattern = "15\. \*\*MegaEarth2049_AI_Development_Guide\.md\*\* - .+\r?\n\r?\nTogether, these documents"
+    $listReplacement = "15. **MegaEarth2049_AI_Development_Guide.md** - Specialized guide for AI assistants on creating stable, thematically consistent content
+16. **MegaEarth2049_Map_Documentation.md** - Comprehensive documentation of all maps in the game, including incomplete maps
+17. **Map_Documentation_Tools_README.md** - Guide to using the map analysis and documentation tools
+
+Together, these documents"
+    $indexContent = $indexContent -replace $listPattern, $listReplacement
+    
+    # Add the new document summaries
+    $summariesPattern = "### 15\. MegaEarth2049_AI_Development_Guide\.md.+?(?=\r?\n\r?\n## How to Use This Documentation)"
+    $newSummaries = @"
+### 15. MegaEarth2049_AI_Development_Guide.md
+
+**Purpose**: Provides a comprehensive guide specifically for AI assistants on how to create stable, thematically consistent content for MegaEarth2049, with special focus on balancing technical correctness with the game's unique cyberpunk-meets-absurdist-comedy style.
+
+**Key Sections**:
+- Technical stability framework for preventing game-breaking issues
+- Thematic consistency guidelines for matching the game's tone and style
+- Content creation workflows for maps, quests, items, weapons, enemies, skills, and more
+- Advanced battle animation techniques with code examples
+- Integration checklist for ensuring new content works with existing systems
+- Troubleshooting guide for common issues and their solutions
+- Code examples for all major content types
+
+**When to Use**: This should be the primary reference for AI assistants working on MegaEarth2049. Consult this guide before creating any new content to ensure it both functions correctly and maintains the game's unique style and tone. The document provides practical implementation examples that can be adapted for various content creation tasks.
+
+### 16. MegaEarth2049_Map_Documentation.md
+
+**Purpose**: Provides a comprehensive overview of all maps in the game, including complete and incomplete maps, with recommendations for future development.
+
+**Key Sections**:
+- Map statistics and overview
+- Map structure and file format
+- Categorization of maps by type and purpose
+- Detailed lists of incomplete maps
+- Map connections and relationships
+- Prioritized recommendations for completing maps
+- Comprehensive analysis of the game world
+
+**When to Use**: Consult this document when working with maps, especially when you need to understand the overall structure of the game world, identify incomplete maps that need attention, or understand how different maps are connected.
+
+### 17. Map_Documentation_Tools_README.md
+
+**Purpose**: Provides a guide to using the map analysis and documentation tools, which help identify incomplete maps and generate comprehensive documentation.
+
+**Key Sections**:
+- Available tools and their purposes
+- Generated documentation files
+- Quick start guide for one-time and continuous documentation
+- Understanding the documentation output
+- Customization options for the tools
+- Troubleshooting common issues
+- Requirements and installation
+
+**When to Use**: Reference this document when you need to analyze maps, identify incomplete maps, or generate updated documentation as the game evolves. The tools described here can help maintain accurate documentation as the game development progresses.
+"@
+    $summariesReplacement = $summariesPattern + "`r`n`r`n" + $newSummaries
+    $indexContent = $indexContent -replace $summariesPattern, $summariesReplacement
+    
+    # Update the "How to Use This Documentation" section
+    $tasksPattern = "- \*\*Troubleshooting issues\*\*: Consult the AI Development Guide's troubleshooting section for common problems and solutions\."
+    $tasksReplacement = "- **Troubleshooting issues**: Consult the AI Development Guide's troubleshooting section for common problems and solutions.
+- **Understanding the map structure**: Review the Map Documentation for a comprehensive overview of all maps, including incomplete ones.
+- **Analyzing maps**: Use the Map Documentation Tools to analyze maps, identify incomplete maps, and generate updated documentation."
+    $indexContent = $indexContent -replace $tasksPattern, $tasksReplacement
+    
+    # Write the updated content back to the file
+    $indexContent | Out-File -FilePath $indexFile -Encoding utf8
+    
+    Write-Host "Documentation index updated successfully!" -ForegroundColor Green
+}
+
+# Main script execution
+Update-DocumentationIndex

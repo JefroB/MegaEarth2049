@@ -1,0 +1,209 @@
+[
+  {
+    "map": 1,
+    "event": 12,
+    "name": "Black Market Dealer",
+    "sprite": "People4",
+    "x": 20,
+    "y": 15,
+    "tiles": [
+      2048,
+      2096,
+      0,
+      0
+    ],
+    "reasons": [
+      "native passage blocked"
+    ]
+  },
+  {
+    "map": 1,
+    "event": 13,
+    "name": "Beanstalk Elevator",
+    "sprite": "Actor1",
+    "x": 28,
+    "y": 20,
+    "tiles": [
+      2093,
+      2141,
+      251,
+      15
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile15 flag1536"
+    ]
+  },
+  {
+    "map": 2,
+    "event": 11,
+    "name": "EV011",
+    "sprite": "female1",
+    "x": 4,
+    "y": 25,
+    "tiles": [
+      2836,
+      0,
+      217,
+      227
+    ],
+    "reasons": [
+      "opaque scenery at feet z2 tile217 flag1552",
+      "opaque scenery at feet z3 tile227 flag1552"
+    ]
+  },
+  {
+    "map": 2,
+    "event": 22,
+    "name": "EV022",
+    "sprite": "female1",
+    "x": 12,
+    "y": 25,
+    "tiles": [
+      2836,
+      0,
+      0,
+      241
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile241 flag1552"
+    ]
+  },
+  {
+    "map": 3,
+    "event": 4,
+    "name": "Scientist's Lab",
+    "sprite": "Actor2",
+    "x": 12,
+    "y": 8,
+    "tiles": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "reasons": [
+      "no ground",
+      "native passage blocked"
+    ]
+  },
+  {
+    "map": 28,
+    "event": 5,
+    "name": "Transponder berth - Planet Ork",
+    "sprite": "SF_People3",
+    "x": 30,
+    "y": 3,
+    "tiles": [
+      3584,
+      0,
+      0,
+      969
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile969 flag1552"
+    ]
+  },
+  {
+    "map": 34,
+    "event": 8,
+    "name": "EV008",
+    "sprite": "SF_People1",
+    "x": 1,
+    "y": 2,
+    "tiles": [
+      1604,
+      0,
+      0,
+      71
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile71 flag1680"
+    ]
+  },
+  {
+    "map": 35,
+    "event": 3,
+    "name": "Grandpa",
+    "sprite": "oldmen1",
+    "x": 6,
+    "y": 2,
+    "tiles": [
+      3700,
+      0,
+      0,
+      122
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile122 flag1536"
+    ]
+  },
+  {
+    "map": 35,
+    "event": 5,
+    "name": "Engine Component C",
+    "sprite": "Actor1",
+    "x": 5,
+    "y": 8,
+    "tiles": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "reasons": [
+      "no ground",
+      "native passage blocked"
+    ]
+  },
+  {
+    "map": 102,
+    "event": 1,
+    "name": "Transponder berth - Planet Needsaname",
+    "sprite": "SF_People3",
+    "x": 12,
+    "y": 12,
+    "tiles": [
+      3700,
+      0,
+      0,
+      281
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile281 flag1536"
+    ]
+  },
+  {
+    "map": 104,
+    "event": 2,
+    "name": "Thaw attendant",
+    "sprite": "SF_People1",
+    "x": 3,
+    "y": 4,
+    "tiles": [
+      4112,
+      0,
+      0,
+      850
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile850 flag1536"
+    ]
+  },
+  {
+    "map": 106,
+    "event": 2,
+    "name": "Soup steward",
+    "sprite": "SF_People1",
+    "x": 3,
+    "y": 4,
+    "tiles": [
+      1604,
+      0,
+      0,
+      786
+    ],
+    "reasons": [
+      "opaque scenery at feet z3 tile786 flag1536"
+    ]
+  }
+]

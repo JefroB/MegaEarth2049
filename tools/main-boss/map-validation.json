@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": 115,
+      "flag": false,
+      "reachable": true
+    },
+    {
+      "id": 238,
+      "flag": false,
+      "reachable": true
+    },
+    {
+      "id": 239,
+      "flag": false,
+      "reachable": true
+    },
+    {
+      "id": 115,
+      "flag": true,
+      "reachable": true
+    },
+    {
+      "id": 238,
+      "flag": true,
+      "reachable": true
+    },
+    {
+      "id": 239,
+      "flag": true,
+      "reachable": true
+    }
+  ]
+}

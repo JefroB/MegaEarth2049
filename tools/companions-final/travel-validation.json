@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "native spaceship navigation reaches world map1 on a free landing",
+    "world map1 berth returns to the spaceship with Jack and reusable transponder intact",
+    "native spaceship navigation reaches world map28 on a free landing",
+    "world map28 berth returns to the spaceship with Jack and reusable transponder intact",
+    "native spaceship navigation reaches world map39 on a free landing",
+    "world map39 berth returns to the spaceship with Jack and reusable transponder intact",
+    "native spaceship navigation reaches world map102 on a free landing",
+    "world map102 berth returns to the spaceship with Jack and reusable transponder intact"
+  ],
+  "errors": []
+}

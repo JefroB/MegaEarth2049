@@ -1,0 +1,38 @@
+[
+  {
+    "map": 7,
+    "x": 8,
+    "y": 5,
+    "tiles": [
+      5908,
+      0,
+      0,
+      0
+    ],
+    "reason": "Visually reviewed flat concrete shop-front step; not a vertical wall face."
+  },
+  {
+    "map": 42,
+    "x": 20,
+    "y": 18,
+    "tiles": [
+      6848,
+      0,
+      0,
+      0
+    ],
+    "reason": "Authored open concrete arrival surface, using a flat A4 texture."
+  },
+  {
+    "map": 60,
+    "x": 43,
+    "y": 25,
+    "tiles": [
+      5936,
+      0,
+      0,
+      0
+    ],
+    "reason": "Clear authored stone floor beside the Unpaid Shift access console."
+  }
+]

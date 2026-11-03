@@ -1,0 +1,7 @@
+# Complete illustrated frame draft
+
+Built-in image-generation edit of `seam-press-v3.png`.
+
+Precise animation edit of this exact SEAM sewing press illustration. Produce ONE whole complete character image, same 1462x1076 canvas, same camera, exact machine scale and same planted base coordinates. Change ONLY the burlap cloth pose in the lower right, near and beyond the needle. The cloth is being fed out the front to the RIGHT: make it a continuous naturally draped fabric, curving over the bed's front edge, then forming one loose soft folded loop on the floor immediately in front. Red stitched center seam follows all folds and perspective. Cloth grows modestly longer, NOT a straight rigid ribbon, NOT a flying banner. It remains visibly connected underneath the needle and lies convincingly over the machine bed. Keep the entire machine chassis, wheel, needle, spool, bolts, outlines, proportions, lighting, rust, canvas position and ALL pixels outside the cloth region unchanged. Do not redraw or resize the machine. No detached assets, no separate strip, no text, no scenery. True transparent background stays transparent. This is a complete finished attack frame, not a layered parts diagram.
+
+Output: `seam-full-cloth-frame-draft.png`. This demonstrates cohesive cloth folds, but is not installed: the generated edit also changes rigid machine pixels. Mechanical parity must be repaired before it becomes an animation frame.

@@ -1,0 +1,43 @@
+{
+  "title": "Bench Warranty",
+  "actor": 4,
+  "giver": [
+    99,
+    2
+  ],
+  "bench": [
+    99,
+    3
+  ],
+  "benchPosition": [
+    4,
+    3
+  ],
+  "switches": [
+    217,
+    218,
+    219,
+    220,
+    221,
+    222
+  ],
+  "waiverAvailable": "221 && !222",
+  "mods": [
+    [
+      133,
+      62,
+      100
+    ],
+    [
+      134,
+      63,
+      150
+    ],
+    [
+      153,
+      64,
+      180
+    ]
+  ],
+  "personalExp": 200
+}

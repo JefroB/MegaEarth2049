@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Original SEAM battle and every other Map002 event unchanged",
+    "Original post-SEAM clothing purchase, goods, Leave index and cancellation unchanged",
+    "Only the inspection branch and legacy completed-save predicate added",
+    "Prior switches, variables, System settings and map hierarchy preserved; two maps appended"
+  ]
+}

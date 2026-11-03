@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Skills records, names, stats, effects unchanged",
+    "Armors records, names, stats, effects unchanged",
+    "147 non-separator skills have distinct nonblank icon pixels",
+    "128 packed icons nonempty with transparent top/bottom gutters",
+    "Existing Pink Ninja appearance preserved (alpha-rounding tolerance2)",
+    "Four new ninja colors populated"
+  ]
+}

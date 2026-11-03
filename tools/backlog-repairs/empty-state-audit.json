@@ -1,0 +1,133 @@
+[
+  {
+    "id": 7,
+    "name": "Rage",
+    "restriction": 1,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 8,
+    "name": "Confusion",
+    "restriction": 2,
+    "callers": [
+      [
+        "Skills",
+        11,
+        "Slug"
+      ]
+    ],
+    "note": ""
+  },
+  {
+    "id": 9,
+    "name": "Fascination",
+    "restriction": 3,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 12,
+    "name": "Constipation",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 14,
+    "name": "Dia/Dys",
+    "restriction": 0,
+    "callers": [
+      [
+        "Skills",
+        43,
+        "Poop Fling"
+      ],
+      [
+        "Skills",
+        45,
+        "Chocolate Thunder"
+      ]
+    ],
+    "note": "<placeholder state>\nvar diarrhea = 11;\n  if (a.isStateAffected(diarrhea)) {\n    var turnsLeft = a._stateTurns[diarrhea];\n    if(turnsLeft >= 11) {\n      13;\n    } else {\n      11\n    } \n  }\n  else {\n     11;\n  } \n</placeholder state>"
+  },
+  {
+    "id": 17,
+    "name": "test state",
+    "restriction": 0,
+    "callers": [],
+    "note": "<Custom State 17 Turn>\nturn = 5;\n</Custom State 17 Turn>"
+  },
+  {
+    "id": 18,
+    "name": "Hyped/Stoked",
+    "restriction": 0,
+    "callers": [
+      [
+        "Skills",
+        19,
+        "test skill"
+      ],
+      [
+        "Skills",
+        24,
+        "Rally"
+      ],
+      [
+        "Skills",
+        44,
+        "Cheer"
+      ]
+    ],
+    "note": "<placeholder state>\nvar hype = 19;\n  if (a.isStateAffected(hype)) {\n    var turnsLeft = a._stateTurns[hype];\n    if(turnsLeft >= 11) {\n      20;\n    } else {\n      19\n    } \n  }\n  else {\n     19;\n  } \n</placeholder state>"
+  },
+  {
+    "id": 37,
+    "name": "Fever",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 38,
+    "name": "Sickness",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 39,
+    "name": "Hysterical",
+    "restriction": 3,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 43,
+    "name": "Protection",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 44,
+    "name": "",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 45,
+    "name": "",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  },
+  {
+    "id": 46,
+    "name": "",
+    "restriction": 0,
+    "callers": [],
+    "note": ""
+  }
+]

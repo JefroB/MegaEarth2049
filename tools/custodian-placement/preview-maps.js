@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('assert'),path=require('path');
+const {chromium}=require('C:/Users/jborn/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const manifest=JSON.parse(fs.readFileSync('tools/custodian-placement/manifest.json')); 
+(async()=>{let checks=[];const browser=await chromium.launch({channel:'chrome',headless:true}),p=await browser.newPage();p.on('pageerror',e=>console.error('PAGE',e.message));try{
+await p.route('http://game.test/**',r=>r.fulfill({path:path.resolve(decodeURIComponent(new URL(r.request().url()).pathname.slice(1)))}));await p.goto('http://game.test/index.html');await p.waitForFunction(()=>window.SceneManager&&SceneManager._scene instanceof Scene_Title);
+await p.evaluate(()=>{DataManager.setupNewGame();$gameSystem.disableEncounter();$gameParty.members().slice().forEach(a=>$gameParty.removeActor(a.actorId()));[1,2,3].forEach(i=>{$gameParty.addActor(i);$gameActors.actor(i).changeLevel(20,false)});$gamePlayer.reserveTransfer(127,7,7,2,0);SceneManager.goto(Scene_Map);setInterval(()=>{let s=SceneManager._scene;if($gameMessage.isChoice()){ $gameMessage.onChoice(window.choice||0);s._messageWindow.terminateMessage();}else if($gameMessage.hasText()&&s._messageWindow)s._messageWindow.terminateMessage()},20)});
+async function idle(){await p.waitForFunction(()=>SceneManager._scene instanceof Scene_Map&&SceneManager._scene.isActive()&&!$gamePlayer.isTransferring()&&!$gameMap.isEventRunning()&&!$gameMessage.isBusy());}
+async function go(id,xy){await idle();await p.evaluate(({id,xy})=>$gamePlayer.reserveTransfer(id,...xy,2,0),{id,xy});await p.waitForFunction(id=>$gameMap.mapId()===id&&!$gamePlayer.isTransferring(),id);await idle();}
+async function run(eid){await p.evaluate(eid=>{$gameMap.refreshIfNeeded();$gameMap._interpreter.setup($gameMap.event(eid).list(),eid)},eid);}
+for(const r of manifest.bosses){await go(r.arena,r.spawn);await p.waitForFunction(()=>SceneManager._scene._fadeDuration===0);await p.screenshot({path:'tools/custodian-placement/'+r.key+'-arena.png'});}console.log('Screenshots refreshed');}finally{await browser.close()}})();

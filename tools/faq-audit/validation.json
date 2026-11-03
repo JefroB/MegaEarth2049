@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "originalPages": 13,
+  "originalQuestionSections": 154,
+  "remainingFAQs": 11,
+  "backlogCandidates": 26,
+  "brokenLinks": [],
+  "systemChange": "partyMembers only",
+  "backup": "tools/faq-audit/before.zip"
+}

@@ -1,0 +1,183 @@
+# MegaEarth2049 Tileset Flag Update Script
+# This script allows you to update specific flag values in tilesets
+
+# Function to update flags in a tileset
+function Update-TilesetFlags {
+    param (
+        [int]$tilesetNumber,
+        [int]$oldFlagValue,
+        [int]$newFlagValue,
+        [switch]$backupOriginal = $true
+    )
+    
+    $tilesetFile = "tileset${tilesetNumber}.json"
+    
+    # Check if the tileset file exists
+    if (-not (Test-Path $tilesetFile)) {
+        Write-Host "Error: $tilesetFile does not exist. Please extract it first using extract_metadata.ps1" -ForegroundColor Red
+        return
+    }
+    
+    # Create backup if requested
+    if ($backupOriginal) {
+        $backupFile = "tileset${tilesetNumber}_backup.json"
+        Copy-Item -Path $tilesetFile -Destination $backupFile -Force
+        Write-Host "Created backup at $backupFile" -ForegroundColor Green
+    }
+    
+    # Load the tileset
+    Write-Host "Loading $tilesetFile..." -ForegroundColor Cyan
+    $tileset = Get-Content $tilesetFile -Raw | ConvertFrom-Json
+    
+    # Count occurrences of the old flag value
+    $flagsArray = @($tileset.flags)
+    $oldFlagCount = 0
+    
+    for ($i = 0; $i -lt $flagsArray.Count; $i++) {
+        if ($flagsArray[$i] -eq $oldFlagValue) {
+            $oldFlagCount++
+        }
+    }
+    
+    Write-Host "Found $oldFlagCount occurrences of flag value $oldFlagValue (0x$($oldFlagValue.ToString('X4')))" -ForegroundColor Yellow
+    
+    # Confirm before proceeding
+    $confirmation = Read-Host "Do you want to replace all occurrences with $newFlagValue (0x$($newFlagValue.ToString('X4')))? (y/n)"
+    if ($confirmation -ne 'y') {
+        Write-Host "Operation cancelled." -ForegroundColor Red
+        return
+    }
+    
+    # Update the flag values
+    $replacedCount = 0
+    for ($i = 0; $i -lt $flagsArray.Count; $i++) {
+        if ($flagsArray[$i] -eq $oldFlagValue) {
+            $tileset.flags[$i] = $newFlagValue
+            $replacedCount++
+        }
+    }
+    
+    # Save the updated tileset
+    $tileset | ConvertTo-Json -Depth 100 > $tilesetFile
+    Write-Host "Updated $replacedCount flag values in $tilesetFile" -ForegroundColor Green
+    
+    # Generate a report
+    $reportFile = "tileset${tilesetNumber}_update_report.txt"
+    "Flag Update Report for $tilesetFile" | Out-File -FilePath $reportFile -Encoding utf8
+    "Timestamp: $(Get-Date)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    "Old Flag Value: $oldFlagValue (0x$($oldFlagValue.ToString('X4')))" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    "New Flag Value: $newFlagValue (0x$($newFlagValue.ToString('X4')))" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    "Occurrences Found: $oldFlagCount" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    "Occurrences Replaced: $replacedCount" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    "Backup Created: $backupOriginal" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+    
+    Write-Host "Report saved to $reportFile" -ForegroundColor Green
+}
+
+# Function to update the main tilesets.json file with modified tileset
+function Update-MainTilesetsFile {
+    param (
+        [int]$tilesetNumber
+    )
+    
+    $tilesetFile = "tileset${tilesetNumber}.json"
+    
+    # Check if the tileset file exists
+    if (-not (Test-Path $tilesetFile)) {
+        Write-Host "Error: $tilesetFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create backup of main tilesets file
+    $backupFile = "data/Tilesets_backup.json"
+    Copy-Item -Path "data/Tilesets.json" -Destination $backupFile -Force
+    Write-Host "Created backup of main Tilesets.json at $backupFile" -ForegroundColor Green
+    
+    # Load the modified tileset
+    $modifiedTileset = Get-Content $tilesetFile -Raw | ConvertFrom-Json
+    
+    # Load the main tilesets file
+    Write-Host "Loading main Tilesets.json file..." -ForegroundColor Cyan
+    $allTilesets = Get-Content "data/Tilesets.json" -Raw | ConvertFrom-Json
+    
+    # Update the specific tileset
+    $allTilesets[$tilesetNumber] = $modifiedTileset
+    
+    # Confirm before proceeding
+    $confirmation = Read-Host "Do you want to update Tileset #$tilesetNumber in the main Tilesets.json file? (y/n)"
+    if ($confirmation -ne 'y') {
+        Write-Host "Operation cancelled." -ForegroundColor Red
+        return
+    }
+    
+    # Save the updated tilesets file
+    $allTilesets | ConvertTo-Json -Depth 100 > "data/Tilesets.json"
+    Write-Host "Updated Tileset #$tilesetNumber in the main Tilesets.json file" -ForegroundColor Green
+}
+
+# Display help information
+function Show-Help {
+    Write-Host "MegaEarth2049 Tileset Flag Update Script" -ForegroundColor Cyan
+    Write-Host "----------------------------------------" -ForegroundColor Cyan
+    Write-Host "This script allows you to update specific flag values in tilesets." -ForegroundColor White
+    Write-Host ""
+    Write-Host "Usage:" -ForegroundColor Yellow
+    Write-Host "  1. First extract the tilesets using extract_metadata.ps1" -ForegroundColor White
+    Write-Host "  2. Run this script with the following parameters:" -ForegroundColor White
+    Write-Host ""
+    Write-Host "Parameters:" -ForegroundColor Yellow
+    Write-Host "  -tilesetNumber : The tileset number to update (1-4)" -ForegroundColor White
+    Write-Host "  -oldFlagValue  : The flag value to replace" -ForegroundColor White
+    Write-Host "  -newFlagValue  : The new flag value to use" -ForegroundColor White
+    Write-Host "  -noBackup      : (Optional) Skip creating a backup of the original file" -ForegroundColor White
+    Write-Host ""
+    Write-Host "Examples:" -ForegroundColor Yellow
+    Write-Host "  ./update_tileset_flags.ps1 -tilesetNumber 1 -oldFlagValue 1551 -newFlagValue 1536" -ForegroundColor White
+    Write-Host "  ./update_tileset_flags.ps1 -tilesetNumber 2 -oldFlagValue 3599 -newFlagValue 3584 -noBackup" -ForegroundColor White
+    Write-Host ""
+    Write-Host "After updating the tileset, you can apply it to the main Tilesets.json file:" -ForegroundColor Yellow
+    Write-Host "  ./update_tileset_flags.ps1 -updateMain -tilesetNumber 1" -ForegroundColor White
+    Write-Host ""
+}
+
+# Main script execution
+if ($args.Count -eq 0 -or $args[0] -eq "-help" -or $args[0] -eq "--help" -or $args[0] -eq "/?") {
+    Show-Help
+    return
+}
+
+# Parse command line arguments
+$updateMain = $false
+$tilesetNumber = 0
+$oldFlagValue = 0
+$newFlagValue = 0
+$noBackup = $false
+
+for ($i = 0; $i -lt $args.Count; $i++) {
+    switch ($args[$i]) {
+        "-tilesetNumber" { $tilesetNumber = [int]$args[++$i] }
+        "-oldFlagValue" { $oldFlagValue = [int]$args[++$i] }
+        "-newFlagValue" { $newFlagValue = [int]$args[++$i] }
+        "-noBackup" { $noBackup = $true }
+        "-updateMain" { $updateMain = $true }
+    }
+}
+
+# Execute the appropriate function
+if ($updateMain) {
+    if ($tilesetNumber -lt 1 -or $tilesetNumber -gt 4) {
+        Write-Host "Error: tilesetNumber must be between 1 and 4" -ForegroundColor Red
+        return
+    }
+    Update-MainTilesetsFile -tilesetNumber $tilesetNumber
+} else {
+    if ($tilesetNumber -lt 1 -or $tilesetNumber -gt 4) {
+        Write-Host "Error: tilesetNumber must be between 1 and 4" -ForegroundColor Red
+        return
+    }
+    if ($oldFlagValue -eq 0 -or $newFlagValue -eq 0) {
+        Write-Host "Error: oldFlagValue and newFlagValue must be specified" -ForegroundColor Red
+        return
+    }
+    Update-TilesetFlags -tilesetNumber $tilesetNumber -oldFlagValue $oldFlagValue -newFlagValue $newFlagValue -backupOriginal:(-not $noBackup)
+}

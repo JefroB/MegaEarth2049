@@ -1,0 +1,129 @@
+﻿MegaEarth2049 Incomplete Maps Report
+Generated on: 04/18/2025 20:55:42
+----------------------------------------
+
+Total Maps: 103
+
+Complete Maps: 72
+Maps Without Names: 18
+Maps Without Events: 9
+Maps Without Tiles: 4
+Small Maps (< 5x5): 0
+Large Maps (> 100x100): 0
+Maps With Errors: 0
+
+Maps Without Names:
+----------------------------------------
+Map 032: Dimensions: 9 x 7, Events: 3
+Map 040: Dimensions: 20 x 16, Events: 1
+Map 051: Dimensions: 17 x 13, Events: 0
+Map 052: Dimensions: 17 x 13, Events: 0
+Map 053: Dimensions: 17 x 13, Events: 0
+Map 055: Dimensions: 17 x 13, Events: 0
+Map 060: Dimensions: 50 x 50, Events: 0
+Map 085: Dimensions: 60 x 48, Events: 9
+Map 086: Dimensions: 10 x 8, Events: 1
+Map 087: Dimensions: 8 x 10, Events: 1
+Map 088: Dimensions: 12 x 6, Events: 1
+Map 089: Dimensions: 6 x 10, Events: 2
+Map 090: Dimensions: 14 x 10, Events: 1
+Map 098: Dimensions: 8 x 6, Events: 1
+Map 099: Dimensions: 10 x 8, Events: 2
+Map 100: Dimensions: 70 x 60, Events: 0
+Map 102: Dimensions: 100 x 100, Events: 0
+Map Infos: Dimensions:                                                                                                       x                                                                                                      , Events: 0
+
+Maps Without Events:
+----------------------------------------
+Map 027: B.M.N.E.C. Waiting Room, Dimensions: 30 x 13
+Map 029: Bridge, Dimensions: 20 x 20
+Map 031: Bridge, Dimensions: 20 x 20
+Map 038: Floating Mansion, Dimensions: 17 x 13
+Map 050: Marcus Garvey 2.0, Dimensions: 17 x 13
+Map 054: MedBay, Dimensions: 17 x 13
+Map 059: Hall, Dimensions: 6 x 50
+Map 061: Dorlund Center, Dimensions: 30 x 25
+Map 062: Lava Fields, Dimensions: 200 x 200
+
+Maps Without Tiles:
+----------------------------------------
+Map 063: Dorlund Inn, Dimensions: 17 x 13, Events: 0
+Map 064: General Store, Dimensions: 17 x 13, Events: 0
+Map 065: Inn Room, Dimensions: 17 x 13, Events: 0
+Map 096: No Name, Dimensions: 17 x 13, Events: 0
+
+Complete Maps:
+----------------------------------------
+Map 001: Mega Earth, Dimensions: 35 x 35, Events: 20
+Map 002: Timbuc 2, Dimensions: 25 x 30, Events: 27
+Map 003: Item Shop, Dimensions: 17 x 8, Events: 6
+Map 004: Weapon Shop, Dimensions: 15 x 8, Events: 3
+Map 005: Church Street, Dimensions: 35 x 17, Events: 9
+Map 006: Park, Dimensions: 17 x 13, Events: 12
+Map 007: Gnarles Barkley Ave, Dimensions: 20 x 10, Events: 10
+Map 008: Internet Cafe, Dimensions: 17 x 8, Events: 3
+Map 009: Matrix, Dimensions: 20 x 20, Events: 4
+Map 010: Timbuc, Dimensions: 17 x 13, Events: 12
+Map 011: Timbuc Grocery, Dimensions: 8 x 8, Events: 3
+Map 012: Timbuc Weapon Shop, Dimensions: 10 x 6, Events: 3
+Map 013: Timbuc Inn, Dimensions: 10 x 7, Events: 3
+Map 014: Timbuc Inn, Dimensions: 10 x 7, Events: 2
+Map 015: Cellar, Dimensions: 70 x 50, Events: 29
+Map 016: Cellar Dweller's Room, Dimensions: 9 x 12, Events: 2
+Map 017: Room A, Dimensions: 5 x 7, Events: 3
+Map 018: Room D, Dimensions: 5 x 7, Events: 3
+Map 019: Room B, Dimensions: 5 x 5, Events: 3
+Map 020: Room C, Dimensions: 9 x 7, Events: 5
+Map 021: Room E, Dimensions: 5 x 5, Events: 3
+Map 022: Passageway 1, Dimensions: 17 x 6, Events: 2
+Map 023: Passageway 2, Dimensions: 12 x 6, Events: 2
+Map 024: Body Modification & Neural Enhancement Center, Dimensions: 30 x 30, Events: 4
+Map 025: B.M.N.E.C. Lobby, Dimensions: 30 x 13, Events: 1
+Map 026: B.M.N.E.C. Front Desk, Dimensions: 30 x 13, Events: 1
+Map 028: Planet Ork, Dimensions: 40 x 40, Events: 4
+Map 030: Bridge, Dimensions: 20 x 20, Events: 2
+Map 033: Village, Dimensions: 17 x 13, Events: 7
+Map 034: Inn, Dimensions: 10 x 7, Events: 8
+Map 035: Zack's House, Dimensions: 10 x 7, Events: 5
+Map 036: Armor Shop, Dimensions: 10 x 7, Events: 2
+Map 037: Bridge to Timbuc 2, Dimensions: 17 x 13, Events: 1
+Map 039: Planet Ting Ting, Dimensions: 40 x 40, Events: 3
+Map 041: B.M.N.E.C. Waiting Room, Dimensions: 30 x 13, Events: 1
+Map 042: Dorlund Station, Dimensions: 50 x 20, Events: 7
+Map 043: Dorlund Center, Dimensions: 30 x 25, Events: 5
+Map 044: Weapon Shop, Dimensions: 10 x 7, Events: 1
+Map 045: Mod Center, Dimensions: 10 x 7, Events: 1
+Map 046: Reinforced Tunnel, Dimensions: 100 x 35, Events: 3
+Map 047: Snowy Village, Dimensions: 40 x 40, Events: 8
+Map 048: Snowy Pass, Dimensions: 17 x 50, Events: 2
+Map 049: Newtown, Dimensions: 41 x 40, Events: 9
+Map 056: Jen's House, Dimensions: 17 x 13, Events: 8
+Map 057: Inside Jen's House, Dimensions: 13 x 7, Events: 2
+Map 058: Armorer, Dimensions: 10 x 7, Events: 1
+Map 066: Inn, Dimensions: 10 x 8, Events: 2
+Map 067: Lounge, Dimensions: 11 x 8, Events: 3
+Map 068: Tool Shop, Dimensions: 10 x 8, Events: 2
+Map 069: Item Shop, Dimensions: 12 x 8, Events: 3
+Map 070: Newtown Lake, Dimensions: 80 x 40, Events: 5
+Map 071: Inn, Dimensions: 20 x 8, Events: 2
+Map 072: Weapon Shop, Dimensions: 12 x 7, Events: 2
+Map 073: Armor Shop, Dimensions: 12 x 7, Events: 2
+Map 074: Item Shop, Dimensions: 10 x 8, Events: 2
+Map 075: Upper Newtown Lake, Dimensions: 40 x 40, Events: 4
+Map 076: Big Ass Desert, Dimensions: 80 x 80, Events: 6
+Map 077: North D Town, Dimensions: 40 x 40, Events: 12
+Map 078: Mountain Pass, Dimensions: 80 x 20, Events: 2
+Map 079: Weapon Shop, Dimensions: 10 x 8, Events: 2
+Map 080: Armor Shop, Dimensions: 10 x 8, Events: 2
+Map 081: Vending Machines, Dimensions: 10 x 8, Events: 8
+Map 082: Inn, Dimensions: 10 x 8, Events: 6
+Map 083: Abandoned Body Mod Center, Dimensions: 10 x 8, Events: 1
+Map 084: D Town Bar, Dimensions: 20 x 8, Events: 5
+Map 091: 2nd Floor Hallway, Dimensions: 19 x 7, Events: 4
+Map 092: Bedroom 1, Dimensions: 10 x 9, Events: 1
+Map 093: Guest Room, Dimensions: 12 x 7, Events: 1
+Map 094: Study, Dimensions: 7 x 11, Events: 1
+Map 095: Bedroom 2, Dimensions: 11 x 7, Events: 1
+Map 097: South D Town, Dimensions: 38 x 24, Events: 6
+Map 101: D Town Speak Easy, Dimensions: 20 x 8, Events: 3
+

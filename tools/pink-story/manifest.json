@@ -1,0 +1,36 @@
+{
+  "title": "A Thought of Her Own",
+  "actor": 7,
+  "giver": [
+    245,
+    5
+  ],
+  "console": [
+    248,
+    5
+  ],
+  "consolePosition": [
+    6,
+    7
+  ],
+  "instructor": [
+    247,
+    2
+  ],
+  "switches": [
+    223,
+    224,
+    225,
+    226,
+    227,
+    228
+  ],
+  "skills": [
+    278,
+    279
+  ],
+  "enemy": 153,
+  "troop": 62,
+  "icon": 2129,
+  "personalExp": 200
+}

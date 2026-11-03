@@ -1,0 +1,81 @@
+{
+  "mods": [
+    {
+      "item": 133,
+      "armor": 62,
+      "name": "Calibrated Disco Implant",
+      "cost": 100,
+      "traits": [
+        {
+          "code": 21,
+          "dataId": 6,
+          "value": 1.15
+        },
+        {
+          "code": 23,
+          "dataId": 0,
+          "value": 1.2
+        }
+      ],
+      "description": "AGI +15%; target rate +20%.\nThe beat makes you faster and easier to notice."
+    },
+    {
+      "item": 134,
+      "armor": 63,
+      "name": "Calibrated Third Eye",
+      "cost": 150,
+      "traits": [
+        {
+          "code": 22,
+          "dataId": 0,
+          "value": 0.1
+        },
+        {
+          "code": 13,
+          "dataId": 5,
+          "value": 0.5
+        }
+      ],
+      "description": "Hit rate +10 points; Blind chance halved.\nRetains the Underworks reveal while carried."
+    },
+    {
+      "item": 153,
+      "armor": 64,
+      "name": "Calibrated Neural Enhancer",
+      "cost": 180,
+      "traits": [
+        {
+          "code": 21,
+          "dataId": 4,
+          "value": 1.15
+        },
+        {
+          "code": 23,
+          "dataId": 4,
+          "value": 1.1
+        }
+      ],
+      "description": "MAT +15%; MP costs +10%.\nAdditional thoughts billed separately."
+    }
+  ],
+  "commonEvent": 7,
+  "clinics": [
+    [
+      25,
+      4
+    ],
+    [
+      45,
+      1
+    ],
+    [
+      83,
+      3
+    ],
+    [
+      99,
+      2
+    ]
+  ],
+  "saveCompatibility": "Native inventory/equipment only; existing prototypes remain eligible; no new persistent fields."
+}

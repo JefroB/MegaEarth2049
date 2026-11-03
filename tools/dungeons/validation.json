@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "assertions": 2327,
+  "mapsParsed": 223,
+  "newMaps": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "questCount": 3,
+  "battleCommandsAdded": 0,
+  "randomEncountersAdded": 0
+}

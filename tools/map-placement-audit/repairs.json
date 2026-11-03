@@ -1,0 +1,1864 @@
+{
+  "flags": [
+    {
+      "tileset": 8,
+      "tile": 365,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 888,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 889,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 890,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 891,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 892,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 893,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 894,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 5,
+      "tile": 672,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 5,
+      "tile": 681,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 117,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 125,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 190,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 145,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 146,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 147,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 9,
+      "tile": 198,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 5,
+      "tile": 516,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 14,
+      "tile": 363,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 14,
+      "tile": 364,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 17,
+      "tile": 260,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 17,
+      "tile": 257,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 17,
+      "tile": 258,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 88,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 89,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 90,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 91,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 92,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 93,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 94,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 95,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 798,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 806,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 366,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 367,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 2,
+      "tile": 67,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 177,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 183,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 5,
+      "tile": 517,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 470,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 600,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 601,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 608,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 609,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 616,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 617,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 602,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 603,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 610,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 611,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 618,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 619,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 604,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 605,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 612,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 613,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 620,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 621,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 606,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 607,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 574,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 575,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 614,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 615,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 582,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 583,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 622,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 623,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 590,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 4,
+      "tile": 591,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 821,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 668,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 669,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 670,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 671,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 676,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 677,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 678,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 679,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 797,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 723,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 724,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 725,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 722,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 731,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 10,
+      "tile": 363,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 898,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 899,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 900,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 901,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 902,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 903,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 906,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 907,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 908,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 909,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 910,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 911,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 684,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 685,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 686,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 687,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 692,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 693,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 694,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 695,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 742,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 8,
+      "tile": 743,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 640,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 641,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 642,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 737,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 736,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 745,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 744,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 730,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 16,
+      "tile": 517,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 1004,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 1005,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 1006,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 6,
+      "tile": 1007,
+      "before": 1536,
+      "after": 1552,
+      "reason": "Reviewed wall-mounted art: upper layer must defer passage to the wall, not override it as floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 178,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 179,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 180,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 181,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 182,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 185,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 191,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 193,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 195,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 196,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 197,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 199,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 202,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 203,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 205,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 206,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 210,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 212,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 214,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge console footprint, not a walking floor."
+    },
+    {
+      "tileset": 11,
+      "tile": 219,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge chair/console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 220,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge chair/console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 221,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid bridge chair/console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 312,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 313,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 314,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 315,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 316,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 320,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 321,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 322,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 323,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 324,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 328,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 329,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 330,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 331,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 332,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 336,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 337,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 338,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 339,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 11,
+      "tile": 340,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid engineering console footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 1,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 2,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 3,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 4,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 5,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 6,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 7,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 128,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 129,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 130,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 131,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 132,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 133,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 134,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 135,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 16,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 17,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 18,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 19,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 20,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 21,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 22,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 23,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 147,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 148,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 149,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 150,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 24,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 26,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 27,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 28,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 154,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 159,
+      "before": 1552,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 163,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 164,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 165,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 12,
+      "tile": 166,
+      "before": 1536,
+      "after": 1551,
+      "reason": "Solid recovery pods and medical furniture; open floor remains outside the art footprint."
+    },
+    {
+      "tileset": 6,
+      "tile": 786,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 794,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 849,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 850,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 851,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 857,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 858,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 859,
+      "before": 1536,
+      "after": 1679,
+      "reason": "Bar counter blocks walking and supports talking across its front."
+    },
+    {
+      "tileset": 6,
+      "tile": 71,
+      "before": 1680,
+      "after": 1695,
+      "reason": "Solid small table/counter footprint."
+    }
+  ],
+  "positions": [
+    {
+      "map": 1,
+      "event": 12,
+      "before": [
+        20,
+        15
+      ],
+      "after": [
+        25,
+        17
+      ],
+      "reason": "Dealer was over open water."
+    },
+    {
+      "map": 1,
+      "event": 15,
+      "before": [
+        20,
+        15
+      ],
+      "after": [
+        25,
+        17
+      ],
+      "reason": "Dealer was over open water."
+    },
+    {
+      "map": 1,
+      "event": 19,
+      "before": [
+        20,
+        15
+      ],
+      "after": [
+        25,
+        17
+      ],
+      "reason": "Dealer was over open water."
+    },
+    {
+      "map": 1,
+      "event": 13,
+      "before": [
+        28,
+        20
+      ],
+      "after": [
+        29,
+        21
+      ],
+      "reason": "Elevator contact moved off its pond ornament."
+    },
+    {
+      "map": 1,
+      "event": 16,
+      "before": [
+        28,
+        20
+      ],
+      "after": [
+        29,
+        21
+      ],
+      "reason": "Elevator contact moved off its pond ornament."
+    },
+    {
+      "map": 1,
+      "event": 20,
+      "before": [
+        28,
+        20
+      ],
+      "after": [
+        29,
+        21
+      ],
+      "reason": "Elevator contact moved off its pond ornament."
+    },
+    {
+      "map": 3,
+      "event": 4,
+      "before": [
+        12,
+        8
+      ],
+      "after": [
+        12,
+        6
+      ],
+      "reason": "Scientist was outside the map bounds."
+    },
+    {
+      "map": 3,
+      "event": 5,
+      "before": [
+        12,
+        8
+      ],
+      "after": [
+        12,
+        6
+      ],
+      "reason": "Scientist was outside the map bounds."
+    },
+    {
+      "map": 3,
+      "event": 6,
+      "before": [
+        12,
+        8
+      ],
+      "after": [
+        12,
+        6
+      ],
+      "reason": "Scientist was outside the map bounds."
+    },
+    {
+      "map": 35,
+      "event": 5,
+      "before": [
+        5,
+        8
+      ],
+      "after": [
+        5,
+        4
+      ],
+      "reason": "Engine-component contact was outside the map bounds."
+    },
+    {
+      "map": 35,
+      "event": 6,
+      "before": [
+        5,
+        8
+      ],
+      "after": [
+        5,
+        4
+      ],
+      "reason": "Engine-component contact was outside the map bounds."
+    },
+    {
+      "map": 28,
+      "event": 5,
+      "before": [
+        30,
+        3
+      ],
+      "after": [
+        32,
+        4
+      ],
+      "reason": "Berth attendant moved off spaceport scenery."
+    },
+    {
+      "map": 49,
+      "event": 13,
+      "before": [
+        7,
+        16
+      ],
+      "after": [
+        4,
+        17
+      ],
+      "reason": "Give the resident a clear grass tile away from the roof edge."
+    },
+    {
+      "map": 50,
+      "event": 2,
+      "before": [
+        7,
+        6
+      ],
+      "after": [
+        7,
+        7
+      ],
+      "reason": "Navigator moved off chair/console footprint."
+    },
+    {
+      "map": 50,
+      "event": 3,
+      "before": [
+        10,
+        7
+      ],
+      "after": [
+        9,
+        7
+      ],
+      "reason": "Jack moved off console tip."
+    },
+    {
+      "map": 52,
+      "event": 2,
+      "before": [
+        7,
+        7
+      ],
+      "after": [
+        5,
+        7
+      ],
+      "reason": "Contractor moved off machine footprint."
+    },
+    {
+      "map": 15,
+      "event": 30,
+      "before": [
+        5,
+        26
+      ],
+      "after": [
+        4,
+        42
+      ],
+      "reason": "Casing now stands on the entrance chamber floor, reachable without cliff-edge shortcuts."
+    },
+    {
+      "map": 54,
+      "event": 2,
+      "before": [
+        7,
+        6
+      ],
+      "after": [
+        10,
+        5
+      ],
+      "reason": "Staff stands on clear floor, outside furniture footprint."
+    },
+    {
+      "map": 104,
+      "event": 2,
+      "before": [
+        3,
+        4
+      ],
+      "after": [
+        3,
+        3
+      ],
+      "reason": "Staff stands on clear floor, outside furniture footprint."
+    },
+    {
+      "map": 106,
+      "event": 2,
+      "before": [
+        3,
+        4
+      ],
+      "after": [
+        3,
+        3
+      ],
+      "reason": "Staff stands on clear floor, outside furniture footprint."
+    },
+    {
+      "map": 34,
+      "event": 8,
+      "before": [
+        1,
+        2
+      ],
+      "after": [
+        2,
+        2
+      ],
+      "reason": "Wandering resident now starts on the room floor, not a table."
+    }
+  ],
+  "landings": [
+    {
+      "source": [
+        62,
+        1,
+        0
+      ],
+      "before": [
+        60,
+        40,
+        40
+      ],
+      "after": [
+        60,
+        40,
+        37
+      ],
+      "reason": "Return landed inside a machine painted over the wall."
+    }
+  ],
+  "reviewedPassageExceptions": [
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      5,
+      43
+    ],
+    [
+      5,
+      51
+    ],
+    [
+      5,
+      230
+    ],
+    [
+      5,
+      231
+    ],
+    [
+      5,
+      238
+    ],
+    [
+      5,
+      239
+    ],
+    [
+      5,
+      732
+    ],
+    [
+      5,
+      733
+    ],
+    [
+      6,
+      385
+    ],
+    [
+      6,
+      393
+    ],
+    [
+      8,
+      102
+    ],
+    [
+      9,
+      95
+    ],
+    [
+      9,
+      3796
+    ],
+    [
+      9,
+      3810
+    ],
+    [
+      13,
+      8
+    ],
+    [
+      17,
+      8
+    ]
+  ],
+  "counterServicePoints": [
+    {
+      "map": 104,
+      "event": 10,
+      "staff": 2,
+      "position": [
+        3,
+        4
+      ]
+    },
+    {
+      "map": 106,
+      "event": 6,
+      "staff": 2,
+      "position": [
+        3,
+        4
+      ]
+    }
+  ]
+}

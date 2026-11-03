@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "clinic accessible and exit free 25",
+    "clinic accessible and exit free 45",
+    "recovery cost and insufficient-funds behavior preserved 45",
+    "clinic accessible and exit free 83",
+    "recovery cost and insufficient-funds behavior preserved 83",
+    "clinic accessible and exit free 99",
+    "recovery cost and insufficient-funds behavior preserved 99"
+  ]
+}

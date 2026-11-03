@@ -1,0 +1,669 @@
+{
+  "uses": {
+    "Items:1": [
+      "Enemy1 drop",
+      "Enemy12 drop",
+      "Enemy143 drop",
+      "Enemy15 drop",
+      "Enemy17 drop",
+      "Enemy19 drop",
+      "Enemy4 drop",
+      "Enemy93 drop",
+      "Enemy94 drop",
+      "Enemy95 drop",
+      "Enemy96 drop",
+      "Map1 event1",
+      "Map105 event5 shop",
+      "Map11 event2 shop",
+      "Map15 event6",
+      "Map15 event7",
+      "Map15 event8",
+      "Map15 event9",
+      "Map17 event2",
+      "Map18 event3",
+      "Map19 event3",
+      "Map2 event12 shop",
+      "Map2 event22 shop",
+      "Map20 event3",
+      "Map21 event3",
+      "Map3 event2 shop",
+      "Map64 event2 shop",
+      "Map67 event1 shop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop",
+      "Map84 event2 shop"
+    ],
+    "Items:132": [
+      "Map1 event10",
+      "Map1 event17"
+    ],
+    "Items:143": [
+      "Map1 event11",
+      "Map1 event14",
+      "Map1 event18"
+    ],
+    "Items:144": [
+      "Map1 event11",
+      "Map1 event14",
+      "Map1 event18"
+    ],
+    "Items:145": [
+      "Map1 event12",
+      "Map1 event15",
+      "Map1 event19",
+      "Map2 event24",
+      "Map2 event25",
+      "Map2 event27",
+      "Map3 event4",
+      "Map3 event5",
+      "Map3 event6"
+    ],
+    "Items:5": [
+      "Map2 event11 shop",
+      "Map2 event21 shop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:6": [
+      "Map11 event2 shop",
+      "Map15 event11",
+      "Map2 event11 shop",
+      "Map2 event21 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:3": [
+      "Enemy13 drop",
+      "Map2 event11 shop",
+      "Map2 event21 shop",
+      "Map3 event2 shop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:4": [
+      "Enemy16 drop",
+      "Enemy5 drop",
+      "Map11 event2 shop",
+      "Map2 event12 shop",
+      "Map2 event22 shop",
+      "Map3 event2 shop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop",
+      "Map85 event5"
+    ],
+    "Items:137": [
+      "Map2 event23",
+      "Map2 event26"
+    ],
+    "Items:2": [
+      "Enemy14 drop",
+      "Enemy18 drop",
+      "Map11 event2 shop",
+      "Map3 event2 shop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Weapons:12": [
+      "Map103 event2 shop",
+      "Map108 event3 shop",
+      "Map4 event1 shop",
+      "Map72 event2 shop",
+      "Map79 event2 shop"
+    ],
+    "Weapons:2": [
+      "Actor2 initial equip",
+      "Map4 event1 shop"
+    ],
+    "Weapons:3": [
+      "Actor3 initial equip",
+      "Enemy30 drop",
+      "Map4 event1 shop"
+    ],
+    "Weapons:4": [
+      "Actor4 initial equip",
+      "Map12 event1 shop",
+      "Map4 event1 shop"
+    ],
+    "Items:135": [
+      "Map10 event10",
+      "Map10 event12"
+    ],
+    "Items:136": [
+      "Map10 event11",
+      "Map10 event13"
+    ],
+    "Weapons:1": [
+      "Actor5 initial equip",
+      "Actor8 initial equip",
+      "Enemy25 drop",
+      "Enemy26 drop",
+      "Enemy28 drop",
+      "Enemy29 drop",
+      "Enemy31 drop",
+      "Map103 event2 shop",
+      "Map108 event3 shop",
+      "Map12 event1 shop",
+      "Map72 event2 shop"
+    ],
+    "Weapons:22": [
+      "Map12 event1 shop"
+    ],
+    "Weapons:14": [
+      "Actor1 initial equip",
+      "Map12 event1 shop"
+    ],
+    "Items:21": [
+      "Map12 event1 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:22": [
+      "Map12 event1 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:23": [
+      "Map12 event1 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:24": [
+      "Map12 event1 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:10": [
+      "Map14 event2",
+      "Map15 event22",
+      "Map15 event23",
+      "Map15 event24",
+      "Map15 event25"
+    ],
+    "Items:11": [
+      "Map14 event2"
+    ],
+    "Items:12": [
+      "Map15 event27",
+      "Map35 event2"
+    ],
+    "Items:128": [
+      "Map15 event28",
+      "Map15 event29"
+    ],
+    "Items:27": [
+      "Map16 event2",
+      "Map33 event5",
+      "Map35 event2"
+    ],
+    "Items:30": [
+      "Map17 event3"
+    ],
+    "Items:32": [
+      "Map18 event2"
+    ],
+    "Items:33": [
+      "Map19 event2"
+    ],
+    "Items:28": [
+      "Map20 event2"
+    ],
+    "Items:129": [
+      "Map20 event4",
+      "Map20 event5"
+    ],
+    "Items:29": [
+      "Map21 event2"
+    ],
+    "Items:125": [
+      "Map25 event1"
+    ],
+    "Items:126": [
+      "Map28 event4"
+    ],
+    "Items:130": [
+      "Map30 event0",
+      "Map30 event2"
+    ],
+    "Items:13": [
+      "Enemy117 drop",
+      "Map32 event2",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:31": [
+      "Map32 event3"
+    ],
+    "Items:131": [
+      "Map35 event5",
+      "Map35 event6"
+    ],
+    "Armors:12": [
+      "Map36 event2 shop"
+    ],
+    "Armors:13": [
+      "Map103 event3 shop",
+      "Map36 event2 shop"
+    ],
+    "Armors:14": [
+      "Map36 event2 shop"
+    ],
+    "Armors:15": [
+      "Map36 event2 shop"
+    ],
+    "Armors:32": [
+      "Map36 event2 shop"
+    ],
+    "Items:127": [
+      "Map40 event1"
+    ],
+    "Weapons:13": [
+      "Map103 event2 shop",
+      "Map108 event3 shop",
+      "Map44 event1 shop",
+      "Map72 event2 shop",
+      "Map79 event2 shop"
+    ],
+    "Weapons:35": [
+      "Map44 event1 shop",
+      "Map79 event2 shop"
+    ],
+    "Weapons:39": [
+      "Map44 event1 shop"
+    ],
+    "Armors:31": [
+      "Map58 event1 shop"
+    ],
+    "Armors:8": [
+      "Map105 event4 shop",
+      "Map58 event1 shop"
+    ],
+    "Armors:11": [
+      "Actor6 initial equip",
+      "Map58 event1 shop"
+    ],
+    "Armors:9": [
+      "Map103 event3 shop",
+      "Map105 event4 shop",
+      "Map58 event1 shop"
+    ],
+    "Armors:10": [
+      "Map105 event4 shop",
+      "Map58 event1 shop"
+    ],
+    "Weapons:7": [
+      "Map68 event1 shop"
+    ],
+    "Items:14": [
+      "Enemy117 drop",
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:15": [
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:16": [
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:17": [
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:18": [
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:19": [
+      "Map69 event1 shop",
+      "Map74 event2 shop",
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Weapons:17": [
+      "Map103 event2 shop",
+      "Map108 event3 shop",
+      "Map72 event2 shop"
+    ],
+    "Armors:20": [
+      "Map73 event2 shop"
+    ],
+    "Armors:22": [
+      "Actor1 initial equip",
+      "Map73 event2 shop"
+    ],
+    "Armors:21": [
+      "Map73 event2 shop"
+    ],
+    "Armors:23": [
+      "Map73 event2 shop"
+    ],
+    "Armors:60": [
+      "Map73 event2 shop"
+    ],
+    "Weapons:18": [
+      "Map79 event2 shop"
+    ],
+    "Armors:24": [
+      "Map80 event2 shop"
+    ],
+    "Armors:61": [
+      "Map80 event2 shop"
+    ],
+    "Armors:34": [
+      "Map80 event2 shop"
+    ],
+    "Armors:25": [
+      "Map80 event2 shop"
+    ],
+    "Armors:26": [
+      "Map80 event2 shop"
+    ],
+    "Items:8": [
+      "Map81 event2 shop",
+      "Map81 event3 shop",
+      "Map85 event9"
+    ],
+    "Items:9": [
+      "Map81 event2 shop",
+      "Map81 event3 shop",
+      "Map85 event3"
+    ],
+    "Items:26": [
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:25": [
+      "Map81 event2 shop",
+      "Map81 event3 shop"
+    ],
+    "Items:34": [
+      "Map81 event4 shop",
+      "Map81 event5",
+      "Map81 event6",
+      "Map81 event7",
+      "Map81 event8"
+    ],
+    "Armors:39": [
+      "Map81 event5",
+      "Map81 event6"
+    ],
+    "Armors:41": [
+      "Map81 event5",
+      "Map81 event6"
+    ],
+    "Armors:40": [
+      "Map81 event7",
+      "Map81 event8"
+    ],
+    "Armors:38": [
+      "Map81 event7",
+      "Map81 event8"
+    ],
+    "Armors:28": [
+      "Map103 event3 shop"
+    ],
+    "Items:151": [
+      "Map103 event11",
+      "Map104 event6",
+      "Map106 event3"
+    ],
+    "Items:152": [
+      "Map103 event13",
+      "Map104 event9",
+      "Map105 event10",
+      "Map107 event6",
+      "Map108 event5",
+      "Map109 event5"
+    ],
+    "Armors:2": [
+      "Actor2 initial equip",
+      "Actor4 initial equip",
+      "Map105 event4 shop"
+    ],
+    "Weapons:8": [
+      "Enemy10 drop",
+      "Enemy27 drop"
+    ],
+    "Weapons:9": [
+      "Enemy11 drop"
+    ],
+    "Armors:5": [
+      "Enemy27 drop"
+    ],
+    "Armors:3": [
+      "Actor1 initial equip",
+      "Actor2 initial equip",
+      "Actor3 initial equip",
+      "Actor4 initial equip"
+    ],
+    "Armors:1": [
+      "Actor2 initial equip",
+      "Actor5 initial equip",
+      "Actor7 initial equip"
+    ],
+    "Armors:4": [
+      "Actor3 initial equip",
+      "Actor4 initial equip"
+    ],
+    "Weapons:11": [
+      "Actor6 initial equip",
+      "Actor7 initial equip"
+    ]
+  },
+  "missingAnimationSheets": [],
+  "idMismatches": [
+    {
+      "kind": "Items",
+      "index": 2,
+      "id": 10,
+      "name": "Necklace Piece 1"
+    },
+    {
+      "kind": "Items",
+      "index": 3,
+      "id": 11,
+      "name": "Complete Necklace"
+    },
+    {
+      "kind": "Items",
+      "index": 4,
+      "id": 125,
+      "name": "Necklace Piece 2"
+    },
+    {
+      "kind": "Items",
+      "index": 5,
+      "id": 126,
+      "name": "Necklace Piece 3"
+    },
+    {
+      "kind": "Items",
+      "index": 6,
+      "id": 127,
+      "name": "Necklace Piece 4"
+    },
+    {
+      "kind": "Items",
+      "index": 7,
+      "id": 12,
+      "name": "Smelly Key #1"
+    },
+    {
+      "kind": "Items",
+      "index": 8,
+      "id": 28,
+      "name": "Smelly Key #2"
+    },
+    {
+      "kind": "Items",
+      "index": 9,
+      "id": 29,
+      "name": "Smelly Key #3"
+    },
+    {
+      "kind": "Items",
+      "index": 10,
+      "id": 30,
+      "name": "Smelly Key #4"
+    },
+    {
+      "kind": "Items",
+      "index": 11,
+      "id": 31,
+      "name": "Smelly Key #5"
+    },
+    {
+      "kind": "Items",
+      "index": 12,
+      "id": 32,
+      "name": "Smelly Key #6"
+    },
+    {
+      "kind": "Items",
+      "index": 13,
+      "id": 33,
+      "name": "Smelly Key #7"
+    },
+    {
+      "kind": "Items",
+      "index": 14,
+      "id": 27,
+      "name": "Engine"
+    },
+    {
+      "kind": "Items",
+      "index": 15,
+      "id": 128,
+      "name": "Engine Blueprint"
+    },
+    {
+      "kind": "Items",
+      "index": 16,
+      "id": 129,
+      "name": "Engine Component A"
+    },
+    {
+      "kind": "Items",
+      "index": 17,
+      "id": 130,
+      "name": "Engine Component B"
+    },
+    {
+      "kind": "Items",
+      "index": 18,
+      "id": 131,
+      "name": "Engine Component C"
+    },
+    {
+      "kind": "Items",
+      "index": 19,
+      "id": 132,
+      "name": "Experimental Neural Enhancer"
+    },
+    {
+      "kind": "Items",
+      "index": 20,
+      "id": 133,
+      "name": "Disco Implant"
+    },
+    {
+      "kind": "Items",
+      "index": 21,
+      "id": 134,
+      "name": "Third Eye Mod"
+    },
+    {
+      "kind": "Items",
+      "index": 22,
+      "id": 135,
+      "name": "Mysterious Burlap Package"
+    },
+    {
+      "kind": "Items",
+      "index": 23,
+      "id": 136,
+      "name": "Productivity Fabric Sample"
+    },
+    {
+      "kind": "Items",
+      "index": 24,
+      "id": 137,
+      "name": "AI Control Module"
+    },
+    {
+      "kind": "Items",
+      "index": 25,
+      "id": 138,
+      "name": "Court Summons"
+    },
+    {
+      "kind": "Items",
+      "index": 26,
+      "id": 139,
+      "name": "Pie-Based Evidence"
+    },
+    {
+      "kind": "Items",
+      "index": 27,
+      "id": 140,
+      "name": "Vending Machine Manifesto"
+    },
+    {
+      "kind": "Items",
+      "index": 28,
+      "id": 141,
+      "name": "Premium Grade Lubricant"
+    },
+    {
+      "kind": "Items",
+      "index": 29,
+      "id": 142,
+      "name": "Niles's Embarrassing Photos"
+    }
+  ],
+  "scriptCommands": [
+    {
+      "where": "Map2 event23",
+      "text": "$gameSelfSwitches.setValue([2,23,\"A\"],true);$gameSelfSwitches.setValue([2,26,\"A\"],true)"
+    },
+    {
+      "where": "Map2 event26",
+      "text": "$gameSelfSwitches.setValue([2,23,\"A\"],true);$gameSelfSwitches.setValue([2,26,\"A\"],true)"
+    },
+    {
+      "where": "Map30 event0",
+      "text": "$gameSelfSwitches.setValue([30,1,\"A\"],true);$gameSelfSwitches.setValue([30,2,\"A\"],true)"
+    },
+    {
+      "where": "Map30 event2",
+      "text": "$gameSelfSwitches.setValue([30,1,\"A\"],true);$gameSelfSwitches.setValue([30,2,\"A\"],true)"
+    },
+    {
+      "where": "Map236 event3",
+      "text": "var names=[\"Identity\", \"Repair\", \"Routing\", \"Flow\", \"Wake\", \"Thermal\"]; var missing=names.filter(function(n,i){return !$gameSwitches.value(168+i);}); $gameMessage.add('SERVICE MANDATES'); if(!missing.length){$gameMessage.add('All six recovered. Vestibule authorized.');} else {missing.forEach(function(n){$gameMessage.add('Missing: '+n);});}"
+    }
+  ]
+}

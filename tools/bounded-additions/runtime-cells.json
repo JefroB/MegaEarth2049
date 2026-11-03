@@ -1,0 +1,896 @@
+{
+  "alpha_threshold": 0,
+  "source_margin": 0,
+  "target_margin": 2,
+  "review_note": "All source alpha is preserved. Alpha20 is the source gutter review tolerance for faint antialiasing residue, not a pixel deletion threshold. Runtime cells also checked separately at alpha0.",
+  "cells": [
+    {
+      "name": "Dead Relay icon",
+      "id": 2105,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        288,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        288,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Dead Relay effect",
+      "id": 2105,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Crushed Servo icon",
+      "id": 2106,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        320,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        320,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Crushed Servo effect",
+      "id": 2106,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        192,
+        0,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        192,
+        0,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Spent Power Cell icon",
+      "id": 2107,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        352,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        352,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Spent Power Cell effect",
+      "id": 2107,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        384,
+        0,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        384,
+        0,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Contaminated Sensor icon",
+      "id": 2108,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        384,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        384,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Contaminated Sensor effect",
+      "id": 2108,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        576,
+        0,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        576,
+        0,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Cracked Coolant Filter icon",
+      "id": 2109,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        416,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        416,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Cracked Coolant Filter effect",
+      "id": 2109,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        768,
+        0,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        768,
+        0,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Soot-Clogged Optics icon",
+      "id": 2110,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        448,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        448,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Soot-Clogged Optics effect",
+      "id": 2110,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        0,
+        192,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        0,
+        192,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Joint Venture icon",
+      "id": 2111,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        480,
+        4192,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        480,
+        4192,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Joint Venture effect",
+      "id": 2111,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        192,
+        192,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        192,
+        192,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Pre-Existing Body icon",
+      "id": 2112,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        0,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        0,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Pre-Existing Body effect",
+      "id": 2112,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        384,
+        192,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        384,
+        192,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Free Trial icon",
+      "id": 2113,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        32,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        32,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Free Trial effect",
+      "id": 2113,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        576,
+        192,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        576,
+        192,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Off-Clock Cookbook icon",
+      "id": 2114,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        64,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        64,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Off-Clock Cookbook effect",
+      "id": 2114,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        768,
+        192,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        768,
+        192,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Off-Clock Scrapbook icon",
+      "id": 2115,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        96,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        96,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Off-Clock Scrapbook effect",
+      "id": 2115,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        0,
+        384,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        0,
+        384,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Microwave Love Letter icon",
+      "id": 2116,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        128,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        128,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Microwave Love Letter effect",
+      "id": 2116,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        192,
+        384,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        192,
+        384,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Paralysis icon",
+      "id": 2117,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        160,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        160,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Paralysis effect",
+      "id": 2117,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        384,
+        384,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        384,
+        384,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Temporal Stasis icon",
+      "id": 2118,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        192,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        192,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Temporal Stasis effect",
+      "id": 2118,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        576,
+        384,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        576,
+        384,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Stone Skin icon",
+      "id": 2119,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        224,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        224,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Stone Skin effect",
+      "id": 2119,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        768,
+        384,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        768,
+        384,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Motor Recall icon",
+      "id": 2120,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        256,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        256,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Motor Recall effect",
+      "id": 2120,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        0,
+        576,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        0,
+        576,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Soft Reset icon",
+      "id": 2121,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        288,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        288,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Soft Reset effect",
+      "id": 2121,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        192,
+        576,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        192,
+        576,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Nerve Clamp icon",
+      "id": 2122,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        320,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        320,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Nerve Clamp effect",
+      "id": 2122,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        384,
+        576,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        384,
+        576,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Borrowed Second icon",
+      "id": 2123,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        352,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        352,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Borrowed Second effect",
+      "id": 2123,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        576,
+        576,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        576,
+        576,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Stone Shield icon",
+      "id": 2124,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        384,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        384,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Stone Shield effect",
+      "id": 2124,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        768,
+        576,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        768,
+        576,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Release Motor Lock icon",
+      "id": 2125,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        416,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        416,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Release Motor Lock effect",
+      "id": 2125,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        0,
+        768,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        0,
+        768,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Shed Stone icon",
+      "id": 2126,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        448,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        448,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Shed Stone effect",
+      "id": 2126,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        192,
+        768,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        192,
+        768,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Break Stone icon",
+      "id": 2127,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        480,
+        4224,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        480,
+        4224,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Break Stone effect",
+      "id": 2127,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        384,
+        768,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        384,
+        768,
+        192,
+        192
+      ],
+      "target_margin": 16
+    },
+    {
+      "name": "Recycling icon",
+      "id": 2128,
+      "source": "../../img/system/IconSet.png",
+      "source_rect": [
+        0,
+        4256,
+        32,
+        32
+      ],
+      "target": "../../img/system/IconSet.png",
+      "target_rect": [
+        0,
+        4256,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Recycling effect",
+      "id": 2128,
+      "source": "../../img/animations/ME_BoundedAdditions.png",
+      "source_rect": [
+        576,
+        768,
+        192,
+        192
+      ],
+      "target": "../../img/animations/ME_BoundedAdditions.png",
+      "target_rect": [
+        576,
+        768,
+        192,
+        192
+      ],
+      "target_margin": 16
+    }
+  ]
+}

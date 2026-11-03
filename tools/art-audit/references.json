@@ -1,0 +1,290 @@
+{
+  "missingReferences": [],
+  "legacyOverworld": [
+    {
+      "path": "img/characters/poopoocaca.png",
+      "where": "Map89 Basement room #4 event2"
+    }
+  ],
+  "unhandledSideviewCount": 102,
+  "directlyReferencedSideview": [
+    {
+      "id": 2,
+      "name": "Bat",
+      "static": "Bat",
+      "intended": [
+        "bat260403995"
+      ],
+      "override": [],
+      "troops": [
+        4,
+        5
+      ],
+      "locations": [
+        "Map1 event11",
+        "Map1 event14",
+        "Map1 event18",
+        "Map1 random"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mutant Plant",
+      "static": "Plant",
+      "intended": [
+        "plant-default_orig"
+      ],
+      "override": [],
+      "troops": [
+        3,
+        7
+      ],
+      "locations": [
+        "Map1 random"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Green Ninja",
+      "static": "Mimic",
+      "intended": [
+        "greenninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        9
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Pink Ninja",
+      "static": "Mimic",
+      "intended": [
+        "pinkninja"
+      ],
+      "override": [],
+      "troops": [
+        15
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Brown Ninja",
+      "static": "Mimic",
+      "intended": [
+        "brownninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        10
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Blue Ninja",
+      "static": "Mimic",
+      "intended": [
+        "blueninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        11
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Red Ninja",
+      "static": "Mimic",
+      "intended": [
+        "redninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        12
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Purple Ninja",
+      "static": "Mimic",
+      "intended": [
+        "purpleninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        13
+      ],
+      "locations": [
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ninja",
+      "static": "Mimic",
+      "intended": [
+        "blackninja"
+      ],
+      "override": [],
+      "troops": [
+        8,
+        14
+      ],
+      "locations": [
+        "Map1 random",
+        "Map5 random"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Punk1",
+      "static": "Bat",
+      "intended": [
+        "punk1"
+      ],
+      "override": [],
+      "troops": [
+        2,
+        28,
+        30
+      ],
+      "locations": [
+        "Map1 random",
+        "Map2 random"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Punk2",
+      "static": "Bat",
+      "intended": [
+        "punk2"
+      ],
+      "override": [],
+      "troops": [
+        1,
+        28,
+        31
+      ],
+      "locations": [
+        "Map2 random"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Punk3",
+      "static": "Bat",
+      "intended": [
+        "punk3"
+      ],
+      "override": [],
+      "troops": [
+        6,
+        28,
+        29
+      ],
+      "locations": [
+        "Map1 random",
+        "Map2 random"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Punk4",
+      "static": "Bat",
+      "intended": [
+        "punk4"
+      ],
+      "override": [],
+      "troops": [
+        29,
+        31
+      ],
+      "locations": [
+        "Map2 random"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Punk5",
+      "static": "Bat",
+      "intended": [
+        "punk5"
+      ],
+      "override": [],
+      "troops": [
+        29,
+        30
+      ],
+      "locations": [
+        "Map2 random"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Rat",
+      "static": "Rat",
+      "intended": [
+        "rat657494608"
+      ],
+      "override": [],
+      "troops": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "locations": [
+        "Map1 random",
+        "Map15 random",
+        "Map85 random"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "PunkBoss",
+      "static": "Bat",
+      "intended": [
+        "punkBoss1"
+      ],
+      "override": [],
+      "troops": [
+        46
+      ],
+      "locations": [
+        "Map16 event2"
+      ]
+    }
+  ],
+  "ratFiles": [
+    "img\\sv_actors\\rat410648364_orig.png",
+    "img\\sv_actors\\rat648556256.png",
+    "img\\sv_actors\\rat657494608.png",
+    "img\\sv_actors\\rat861565115.png",
+    "img\\sv_actors\\rat960466383.png"
+  ],
+  "title": [
+    "SF_City",
+    ""
+  ]
+}

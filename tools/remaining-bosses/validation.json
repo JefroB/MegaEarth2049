@@ -1,0 +1,571 @@
+{
+  "passed": true,
+  "checks": [
+    "All five spider variants, PunkBoss companion fight, SEAM and drone complete native guarded turns with anticipation/strike/recovery",
+    "Map 2 defeat callback, correct reward and both entrance flags",
+    "Map 2 victory callback, correct reward and both entrance flags",
+    "Map 30 defeat callback, correct reward and both entrance flags",
+    "Map 30 victory callback, correct reward and both entrance flags",
+    "Old-save completion synchronizes duplicate entrances"
+  ],
+  "rounds": [
+    {
+      "tid": 41,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 82,
+          "skill": 1
+        },
+        {
+          "enemy": 82,
+          "skill": 1
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 82,
+          "stage": 1
+        },
+        {
+          "enemy": 82,
+          "stage": 2
+        },
+        {
+          "enemy": 82,
+          "stage": 3
+        },
+        {
+          "enemy": 82,
+          "stage": 1
+        },
+        {
+          "enemy": 82,
+          "stage": 2
+        },
+        {
+          "enemy": 82,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 82,
+          "key": "Icky"
+        },
+        {
+          "enemy": 82,
+          "key": "Icky"
+        }
+      ]
+    },
+    {
+      "tid": 43,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 81,
+          "skill": 1
+        },
+        {
+          "enemy": 81,
+          "skill": 1
+        },
+        {
+          "enemy": 80,
+          "skill": 1
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 81,
+          "stage": 1
+        },
+        {
+          "enemy": 81,
+          "stage": 2
+        },
+        {
+          "enemy": 81,
+          "stage": 3
+        },
+        {
+          "enemy": 81,
+          "stage": 1
+        },
+        {
+          "enemy": 81,
+          "stage": 2
+        },
+        {
+          "enemy": 81,
+          "stage": 3
+        },
+        {
+          "enemy": 80,
+          "stage": 1
+        },
+        {
+          "enemy": 80,
+          "stage": 2
+        },
+        {
+          "enemy": 80,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 81,
+          "key": "Massive"
+        },
+        {
+          "enemy": 80,
+          "key": "Huge"
+        },
+        {
+          "enemy": 81,
+          "key": "Massive"
+        }
+      ]
+    },
+    {
+      "tid": 44,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 80,
+          "skill": 1
+        },
+        {
+          "enemy": 80,
+          "skill": 1
+        },
+        {
+          "enemy": 79,
+          "skill": 1
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 80,
+          "stage": 1
+        },
+        {
+          "enemy": 80,
+          "stage": 2
+        },
+        {
+          "enemy": 80,
+          "stage": 3
+        },
+        {
+          "enemy": 80,
+          "stage": 1
+        },
+        {
+          "enemy": 80,
+          "stage": 2
+        },
+        {
+          "enemy": 80,
+          "stage": 3
+        },
+        {
+          "enemy": 79,
+          "stage": 1
+        },
+        {
+          "enemy": 79,
+          "stage": 2
+        },
+        {
+          "enemy": 79,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 80,
+          "key": "Huge"
+        },
+        {
+          "enemy": 79,
+          "key": "Recluse"
+        },
+        {
+          "enemy": 80,
+          "key": "Huge"
+        }
+      ]
+    },
+    {
+      "tid": 45,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 79,
+          "skill": 1
+        },
+        {
+          "enemy": 79,
+          "skill": 1
+        },
+        {
+          "enemy": 78,
+          "skill": 1
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 79,
+          "stage": 1
+        },
+        {
+          "enemy": 79,
+          "stage": 2
+        },
+        {
+          "enemy": 79,
+          "stage": 3
+        },
+        {
+          "enemy": 79,
+          "stage": 1
+        },
+        {
+          "enemy": 79,
+          "stage": 2
+        },
+        {
+          "enemy": 79,
+          "stage": 3
+        },
+        {
+          "enemy": 78,
+          "stage": 1
+        },
+        {
+          "enemy": 78,
+          "stage": 2
+        },
+        {
+          "enemy": 78,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 79,
+          "key": "Recluse"
+        },
+        {
+          "enemy": 78,
+          "key": "Spider"
+        },
+        {
+          "enemy": 79,
+          "key": "Recluse"
+        }
+      ]
+    },
+    {
+      "tid": 46,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 78,
+          "skill": 1
+        },
+        {
+          "enemy": 78,
+          "skill": 1
+        },
+        {
+          "enemy": 78,
+          "skill": 1
+        },
+        {
+          "enemy": 117,
+          "skill": 43
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 78,
+          "stage": 1
+        },
+        {
+          "enemy": 78,
+          "stage": 2
+        },
+        {
+          "enemy": 78,
+          "stage": 3
+        },
+        {
+          "enemy": 78,
+          "stage": 1
+        },
+        {
+          "enemy": 78,
+          "stage": 2
+        },
+        {
+          "enemy": 78,
+          "stage": 3
+        },
+        {
+          "enemy": 78,
+          "stage": 1
+        },
+        {
+          "enemy": 78,
+          "stage": 2
+        },
+        {
+          "enemy": 78,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 78,
+          "key": "Spider"
+        },
+        {
+          "enemy": 78,
+          "key": "Spider"
+        },
+        {
+          "enemy": 117,
+          "key": null
+        },
+        {
+          "enemy": 78,
+          "key": "Spider"
+        }
+      ]
+    },
+    {
+      "tid": 52,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        },
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        },
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 143,
+          "key": "Seam"
+        }
+      ]
+    },
+    {
+      "tid": 53,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 144,
+          "skill": 157
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 144,
+          "stage": 1
+        },
+        {
+          "enemy": 144,
+          "stage": 2
+        },
+        {
+          "enemy": 144,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 144,
+          "key": "Drone"
+        }
+      ]
+    }
+  ],
+  "lastOutcome": {
+    "cfg": {
+      "map": 30,
+      "slot": 2,
+      "slots": [
+        1,
+        2
+      ],
+      "tid": 53,
+      "item": 130,
+      "choices": true
+    },
+    "outcome": "victory",
+    "before": {
+      "item": 0,
+      "tid": 53,
+      "canEscape": false,
+      "canLose": true
+    },
+    "after": {
+      "count": 1,
+      "flags": [
+        true,
+        true
+      ],
+      "repeat": [
+        false,
+        false
+      ],
+      "alive": true
+    },
+    "results": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "branch": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    }
+  },
+  "errors": []
+}

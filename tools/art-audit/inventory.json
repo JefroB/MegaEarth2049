@@ -1,0 +1,9978 @@
+[
+  {
+    "path": "img/actorhud/EXP_Meter.png",
+    "width": 132,
+    "height": 6,
+    "bytes": 18675
+  },
+  {
+    "path": "img/actorhud/Face_1.png",
+    "width": 91,
+    "height": 90,
+    "bytes": 13543
+  },
+  {
+    "path": "img/actorhud/Face_1_old.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 32813
+  },
+  {
+    "path": "img/actorhud/Face_2.png",
+    "width": 92,
+    "height": 90,
+    "bytes": 15336
+  },
+  {
+    "path": "img/actorhud/Face_2_old.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 34380
+  },
+  {
+    "path": "img/actorhud/Face_3.png",
+    "width": 91,
+    "height": 90,
+    "bytes": 14572
+  },
+  {
+    "path": "img/actorhud/Face_3_old.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 35171
+  },
+  {
+    "path": "img/actorhud/Face_4.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 14198
+  },
+  {
+    "path": "img/actorhud/Face_4_old.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 32018
+  },
+  {
+    "path": "img/actorhud/Face_5.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 34092
+  },
+  {
+    "path": "img/actorhud/HP_Meter.png",
+    "width": 396,
+    "height": 12,
+    "bytes": 18790
+  },
+  {
+    "path": "img/actorhud/HP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/actorhud/HP_Number2.png",
+    "width": 140,
+    "height": 16,
+    "bytes": 22253
+  },
+  {
+    "path": "img/actorhud/Layout.png",
+    "width": 342,
+    "height": 185,
+    "bytes": 96662
+  },
+  {
+    "path": "img/actorhud/LV_Number.png",
+    "width": 127,
+    "height": 18,
+    "bytes": 1595
+  },
+  {
+    "path": "img/actorhud/MP_Meter.png",
+    "width": 396,
+    "height": 12,
+    "bytes": 18854
+  },
+  {
+    "path": "img/actorhud/MP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/actorhud/MP_Number2.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/actorhud/TP_Meter.png",
+    "width": 396,
+    "height": 12,
+    "bytes": 18892
+  },
+  {
+    "path": "img/actorhud/TP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/actorhud/TP_Number2.png",
+    "width": 130,
+    "height": 17,
+    "bytes": 22625
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q001_Slash.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 43655
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q002_Blow.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 95363
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q003_Shot.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 93836
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q004_Cleave.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 99832
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q005_Swipe.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 61715
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q006_Hit.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 174907
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q007_Rapid_Fire.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 275735
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q008_Explosion.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 986211
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q009_Repair.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 701047
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q010_Maintenance.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 607652
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q011_Delete.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 641160
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q012_Scan.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 743787
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q013_Virus.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 134798
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q014_Logic_Bomb.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1769061
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q015_Bind.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 930073
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q016_Unchained.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 1161692
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q017_Barrier.png",
+    "width": 1152,
+    "height": 1536,
+    "bytes": 1173782
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q018_Barrier_Break.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 1070334
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q019_Accelerate.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 2223240
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q020_Decelerate.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1281448
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q021_Stasis.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1279335
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q022_Star_Heal.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 1167910
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q023_Star_Aura.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1745440
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q024_Star_Flare.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1139008
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q025_Blackhole.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1451383
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q026A_Star_Burst.png",
+    "width": 960,
+    "height": 1536,
+    "bytes": 329502
+  },
+  {
+    "path": "img/animations/30FPS_AC2Q026B_Star_Burst.png",
+    "width": 960,
+    "height": 1536,
+    "bytes": 918602
+  },
+  {
+    "path": "img/animations/30FPS_AC3T001_Cast01a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1031286
+  },
+  {
+    "path": "img/animations/30FPS_AC3T002_Cast01b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 475250
+  },
+  {
+    "path": "img/animations/30FPS_AC3T003_Cast02a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 867802
+  },
+  {
+    "path": "img/animations/30FPS_AC3T004_Cast02b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 425044
+  },
+  {
+    "path": "img/animations/30FPS_AC3T005_Cast03a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1131744
+  },
+  {
+    "path": "img/animations/30FPS_AC3T006_Cast03b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 467538
+  },
+  {
+    "path": "img/animations/30FPS_AC3T007_Cast04a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1386881
+  },
+  {
+    "path": "img/animations/30FPS_AC3T008_Cast04b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 658405
+  },
+  {
+    "path": "img/animations/30FPS_AC3T009_Cast05a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1330580
+  },
+  {
+    "path": "img/animations/30FPS_AC3T010_Cast05b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 730095
+  },
+  {
+    "path": "img/animations/30FPS_AC3T011_Cast06a.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1179193
+  },
+  {
+    "path": "img/animations/30FPS_AC3T012_Cast06b.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 565653
+  },
+  {
+    "path": "img/animations/30FPS_AC3T013_Blind.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 497893
+  },
+  {
+    "path": "img/animations/30FPS_AC3T014_Confuse.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 486962
+  },
+  {
+    "path": "img/animations/30FPS_AC3T015_Seal.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1458336
+  },
+  {
+    "path": "img/animations/30FPS_AC3T016_Benediction.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1867277
+  },
+  {
+    "path": "img/animations/30FPS_AC3T017_Resurrection.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 5801840
+  },
+  {
+    "path": "img/animations/30FPS_AC3T018_Tempest.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4652587
+  },
+  {
+    "path": "img/animations/30FPS_AC3T019_Torrent.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 3628082
+  },
+  {
+    "path": "img/animations/30FPS_AC3T020_Inferno.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4543712
+  },
+  {
+    "path": "img/animations/30FPS_AC3T021_Upheaval.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4664871
+  },
+  {
+    "path": "img/animations/30FPS_AC3T022_Discharge.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 6132529
+  },
+  {
+    "path": "img/animations/30FPS_AC3T023_Cocytus.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4575117
+  },
+  {
+    "path": "img/animations/30FPS_AC3T024_Collapse.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4499172
+  },
+  {
+    "path": "img/animations/30FPS_AC3T025_Luminescence.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 4026438
+  },
+  {
+    "path": "img/animations/30FPS_AC3T026_Nova.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 7148451
+  },
+  {
+    "path": "img/animations/30FPS_ACQ001_Slash1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 94751
+  },
+  {
+    "path": "img/animations/30FPS_ACQ002_Slash2.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 73250
+  },
+  {
+    "path": "img/animations/30FPS_ACQ003_Thrust1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 113978
+  },
+  {
+    "path": "img/animations/30FPS_ACQ004_Thrust2.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 84378
+  },
+  {
+    "path": "img/animations/30FPS_ACQ005_Hit1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 144743
+  },
+  {
+    "path": "img/animations/30FPS_ACQ006_Hit2.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 72826
+  },
+  {
+    "path": "img/animations/30FPS_ACQ007_Potion.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 346915
+  },
+  {
+    "path": "img/animations/30FPS_ACQ008_Ether.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 1419357
+  },
+  {
+    "path": "img/animations/30FPS_ACQ009_Remedy.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 942056
+  },
+  {
+    "path": "img/animations/30FPS_ACQ010_Elixir.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 1427084
+  },
+  {
+    "path": "img/animations/30FPS_ACQ011_Bite.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 413279
+  },
+  {
+    "path": "img/animations/30FPS_ACQ012_Poison.png",
+    "width": 960,
+    "height": 1728,
+    "bytes": 677595
+  },
+  {
+    "path": "img/animations/30FPS_ACQ013_Sleep.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 177974
+  },
+  {
+    "path": "img/animations/30FPS_ACQ014_Curse.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 386577
+  },
+  {
+    "path": "img/animations/30FPS_ACQ015_Rage.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 572357
+  },
+  {
+    "path": "img/animations/30FPS_ACQ016_Fear.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 169905
+  },
+  {
+    "path": "img/animations/30FPS_ACQ017_Cure.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 605065
+  },
+  {
+    "path": "img/animations/30FPS_ACQ018_Revive.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 703778
+  },
+  {
+    "path": "img/animations/30FPS_ACQ019_Wind.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1492112
+  },
+  {
+    "path": "img/animations/30FPS_ACQ020_Water.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 915502
+  },
+  {
+    "path": "img/animations/30FPS_ACQ021_Fire.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1390179
+  },
+  {
+    "path": "img/animations/30FPS_ACQ022_Earth.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 2111312
+  },
+  {
+    "path": "img/animations/30FPS_ACQ023_LightningA.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 752408
+  },
+  {
+    "path": "img/animations/30FPS_ACQ023_LightningB.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 21564
+  },
+  {
+    "path": "img/animations/30FPS_ACQ024_Ice.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1111503
+  },
+  {
+    "path": "img/animations/30FPS_ACQ025_Shine.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 970001
+  },
+  {
+    "path": "img/animations/30FPS_ACQ026_Dark.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 1569627
+  },
+  {
+    "path": "img/animations/30FPS_ACQ027_Eclipse.png",
+    "width": 960,
+    "height": 1920,
+    "bytes": 895422
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q001_Slash.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 77608
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q002_Blow.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 239084
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q003_Shot.png",
+    "width": 960,
+    "height": 1536,
+    "bytes": 184113
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q004_Cleave.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 184043
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q005_Swipe.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 124302
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q006_Hit.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 344631
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q007_Rapid_Fire.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 577125
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q008_Explosion.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1790077
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q009_Repair.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1409379
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q010_Maintenance.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1262931
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q011_Delete.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1392656
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q012_Scan.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1471968
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q013_Virus.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 256071
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q014_Logic_Bomb.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3420449
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q015_Bind.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1856131
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q016_Unchained.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2195285
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q017_Barrier.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2239697
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q018_Barrier_Break.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2117531
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q019_Accelerate.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4373557
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q020_Decelerate.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2539169
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q021_Stasis.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2464365
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q022_Star_Heal.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2430345
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q023_Star_Aura.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3454545
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q024_Star_Flare.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2270731
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q025_Blackhole.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2831908
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q026A_Star_Burst.png",
+    "width": 960,
+    "height": 3072,
+    "bytes": 640145
+  },
+  {
+    "path": "img/animations/60FPS_AC2Q026B_Star_Burst.png",
+    "width": 960,
+    "height": 2880,
+    "bytes": 1852368
+  },
+  {
+    "path": "img/animations/60FPS_AC3T001_Cast01a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2022753
+  },
+  {
+    "path": "img/animations/60FPS_AC3T002_Cast01b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 906803
+  },
+  {
+    "path": "img/animations/60FPS_AC3T003_Cast02a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1711259
+  },
+  {
+    "path": "img/animations/60FPS_AC3T004_Cast02b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 858393
+  },
+  {
+    "path": "img/animations/60FPS_AC3T005_Cast03a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2267495
+  },
+  {
+    "path": "img/animations/60FPS_AC3T006_Cast03b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 937442
+  },
+  {
+    "path": "img/animations/60FPS_AC3T007_Cast04a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2737269
+  },
+  {
+    "path": "img/animations/60FPS_AC3T008_Cast04b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1257316
+  },
+  {
+    "path": "img/animations/60FPS_AC3T009_Cast05a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2647753
+  },
+  {
+    "path": "img/animations/60FPS_AC3T010_Cast05b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1470808
+  },
+  {
+    "path": "img/animations/60FPS_AC3T011_Cast06a.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2347892
+  },
+  {
+    "path": "img/animations/60FPS_AC3T012_Cast06b.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1112447
+  },
+  {
+    "path": "img/animations/60FPS_AC3T013_Blind.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 977192
+  },
+  {
+    "path": "img/animations/60FPS_AC3T014_Confuse.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 967397
+  },
+  {
+    "path": "img/animations/60FPS_AC3T015_Seal.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 2933347
+  },
+  {
+    "path": "img/animations/60FPS_AC3T016_Benediction.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3750304
+  },
+  {
+    "path": "img/animations/60FPS_AC3T017_Resurrection_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 6711418
+  },
+  {
+    "path": "img/animations/60FPS_AC3T017_Resurrection_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4875512
+  },
+  {
+    "path": "img/animations/60FPS_AC3T018_Tempest_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4627391
+  },
+  {
+    "path": "img/animations/60FPS_AC3T018_Tempest_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4730406
+  },
+  {
+    "path": "img/animations/60FPS_AC3T019_Torrent_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2839137
+  },
+  {
+    "path": "img/animations/60FPS_AC3T019_Torrent_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4489225
+  },
+  {
+    "path": "img/animations/60FPS_AC3T020_Inferno_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4787611
+  },
+  {
+    "path": "img/animations/60FPS_AC3T020_Inferno_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4325402
+  },
+  {
+    "path": "img/animations/60FPS_AC3T021_Upheaval_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 6054542
+  },
+  {
+    "path": "img/animations/60FPS_AC3T021_Upheaval_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3274166
+  },
+  {
+    "path": "img/animations/60FPS_AC3T022_Discharge_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 5348852
+  },
+  {
+    "path": "img/animations/60FPS_AC3T022_Discharge_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 6994253
+  },
+  {
+    "path": "img/animations/60FPS_AC3T023_Cocytus_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4482766
+  },
+  {
+    "path": "img/animations/60FPS_AC3T023_Cocytus_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4739599
+  },
+  {
+    "path": "img/animations/60FPS_AC3T024_Collapse_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4818198
+  },
+  {
+    "path": "img/animations/60FPS_AC3T024_Collapse_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4135008
+  },
+  {
+    "path": "img/animations/60FPS_AC3T025_Luminescence_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4903080
+  },
+  {
+    "path": "img/animations/60FPS_AC3T025_Luminescence_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3207276
+  },
+  {
+    "path": "img/animations/60FPS_AC3T026_Nova_01.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 6643515
+  },
+  {
+    "path": "img/animations/60FPS_AC3T026_Nova_02.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 7611921
+  },
+  {
+    "path": "img/animations/60FPS_ACQ001_Slash1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 196692
+  },
+  {
+    "path": "img/animations/60FPS_ACQ002_Slash2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 139980
+  },
+  {
+    "path": "img/animations/60FPS_ACQ003_Thrust1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 242608
+  },
+  {
+    "path": "img/animations/60FPS_ACQ004_Thrust2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 165616
+  },
+  {
+    "path": "img/animations/60FPS_ACQ005_Hit1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 246236
+  },
+  {
+    "path": "img/animations/60FPS_ACQ006_Hit2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 169729
+  },
+  {
+    "path": "img/animations/60FPS_ACQ007_Potion.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 692442
+  },
+  {
+    "path": "img/animations/60FPS_ACQ008_Ether.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2726076
+  },
+  {
+    "path": "img/animations/60FPS_ACQ009_Remedy.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 1846800
+  },
+  {
+    "path": "img/animations/60FPS_ACQ010_Elixir.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 2773108
+  },
+  {
+    "path": "img/animations/60FPS_ACQ011_Bite.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 809729
+  },
+  {
+    "path": "img/animations/60FPS_ACQ012_Poison.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 1444480
+  },
+  {
+    "path": "img/animations/60FPS_ACQ013_Sleep.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 339386
+  },
+  {
+    "path": "img/animations/60FPS_ACQ014_Curse.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 735066
+  },
+  {
+    "path": "img/animations/60FPS_ACQ015_Rage.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1076577
+  },
+  {
+    "path": "img/animations/60FPS_ACQ016_Fear.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 322387
+  },
+  {
+    "path": "img/animations/60FPS_ACQ017_Cure.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 1157627
+  },
+  {
+    "path": "img/animations/60FPS_ACQ018_Revive.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1432175
+  },
+  {
+    "path": "img/animations/60FPS_ACQ019_Wind.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3001497
+  },
+  {
+    "path": "img/animations/60FPS_ACQ020_Water.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1771920
+  },
+  {
+    "path": "img/animations/60FPS_ACQ021_Fire.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2788462
+  },
+  {
+    "path": "img/animations/60FPS_ACQ022_Earth.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 4247072
+  },
+  {
+    "path": "img/animations/60FPS_ACQ023_LightningA.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1611599
+  },
+  {
+    "path": "img/animations/60FPS_ACQ023_LightningB.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 40753
+  },
+  {
+    "path": "img/animations/60FPS_ACQ024_Ice.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 2340445
+  },
+  {
+    "path": "img/animations/60FPS_ACQ025_Shine.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1927157
+  },
+  {
+    "path": "img/animations/60FPS_ACQ026_Dark.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 3073970
+  },
+  {
+    "path": "img/animations/60FPS_ACQ027_Eclipse.png",
+    "width": 960,
+    "height": 3840,
+    "bytes": 1687800
+  },
+  {
+    "path": "img/animations/6EIV6xY.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 543714
+  },
+  {
+    "path": "img/animations/9SVJjPw.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 985501
+  },
+  {
+    "path": "img/animations/Absorb.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 495269
+  },
+  {
+    "path": "img/animations/ArrowSpecial.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 154747
+  },
+  {
+    "path": "img/animations/Barrier By Coopziana.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 576432
+  },
+  {
+    "path": "img/animations/BeamBlast By Coopziana.png",
+    "width": 960,
+    "height": 3648,
+    "bytes": 834411
+  },
+  {
+    "path": "img/animations/BlastBeam1_1 By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 703414
+  },
+  {
+    "path": "img/animations/BlastBeam1_2 By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 99622
+  },
+  {
+    "path": "img/animations/Blow.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 47285
+  },
+  {
+    "path": "img/animations/Breath.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 566347
+  },
+  {
+    "path": "img/animations/C4kenvc.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 225895
+  },
+  {
+    "path": "img/animations/Capsuletoy.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 643161
+  },
+  {
+    "path": "img/animations/Claw.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 102209
+  },
+  {
+    "path": "img/animations/ClawPhoton.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 39322
+  },
+  {
+    "path": "img/animations/ClawSpecial1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 353663
+  },
+  {
+    "path": "img/animations/ClawSpecial2.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 230600
+  },
+  {
+    "path": "img/animations/Confusion By Coopziana.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 26591
+  },
+  {
+    "path": "img/animations/Cure1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 664687
+  },
+  {
+    "path": "img/animations/Cure2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 426246
+  },
+  {
+    "path": "img/animations/Cure3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 619668
+  },
+  {
+    "path": "img/animations/Cure4.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 470309
+  },
+  {
+    "path": "img/animations/Curse.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 197253
+  },
+  {
+    "path": "img/animations/Darkness1.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 372199
+  },
+  {
+    "path": "img/animations/Darkness2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 695287
+  },
+  {
+    "path": "img/animations/Darkness3.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 238095
+  },
+  {
+    "path": "img/animations/Darkness4.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 407060
+  },
+  {
+    "path": "img/animations/Darkness5.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 603398
+  },
+  {
+    "path": "img/animations/dozer.png",
+    "width": 1500,
+    "height": 906,
+    "bytes": 691554
+  },
+  {
+    "path": "img/animations/dozer4.png",
+    "width": 200,
+    "height": 200,
+    "bytes": 30160
+  },
+  {
+    "path": "img/animations/dwVF9iW.png",
+    "width": 960,
+    "height": 2496,
+    "bytes": 249317
+  },
+  {
+    "path": "img/animations/E8nhif2.png",
+    "width": 960,
+    "height": 2496,
+    "bytes": 428101
+  },
+  {
+    "path": "img/animations/Earth1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 383703
+  },
+  {
+    "path": "img/animations/Earth2.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 466178
+  },
+  {
+    "path": "img/animations/Earth3.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 249773
+  },
+  {
+    "path": "img/animations/Earth4.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 163767
+  },
+  {
+    "path": "img/animations/Earth5.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1333353
+  },
+  {
+    "path": "img/animations/Explosion1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 577417
+  },
+  {
+    "path": "img/animations/Explosion2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1425203
+  },
+  {
+    "path": "img/animations/Fire1 By Coopziana.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 249019
+  },
+  {
+    "path": "img/animations/Fire1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 471410
+  },
+  {
+    "path": "img/animations/Fire2.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 321109
+  },
+  {
+    "path": "img/animations/Fire3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 795762
+  },
+  {
+    "path": "img/animations/Flash.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 323754
+  },
+  {
+    "path": "img/animations/green_cloud.png",
+    "width": 960,
+    "height": 4416,
+    "bytes": 2336074
+  },
+  {
+    "path": "img/animations/green_ring.png",
+    "width": 960,
+    "height": 3456,
+    "bytes": 1028334
+  },
+  {
+    "path": "img/animations/green_splody.png",
+    "width": 960,
+    "height": 4608,
+    "bytes": 835794
+  },
+  {
+    "path": "img/animations/grenade.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 873
+  },
+  {
+    "path": "img/animations/Gun1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 738400
+  },
+  {
+    "path": "img/animations/Gun2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 1078359
+  },
+  {
+    "path": "img/animations/Gun3.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 275090
+  },
+  {
+    "path": "img/animations/Heaven Falling By Coopziana.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 584395
+  },
+  {
+    "path": "img/animations/hgip9fR.png",
+    "width": 960,
+    "height": 2304,
+    "bytes": 886973
+  },
+  {
+    "path": "img/animations/Hit1.png",
+    "width": 768,
+    "height": 192,
+    "bytes": 119901
+  },
+  {
+    "path": "img/animations/Hit2.png",
+    "width": 576,
+    "height": 192,
+    "bytes": 90060
+  },
+  {
+    "path": "img/animations/HitFire.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 209632
+  },
+  {
+    "path": "img/animations/HitIce.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 200275
+  },
+  {
+    "path": "img/animations/HitPhoton.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 26779
+  },
+  {
+    "path": "img/animations/HitSpecial1.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 348218
+  },
+  {
+    "path": "img/animations/HitSpecial2.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 182335
+  },
+  {
+    "path": "img/animations/HitThunder.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 275289
+  },
+  {
+    "path": "img/animations/Holy1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 396908
+  },
+  {
+    "path": "img/animations/Holy2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 402676
+  },
+  {
+    "path": "img/animations/Holy3.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 364810
+  },
+  {
+    "path": "img/animations/Holy4.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 348486
+  },
+  {
+    "path": "img/animations/Holy5.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1709463
+  },
+  {
+    "path": "img/animations/Howl.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 246975
+  },
+  {
+    "path": "img/animations/Iblq1NZ.png",
+    "width": 960,
+    "height": 1536,
+    "bytes": 132135
+  },
+  {
+    "path": "img/animations/Ice1 By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 749485
+  },
+  {
+    "path": "img/animations/Ice1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 372306
+  },
+  {
+    "path": "img/animations/Ice2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 334354
+  },
+  {
+    "path": "img/animations/Ice3.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 348491
+  },
+  {
+    "path": "img/animations/Ice4.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 48116
+  },
+  {
+    "path": "img/animations/Ice5.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 785288
+  },
+  {
+    "path": "img/animations/IconSet.png",
+    "width": 517,
+    "height": 3232,
+    "bytes": 2354760
+  },
+  {
+    "path": "img/animations/Jlx2fTz.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 388158
+  },
+  {
+    "path": "img/animations/KZ9couy.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 548713
+  },
+  {
+    "path": "img/animations/KzRnlZy.png",
+    "width": 960,
+    "height": 2880,
+    "bytes": 933581
+  },
+  {
+    "path": "img/animations/Laser1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 336261
+  },
+  {
+    "path": "img/animations/Laser2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 524318
+  },
+  {
+    "path": "img/animations/Light1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 285803
+  },
+  {
+    "path": "img/animations/Light2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 383789
+  },
+  {
+    "path": "img/animations/Light3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 455855
+  },
+  {
+    "path": "img/animations/Light4.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1691502
+  },
+  {
+    "path": "img/animations/LimitCharge1 By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 70300
+  },
+  {
+    "path": "img/animations/Magic1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 626453
+  },
+  {
+    "path": "img/animations/Magic2.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 1173786
+  },
+  {
+    "path": "img/animations/MagicCharge By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 345867
+  },
+  {
+    "path": "img/animations/Mathemagicks By Coopziana.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 138785
+  },
+  {
+    "path": "img/animations/Meteor.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 755969
+  },
+  {
+    "path": "img/animations/Mist.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 61134
+  },
+  {
+    "path": "img/animations/Pollen.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 448335
+  },
+  {
+    "path": "img/animations/PreSpecial1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 894546
+  },
+  {
+    "path": "img/animations/PreSpecial2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 769534
+  },
+  {
+    "path": "img/animations/PreSpecial3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 896103
+  },
+  {
+    "path": "img/animations/Protect By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 293796
+  },
+  {
+    "path": "img/animations/qZ1YMrP.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 229303
+  },
+  {
+    "path": "img/animations/Recovery1.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 575673
+  },
+  {
+    "path": "img/animations/Recovery2.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 503654
+  },
+  {
+    "path": "img/animations/Recovery3.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 1340398
+  },
+  {
+    "path": "img/animations/Recovery4.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 316008
+  },
+  {
+    "path": "img/animations/Recovery5.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 342077
+  },
+  {
+    "path": "img/animations/red_ring.png",
+    "width": 960,
+    "height": 4608,
+    "bytes": 3420692
+  },
+  {
+    "path": "img/animations/Revival1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 490228
+  },
+  {
+    "path": "img/animations/Revival2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 753853
+  },
+  {
+    "path": "img/animations/Shell By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 561039
+  },
+  {
+    "path": "img/animations/ShockWave By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 93633
+  },
+  {
+    "path": "img/animations/Slash.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 82515
+  },
+  {
+    "path": "img/animations/SlashFire.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 167293
+  },
+  {
+    "path": "img/animations/SlashIce.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 256093
+  },
+  {
+    "path": "img/animations/SlashPhoton.png",
+    "width": 768,
+    "height": 192,
+    "bytes": 24015
+  },
+  {
+    "path": "img/animations/SlashSpecial1.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 367215
+  },
+  {
+    "path": "img/animations/SlashSpecial2.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 108025
+  },
+  {
+    "path": "img/animations/SlashSpecial3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 299173
+  },
+  {
+    "path": "img/animations/SlashThunder.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 238376
+  },
+  {
+    "path": "img/animations/Sleep By Coopziana.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 22181
+  },
+  {
+    "path": "img/animations/SleepWhite By Coopziana.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 20970
+  },
+  {
+    "path": "img/animations/Song.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 83107
+  },
+  {
+    "path": "img/animations/Sonic.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 149377
+  },
+  {
+    "path": "img/animations/Special1.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 49249
+  },
+  {
+    "path": "img/animations/Special2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 238681
+  },
+  {
+    "path": "img/animations/Special3.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 434140
+  },
+  {
+    "path": "img/animations/splody.png",
+    "width": 960,
+    "height": 2880,
+    "bytes": 2006993
+  },
+  {
+    "path": "img/animations/StatDown1 By Coopziana.png",
+    "width": 960,
+    "height": 1344,
+    "bytes": 559748
+  },
+  {
+    "path": "img/animations/StateChaos.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 218330
+  },
+  {
+    "path": "img/animations/StateDark.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 789432
+  },
+  {
+    "path": "img/animations/StateDeath.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 394723
+  },
+  {
+    "path": "img/animations/StateDown1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 234575
+  },
+  {
+    "path": "img/animations/StateDown2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 915640
+  },
+  {
+    "path": "img/animations/StateDown3.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1330147
+  },
+  {
+    "path": "img/animations/StateParalys.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 1022209
+  },
+  {
+    "path": "img/animations/StatePoison.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 424121
+  },
+  {
+    "path": "img/animations/StateSilent.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 269576
+  },
+  {
+    "path": "img/animations/StateSleep.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 448934
+  },
+  {
+    "path": "img/animations/StateUp1.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 578566
+  },
+  {
+    "path": "img/animations/StateUp2.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 1570785
+  },
+  {
+    "path": "img/animations/Stick.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 245464
+  },
+  {
+    "path": "img/animations/StickPhoton.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 43645
+  },
+  {
+    "path": "img/animations/StickSpecial1.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 341267
+  },
+  {
+    "path": "img/animations/StickSpecial2.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 131927
+  },
+  {
+    "path": "img/animations/StickSpecial3.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 284989
+  },
+  {
+    "path": "img/animations/Thunder1 By Coopziana.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 101217
+  },
+  {
+    "path": "img/animations/Thunder1.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 473215
+  },
+  {
+    "path": "img/animations/Thunder2 By Coopziana.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 443861
+  },
+  {
+    "path": "img/animations/Thunder2.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 235327
+  },
+  {
+    "path": "img/animations/Thunder3.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 279691
+  },
+  {
+    "path": "img/animations/Thunder4.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 289057
+  },
+  {
+    "path": "img/animations/Thunder5.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 483610
+  },
+  {
+    "path": "img/animations/UBL8Lpp.png",
+    "width": 960,
+    "height": 2496,
+    "bytes": 851936
+  },
+  {
+    "path": "img/animations/Water1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 518041
+  },
+  {
+    "path": "img/animations/Water2.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 1060266
+  },
+  {
+    "path": "img/animations/Water3.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 333176
+  },
+  {
+    "path": "img/animations/Water4.png",
+    "width": 960,
+    "height": 192,
+    "bytes": 190344
+  },
+  {
+    "path": "img/animations/Water5.png",
+    "width": 960,
+    "height": 768,
+    "bytes": 518580
+  },
+  {
+    "path": "img/animations/Wind1.png",
+    "width": 960,
+    "height": 960,
+    "bytes": 1066353
+  },
+  {
+    "path": "img/animations/Wind2.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 172528
+  },
+  {
+    "path": "img/animations/Wind3.png",
+    "width": 960,
+    "height": 576,
+    "bytes": 249075
+  },
+  {
+    "path": "img/animations/Wind4.png",
+    "width": 960,
+    "height": 384,
+    "bytes": 319419
+  },
+  {
+    "path": "img/animations/Wind5.png",
+    "width": 960,
+    "height": 1152,
+    "bytes": 944586
+  },
+  {
+    "path": "img/battlebacks1/Castle1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1366846
+  },
+  {
+    "path": "img/battlebacks1/Castle2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1284736
+  },
+  {
+    "path": "img/battlebacks1/Clouds.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 745165
+  },
+  {
+    "path": "img/battlebacks1/Cobblestones1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1339529
+  },
+  {
+    "path": "img/battlebacks1/Cobblestones2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1372546
+  },
+  {
+    "path": "img/battlebacks1/Cobblestones3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1689652
+  },
+  {
+    "path": "img/battlebacks1/Cobblestones4.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1181093
+  },
+  {
+    "path": "img/battlebacks1/Cobblestones5.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1485294
+  },
+  {
+    "path": "img/battlebacks1/CobblestonesPool.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1461147
+  },
+  {
+    "path": "img/battlebacks1/Crystal.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1539900
+  },
+  {
+    "path": "img/battlebacks1/DarkSpace.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1572902
+  },
+  {
+    "path": "img/battlebacks1/DecorativeTile.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1360597
+  },
+  {
+    "path": "img/battlebacks1/DemonCastle1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1529687
+  },
+  {
+    "path": "img/battlebacks1/DemonCastle2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1452167
+  },
+  {
+    "path": "img/battlebacks1/DemonicWorld.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1571137
+  },
+  {
+    "path": "img/battlebacks1/Desert.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 923496
+  },
+  {
+    "path": "img/battlebacks1/Dirt1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1495917
+  },
+  {
+    "path": "img/battlebacks1/Dirt2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1564296
+  },
+  {
+    "path": "img/battlebacks1/DirtField.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1163541
+  },
+  {
+    "path": "img/battlebacks1/FaceTile.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1551243
+  },
+  {
+    "path": "img/battlebacks1/Factory.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1030038
+  },
+  {
+    "path": "img/battlebacks1/Grassland.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1246714
+  },
+  {
+    "path": "img/battlebacks1/GrassMaze.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1162409
+  },
+  {
+    "path": "img/battlebacks1/GrassMazePool.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1425444
+  },
+  {
+    "path": "img/battlebacks1/IceCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1138007
+  },
+  {
+    "path": "img/battlebacks1/InBody.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1224099
+  },
+  {
+    "path": "img/battlebacks1/Lava1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 734817
+  },
+  {
+    "path": "img/battlebacks1/Lava2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 956065
+  },
+  {
+    "path": "img/battlebacks1/LavaCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1336474
+  },
+  {
+    "path": "img/battlebacks1/Meadow.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1065112
+  },
+  {
+    "path": "img/battlebacks1/PoisonSwamp.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 824798
+  },
+  {
+    "path": "img/battlebacks1/Road1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1396916
+  },
+  {
+    "path": "img/battlebacks1/Road2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 722572
+  },
+  {
+    "path": "img/battlebacks1/Road3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1481208
+  },
+  {
+    "path": "img/battlebacks1/RockCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1328131
+  },
+  {
+    "path": "img/battlebacks1/Ruins1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1447537
+  },
+  {
+    "path": "img/battlebacks1/Ruins2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1530971
+  },
+  {
+    "path": "img/battlebacks1/Ruins3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1496713
+  },
+  {
+    "path": "img/battlebacks1/Ruins4.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1229142
+  },
+  {
+    "path": "img/battlebacks1/Ruins5.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1530836
+  },
+  {
+    "path": "img/battlebacks1/Sand.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 933952
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1014145
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt1_Damaged.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1102417
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt1_Night.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 688740
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1191696
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt2_Damaged.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1249194
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1047507
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt4.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1047404
+  },
+  {
+    "path": "img/battlebacks1/SF_Asphalt5.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1303673
+  },
+  {
+    "path": "img/battlebacks1/SF_Building.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 717997
+  },
+  {
+    "path": "img/battlebacks1/SF_Company.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1042929
+  },
+  {
+    "path": "img/battlebacks1/SF_Concrete.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 831785
+  },
+  {
+    "path": "img/battlebacks1/SF_Crater.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1009493
+  },
+  {
+    "path": "img/battlebacks1/SF_CyberSpace.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1034967
+  },
+  {
+    "path": "img/battlebacks1/SF_Dirt.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1253632
+  },
+  {
+    "path": "img/battlebacks1/SF_Factory.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 925136
+  },
+  {
+    "path": "img/battlebacks1/SF_Factory_Damaged.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1137956
+  },
+  {
+    "path": "img/battlebacks1/SF_Flooring.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1237150
+  },
+  {
+    "path": "img/battlebacks1/SF_Gothic1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1142530
+  },
+  {
+    "path": "img/battlebacks1/SF_Gothic2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 833277
+  },
+  {
+    "path": "img/battlebacks1/SF_InnerWorld.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1028024
+  },
+  {
+    "path": "img/battlebacks1/SF_MagicCircle.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 799524
+  },
+  {
+    "path": "img/battlebacks1/SF_Metal1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1107574
+  },
+  {
+    "path": "img/battlebacks1/SF_Metal2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1129878
+  },
+  {
+    "path": "img/battlebacks1/SF_Metal2_Damaged.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1107488
+  },
+  {
+    "path": "img/battlebacks1/SF_MetalLattice.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1147583
+  },
+  {
+    "path": "img/battlebacks1/SF_Sewer.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 727213
+  },
+  {
+    "path": "img/battlebacks1/Ship.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 913821
+  },
+  {
+    "path": "img/battlebacks1/Sky.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 881891
+  },
+  {
+    "path": "img/battlebacks1/Snowfield.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 361206
+  },
+  {
+    "path": "img/battlebacks1/Tent.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1411418
+  },
+  {
+    "path": "img/battlebacks1/Translucent.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1443633
+  },
+  {
+    "path": "img/battlebacks1/Wasteland.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1148862
+  },
+  {
+    "path": "img/battlebacks1/WireMesh.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 818107
+  },
+  {
+    "path": "img/battlebacks1/Wood1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1400554
+  },
+  {
+    "path": "img/battlebacks1/Wood2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1047542
+  },
+  {
+    "path": "img/battlebacks2/Brick.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 757976
+  },
+  {
+    "path": "img/battlebacks2/Bridge.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 696269
+  },
+  {
+    "path": "img/battlebacks2/Castle1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 763286
+  },
+  {
+    "path": "img/battlebacks2/Castle2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 633770
+  },
+  {
+    "path": "img/battlebacks2/Castle3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 576305
+  },
+  {
+    "path": "img/battlebacks2/Cliff.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 875158
+  },
+  {
+    "path": "img/battlebacks2/Clouds.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 801041
+  },
+  {
+    "path": "img/battlebacks2/Crystal.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1078452
+  },
+  {
+    "path": "img/battlebacks2/DarkSpace.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1260909
+  },
+  {
+    "path": "img/battlebacks2/DemonCastle1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 836755
+  },
+  {
+    "path": "img/battlebacks2/DemonCastle2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 822251
+  },
+  {
+    "path": "img/battlebacks2/DemonCastle3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 763197
+  },
+  {
+    "path": "img/battlebacks2/DemonicWorld.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 950697
+  },
+  {
+    "path": "img/battlebacks2/Desert.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 871924
+  },
+  {
+    "path": "img/battlebacks2/DirtCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 774754
+  },
+  {
+    "path": "img/battlebacks2/Forest.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 715079
+  },
+  {
+    "path": "img/battlebacks2/Fort1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 734053
+  },
+  {
+    "path": "img/battlebacks2/Fort2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 755865
+  },
+  {
+    "path": "img/battlebacks2/Grassland.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 593974
+  },
+  {
+    "path": "img/battlebacks2/GrassMaze.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 860888
+  },
+  {
+    "path": "img/battlebacks2/IceCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1064427
+  },
+  {
+    "path": "img/battlebacks2/IceMaze.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 841446
+  },
+  {
+    "path": "img/battlebacks2/InBody.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 832679
+  },
+  {
+    "path": "img/battlebacks2/Lava.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 662447
+  },
+  {
+    "path": "img/battlebacks2/LavaCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 645733
+  },
+  {
+    "path": "img/battlebacks2/Metal.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 627360
+  },
+  {
+    "path": "img/battlebacks2/Mine.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 719901
+  },
+  {
+    "path": "img/battlebacks2/PoisonSwamp.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 606148
+  },
+  {
+    "path": "img/battlebacks2/Port.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 552988
+  },
+  {
+    "path": "img/battlebacks2/RockCave.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 899556
+  },
+  {
+    "path": "img/battlebacks2/Room1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 689747
+  },
+  {
+    "path": "img/battlebacks2/Room2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 596048
+  },
+  {
+    "path": "img/battlebacks2/Room3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 721876
+  },
+  {
+    "path": "img/battlebacks2/Ruins1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 843816
+  },
+  {
+    "path": "img/battlebacks2/Ruins2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 958874
+  },
+  {
+    "path": "img/battlebacks2/SF_Building1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 509215
+  },
+  {
+    "path": "img/battlebacks2/SF_Building2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 396796
+  },
+  {
+    "path": "img/battlebacks2/SF_City.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 794384
+  },
+  {
+    "path": "img/battlebacks2/SF_Company.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 637565
+  },
+  {
+    "path": "img/battlebacks2/SF_ComputerRoom.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 771877
+  },
+  {
+    "path": "img/battlebacks2/SF_CyberSpace.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 759944
+  },
+  {
+    "path": "img/battlebacks2/SF_DistantView1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 952306
+  },
+  {
+    "path": "img/battlebacks2/SF_DistantView2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 501939
+  },
+  {
+    "path": "img/battlebacks2/SF_DistantView3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 335380
+  },
+  {
+    "path": "img/battlebacks2/SF_DistantView3_Night.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 294457
+  },
+  {
+    "path": "img/battlebacks2/SF_Factory.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 728368
+  },
+  {
+    "path": "img/battlebacks2/SF_GothicEntrance.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 632427
+  },
+  {
+    "path": "img/battlebacks2/SF_GothicRoom.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 632620
+  },
+  {
+    "path": "img/battlebacks2/SF_Hospital.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 590488
+  },
+  {
+    "path": "img/battlebacks2/SF_InnerWorld.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 901432
+  },
+  {
+    "path": "img/battlebacks2/SF_Laboratory.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 880434
+  },
+  {
+    "path": "img/battlebacks2/SF_Metal.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 827454
+  },
+  {
+    "path": "img/battlebacks2/SF_MilitaryBase.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 705237
+  },
+  {
+    "path": "img/battlebacks2/SF_Park.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 782426
+  },
+  {
+    "path": "img/battlebacks2/SF_PresidentsOffice.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 681822
+  },
+  {
+    "path": "img/battlebacks2/SF_School1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 712507
+  },
+  {
+    "path": "img/battlebacks2/SF_School2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 566637
+  },
+  {
+    "path": "img/battlebacks2/SF_Scrap.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 580248
+  },
+  {
+    "path": "img/battlebacks2/SF_Sewer.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 462510
+  },
+  {
+    "path": "img/battlebacks2/SF_Slum.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1096228
+  },
+  {
+    "path": "img/battlebacks2/SF_Town.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 759934
+  },
+  {
+    "path": "img/battlebacks2/SF_VacantLot.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1290278
+  },
+  {
+    "path": "img/battlebacks2/SF_WarehouseDistrict.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 772101
+  },
+  {
+    "path": "img/battlebacks2/Ship.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 498590
+  },
+  {
+    "path": "img/battlebacks2/Sky.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1125310
+  },
+  {
+    "path": "img/battlebacks2/Snowfield.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 607359
+  },
+  {
+    "path": "img/battlebacks2/Stone1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 797755
+  },
+  {
+    "path": "img/battlebacks2/Stone2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 744668
+  },
+  {
+    "path": "img/battlebacks2/Stone3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 628344
+  },
+  {
+    "path": "img/battlebacks2/Temple.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 724496
+  },
+  {
+    "path": "img/battlebacks2/Tent.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 674039
+  },
+  {
+    "path": "img/battlebacks2/Tower.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 850970
+  },
+  {
+    "path": "img/battlebacks2/Town1.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 802379
+  },
+  {
+    "path": "img/battlebacks2/Town2.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 1012793
+  },
+  {
+    "path": "img/battlebacks2/Town3.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 864670
+  },
+  {
+    "path": "img/battlebacks2/Town4.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 881413
+  },
+  {
+    "path": "img/battlebacks2/Town5.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 896772
+  },
+  {
+    "path": "img/battlebacks2/Wasteland.png",
+    "width": 1000,
+    "height": 740,
+    "bytes": 760660
+  },
+  {
+    "path": "img/battlecommands/Arrow.png",
+    "width": 51,
+    "height": 38,
+    "bytes": 21361
+  },
+  {
+    "path": "img/battlecommands/Com_Attack.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 24330
+  },
+  {
+    "path": "img/battlecommands/Com_Blade Art.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 25699
+  },
+  {
+    "path": "img/battlecommands/Com_Guard.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 24051
+  },
+  {
+    "path": "img/battlecommands/Com_Item.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 23153
+  },
+  {
+    "path": "img/battlecommands/Com_Magic.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 24222
+  },
+  {
+    "path": "img/battlecommands/Com_Special.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 24689
+  },
+  {
+    "path": "img/battlecommands/Com_Summon.png",
+    "width": 162,
+    "height": 32,
+    "bytes": 24473
+  },
+  {
+    "path": "img/battlecommands/Cursor.png",
+    "width": 33,
+    "height": 37,
+    "bytes": 19221
+  },
+  {
+    "path": "img/battlecommands/Face_1.png",
+    "width": 178,
+    "height": 67,
+    "bytes": 31208
+  },
+  {
+    "path": "img/battlecommands/Face_2.png",
+    "width": 178,
+    "height": 67,
+    "bytes": 33927
+  },
+  {
+    "path": "img/battlecommands/Face_3.png",
+    "width": 178,
+    "height": 67,
+    "bytes": 32353
+  },
+  {
+    "path": "img/battlecommands/Face_4.png",
+    "width": 178,
+    "height": 67,
+    "bytes": 35300
+  },
+  {
+    "path": "img/battlecommands/Face_5.png",
+    "width": 178,
+    "height": 67,
+    "bytes": 35954
+  },
+  {
+    "path": "img/battlecommands/Layout.png",
+    "width": 273,
+    "height": 216,
+    "bytes": 46294
+  },
+  {
+    "path": "img/battlehud/ATB_Meter.png",
+    "width": 100,
+    "height": 20,
+    "bytes": 19096
+  },
+  {
+    "path": "img/battlehud/Face_1.png",
+    "width": 91,
+    "height": 90,
+    "bytes": 13543
+  },
+  {
+    "path": "img/battlehud/Face_2.png",
+    "width": 92,
+    "height": 90,
+    "bytes": 15336
+  },
+  {
+    "path": "img/battlehud/Face_3.png",
+    "width": 91,
+    "height": 90,
+    "bytes": 14572
+  },
+  {
+    "path": "img/battlehud/Face_4.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 14198
+  },
+  {
+    "path": "img/battlehud/Face_5.png",
+    "width": 90,
+    "height": 90,
+    "bytes": 34092
+  },
+  {
+    "path": "img/battlehud/Face_7.png",
+    "width": 91,
+    "height": 88,
+    "bytes": 16148
+  },
+  {
+    "path": "img/battlehud/HP_Meter.png",
+    "width": 65,
+    "height": 10,
+    "bytes": 18560
+  },
+  {
+    "path": "img/battlehud/HP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/battlehud/HP_Number2.png",
+    "width": 140,
+    "height": 16,
+    "bytes": 22253
+  },
+  {
+    "path": "img/battlehud/Layout.png",
+    "width": 195,
+    "height": 150,
+    "bytes": 23451
+  },
+  {
+    "path": "img/battlehud/Layout_Actor.png",
+    "width": 816,
+    "height": 247,
+    "bytes": 86019
+  },
+  {
+    "path": "img/battlehud/Layout_Command.png",
+    "width": 234,
+    "height": 234,
+    "bytes": 60960
+  },
+  {
+    "path": "img/battlehud/Layout_Enemy.png",
+    "width": 816,
+    "height": 247,
+    "bytes": 87221
+  },
+  {
+    "path": "img/battlehud/Layout_Help.png",
+    "width": 816,
+    "height": 149,
+    "bytes": 55435
+  },
+  {
+    "path": "img/battlehud/Layout_Item.png",
+    "width": 816,
+    "height": 247,
+    "bytes": 85435
+  },
+  {
+    "path": "img/battlehud/Layout_Party.png",
+    "width": 816,
+    "height": 190,
+    "bytes": 77172
+  },
+  {
+    "path": "img/battlehud/Layout_Screen.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 104963
+  },
+  {
+    "path": "img/battlehud/Layout_Skill.png",
+    "width": 816,
+    "height": 247,
+    "bytes": 86008
+  },
+  {
+    "path": "img/battlehud/MP_Meter.png",
+    "width": 65,
+    "height": 10,
+    "bytes": 18128
+  },
+  {
+    "path": "img/battlehud/MP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/battlehud/MP_Number2.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/battlehud/TP_Meter.png",
+    "width": 65,
+    "height": 10,
+    "bytes": 18120
+  },
+  {
+    "path": "img/battlehud/TP_Number.png",
+    "width": 110,
+    "height": 15,
+    "bytes": 20365
+  },
+  {
+    "path": "img/battlehud/TP_Number2.png",
+    "width": 130,
+    "height": 17,
+    "bytes": 22625
+  },
+  {
+    "path": "img/battlehud/Turn.png",
+    "width": 195,
+    "height": 150,
+    "bytes": 20231
+  },
+  {
+    "path": "img/bosses/LegacyDrone.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2205494
+  },
+  {
+    "path": "img/bosses/LegacyPoop.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1154354
+  },
+  {
+    "path": "img/bosses/LegacySeam.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2108068
+  },
+  {
+    "path": "img/bosses/LegacySpider.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1160582
+  },
+  {
+    "path": "img/bosses/RepossessorDamaged.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1549120
+  },
+  {
+    "path": "img/bosses/RepossessorNormal.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1501020
+  },
+  {
+    "path": "img/characters/!$Gate1.png",
+    "width": 432,
+    "height": 384,
+    "bytes": 90391
+  },
+  {
+    "path": "img/characters/!$Gate2.png",
+    "width": 432,
+    "height": 384,
+    "bytes": 95888
+  },
+  {
+    "path": "img/characters/!$SF_Gate1.png",
+    "width": 432,
+    "height": 384,
+    "bytes": 41053
+  },
+  {
+    "path": "img/characters/!$SF_Gate2.png",
+    "width": 432,
+    "height": 384,
+    "bytes": 34609
+  },
+  {
+    "path": "img/characters/!$SF_Gate3.png",
+    "width": 432,
+    "height": 384,
+    "bytes": 36732
+  },
+  {
+    "path": "img/characters/!Chest.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 51553
+  },
+  {
+    "path": "img/characters/!Crystal.png",
+    "width": 576,
+    "height": 768,
+    "bytes": 607689
+  },
+  {
+    "path": "img/characters/!Door1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 74698
+  },
+  {
+    "path": "img/characters/!Door2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 214710
+  },
+  {
+    "path": "img/characters/!Flame.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 211626
+  },
+  {
+    "path": "img/characters/!Other1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 286089
+  },
+  {
+    "path": "img/characters/!Other2.png",
+    "width": 576,
+    "height": 768,
+    "bytes": 486716
+  },
+  {
+    "path": "img/characters/!SF_Chest.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 73341
+  },
+  {
+    "path": "img/characters/!SF_Door1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 87229
+  },
+  {
+    "path": "img/characters/!SF_Door2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 171119
+  },
+  {
+    "path": "img/characters/!SF_Switch1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 62639
+  },
+  {
+    "path": "img/characters/!Switch1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39670
+  },
+  {
+    "path": "img/characters/!Switch2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33045
+  },
+  {
+    "path": "img/characters/$BigMonster1.png",
+    "width": 288,
+    "height": 384,
+    "bytes": 22653
+  },
+  {
+    "path": "img/characters/$BigMonster2.png",
+    "width": 360,
+    "height": 480,
+    "bytes": 33257
+  },
+  {
+    "path": "img/characters/Actor1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 51944
+  },
+  {
+    "path": "img/characters/Actor2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 53965
+  },
+  {
+    "path": "img/characters/Actor3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 58478
+  },
+  {
+    "path": "img/characters/Alien.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 60269
+  },
+  {
+    "path": "img/characters/AlienDamage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11215
+  },
+  {
+    "path": "img/characters/Alien_NPC_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 68418
+  },
+  {
+    "path": "img/characters/cat1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41222
+  },
+  {
+    "path": "img/characters/cat_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25589
+  },
+  {
+    "path": "img/characters/cat_clothes_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 5103
+  },
+  {
+    "path": "img/characters/cat_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 7803
+  },
+  {
+    "path": "img/characters/clown.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 58033
+  },
+  {
+    "path": "img/characters/clown_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8828
+  },
+  {
+    "path": "img/characters/Damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32972
+  },
+  {
+    "path": "img/characters/Damage2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33058
+  },
+  {
+    "path": "img/characters/Damage3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 14422
+  },
+  {
+    "path": "img/characters/Evil.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 49756
+  },
+  {
+    "path": "img/characters/female1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 101702
+  },
+  {
+    "path": "img/characters/female_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 15422
+  },
+  {
+    "path": "img/characters/fox1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 57359
+  },
+  {
+    "path": "img/characters/fox_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10581
+  },
+  {
+    "path": "img/characters/fox_with_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 68750
+  },
+  {
+    "path": "img/characters/fox_with_clothes_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11536
+  },
+  {
+    "path": "img/characters/girl1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 48869
+  },
+  {
+    "path": "img/characters/girl_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 7795
+  },
+  {
+    "path": "img/characters/Jen_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 2580
+  },
+  {
+    "path": "img/characters/Jen_walk.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13562
+  },
+  {
+    "path": "img/characters/lizardenemies1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 67476
+  },
+  {
+    "path": "img/characters/lizardpeople1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 98663
+  },
+  {
+    "path": "img/characters/lizard_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 22060
+  },
+  {
+    "path": "img/characters/maskeddude.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33467
+  },
+  {
+    "path": "img/characters/maskeddudedamage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 6029
+  },
+  {
+    "path": "img/characters/Monster.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36612
+  },
+  {
+    "path": "img/characters/Nature.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43160
+  },
+  {
+    "path": "img/characters/ninja1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 52776
+  },
+  {
+    "path": "img/characters/ninja_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 9038
+  },
+  {
+    "path": "img/characters/oldmen1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 69371
+  },
+  {
+    "path": "img/characters/oldmendamage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12247
+  },
+  {
+    "path": "img/characters/People1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40933
+  },
+  {
+    "path": "img/characters/People2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47805
+  },
+  {
+    "path": "img/characters/People3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45795
+  },
+  {
+    "path": "img/characters/People4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43933
+  },
+  {
+    "path": "img/characters/poopoocaca.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 5410
+  },
+  {
+    "path": "img/characters/punk1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45740
+  },
+  {
+    "path": "img/characters/punkdamage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8680
+  },
+  {
+    "path": "img/characters/Rex_walk.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12024
+  },
+  {
+    "path": "img/characters/SF_Actor1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42894
+  },
+  {
+    "path": "img/characters/SF_Actor2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43094
+  },
+  {
+    "path": "img/characters/SF_Actor3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 48935
+  },
+  {
+    "path": "img/characters/SF_Damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28210
+  },
+  {
+    "path": "img/characters/SF_Damage2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 21437
+  },
+  {
+    "path": "img/characters/SF_Monster.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42815
+  },
+  {
+    "path": "img/characters/SF_People1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36330
+  },
+  {
+    "path": "img/characters/SF_People2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42128
+  },
+  {
+    "path": "img/characters/SF_People3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38486
+  },
+  {
+    "path": "img/characters/SF_Vehicle.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31433
+  },
+  {
+    "path": "img/characters/Shop_NPCs.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 77559
+  },
+  {
+    "path": "img/characters/Soldiers.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 52872
+  },
+  {
+    "path": "img/characters/Soldiers2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11937
+  },
+  {
+    "path": "img/characters/Soldiers2_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 2494
+  },
+  {
+    "path": "img/characters/Soldiers_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8884
+  },
+  {
+    "path": "img/characters/some_main_dudes.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25545
+  },
+  {
+    "path": "img/characters/some_main_dudes_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 4861
+  },
+  {
+    "path": "img/characters/spikemowhawklizard_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 2791
+  },
+  {
+    "path": "img/characters/tumbleweed_leftright_sprite_by_dragoonwys-dbm4ojw.png",
+    "width": 144,
+    "height": 192,
+    "bytes": 9026
+  },
+  {
+    "path": "img/characters/Vehicle.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37367
+  },
+  {
+    "path": "img/characters/wolf_with_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 74000
+  },
+  {
+    "path": "img/characters/wolf_with_clothes_damage1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13938
+  },
+  {
+    "path": "img/characters/Zack_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 2612
+  },
+  {
+    "path": "img/characters/Zack_walk.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13582
+  },
+  {
+    "path": "img/characters/Zed_damage.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 2778
+  },
+  {
+    "path": "img/characters/Zed_walk.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 15670
+  },
+  {
+    "path": "img/enemies/Actor1_3.png",
+    "width": 254,
+    "height": 225,
+    "bytes": 58730
+  },
+  {
+    "path": "img/enemies/Actor1_4.png",
+    "width": 275,
+    "height": 262,
+    "bytes": 69280
+  },
+  {
+    "path": "img/enemies/Actor1_5.png",
+    "width": 234,
+    "height": 307,
+    "bytes": 64021
+  },
+  {
+    "path": "img/enemies/Actor1_6.png",
+    "width": 254,
+    "height": 238,
+    "bytes": 51803
+  },
+  {
+    "path": "img/enemies/Actor1_7.png",
+    "width": 302,
+    "height": 272,
+    "bytes": 94618
+  },
+  {
+    "path": "img/enemies/Actor2_1.png",
+    "width": 227,
+    "height": 253,
+    "bytes": 62700
+  },
+  {
+    "path": "img/enemies/Actor2_2.png",
+    "width": 241,
+    "height": 254,
+    "bytes": 75484
+  },
+  {
+    "path": "img/enemies/Actor2_3.png",
+    "width": 223,
+    "height": 281,
+    "bytes": 67913
+  },
+  {
+    "path": "img/enemies/Actor2_4.png",
+    "width": 160,
+    "height": 249,
+    "bytes": 62484
+  },
+  {
+    "path": "img/enemies/Actor2_5.png",
+    "width": 263,
+    "height": 283,
+    "bytes": 95498
+  },
+  {
+    "path": "img/enemies/Actor2_6.png",
+    "width": 237,
+    "height": 278,
+    "bytes": 96144
+  },
+  {
+    "path": "img/enemies/Actor3_1.png",
+    "width": 241,
+    "height": 267,
+    "bytes": 80068
+  },
+  {
+    "path": "img/enemies/Actor3_2.png",
+    "width": 280,
+    "height": 247,
+    "bytes": 67124
+  },
+  {
+    "path": "img/enemies/Actor3_5.png",
+    "width": 275,
+    "height": 196,
+    "bytes": 47070
+  },
+  {
+    "path": "img/enemies/Actor3_6.png",
+    "width": 227,
+    "height": 257,
+    "bytes": 72600
+  },
+  {
+    "path": "img/enemies/Angel.png",
+    "width": 253,
+    "height": 286,
+    "bytes": 98817
+  },
+  {
+    "path": "img/enemies/Assassin.png",
+    "width": 161,
+    "height": 176,
+    "bytes": 40115
+  },
+  {
+    "path": "img/enemies/Bat.png",
+    "width": 128,
+    "height": 198,
+    "bytes": 24587
+  },
+  {
+    "path": "img/enemies/Behemoth.png",
+    "width": 511,
+    "height": 437,
+    "bytes": 349144
+  },
+  {
+    "path": "img/enemies/BigPoop.png",
+    "width": 209,
+    "height": 225,
+    "bytes": 27914
+  },
+  {
+    "path": "img/enemies/Captain.png",
+    "width": 222,
+    "height": 270,
+    "bytes": 78598
+  },
+  {
+    "path": "img/enemies/Cerberus.png",
+    "width": 214,
+    "height": 225,
+    "bytes": 76653
+  },
+  {
+    "path": "img/enemies/Chimera.png",
+    "width": 425,
+    "height": 418,
+    "bytes": 243416
+  },
+  {
+    "path": "img/enemies/Cockatrice.png",
+    "width": 127,
+    "height": 132,
+    "bytes": 22167
+  },
+  {
+    "path": "img/enemies/colonial-loader.png",
+    "width": 269,
+    "height": 253,
+    "bytes": 84596
+  },
+  {
+    "path": "img/enemies/colonial-mech.png",
+    "width": 613,
+    "height": 425,
+    "bytes": 259776
+  },
+  {
+    "path": "img/enemies/colonial-soldier.png",
+    "width": 118,
+    "height": 178,
+    "bytes": 29577
+  },
+  {
+    "path": "img/enemies/colonial-worker.png",
+    "width": 88,
+    "height": 171,
+    "bytes": 23100
+  },
+  {
+    "path": "img/enemies/crap.png",
+    "width": 24,
+    "height": 24,
+    "bytes": 998
+  },
+  {
+    "path": "img/enemies/Darklord-final.png",
+    "width": 777,
+    "height": 435,
+    "bytes": 506034
+  },
+  {
+    "path": "img/enemies/Darklord.png",
+    "width": 499,
+    "height": 438,
+    "bytes": 250808
+  },
+  {
+    "path": "img/enemies/Death.png",
+    "width": 398,
+    "height": 426,
+    "bytes": 190395
+  },
+  {
+    "path": "img/enemies/Demon.png",
+    "width": 410,
+    "height": 423,
+    "bytes": 237832
+  },
+  {
+    "path": "img/enemies/Dragon.png",
+    "width": 420,
+    "height": 436,
+    "bytes": 256852
+  },
+  {
+    "path": "img/enemies/drakos-bladelord.png",
+    "width": 332,
+    "height": 239,
+    "bytes": 106508
+  },
+  {
+    "path": "img/enemies/drakos-soldier.png",
+    "width": 315,
+    "height": 239,
+    "bytes": 105693
+  },
+  {
+    "path": "img/enemies/Earthspirit.png",
+    "width": 153,
+    "height": 193,
+    "bytes": 64081
+  },
+  {
+    "path": "img/enemies/enslaver-drone.png",
+    "width": 166,
+    "height": 193,
+    "bytes": 50942
+  },
+  {
+    "path": "img/enemies/enslaver-fleshshaper.png",
+    "width": 395,
+    "height": 343,
+    "bytes": 178013
+  },
+  {
+    "path": "img/enemies/enslaver-hulk.png",
+    "width": 386,
+    "height": 357,
+    "bytes": 193918
+  },
+  {
+    "path": "img/enemies/enslaver-lurker.png",
+    "width": 240,
+    "height": 160,
+    "bytes": 62046
+  },
+  {
+    "path": "img/enemies/Evilgod.png",
+    "width": 754,
+    "height": 437,
+    "bytes": 560688
+  },
+  {
+    "path": "img/enemies/faceleft.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 14844
+  },
+  {
+    "path": "img/enemies/faceright.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 14902
+  },
+  {
+    "path": "img/enemies/Fairy.png",
+    "width": 119,
+    "height": 216,
+    "bytes": 24312
+  },
+  {
+    "path": "img/enemies/Fanatic.png",
+    "width": 265,
+    "height": 268,
+    "bytes": 83158
+  },
+  {
+    "path": "img/enemies/Firespirit.png",
+    "width": 145,
+    "height": 217,
+    "bytes": 61032
+  },
+  {
+    "path": "img/enemies/galefire-blackmetal.png",
+    "width": 399,
+    "height": 442,
+    "bytes": 218243
+  },
+  {
+    "path": "img/enemies/galefire-enslaver.png",
+    "width": 381,
+    "height": 463,
+    "bytes": 216796
+  },
+  {
+    "path": "img/enemies/galefire-lunarium.png",
+    "width": 381,
+    "height": 553,
+    "bytes": 268542
+  },
+  {
+    "path": "img/enemies/Gargoyle.png",
+    "width": 421,
+    "height": 432,
+    "bytes": 271872
+  },
+  {
+    "path": "img/enemies/Garuda.png",
+    "width": 483,
+    "height": 367,
+    "bytes": 174807
+  },
+  {
+    "path": "img/enemies/Gazer.png",
+    "width": 183,
+    "height": 217,
+    "bytes": 65781
+  },
+  {
+    "path": "img/enemies/General_f.png",
+    "width": 249,
+    "height": 274,
+    "bytes": 87665
+  },
+  {
+    "path": "img/enemies/General_m.png",
+    "width": 301,
+    "height": 289,
+    "bytes": 130942
+  },
+  {
+    "path": "img/enemies/Ghost.png",
+    "width": 211,
+    "height": 235,
+    "bytes": 57178
+  },
+  {
+    "path": "img/enemies/God.png",
+    "width": 763,
+    "height": 440,
+    "bytes": 523631
+  },
+  {
+    "path": "img/enemies/Goddess.png",
+    "width": 343,
+    "height": 264,
+    "bytes": 126657
+  },
+  {
+    "path": "img/enemies/Hornet.png",
+    "width": 94,
+    "height": 176,
+    "bytes": 22605
+  },
+  {
+    "path": "img/enemies/Imp.png",
+    "width": 120,
+    "height": 219,
+    "bytes": 27864
+  },
+  {
+    "path": "img/enemies/imperial-centurion.png",
+    "width": 293,
+    "height": 284,
+    "bytes": 125944
+  },
+  {
+    "path": "img/enemies/imperial-citizen.png",
+    "width": 104,
+    "height": 184,
+    "bytes": 18285
+  },
+  {
+    "path": "img/enemies/imperial-imperator.png",
+    "width": 309,
+    "height": 282,
+    "bytes": 89584
+  },
+  {
+    "path": "img/enemies/imperial-legionnaire.png",
+    "width": 321,
+    "height": 282,
+    "bytes": 73119
+  },
+  {
+    "path": "img/enemies/imperial-praetorian.png",
+    "width": 259,
+    "height": 317,
+    "bytes": 106486
+  },
+  {
+    "path": "img/enemies/imperial-titan.png",
+    "width": 643,
+    "height": 469,
+    "bytes": 375579
+  },
+  {
+    "path": "img/enemies/Irongiant.png",
+    "width": 465,
+    "height": 415,
+    "bytes": 232641
+  },
+  {
+    "path": "img/enemies/Jellyfish.png",
+    "width": 128,
+    "height": 136,
+    "bytes": 30135
+  },
+  {
+    "path": "img/enemies/Lamia.png",
+    "width": 421,
+    "height": 417,
+    "bytes": 238246
+  },
+  {
+    "path": "img/enemies/Mage.png",
+    "width": 227,
+    "height": 280,
+    "bytes": 84474
+  },
+  {
+    "path": "img/enemies/Mimic.png",
+    "width": 130,
+    "height": 125,
+    "bytes": 29087
+  },
+  {
+    "path": "img/enemies/Minotaur.png",
+    "width": 375,
+    "height": 335,
+    "bytes": 143042
+  },
+  {
+    "path": "img/enemies/mod_agent_01.png",
+    "width": 223,
+    "height": 209,
+    "bytes": 50222
+  },
+  {
+    "path": "img/enemies/mod_agent_02.png",
+    "width": 88,
+    "height": 213,
+    "bytes": 26022
+  },
+  {
+    "path": "img/enemies/mod_agent_03.png",
+    "width": 88,
+    "height": 221,
+    "bytes": 25278
+  },
+  {
+    "path": "img/enemies/mod_agent_04.png",
+    "width": 88,
+    "height": 225,
+    "bytes": 21671
+  },
+  {
+    "path": "img/enemies/mod_agent_05.png",
+    "width": 88,
+    "height": 212,
+    "bytes": 23314
+  },
+  {
+    "path": "img/enemies/mod_agent_06.png",
+    "width": 183,
+    "height": 214,
+    "bytes": 47007
+  },
+  {
+    "path": "img/enemies/mod_alien_01.png",
+    "width": 100,
+    "height": 83,
+    "bytes": 18294
+  },
+  {
+    "path": "img/enemies/mod_alien_02.png",
+    "width": 255,
+    "height": 215,
+    "bytes": 72340
+  },
+  {
+    "path": "img/enemies/mod_alien_03.png",
+    "width": 522,
+    "height": 473,
+    "bytes": 323115
+  },
+  {
+    "path": "img/enemies/mod_alien_03a.png",
+    "width": 336,
+    "height": 444,
+    "bytes": 205519
+  },
+  {
+    "path": "img/enemies/mod_alien_03b.png",
+    "width": 204,
+    "height": 298,
+    "bytes": 57970
+  },
+  {
+    "path": "img/enemies/mod_alien_03c.png",
+    "width": 200,
+    "height": 293,
+    "bytes": 58034
+  },
+  {
+    "path": "img/enemies/mod_alien_03d.png",
+    "width": 111,
+    "height": 225,
+    "bytes": 26464
+  },
+  {
+    "path": "img/enemies/mod_alien_03e.png",
+    "width": 111,
+    "height": 225,
+    "bytes": 26315
+  },
+  {
+    "path": "img/enemies/mod_alien_04.png",
+    "width": 94,
+    "height": 214,
+    "bytes": 33939
+  },
+  {
+    "path": "img/enemies/mod_alien_06.png",
+    "width": 145,
+    "height": 243,
+    "bytes": 50375
+  },
+  {
+    "path": "img/enemies/mod_alien_07.png",
+    "width": 334,
+    "height": 256,
+    "bytes": 89534
+  },
+  {
+    "path": "img/enemies/mod_alien_08.png",
+    "width": 139,
+    "height": 177,
+    "bytes": 33100
+  },
+  {
+    "path": "img/enemies/mod_alien_09.png",
+    "width": 140,
+    "height": 189,
+    "bytes": 36432
+  },
+  {
+    "path": "img/enemies/mod_alien_10.png",
+    "width": 212,
+    "height": 185,
+    "bytes": 50297
+  },
+  {
+    "path": "img/enemies/mod_alien_11.png",
+    "width": 231,
+    "height": 297,
+    "bytes": 72454
+  },
+  {
+    "path": "img/enemies/mod_fish_01.png",
+    "width": 134,
+    "height": 79,
+    "bytes": 17992
+  },
+  {
+    "path": "img/enemies/mod_fish_02.png",
+    "width": 378,
+    "height": 224,
+    "bytes": 88888
+  },
+  {
+    "path": "img/enemies/mod_fish_03.png",
+    "width": 108,
+    "height": 138,
+    "bytes": 24022
+  },
+  {
+    "path": "img/enemies/mod_ghost_01.png",
+    "width": 102,
+    "height": 166,
+    "bytes": 20520
+  },
+  {
+    "path": "img/enemies/mod_ghost_02.png",
+    "width": 154,
+    "height": 257,
+    "bytes": 42572
+  },
+  {
+    "path": "img/enemies/mod_ghost_03.png",
+    "width": 220,
+    "height": 275,
+    "bytes": 87930
+  },
+  {
+    "path": "img/enemies/mod_ghost_04.png",
+    "width": 166,
+    "height": 133,
+    "bytes": 33976
+  },
+  {
+    "path": "img/enemies/mod_ghost_05.png",
+    "width": 165,
+    "height": 218,
+    "bytes": 46703
+  },
+  {
+    "path": "img/enemies/mod_ghost_06.png",
+    "width": 165,
+    "height": 227,
+    "bytes": 48190
+  },
+  {
+    "path": "img/enemies/mod_mimic_01.png",
+    "width": 115,
+    "height": 144,
+    "bytes": 25587
+  },
+  {
+    "path": "img/enemies/mod_mimic_02.png",
+    "width": 118,
+    "height": 142,
+    "bytes": 22099
+  },
+  {
+    "path": "img/enemies/mod_mimic_03.png",
+    "width": 145,
+    "height": 181,
+    "bytes": 40014
+  },
+  {
+    "path": "img/enemies/mod_mimic_04.png",
+    "width": 166,
+    "height": 187,
+    "bytes": 29018
+  },
+  {
+    "path": "img/enemies/mod_mimic_05.png",
+    "width": 128,
+    "height": 142,
+    "bytes": 14217
+  },
+  {
+    "path": "img/enemies/mod_mimic_06.png",
+    "width": 437,
+    "height": 390,
+    "bytes": 147646
+  },
+  {
+    "path": "img/enemies/mod_mimic_07.png",
+    "width": 133,
+    "height": 129,
+    "bytes": 27482
+  },
+  {
+    "path": "img/enemies/mod_mimic_08.png",
+    "width": 74,
+    "height": 172,
+    "bytes": 16226
+  },
+  {
+    "path": "img/enemies/mod_robot_01.png",
+    "width": 167,
+    "height": 229,
+    "bytes": 45843
+  },
+  {
+    "path": "img/enemies/mod_robot_02.png",
+    "width": 187,
+    "height": 227,
+    "bytes": 47410
+  },
+  {
+    "path": "img/enemies/mod_robot_03.png",
+    "width": 188,
+    "height": 238,
+    "bytes": 46911
+  },
+  {
+    "path": "img/enemies/mod_robot_04.png",
+    "width": 210,
+    "height": 171,
+    "bytes": 52775
+  },
+  {
+    "path": "img/enemies/mod_robot_05.png",
+    "width": 539,
+    "height": 405,
+    "bytes": 216039
+  },
+  {
+    "path": "img/enemies/mod_robot_06.png",
+    "width": 79,
+    "height": 135,
+    "bytes": 16790
+  },
+  {
+    "path": "img/enemies/mod_robot_07.png",
+    "width": 181,
+    "height": 203,
+    "bytes": 48150
+  },
+  {
+    "path": "img/enemies/mod_robot_08.png",
+    "width": 146,
+    "height": 203,
+    "bytes": 30374
+  },
+  {
+    "path": "img/enemies/mod_robot_09.png",
+    "width": 213,
+    "height": 263,
+    "bytes": 53188
+  },
+  {
+    "path": "img/enemies/mod_robot_10.png",
+    "width": 179,
+    "height": 211,
+    "bytes": 43641
+  },
+  {
+    "path": "img/enemies/mod_robot_11.png",
+    "width": 179,
+    "height": 232,
+    "bytes": 48280
+  },
+  {
+    "path": "img/enemies/mod_scientist_01.png",
+    "width": 143,
+    "height": 220,
+    "bytes": 41871
+  },
+  {
+    "path": "img/enemies/mod_scientist_02.png",
+    "width": 165,
+    "height": 307,
+    "bytes": 51780
+  },
+  {
+    "path": "img/enemies/mod_tank_01.png",
+    "width": 267,
+    "height": 173,
+    "bytes": 65659
+  },
+  {
+    "path": "img/enemies/mod_tank_02.png",
+    "width": 543,
+    "height": 306,
+    "bytes": 163472
+  },
+  {
+    "path": "img/enemies/mod_tank_03.png",
+    "width": 154,
+    "height": 100,
+    "bytes": 29745
+  },
+  {
+    "path": "img/enemies/mod_virus_01.png",
+    "width": 107,
+    "height": 187,
+    "bytes": 28863
+  },
+  {
+    "path": "img/enemies/mod_virus_02.png",
+    "width": 142,
+    "height": 213,
+    "bytes": 35409
+  },
+  {
+    "path": "img/enemies/mod_virus_03.png",
+    "width": 132,
+    "height": 126,
+    "bytes": 14915
+  },
+  {
+    "path": "img/enemies/mod_virus_04.png",
+    "width": 218,
+    "height": 252,
+    "bytes": 64506
+  },
+  {
+    "path": "img/enemies/mod_virus_05.png",
+    "width": 366,
+    "height": 320,
+    "bytes": 136596
+  },
+  {
+    "path": "img/enemies/Ogre.png",
+    "width": 469,
+    "height": 417,
+    "bytes": 316119
+  },
+  {
+    "path": "img/enemies/Orc.png",
+    "width": 264,
+    "height": 286,
+    "bytes": 112262
+  },
+  {
+    "path": "img/enemies/poopoocaca.png",
+    "width": 418,
+    "height": 450,
+    "bytes": 49711
+  },
+  {
+    "path": "img/enemies/Puppet.png",
+    "width": 206,
+    "height": 222,
+    "bytes": 86227
+  },
+  {
+    "path": "img/enemies/Rat.png",
+    "width": 99,
+    "height": 154,
+    "bytes": 20397
+  },
+  {
+    "path": "img/enemies/Rogue.png",
+    "width": 195,
+    "height": 245,
+    "bytes": 57987
+  },
+  {
+    "path": "img/enemies/Sahuagin.png",
+    "width": 132,
+    "height": 140,
+    "bytes": 37423
+  },
+  {
+    "path": "img/enemies/Scorpion.png",
+    "width": 107,
+    "height": 126,
+    "bytes": 22706
+  },
+  {
+    "path": "img/enemies/SF_Abomination.png",
+    "width": 816,
+    "height": 457,
+    "bytes": 710402
+  },
+  {
+    "path": "img/enemies/SF_Archangel.png",
+    "width": 816,
+    "height": 457,
+    "bytes": 721445
+  },
+  {
+    "path": "img/enemies/SF_ArmySoldier.png",
+    "width": 306,
+    "height": 320,
+    "bytes": 81407
+  },
+  {
+    "path": "img/enemies/SF_Bodyguard.png",
+    "width": 250,
+    "height": 286,
+    "bytes": 45165
+  },
+  {
+    "path": "img/enemies/SF_Boss.png",
+    "width": 303,
+    "height": 303,
+    "bytes": 101647
+  },
+  {
+    "path": "img/enemies/SF_Butcher.png",
+    "width": 464,
+    "height": 368,
+    "bytes": 253781
+  },
+  {
+    "path": "img/enemies/SF_Byakko.png",
+    "width": 494,
+    "height": 391,
+    "bytes": 407403
+  },
+  {
+    "path": "img/enemies/SF_CursedGirl.png",
+    "width": 210,
+    "height": 170,
+    "bytes": 43100
+  },
+  {
+    "path": "img/enemies/SF_DarkLord2000.png",
+    "width": 494,
+    "height": 391,
+    "bytes": 256037
+  },
+  {
+    "path": "img/enemies/SF_Doll.png",
+    "width": 171,
+    "height": 184,
+    "bytes": 48346
+  },
+  {
+    "path": "img/enemies/SF_DoomedSkull.png",
+    "width": 270,
+    "height": 309,
+    "bytes": 91201
+  },
+  {
+    "path": "img/enemies/SF_Drone.png",
+    "width": 150,
+    "height": 257,
+    "bytes": 31971
+  },
+  {
+    "path": "img/enemies/SF_EvilToy.png",
+    "width": 159,
+    "height": 164,
+    "bytes": 40944
+  },
+  {
+    "path": "img/enemies/SF_FallenAngel.png",
+    "width": 401,
+    "height": 446,
+    "bytes": 253368
+  },
+  {
+    "path": "img/enemies/SF_Genbu.png",
+    "width": 525,
+    "height": 486,
+    "bytes": 419602
+  },
+  {
+    "path": "img/enemies/SF_GothicLolita.png",
+    "width": 258,
+    "height": 333,
+    "bytes": 155617
+  },
+  {
+    "path": "img/enemies/SF_Inugami.png",
+    "width": 229,
+    "height": 212,
+    "bytes": 75655
+  },
+  {
+    "path": "img/enemies/SF_KillerRobot.png",
+    "width": 218,
+    "height": 249,
+    "bytes": 78655
+  },
+  {
+    "path": "img/enemies/SF_Machine.png",
+    "width": 308,
+    "height": 360,
+    "bytes": 140391
+  },
+  {
+    "path": "img/enemies/SF_MadDoctor.png",
+    "width": 325,
+    "height": 372,
+    "bytes": 155806
+  },
+  {
+    "path": "img/enemies/SF_MechaSuit.png",
+    "width": 537,
+    "height": 445,
+    "bytes": 373656
+  },
+  {
+    "path": "img/enemies/SF_Nurse.png",
+    "width": 283,
+    "height": 300,
+    "bytes": 92383
+  },
+  {
+    "path": "img/enemies/SF_Parasite.png",
+    "width": 231,
+    "height": 166,
+    "bytes": 44078
+  },
+  {
+    "path": "img/enemies/SF_Preacher.png",
+    "width": 300,
+    "height": 300,
+    "bytes": 112111
+  },
+  {
+    "path": "img/enemies/SF_Seiryu.png",
+    "width": 480,
+    "height": 480,
+    "bytes": 437148
+  },
+  {
+    "path": "img/enemies/SF_SpecialPolice.png",
+    "width": 318,
+    "height": 303,
+    "bytes": 73958
+  },
+  {
+    "path": "img/enemies/SF_SufferingSoul.png",
+    "width": 171,
+    "height": 188,
+    "bytes": 50608
+  },
+  {
+    "path": "img/enemies/SF_Suzaku.png",
+    "width": 546,
+    "height": 400,
+    "bytes": 501809
+  },
+  {
+    "path": "img/enemies/SF_SweetLolita.png",
+    "width": 268,
+    "height": 333,
+    "bytes": 148440
+  },
+  {
+    "path": "img/enemies/SF_TeddyBear.png",
+    "width": 150,
+    "height": 171,
+    "bytes": 50449
+  },
+  {
+    "path": "img/enemies/SF_Tengu.png",
+    "width": 441,
+    "height": 427,
+    "bytes": 234408
+  },
+  {
+    "path": "img/enemies/SF_Thug.png",
+    "width": 245,
+    "height": 331,
+    "bytes": 93828
+  },
+  {
+    "path": "img/enemies/SF_UndeadSamurai.png",
+    "width": 273,
+    "height": 313,
+    "bytes": 98445
+  },
+  {
+    "path": "img/enemies/SF_Yakuza.png",
+    "width": 286,
+    "height": 286,
+    "bytes": 59704
+  },
+  {
+    "path": "img/enemies/SF_Zombie.png",
+    "width": 220,
+    "height": 231,
+    "bytes": 51666
+  },
+  {
+    "path": "img/enemies/Skeleton.png",
+    "width": 233,
+    "height": 211,
+    "bytes": 51025
+  },
+  {
+    "path": "img/enemies/Slime.png",
+    "width": 127,
+    "height": 106,
+    "bytes": 23163
+  },
+  {
+    "path": "img/enemies/Snake.png",
+    "width": 137,
+    "height": 135,
+    "bytes": 38794
+  },
+  {
+    "path": "img/enemies/Soldier.png",
+    "width": 276,
+    "height": 227,
+    "bytes": 57722
+  },
+  {
+    "path": "img/enemies/Spider.png",
+    "width": 144,
+    "height": 109,
+    "bytes": 22244
+  },
+  {
+    "path": "img/enemies/Succubus.png",
+    "width": 240,
+    "height": 270,
+    "bytes": 67616
+  },
+  {
+    "path": "img/enemies/Swordsman.png",
+    "width": 311,
+    "height": 218,
+    "bytes": 56634
+  },
+  {
+    "path": "img/enemies/Vampire.png",
+    "width": 264,
+    "height": 257,
+    "bytes": 88113
+  },
+  {
+    "path": "img/enemies/Waterspirit.png",
+    "width": 181,
+    "height": 187,
+    "bytes": 59176
+  },
+  {
+    "path": "img/enemies/Werewolf.png",
+    "width": 201,
+    "height": 197,
+    "bytes": 56695
+  },
+  {
+    "path": "img/enemies/Willowisp.png",
+    "width": 121,
+    "height": 126,
+    "bytes": 20521
+  },
+  {
+    "path": "img/enemies/Windspirit.png",
+    "width": 180,
+    "height": 188,
+    "bytes": 73861
+  },
+  {
+    "path": "img/enemies/Zombie.png",
+    "width": 177,
+    "height": 137,
+    "bytes": 30836
+  },
+  {
+    "path": "img/faces/Actor1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 347125
+  },
+  {
+    "path": "img/faces/Actor2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 361960
+  },
+  {
+    "path": "img/faces/Actor3.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 401839
+  },
+  {
+    "path": "img/faces/Alien.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 172348
+  },
+  {
+    "path": "img/faces/Alien_NPC_1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 198340
+  },
+  {
+    "path": "img/faces/cat1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 107642
+  },
+  {
+    "path": "img/faces/cat_clothes1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 64597
+  },
+  {
+    "path": "img/faces/clown.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 110010
+  },
+  {
+    "path": "img/faces/Evil.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 331892
+  },
+  {
+    "path": "img/faces/female1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 257391
+  },
+  {
+    "path": "img/faces/fox1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 158673
+  },
+  {
+    "path": "img/faces/fox_with_clothes1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 164386
+  },
+  {
+    "path": "img/faces/girl1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 142857
+  },
+  {
+    "path": "img/faces/Jen_face.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 32800
+  },
+  {
+    "path": "img/faces/Lizard1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 257803
+  },
+  {
+    "path": "img/faces/Lizardenemies1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 158909
+  },
+  {
+    "path": "img/faces/maskeddude.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 75641
+  },
+  {
+    "path": "img/faces/Monster.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 314759
+  },
+  {
+    "path": "img/faces/Nature.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 329201
+  },
+  {
+    "path": "img/faces/ninja1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 79489
+  },
+  {
+    "path": "img/faces/ninja2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 37584
+  },
+  {
+    "path": "img/faces/oldmen1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 208570
+  },
+  {
+    "path": "img/faces/People1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 316532
+  },
+  {
+    "path": "img/faces/People2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 341377
+  },
+  {
+    "path": "img/faces/People3.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 353855
+  },
+  {
+    "path": "img/faces/People4.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 338567
+  },
+  {
+    "path": "img/faces/punk1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 122629
+  },
+  {
+    "path": "img/faces/Rex.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 28628
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 380265
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set1_left.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 379024
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 262493
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set2_left.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 260155
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set3.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 138186
+  },
+  {
+    "path": "img/faces/scifibattlers2-portraits_right_set3_left.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 138137
+  },
+  {
+    "path": "img/faces/SF_Actor1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 365810
+  },
+  {
+    "path": "img/faces/SF_Actor2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 363256
+  },
+  {
+    "path": "img/faces/SF_Actor3.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 384912
+  },
+  {
+    "path": "img/faces/SF_Others.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 366621
+  },
+  {
+    "path": "img/faces/SF_People2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 360526
+  },
+  {
+    "path": "img/faces/Shop_NPCs.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 211593
+  },
+  {
+    "path": "img/faces/Soldiers.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 156927
+  },
+  {
+    "path": "img/faces/Soldiers2.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 29652
+  },
+  {
+    "path": "img/faces/some_main_dudes.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 59451
+  },
+  {
+    "path": "img/faces/wolf_with_clothes1.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 173616
+  },
+  {
+    "path": "img/faces/Zack.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 32311
+  },
+  {
+    "path": "img/faces/Zed.png",
+    "width": 576,
+    "height": 288,
+    "bytes": 32307
+  },
+  {
+    "path": "img/parallaxes/BlueSky.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 873563
+  },
+  {
+    "path": "img/parallaxes/CloudySky1.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 342256
+  },
+  {
+    "path": "img/parallaxes/CloudySky2.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 726223
+  },
+  {
+    "path": "img/parallaxes/DarkSpace1.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 1711230
+  },
+  {
+    "path": "img/parallaxes/DarkSpace2.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 1134531
+  },
+  {
+    "path": "img/parallaxes/galaxy_zpsf3190150.png",
+    "error": "cannot identify image file 'img\\\\parallaxes\\\\galaxy_zpsf3190150.png'"
+  },
+  {
+    "path": "img/parallaxes/Mountains1.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 756309
+  },
+  {
+    "path": "img/parallaxes/Mountains2.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 554232
+  },
+  {
+    "path": "img/parallaxes/Mountains3.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 288901
+  },
+  {
+    "path": "img/parallaxes/Mountains4.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 487719
+  },
+  {
+    "path": "img/parallaxes/Mountains5.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 593966
+  },
+  {
+    "path": "img/parallaxes/nebula.png",
+    "error": "cannot identify image file 'img\\\\parallaxes\\\\nebula.png'"
+  },
+  {
+    "path": "img/parallaxes/Ocean1.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 818053
+  },
+  {
+    "path": "img/parallaxes/Ocean2.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 1007155
+  },
+  {
+    "path": "img/parallaxes/planets.png",
+    "error": "cannot identify image file 'img\\\\parallaxes\\\\planets.png'"
+  },
+  {
+    "path": "img/parallaxes/SeaofClouds.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 287118
+  },
+  {
+    "path": "img/parallaxes/StarlitSky.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 395935
+  },
+  {
+    "path": "img/parallaxes/Sunset.png",
+    "width": 816,
+    "height": 816,
+    "bytes": 591641
+  },
+  {
+    "path": "img/sv_actors/3-tailed-fox-fire_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13580
+  },
+  {
+    "path": "img/sv_actors/3-tailed-fox-hellspawn_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13865
+  },
+  {
+    "path": "img/sv_actors/3-tailed-fox-ice_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13535
+  },
+  {
+    "path": "img/sv_actors/3-tailed-fox-normal_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 14291
+  },
+  {
+    "path": "img/sv_actors/3-tailed-fox-spirit_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13413
+  },
+  {
+    "path": "img/sv_actors/Actor1_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28889
+  },
+  {
+    "path": "img/sv_actors/Actor1_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27512
+  },
+  {
+    "path": "img/sv_actors/Actor1_3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31008
+  },
+  {
+    "path": "img/sv_actors/Actor1_4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27029
+  },
+  {
+    "path": "img/sv_actors/Actor1_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32147
+  },
+  {
+    "path": "img/sv_actors/Actor1_6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26516
+  },
+  {
+    "path": "img/sv_actors/Actor1_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26969
+  },
+  {
+    "path": "img/sv_actors/Actor1_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27835
+  },
+  {
+    "path": "img/sv_actors/Actor2_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26235
+  },
+  {
+    "path": "img/sv_actors/Actor2_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27194
+  },
+  {
+    "path": "img/sv_actors/Actor2_3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24191
+  },
+  {
+    "path": "img/sv_actors/Actor2_4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27346
+  },
+  {
+    "path": "img/sv_actors/Actor2_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31713
+  },
+  {
+    "path": "img/sv_actors/Actor2_6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 30712
+  },
+  {
+    "path": "img/sv_actors/Actor2_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26830
+  },
+  {
+    "path": "img/sv_actors/Actor2_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 30837
+  },
+  {
+    "path": "img/sv_actors/Actor3_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34228
+  },
+  {
+    "path": "img/sv_actors/Actor3_6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31924
+  },
+  {
+    "path": "img/sv_actors/Actor3_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27167
+  },
+  {
+    "path": "img/sv_actors/Actor3_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 30170
+  },
+  {
+    "path": "img/sv_actors/Alien1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33243
+  },
+  {
+    "path": "img/sv_actors/Alien2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33178
+  },
+  {
+    "path": "img/sv_actors/Alien2046010_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27432
+  },
+  {
+    "path": "img/sv_actors/Alien210143_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 19949
+  },
+  {
+    "path": "img/sv_actors/Alien3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33636
+  },
+  {
+    "path": "img/sv_actors/Alien346341_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23361
+  },
+  {
+    "path": "img/sv_actors/Alien357178_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 30608
+  },
+  {
+    "path": "img/sv_actors/Alien4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32708
+  },
+  {
+    "path": "img/sv_actors/Alien5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32763
+  },
+  {
+    "path": "img/sv_actors/Alien5623409_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 35837
+  },
+  {
+    "path": "img/sv_actors/Alien6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33047
+  },
+  {
+    "path": "img/sv_actors/Alien7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33144
+  },
+  {
+    "path": "img/sv_actors/Alien7137221_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25731
+  },
+  {
+    "path": "img/sv_actors/Alien8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32803
+  },
+  {
+    "path": "img/sv_actors/Alien8037429_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27477
+  },
+  {
+    "path": "img/sv_actors/bat260403995.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12212
+  },
+  {
+    "path": "img/sv_actors/bat376613098.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12598
+  },
+  {
+    "path": "img/sv_actors/bat390232047.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12892
+  },
+  {
+    "path": "img/sv_actors/bat509613732.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 16791
+  },
+  {
+    "path": "img/sv_actors/bat592287193.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13108
+  },
+  {
+    "path": "img/sv_actors/blackhelmet.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 35625
+  },
+  {
+    "path": "img/sv_actors/blackninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36404
+  },
+  {
+    "path": "img/sv_actors/bluebirdman.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45183
+  },
+  {
+    "path": "img/sv_actors/blueninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39314
+  },
+  {
+    "path": "img/sv_actors/brownninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 35244
+  },
+  {
+    "path": "img/sv_actors/cat1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41046
+  },
+  {
+    "path": "img/sv_actors/cat2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38465
+  },
+  {
+    "path": "img/sv_actors/cat3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38527
+  },
+  {
+    "path": "img/sv_actors/cat4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40341
+  },
+  {
+    "path": "img/sv_actors/cat_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46179
+  },
+  {
+    "path": "img/sv_actors/cat_clothes2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 49808
+  },
+  {
+    "path": "img/sv_actors/Clown.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38682
+  },
+  {
+    "path": "img/sv_actors/Clown2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46838
+  },
+  {
+    "path": "img/sv_actors/Clown3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47348
+  },
+  {
+    "path": "img/sv_actors/Clown4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46498
+  },
+  {
+    "path": "img/sv_actors/clown5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 50949
+  },
+  {
+    "path": "img/sv_actors/cockatrice115023772.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11541
+  },
+  {
+    "path": "img/sv_actors/cockatrice155586115.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11339
+  },
+  {
+    "path": "img/sv_actors/cockatrice259886913.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13113
+  },
+  {
+    "path": "img/sv_actors/cockatrice446945148.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11439
+  },
+  {
+    "path": "img/sv_actors/cockatrice756463860.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11610
+  },
+  {
+    "path": "img/sv_actors/Dark Lord783542067_orig.png",
+    "width": 1728,
+    "height": 1152,
+    "bytes": 357738
+  },
+  {
+    "path": "img/sv_actors/dark_lord__blue_.png",
+    "width": 1728,
+    "height": 1152,
+    "bytes": 309382
+  },
+  {
+    "path": "img/sv_actors/dark_lord__b_w_.png",
+    "width": 1728,
+    "height": 1152,
+    "bytes": 324951
+  },
+  {
+    "path": "img/sv_actors/dark_lord__gold_.png",
+    "width": 1728,
+    "height": 1152,
+    "bytes": 319300
+  },
+  {
+    "path": "img/sv_actors/dark_lord__green_.png",
+    "width": 1728,
+    "height": 1152,
+    "bytes": 325878
+  },
+  {
+    "path": "img/sv_actors/demon-blue_1_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 43319
+  },
+  {
+    "path": "img/sv_actors/demon-brown_1_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 51075
+  },
+  {
+    "path": "img/sv_actors/demon-default_1_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 49658
+  },
+  {
+    "path": "img/sv_actors/demon-red_1_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 43291
+  },
+  {
+    "path": "img/sv_actors/demon-white_1_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 51900
+  },
+  {
+    "path": "img/sv_actors/Drone108499806.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10293
+  },
+  {
+    "path": "img/sv_actors/Drone285035104.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11033
+  },
+  {
+    "path": "img/sv_actors/Drone544904500.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10499
+  },
+  {
+    "path": "img/sv_actors/Drone579342351.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10976
+  },
+  {
+    "path": "img/sv_actors/Drone924648649.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11442
+  },
+  {
+    "path": "img/sv_actors/female1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 56239
+  },
+  {
+    "path": "img/sv_actors/female2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45096
+  },
+  {
+    "path": "img/sv_actors/female3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 50164
+  },
+  {
+    "path": "img/sv_actors/female4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42988
+  },
+  {
+    "path": "img/sv_actors/female5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 53323
+  },
+  {
+    "path": "img/sv_actors/female6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 48316
+  },
+  {
+    "path": "img/sv_actors/female7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47743
+  },
+  {
+    "path": "img/sv_actors/fox-orange_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13721
+  },
+  {
+    "path": "img/sv_actors/fox-red_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12980
+  },
+  {
+    "path": "img/sv_actors/fox-sandy_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13286
+  },
+  {
+    "path": "img/sv_actors/fox-silver_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13087
+  },
+  {
+    "path": "img/sv_actors/fox-white_1_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11601
+  },
+  {
+    "path": "img/sv_actors/fox1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 35399
+  },
+  {
+    "path": "img/sv_actors/fox2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34161
+  },
+  {
+    "path": "img/sv_actors/fox3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32870
+  },
+  {
+    "path": "img/sv_actors/fox4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33914
+  },
+  {
+    "path": "img/sv_actors/fox5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34693
+  },
+  {
+    "path": "img/sv_actors/fox6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32916
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36252
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37200
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38638
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37454
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39212
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40921
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42273
+  },
+  {
+    "path": "img/sv_actors/fox_with_clothes8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42328
+  },
+  {
+    "path": "img/sv_actors/gasman.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36345
+  },
+  {
+    "path": "img/sv_actors/girl1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41471
+  },
+  {
+    "path": "img/sv_actors/girl2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43469
+  },
+  {
+    "path": "img/sv_actors/girl3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40143
+  },
+  {
+    "path": "img/sv_actors/girl4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40950
+  },
+  {
+    "path": "img/sv_actors/girl5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41318
+  },
+  {
+    "path": "img/sv_actors/green-alien-sv-1.png",
+    "width": 400,
+    "height": 267,
+    "bytes": 171935
+  },
+  {
+    "path": "img/sv_actors/green-alien-sv-2.png",
+    "width": 400,
+    "height": 267,
+    "bytes": 187873
+  },
+  {
+    "path": "img/sv_actors/green-alien-sv-3.png",
+    "width": 400,
+    "height": 267,
+    "bytes": 197813
+  },
+  {
+    "path": "img/sv_actors/green-alien-sv-4.png",
+    "width": 400,
+    "height": 267,
+    "bytes": 200913
+  },
+  {
+    "path": "img/sv_actors/greenninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37283
+  },
+  {
+    "path": "img/sv_actors/horned-rabbit-gold_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 21056
+  },
+  {
+    "path": "img/sv_actors/horned-rabbit-white_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 20061
+  },
+  {
+    "path": "img/sv_actors/hornet-black-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28691
+  },
+  {
+    "path": "img/sv_actors/hornet-brown-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28703
+  },
+  {
+    "path": "img/sv_actors/hornet-red-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28642
+  },
+  {
+    "path": "img/sv_actors/hornet-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 29229
+  },
+  {
+    "path": "img/sv_actors/hornet-white-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 28539
+  },
+  {
+    "path": "img/sv_actors/hornet282287884.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10541
+  },
+  {
+    "path": "img/sv_actors/hornet458985464.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10771
+  },
+  {
+    "path": "img/sv_actors/hornet467842573.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12740
+  },
+  {
+    "path": "img/sv_actors/hornet733005933.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11057
+  },
+  {
+    "path": "img/sv_actors/hornet842594948_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10900
+  },
+  {
+    "path": "img/sv_actors/jackalope-black_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23054
+  },
+  {
+    "path": "img/sv_actors/jackalope-brown_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23573
+  },
+  {
+    "path": "img/sv_actors/jackalope-gold_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 21360
+  },
+  {
+    "path": "img/sv_actors/jackalope-green_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 21082
+  },
+  {
+    "path": "img/sv_actors/jackalope-red-brown_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23832
+  },
+  {
+    "path": "img/sv_actors/Jen.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44473
+  },
+  {
+    "path": "img/sv_actors/lizard1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47775
+  },
+  {
+    "path": "img/sv_actors/lizard2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47013
+  },
+  {
+    "path": "img/sv_actors/lizard3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 50770
+  },
+  {
+    "path": "img/sv_actors/lizard4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 48622
+  },
+  {
+    "path": "img/sv_actors/lizard5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 49873
+  },
+  {
+    "path": "img/sv_actors/lizard6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44648
+  },
+  {
+    "path": "img/sv_actors/lizardenemy1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44703
+  },
+  {
+    "path": "img/sv_actors/lizardenemy2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36977
+  },
+  {
+    "path": "img/sv_actors/lizardenemy3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44072
+  },
+  {
+    "path": "img/sv_actors/lizardenemy4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40062
+  },
+  {
+    "path": "img/sv_actors/lizardenemy5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43034
+  },
+  {
+    "path": "img/sv_actors/lizardenemy6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37172
+  },
+  {
+    "path": "img/sv_actors/lizardenemy7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34383
+  },
+  {
+    "path": "img/sv_actors/lizardenemy8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41431
+  },
+  {
+    "path": "img/sv_actors/maskeddude.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41187
+  },
+  {
+    "path": "img/sv_actors/maskeddude2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45470
+  },
+  {
+    "path": "img/sv_actors/maskeddude3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43804
+  },
+  {
+    "path": "img/sv_actors/mimic-blue_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46126
+  },
+  {
+    "path": "img/sv_actors/mimic-brown_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46139
+  },
+  {
+    "path": "img/sv_actors/mimic-default_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46420
+  },
+  {
+    "path": "img/sv_actors/mimic-grey_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46170
+  },
+  {
+    "path": "img/sv_actors/mimic-red_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44840
+  },
+  {
+    "path": "img/sv_actors/ninja1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33060
+  },
+  {
+    "path": "img/sv_actors/ninja2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31573
+  },
+  {
+    "path": "img/sv_actors/ninja3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43518
+  },
+  {
+    "path": "img/sv_actors/ogre-black_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 49795
+  },
+  {
+    "path": "img/sv_actors/ogre-default_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 62134
+  },
+  {
+    "path": "img/sv_actors/ogre-gold_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 55169
+  },
+  {
+    "path": "img/sv_actors/ogre-green_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 50701
+  },
+  {
+    "path": "img/sv_actors/ogre-red_orig.png",
+    "width": 1152,
+    "height": 768,
+    "bytes": 50401
+  },
+  {
+    "path": "img/sv_actors/oldman1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40116
+  },
+  {
+    "path": "img/sv_actors/oldman2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39991
+  },
+  {
+    "path": "img/sv_actors/oldman3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39703
+  },
+  {
+    "path": "img/sv_actors/oldman4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42031
+  },
+  {
+    "path": "img/sv_actors/oldman5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40573
+  },
+  {
+    "path": "img/sv_actors/oldman6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38841
+  },
+  {
+    "path": "img/sv_actors/oldman7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45684
+  },
+  {
+    "path": "img/sv_actors/oldman8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38093
+  },
+  {
+    "path": "img/sv_actors/parasite-black_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43924
+  },
+  {
+    "path": "img/sv_actors/parasite-blue-white_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 46586
+  },
+  {
+    "path": "img/sv_actors/parasite-default_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45370
+  },
+  {
+    "path": "img/sv_actors/parasite-green_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45049
+  },
+  {
+    "path": "img/sv_actors/parasite-yellow_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44707
+  },
+  {
+    "path": "img/sv_actors/pinkninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37880
+  },
+  {
+    "path": "img/sv_actors/plant-default_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23638
+  },
+  {
+    "path": "img/sv_actors/plant-green_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 20255
+  },
+  {
+    "path": "img/sv_actors/plant-red_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 19734
+  },
+  {
+    "path": "img/sv_actors/plant-white_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 20055
+  },
+  {
+    "path": "img/sv_actors/plant-wilted_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 20885
+  },
+  {
+    "path": "img/sv_actors/punk1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39107
+  },
+  {
+    "path": "img/sv_actors/punk2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37427
+  },
+  {
+    "path": "img/sv_actors/punk3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37457
+  },
+  {
+    "path": "img/sv_actors/punk4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36581
+  },
+  {
+    "path": "img/sv_actors/punk5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36270
+  },
+  {
+    "path": "img/sv_actors/punk6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 35455
+  },
+  {
+    "path": "img/sv_actors/punkBoss1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42642
+  },
+  {
+    "path": "img/sv_actors/purplebirdman.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 45417
+  },
+  {
+    "path": "img/sv_actors/purpleninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37680
+  },
+  {
+    "path": "img/sv_actors/rat410648364_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8198
+  },
+  {
+    "path": "img/sv_actors/rat648556256.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8195
+  },
+  {
+    "path": "img/sv_actors/rat657494608.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8195
+  },
+  {
+    "path": "img/sv_actors/rat861565115.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8204
+  },
+  {
+    "path": "img/sv_actors/rat960466383.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10051
+  },
+  {
+    "path": "img/sv_actors/redninja.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36607
+  },
+  {
+    "path": "img/sv_actors/Rex.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41141
+  },
+  {
+    "path": "img/sv_actors/robber.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36714
+  },
+  {
+    "path": "img/sv_actors/Rooster149380371.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12220
+  },
+  {
+    "path": "img/sv_actors/Rooster363225764_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11610
+  },
+  {
+    "path": "img/sv_actors/Rooster370666389.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12071
+  },
+  {
+    "path": "img/sv_actors/Rooster447517918_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11264
+  },
+  {
+    "path": "img/sv_actors/Rooster898196553.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12112
+  },
+  {
+    "path": "img/sv_actors/Scorpion204715142.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 17166
+  },
+  {
+    "path": "img/sv_actors/Scorpion462545871_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 17081
+  },
+  {
+    "path": "img/sv_actors/Scorpion518206421_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 17713
+  },
+  {
+    "path": "img/sv_actors/Scorpion564165695.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 18068
+  },
+  {
+    "path": "img/sv_actors/Scorpion637723660.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 16992
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24924
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27161
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26086
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23737
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24058
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25463
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23771
+  },
+  {
+    "path": "img/sv_actors/SF_Actor1_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24398
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24725
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24653
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 22999
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23919
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 23819
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24259
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25717
+  },
+  {
+    "path": "img/sv_actors/SF_Actor2_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 26174
+  },
+  {
+    "path": "img/sv_actors/SF_Actor3_1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24313
+  },
+  {
+    "path": "img/sv_actors/SF_Actor3_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25347
+  },
+  {
+    "path": "img/sv_actors/SF_Actor3_5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 27629
+  },
+  {
+    "path": "img/sv_actors/SF_Actor3_7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 24150
+  },
+  {
+    "path": "img/sv_actors/SF_Actor3_8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 25192
+  },
+  {
+    "path": "img/sv_actors/Slime112319373.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11266
+  },
+  {
+    "path": "img/sv_actors/Slime518641091.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11819
+  },
+  {
+    "path": "img/sv_actors/Slime630683762.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11432
+  },
+  {
+    "path": "img/sv_actors/Slime767690166.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11784
+  },
+  {
+    "path": "img/sv_actors/Slime966520927.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11910
+  },
+  {
+    "path": "img/sv_actors/Smuggler.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 51591
+  },
+  {
+    "path": "img/sv_actors/snake-black-red_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 9848
+  },
+  {
+    "path": "img/sv_actors/snake-black-white_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10705
+  },
+  {
+    "path": "img/sv_actors/snake-default_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11227
+  },
+  {
+    "path": "img/sv_actors/snake-green_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 9544
+  },
+  {
+    "path": "img/sv_actors/snake-hornless_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11806
+  },
+  {
+    "path": "img/sv_actors/snake-orange-yellow_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10970
+  },
+  {
+    "path": "img/sv_actors/Soldier1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39277
+  },
+  {
+    "path": "img/sv_actors/Soldier10.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37188
+  },
+  {
+    "path": "img/sv_actors/Soldier11.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37275
+  },
+  {
+    "path": "img/sv_actors/Soldier12.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37313
+  },
+  {
+    "path": "img/sv_actors/Soldier13.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37225
+  },
+  {
+    "path": "img/sv_actors/Soldier2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44686
+  },
+  {
+    "path": "img/sv_actors/Soldier3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42491
+  },
+  {
+    "path": "img/sv_actors/Soldier4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43979
+  },
+  {
+    "path": "img/sv_actors/Soldier5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40737
+  },
+  {
+    "path": "img/sv_actors/Soldier6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37875
+  },
+  {
+    "path": "img/sv_actors/Soldier7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38226
+  },
+  {
+    "path": "img/sv_actors/Soldier8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 38303
+  },
+  {
+    "path": "img/sv_actors/Soldier9.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37273
+  },
+  {
+    "path": "img/sv_actors/spider-brown-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32839
+  },
+  {
+    "path": "img/sv_actors/spider-cobalt-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 31932
+  },
+  {
+    "path": "img/sv_actors/spider-redknee-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32176
+  },
+  {
+    "path": "img/sv_actors/spider-sv_4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33987
+  },
+  {
+    "path": "img/sv_actors/spider-whiteknee-sv_2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 30868
+  },
+  {
+    "path": "img/sv_actors/spider213583399.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11892
+  },
+  {
+    "path": "img/sv_actors/spider456796641.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13283
+  },
+  {
+    "path": "img/sv_actors/spider570665783.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 18098
+  },
+  {
+    "path": "img/sv_actors/spider776702305_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11522
+  },
+  {
+    "path": "img/sv_actors/spider930284473.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11628
+  },
+  {
+    "path": "img/sv_actors/spikemowhawklizard.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40711
+  },
+  {
+    "path": "img/sv_actors/Thief.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 36523
+  },
+  {
+    "path": "img/sv_actors/thug.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 37686
+  },
+  {
+    "path": "img/sv_actors/triplespikelizard.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44648
+  },
+  {
+    "path": "img/sv_actors/whitebirdman.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 44489
+  },
+  {
+    "path": "img/sv_actors/wolf-black-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11811
+  },
+  {
+    "path": "img/sv_actors/wolf-brown-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12243
+  },
+  {
+    "path": "img/sv_actors/wolf-grey-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 14903
+  },
+  {
+    "path": "img/sv_actors/wolf-red-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11995
+  },
+  {
+    "path": "img/sv_actors/wolf-tawny-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12071
+  },
+  {
+    "path": "img/sv_actors/wolf-white-sv_orig.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11194
+  },
+  {
+    "path": "img/sv_actors/wolf1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33964
+  },
+  {
+    "path": "img/sv_actors/wolf2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32419
+  },
+  {
+    "path": "img/sv_actors/wolf4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34238
+  },
+  {
+    "path": "img/sv_actors/wolf5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32416
+  },
+  {
+    "path": "img/sv_actors/wolf_grey2_battleOnly.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 34093
+  },
+  {
+    "path": "img/sv_actors/wolf_grey_battleOnly.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 32759
+  },
+  {
+    "path": "img/sv_actors/wolf_lightbrown_battleOnly.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33964
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41457
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41083
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes3.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 41314
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes4.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42261
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes5.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 39517
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes6.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40454
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 40813
+  },
+  {
+    "path": "img/sv_actors/wolf_with_clothes8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 42628
+  },
+  {
+    "path": "img/sv_actors/wolf_yellow_battle_only.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33226
+  },
+  {
+    "path": "img/sv_actors/Zack.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 43992
+  },
+  {
+    "path": "img/sv_actors/Zed.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 49962
+  },
+  {
+    "path": "img/sv_enemies/Actor1_3.png",
+    "width": 203,
+    "height": 180,
+    "bytes": 41514
+  },
+  {
+    "path": "img/sv_enemies/Actor1_4.png",
+    "width": 220,
+    "height": 210,
+    "bytes": 60823
+  },
+  {
+    "path": "img/sv_enemies/Actor1_5.png",
+    "width": 187,
+    "height": 246,
+    "bytes": 44851
+  },
+  {
+    "path": "img/sv_enemies/Actor1_6.png",
+    "width": 203,
+    "height": 190,
+    "bytes": 45427
+  },
+  {
+    "path": "img/sv_enemies/Actor1_7.png",
+    "width": 242,
+    "height": 218,
+    "bytes": 73437
+  },
+  {
+    "path": "img/sv_enemies/Actor2_1.png",
+    "width": 182,
+    "height": 202,
+    "bytes": 59279
+  },
+  {
+    "path": "img/sv_enemies/Actor2_2.png",
+    "width": 193,
+    "height": 203,
+    "bytes": 69627
+  },
+  {
+    "path": "img/sv_enemies/Actor2_3.png",
+    "width": 178,
+    "height": 225,
+    "bytes": 58416
+  },
+  {
+    "path": "img/sv_enemies/Actor2_4.png",
+    "width": 128,
+    "height": 199,
+    "bytes": 52987
+  },
+  {
+    "path": "img/sv_enemies/Actor2_5.png",
+    "width": 210,
+    "height": 226,
+    "bytes": 78279
+  },
+  {
+    "path": "img/sv_enemies/Actor2_6.png",
+    "width": 190,
+    "height": 222,
+    "bytes": 79991
+  },
+  {
+    "path": "img/sv_enemies/Actor3_1.png",
+    "width": 193,
+    "height": 214,
+    "bytes": 63513
+  },
+  {
+    "path": "img/sv_enemies/Actor3_2.png",
+    "width": 224,
+    "height": 198,
+    "bytes": 57539
+  },
+  {
+    "path": "img/sv_enemies/Actor3_5.png",
+    "width": 220,
+    "height": 157,
+    "bytes": 46566
+  },
+  {
+    "path": "img/sv_enemies/Actor3_6.png",
+    "width": 182,
+    "height": 206,
+    "bytes": 64191
+  },
+  {
+    "path": "img/sv_enemies/Angel.png",
+    "width": 202,
+    "height": 229,
+    "bytes": 92490
+  },
+  {
+    "path": "img/sv_enemies/Assassin.png",
+    "width": 129,
+    "height": 141,
+    "bytes": 31700
+  },
+  {
+    "path": "img/sv_enemies/Bat.png",
+    "width": 102,
+    "height": 158,
+    "bytes": 22312
+  },
+  {
+    "path": "img/sv_enemies/Behemoth.png",
+    "width": 511,
+    "height": 437,
+    "bytes": 349144
+  },
+  {
+    "path": "img/sv_enemies/BigPoop.png",
+    "width": 209,
+    "height": 225,
+    "bytes": 27914
+  },
+  {
+    "path": "img/sv_enemies/Captain.png",
+    "width": 178,
+    "height": 216,
+    "bytes": 65569
+  },
+  {
+    "path": "img/sv_enemies/Cerberus.png",
+    "width": 214,
+    "height": 225,
+    "bytes": 76798
+  },
+  {
+    "path": "img/sv_enemies/Chimera.png",
+    "width": 425,
+    "height": 418,
+    "bytes": 245256
+  },
+  {
+    "path": "img/sv_enemies/Cockatrice.png",
+    "width": 102,
+    "height": 106,
+    "bytes": 19796
+  },
+  {
+    "path": "img/sv_enemies/colonial-loader.png",
+    "width": 269,
+    "height": 253,
+    "bytes": 84596
+  },
+  {
+    "path": "img/sv_enemies/colonial-mech.png",
+    "width": 613,
+    "height": 425,
+    "bytes": 259776
+  },
+  {
+    "path": "img/sv_enemies/colonial-soldier.png",
+    "width": 118,
+    "height": 178,
+    "bytes": 29577
+  },
+  {
+    "path": "img/sv_enemies/colonial-worker.png",
+    "width": 88,
+    "height": 171,
+    "bytes": 23100
+  },
+  {
+    "path": "img/sv_enemies/crap.png",
+    "width": 24,
+    "height": 24,
+    "bytes": 998
+  },
+  {
+    "path": "img/sv_enemies/Darklord-final.png",
+    "width": 777,
+    "height": 435,
+    "bytes": 515871
+  },
+  {
+    "path": "img/sv_enemies/Darklord.png",
+    "width": 399,
+    "height": 350,
+    "bytes": 236495
+  },
+  {
+    "path": "img/sv_enemies/Death.png",
+    "width": 398,
+    "height": 426,
+    "bytes": 190395
+  },
+  {
+    "path": "img/sv_enemies/Demon.png",
+    "width": 328,
+    "height": 338,
+    "bytes": 197935
+  },
+  {
+    "path": "img/sv_enemies/Dragon.png",
+    "width": 420,
+    "height": 436,
+    "bytes": 255374
+  },
+  {
+    "path": "img/sv_enemies/drakos-bladelord.png",
+    "width": 332,
+    "height": 239,
+    "bytes": 106508
+  },
+  {
+    "path": "img/sv_enemies/drakos-soldier.png",
+    "width": 315,
+    "height": 239,
+    "bytes": 105693
+  },
+  {
+    "path": "img/sv_enemies/Earthspirit.png",
+    "width": 122,
+    "height": 154,
+    "bytes": 37185
+  },
+  {
+    "path": "img/sv_enemies/enslaver-drone.png",
+    "width": 166,
+    "height": 193,
+    "bytes": 50942
+  },
+  {
+    "path": "img/sv_enemies/enslaver-fleshshaper.png",
+    "width": 395,
+    "height": 343,
+    "bytes": 178013
+  },
+  {
+    "path": "img/sv_enemies/enslaver-hulk.png",
+    "width": 386,
+    "height": 357,
+    "bytes": 193918
+  },
+  {
+    "path": "img/sv_enemies/enslaver-lurker.png",
+    "width": 240,
+    "height": 160,
+    "bytes": 62046
+  },
+  {
+    "path": "img/sv_enemies/Evilgod.png",
+    "width": 754,
+    "height": 437,
+    "bytes": 578766
+  },
+  {
+    "path": "img/sv_enemies/faceleft.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 14844
+  },
+  {
+    "path": "img/sv_enemies/faceright.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 14902
+  },
+  {
+    "path": "img/sv_enemies/Fairy.png",
+    "width": 95,
+    "height": 173,
+    "bytes": 16569
+  },
+  {
+    "path": "img/sv_enemies/Fanatic.png",
+    "width": 212,
+    "height": 214,
+    "bytes": 71307
+  },
+  {
+    "path": "img/sv_enemies/Firespirit.png",
+    "width": 116,
+    "height": 174,
+    "bytes": 34861
+  },
+  {
+    "path": "img/sv_enemies/galefire-blackmetal.png",
+    "width": 399,
+    "height": 442,
+    "bytes": 218243
+  },
+  {
+    "path": "img/sv_enemies/galefire-enslaver.png",
+    "width": 381,
+    "height": 463,
+    "bytes": 216796
+  },
+  {
+    "path": "img/sv_enemies/galefire-lunarium.png",
+    "width": 381,
+    "height": 553,
+    "bytes": 268542
+  },
+  {
+    "path": "img/sv_enemies/Gargoyle.png",
+    "width": 421,
+    "height": 432,
+    "bytes": 273066
+  },
+  {
+    "path": "img/sv_enemies/Garuda.png",
+    "width": 483,
+    "height": 367,
+    "bytes": 174807
+  },
+  {
+    "path": "img/sv_enemies/Gazer.png",
+    "width": 183,
+    "height": 216,
+    "bytes": 63852
+  },
+  {
+    "path": "img/sv_enemies/General_f.png",
+    "width": 199,
+    "height": 219,
+    "bytes": 72665
+  },
+  {
+    "path": "img/sv_enemies/General_m.png",
+    "width": 241,
+    "height": 231,
+    "bytes": 99476
+  },
+  {
+    "path": "img/sv_enemies/Ghost.png",
+    "width": 211,
+    "height": 235,
+    "bytes": 57178
+  },
+  {
+    "path": "img/sv_enemies/God.png",
+    "width": 762,
+    "height": 440,
+    "bytes": 528992
+  },
+  {
+    "path": "img/sv_enemies/Goddess.png",
+    "width": 274,
+    "height": 211,
+    "bytes": 117210
+  },
+  {
+    "path": "img/sv_enemies/Hornet.png",
+    "width": 75,
+    "height": 141,
+    "bytes": 21417
+  },
+  {
+    "path": "img/sv_enemies/Imp.png",
+    "width": 96,
+    "height": 175,
+    "bytes": 26436
+  },
+  {
+    "path": "img/sv_enemies/imperial-centurion.png",
+    "width": 293,
+    "height": 284,
+    "bytes": 125944
+  },
+  {
+    "path": "img/sv_enemies/imperial-citizen.png",
+    "width": 104,
+    "height": 184,
+    "bytes": 18285
+  },
+  {
+    "path": "img/sv_enemies/imperial-imperator.png",
+    "width": 309,
+    "height": 282,
+    "bytes": 89584
+  },
+  {
+    "path": "img/sv_enemies/imperial-legionnaire.png",
+    "width": 321,
+    "height": 282,
+    "bytes": 73119
+  },
+  {
+    "path": "img/sv_enemies/imperial-praetorian.png",
+    "width": 259,
+    "height": 317,
+    "bytes": 106486
+  },
+  {
+    "path": "img/sv_enemies/imperial-titan.png",
+    "width": 643,
+    "height": 469,
+    "bytes": 375579
+  },
+  {
+    "path": "img/sv_enemies/Irongiant.png",
+    "width": 465,
+    "height": 415,
+    "bytes": 241907
+  },
+  {
+    "path": "img/sv_enemies/Jellyfish.png",
+    "width": 102,
+    "height": 109,
+    "bytes": 20832
+  },
+  {
+    "path": "img/sv_enemies/Lamia.png",
+    "width": 337,
+    "height": 334,
+    "bytes": 190408
+  },
+  {
+    "path": "img/sv_enemies/Mage.png",
+    "width": 182,
+    "height": 224,
+    "bytes": 77543
+  },
+  {
+    "path": "img/sv_enemies/Mimic.png",
+    "width": 104,
+    "height": 100,
+    "bytes": 24778
+  },
+  {
+    "path": "img/sv_enemies/Minotaur.png",
+    "width": 375,
+    "height": 335,
+    "bytes": 142835
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_01.png",
+    "width": 223,
+    "height": 209,
+    "bytes": 50222
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_02.png",
+    "width": 88,
+    "height": 213,
+    "bytes": 26022
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_03.png",
+    "width": 88,
+    "height": 221,
+    "bytes": 25278
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_04.png",
+    "width": 88,
+    "height": 225,
+    "bytes": 21671
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_05.png",
+    "width": 88,
+    "height": 212,
+    "bytes": 23314
+  },
+  {
+    "path": "img/sv_enemies/mod_agent_06.png",
+    "width": 183,
+    "height": 214,
+    "bytes": 47007
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_01.png",
+    "width": 100,
+    "height": 83,
+    "bytes": 18294
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_02.png",
+    "width": 255,
+    "height": 215,
+    "bytes": 72340
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03.png",
+    "width": 522,
+    "height": 473,
+    "bytes": 323115
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03a.png",
+    "width": 336,
+    "height": 444,
+    "bytes": 205519
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03b.png",
+    "width": 204,
+    "height": 298,
+    "bytes": 57970
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03c.png",
+    "width": 200,
+    "height": 293,
+    "bytes": 58034
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03d.png",
+    "width": 111,
+    "height": 225,
+    "bytes": 26464
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_03e.png",
+    "width": 111,
+    "height": 225,
+    "bytes": 26315
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_04.png",
+    "width": 94,
+    "height": 214,
+    "bytes": 33939
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_06.png",
+    "width": 145,
+    "height": 243,
+    "bytes": 50375
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_07.png",
+    "width": 334,
+    "height": 256,
+    "bytes": 89534
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_08.png",
+    "width": 139,
+    "height": 177,
+    "bytes": 33100
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_09.png",
+    "width": 140,
+    "height": 189,
+    "bytes": 36432
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_10.png",
+    "width": 212,
+    "height": 185,
+    "bytes": 50297
+  },
+  {
+    "path": "img/sv_enemies/mod_alien_11.png",
+    "width": 231,
+    "height": 297,
+    "bytes": 72454
+  },
+  {
+    "path": "img/sv_enemies/mod_fish_01.png",
+    "width": 134,
+    "height": 79,
+    "bytes": 17992
+  },
+  {
+    "path": "img/sv_enemies/mod_fish_02.png",
+    "width": 378,
+    "height": 224,
+    "bytes": 88888
+  },
+  {
+    "path": "img/sv_enemies/mod_fish_03.png",
+    "width": 108,
+    "height": 138,
+    "bytes": 24022
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_01.png",
+    "width": 102,
+    "height": 166,
+    "bytes": 20520
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_02.png",
+    "width": 154,
+    "height": 257,
+    "bytes": 42572
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_03.png",
+    "width": 220,
+    "height": 275,
+    "bytes": 87930
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_04.png",
+    "width": 166,
+    "height": 133,
+    "bytes": 33976
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_05.png",
+    "width": 165,
+    "height": 218,
+    "bytes": 46703
+  },
+  {
+    "path": "img/sv_enemies/mod_ghost_06.png",
+    "width": 165,
+    "height": 227,
+    "bytes": 48190
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_01.png",
+    "width": 115,
+    "height": 144,
+    "bytes": 25587
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_02.png",
+    "width": 118,
+    "height": 142,
+    "bytes": 22099
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_03.png",
+    "width": 145,
+    "height": 181,
+    "bytes": 40014
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_04.png",
+    "width": 166,
+    "height": 187,
+    "bytes": 29018
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_05.png",
+    "width": 128,
+    "height": 142,
+    "bytes": 14217
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_06.png",
+    "width": 437,
+    "height": 390,
+    "bytes": 147646
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_07.png",
+    "width": 133,
+    "height": 129,
+    "bytes": 27482
+  },
+  {
+    "path": "img/sv_enemies/mod_mimic_08.png",
+    "width": 74,
+    "height": 172,
+    "bytes": 16226
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_01.png",
+    "width": 167,
+    "height": 229,
+    "bytes": 45843
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_02.png",
+    "width": 187,
+    "height": 227,
+    "bytes": 47410
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_03.png",
+    "width": 188,
+    "height": 238,
+    "bytes": 46911
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_04.png",
+    "width": 210,
+    "height": 171,
+    "bytes": 52775
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_05.png",
+    "width": 539,
+    "height": 405,
+    "bytes": 216039
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_06.png",
+    "width": 79,
+    "height": 135,
+    "bytes": 16790
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_07.png",
+    "width": 181,
+    "height": 203,
+    "bytes": 48150
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_08.png",
+    "width": 146,
+    "height": 203,
+    "bytes": 30374
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_09.png",
+    "width": 213,
+    "height": 263,
+    "bytes": 53188
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_10.png",
+    "width": 179,
+    "height": 211,
+    "bytes": 43641
+  },
+  {
+    "path": "img/sv_enemies/mod_robot_11.png",
+    "width": 179,
+    "height": 232,
+    "bytes": 48280
+  },
+  {
+    "path": "img/sv_enemies/mod_scientist_01.png",
+    "width": 143,
+    "height": 220,
+    "bytes": 41871
+  },
+  {
+    "path": "img/sv_enemies/mod_scientist_02.png",
+    "width": 165,
+    "height": 307,
+    "bytes": 51780
+  },
+  {
+    "path": "img/sv_enemies/mod_tank_01.png",
+    "width": 267,
+    "height": 173,
+    "bytes": 65659
+  },
+  {
+    "path": "img/sv_enemies/mod_tank_02.png",
+    "width": 543,
+    "height": 306,
+    "bytes": 163472
+  },
+  {
+    "path": "img/sv_enemies/mod_tank_03.png",
+    "width": 154,
+    "height": 100,
+    "bytes": 29745
+  },
+  {
+    "path": "img/sv_enemies/mod_virus_01.png",
+    "width": 107,
+    "height": 187,
+    "bytes": 28863
+  },
+  {
+    "path": "img/sv_enemies/mod_virus_02.png",
+    "width": 142,
+    "height": 213,
+    "bytes": 35409
+  },
+  {
+    "path": "img/sv_enemies/mod_virus_03.png",
+    "width": 132,
+    "height": 126,
+    "bytes": 14915
+  },
+  {
+    "path": "img/sv_enemies/mod_virus_04.png",
+    "width": 218,
+    "height": 252,
+    "bytes": 64506
+  },
+  {
+    "path": "img/sv_enemies/mod_virus_05.png",
+    "width": 366,
+    "height": 320,
+    "bytes": 136596
+  },
+  {
+    "path": "img/sv_enemies/Ogre.png",
+    "width": 469,
+    "height": 417,
+    "bytes": 308895
+  },
+  {
+    "path": "img/sv_enemies/Orc.png",
+    "width": 264,
+    "height": 286,
+    "bytes": 114359
+  },
+  {
+    "path": "img/sv_enemies/Plant.png",
+    "width": 122,
+    "height": 110,
+    "bytes": 33899
+  },
+  {
+    "path": "img/sv_enemies/Puppet.png",
+    "width": 165,
+    "height": 178,
+    "bytes": 68421
+  },
+  {
+    "path": "img/sv_enemies/Rat.png",
+    "width": 79,
+    "height": 123,
+    "bytes": 17465
+  },
+  {
+    "path": "img/sv_enemies/Rogue.png",
+    "width": 156,
+    "height": 196,
+    "bytes": 48686
+  },
+  {
+    "path": "img/sv_enemies/Sahuagin.png",
+    "width": 132,
+    "height": 140,
+    "bytes": 37423
+  },
+  {
+    "path": "img/sv_enemies/Scorpion.png",
+    "width": 94,
+    "height": 110,
+    "bytes": 19369
+  },
+  {
+    "path": "img/sv_enemies/SF_Abomination.png",
+    "width": 816,
+    "height": 457,
+    "bytes": 710402
+  },
+  {
+    "path": "img/sv_enemies/SF_Archangel.png",
+    "width": 816,
+    "height": 457,
+    "bytes": 721445
+  },
+  {
+    "path": "img/sv_enemies/SF_ArmySoldier.png",
+    "width": 306,
+    "height": 320,
+    "bytes": 81407
+  },
+  {
+    "path": "img/sv_enemies/SF_Bodyguard.png",
+    "width": 250,
+    "height": 286,
+    "bytes": 45165
+  },
+  {
+    "path": "img/sv_enemies/SF_Boss.png",
+    "width": 303,
+    "height": 303,
+    "bytes": 101647
+  },
+  {
+    "path": "img/sv_enemies/SF_Butcher.png",
+    "width": 464,
+    "height": 368,
+    "bytes": 253781
+  },
+  {
+    "path": "img/sv_enemies/SF_Byakko.png",
+    "width": 494,
+    "height": 391,
+    "bytes": 407403
+  },
+  {
+    "path": "img/sv_enemies/SF_CursedGirl.png",
+    "width": 210,
+    "height": 170,
+    "bytes": 43100
+  },
+  {
+    "path": "img/sv_enemies/SF_DarkLord2000.png",
+    "width": 494,
+    "height": 391,
+    "bytes": 256037
+  },
+  {
+    "path": "img/sv_enemies/SF_Doll.png",
+    "width": 171,
+    "height": 184,
+    "bytes": 48346
+  },
+  {
+    "path": "img/sv_enemies/SF_DoomedSkull.png",
+    "width": 270,
+    "height": 309,
+    "bytes": 91201
+  },
+  {
+    "path": "img/sv_enemies/SF_Drone.png",
+    "width": 150,
+    "height": 257,
+    "bytes": 31971
+  },
+  {
+    "path": "img/sv_enemies/SF_EvilToy.png",
+    "width": 159,
+    "height": 164,
+    "bytes": 40944
+  },
+  {
+    "path": "img/sv_enemies/SF_FallenAngel.png",
+    "width": 401,
+    "height": 446,
+    "bytes": 253368
+  },
+  {
+    "path": "img/sv_enemies/SF_Genbu.png",
+    "width": 525,
+    "height": 486,
+    "bytes": 419602
+  },
+  {
+    "path": "img/sv_enemies/SF_GothicLolita.png",
+    "width": 258,
+    "height": 333,
+    "bytes": 155617
+  },
+  {
+    "path": "img/sv_enemies/SF_Inugami.png",
+    "width": 229,
+    "height": 212,
+    "bytes": 75655
+  },
+  {
+    "path": "img/sv_enemies/SF_KillerRobot.png",
+    "width": 218,
+    "height": 249,
+    "bytes": 78655
+  },
+  {
+    "path": "img/sv_enemies/SF_Machine.png",
+    "width": 308,
+    "height": 360,
+    "bytes": 140391
+  },
+  {
+    "path": "img/sv_enemies/SF_MadDoctor.png",
+    "width": 325,
+    "height": 372,
+    "bytes": 155806
+  },
+  {
+    "path": "img/sv_enemies/SF_MechaSuit.png",
+    "width": 537,
+    "height": 445,
+    "bytes": 373656
+  },
+  {
+    "path": "img/sv_enemies/SF_Nurse.png",
+    "width": 283,
+    "height": 300,
+    "bytes": 92383
+  },
+  {
+    "path": "img/sv_enemies/SF_Parasite.png",
+    "width": 231,
+    "height": 166,
+    "bytes": 44078
+  },
+  {
+    "path": "img/sv_enemies/SF_Preacher.png",
+    "width": 300,
+    "height": 300,
+    "bytes": 112111
+  },
+  {
+    "path": "img/sv_enemies/SF_Seiryu.png",
+    "width": 480,
+    "height": 480,
+    "bytes": 437148
+  },
+  {
+    "path": "img/sv_enemies/SF_SpecialPolice.png",
+    "width": 318,
+    "height": 303,
+    "bytes": 73958
+  },
+  {
+    "path": "img/sv_enemies/SF_SufferingSoul.png",
+    "width": 171,
+    "height": 188,
+    "bytes": 50608
+  },
+  {
+    "path": "img/sv_enemies/SF_Suzaku.png",
+    "width": 546,
+    "height": 400,
+    "bytes": 501809
+  },
+  {
+    "path": "img/sv_enemies/SF_SweetLolita.png",
+    "width": 268,
+    "height": 333,
+    "bytes": 148440
+  },
+  {
+    "path": "img/sv_enemies/SF_TeddyBear.png",
+    "width": 150,
+    "height": 171,
+    "bytes": 50449
+  },
+  {
+    "path": "img/sv_enemies/SF_Tengu.png",
+    "width": 441,
+    "height": 427,
+    "bytes": 234408
+  },
+  {
+    "path": "img/sv_enemies/SF_Thug.png",
+    "width": 245,
+    "height": 331,
+    "bytes": 93828
+  },
+  {
+    "path": "img/sv_enemies/SF_UndeadSamurai.png",
+    "width": 273,
+    "height": 313,
+    "bytes": 98445
+  },
+  {
+    "path": "img/sv_enemies/SF_Yakuza.png",
+    "width": 286,
+    "height": 286,
+    "bytes": 59704
+  },
+  {
+    "path": "img/sv_enemies/SF_Zombie.png",
+    "width": 220,
+    "height": 231,
+    "bytes": 51666
+  },
+  {
+    "path": "img/sv_enemies/Skeleton.png",
+    "width": 186,
+    "height": 169,
+    "bytes": 34992
+  },
+  {
+    "path": "img/sv_enemies/Slime.png",
+    "width": 102,
+    "height": 85,
+    "bytes": 19270
+  },
+  {
+    "path": "img/sv_enemies/Snake.png",
+    "width": 110,
+    "height": 108,
+    "bytes": 29565
+  },
+  {
+    "path": "img/sv_enemies/Soldier.png",
+    "width": 221,
+    "height": 182,
+    "bytes": 53023
+  },
+  {
+    "path": "img/sv_enemies/Spider.png",
+    "width": 115,
+    "height": 87,
+    "bytes": 19850
+  },
+  {
+    "path": "img/sv_enemies/Succubus.png",
+    "width": 191,
+    "height": 216,
+    "bytes": 62264
+  },
+  {
+    "path": "img/sv_enemies/Swordsman.png",
+    "width": 249,
+    "height": 174,
+    "bytes": 38930
+  },
+  {
+    "path": "img/sv_enemies/Vampire.png",
+    "width": 211,
+    "height": 206,
+    "bytes": 86936
+  },
+  {
+    "path": "img/sv_enemies/Waterspirit.png",
+    "width": 145,
+    "height": 150,
+    "bytes": 37992
+  },
+  {
+    "path": "img/sv_enemies/Werewolf.png",
+    "width": 201,
+    "height": 197,
+    "bytes": 59456
+  },
+  {
+    "path": "img/sv_enemies/Willowisp.png",
+    "width": 97,
+    "height": 101,
+    "bytes": 21003
+  },
+  {
+    "path": "img/sv_enemies/Windspirit.png",
+    "width": 144,
+    "height": 150,
+    "bytes": 54219
+  },
+  {
+    "path": "img/sv_enemies/Zombie.png",
+    "width": 142,
+    "height": 110,
+    "bytes": 28331
+  },
+  {
+    "path": "img/system/ActionName.png",
+    "width": 100,
+    "height": 28,
+    "bytes": 17811
+  },
+  {
+    "path": "img/system/ActionNameA.png",
+    "width": 72,
+    "height": 201,
+    "bytes": 32396
+  },
+  {
+    "path": "img/system/ActionNameB.png",
+    "width": 18,
+    "height": 96,
+    "bytes": 18133
+  },
+  {
+    "path": "img/system/Balloon.png",
+    "width": 384,
+    "height": 720,
+    "bytes": 43832
+  },
+  {
+    "path": "img/system/baretta.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 981
+  },
+  {
+    "path": "img/system/ButtonSet.png",
+    "width": 288,
+    "height": 96,
+    "bytes": 10872
+  },
+  {
+    "path": "img/system/Damage.png",
+    "width": 240,
+    "height": 160,
+    "bytes": 12890
+  },
+  {
+    "path": "img/system/GameOver.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 7851
+  },
+  {
+    "path": "img/system/IconSet.png",
+    "width": 517,
+    "height": 3360,
+    "bytes": 2550437
+  },
+  {
+    "path": "img/system/IconSet_old.png",
+    "width": 512,
+    "height": 640,
+    "bytes": 206953
+  },
+  {
+    "path": "img/system/Loading.png",
+    "width": 400,
+    "height": 100,
+    "bytes": 3416
+  },
+  {
+    "path": "img/system/m4a1.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1113
+  },
+  {
+    "path": "img/system/m60.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1504
+  },
+  {
+    "path": "img/system/MadeWithMv.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 22609
+  },
+  {
+    "path": "img/system/Shadow1.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 728
+  },
+  {
+    "path": "img/system/Shadow2.png",
+    "width": 82,
+    "height": 38,
+    "bytes": 432
+  },
+  {
+    "path": "img/system/SniperRifle.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1190
+  },
+  {
+    "path": "img/system/States.png",
+    "width": 768,
+    "height": 960,
+    "bytes": 311707
+  },
+  {
+    "path": "img/system/Untitled.png",
+    "width": 32,
+    "height": 32,
+    "bytes": 1271
+  },
+  {
+    "path": "img/system/Weapons1.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 7229
+  },
+  {
+    "path": "img/system/Weapons10.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 14228
+  },
+  {
+    "path": "img/system/Weapons11.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 13310
+  },
+  {
+    "path": "img/system/Weapons12.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 19455
+  },
+  {
+    "path": "img/system/Weapons13.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 12823
+  },
+  {
+    "path": "img/system/Weapons14.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 8008
+  },
+  {
+    "path": "img/system/Weapons15.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 7582
+  },
+  {
+    "path": "img/system/Weapons16.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11457
+  },
+  {
+    "path": "img/system/Weapons17.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 16761
+  },
+  {
+    "path": "img/system/Weapons18.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 22799
+  },
+  {
+    "path": "img/system/Weapons19.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 10782
+  },
+  {
+    "path": "img/system/Weapons2.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 6889
+  },
+  {
+    "path": "img/system/Weapons20.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 47399
+  },
+  {
+    "path": "img/system/Weapons21.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 50018
+  },
+  {
+    "path": "img/system/Weapons22.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 16379
+  },
+  {
+    "path": "img/system/Weapons23.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11276
+  },
+  {
+    "path": "img/system/Weapons24.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 9037
+  },
+  {
+    "path": "img/system/Weapons25.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 22420
+  },
+  {
+    "path": "img/system/Weapons26.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 33926
+  },
+  {
+    "path": "img/system/Weapons27.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 19402
+  },
+  {
+    "path": "img/system/Weapons28.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 9280
+  },
+  {
+    "path": "img/system/Weapons29.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 22731
+  },
+  {
+    "path": "img/system/Weapons3.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1757
+  },
+  {
+    "path": "img/system/Weapons4.png",
+    "width": 288,
+    "height": 384,
+    "bytes": 4120
+  },
+  {
+    "path": "img/system/Weapons5.png",
+    "width": 288,
+    "height": 384,
+    "bytes": 4105
+  },
+  {
+    "path": "img/system/Weapons6.png",
+    "width": 288,
+    "height": 384,
+    "bytes": 7297
+  },
+  {
+    "path": "img/system/Weapons7.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 11912
+  },
+  {
+    "path": "img/system/Weapons8.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 16333
+  },
+  {
+    "path": "img/system/Weapons9.png",
+    "width": 576,
+    "height": 384,
+    "bytes": 14344
+  },
+  {
+    "path": "img/system/Window.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 8083
+  },
+  {
+    "path": "img/system/Window_Default.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 5328
+  },
+  {
+    "path": "img/system/w_akm.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 723
+  },
+  {
+    "path": "img/system/w_cheytac.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 713
+  },
+  {
+    "path": "img/system/w_deserteagle.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1854
+  },
+  {
+    "path": "img/system/w_fmg9.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1911
+  },
+  {
+    "path": "img/system/w_m1911.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1850
+  },
+  {
+    "path": "img/system/w_m92fs.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1885
+  },
+  {
+    "path": "img/system/w_model1887.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1273
+  },
+  {
+    "path": "img/system/w_python.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1886
+  },
+  {
+    "path": "img/system/w_ump45.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1173
+  },
+  {
+    "path": "img/system/w_uts15.png",
+    "width": 288,
+    "height": 64,
+    "bytes": 1082
+  },
+  {
+    "path": "img/tilesets/23842828nr.png",
+    "width": 768,
+    "height": 480,
+    "bytes": 220698
+  },
+  {
+    "path": "img/tilesets/A1_SciFi.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 278334
+  },
+  {
+    "path": "img/tilesets/A4_SciFi.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 395645
+  },
+  {
+    "path": "img/tilesets/A5_SciFi.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 220915
+  },
+  {
+    "path": "img/tilesets/cyanide_artdeco1.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 455356
+  },
+  {
+    "path": "img/tilesets/cyanide_artdeco_2.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 537971
+  },
+  {
+    "path": "img/tilesets/cyanide_artdeco_3.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 545791
+  },
+  {
+    "path": "img/tilesets/cyanide_desert_outside.png",
+    "width": 864,
+    "height": 720,
+    "bytes": 771849
+  },
+  {
+    "path": "img/tilesets/cyanide_rtp_edits_01.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 408176
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemixasia_08.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 2364001
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_03.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 2216256
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_04.png",
+    "width": 624,
+    "height": 912,
+    "bytes": 281904
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_05.png",
+    "width": 528,
+    "height": 480,
+    "bytes": 1016033
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_06.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 1773054
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_07.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 1773054
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_09.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 2364001
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_10.png",
+    "width": 768,
+    "height": 528,
+    "bytes": 1625286
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_11_nature.png",
+    "width": 768,
+    "height": 528,
+    "bytes": 1625286
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_13.png",
+    "width": 768,
+    "height": 624,
+    "bytes": 370430
+  },
+  {
+    "path": "img/tilesets/cyanide_tilemix_14.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 483512
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Beige_Darkframe_Gold.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 93867
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Blue.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 121807
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Blue_Blue.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 100597
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Blue_yellow.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 99261
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Brown.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 122151
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Brown_lightbrown.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 111584
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Green_bluehighlight.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 105014
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Green_Greenhighlight.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 102940
+  },
+  {
+    "path": "img/tilesets/cyanide_walls_interior_grey_wh.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 148791
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Grey_White.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 148791
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Red.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 133185
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_rGreen.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 122389
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_StrongRed.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 110032
+  },
+  {
+    "path": "img/tilesets/Cyanide_Walls_Interior_Violet_goldhighlight.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 104311
+  },
+  {
+    "path": "img/tilesets/Dungeon_A1.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 378346
+  },
+  {
+    "path": "img/tilesets/Dungeon_A2.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 316224
+  },
+  {
+    "path": "img/tilesets/Dungeon_A4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 463468
+  },
+  {
+    "path": "img/tilesets/Dungeon_A5.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 302026
+  },
+  {
+    "path": "img/tilesets/Dungeon_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 727850
+  },
+  {
+    "path": "img/tilesets/Dungeon_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 649991
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileA1.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 351182
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileA2.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 380085
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileA3.png",
+    "width": 768,
+    "height": 384,
+    "bytes": 193006
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileA4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 305900
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileA5.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 229681
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileB.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 233413
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileC.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 352635
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileD.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 456957
+  },
+  {
+    "path": "img/tilesets/Futuristic_TileE.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 356949
+  },
+  {
+    "path": "img/tilesets/Inside_A1.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 521531
+  },
+  {
+    "path": "img/tilesets/Inside_A2.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 326404
+  },
+  {
+    "path": "img/tilesets/Inside_A4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 401992
+  },
+  {
+    "path": "img/tilesets/Inside_A5.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 333402
+  },
+  {
+    "path": "img/tilesets/Inside_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 512258
+  },
+  {
+    "path": "img/tilesets/Inside_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 393037
+  },
+  {
+    "path": "img/tilesets/modern_cyberpunk_cyanide.png",
+    "width": 864,
+    "height": 720,
+    "bytes": 670105
+  },
+  {
+    "path": "img/tilesets/Outside_A1.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 444078
+  },
+  {
+    "path": "img/tilesets/Outside_A2.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 302607
+  },
+  {
+    "path": "img/tilesets/Outside_A3.png",
+    "width": 768,
+    "height": 384,
+    "bytes": 204132
+  },
+  {
+    "path": "img/tilesets/Outside_A4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 520383
+  },
+  {
+    "path": "img/tilesets/Outside_A5.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 171856
+  },
+  {
+    "path": "img/tilesets/Outside_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 633852
+  },
+  {
+    "path": "img/tilesets/Outside_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 912673
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_A1.png",
+    "error": "cannot identify image file 'img\\\\tilesets\\\\Sci-Fi-Tiles_A1.png'"
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_A2.png",
+    "error": "cannot identify image file 'img\\\\tilesets\\\\Sci-Fi-Tiles_A2.png'"
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_A4.png",
+    "error": "cannot identify image file 'img\\\\tilesets\\\\Sci-Fi-Tiles_A4.png'"
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_A5.png",
+    "error": "cannot identify image file 'img\\\\tilesets\\\\Sci-Fi-Tiles_A5.png'"
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 259739
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 244401
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_D.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 295203
+  },
+  {
+    "path": "img/tilesets/Sci-Fi-Tiles_E.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 279175
+  },
+  {
+    "path": "img/tilesets/SciFi_Armory.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 227192
+  },
+  {
+    "path": "img/tilesets/SciFi_Computers_1.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 384805
+  },
+  {
+    "path": "img/tilesets/SciFi_Computers_2.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 390969
+  },
+  {
+    "path": "img/tilesets/SciFi_Containers.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 401909
+  },
+  {
+    "path": "img/tilesets/SciFi_Deco_1.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 335008
+  },
+  {
+    "path": "img/tilesets/SciFi_Deco_2.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 228238
+  },
+  {
+    "path": "img/tilesets/SciFi_Deco_3.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 260204
+  },
+  {
+    "path": "img/tilesets/SciFi_Deco_4.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 355899
+  },
+  {
+    "path": "img/tilesets/SciFi_Medical.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 186862
+  },
+  {
+    "path": "img/tilesets/SciFi_Tech_1.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 295786
+  },
+  {
+    "path": "img/tilesets/SciFi_Tech_2.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 368341
+  },
+  {
+    "path": "img/tilesets/SciFi_Tech_3.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 283171
+  },
+  {
+    "path": "img/tilesets/SF_City_thumb.png",
+    "width": 408,
+    "height": 312,
+    "bytes": 277489
+  },
+  {
+    "path": "img/tilesets/SF_Inside_A4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 954315
+  },
+  {
+    "path": "img/tilesets/SF_Inside_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 868700
+  },
+  {
+    "path": "img/tilesets/SF_Inside_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 756691
+  },
+  {
+    "path": "img/tilesets/SF_Outside_A3.png",
+    "width": 768,
+    "height": 384,
+    "bytes": 519521
+  },
+  {
+    "path": "img/tilesets/SF_Outside_A4.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 989197
+  },
+  {
+    "path": "img/tilesets/SF_Outside_A5.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 438727
+  },
+  {
+    "path": "img/tilesets/SF_Outside_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 758387
+  },
+  {
+    "path": "img/tilesets/SF_Outside_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 953063
+  },
+  {
+    "path": "img/tilesets/TileA2-ModernUrban.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 233065
+  },
+  {
+    "path": "img/tilesets/TileA4-ModernUrban.png",
+    "width": 768,
+    "height": 720,
+    "bytes": 88871
+  },
+  {
+    "path": "img/tilesets/TileA5-ModernUrban.png",
+    "width": 384,
+    "height": 768,
+    "bytes": 251351
+  },
+  {
+    "path": "img/tilesets/TileB-ModernUrban.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 518063
+  },
+  {
+    "path": "img/tilesets/TileC-ModernUrban.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 343111
+  },
+  {
+    "path": "img/tilesets/World_A1.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 458904
+  },
+  {
+    "path": "img/tilesets/World_A2.png",
+    "width": 768,
+    "height": 576,
+    "bytes": 553939
+  },
+  {
+    "path": "img/tilesets/World_B.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 796749
+  },
+  {
+    "path": "img/tilesets/World_C.png",
+    "width": 768,
+    "height": 768,
+    "bytes": 978009
+  },
+  {
+    "path": "img/titles1/Book.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 663901
+  },
+  {
+    "path": "img/titles1/Castle.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1049553
+  },
+  {
+    "path": "img/titles1/CrossedSwords.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 982154
+  },
+  {
+    "path": "img/titles1/Crystal.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1099718
+  },
+  {
+    "path": "img/titles1/DemonCastle.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1080504
+  },
+  {
+    "path": "img/titles1/Devil.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 497443
+  },
+  {
+    "path": "img/titles1/Dragon.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1281399
+  },
+  {
+    "path": "img/titles1/Fountain.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1213125
+  },
+  {
+    "path": "img/titles1/Gates.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1228280
+  },
+  {
+    "path": "img/titles1/Hexagram.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1107863
+  },
+  {
+    "path": "img/titles1/Island.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 917043
+  },
+  {
+    "path": "img/titles1/Night.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1131768
+  },
+  {
+    "path": "img/titles1/Plain.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1119895
+  },
+  {
+    "path": "img/titles1/SF_City.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1313924
+  },
+  {
+    "path": "img/titles1/SF_City_thumb.png",
+    "width": 408,
+    "height": 312,
+    "bytes": 277489
+  },
+  {
+    "path": "img/titles1/Sword.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1201782
+  },
+  {
+    "path": "img/titles1/Tower1.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 999751
+  },
+  {
+    "path": "img/titles1/Tower2.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1251185
+  },
+  {
+    "path": "img/titles1/Universe.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1092271
+  },
+  {
+    "path": "img/titles1/Volcano.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1002375
+  },
+  {
+    "path": "img/titles1/World.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1210586
+  },
+  {
+    "path": "img/titles1/WorldMap.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 1090428
+  },
+  {
+    "path": "img/titles2/Floral.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 238402
+  },
+  {
+    "path": "img/titles2/Medieval.png",
+    "width": 816,
+    "height": 624,
+    "bytes": 295715
+  },
+  {
+    "path": "img/weather/Cloud_01A.png",
+    "width": 240,
+    "height": 120,
+    "bytes": 36191
+  },
+  {
+    "path": "img/weather/Cloud_01B.png",
+    "width": 240,
+    "height": 120,
+    "bytes": 36337
+  },
+  {
+    "path": "img/weather/Cloud_01C.png",
+    "width": 207,
+    "height": 92,
+    "bytes": 26096
+  },
+  {
+    "path": "img/weather/Cloud_02A.png",
+    "width": 96,
+    "height": 96,
+    "bytes": 25103
+  },
+  {
+    "path": "img/weather/Cloud_02B.png",
+    "width": 96,
+    "height": 96,
+    "bytes": 25026
+  },
+  {
+    "path": "img/weather/Fire_01A.png",
+    "width": 36,
+    "height": 72,
+    "bytes": 21295
+  },
+  {
+    "path": "img/weather/Fire_01B.png",
+    "width": 36,
+    "height": 72,
+    "bytes": 21331
+  },
+  {
+    "path": "img/weather/Fire_01C.png",
+    "width": 72,
+    "height": 72,
+    "bytes": 24323
+  },
+  {
+    "path": "img/weather/Flower_01.png",
+    "width": 18,
+    "height": 18,
+    "bytes": 18192
+  },
+  {
+    "path": "img/weather/Leaf_01A.png",
+    "width": 18,
+    "height": 18,
+    "bytes": 17773
+  },
+  {
+    "path": "img/weather/Leaf_01B.png",
+    "width": 18,
+    "height": 18,
+    "bytes": 17771
+  },
+  {
+    "path": "img/weather/Leaf_02A.png",
+    "width": 24,
+    "height": 24,
+    "bytes": 3423
+  },
+  {
+    "path": "img/weather/Leaf_02B.png",
+    "width": 32,
+    "height": 32,
+    "bytes": 19744
+  },
+  {
+    "path": "img/weather/Light_01A.png",
+    "width": 36,
+    "height": 36,
+    "bytes": 19393
+  },
+  {
+    "path": "img/weather/Light_01B.png",
+    "width": 36,
+    "height": 36,
+    "bytes": 19364
+  },
+  {
+    "path": "img/weather/Light_01C.png",
+    "width": 36,
+    "height": 36,
+    "bytes": 19944
+  },
+  {
+    "path": "img/weather/Light_02A.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 20943
+  },
+  {
+    "path": "img/weather/Light_02B.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 21288
+  },
+  {
+    "path": "img/weather/Misc_01.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 20950
+  },
+  {
+    "path": "img/weather/Misc_02.png",
+    "width": 35,
+    "height": 35,
+    "bytes": 19024
+  },
+  {
+    "path": "img/weather/Particles.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 23735
+  },
+  {
+    "path": "img/weather/Particles2.png",
+    "width": 64,
+    "height": 64,
+    "bytes": 23735
+  },
+  {
+    "path": "img/weather/Rain_01A.png",
+    "width": 18,
+    "height": 36,
+    "bytes": 18367
+  },
+  {
+    "path": "img/weather/Rain_01B.png",
+    "width": 18,
+    "height": 36,
+    "bytes": 18994
+  },
+  {
+    "path": "img/weather/Rain_02.png",
+    "width": 3,
+    "height": 45,
+    "bytes": 17256
+  },
+  {
+    "path": "img/weather/Rain_03.png",
+    "width": 36,
+    "height": 72,
+    "bytes": 22658
+  },
+  {
+    "path": "img/weather/Snow_01.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 21343
+  },
+  {
+    "path": "img/weather/Snow_02.png",
+    "width": 36,
+    "height": 36,
+    "bytes": 20514
+  },
+  {
+    "path": "img/weather/Wind_01.png",
+    "width": 161,
+    "height": 3,
+    "bytes": 17927
+  },
+  {
+    "path": "img/sv_enemies/custodians/Clap.png",
+    "width": 1347,
+    "height": 1167,
+    "bytes": 2171232
+  },
+  {
+    "path": "img/sv_enemies/custodians/Compliance.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2441539
+  },
+  {
+    "path": "img/sv_enemies/custodians/Duke.png",
+    "width": 1342,
+    "height": 1172,
+    "bytes": 2321867
+  },
+  {
+    "path": "img/sv_enemies/custodians/REM.png",
+    "width": 1142,
+    "height": 1377,
+    "bytes": 2096444
+  },
+  {
+    "path": "img/sv_enemies/custodians/Septic.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2371878
+  },
+  {
+    "path": "img/sv_enemies/custodians/Widow.png",
+    "width": 1374,
+    "height": 1145,
+    "bytes": 2124274
+  },
+  {
+    "path": "img/SumRndmDde/summon/dozersmall.png",
+    "width": 200,
+    "height": 192,
+    "bytes": 31209
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_backs/CurvedBack.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 18312
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_backs/DotsBack.png",
+    "width": 66,
+    "height": 20,
+    "bytes": 19962
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_backs/MiniBack.png",
+    "width": 180,
+    "height": 10,
+    "bytes": 17793
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_backs/SimpleBack.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 17755
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/CurvedBlue.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 18293
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/CurvedGreen.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 18312
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/CurvedRed.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 18242
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/DotsBlue.png",
+    "width": 66,
+    "height": 20,
+    "bytes": 19996
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/DotsGreen.png",
+    "width": 66,
+    "height": 20,
+    "bytes": 19993
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/DotsRed.png",
+    "width": 66,
+    "height": 20,
+    "bytes": 19990
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/MiniBlue.png",
+    "width": 180,
+    "height": 10,
+    "bytes": 17864
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/MiniGreen.png",
+    "width": 180,
+    "height": 10,
+    "bytes": 17865
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/MiniRed.png",
+    "width": 180,
+    "height": 10,
+    "bytes": 17828
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/SimpleBlue.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 17800
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/SimpleGreen.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 17800
+  },
+  {
+    "path": "img/SumRndmDde/hud/gauge_images/SimpleRed.png",
+    "width": 180,
+    "height": 20,
+    "bytes": 17795
+  },
+  {
+    "path": "img/SumRndmDde/hud/numbers/BlueNumbers.png",
+    "width": 240,
+    "height": 32,
+    "bytes": 23955
+  },
+  {
+    "path": "img/SumRndmDde/hud/numbers/GreenNumbers.png",
+    "width": 240,
+    "height": 32,
+    "bytes": 23950
+  },
+  {
+    "path": "img/SumRndmDde/hud/numbers/WhiteNumbers.png",
+    "width": 240,
+    "height": 32,
+    "bytes": 21654
+  },
+  {
+    "path": "img/SumRndmDde/hud/numbers/YellowNumbers.png",
+    "width": 240,
+    "height": 32,
+    "bytes": 23622
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Armor.png",
+    "width": 48,
+    "height": 34,
+    "bytes": 20503
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Chalkboard.png",
+    "width": 124,
+    "height": 76,
+    "bytes": 27919
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/ChalkCircle.png",
+    "width": 137,
+    "height": 129,
+    "bytes": 51313
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Currency.png",
+    "width": 48,
+    "height": 34,
+    "bytes": 20005
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/GiantRune.png",
+    "width": 110,
+    "height": 96,
+    "bytes": 39738
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Gold.png",
+    "width": 38,
+    "height": 43,
+    "bytes": 18718
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Hieroglyphs.png",
+    "width": 144,
+    "height": 46,
+    "bytes": 37933
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Magic.png",
+    "width": 48,
+    "height": 34,
+    "bytes": 20013
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/MagicCircle.png",
+    "width": 142,
+    "height": 135,
+    "bytes": 52878
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/MetalCarving.png",
+    "width": 144,
+    "height": 96,
+    "bytes": 39214
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Pipes.png",
+    "width": 110,
+    "height": 110,
+    "bytes": 34512
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/RailroadCircle.png",
+    "width": 91,
+    "height": 87,
+    "bytes": 31738
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Runes.png",
+    "width": 93,
+    "height": 88,
+    "bytes": 39220
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Silver.png",
+    "width": 37,
+    "height": 43,
+    "bytes": 18660
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/StainedGlass.png",
+    "width": 41,
+    "height": 57,
+    "bytes": 22595
+  },
+  {
+    "path": "img/SumRndmDde/hud/pictures/Weapon.png",
+    "width": 48,
+    "height": 34,
+    "bytes": 20131
+  },
+  {
+    "path": "img/enemies/custodians/Clap.png",
+    "width": 1347,
+    "height": 1167,
+    "bytes": 2171232
+  },
+  {
+    "path": "img/enemies/custodians/Compliance.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2441539
+  },
+  {
+    "path": "img/enemies/custodians/Duke.png",
+    "width": 1342,
+    "height": 1172,
+    "bytes": 2321867
+  },
+  {
+    "path": "img/enemies/custodians/REM.png",
+    "width": 1142,
+    "height": 1377,
+    "bytes": 2096444
+  },
+  {
+    "path": "img/enemies/custodians/Septic.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2371878
+  },
+  {
+    "path": "img/enemies/custodians/Widow.png",
+    "width": 1374,
+    "height": 1145,
+    "bytes": 2124274
+  },
+  {
+    "path": "img/bosses/custodians/Clap-poses.png",
+    "width": 1347,
+    "height": 1168,
+    "bytes": 2646689
+  },
+  {
+    "path": "img/bosses/custodians/Clap.png",
+    "width": 1347,
+    "height": 1167,
+    "bytes": 2171232
+  },
+  {
+    "path": "img/bosses/custodians/Compliance-poses.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2543919
+  },
+  {
+    "path": "img/bosses/custodians/Compliance.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2441539
+  },
+  {
+    "path": "img/bosses/custodians/Duke-poses.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2762867
+  },
+  {
+    "path": "img/bosses/custodians/Duke.png",
+    "width": 1342,
+    "height": 1172,
+    "bytes": 2321867
+  },
+  {
+    "path": "img/bosses/custodians/REM-poses.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2187553
+  },
+  {
+    "path": "img/bosses/custodians/REM.png",
+    "width": 1142,
+    "height": 1377,
+    "bytes": 2096444
+  },
+  {
+    "path": "img/bosses/custodians/Septic-idle-corrected.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2399754
+  },
+  {
+    "path": "img/bosses/custodians/Septic-poses.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2541952
+  },
+  {
+    "path": "img/bosses/custodians/Septic.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 2371878
+  },
+  {
+    "path": "img/bosses/custodians/Widow.png",
+    "width": 1374,
+    "height": 1145,
+    "bytes": 2124274
+  },
+  {
+    "path": "img/bosses/main/Underwriter.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2935814
+  },
+  {
+    "path": "img/bosses/main/UnderwriterDefeat.png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1475136
+  },
+  {
+    "path": "img/bosses/poop-v2/poop-blink.png",
+    "width": 1426,
+    "height": 1103,
+    "bytes": 742562
+  },
+  {
+    "path": "img/bosses/poop-v2/poop-master.png",
+    "width": 1426,
+    "height": 1103,
+    "bytes": 729948
+  },
+  {
+    "path": "img/bosses/poop-v2/turd-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 937240
+  },
+  {
+    "path": "img/bosses/remaining-v2/drone-master.png",
+    "width": 1426,
+    "height": 1103,
+    "bytes": 970726
+  },
+  {
+    "path": "img/bosses/remaining-v2/seam-cloth-master-v4.png",
+    "width": 1462,
+    "height": 1076,
+    "bytes": 1776050
+  },
+  {
+    "path": "img/bosses/remaining-v2/seam-cloth.png",
+    "width": 1983,
+    "height": 793,
+    "bytes": 445358
+  },
+  {
+    "path": "img/bosses/remaining-v2/seam-cycle-v5.png",
+    "width": 1462,
+    "height": 1076,
+    "bytes": 2055015
+  },
+  {
+    "path": "img/bosses/remaining-v2/seam-master.png",
+    "width": 1462,
+    "height": 1076,
+    "bytes": 1818373
+  },
+  {
+    "path": "img/bosses/remaining-v2/seam-press-v3.png",
+    "width": 1462,
+    "height": 1076,
+    "bytes": 1939128
+  },
+  {
+    "path": "img/bosses/remaining-v2/spider-master.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1872151
+  }
+]

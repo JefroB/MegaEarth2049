@@ -1,0 +1,9 @@
+{
+  "js/plugins/ME_Boss.js": "028c3ae8f8147218ad73fe8f804a8dc199710334edbf0955b6045ad07760d364",
+  "js/plugins/ME_PoopSprites.js": "9300d75f9fdce80fbd1e70a375028839fbdf06bd8e08345169af460ad3cd4e11",
+  "img/sv_actors/punkBoss1.png": "556fdb3e9f096242092dc8fa2edb8c25f94c0d01436ad8f5eab6d4428ca6f544",
+  "img/bosses/RepossessorNormal.png": "ca7fe959da30e2a28961500edfa3a24a932b7d69d3c56a8cb1988acd73aa8b80",
+  "img/bosses/RepossessorDamaged.png": "c4ddaf7f8a0d13052a34a4f24134713fb2ce608b057d395ad8e26aae048849cb",
+  "img/bosses/poop-v2/poop-master.png": "ab27f518efd4a82aed3d336647f0045c7fcf93e860a02b40d90cbd2fb6d62996",
+  "img/bosses/poop-v2/turd-master.png": "9ba39a4e9203fef0cab1020b02e14bc547ad00177b6868317e35e7e777e13380"
+}

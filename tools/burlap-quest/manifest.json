@@ -1,0 +1,23 @@
+{
+  "armors": [
+    65,
+    66,
+    67
+  ],
+  "icons": [
+    2101,
+    2102,
+    2103
+  ],
+  "researcher": [
+    10,
+    11
+  ],
+  "shop": [
+    2,
+    23
+  ],
+  "completion": "Self switches [10,11,B] and [10,13,B]",
+  "reward": "Choice of one garment +150 Credits once; clothing shop unlocked",
+  "battle": "Troop52 unchanged"
+}

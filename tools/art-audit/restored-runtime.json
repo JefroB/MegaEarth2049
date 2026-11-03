@@ -1,0 +1,1850 @@
+[
+  {
+    "id": 1,
+    "name": "Doll",
+    "sv": false,
+    "url": "img/sv_enemies/SF_Doll.png",
+    "width": 171,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 171,
+      "height": 184,
+      "type": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bat",
+    "sv": false,
+    "url": "img/sv_actors/bat260403995.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 3,
+    "name": "Thug",
+    "sv": false,
+    "url": "img/sv_actors/thug.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mutant Plant",
+    "sv": false,
+    "url": "img/sv_actors/plant-default_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Parasite",
+    "sv": false,
+    "url": "img/sv_enemies/SF_Parasite.png",
+    "width": 231,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 231,
+      "height": 166,
+      "type": 1
+    }
+  },
+  {
+    "id": 6,
+    "name": "Gas Man",
+    "sv": false,
+    "url": "img/sv_actors/gasman.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 7,
+    "name": "Soldier",
+    "sv": false,
+    "url": "img/sv_enemies/colonial-soldier.png",
+    "width": 118,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 118,
+      "height": 178,
+      "type": 1
+    }
+  },
+  {
+    "id": 8,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_enemies/colonial-soldier.png",
+    "width": 118,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 118,
+      "height": 178,
+      "type": 1
+    }
+  },
+  {
+    "id": 9,
+    "name": "Grafitti Artist",
+    "sv": false,
+    "url": "img/sv_enemies/SF_Thug.png",
+    "width": 245,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 245,
+      "height": 331,
+      "type": 1
+    }
+  },
+  {
+    "id": 10,
+    "name": "Trash Octopus",
+    "sv": false,
+    "url": "img/sv_enemies/mod_mimic_03.png",
+    "width": 145,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 145,
+      "height": 181,
+      "type": 1
+    }
+  },
+  {
+    "id": 11,
+    "name": "Octonasty",
+    "sv": false,
+    "url": "img/sv_enemies/mod_mimic_03.png",
+    "width": 145,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 145,
+      "height": 181,
+      "type": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Green Ninja",
+    "sv": false,
+    "url": "img/sv_actors/greenninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 13,
+    "name": "Pink Ninja",
+    "sv": false,
+    "url": "img/sv_actors/pinkninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 14,
+    "name": "Brown Ninja",
+    "sv": false,
+    "url": "img/sv_actors/brownninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 15,
+    "name": "Blue Ninja",
+    "sv": false,
+    "url": "img/sv_actors/blueninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 16,
+    "name": "Red Ninja",
+    "sv": false,
+    "url": "img/sv_actors/redninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 17,
+    "name": "Purple Ninja",
+    "sv": false,
+    "url": "img/sv_actors/purpleninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 18,
+    "name": "Ninja",
+    "sv": false,
+    "url": "img/sv_actors/blackninja.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 19,
+    "name": "Halucination",
+    "sv": false,
+    "url": "img/sv_enemies/Death.png",
+    "width": 398,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 398,
+      "height": 426,
+      "type": 1
+    }
+  },
+  {
+    "id": 20,
+    "name": "Earth Sprite",
+    "sv": false,
+    "url": "img/sv_enemies/Earthspirit.png",
+    "width": 122,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 122,
+      "height": 154,
+      "type": 1
+    }
+  },
+  {
+    "id": 21,
+    "name": "Fire Sprite",
+    "sv": false,
+    "url": "img/sv_enemies/Firespirit.png",
+    "width": 116,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 116,
+      "height": 174,
+      "type": 1
+    }
+  },
+  {
+    "id": 22,
+    "name": "Wind Sprite",
+    "sv": false,
+    "url": "img/sv_enemies/Windspirit.png",
+    "width": 144,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 144,
+      "height": 150,
+      "type": 1
+    }
+  },
+  {
+    "id": 23,
+    "name": "Water Sprite",
+    "sv": false,
+    "url": "img/sv_enemies/Waterspirit.png",
+    "width": 145,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 145,
+      "height": 150,
+      "type": 1
+    }
+  },
+  {
+    "id": 24,
+    "name": "Puppet",
+    "sv": false,
+    "url": "img/sv_enemies/Puppet.png",
+    "width": 165,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 165,
+      "height": 178,
+      "type": 1
+    }
+  },
+  {
+    "id": 25,
+    "name": "Punk1",
+    "sv": false,
+    "url": "img/sv_actors/punk1.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 26,
+    "name": "Punk2",
+    "sv": false,
+    "url": "img/sv_actors/punk2.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 27,
+    "name": "Punk3",
+    "sv": false,
+    "url": "img/sv_actors/punk3.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 28,
+    "name": "Punk4",
+    "sv": false,
+    "url": "img/sv_actors/punk4.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 29,
+    "name": "Punk5",
+    "sv": false,
+    "url": "img/sv_actors/punk5.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 30,
+    "name": "Punk6",
+    "sv": false,
+    "url": "img/sv_actors/punk6.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 31,
+    "name": "Punk7",
+    "sv": false,
+    "url": "img/sv_actors/punk1.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 32,
+    "name": "Rat",
+    "sv": false,
+    "url": "img/sv_actors/rat657494608.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 33,
+    "name": "Grey Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-grey-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 34,
+    "name": "Blue Slime",
+    "sv": false,
+    "url": "img/sv_actors/Slime518641091.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 35,
+    "name": "Red Slime",
+    "sv": false,
+    "url": "img/sv_actors/Slime630683762.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 36,
+    "name": "Tar",
+    "sv": false,
+    "url": "img/sv_actors/Slime767690166.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 37,
+    "name": "Purple Slime",
+    "sv": false,
+    "url": "img/sv_actors/Slime966520927.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 38,
+    "name": "White Goo",
+    "sv": false,
+    "url": "img/sv_actors/Slime112319373.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 39,
+    "name": "Alien",
+    "sv": false,
+    "url": "img/sv_actors/Alien210143_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 40,
+    "name": "Blue Alien",
+    "sv": false,
+    "url": "img/sv_actors/Alien357178_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 41,
+    "name": "Young Alien",
+    "sv": false,
+    "url": "img/sv_actors/Alien7137221_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 42,
+    "name": "Cockatrice",
+    "sv": false,
+    "url": "img/sv_actors/cockatrice115023772.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 43,
+    "name": "Yellow Cockatrice",
+    "sv": false,
+    "url": "img/sv_actors/cockatrice155586115.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 44,
+    "name": "White Cockatrice",
+    "sv": false,
+    "url": "img/sv_actors/cockatrice259886913.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 45,
+    "name": "Black Cockatrice",
+    "sv": false,
+    "url": "img/sv_actors/cockatrice446945148.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 46,
+    "name": "Blue Cockatrice",
+    "sv": false,
+    "url": "img/sv_actors/cockatrice756463860.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 47,
+    "name": "Drone",
+    "sv": false,
+    "url": "img/sv_actors/Drone108499806.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 48,
+    "name": "Military Drone",
+    "sv": false,
+    "url": "img/sv_actors/Drone285035104.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 49,
+    "name": "Stealth Drone",
+    "sv": false,
+    "url": "img/sv_actors/Drone544904500.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 50,
+    "name": "Fancy Drone",
+    "sv": false,
+    "url": "img/sv_actors/Drone579342351.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 51,
+    "name": "Armored Drone",
+    "sv": false,
+    "url": "img/sv_actors/Drone924648649.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 52,
+    "name": "Black Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-black-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 53,
+    "name": "Brown Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-brown-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 54,
+    "name": "red Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-red-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 55,
+    "name": "Tawny Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-tawny-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 56,
+    "name": "White Wolf",
+    "sv": false,
+    "url": "img/sv_actors/wolf-white-sv_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 57,
+    "name": "Snake",
+    "sv": false,
+    "url": "img/sv_actors/snake-hornless_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 58,
+    "name": "Black Snake",
+    "sv": false,
+    "url": "img/sv_actors/snake-black-red_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 59,
+    "name": "White Snake",
+    "sv": false,
+    "url": "img/sv_actors/snake-black-white_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 60,
+    "name": "Garden Snake",
+    "sv": false,
+    "url": "img/sv_actors/snake-green_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 61,
+    "name": "Coral Snake",
+    "sv": false,
+    "url": "img/sv_actors/snake-orange-yellow_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 62,
+    "name": "Ogre",
+    "sv": false,
+    "url": "img/sv_actors/ogre-default_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 63,
+    "name": "Black Ogre",
+    "sv": false,
+    "url": "img/sv_actors/ogre-black_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 64,
+    "name": "Gold Ogre",
+    "sv": false,
+    "url": "img/sv_actors/ogre-gold_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 65,
+    "name": "Green Ogre",
+    "sv": false,
+    "url": "img/sv_actors/ogre-green_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 66,
+    "name": "red Ogre",
+    "sv": false,
+    "url": "img/sv_actors/ogre-red_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 67,
+    "name": "Thug",
+    "sv": false,
+    "url": "img/sv_actors/robber.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 68,
+    "name": "Orange Rooster",
+    "sv": false,
+    "url": "img/sv_actors/Rooster149380371.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 69,
+    "name": "Black Rooster",
+    "sv": false,
+    "url": "img/sv_actors/Rooster363225764_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 70,
+    "name": "Yellow Rooster",
+    "sv": false,
+    "url": "img/sv_actors/Rooster149380371.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 71,
+    "name": "White Rooster",
+    "sv": false,
+    "url": "img/sv_actors/Rooster447517918_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 72,
+    "name": "Grey Rooster",
+    "sv": false,
+    "url": "img/sv_actors/Rooster898196553.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 73,
+    "name": "Yellow Scorpion",
+    "sv": false,
+    "url": "img/sv_actors/Scorpion204715142.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 74,
+    "name": "Black Scorpion",
+    "sv": false,
+    "url": "img/sv_actors/Scorpion637723660.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 75,
+    "name": "Purple Scorpion",
+    "sv": false,
+    "url": "img/sv_actors/Scorpion564165695.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 76,
+    "name": "Blue Scorpion",
+    "sv": false,
+    "url": "img/sv_actors/Scorpion518206421_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 77,
+    "name": "Fire Scorpion",
+    "sv": false,
+    "url": "img/sv_actors/Scorpion462545871_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 78,
+    "name": "Giant Spider",
+    "sv": false,
+    "url": "",
+    "width": 200,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 115,
+      "type": 1
+    }
+  },
+  {
+    "id": 79,
+    "name": "Brown Recluse",
+    "sv": false,
+    "url": "",
+    "width": 190,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 190,
+      "height": 105,
+      "type": 1
+    }
+  },
+  {
+    "id": 80,
+    "name": "Huge Spider",
+    "sv": false,
+    "url": "",
+    "width": 210,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 210,
+      "height": 125,
+      "type": 1
+    }
+  },
+  {
+    "id": 81,
+    "name": "Massive Spider",
+    "sv": false,
+    "url": "",
+    "width": 230,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 230,
+      "height": 135,
+      "type": 1
+    }
+  },
+  {
+    "id": 82,
+    "name": "Icky Spider",
+    "sv": false,
+    "url": "",
+    "width": 200,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 115,
+      "type": 1
+    }
+  },
+  {
+    "id": 83,
+    "name": "Orange Fox",
+    "sv": false,
+    "url": "img/sv_actors/fox-orange_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 84,
+    "name": "Sandy Fox",
+    "sv": false,
+    "url": "img/sv_actors/fox-sandy_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 85,
+    "name": "Red Fox",
+    "sv": false,
+    "url": "img/sv_actors/fox-red_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 86,
+    "name": "Silver Fox",
+    "sv": false,
+    "url": "img/sv_actors/fox-silver_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 87,
+    "name": "White Fox",
+    "sv": false,
+    "url": "img/sv_actors/fox-white_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 88,
+    "name": "Bumble Bee",
+    "sv": false,
+    "url": "img/sv_actors/hornet282287884.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 89,
+    "name": "Soldier Bee",
+    "sv": false,
+    "url": "img/sv_actors/hornet458985464.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 90,
+    "name": "Bee",
+    "sv": false,
+    "url": "img/sv_actors/hornet467842573.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 91,
+    "name": "Worker Bee",
+    "sv": false,
+    "url": "img/sv_actors/hornet733005933.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 92,
+    "name": "Hornet",
+    "sv": false,
+    "url": "img/sv_actors/hornet842594948_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 93,
+    "name": "Mutant House Plant",
+    "sv": false,
+    "url": "img/sv_actors/plant-green_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 94,
+    "name": "Flowering Plant",
+    "sv": false,
+    "url": "img/sv_actors/plant-red_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 95,
+    "name": "Winter Plant",
+    "sv": false,
+    "url": "img/sv_actors/plant-white_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 96,
+    "name": "Wilted Plant",
+    "sv": false,
+    "url": "img/sv_actors/plant-wilted_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 97,
+    "name": "Mouse",
+    "sv": false,
+    "url": "img/sv_actors/rat410648364_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 98,
+    "name": "Sewer Rat",
+    "sv": false,
+    "url": "img/sv_actors/rat648556256.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 99,
+    "name": "Field Mouse",
+    "sv": false,
+    "url": "img/sv_actors/rat861565115.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 100,
+    "name": "Lab Rat",
+    "sv": false,
+    "url": "img/sv_actors/rat960466383.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 101,
+    "name": "Firefox",
+    "sv": false,
+    "url": "img/sv_actors/3-tailed-fox-fire_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 102,
+    "name": "Hellspawn Fox",
+    "sv": false,
+    "url": "img/sv_actors/3-tailed-fox-hellspawn_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 103,
+    "name": "Arctic Fox",
+    "sv": false,
+    "url": "img/sv_actors/3-tailed-fox-ice_1_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 104,
+    "name": "Three Tailed Fox",
+    "sv": false,
+    "url": "img/sv_actors/3-tailed-fox-normal_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 105,
+    "name": "Nocturnal Fox",
+    "sv": false,
+    "url": "img/sv_actors/3-tailed-fox-spirit_orig.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 106,
+    "name": "Guardian",
+    "sv": false,
+    "url": "img/sv_actors/dark_lord__b_w_.png",
+    "width": 1728,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 192,
+      "height": 192,
+      "type": 1
+    }
+  },
+  {
+    "id": 107,
+    "name": "Ice Guardian",
+    "sv": false,
+    "url": "img/sv_actors/dark_lord__b_w_.png",
+    "width": 1728,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 192,
+      "height": 192,
+      "type": 1
+    }
+  },
+  {
+    "id": 108,
+    "name": "Golden Guardian",
+    "sv": false,
+    "url": "img/sv_actors/dark_lord__gold_.png",
+    "width": 1728,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 192,
+      "height": 192,
+      "type": 1
+    }
+  },
+  {
+    "id": 109,
+    "name": "Green Guardian",
+    "sv": false,
+    "url": "img/sv_actors/dark_lord__green_.png",
+    "width": 1728,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 192,
+      "height": 192,
+      "type": 1
+    }
+  },
+  {
+    "id": 110,
+    "name": "Advanced Protection Type 1",
+    "sv": false,
+    "url": "img/sv_actors/demon-default_1_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 111,
+    "name": "Advanced Protection Type 2",
+    "sv": false,
+    "url": "img/sv_actors/demon-blue_1_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 112,
+    "name": "Advanced Protection Type 3",
+    "sv": false,
+    "url": "img/sv_actors/demon-brown_1_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 113,
+    "name": "Advanced Protection Type 4",
+    "sv": false,
+    "url": "img/sv_actors/demon-red_1_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 114,
+    "name": "Advanced Protection Type 1",
+    "sv": false,
+    "url": "img/sv_actors/demon-white_1_orig.png",
+    "width": 1152,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "type": 1
+    }
+  },
+  {
+    "id": 115,
+    "name": "Poopoo Caca",
+    "sv": false,
+    "url": "",
+    "width": 320,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 260,
+      "type": 1
+    }
+  },
+  {
+    "id": 116,
+    "name": "Crap",
+    "sv": false,
+    "url": "",
+    "width": 320,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 260,
+      "type": 1
+    }
+  },
+  {
+    "id": 117,
+    "name": "PunkBoss",
+    "sv": false,
+    "url": "img/sv_actors/punkBoss1.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 118,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_actors/Soldier13.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 119,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_actors/Soldier12.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 120,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_actors/Soldier11.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 121,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_actors/Soldier10.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 122,
+    "name": "Foot Soldier",
+    "sv": false,
+    "url": "img/sv_actors/Soldier9.png",
+    "width": 576,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "type": 1
+    }
+  },
+  {
+    "id": 142,
+    "name": "The Repossessor",
+    "sv": false,
+    "url": "img/bosses/RepossessorNormal.png",
+    "width": 1254,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 660,
+      "height": 627,
+      "type": 1
+    }
+  },
+  {
+    "id": 143,
+    "name": "SEAM-3000",
+    "sv": false,
+    "url": "",
+    "width": 360,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 185,
+      "type": 1
+    }
+  },
+  {
+    "id": 144,
+    "name": "Malfunctioning A.S.P. Drone",
+    "sv": false,
+    "url": "",
+    "width": 260,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 190,
+      "type": 1
+    }
+  },
+  {
+    "id": 145,
+    "name": "Chief Compliance Orifice",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 146,
+    "name": "The Deductible Duke",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 147,
+    "name": "Postmaster Septic",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 148,
+    "name": "Admiral Clap",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 149,
+    "name": "The REMployee of the Month",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 150,
+    "name": "The Ticket Widow",
+    "sv": false,
+    "url": "",
+    "width": 380,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 280,
+      "type": 1
+    }
+  },
+  {
+    "id": 151,
+    "name": "The Underwriter",
+    "sv": false,
+    "url": "",
+    "width": 420,
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 310,
+      "type": 1
+    }
+  }
+]

@@ -1,0 +1,47 @@
+# MegaEarth2049 Map Events Counter
+# This script counts events in RPG Maker MV map files
+
+# Function to count events in a map file
+function Count-MapEvents {
+    param (
+        [string]$mapFile
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Counting events in map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Count non-null events
+        $eventCount = 0
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+            }
+        }
+        
+        # Display the count
+        Write-Host "Map $mapId has $eventCount events." -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error counting events in map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Main script execution
+# Example usage:
+# Count events in a map:
+# Count-MapEvents -mapFile "data/Map001.json"

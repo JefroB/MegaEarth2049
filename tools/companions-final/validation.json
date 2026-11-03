@@ -1,0 +1,532 @@
+{
+  "passed": true,
+  "checks": [
+    "leaving contact never recruits 5",
+    "first credential gates invitation 5",
+    "invitation can be declined 5",
+    "chapter requires explicit recruitment 5",
+    "unrecruited actor cannot pass task 5",
+    "native invitation adds exactly one actor 5",
+    "repeat invitation never reinitializes actor 5",
+    "reserve companion cannot accept 5",
+    "unconscious companion cannot accept 5",
+    "chapter can be declined 5",
+    "chapter accepts after invitation and Formation 5",
+    "second task cannot skip first 5",
+    "wrong first answer is free 5",
+    "leaving and save retain first task 5",
+    "wrong second answer preserves first task 5",
+    "two tasks ready for resolution 5",
+    "tasks preserve earlier flags and inventory 5",
+    "final choice may be postponed 5",
+    "full reward capacity records alternate outcome but defers payment 5",
+    "pending resolution cannot be silently changed 5",
+    "native reward pays exact personal EXP 5",
+    "other companions gain no EXP 5",
+    "exact item or Credit reward 5",
+    "save/revisit cannot duplicate payment 5",
+    "chapter never changes prior campaign gates 5",
+    "Completion Log reflects exact alternate resolution 5",
+    "final decision requires present companion 5",
+    "normal outcome and reward work 5",
+    "normal outcome persists in log 5",
+    "leaving contact never recruits 6",
+    "first credential gates invitation 6",
+    "invitation can be declined 6",
+    "chapter requires explicit recruitment 6",
+    "unrecruited actor cannot pass task 6",
+    "native invitation adds exactly one actor 6",
+    "repeat invitation never reinitializes actor 6",
+    "reserve companion cannot accept 6",
+    "unconscious companion cannot accept 6",
+    "chapter can be declined 6",
+    "chapter accepts after invitation and Formation 6",
+    "second task cannot skip first 6",
+    "wrong first answer is free 6",
+    "leaving and save retain first task 6",
+    "wrong second answer preserves first task 6",
+    "two tasks ready for resolution 6",
+    "tasks preserve earlier flags and inventory 6",
+    "final choice may be postponed 6",
+    "full reward capacity records alternate outcome but defers payment 6",
+    "pending resolution cannot be silently changed 6",
+    "native reward pays exact personal EXP 6",
+    "other companions gain no EXP 6",
+    "exact item or Credit reward 6",
+    "save/revisit cannot duplicate payment 6",
+    "chapter never changes prior campaign gates 6",
+    "Completion Log reflects exact alternate resolution 6",
+    "final decision requires present companion 6",
+    "normal outcome and reward work 6",
+    "normal outcome persists in log 6",
+    "leaving contact never recruits 8",
+    "invitation can be declined 8",
+    "chapter requires explicit recruitment 8",
+    "unrecruited actor cannot pass task 8",
+    "native invitation adds exactly one actor 8",
+    "repeat invitation never reinitializes actor 8",
+    "reserve companion cannot accept 8",
+    "unconscious companion cannot accept 8",
+    "chapter can be declined 8",
+    "chapter accepts after invitation and Formation 8",
+    "second task cannot skip first 8",
+    "wrong first answer is free 8",
+    "leaving and save retain first task 8",
+    "wrong second answer preserves first task 8",
+    "two tasks ready for resolution 8",
+    "tasks preserve earlier flags and inventory 8",
+    "final choice may be postponed 8",
+    "full reward capacity records alternate outcome but defers payment 8",
+    "pending resolution cannot be silently changed 8",
+    "native reward pays exact personal EXP 8",
+    "other companions gain no EXP 8",
+    "exact item or Credit reward 8",
+    "save/revisit cannot duplicate payment 8",
+    "chapter never changes prior campaign gates 8",
+    "Completion Log reflects exact alternate resolution 8",
+    "final decision requires present companion 8",
+    "normal outcome and reward work 8",
+    "normal outcome persists in log 8",
+    "leaving contact never recruits 9",
+    "invitation can be declined 9",
+    "chapter requires explicit recruitment 9",
+    "unrecruited actor cannot pass task 9",
+    "native invitation adds exactly one actor 9",
+    "repeat invitation never reinitializes actor 9",
+    "reserve companion cannot accept 9",
+    "unconscious companion cannot accept 9",
+    "chapter can be declined 9",
+    "chapter accepts after invitation and Formation 9",
+    "second task cannot skip first 9",
+    "wrong first answer is free 9",
+    "leaving and save retain first task 9",
+    "wrong second answer preserves first task 9",
+    "two tasks ready for resolution 9",
+    "tasks preserve earlier flags and inventory 9",
+    "final choice may be postponed 9",
+    "full reward capacity records alternate outcome but defers payment 9",
+    "pending resolution cannot be silently changed 9",
+    "native reward pays exact personal EXP 9",
+    "other companions gain no EXP 9",
+    "exact item or Credit reward 9",
+    "save/revisit cannot duplicate payment 9",
+    "chapter never changes prior campaign gates 9",
+    "Completion Log reflects exact alternate resolution 9",
+    "final decision requires present companion 9",
+    "normal outcome and reward work 9",
+    "normal outcome persists in log 9",
+    "leaving contact never recruits 10",
+    "invitation can be declined 10",
+    "chapter requires explicit recruitment 10",
+    "unrecruited actor cannot pass task 10",
+    "native invitation adds exactly one actor 10",
+    "repeat invitation never reinitializes actor 10",
+    "reserve companion cannot accept 10",
+    "unconscious companion cannot accept 10",
+    "chapter can be declined 10",
+    "chapter accepts after invitation and Formation 10",
+    "second task cannot skip first 10",
+    "wrong first answer is free 10",
+    "leaving and save retain first task 10",
+    "wrong second answer preserves first task 10",
+    "two tasks ready for resolution 10",
+    "tasks preserve earlier flags and inventory 10",
+    "final choice may be postponed 10",
+    "full reward capacity records alternate outcome but defers payment 10",
+    "pending resolution cannot be silently changed 10",
+    "native reward pays exact personal EXP 10",
+    "other companions gain no EXP 10",
+    "exact item or Credit reward 10",
+    "save/revisit cannot duplicate payment 10",
+    "chapter never changes prior campaign gates 10",
+    "Completion Log reflects exact alternate resolution 10",
+    "final decision requires present companion 10",
+    "normal outcome and reward work 10",
+    "normal outcome persists in log 10",
+    "new game starting party is unchanged",
+    "38 optional activities and25 projects tracked",
+    "antagonist-only A.S.P. actors never recruited",
+    "chapter contact reachable from map entry 8/5",
+    "chapter contact reachable from map entry 8/4",
+    "chapter contact reachable from map entry 9/6",
+    "chapter contact reachable from map entry 9/7",
+    "chapter contact reachable from map entry 10/18",
+    "chapter contact reachable from map entry 10/17",
+    "chapter contact reachable from map entry 15/30",
+    "chapter contact reachable from map entry 50/3",
+    "chapter contact reachable from map entry 52/3",
+    "chapter contact reachable from map entry 54/3",
+    "chapter contact reachable from map entry 245/7",
+    "chapter contact reachable from map entry 246/22",
+    "chapter contact reachable from map entry 247/2",
+    "chapter contact reachable from map entry 247/4",
+    "chapter contact reachable from map entry 248/6",
+    "all new messages fit actual font and four-line native window",
+    "live native invitation, two task windows and resolution/reward fixedPoint",
+    "live native invitation, two task windows and resolution/reward standDown",
+    "live native invitation, two task windows and resolution/reward ownFuse",
+    "live native invitation, two task windows and resolution/reward notFreight",
+    "live native invitation, two task windows and resolution/reward emptyHeist"
+  ],
+  "geometry": [
+    {
+      "chapter": "fixedPoint",
+      "task": 0,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 311.25,
+          "y": 300,
+          "w": 504.75,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "fixedPoint",
+      "task": 1,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 342.75,
+          "y": 300,
+          "w": 473.25,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "standDown",
+      "task": 0,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 264,
+          "y": 300,
+          "w": 552,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "standDown",
+      "task": 1,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 311.25,
+          "y": 300,
+          "w": 504.75,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "ownFuse",
+      "task": 0,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 342.75,
+          "y": 300,
+          "w": 473.25,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "ownFuse",
+      "task": 1,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 374.25,
+          "y": 300,
+          "w": 441.75,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "notFreight",
+      "task": 0,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 264,
+          "y": 300,
+          "w": 552,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "notFreight",
+      "task": 1,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 342.75,
+          "y": 300,
+          "w": 473.25,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "emptyHeist",
+      "task": 0,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 358.5,
+          "y": 300,
+          "w": 457.5,
+          "h": 144
+        }
+      ]
+    },
+    {
+      "chapter": "emptyHeist",
+      "task": 1,
+      "rects": [
+        {
+          "x": 0,
+          "y": 444,
+          "w": 816,
+          "h": 180
+        },
+        {
+          "x": 279.75,
+          "y": 300,
+          "w": 536.25,
+          "h": 144
+        }
+      ]
+    }
+  ],
+  "walking": [
+    {
+      "map": 245,
+      "event": 7,
+      "x": 4,
+      "y": 9,
+      "steps": 9
+    },
+    {
+      "map": 245,
+      "event": 7,
+      "x": 4,
+      "y": 9,
+      "steps": 0
+    },
+    {
+      "map": 246,
+      "event": 22,
+      "x": 6,
+      "y": 11,
+      "steps": 2
+    },
+    {
+      "map": 9,
+      "event": 6,
+      "x": 12,
+      "y": 13,
+      "steps": 7
+    },
+    {
+      "map": 245,
+      "event": 7,
+      "x": 4,
+      "y": 9,
+      "steps": 9
+    },
+    {
+      "map": 247,
+      "event": 2,
+      "x": 10,
+      "y": 5,
+      "steps": 7
+    },
+    {
+      "map": 247,
+      "event": 2,
+      "x": 10,
+      "y": 5,
+      "steps": 0
+    },
+    {
+      "map": 247,
+      "event": 4,
+      "x": 5,
+      "y": 10,
+      "steps": 7
+    },
+    {
+      "map": 248,
+      "event": 6,
+      "x": 14,
+      "y": 10,
+      "steps": 4
+    },
+    {
+      "map": 247,
+      "event": 2,
+      "x": 10,
+      "y": 5,
+      "steps": 7
+    },
+    {
+      "map": 10,
+      "event": 18,
+      "x": 3,
+      "y": 8,
+      "steps": 16
+    },
+    {
+      "map": 10,
+      "event": 18,
+      "x": 3,
+      "y": 8,
+      "steps": 0
+    },
+    {
+      "map": 15,
+      "event": 30,
+      "x": 3,
+      "y": 42,
+      "steps": 1
+    },
+    {
+      "map": 10,
+      "event": 17,
+      "x": 3,
+      "y": 9,
+      "steps": 15
+    },
+    {
+      "map": 10,
+      "event": 18,
+      "x": 3,
+      "y": 8,
+      "steps": 16
+    },
+    {
+      "map": 50,
+      "event": 3,
+      "x": 8,
+      "y": 7,
+      "steps": 2
+    },
+    {
+      "map": 50,
+      "event": 3,
+      "x": 8,
+      "y": 7,
+      "steps": 0
+    },
+    {
+      "map": 52,
+      "event": 3,
+      "x": 10,
+      "y": 8,
+      "steps": 4
+    },
+    {
+      "map": 54,
+      "event": 3,
+      "x": 10,
+      "y": 8,
+      "steps": 4
+    },
+    {
+      "map": 50,
+      "event": 3,
+      "x": 8,
+      "y": 7,
+      "steps": 2
+    },
+    {
+      "map": 8,
+      "event": 5,
+      "x": 5,
+      "y": 5,
+      "steps": 12
+    },
+    {
+      "map": 8,
+      "event": 5,
+      "x": 5,
+      "y": 5,
+      "steps": 0
+    },
+    {
+      "map": 9,
+      "event": 7,
+      "x": 7,
+      "y": 13,
+      "steps": 6
+    },
+    {
+      "map": 8,
+      "event": 4,
+      "x": 8,
+      "y": 5,
+      "steps": 3
+    },
+    {
+      "map": 8,
+      "event": 5,
+      "x": 5,
+      "y": 5,
+      "steps": 12
+    }
+  ],
+  "walkedSteps": 145,
+  "errors": []
+}

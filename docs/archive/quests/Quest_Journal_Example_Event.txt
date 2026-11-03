@@ -1,0 +1,194 @@
+# Quest Journal Example Event
+
+This file provides a practical example of how to implement the YEP_QuestJournal plugin in an actual game event. You can copy and adapt this event script for your own quests.
+
+## Example: Necklace Quest Implementation
+
+This example shows how to implement "The Mysterious Necklace" quest using the YEP_QuestJournal plugin. The event would be placed in the Timbuc Cellar map where the player finds the first necklace piece.
+
+```
+// Event Page 1: Quest Not Started
+Conditions: None
+Event Commands:
+- Show Text: "You notice something glinting in the corner of the cellar..."
+- Show Choices: ["Investigate", "Leave it alone"]
+- If "Investigate":
+  - Show Text: "You found a strange piece of what appears to be a necklace. It seems to be part of a larger artifact."
+  - Change Items: Add "Necklace Piece 1" to inventory
+  - Set Switch 11 ON (Necklace Piece 1 Found)
+  - Control Variables: Set Variable 20 to 1 (Necklace Pieces Found)
+  - Plugin Command: Quest Add 1
+  - Plugin Command: Quest SetObjective 1 1 complete
+  - Show Text: "The piece seems to resonate with your neural implant. There must be more pieces out there..."
+  - Set Switch 10 ON (Necklace Quest Active)
+- If "Leave it alone":
+  - Show Text: "You decide to leave it alone for now."
+
+// Event Page 2: Quest Started, First Piece Found
+Conditions: Switch 10 ON (Necklace Quest Active), Switch 11 ON (Necklace Piece 1 Found)
+Event Commands:
+- Show Text: "You've already found the necklace piece here. According to your neural implant's analysis, there should be more pieces elsewhere."
+```
+
+## Example: Engine Quest Implementation
+
+This example shows how to implement "The Engine Reconstruction" quest using the YEP_QuestJournal plugin. The event would be placed in Timbuc where the engineer NPC is located.
+
+```
+// Event Page 1: Quest Not Started
+Conditions: None
+Event Commands:
+- Show Text: "\\c[6]Engineer:\\c[0] Hey there! You look like someone who gets around. I've been working on a revolutionary engine design, but I'm missing some key components."
+- Show Choices: ["Offer to help", "Not interested"]
+- If "Offer to help":
+  - Show Text: "\\c[6]Engineer:\\c[0] Excellent! First, I need you to find the blueprint. It should be in the old archives in the Corporate District."
+  - Set Switch 20 ON (Engine Quest Active)
+  - Plugin Command: Quest Add 2
+  - Show Text: "\\c[6]Engineer:\\c[0] Once you have the blueprint, we can start looking for the components. This engine could revolutionize transportation in the wasteland!"
+- If "Not interested":
+  - Show Text: "\\c[6]Engineer:\\c[0] Well, if you change your mind, you know where to find me."
+
+// Event Page 2: Quest Active, Blueprint Not Found
+Conditions: Switch 20 ON (Engine Quest Active), Switch 21 OFF (Blueprint Found)
+Event Commands:
+- Show Text: "\\c[6]Engineer:\\c[0] Did you find the blueprint yet? It should be in the old archives in the Corporate District."
+
+// Event Page 3: Blueprint Found, Components Not Found
+Conditions: Switch 21 ON (Blueprint Found), Switch 25 OFF (All Components Found)
+Event Commands:
+- Show Text: "\\c[6]Engineer:\\c[0] Great job finding the blueprint! Now we need to find the components."
+- Conditional Branch: Switch 22 OFF (Component A Not Found)
+  - Show Text: "\\c[6]Engineer:\\c[0] Component A should be in the Junkyard. Look for a large metallic cylinder."
+- Conditional Branch: Switch 23 OFF (Component B Not Found)
+  - Show Text: "\\c[6]Engineer:\\c[0] Component B is likely in the Corporate District. It's a small circuit board with blue markings."
+- Conditional Branch: Switch 24 OFF (Component C Not Found)
+  - Show Text: "\\c[6]Engineer:\\c[0] Component C would be in the Abandoned Factory. It's a specialized power cell."
+- Conditional Branch: Switch 22 ON && Switch 23 ON && Switch 24 ON
+  - Show Text: "\\c[6]Engineer:\\c[0] You found all the components! Let's put this engine together!"
+  - Set Switch 25 ON (All Components Found)
+  - Plugin Command: Quest SetObjective 2 5 complete
+  - Change Items: Add "Advanced Engine" to inventory
+  - Show Text: "\\c[6]Engineer:\\c[0] It works! This engine will revolutionize transportation. As promised, here's something for your trouble."
+  - Change Items: Add "Experimental Weapon Mod" to inventory
+  - Plugin Command: Quest Complete 2
+  - Set Switch 26 ON (Engine Quest Completed)
+
+// Event Page 4: Quest Completed
+Conditions: Switch 26 ON (Engine Quest Completed)
+Event Commands:
+- Show Text: "\\c[6]Engineer:\\c[0] The engine is working perfectly! Thanks again for your help."
+```
+
+## Blueprint Event (in Corporate District)
+
+```
+// Event Page 1: Engine Quest Active, Blueprint Not Found
+Conditions: Switch 20 ON (Engine Quest Active), Switch 21 OFF (Blueprint Found)
+Event Commands:
+- Show Text: "You search through the dusty archives..."
+- Show Text: "You found the Engine Blueprint!"
+- Change Items: Add "Engine Blueprint" to inventory
+- Set Switch 21 ON (Blueprint Found)
+- Plugin Command: Quest SetObjective 2 1 complete
+- Show Text: "Now you need to find the components mentioned in the blueprint."
+```
+
+## Component A Event (in Junkyard)
+
+```
+// Event Page 1: Blueprint Found, Component A Not Found
+Conditions: Switch 21 ON (Blueprint Found), Switch 22 OFF (Component A Not Found)
+Event Commands:
+- Show Text: "You search through piles of scrap metal..."
+- Show Text: "You found Component A!"
+- Change Items: Add "Engine Component A" to inventory
+- Set Switch 22 ON (Component A Found)
+- Plugin Command: Quest SetObjective 2 2 complete
+```
+
+## Component B Event (in Corporate District)
+
+```
+// Event Page 1: Blueprint Found, Component B Not Found
+Conditions: Switch 21 ON (Blueprint Found), Switch 23 OFF (Component B Not Found)
+Event Commands:
+- Show Text: "You search through abandoned corporate offices..."
+- Show Text: "You found Component B!"
+- Change Items: Add "Engine Component B" to inventory
+- Set Switch 23 ON (Component B Found)
+- Plugin Command: Quest SetObjective 2 3 complete
+```
+
+## Component C Event (in Abandoned Factory)
+
+```
+// Event Page 1: Blueprint Found, Component C Not Found
+Conditions: Switch 21 ON (Blueprint Found), Switch 24 OFF (Component C Not Found)
+Event Commands:
+- Show Text: "You search through the abandoned factory..."
+- Show Text: "You found Component C!"
+- Change Items: Add "Engine Component C" to inventory
+- Set Switch 24 ON (Component C Found)
+- Plugin Command: Quest SetObjective 2 4 complete
+```
+
+## Smelly Key Event (in Timbuc Food Vendor)
+
+```
+// Event Page 1: Key Not Found
+Conditions: Switch 30 OFF (Smelly Key 3 Not Found)
+Event Commands:
+- Show Text: "\\c[6]Food Vendor:\\c[0] Fresh meat pies! Get your fresh meat pies here!"
+- Show Choices: ["Buy a meat pie (5 gold)", "No thanks"]
+- If "Buy a meat pie (5 gold)":
+  - Conditional Branch: Gold >= 5
+    - Change Gold: -5
+    - Show Text: "\\c[6]Food Vendor:\\c[0] Enjoy your meat pie!"
+    - Show Text: "As you bite into the pie, your teeth hit something hard."
+    - Show Text: "You found a grimy key baked into the pie!"
+    - Change Items: Add "Smelly Key #3" to inventory
+    - Set Switch 30 ON (Smelly Key 3 Found)
+    - Plugin Command: Quest Add 3
+    - Plugin Command: Quest SetObjective 3 3 complete
+    - Show Text: "This key smells terrible, but it might open something valuable."
+  - Else:
+    - Show Text: "\\c[6]Food Vendor:\\c[0] Come back when you have enough money!"
+- If "No thanks":
+  - Show Text: "\\c[6]Food Vendor:\\c[0] Your loss!"
+
+// Event Page 2: Key Found
+Conditions: Switch 30 ON (Smelly Key 3 Found)
+Event Commands:
+- Show Text: "\\c[6]Food Vendor:\\c[0] Fresh meat pies! No strange objects inside, I promise!"
+- Show Choices: ["Buy a meat pie (5 gold)", "Ask about the key", "No thanks"]
+- If "Buy a meat pie (5 gold)":
+  - Conditional Branch: Gold >= 5
+    - Change Gold: -5
+    - Show Text: "\\c[6]Food Vendor:\\c[0] Enjoy your meat pie!"
+    - Show Text: "This one seems to be key-free."
+  - Else:
+    - Show Text: "\\c[6]Food Vendor:\\c[0] Come back when you have enough money!"
+- If "Ask about the key":
+  - Show Text: "\\c[6]Food Vendor:\\c[0] I swear I didn't put that there! Must've been the supplier. I hear there are hidden caches all over Timbuc that those keys open."
+- If "No thanks":
+  - Show Text: "\\c[6]Food Vendor:\\c[0] Your loss!"
+```
+
+## Best Practices for Quest Journal Implementation
+
+1. **Use Consistent Switch/Variable Naming**: Keep a clear naming convention for switches and variables related to quests.
+
+2. **Update Quest Journal at Key Points**: Use plugin commands to update the quest journal whenever the player makes progress:
+   - When starting a quest: `Quest Add questID`
+   - When completing an objective: `Quest SetObjective questID objectiveID complete`
+   - When completing a quest: `Quest Complete questID`
+
+3. **Maintain Both Systems**: Continue using switches and variables for quest tracking while also updating the quest journal. This ensures compatibility with existing systems.
+
+4. **Create Common Events for Quest Operations**: For frequently used quest operations, create common events to ensure consistency.
+
+5. **Test Quest Flow**: Thoroughly test the quest flow to ensure all objectives can be completed and the quest journal updates correctly.
+
+6. **Provide Clear Feedback**: When a quest is updated, provide clear feedback to the player through text messages or visual cues.
+
+7. **Consider Quest Dependencies**: If quests depend on each other, make sure to set up the proper conditions and switches.

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "mint loads registered64x64 art and completes a native Attack action",
+    "ultraviolet loads registered64x64 art and completes a native Attack action",
+    "base loads registered64x64 art and completes a native Attack action"
+  ],
+  "errors": [],
+  "missing": []
+}

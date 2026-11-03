@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "Splice accepts archive through native NPC choices",
+    "three separate terminal operations solve and pay once in native map scene",
+    "public safety strip copied without changing memorial",
+    "Inez grants archive permission through native dialogue",
+    "complete archive route across four maps with chosen publication and exact reward",
+    "three native sorting choices award first-pass reward and second standing point",
+    "actual repeat practice pays no extra Credits",
+    "native hardware purchase uses 45 Credits, preserves database price and discounts custom goods"
+  ],
+  "purchase": {
+    "gold": 365,
+    "spent": 45,
+    "gained": 1,
+    "databasePrice": 50,
+    "leadPipePrice": 162
+  },
+  "errors": []
+}

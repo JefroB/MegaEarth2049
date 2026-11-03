@@ -1,0 +1,141 @@
+# MegaEarth2049 Map Analysis Tools Runner
+# This script runs all the working map analysis tools in sequence
+
+# Function to run all tools
+function Run-AllTools {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_analysis_results"
+    )
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Create subdirectories
+    $structureDir = "$outputDir/structure"
+    $eventsDir = "$outputDir/events"
+    $reportsDir = "$outputDir/reports"
+    
+    if (-not (Test-Path $structureDir)) {
+        New-Item -ItemType Directory -Path $structureDir | Out-Null
+    }
+    
+    if (-not (Test-Path $eventsDir)) {
+        New-Item -ItemType Directory -Path $eventsDir | Out-Null
+    }
+    
+    if (-not (Test-Path $reportsDir)) {
+        New-Item -ItemType Directory -Path $reportsDir | Out-Null
+    }
+    
+    Write-Host "Running all map analysis tools..." -ForegroundColor Cyan
+    
+    # Step 1: Count maps
+    Write-Host "Step 1: Counting maps..." -ForegroundColor Yellow
+    $mapCount = Count-Maps -mapDir $mapDir
+    
+    # Step 2: List maps
+    Write-Host "Step 2: Listing maps..." -ForegroundColor Yellow
+    List-Maps -mapDir $mapDir
+    
+    # Step 3: List map properties
+    Write-Host "Step 3: Listing map properties..." -ForegroundColor Yellow
+    List-MapProperties -mapDir $mapDir
+    
+    # Step 4: Generate map summary
+    Write-Host "Step 4: Generating map summary..." -ForegroundColor Yellow
+    Generate-MapSummary -mapDir $mapDir -outputFile "$reportsDir/map_summary.txt"
+    
+    # Step 5: Process a sample map (Map001.json)
+    Write-Host "Step 5: Processing sample map (Map001.json)..." -ForegroundColor Yellow
+    
+    # Check if the sample map exists
+    $sampleMapFile = "$mapDir/Map001.json"
+    if (Test-Path $sampleMapFile) {
+        # Check the map file
+        Test-Map -mapFile $sampleMapFile
+        
+        # Count events in the map
+        Count-MapEvents -mapFile $sampleMapFile
+        
+        # Extract map structure
+        Process-Map -mapFile $sampleMapFile -outputDir $structureDir
+    }
+    else {
+        Write-Host "  Sample map file $sampleMapFile does not exist." -ForegroundColor Red
+        
+        # Try to find any map file
+        $anyMapFile = Get-ChildItem -Path $mapDir -Filter "Map*.json" | Select-Object -First 1
+        
+        if ($anyMapFile) {
+            Write-Host "  Using $($anyMapFile.Name) instead." -ForegroundColor Yellow
+            
+            # Check the map file
+            Test-Map -mapFile $anyMapFile.FullName
+            
+            # Count events in the map
+            Count-MapEvents -mapFile $anyMapFile.FullName
+            
+            # Extract map structure
+            Process-Map -mapFile $anyMapFile.FullName -outputDir $structureDir
+        }
+        else {
+            Write-Host "  No map files found in $mapDir." -ForegroundColor Red
+        }
+    }
+    
+    # Step 6: Create map documentation
+    Write-Host "Step 6: Creating map documentation..." -ForegroundColor Yellow
+    Create-MapDocumentation -outputFile "$reportsDir/Map_Documentation.md"
+    
+    # Step 7: Update README file
+    Write-Host "Step 7: Updating README file..." -ForegroundColor Yellow
+    Update-Readme
+    
+    Write-Host "All tools completed successfully!" -ForegroundColor Green
+    Write-Host "Results are available in the following directories:" -ForegroundColor Green
+    Write-Host "  - $structureDir" -ForegroundColor Green
+    Write-Host "  - $eventsDir" -ForegroundColor Green
+    Write-Host "  - $reportsDir" -ForegroundColor Green
+    Write-Host "Documentation files:" -ForegroundColor Green
+    Write-Host "  - MegaEarth2049_Map_JSON_Documentation.md" -ForegroundColor Green
+    Write-Host "  - MegaEarth2049_Map_Analysis_Tools_README.md" -ForegroundColor Green
+    Write-Host "  - $reportsDir/Map_Documentation.md" -ForegroundColor Green
+    Write-Host "  - $reportsDir/map_summary.txt" -ForegroundColor Green
+}
+
+# Import required modules
+Write-Host "Importing modules..." -ForegroundColor Cyan
+
+# Import count_maps.ps1
+. .\count_maps.ps1
+
+# Import list_maps.ps1
+. .\list_maps.ps1
+
+# Import list_map_properties.ps1
+. .\list_map_properties.ps1
+
+# Import simple_map_summary.ps1
+. .\simple_map_summary.ps1
+
+# Import check_map_file.ps1
+. .\check_map_file.ps1
+
+# Import count_map_events.ps1
+. .\count_map_events.ps1
+
+# Import extract_map_components.ps1
+. .\extract_map_components.ps1
+
+# Import map_tools.ps1
+. .\map_tools.ps1
+
+# Import update_readme.ps1
+. .\update_readme.ps1
+
+# Main script execution
+Run-AllTools

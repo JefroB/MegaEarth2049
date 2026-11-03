@@ -1,0 +1,147 @@
+{
+  "scope": [
+    "A13",
+    "A16",
+    "A19",
+    "A21",
+    "A22"
+  ],
+  "pickups": [
+    {
+      "map": 103,
+      "event": 14,
+      "item": 180
+    },
+    {
+      "map": 105,
+      "event": 11,
+      "item": 181
+    },
+    {
+      "map": 108,
+      "event": 6,
+      "item": 182
+    }
+  ],
+  "hazards": [
+    {
+      "map": 110,
+      "event": 7,
+      "item": 183,
+      "state": 54
+    },
+    {
+      "map": 112,
+      "event": 8,
+      "item": 184,
+      "state": 53
+    },
+    {
+      "map": 114,
+      "event": 8,
+      "item": 185,
+      "state": 52
+    }
+  ],
+  "jokes": [
+    {
+      "map": 103,
+      "event": 5,
+      "item": 186
+    },
+    {
+      "map": 106,
+      "event": 4,
+      "item": 187
+    },
+    {
+      "map": 244,
+      "event": 3,
+      "item": 188
+    }
+  ],
+  "newStates": [
+    77,
+    78,
+    79
+  ],
+  "newSkills": [
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277
+  ],
+  "animations": [
+    220,
+    221,
+    222,
+    223,
+    224
+  ],
+  "parts": [
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "jokeItems": [
+    186,
+    187,
+    188
+  ],
+  "cookbook": 189,
+  "scrapbook": 190,
+  "letter": 191,
+  "remedies": [
+    192,
+    193
+  ],
+  "recyclingVendor": [
+    103,
+    2
+  ],
+  "canteen": [
+    106,
+    2
+  ],
+  "letterPrinter": [
+    244,
+    6
+  ],
+  "flags": {
+    "recycling": 191,
+    "jokes": 192,
+    "letter": 193
+  },
+  "outfits": {
+    "work": [
+      50,
+      51
+    ],
+    "inspector": [
+      58,
+      59
+    ]
+  },
+  "reactionNPCs": [
+    [
+      103,
+      11
+    ],
+    [
+      105,
+      7
+    ],
+    [
+      106,
+      4
+    ]
+  ]
+}

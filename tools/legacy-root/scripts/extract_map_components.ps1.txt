@@ -1,0 +1,31 @@
+# MegaEarth2049 Map Component Extraction Script
+# This script lists map files in the data directory
+
+# Function to list map files
+function List-MapFiles {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # List each map file
+    foreach ($mapFile in $mapFiles) {
+        Write-Host "  $($mapFile.Name)" -ForegroundColor Green
+    }
+    
+    Write-Host "Completed listing map files" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# List-MapFiles

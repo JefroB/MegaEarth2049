@@ -1,0 +1,1154 @@
+[
+  {
+    "kind": "Skills",
+    "id": 1,
+    "name": "Attack",
+    "subject": "single forward fist impact",
+    "sheet": 0,
+    "cell": 0,
+    "icon": 1840
+  },
+  {
+    "kind": "Skills",
+    "id": 2,
+    "name": "Guard",
+    "subject": "shield bracing an incoming arrow",
+    "sheet": 0,
+    "cell": 1,
+    "icon": 1841
+  },
+  {
+    "kind": "Skills",
+    "id": 3,
+    "name": "Dual Attack",
+    "subject": "two simultaneous fist impacts side by side",
+    "sheet": 0,
+    "cell": 2,
+    "icon": 1842
+  },
+  {
+    "kind": "Skills",
+    "id": 4,
+    "name": "Double Attack",
+    "subject": "two staggered boot strikes",
+    "sheet": 0,
+    "cell": 3,
+    "icon": 1843
+  },
+  {
+    "kind": "Skills",
+    "id": 5,
+    "name": "Triple Attack",
+    "subject": "three slash streaks",
+    "sheet": 0,
+    "cell": 4,
+    "icon": 1844
+  },
+  {
+    "kind": "Skills",
+    "id": 6,
+    "name": "Escape",
+    "subject": "boot escaping through an open door",
+    "sheet": 0,
+    "cell": 5,
+    "icon": 1845
+  },
+  {
+    "kind": "Skills",
+    "id": 7,
+    "name": "Wait",
+    "subject": "small clock with pause bars",
+    "sheet": 0,
+    "cell": 6,
+    "icon": 1846
+  },
+  {
+    "kind": "Skills",
+    "id": 8,
+    "name": "Heal",
+    "subject": "healing heart wrapped in gauze",
+    "sheet": 0,
+    "cell": 7,
+    "icon": 1847
+  },
+  {
+    "kind": "Skills",
+    "id": 9,
+    "name": "Fire",
+    "subject": "single red flame",
+    "sheet": 0,
+    "cell": 8,
+    "icon": 1848
+  },
+  {
+    "kind": "Skills",
+    "id": 10,
+    "name": "Spark",
+    "subject": "tiny electrical arc between two terminals",
+    "sheet": 0,
+    "cell": 9,
+    "icon": 1849
+  },
+  {
+    "kind": "Skills",
+    "id": 12,
+    "name": "Quadruple Strike",
+    "subject": "four-way fist explosion",
+    "sheet": 0,
+    "cell": 10,
+    "icon": 1850
+  },
+  {
+    "kind": "Skills",
+    "id": 14,
+    "name": "Hammer Time",
+    "subject": "hammer striking ringing bell",
+    "sheet": 0,
+    "cell": 11,
+    "icon": 1851
+  },
+  {
+    "kind": "Skills",
+    "id": 17,
+    "name": "Black Hole 2",
+    "subject": "purple black hole with two bright orbit rings",
+    "sheet": 0,
+    "cell": 12,
+    "icon": 1852
+  },
+  {
+    "kind": "Skills",
+    "id": 18,
+    "name": "Black Hole 3",
+    "subject": "black hole swallowing a small planet",
+    "sheet": 0,
+    "cell": 13,
+    "icon": 1853
+  },
+  {
+    "kind": "Skills",
+    "id": 20,
+    "name": "Dragon Blade",
+    "subject": "dragon-shaped flaming sword",
+    "sheet": 0,
+    "cell": 14,
+    "icon": 1854
+  },
+  {
+    "kind": "Skills",
+    "id": 21,
+    "name": "Flame",
+    "subject": "torch with orange flame",
+    "sheet": 0,
+    "cell": 15,
+    "icon": 1855
+  },
+  {
+    "kind": "Skills",
+    "id": 22,
+    "name": "Bonfire",
+    "subject": "burning stacked campfire logs",
+    "sheet": 0,
+    "cell": 16,
+    "icon": 1856
+  },
+  {
+    "kind": "Skills",
+    "id": 23,
+    "name": "Arson",
+    "subject": "burning petrol can",
+    "sheet": 0,
+    "cell": 17,
+    "icon": 1857
+  },
+  {
+    "kind": "Skills",
+    "id": 24,
+    "name": "Rally",
+    "subject": "raised rally flag",
+    "sheet": 0,
+    "cell": 18,
+    "icon": 1858
+  },
+  {
+    "kind": "Skills",
+    "id": 25,
+    "name": "Frost",
+    "subject": "frost-coated leaf",
+    "sheet": 0,
+    "cell": 19,
+    "icon": 1859
+  },
+  {
+    "kind": "Skills",
+    "id": 26,
+    "name": "Freeze",
+    "subject": "hand sealed in ice cube",
+    "sheet": 0,
+    "cell": 20,
+    "icon": 1860
+  },
+  {
+    "kind": "Skills",
+    "id": 27,
+    "name": "Blizzard",
+    "subject": "snowflake in swirling blizzard",
+    "sheet": 0,
+    "cell": 21,
+    "icon": 1861
+  },
+  {
+    "kind": "Skills",
+    "id": 29,
+    "name": "Bolt",
+    "subject": "single jagged lightning bolt",
+    "sheet": 0,
+    "cell": 22,
+    "icon": 1862
+  },
+  {
+    "kind": "Skills",
+    "id": 30,
+    "name": "Jolt",
+    "subject": "electrical contact shocking a hand",
+    "sheet": 0,
+    "cell": 23,
+    "icon": 1863
+  },
+  {
+    "kind": "Skills",
+    "id": 31,
+    "name": "Electrocute",
+    "subject": "human silhouette surrounded by electrical arcs",
+    "sheet": 0,
+    "cell": 24,
+    "icon": 1864
+  },
+  {
+    "kind": "Skills",
+    "id": 32,
+    "name": "Circuit Bend",
+    "subject": "bent circuit board sparking",
+    "sheet": 0,
+    "cell": 25,
+    "icon": 1865
+  },
+  {
+    "kind": "Skills",
+    "id": 33,
+    "name": "Dirt",
+    "subject": "handful of loose dirt",
+    "sheet": 0,
+    "cell": 26,
+    "icon": 1866
+  },
+  {
+    "kind": "Skills",
+    "id": 34,
+    "name": "Rock",
+    "subject": "jagged thrown rock",
+    "sheet": 0,
+    "cell": 27,
+    "icon": 1867
+  },
+  {
+    "kind": "Skills",
+    "id": 35,
+    "name": "Stone",
+    "subject": "large stone monolith",
+    "sheet": 0,
+    "cell": 28,
+    "icon": 1868
+  },
+  {
+    "kind": "Skills",
+    "id": 37,
+    "name": "Splash",
+    "subject": "water droplet splashing",
+    "sheet": 0,
+    "cell": 29,
+    "icon": 1869
+  },
+  {
+    "kind": "Skills",
+    "id": 38,
+    "name": "Spray",
+    "subject": "fan-shaped spray of water",
+    "sheet": 0,
+    "cell": 30,
+    "icon": 1870
+  },
+  {
+    "kind": "Skills",
+    "id": 39,
+    "name": "Flood",
+    "subject": "cresting flood wave",
+    "sheet": 0,
+    "cell": 31,
+    "icon": 1871
+  },
+  {
+    "kind": "Skills",
+    "id": 42,
+    "name": "Joke",
+    "subject": "laughing comedy mask with speech bubble",
+    "sheet": 0,
+    "cell": 32,
+    "icon": 1872
+  },
+  {
+    "kind": "Skills",
+    "id": 46,
+    "name": "Barrier",
+    "subject": "translucent protective dome",
+    "sheet": 0,
+    "cell": 33,
+    "icon": 1873
+  },
+  {
+    "kind": "Skills",
+    "id": 48,
+    "name": "Tinker",
+    "subject": "pliers adjusting small gear",
+    "sheet": 0,
+    "cell": 34,
+    "icon": 1874
+  },
+  {
+    "kind": "Skills",
+    "id": 49,
+    "name": "Hackathon",
+    "subject": "laptop beside racing stopwatch",
+    "sheet": 0,
+    "cell": 35,
+    "icon": 1875
+  },
+  {
+    "kind": "Skills",
+    "id": 50,
+    "name": "Reverse Engineer",
+    "subject": "machine split open into components",
+    "sheet": 0,
+    "cell": 36,
+    "icon": 1876
+  },
+  {
+    "kind": "Skills",
+    "id": 51,
+    "name": "DDOS",
+    "subject": "many arrows flooding one server",
+    "sheet": 0,
+    "cell": 37,
+    "icon": 1877
+  },
+  {
+    "kind": "Skills",
+    "id": 52,
+    "name": "Firewall",
+    "subject": "brick wall ablaze protecting a server",
+    "sheet": 0,
+    "cell": 38,
+    "icon": 1878
+  },
+  {
+    "kind": "Skills",
+    "id": 53,
+    "name": "Proxy",
+    "subject": "two computers linked through an anonymous mask",
+    "sheet": 0,
+    "cell": 39,
+    "icon": 1879
+  },
+  {
+    "kind": "Skills",
+    "id": 63,
+    "name": "Wreck",
+    "subject": "cracked concrete wall hit by wrecking ball",
+    "sheet": 0,
+    "cell": 40,
+    "icon": 1880
+  },
+  {
+    "kind": "Skills",
+    "id": 64,
+    "name": "Destroy",
+    "subject": "exploding broken metal plate",
+    "sheet": 0,
+    "cell": 41,
+    "icon": 1881
+  },
+  {
+    "kind": "Skills",
+    "id": 65,
+    "name": "Pummel",
+    "subject": "boxing glove with multiple impact echoes",
+    "sheet": 0,
+    "cell": 42,
+    "icon": 1882
+  },
+  {
+    "kind": "Skills",
+    "id": 66,
+    "name": "Pulverize",
+    "subject": "fist reducing stone to powder",
+    "sheet": 0,
+    "cell": 43,
+    "icon": 1883
+  },
+  {
+    "kind": "Skills",
+    "id": 67,
+    "name": "Build",
+    "subject": "crane lifting steel beam",
+    "sheet": 0,
+    "cell": 44,
+    "icon": 1884
+  },
+  {
+    "kind": "Skills",
+    "id": 71,
+    "name": "Slice",
+    "subject": "one curved sword cut",
+    "sheet": 0,
+    "cell": 45,
+    "icon": 1885
+  },
+  {
+    "kind": "Skills",
+    "id": 72,
+    "name": "Dice",
+    "subject": "crossed knife cuts dividing a cube",
+    "sheet": 0,
+    "cell": 46,
+    "icon": 1886
+  },
+  {
+    "kind": "Skills",
+    "id": 73,
+    "name": "Slice and Dice",
+    "subject": "blade surrounded by diced cubes",
+    "sheet": 0,
+    "cell": 47,
+    "icon": 1887
+  },
+  {
+    "kind": "Skills",
+    "id": 76,
+    "name": "Smoke Bomb",
+    "subject": "round smoke grenade emitting purple smoke",
+    "sheet": 0,
+    "cell": 48,
+    "icon": 1888
+  },
+  {
+    "kind": "Skills",
+    "id": 77,
+    "name": "Slash",
+    "subject": "wide diagonal blade arc",
+    "sheet": 0,
+    "cell": 49,
+    "icon": 1889
+  },
+  {
+    "kind": "Skills",
+    "id": 80,
+    "name": "Surgical Strike",
+    "subject": "scalpel above precise crosshair",
+    "sheet": 0,
+    "cell": 50,
+    "icon": 1890
+  },
+  {
+    "kind": "Skills",
+    "id": 82,
+    "name": "Disect",
+    "subject": "scalpel opening anatomical diagram",
+    "sheet": 0,
+    "cell": 51,
+    "icon": 1891
+  },
+  {
+    "kind": "Skills",
+    "id": 83,
+    "name": "Diagnosis",
+    "subject": "stethoscope over medical chart",
+    "sheet": 0,
+    "cell": 52,
+    "icon": 1892
+  },
+  {
+    "kind": "Skills",
+    "id": 85,
+    "name": "Laugh",
+    "subject": "wide open laughing mouth",
+    "sheet": 0,
+    "cell": 53,
+    "icon": 1893
+  },
+  {
+    "kind": "Skills",
+    "id": 86,
+    "name": "Giggle",
+    "subject": "hand covering a giggling mouth",
+    "sheet": 0,
+    "cell": 54,
+    "icon": 1894
+  },
+  {
+    "kind": "Skills",
+    "id": 87,
+    "name": "Poke",
+    "subject": "index finger poking a cheek",
+    "sheet": 0,
+    "cell": 55,
+    "icon": 1895
+  },
+  {
+    "kind": "Skills",
+    "id": 88,
+    "name": "Quip",
+    "subject": "speech bubble with tiny lightning retort",
+    "sheet": 0,
+    "cell": 56,
+    "icon": 1896
+  },
+  {
+    "kind": "Skills",
+    "id": 89,
+    "name": "Jest",
+    "subject": "jester cap with small bells",
+    "sheet": 0,
+    "cell": 57,
+    "icon": 1897
+  },
+  {
+    "kind": "Skills",
+    "id": 90,
+    "name": "Gag",
+    "subject": "rubber chicken gag prop",
+    "sheet": 0,
+    "cell": 58,
+    "icon": 1898
+  },
+  {
+    "kind": "Skills",
+    "id": 91,
+    "name": "Trick",
+    "subject": "playing card emerging from sleeve",
+    "sheet": 0,
+    "cell": 59,
+    "icon": 1899
+  },
+  {
+    "kind": "Skills",
+    "id": 92,
+    "name": "Prank",
+    "subject": "whoopee cushion",
+    "sheet": 0,
+    "cell": 60,
+    "icon": 1900
+  },
+  {
+    "kind": "Skills",
+    "id": 93,
+    "name": "Wisecrack",
+    "subject": "cracked wise owl spectacles",
+    "sheet": 0,
+    "cell": 61,
+    "icon": 1901
+  },
+  {
+    "kind": "Skills",
+    "id": 101,
+    "name": "Social Engineering",
+    "subject": "hand presenting forged identity card",
+    "sheet": 0,
+    "cell": 62,
+    "icon": 1902
+  },
+  {
+    "kind": "Skills",
+    "id": 102,
+    "name": "Man in the Middle",
+    "subject": "hooded intruder intercepting network cable",
+    "sheet": 0,
+    "cell": 63,
+    "icon": 1903
+  },
+  {
+    "kind": "Skills",
+    "id": 107,
+    "name": "Drunken Monkey",
+    "subject": "monkey fist holding tipped flask",
+    "sheet": 1,
+    "cell": 0,
+    "icon": 1904
+  },
+  {
+    "kind": "Skills",
+    "id": 108,
+    "name": "Fists of Fury",
+    "subject": "two blazing bare fists",
+    "sheet": 1,
+    "cell": 1,
+    "icon": 1905
+  },
+  {
+    "kind": "Skills",
+    "id": 109,
+    "name": "Punch 36",
+    "subject": "martial fist with concentric shock rings",
+    "sheet": 1,
+    "cell": 2,
+    "icon": 1906
+  },
+  {
+    "kind": "Skills",
+    "id": 110,
+    "name": "Mosh Pit",
+    "subject": "three silhouettes colliding in a mosh pit",
+    "sheet": 1,
+    "cell": 3,
+    "icon": 1907
+  },
+  {
+    "kind": "Skills",
+    "id": 113,
+    "name": "Reinforce",
+    "subject": "steel brace bolted across cracked shield",
+    "sheet": 1,
+    "cell": 4,
+    "icon": 1908
+  },
+  {
+    "kind": "Skills",
+    "id": 115,
+    "name": "Traffic Jam",
+    "subject": "three jammed miniature cars",
+    "sheet": 1,
+    "cell": 5,
+    "icon": 1909
+  },
+  {
+    "kind": "Skills",
+    "id": 116,
+    "name": "Group Therapy",
+    "subject": "circle of three people around a heart",
+    "sheet": 1,
+    "cell": 6,
+    "icon": 1910
+  },
+  {
+    "kind": "Skills",
+    "id": 118,
+    "name": "Procedure",
+    "subject": "surgical forceps with sterile swab",
+    "sheet": 1,
+    "cell": 7,
+    "icon": 1911
+  },
+  {
+    "kind": "Skills",
+    "id": 119,
+    "name": "Humiliate",
+    "subject": "embarrassed face under pointing hands",
+    "sheet": 1,
+    "cell": 8,
+    "icon": 1912
+  },
+  {
+    "kind": "Skills",
+    "id": 126,
+    "name": "Bite",
+    "subject": "open fanged jaw",
+    "sheet": 1,
+    "cell": 9,
+    "icon": 1913
+  },
+  {
+    "kind": "Skills",
+    "id": 127,
+    "name": "Chew",
+    "subject": "molars chewing a bone",
+    "sheet": 1,
+    "cell": 10,
+    "icon": 1914
+  },
+  {
+    "kind": "Skills",
+    "id": 151,
+    "name": "Identify Collateral",
+    "subject": "scanner beam examining a price-tagged boot",
+    "sheet": 1,
+    "cell": 11,
+    "icon": 1915
+  },
+  {
+    "kind": "Skills",
+    "id": 152,
+    "name": "Clamp Charging",
+    "subject": "mechanical clamp with charging capacitor",
+    "sheet": 1,
+    "cell": 12,
+    "icon": 1916
+  },
+  {
+    "kind": "Skills",
+    "id": 153,
+    "name": "Repossession Clamp",
+    "subject": "heavy metal clamp snapping shut",
+    "sheet": 1,
+    "cell": 13,
+    "icon": 1917
+  },
+  {
+    "kind": "Skills",
+    "id": 154,
+    "name": "Reset Actuators",
+    "subject": "actuator piston with reset arrow",
+    "sheet": 1,
+    "cell": 14,
+    "icon": 1918
+  },
+  {
+    "kind": "Skills",
+    "id": 155,
+    "name": "Jam Scanner",
+    "subject": "scanner lens jammed by wrench",
+    "sheet": 1,
+    "cell": 15,
+    "icon": 1919
+  },
+  {
+    "kind": "Skills",
+    "id": 156,
+    "name": "Mandatory Hemming",
+    "subject": "sewing needle piercing fabric",
+    "sheet": 1,
+    "cell": 16,
+    "icon": 1920
+  },
+  {
+    "kind": "Skills",
+    "id": 157,
+    "name": "Security Pulse",
+    "subject": "security drone emitting blue concentric pulse",
+    "sheet": 1,
+    "cell": 17,
+    "icon": 1921
+  },
+  {
+    "kind": "Skills",
+    "id": 158,
+    "name": "Prepare Terms and Lacerations",
+    "subject": "rolled contract with amber warning seal",
+    "sheet": 1,
+    "cell": 18,
+    "icon": 1922
+  },
+  {
+    "kind": "Skills",
+    "id": 159,
+    "name": "Terms and Lacerations",
+    "subject": "contract pages transforming into sharp teeth",
+    "sheet": 1,
+    "cell": 19,
+    "icon": 1923
+  },
+  {
+    "kind": "Skills",
+    "id": 160,
+    "name": "Recalibrate Policy",
+    "subject": "policy binder with alignment gear",
+    "sheet": 1,
+    "cell": 20,
+    "icon": 1924
+  },
+  {
+    "kind": "Skills",
+    "id": 161,
+    "name": "Prepare Out-of-Network Extraction",
+    "subject": "chest register with amber suction warning",
+    "sheet": 1,
+    "cell": 21,
+    "icon": 1925
+  },
+  {
+    "kind": "Skills",
+    "id": 162,
+    "name": "Out-of-Network Extraction",
+    "subject": "cash register siphoning a red vitality droplet",
+    "sheet": 1,
+    "cell": 22,
+    "icon": 1926
+  },
+  {
+    "kind": "Skills",
+    "id": 163,
+    "name": "Recalibrate Policy",
+    "subject": "cash register with calibration screwdriver",
+    "sheet": 1,
+    "cell": 23,
+    "icon": 1927
+  },
+  {
+    "kind": "Skills",
+    "id": 164,
+    "name": "Prepare Express Infection",
+    "subject": "sealed infected envelope with amber warning",
+    "sheet": 1,
+    "cell": 24,
+    "icon": 1928
+  },
+  {
+    "kind": "Skills",
+    "id": 165,
+    "name": "Express Infection",
+    "subject": "envelope firing green infectious droplets",
+    "sheet": 1,
+    "cell": 25,
+    "icon": 1929
+  },
+  {
+    "kind": "Skills",
+    "id": 166,
+    "name": "Recalibrate Policy",
+    "subject": "mail sorting machine with adjustment wrench",
+    "sheet": 1,
+    "cell": 26,
+    "icon": 1930
+  },
+  {
+    "kind": "Skills",
+    "id": 167,
+    "name": "Prepare Premium Pressure",
+    "subject": "boiler pressure dial approaching red zone",
+    "sheet": 1,
+    "cell": 27,
+    "icon": 1931
+  },
+  {
+    "kind": "Skills",
+    "id": 168,
+    "name": "Premium Pressure",
+    "subject": "boiler valve blasting steam",
+    "sheet": 1,
+    "cell": 28,
+    "icon": 1932
+  },
+  {
+    "kind": "Skills",
+    "id": 169,
+    "name": "Recalibrate Policy",
+    "subject": "boiler pressure regulator with service key",
+    "sheet": 1,
+    "cell": 29,
+    "icon": 1933
+  },
+  {
+    "kind": "Skills",
+    "id": 170,
+    "name": "Prepare Mandatory Lullaby",
+    "subject": "pillow with ominous amber musical note",
+    "sheet": 1,
+    "cell": 30,
+    "icon": 1934
+  },
+  {
+    "kind": "Skills",
+    "id": 171,
+    "name": "Mandatory Lullaby",
+    "subject": "sleeping face wrapped in musical staff",
+    "sheet": 1,
+    "cell": 31,
+    "icon": 1935
+  },
+  {
+    "kind": "Skills",
+    "id": 172,
+    "name": "Recalibrate Policy",
+    "subject": "alarm clock with tuning key",
+    "sheet": 1,
+    "cell": 32,
+    "icon": 1936
+  },
+  {
+    "kind": "Skills",
+    "id": 173,
+    "name": "Prepare Final Escalation",
+    "subject": "ticket dispenser with warning beacon",
+    "sheet": 1,
+    "cell": 33,
+    "icon": 1937
+  },
+  {
+    "kind": "Skills",
+    "id": 174,
+    "name": "Final Escalation",
+    "subject": "ticket machine erupting red flame",
+    "sheet": 1,
+    "cell": 34,
+    "icon": 1938
+  },
+  {
+    "kind": "Skills",
+    "id": 175,
+    "name": "Recalibrate Policy",
+    "subject": "ticket mechanism with maintenance cog",
+    "sheet": 1,
+    "cell": 35,
+    "icon": 1939
+  },
+  {
+    "kind": "Skills",
+    "id": 176,
+    "name": "Prepare Claim Denied",
+    "subject": "rubber stamp raised above amber form",
+    "sheet": 1,
+    "cell": 36,
+    "icon": 1940
+  },
+  {
+    "kind": "Skills",
+    "id": 177,
+    "name": "Claim Denied",
+    "subject": "rubber stamp crushing a claim document",
+    "sheet": 1,
+    "cell": 37,
+    "icon": 1941
+  },
+  {
+    "kind": "Skills",
+    "id": 178,
+    "name": "Prepare Herpes Fine Print",
+    "subject": "magnifier revealing blisters on contract fine print",
+    "sheet": 1,
+    "cell": 38,
+    "icon": 1942
+  },
+  {
+    "kind": "Skills",
+    "id": 179,
+    "name": "Herpes Fine Print",
+    "subject": "contract spewing blister-shaped spores",
+    "sheet": 1,
+    "cell": 39,
+    "icon": 1943
+  },
+  {
+    "kind": "Skills",
+    "id": 180,
+    "name": "Prepare Open Enrollment Outbreak",
+    "subject": "open enrollment folder with amber biohazard seal",
+    "sheet": 1,
+    "cell": 40,
+    "icon": 1944
+  },
+  {
+    "kind": "Skills",
+    "id": 181,
+    "name": "Open Enrollment Outbreak",
+    "subject": "open folder erupting green pathogens",
+    "sheet": 1,
+    "cell": 41,
+    "icon": 1945
+  },
+  {
+    "kind": "Skills",
+    "id": 182,
+    "name": "Prepare Premium Extraction",
+    "subject": "insurance debit needle poised over glowing heart",
+    "sheet": 1,
+    "cell": 42,
+    "icon": 1946
+  },
+  {
+    "kind": "Skills",
+    "id": 183,
+    "name": "Premium Extraction",
+    "subject": "insurance debit needle draining a heart into coins",
+    "sheet": 1,
+    "cell": 43,
+    "icon": 1947
+  },
+  {
+    "kind": "Skills",
+    "id": 184,
+    "name": "Audit Recess",
+    "subject": "corporate coffee mug beside an audit ledger",
+    "sheet": 1,
+    "cell": 44,
+    "icon": 1948
+  },
+  {
+    "kind": "Armors",
+    "id": 36,
+    "name": "Nice Pants",
+    "subject": "green work overalls with yellow suspenders",
+    "sheet": 1,
+    "cell": 45,
+    "icon": 1949
+  },
+  {
+    "kind": "Armors",
+    "id": 37,
+    "name": "Bermuda Shorts",
+    "subject": "turquoise Bermuda shorts with bright tropical pink flowers, loose knee length vacation shorts",
+    "sheet": 1,
+    "cell": 46,
+    "icon": 1950
+  },
+  {
+    "kind": "Armors",
+    "id": 38,
+    "name": "Armortech Pants",
+    "subject": "segmented silver cybernetic Armortech leg armor with glowing cyan joints",
+    "sheet": 1,
+    "cell": 47,
+    "icon": 1951
+  },
+  {
+    "kind": "Armors",
+    "id": 39,
+    "name": "Armortech Gloves",
+    "subject": "white armored gauntlet with cyan circuitry",
+    "sheet": 1,
+    "cell": 48,
+    "icon": 1952
+  },
+  {
+    "kind": "Armors",
+    "id": 40,
+    "name": "Armortech Jacket",
+    "subject": "rigid white sci-fi chest jacket with cyan reactor",
+    "sheet": 1,
+    "cell": 49,
+    "icon": 1953
+  },
+  {
+    "kind": "Armors",
+    "id": 41,
+    "name": "Armortech Helmet",
+    "subject": "white enclosed combat helmet with narrow cyan visor",
+    "sheet": 1,
+    "cell": 50,
+    "icon": 1954
+  },
+  {
+    "kind": "Armors",
+    "id": 42,
+    "name": "Heavy Armored Pants",
+    "subject": "bulky overlapping heavy steel leg plates",
+    "sheet": 1,
+    "cell": 51,
+    "icon": 1955
+  },
+  {
+    "kind": "Armors",
+    "id": 43,
+    "name": "Heavy Armored Shorts",
+    "subject": "heavy steel plated shorts with reinforced thigh pads",
+    "sheet": 1,
+    "cell": 52,
+    "icon": 1956
+  },
+  {
+    "kind": "Armors",
+    "id": 44,
+    "name": "Rad Cargo Shorts",
+    "subject": "orange cargo shorts with many oversize pockets and dangling chain",
+    "sheet": 1,
+    "cell": 53,
+    "icon": 1957
+  },
+  {
+    "kind": "Armors",
+    "id": 45,
+    "name": "Kinda Lame Cargo Shorts",
+    "subject": "boring beige cargo shorts with awkward oversized pockets",
+    "sheet": 1,
+    "cell": 54,
+    "icon": 1958
+  },
+  {
+    "kind": "Armors",
+    "id": 46,
+    "name": "Tight Orange Pants",
+    "subject": "tight slim orange trousers with black side stripe",
+    "sheet": 1,
+    "cell": 55,
+    "icon": 1959
+  },
+  {
+    "kind": "Armors",
+    "id": 47,
+    "name": "Rad Kicks",
+    "subject": "mint green high-top sneakers with white ankle star",
+    "sheet": 1,
+    "cell": 56,
+    "icon": 1960
+  },
+  {
+    "kind": "Armors",
+    "id": 48,
+    "name": "Tan Cargo Pants",
+    "subject": "tan cargo trousers with brown belt and knee pockets",
+    "sheet": 1,
+    "cell": 57,
+    "icon": 1961
+  },
+  {
+    "kind": "Armors",
+    "id": 49,
+    "name": "Nice Gloves",
+    "subject": "brown leather driving gloves with silver knuckle studs",
+    "sheet": 1,
+    "cell": 58,
+    "icon": 1962
+  },
+  {
+    "kind": "Armors",
+    "id": 51,
+    "name": "Work Boots",
+    "subject": "scuffed brown steel-toe lace-up work boots",
+    "sheet": 1,
+    "cell": 59,
+    "icon": 1963
+  },
+  {
+    "kind": "Armors",
+    "id": 55,
+    "name": "Neat Helmet",
+    "subject": "lime green rounded open-face motorcycle helmet",
+    "sheet": 1,
+    "cell": 60,
+    "icon": 1964
+  },
+  {
+    "kind": "Armors",
+    "id": 56,
+    "name": "Killer Gloves",
+    "subject": "black spiked gauntlet with orange impact studs",
+    "sheet": 1,
+    "cell": 61,
+    "icon": 1965
+  },
+  {
+    "kind": "Armors",
+    "id": 57,
+    "name": "Killer Helmet",
+    "subject": "angular black horned combat helmet with red slit visor",
+    "sheet": 1,
+    "cell": 62,
+    "icon": 1966
+  },
+  {
+    "kind": "Armors",
+    "id": 59,
+    "name": "Protective Vest",
+    "subject": "gray ballistic protective vest with green utility pouches",
+    "sheet": 1,
+    "cell": 63,
+    "icon": 1967
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "plugins": [
+    "YEP_BattleEngineCore",
+    "YEP_X_AnimatedSVEnemies",
+    "YEP_QuestJournal",
+    "ME_Boss",
+    "ME_PoopSprites",
+    "ME_RemainingBosses",
+    "ME_Custodians",
+    "ME_CustodianMapSprites",
+    "ME_MainBoss"
+  ],
+  "samples": [
+    {
+      "id": 12,
+      "name": "Green Ninja",
+      "note": "<Sideview Battler: greenninja>\n<Sideview Attack Motion: missle>\n<Sideview Weapon: 1>\n<Starting Level Type: 5>\n<Show Level>\n<Minimum Level: 1>\n<Maximum Level: 25>\n<Positive Level Fluctuation: 1>\n<Negative Level Fluctuation: 3>\n",
+      "bitmap": "",
+      "width": 1
+    },
+    {
+      "id": 33,
+      "name": "Grey Wolf",
+      "note": "\n<Sideview Battler: wolf-grey-sv_orig>\n<Starting Level Type: 3>\n<Show Level>\n<Minimum Level: 1>\n<Maximum Level: 25>\n<Positive Level Fluctuation: 1>\n<Negative Level Fluctuation: 3>\n\n",
+      "bitmap": "",
+      "width": 1
+    },
+    {
+      "id": 47,
+      "name": "Drone",
+      "note": "\n<Sideview Battler: Drone108499806>\n<Starting Level Type: 3>\n<Show Level>\n<Minimum Level: 1>\n<Maximum Level: 25>\n<Positive Level Fluctuation: 1>\n<Negative Level Fluctuation: 3>\n\n",
+      "bitmap": "",
+      "width": 1
+    },
+    {
+      "id": 117,
+      "name": "PunkBoss",
+      "note": "<Sideview Battler: punkBoss1>\n<Starting Level Type: 3>\n<Show Level>\n<Minimum Level: 1>\n<Maximum Level: 25>\n<Positive Level Fluctuation: 1>\n<Negative Level Fluctuation: 3>",
+      "bitmap": "",
+      "width": 1
+    }
+  ]
+}

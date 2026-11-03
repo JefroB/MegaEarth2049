@@ -1,0 +1,68 @@
+# Function to process a tileset
+function Process-Tileset {
+    param (
+        [int]$tilesetNumber
+    )
+    
+    $tilesetFile = "tileset${tilesetNumber}.json"
+    Write-Host "Processing $tilesetFile..."
+    
+    # Extract metadata
+    $tileset = Get-Content $tilesetFile -Raw | ConvertFrom-Json
+    $metadata = @{
+        id = $tileset.id
+        name = $tileset.name
+        mode = $tileset.mode
+        tilesetNames = $tileset.tilesetNames
+        note = $tileset.note
+    }
+    
+    # Save metadata as plain text to avoid encoding issues
+    $metadataFile = "tileset${tilesetNumber}_metadata.txt"
+    "Tileset ID: $($tileset.id)" | Out-File -FilePath $metadataFile -Encoding utf8
+    "Name: $($tileset.name)" | Out-File -FilePath $metadataFile -Encoding utf8 -Append
+    "Mode: $($tileset.mode)" | Out-File -FilePath $metadataFile -Encoding utf8 -Append
+    "Note: $($tileset.note)" | Out-File -FilePath $metadataFile -Encoding utf8 -Append
+    "Tileset Names:" | Out-File -FilePath $metadataFile -Encoding utf8 -Append
+    foreach ($name in $tileset.tilesetNames) {
+        "  - $name" | Out-File -FilePath $metadataFile -Encoding utf8 -Append
+    }
+    
+    # Extract flag samples
+    $flagsArray = @($tileset.flags)
+    if ($flagsArray.Count -gt 0) {
+        $flagsSample = $flagsArray[0..([Math]::Min(99, $flagsArray.Count-1))]
+        $sampleFile = "tileset${tilesetNumber}_flags_sample.txt"
+        "First 100 Flag Values:" | Out-File -FilePath $sampleFile -Encoding utf8
+        for ($i = 0; $i -lt $flagsSample.Count; $i++) {
+            "[$i]: $($flagsSample[$i])" | Out-File -FilePath $sampleFile -Encoding utf8 -Append
+        }
+    }
+    
+    # Calculate flag frequencies
+    $flagCounts = @{}
+    foreach ($flag in $flagsArray) {
+        if ($flag -ne $null) {
+            if ($flagCounts.ContainsKey($flag)) {
+                $flagCounts[$flag]++
+            } else {
+                $flagCounts[$flag] = 1
+            }
+        }
+    }
+    
+    # Sort by frequency and save as plain text
+    $sortedFlags = $flagCounts.GetEnumerator() | Sort-Object -Property Value -Descending
+    $freqFile = "tileset${tilesetNumber}_flag_frequencies.txt"
+    "Flag Value Frequencies (sorted by count):" | Out-File -FilePath $freqFile -Encoding utf8
+    foreach ($flag in $sortedFlags) {
+        "$($flag.Key) (0x$($flag.Key.ToString('X4'))): $($flag.Value) occurrences" | Out-File -FilePath $freqFile -Encoding utf8 -Append
+    }
+    
+    Write-Host "Completed processing tileset $tilesetNumber"
+}
+
+# Process tilesets 1-4
+for ($i = 1; $i -le 4; $i++) {
+    Process-Tileset -tilesetNumber $i
+}

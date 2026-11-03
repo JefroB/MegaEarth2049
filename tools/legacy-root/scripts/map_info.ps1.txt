@@ -1,0 +1,90 @@
+# MegaEarth2049 Map Info Extractor
+# This script extracts basic information from RPG Maker MV map files
+
+# Function to extract map info
+function Get-MapInfo {
+    param (
+        [string]$mapFile
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Extracting info from map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content as text
+        $mapContent = Get-Content $mapFile -Raw
+        
+        # Extract basic properties using regex
+        $displayNameMatch = [regex]::Match($mapContent, '"displayName":\s*"([^"]*)"')
+        $widthMatch = [regex]::Match($mapContent, '"width":\s*(\d+)')
+        $heightMatch = [regex]::Match($mapContent, '"height":\s*(\d+)')
+        $tilesetIdMatch = [regex]::Match($mapContent, '"tilesetId":\s*(\d+)')
+        
+        # Display the information
+        Write-Host "Map ID: $mapId" -ForegroundColor Green
+        
+        if ($displayNameMatch.Success) {
+            Write-Host "Display Name: $($displayNameMatch.Groups[1].Value)" -ForegroundColor Green
+        }
+        
+        if ($widthMatch.Success -and $heightMatch.Success) {
+            $width = [int]$widthMatch.Groups[1].Value
+            $height = [int]$heightMatch.Groups[1].Value
+            Write-Host "Dimensions: $width x $height" -ForegroundColor Green
+        }
+        
+        if ($tilesetIdMatch.Success) {
+            Write-Host "Tileset ID: $($tilesetIdMatch.Groups[1].Value)" -ForegroundColor Green
+        }
+        
+        Write-Host "Completed extracting info from map $mapId" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error extracting info from map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Function to process all maps in a directory
+function Get-AllMapsInfo {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        Get-MapInfo -mapFile $mapFile.FullName
+        Write-Host "------------------------" -ForegroundColor Yellow
+    }
+    
+    Write-Host "Completed processing all maps" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# Get info for a single map:
+# Get-MapInfo -mapFile "data/Map001.json"
+#
+# Get info for all maps in the data directory:
+# Get-AllMapsInfo

@@ -1,0 +1,35 @@
+{
+  "enemy": 151,
+  "troop": 60,
+  "skills": [
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184
+  ],
+  "flag": 174,
+  "approach": 115,
+  "arena": 238,
+  "archive": 239,
+  "bossEvent": 2,
+  "gateEvent": 3,
+  "spawn": [
+    7,
+    8
+  ],
+  "reward": 1500,
+  "world": 28,
+  "role": "Dorlund/Planet Ork regional main boss; not final boss",
+  "hatchEvent": 5,
+  "evidence": 125,
+  "questComplete": 127,
+  "returnLanding": [
+    25,
+    8
+  ]
+}

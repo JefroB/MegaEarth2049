@@ -1,0 +1,3324 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "file": "audio/se/Absorb1.ogg",
+      "ok": true,
+      "duration": 1.4564166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Absorb2.ogg",
+      "ok": true,
+      "duration": 1.1564583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Absorb1.m4a",
+      "ok": true,
+      "duration": 1.4564166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Absorb2.m4a",
+      "ok": true,
+      "duration": 1.1564583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/accept.ogg",
+      "ok": true,
+      "duration": 1.8432291666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Applause1.m4a",
+      "ok": true,
+      "duration": 5.000479166666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack1.m4a",
+      "ok": true,
+      "duration": 0.5267916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack1.ogg",
+      "ok": true,
+      "duration": 0.516625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Applause1.ogg",
+      "ok": true,
+      "duration": 5.000479166666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack2.m4a",
+      "ok": true,
+      "duration": 0.6965833333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Applause2.ogg",
+      "ok": true,
+      "duration": 3.5911458333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Applause2.m4a",
+      "ok": true,
+      "duration": 3.5911458333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack2.ogg",
+      "ok": true,
+      "duration": 0.6965833333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack3.m4a",
+      "ok": true,
+      "duration": 0.498375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Attack3.ogg",
+      "ok": true,
+      "duration": 0.498375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle1.m4a",
+      "ok": true,
+      "duration": 1.9504583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle1.ogg",
+      "ok": true,
+      "duration": 1.9504583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle2.m4a",
+      "ok": true,
+      "duration": 1.4744583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle2.ogg",
+      "ok": true,
+      "duration": 1.4744583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle3.m4a",
+      "ok": true,
+      "duration": 1.6494166666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell1.m4a",
+      "ok": true,
+      "duration": 2.7798541666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Battle3.ogg",
+      "ok": true,
+      "duration": 1.6494166666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell2.m4a",
+      "ok": true,
+      "duration": 1.0079791666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell2.ogg",
+      "ok": true,
+      "duration": 1.0079791666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell1.ogg",
+      "ok": true,
+      "duration": 2.7798541666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell3.m4a",
+      "ok": true,
+      "duration": 1.0477916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Bell3.ogg",
+      "ok": true,
+      "duration": 1.0361875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow1.m4a",
+      "ok": true,
+      "duration": 0.316625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blind.m4a",
+      "ok": true,
+      "duration": 1.3786666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow1.ogg",
+      "ok": true,
+      "duration": 0.30764583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blind.ogg",
+      "ok": true,
+      "duration": 1.3786666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow2.m4a",
+      "ok": true,
+      "duration": 0.27808333333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow3.m4a",
+      "ok": true,
+      "duration": 0.26995833333333336,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Book1.m4a",
+      "ok": true,
+      "duration": 0.5000416666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow3.ogg",
+      "ok": true,
+      "duration": 0.25835416666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Blow2.ogg",
+      "ok": true,
+      "duration": 0.26647916666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Book1.ogg",
+      "ok": true,
+      "duration": 0.5000416666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Book2.m4a",
+      "ok": true,
+      "duration": 0.66275,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Book2.ogg",
+      "ok": true,
+      "duration": 0.66275,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Break.m4a",
+      "ok": true,
+      "duration": 1.1054375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Buzzer1.m4a",
+      "ok": true,
+      "duration": 0.30620833333333336,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Buzzer1.ogg",
+      "ok": true,
+      "duration": 0.30185416666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Break.ogg",
+      "ok": true,
+      "duration": 1.1054375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Buzzer2.m4a",
+      "ok": true,
+      "duration": 0.595,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cancel1.m4a",
+      "ok": true,
+      "duration": 0.21141666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Buzzer2.ogg",
+      "ok": true,
+      "duration": 0.5862916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cancel1.ogg",
+      "ok": true,
+      "duration": 0.1998125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cancel2.m4a",
+      "ok": true,
+      "duration": 0.45566666666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cancel2.ogg",
+      "ok": true,
+      "duration": 0.45566666666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cat.ogg",
+      "ok": true,
+      "duration": 0.9847083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cat.m4a",
+      "ok": true,
+      "duration": 0.9847083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Chest2.m4a",
+      "ok": true,
+      "duration": 0.7500625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Chainsaw1.ogg",
+      "ok": true,
+      "duration": 2.3680416666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close1.m4a",
+      "ok": true,
+      "duration": 0.7494166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Chest2.ogg",
+      "ok": true,
+      "duration": 0.7500625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close2.m4a",
+      "ok": true,
+      "duration": 0.7782291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close1.ogg",
+      "ok": true,
+      "duration": 0.7494166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close2.ogg",
+      "ok": true,
+      "duration": 0.7782291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Chest1.m4a",
+      "ok": true,
+      "duration": 3.0098333333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Chest1.ogg",
+      "ok": true,
+      "duration": 3.0098333333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close3.m4a",
+      "ok": true,
+      "duration": 0.8001666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Close3.ogg",
+      "ok": true,
+      "duration": 0.8001666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Coin.ogg",
+      "ok": true,
+      "duration": 0.2321875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Coin.m4a",
+      "ok": true,
+      "duration": 0.2346875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse1.m4a",
+      "ok": true,
+      "duration": 3.0000625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse2.m4a",
+      "ok": true,
+      "duration": 2.600041666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse3.m4a",
+      "ok": true,
+      "duration": 2.0000416666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse1.ogg",
+      "ok": true,
+      "duration": 3.0000625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse2.ogg",
+      "ok": true,
+      "duration": 2.600041666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse3.ogg",
+      "ok": true,
+      "duration": 2.0000416666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cow.m4a",
+      "ok": true,
+      "duration": 1.8111458333333332,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Computer.m4a",
+      "ok": true,
+      "duration": 1.6000416666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cow.ogg",
+      "ok": true,
+      "duration": 1.8111458333333332,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Computer.ogg",
+      "ok": true,
+      "duration": 1.6000416666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crossbow.m4a",
+      "ok": true,
+      "duration": 0.5324166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse4.m4a",
+      "ok": true,
+      "duration": 4.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crash.m4a",
+      "ok": true,
+      "duration": 1.9204375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crash.ogg",
+      "ok": true,
+      "duration": 1.9204375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crossbow.ogg",
+      "ok": true,
+      "duration": 0.5324166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Collapse4.ogg",
+      "ok": true,
+      "duration": 4.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crow.m4a",
+      "ok": true,
+      "duration": 1.2,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cursor1.m4a",
+      "ok": true,
+      "duration": 0.028104166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cursor1.ogg",
+      "ok": true,
+      "duration": 0.0165,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Crow.ogg",
+      "ok": true,
+      "duration": 1.2,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage1.m4a",
+      "ok": true,
+      "duration": 0.4099583333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage2.m4a",
+      "ok": true,
+      "duration": 0.6099583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage1.ogg",
+      "ok": true,
+      "duration": 0.4063333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cursor2.m4a",
+      "ok": true,
+      "duration": 2,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage2.ogg",
+      "ok": true,
+      "duration": 0.6095208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Cursor2.ogg",
+      "ok": true,
+      "duration": 2,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage3.ogg",
+      "ok": true,
+      "duration": 0.4321041666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage3.m4a",
+      "ok": true,
+      "duration": 0.4437083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage4.m4a",
+      "ok": true,
+      "duration": 0.5963333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage4.ogg",
+      "ok": true,
+      "duration": 0.5963333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage5.m4a",
+      "ok": true,
+      "duration": 0.44879166666666664,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Damage5.ogg",
+      "ok": true,
+      "duration": 0.44879166666666664,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness1.m4a",
+      "ok": true,
+      "duration": 1.6253958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness1.ogg",
+      "ok": true,
+      "duration": 1.6253958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness2.m4a",
+      "ok": true,
+      "duration": 1.5121041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness2.ogg",
+      "ok": true,
+      "duration": 1.5121041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness3.ogg",
+      "ok": true,
+      "duration": 1.3351458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness3.m4a",
+      "ok": true,
+      "duration": 1.3351458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness4.ogg",
+      "ok": true,
+      "duration": 1.0448958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness4.m4a",
+      "ok": true,
+      "duration": 1.0448958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness5.ogg",
+      "ok": true,
+      "duration": 1.9127291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Darkness5.m4a",
+      "ok": true,
+      "duration": 1.9127291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Decision2.m4a",
+      "ok": true,
+      "duration": 0.2525,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Decision2.ogg",
+      "ok": true,
+      "duration": 0.24089583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Decision1.m4a",
+      "ok": true,
+      "duration": 2.250020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Decision1.ogg",
+      "ok": true,
+      "duration": 2.250020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Devil1.m4a",
+      "ok": true,
+      "duration": 4.163166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Devil2.m4a",
+      "ok": true,
+      "duration": 4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Devil1.ogg",
+      "ok": true,
+      "duration": 4.163166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Devil2.ogg",
+      "ok": true,
+      "duration": 4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Disappointment.m4a",
+      "ok": true,
+      "duration": 2.139125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Disappointment.ogg",
+      "ok": true,
+      "duration": 2.139125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Dive.ogg",
+      "ok": true,
+      "duration": 2.5,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Dive.m4a",
+      "ok": true,
+      "duration": 2.5,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Dog.ogg",
+      "ok": true,
+      "duration": 0.31927083333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Dog.m4a",
+      "ok": true,
+      "duration": 0.32425,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door1.m4a",
+      "ok": true,
+      "duration": 0.45108333333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door1.ogg",
+      "ok": true,
+      "duration": 0.45108333333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door2.ogg",
+      "ok": true,
+      "duration": 1.0000208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door2.m4a",
+      "ok": true,
+      "duration": 1.0000208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door3.m4a",
+      "ok": true,
+      "duration": 0.902125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door3.ogg",
+      "ok": true,
+      "duration": 0.902125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Down2.m4a",
+      "ok": true,
+      "duration": 1.0884166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door4.m4a",
+      "ok": true,
+      "duration": 3.2000208333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Down1.m4a",
+      "ok": true,
+      "duration": 1.6834375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Down2.ogg",
+      "ok": true,
+      "duration": 1.0884166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Down1.ogg",
+      "ok": true,
+      "duration": 1.6834375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth1.ogg",
+      "ok": true,
+      "duration": 0.8185,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Door4.ogg",
+      "ok": true,
+      "duration": 3.2000208333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth1.m4a",
+      "ok": true,
+      "duration": 0.8185,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth3.m4a",
+      "ok": true,
+      "duration": 0.4106875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth2.m4a",
+      "ok": true,
+      "duration": 1.2248333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth2.ogg",
+      "ok": true,
+      "duration": 1.2248333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth3.ogg",
+      "ok": true,
+      "duration": 0.4005416666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth4.m4a",
+      "ok": true,
+      "duration": 1.3583541666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth4.ogg",
+      "ok": true,
+      "duration": 1.3583541666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth5.m4a",
+      "ok": true,
+      "duration": 0.963625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Earth5.ogg",
+      "ok": true,
+      "duration": 0.963625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Electrocardiogram.m4a",
+      "ok": true,
+      "duration": 0.858375,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Electrocardiogram.ogg",
+      "ok": true,
+      "duration": 0.858375,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Equip1.ogg",
+      "ok": true,
+      "duration": 0.35022916666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Equip1.m4a",
+      "ok": true,
+      "duration": 0.35022916666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Evasion1.m4a",
+      "ok": true,
+      "duration": 0.395,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Equip2.m4a",
+      "ok": true,
+      "duration": 0.7141041666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Equip2.ogg",
+      "ok": true,
+      "duration": 0.7141041666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Evasion1.ogg",
+      "ok": true,
+      "duration": 0.3889166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Evasion2.m4a",
+      "ok": true,
+      "duration": 0.5242708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Evasion2.ogg",
+      "ok": true,
+      "duration": 0.5242708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Explosion1.m4a",
+      "ok": true,
+      "duration": 1.6021666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Explosion1.ogg",
+      "ok": true,
+      "duration": 1.6021666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Explosion2.m4a",
+      "ok": true,
+      "duration": 1.82275,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Explosion2.ogg",
+      "ok": true,
+      "duration": 1.82275,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fall.ogg",
+      "ok": true,
+      "duration": 0.8,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fall.m4a",
+      "ok": true,
+      "duration": 0.8,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire1.m4a",
+      "ok": true,
+      "duration": 0.8939583333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire1.ogg",
+      "ok": true,
+      "duration": 0.8939583333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire2.ogg",
+      "ok": true,
+      "duration": 1.3235208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire2.m4a",
+      "ok": true,
+      "duration": 1.3235208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire3.m4a",
+      "ok": true,
+      "duration": 1.1377708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Fire3.ogg",
+      "ok": true,
+      "duration": 1.1377708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Flash1.m4a",
+      "ok": true,
+      "duration": 0.740125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Flash1.ogg",
+      "ok": true,
+      "duration": 0.7285208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Flash2.ogg",
+      "ok": true,
+      "duration": 1.6486041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Frog.m4a",
+      "ok": true,
+      "duration": 1.4921041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Flash2.m4a",
+      "ok": true,
+      "duration": 1.6486041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Frog.ogg",
+      "ok": true,
+      "duration": 1.4921041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Gun1.m4a",
+      "ok": true,
+      "duration": 0.7049166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Gun1.ogg",
+      "ok": true,
+      "duration": 0.7049166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Gun2.m4a",
+      "ok": true,
+      "duration": 1.1983125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Gun2.ogg",
+      "ok": true,
+      "duration": 1.1983125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Hammer.m4a",
+      "ok": true,
+      "duration": 0.7062916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Hammer.ogg",
+      "ok": true,
+      "duration": 0.7062916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal1.m4a",
+      "ok": true,
+      "duration": 0.5311458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal1.ogg",
+      "ok": true,
+      "duration": 0.52825,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Growl.ogg",
+      "ok": true,
+      "duration": 4.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal2.ogg",
+      "ok": true,
+      "duration": 0.9316875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Growl.m4a",
+      "ok": true,
+      "duration": 4.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal2.m4a",
+      "ok": true,
+      "duration": 0.9316875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal3.m4a",
+      "ok": true,
+      "duration": 1.0768125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Heal3.ogg",
+      "ok": true,
+      "duration": 1.0768125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice1.m4a",
+      "ok": true,
+      "duration": 0.5572708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice1.ogg",
+      "ok": true,
+      "duration": 0.5456666666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Horse.ogg",
+      "ok": true,
+      "duration": 1.3706875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Horse.m4a",
+      "ok": true,
+      "duration": 1.3706875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Horn.m4a",
+      "ok": true,
+      "duration": 2.600041666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice2.m4a",
+      "ok": true,
+      "duration": 0.8823541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice2.ogg",
+      "ok": true,
+      "duration": 0.8823541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice3.ogg",
+      "ok": true,
+      "duration": 0.6791666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Horn.ogg",
+      "ok": true,
+      "duration": 2.600041666666667,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice3.m4a",
+      "ok": true,
+      "duration": 0.6851666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice4.ogg",
+      "ok": true,
+      "duration": 1.4309166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice4.m4a",
+      "ok": true,
+      "duration": 1.4309166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice5.m4a",
+      "ok": true,
+      "duration": 0.7880208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item1.m4a",
+      "ok": true,
+      "duration": 0.7139166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Ice5.ogg",
+      "ok": true,
+      "duration": 0.7836666666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item1.ogg",
+      "ok": true,
+      "duration": 0.7023125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item2.m4a",
+      "ok": true,
+      "duration": 1.140125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Jump1.m4a",
+      "ok": true,
+      "duration": 0.24379166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item2.ogg",
+      "ok": true,
+      "duration": 1.140125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Jump1.ogg",
+      "ok": true,
+      "duration": 0.2321875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item3.m4a",
+      "ok": true,
+      "duration": 1.1084166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Item3.ogg",
+      "ok": true,
+      "duration": 1.1084166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Jump2.m4a",
+      "ok": true,
+      "duration": 0.2916875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Jump2.ogg",
+      "ok": true,
+      "duration": 0.29022916666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Key.ogg",
+      "ok": true,
+      "duration": 0.16252083333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Knock.m4a",
+      "ok": true,
+      "duration": 0.17985416666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Key.m4a",
+      "ok": true,
+      "duration": 0.17110416666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Knock.ogg",
+      "ok": true,
+      "duration": 0.16833333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laser1.ogg",
+      "ok": true,
+      "duration": 1.0886875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laser1.m4a",
+      "ok": true,
+      "duration": 1.0886875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Launch.m4a",
+      "ok": true,
+      "duration": 3.1588958333333332,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laugh.m4a",
+      "ok": true,
+      "duration": 3.8002708333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laser2.m4a",
+      "ok": true,
+      "duration": 4.800020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laugh.ogg",
+      "ok": true,
+      "duration": 3.8002708333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Laser2.ogg",
+      "ok": true,
+      "duration": 4.800020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Launch.ogg",
+      "ok": true,
+      "duration": 3.1588958333333332,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Leakage.m4a",
+      "ok": true,
+      "duration": 2.0128541666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Liquid.m4a",
+      "ok": true,
+      "duration": 2.654625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Leakage.ogg",
+      "ok": true,
+      "duration": 2.0128541666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Load.m4a",
+      "ok": true,
+      "duration": 2.250020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Load.ogg",
+      "ok": true,
+      "duration": 2.250020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic1.m4a",
+      "ok": true,
+      "duration": 1,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Machine.m4a",
+      "ok": true,
+      "duration": 3.660645833333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic1.ogg",
+      "ok": true,
+      "duration": 1,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Machine.ogg",
+      "ok": true,
+      "duration": 3.660645833333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Liquid.ogg",
+      "ok": true,
+      "duration": 2.654625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic2.m4a",
+      "ok": true,
+      "duration": 1.5557291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic2.ogg",
+      "ok": true,
+      "duration": 1.5557291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic3.ogg",
+      "ok": true,
+      "duration": 4.7664375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Miss.m4a",
+      "ok": true,
+      "duration": 0.38166666666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic3.m4a",
+      "ok": true,
+      "duration": 4.7664375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Miss.ogg",
+      "ok": true,
+      "duration": 0.3700625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic4.m4a",
+      "ok": true,
+      "duration": 1.3323333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Magic4.ogg",
+      "ok": true,
+      "duration": 1.3323333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster1.m4a",
+      "ok": true,
+      "duration": 1.0906458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster1.ogg",
+      "ok": true,
+      "duration": 1.0906458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster2.m4a",
+      "ok": true,
+      "duration": 1.5150833333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster2.ogg",
+      "ok": true,
+      "duration": 1.5150833333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster3.m4a",
+      "ok": true,
+      "duration": 1.4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster3.ogg",
+      "ok": true,
+      "duration": 1.4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster4.m4a",
+      "ok": true,
+      "duration": 1.6,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster4.ogg",
+      "ok": true,
+      "duration": 1.6,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster5.m4a",
+      "ok": true,
+      "duration": 1.994,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Monster5.ogg",
+      "ok": true,
+      "duration": 1.994,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move1.m4a",
+      "ok": true,
+      "duration": 0.8000208333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move1.ogg",
+      "ok": true,
+      "duration": 0.8000208333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move2.m4a",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move3.m4a",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move2.ogg",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move3.ogg",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move4.m4a",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move4.ogg",
+      "ok": true,
+      "duration": 0.7500208333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Noise.m4a",
+      "ok": true,
+      "duration": 1.5813958333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Neon.m4a",
+      "ok": true,
+      "duration": 0.9875625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Noise.ogg",
+      "ok": true,
+      "duration": 1.5813958333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Neon.ogg",
+      "ok": true,
+      "duration": 0.9875625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open1.m4a",
+      "ok": true,
+      "duration": 0.3709166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open1.ogg",
+      "ok": true,
+      "duration": 0.36570833333333336,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move5.m4a",
+      "ok": true,
+      "duration": 3.125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open2.m4a",
+      "ok": true,
+      "duration": 0.6196666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open2.ogg",
+      "ok": true,
+      "duration": 0.6080625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Move5.ogg",
+      "ok": true,
+      "duration": 3.125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open3.ogg",
+      "ok": true,
+      "duration": 0.7998125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open3.m4a",
+      "ok": true,
+      "duration": 0.7998125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open4.ogg",
+      "ok": true,
+      "duration": 0.45277083333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open4.m4a",
+      "ok": true,
+      "duration": 0.46366666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open5.ogg",
+      "ok": true,
+      "duration": 0.9094583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Open5.m4a",
+      "ok": true,
+      "duration": 0.9094583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze1.ogg",
+      "ok": true,
+      "duration": 0.3250625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze1.m4a",
+      "ok": true,
+      "duration": 0.3365,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze2.m4a",
+      "ok": true,
+      "duration": 0.30764583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze2.ogg",
+      "ok": true,
+      "duration": 0.29604166666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze3.m4a",
+      "ok": true,
+      "duration": 0.8417083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Paralyze3.ogg",
+      "ok": true,
+      "duration": 0.8417083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Parry.ogg",
+      "ok": true,
+      "duration": 0.5746875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Parry.m4a",
+      "ok": true,
+      "duration": 0.5800416666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Phone.ogg",
+      "ok": true,
+      "duration": 2.2229791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Phone.m4a",
+      "ok": true,
+      "duration": 2.2229791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Poison.ogg",
+      "ok": true,
+      "duration": 1.6137708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Poison.m4a",
+      "ok": true,
+      "duration": 1.6137708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Pollen.m4a",
+      "ok": true,
+      "duration": 1.9620833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Pollen.ogg",
+      "ok": true,
+      "duration": 1.9620833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Powerup.ogg",
+      "ok": true,
+      "duration": 2.205875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Powerup.m4a",
+      "ok": true,
+      "duration": 2.205875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Push.m4a",
+      "ok": true,
+      "duration": 0.9056041666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Push.ogg",
+      "ok": true,
+      "duration": 0.9056041666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Raise1.m4a",
+      "ok": true,
+      "duration": 1.1145416666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Raise1.ogg",
+      "ok": true,
+      "duration": 1.1145416666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Raise2.m4a",
+      "ok": true,
+      "duration": 1.1290625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Raise2.ogg",
+      "ok": true,
+      "duration": 1.1290625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Recovery.ogg",
+      "ok": true,
+      "duration": 0.8649375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Reflection.ogg",
+      "ok": true,
+      "duration": 0.741875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Recovery.m4a",
+      "ok": true,
+      "duration": 0.8649375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Reflection.m4a",
+      "ok": true,
+      "duration": 0.741875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Run.ogg",
+      "ok": true,
+      "duration": 0.45277083333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Run.m4a",
+      "ok": true,
+      "duration": 0.46147916666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint1.ogg",
+      "ok": true,
+      "duration": 1.637,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint1.m4a",
+      "ok": true,
+      "duration": 1.637,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint2.m4a",
+      "ok": true,
+      "duration": 1.8401666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint3.ogg",
+      "ok": true,
+      "duration": 0.5311458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint2.ogg",
+      "ok": true,
+      "duration": 1.8401666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint3.m4a",
+      "ok": true,
+      "duration": 0.54275,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint4.ogg",
+      "ok": true,
+      "duration": 1.7879166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint4.m4a",
+      "ok": true,
+      "duration": 1.7879166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint5.m4a",
+      "ok": true,
+      "duration": 0.8301041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Saint5.ogg",
+      "ok": true,
+      "duration": 0.8185,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sand.ogg",
+      "ok": true,
+      "duration": 1.5325,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sand.m4a",
+      "ok": true,
+      "duration": 1.5325,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sheep.ogg",
+      "ok": true,
+      "duration": 0.9541875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sheep.m4a",
+      "ok": true,
+      "duration": 0.9541875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Scream.ogg",
+      "ok": true,
+      "duration": 2.7689791666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Scream.m4a",
+      "ok": true,
+      "duration": 2.7689791666666665,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Save.m4a",
+      "ok": true,
+      "duration": 2.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Save.ogg",
+      "ok": true,
+      "duration": 2.4000208333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shop2.m4a",
+      "ok": true,
+      "duration": 0.6002708333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shop2.ogg",
+      "ok": true,
+      "duration": 0.6002708333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot1.m4a",
+      "ok": true,
+      "duration": 0.8475208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot1.ogg",
+      "ok": true,
+      "duration": 0.8475208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shop1.m4a",
+      "ok": true,
+      "duration": 2.6001875,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot2.m4a",
+      "ok": true,
+      "duration": 0.5224375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot2.ogg",
+      "ok": true,
+      "duration": 0.516625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shop1.ogg",
+      "ok": true,
+      "duration": 2.6001875,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot3.m4a",
+      "ok": true,
+      "duration": 0.911375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Shot3.ogg",
+      "ok": true,
+      "duration": 0.911375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Silence.m4a",
+      "ok": true,
+      "duration": 0.5717708333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Silence.ogg",
+      "ok": true,
+      "duration": 0.5601666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill1.m4a",
+      "ok": true,
+      "duration": 0.9,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill1.ogg",
+      "ok": true,
+      "duration": 0.9,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill2.m4a",
+      "ok": true,
+      "duration": 0.9870208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Siren.m4a",
+      "ok": true,
+      "duration": 2.4056458333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill2.ogg",
+      "ok": true,
+      "duration": 0.9870208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Siren.ogg",
+      "ok": true,
+      "duration": 2.4056458333333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill3.m4a",
+      "ok": true,
+      "duration": 1.0992083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash1.m4a",
+      "ok": true,
+      "duration": 0.5466666666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Skill3.ogg",
+      "ok": true,
+      "duration": 1.0992083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash2.m4a",
+      "ok": true,
+      "duration": 0.42,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash1.ogg",
+      "ok": true,
+      "duration": 0.5398541666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash3.m4a",
+      "ok": true,
+      "duration": 0.4364166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash2.ogg",
+      "ok": true,
+      "duration": 0.4179583333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash4.m4a",
+      "ok": true,
+      "duration": 0.38975,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash3.ogg",
+      "ok": true,
+      "duration": 0.4247916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash5.m4a",
+      "ok": true,
+      "duration": 0.3883333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash4.ogg",
+      "ok": true,
+      "duration": 0.3889166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Slash5.ogg",
+      "ok": true,
+      "duration": 0.37672916666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sleep.m4a",
+      "ok": true,
+      "duration": 0.9403958333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sleep.ogg",
+      "ok": true,
+      "duration": 0.9403958333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound1.m4a",
+      "ok": true,
+      "duration": 0.8417083333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound1.ogg",
+      "ok": true,
+      "duration": 0.8301041666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound2.m4a",
+      "ok": true,
+      "duration": 1.0158541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound3.m4a",
+      "ok": true,
+      "duration": 1.4483333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound2.ogg",
+      "ok": true,
+      "duration": 1.0158541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sound3.ogg",
+      "ok": true,
+      "duration": 1.4483333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Splash.m4a",
+      "ok": true,
+      "duration": 1.2636041666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Stare.m4a",
+      "ok": true,
+      "duration": 1.3177291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Stare.ogg",
+      "ok": true,
+      "duration": 1.3177291666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Splash.ogg",
+      "ok": true,
+      "duration": 1.2636041666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Starlight.m4a",
+      "ok": true,
+      "duration": 3.0650208333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch1.ogg",
+      "ok": true,
+      "duration": 0.1548125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch1.m4a",
+      "ok": true,
+      "duration": 0.1664375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch2.m4a",
+      "ok": true,
+      "duration": 0.4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Starlight.ogg",
+      "ok": true,
+      "duration": 3.0650208333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch2.ogg",
+      "ok": true,
+      "duration": 0.4,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch3.m4a",
+      "ok": true,
+      "duration": 0.49995833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Switch3.ogg",
+      "ok": true,
+      "duration": 0.49995833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword1.m4a",
+      "ok": true,
+      "duration": 0.5147708333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword1.ogg",
+      "ok": true,
+      "duration": 0.5031666666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword2.ogg",
+      "ok": true,
+      "duration": 1.3583125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword2.m4a",
+      "ok": true,
+      "duration": 1.3583125,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword4.m4a",
+      "ok": true,
+      "duration": 1.0763541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword3.ogg",
+      "ok": true,
+      "duration": 0.7883333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword3.m4a",
+      "ok": true,
+      "duration": 0.7883333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword5.m4a",
+      "ok": true,
+      "duration": 1.038625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword4.ogg",
+      "ok": true,
+      "duration": 1.0763541666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Sword5.ogg",
+      "ok": true,
+      "duration": 1.038625,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder1.m4a",
+      "ok": true,
+      "duration": 1.0855208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder10.m4a",
+      "ok": true,
+      "duration": 0.9694166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder1.ogg",
+      "ok": true,
+      "duration": 1.0855208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder10.ogg",
+      "ok": true,
+      "duration": 0.9694166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Teleport.ogg",
+      "ok": true,
+      "duration": 6.000270833333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Teleport.m4a",
+      "ok": true,
+      "duration": 6.000270833333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder2.m4a",
+      "ok": true,
+      "duration": 0.4106875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder2.ogg",
+      "ok": true,
+      "duration": 0.39908333333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder3.m4a",
+      "ok": true,
+      "duration": 0.7074791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder3.ogg",
+      "ok": true,
+      "duration": 0.7074791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder5.m4a",
+      "ok": true,
+      "duration": 0.7952708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder4.m4a",
+      "ok": true,
+      "duration": 0.9868333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder5.ogg",
+      "ok": true,
+      "duration": 0.7952708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder6.m4a",
+      "ok": true,
+      "duration": 1.2364583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder4.ogg",
+      "ok": true,
+      "duration": 0.9868333333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder6.ogg",
+      "ok": true,
+      "duration": 1.2364583333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder7.ogg",
+      "ok": true,
+      "duration": 1.2451666666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder8.m4a",
+      "ok": true,
+      "duration": 0.806875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder8.ogg",
+      "ok": true,
+      "duration": 0.806875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder7.m4a",
+      "ok": true,
+      "duration": 1.2451666666666668,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder9.ogg",
+      "ok": true,
+      "duration": 1.9156458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Thunder9.m4a",
+      "ok": true,
+      "duration": 1.9156458333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Twine.m4a",
+      "ok": true,
+      "duration": 0.9084791666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Twine.ogg",
+      "ok": true,
+      "duration": 0.9084791666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up1.m4a",
+      "ok": true,
+      "duration": 1.0565,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Transceiver.m4a",
+      "ok": true,
+      "duration": 0.8018958333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Transceiver.ogg",
+      "ok": true,
+      "duration": 0.8018958333333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up1.ogg",
+      "ok": true,
+      "duration": 1.0565,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up2.ogg",
+      "ok": true,
+      "duration": 1.9468333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up2.m4a",
+      "ok": true,
+      "duration": 1.9468333333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up3.m4a",
+      "ok": true,
+      "duration": 2.0105208333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up4.m4a",
+      "ok": true,
+      "duration": 1.6685208333333332,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up3.ogg",
+      "ok": true,
+      "duration": 2.0105208333333335,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Up4.ogg",
+      "ok": true,
+      "duration": 1.6685208333333332,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water2.ogg",
+      "ok": true,
+      "duration": 1.0332708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water1.m4a",
+      "ok": true,
+      "duration": 1.149375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water2.m4a",
+      "ok": true,
+      "duration": 1.0332708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water1.ogg",
+      "ok": true,
+      "duration": 1.149375,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water3.m4a",
+      "ok": true,
+      "duration": 1.0855208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water3.ogg",
+      "ok": true,
+      "duration": 1.0855208333333333,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water4.ogg",
+      "ok": true,
+      "duration": 0.952,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water4.m4a",
+      "ok": true,
+      "duration": 0.952,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water5.m4a",
+      "ok": true,
+      "duration": 1.6079791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Water5.ogg",
+      "ok": true,
+      "duration": 1.6079791666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind1.m4a",
+      "ok": true,
+      "duration": 1.0448958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind1.ogg",
+      "ok": true,
+      "duration": 1.0448958333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind2.m4a",
+      "ok": true,
+      "duration": 1.6137708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind2.ogg",
+      "ok": true,
+      "duration": 1.6137708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind3.m4a",
+      "ok": true,
+      "duration": 0.9694166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind3.ogg",
+      "ok": true,
+      "duration": 0.9694166666666667,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind4.ogg",
+      "ok": true,
+      "duration": 0.24525,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind4.m4a",
+      "ok": true,
+      "duration": 0.25685416666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind5.m4a",
+      "ok": true,
+      "duration": 1.2886875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind5.ogg",
+      "ok": true,
+      "duration": 1.2886875,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind7.m4a",
+      "ok": true,
+      "duration": 0.11985416666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind7.ogg",
+      "ok": true,
+      "duration": 0.11029166666666666,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind6.ogg",
+      "ok": true,
+      "duration": 1.1522708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wind6.m4a",
+      "ok": true,
+      "duration": 1.1522708333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wolf.ogg",
+      "ok": true,
+      "duration": 2.5425833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/se/Wolf.m4a",
+      "ok": true,
+      "duration": 2.5425833333333334,
+      "channels": 1,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Curse2.m4a",
+      "ok": true,
+      "duration": 3.6923125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Curse1.m4a",
+      "ok": true,
+      "duration": 5,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Curse2.ogg",
+      "ok": true,
+      "duration": 3.6923125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Curse1.ogg",
+      "ok": true,
+      "duration": 5,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Defeat1.m4a",
+      "ok": true,
+      "duration": 6.000020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Defeat1.ogg",
+      "ok": true,
+      "duration": 6.000020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Defeat2.m4a",
+      "ok": true,
+      "duration": 8,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Defeat2.ogg",
+      "ok": true,
+      "duration": 8,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Fanfare1.m4a",
+      "ok": true,
+      "duration": 10.000041666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Fanfare1.ogg",
+      "ok": true,
+      "duration": 10.000041666666666,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Fanfare2.m4a",
+      "ok": true,
+      "duration": 12.367270833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Fanfare2.ogg",
+      "ok": true,
+      "duration": 12.367270833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Inn.m4a",
+      "ok": true,
+      "duration": 8.2105625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Gameover2.m4a",
+      "ok": true,
+      "duration": 17.78225,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Gameover1.m4a",
+      "ok": true,
+      "duration": 21.600020833333332,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Inn.ogg",
+      "ok": true,
+      "duration": 8.2105625,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Gameover2.ogg",
+      "ok": true,
+      "duration": 17.78225,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical1.m4a",
+      "ok": true,
+      "duration": 6.5,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical1.ogg",
+      "ok": true,
+      "duration": 6.5,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical2.m4a",
+      "ok": true,
+      "duration": 8.125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Gameover1.ogg",
+      "ok": true,
+      "duration": 21.600020833333332,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical3.m4a",
+      "ok": true,
+      "duration": 6,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical2.ogg",
+      "ok": true,
+      "duration": 8.125,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Musical3.ogg",
+      "ok": true,
+      "duration": 6,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Mystery.m4a",
+      "ok": true,
+      "duration": 5.018645833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Mystery.ogg",
+      "ok": true,
+      "duration": 5.018645833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Organ.m4a",
+      "ok": true,
+      "duration": 6.4134375,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Organ.ogg",
+      "ok": true,
+      "duration": 6.4134375,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Shock1.m4a",
+      "ok": true,
+      "duration": 6.000020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Shock2.m4a",
+      "ok": true,
+      "duration": 3.6923333333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Shock1.ogg",
+      "ok": true,
+      "duration": 6.000020833333333,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Shock2.ogg",
+      "ok": true,
+      "duration": 3.6923333333333335,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Victory1.m4a",
+      "ok": true,
+      "duration": 6.9491875,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Victory2.m4a",
+      "ok": true,
+      "duration": 7.6071875,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Victory1.ogg",
+      "ok": true,
+      "duration": 6.9491875,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "file": "audio/me/Victory2.ogg",
+      "ok": true,
+      "duration": 7.6071875,
+      "channels": 2,
+      "sampleRate": 48000
+    }
+  ],
+  "limitation": "Chromium decoder evidence; not a Safari/device certification."
+}

@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checks": [
+    "actual hazard warning offers cost, exposure and safe exit",
+    "dynamic scrapbook counts fit three native message lines",
+    "native Key Item opens scrapbook common event with six choices",
+    "all four costume pieces bought at stated prices",
+    "native equipped outfit triggers Forewoman dialogue and returns safely",
+    "all nine skills and both remedies execute full actions, each applying once after animation"
+  ],
+  "executed": [
+    [
+      "skill",
+      269,
+      "enemy"
+    ],
+    [
+      "skill",
+      270,
+      "enemy"
+    ],
+    [
+      "skill",
+      271,
+      "actor"
+    ],
+    [
+      "skill",
+      272,
+      "actor"
+    ],
+    [
+      "skill",
+      273,
+      "actor"
+    ],
+    [
+      "skill",
+      274,
+      "enemy"
+    ],
+    [
+      "item",
+      192,
+      "actor"
+    ],
+    [
+      "item",
+      193,
+      "actor"
+    ],
+    [
+      "skill",
+      275,
+      "actor"
+    ],
+    [
+      "skill",
+      276,
+      "actor"
+    ],
+    [
+      "skill",
+      277,
+      "enemy"
+    ]
+  ],
+  "animSeen": {
+    "220": 26,
+    "221": 26,
+    "222": 26,
+    "223": 26,
+    "224": 39
+  },
+  "errors": []
+}

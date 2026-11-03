@@ -1,0 +1,244 @@
+# MegaEarth2049 Detailed Map Analyzer
+# This script performs a detailed analysis of a single RPG Maker MV map file
+
+# Function to analyze a map in detail
+function Analyze-MapDetailed {
+    param (
+        [Parameter(Mandatory=$true)]
+        [string]$mapFile,
+        [string]$outputDir = "map_detailed_analysis"
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Performing detailed analysis of map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the map file
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Create a detailed report file
+        $reportFile = "$outputDir/Map${mapId}_detailed_report.md"
+        
+        # Write report header
+        "# Detailed Analysis of Map $mapId" | Out-File -FilePath $reportFile -Encoding utf8
+        "**Generated on:** $(Get-Date)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Basic map information
+        "## Basic Information" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **File:** $mapFile" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Display Name:** $($mapContent.displayName)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Dimensions:** $($mapContent.width) × $($mapContent.height)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Tileset ID:** $($mapContent.tilesetId)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Note:** $($mapContent.note)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Map settings
+        "## Map Settings" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Disable Dashing:** $($mapContent.disableDashing)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Scroll Type:** $($mapContent.scrollType)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Specify Battleback:** $($mapContent.specifyBattleback)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Battleback1 Name:** $($mapContent.battleback1Name)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Battleback2 Name:** $($mapContent.battleback2Name)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Background music and sound
+        "## Background Music and Sound" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Autoplay BGM:** $($mapContent.autoplayBgm)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGM Name:** $($mapContent.bgm.name)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGM Volume:** $($mapContent.bgm.volume)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGM Pitch:** $($mapContent.bgm.pitch)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Autoplay BGS:** $($mapContent.autoplayBgs)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGS Name:** $($mapContent.bgs.name)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGS Volume:** $($mapContent.bgs.volume)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **BGS Pitch:** $($mapContent.bgs.pitch)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Parallax background
+        "## Parallax Background" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Name:** $($mapContent.parallaxName)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Show:** $($mapContent.parallaxShow)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Loop X:** $($mapContent.parallaxLoopX)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Loop Y:** $($mapContent.parallaxLoopY)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Sx:** $($mapContent.parallaxSx)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallax Sy:** $($mapContent.parallaxSy)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Encounter settings
+        "## Encounter Settings" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Encounter Step:** $($mapContent.encounterStep)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Number of Encounter Types:** $($mapContent.encounterList.Count)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        if ($mapContent.encounterList.Count -gt 0) {
+            "### Encounter List" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+            for ($i = 0; $i -lt $mapContent.encounterList.Count; $i++) {
+                $encounter = $mapContent.encounterList[$i]
+                "#### Encounter $($i+1)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+                "- **Troop ID:** $($encounter.troopId)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+                "- **Weight:** $($encounter.weight)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+                "- **Region Set:** $($encounter.regionSet -join ', ')" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+                "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+            }
+        }
+        
+        # Data array analysis
+        "## Data Array Analysis" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Total Tiles:** $($mapContent.data.Count)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Expected Tiles:** $($mapContent.width * $mapContent.height * 6)" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Count non-zero tiles
+        $nonZeroTiles = ($mapContent.data | Where-Object { $_ -ne 0 }).Count
+        "- **Non-Empty Tiles:** $nonZeroTiles" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Count tiles by layer
+        $layerSize = $mapContent.width * $mapContent.height
+        "### Tiles by Layer" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        for ($layer = 0; $layer -lt 6; $layer++) {
+            $startIndex = $layer * $layerSize
+            $endIndex = $startIndex + $layerSize - 1
+            $layerData = $mapContent.data[$startIndex..$endIndex]
+            $nonZeroLayerTiles = ($layerData | Where-Object { $_ -ne 0 }).Count
+            "- **Layer $($layer+1):** $nonZeroLayerTiles non-empty tiles" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Events analysis
+        "## Events Analysis" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Count non-null events
+        $eventCount = 0
+        $namedEventCount = 0
+        $eventsByTrigger = @{
+            "Action Button" = 0
+            "Player Touch" = 0
+            "Event Touch" = 0
+            "Autorun" = 0
+            "Parallel" = 0
+        }
+        
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+                
+                # Check if it's a named event (not just EV001, etc.)
+                if ($event.name -and -not $event.name.StartsWith("EV")) {
+                    $namedEventCount++
+                }
+                
+                # Count events by trigger type
+                if ($event.pages -and $event.pages.Count -gt 0) {
+                    $triggerType = switch ($event.pages[0].trigger) {
+                        0 { "Action Button" }
+                        1 { "Player Touch" }
+                        2 { "Event Touch" }
+                        3 { "Autorun" }
+                        4 { "Parallel" }
+                        default { "Unknown" }
+                    }
+                    $eventsByTrigger[$triggerType]++
+                }
+            }
+        }
+        
+        "- **Total Events:** $eventCount" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Named Events:** $namedEventCount" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        "### Events by Trigger Type" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Action Button:** $($eventsByTrigger['Action Button'])" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Player Touch:** $($eventsByTrigger['Player Touch'])" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Event Touch:** $($eventsByTrigger['Event Touch'])" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Autorun:** $($eventsByTrigger['Autorun'])" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "- **Parallel:** $($eventsByTrigger['Parallel'])" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # List named events
+        if ($namedEventCount -gt 0) {
+            "### Named Events" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null -and $event.name -and -not $event.name.StartsWith("EV")) {
+                    "- **$($event.name)** at ($($event.x), $($event.y))" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+                }
+            }
+            "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        }
+        
+        # Create a simple ASCII map of events
+        "## Event Map" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "```" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Create a 2D array to represent the map
+        $eventMap = New-Object 'string[,]' $mapContent.height, $mapContent.width
+        for ($y = 0; $y -lt $mapContent.height; $y++) {
+            for ($x = 0; $x -lt $mapContent.width; $x++) {
+                $eventMap[$y, $x] = "."
+            }
+        }
+        
+        # Place events on the map
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                if ($event.x -ge 0 -and $event.x -lt $mapContent.width -and 
+                    $event.y -ge 0 -and $event.y -lt $mapContent.height) {
+                    $eventMap[$event.y, $event.x] = "E"
+                }
+            }
+        }
+        
+        # Output the event map
+        for ($y = 0; $y -lt $mapContent.height; $y++) {
+            $line = ""
+            for ($x = 0; $x -lt $mapContent.width; $x++) {
+                $line += $eventMap[$y, $x]
+            }
+            $line | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        }
+        
+        "```" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "Legend: E = Event, . = Empty" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        # Conclusion
+        "## Conclusion" | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "This map has $eventCount events and uses tileset ID $($mapContent.tilesetId). " | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        "It has dimensions of $($mapContent.width) × $($mapContent.height) tiles." | Out-File -FilePath $reportFile -Encoding utf8 -Append
+        
+        Write-Host "  Created detailed report at $reportFile" -ForegroundColor Green
+        Write-Host "Completed detailed analysis of map $mapId" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error analyzing map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Main script execution
+# Example usage:
+# Analyze-MapDetailed -mapFile "data/Map001.json"
+
+# If script is run directly (not imported as a module)
+if ($MyInvocation.InvocationName -eq $MyInvocation.MyCommand.Name) {
+    # Check if a map file was specified
+    if ($args.Count -gt 0) {
+        Analyze-MapDetailed -mapFile $args[0]
+    }
+    else {
+        Write-Host "Usage: .\analyze_map_detailed.ps1 <map_file>" -ForegroundColor Yellow
+        Write-Host "Example: .\analyze_map_detailed.ps1 data/Map001.json" -ForegroundColor Yellow
+    }
+}

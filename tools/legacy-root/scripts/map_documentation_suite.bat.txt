@@ -1,0 +1,101 @@
+@echo off
+echo MegaEarth2049 Map Documentation Suite
+echo ===================================
+echo.
+
+echo This batch file provides access to all map documentation tools.
+echo.
+
+:menu
+echo Please select an option:
+echo.
+echo 1. Analyze maps and generate documentation (one-time)
+echo 2. Start map file monitor (continuous documentation)
+echo 3. List all maps in the game
+echo 4. List properties of all maps
+echo 5. Count events in a specific map
+echo 6. Check if a specific map exists
+echo 7. Update documentation index
+echo 8. Exit
+echo.
+
+set /p choice=Enter your choice (1-8): 
+
+if "%choice%"=="1" goto analyze
+if "%choice%"=="2" goto monitor
+if "%choice%"=="3" goto list
+if "%choice%"=="4" goto properties
+if "%choice%"=="5" goto count
+if "%choice%"=="6" goto check
+if "%choice%"=="7" goto update
+if "%choice%"=="8" goto end
+
+echo Invalid choice. Please try again.
+echo.
+goto menu
+
+:analyze
+echo.
+echo Running map analysis and documentation generation...
+call document_maps.bat
+echo.
+pause
+goto menu
+
+:monitor
+echo.
+echo Starting map file monitor...
+start cmd /k monitor_maps.bat
+echo Map file monitor started in a new window.
+echo.
+pause
+goto menu
+
+:list
+echo.
+echo Listing all maps...
+powershell -ExecutionPolicy Bypass -File list_maps.ps1
+echo.
+pause
+goto menu
+
+:properties
+echo.
+echo Listing properties of all maps...
+powershell -ExecutionPolicy Bypass -File list_map_properties.ps1
+echo.
+pause
+goto menu
+
+:count
+echo.
+set /p mapid=Enter map ID (e.g., 001): 
+echo.
+echo Counting events in Map%mapid%.json...
+powershell -ExecutionPolicy Bypass -File count_map_events.ps1 -mapFile "data/Map%mapid%.json"
+echo.
+pause
+goto menu
+
+:check
+echo.
+set /p mapid=Enter map ID (e.g., 001): 
+echo.
+echo Checking if Map%mapid%.json exists...
+powershell -ExecutionPolicy Bypass -File check_map_file.ps1 -mapFile "data/Map%mapid%.json"
+echo.
+pause
+goto menu
+
+:update
+echo.
+echo Updating documentation index...
+powershell -ExecutionPolicy Bypass -File update_documentation_index.ps1
+echo.
+pause
+goto menu
+
+:end
+echo.
+echo Thank you for using the MegaEarth2049 Map Documentation Suite.
+echo.

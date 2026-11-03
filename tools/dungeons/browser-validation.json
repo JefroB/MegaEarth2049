@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "loadedMaps": [
+    {
+      "id": 110,
+      "reachable": 452
+    },
+    {
+      "id": 111,
+      "reachable": 366
+    },
+    {
+      "id": 112,
+      "reachable": 381
+    },
+    {
+      "id": 113,
+      "reachable": 260
+    },
+    {
+      "id": 114,
+      "reachable": 569
+    },
+    {
+      "id": 115,
+      "reachable": 302
+    }
+  ],
+  "saveRoundTrip": true,
+  "questCompleted": true,
+  "fieldNotesMenu": [
+    "A Lien on Your Spleen",
+    "Cold Storage, Warm Bodies",
+    "The Haunted Shift",
+    "Close notebook"
+  ],
+  "fieldNotesText": "COMPLETED. Reward claimed. You can revisit the\ndungeon; rewards and discoveries do not reset.",
+  "pageErrors": []
+}

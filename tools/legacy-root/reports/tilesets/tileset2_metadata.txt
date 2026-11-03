@@ -1,0 +1,14 @@
+﻿Tileset ID: 2
+Name: Outside
+Mode: 1
+Note: 
+Tileset Names:
+  - Outside_A1
+  - Outside_A2
+  - Outside_A3
+  - Outside_A4
+  - Outside_A5
+  - Outside_B
+  - Outside_C
+  - 
+  - 

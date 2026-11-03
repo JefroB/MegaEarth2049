@@ -1,0 +1,121 @@
+# MegaEarth2049 Map Tools
+# This script provides simple tools for working with RPG Maker MV map files
+
+# Function to list all map files
+function List-Maps {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # List each map file
+    foreach ($mapFile in $mapFiles) {
+        Write-Host "  $($mapFile.Name)" -ForegroundColor Green
+    }
+}
+
+# Function to check if a map file exists
+function Test-Map {
+    param (
+        [string]$mapFile
+    )
+    
+    # Check if the map file exists
+    if (Test-Path $mapFile) {
+        Write-Host "Map file exists: $mapFile" -ForegroundColor Green
+        return $true
+    }
+    else {
+        Write-Host "Map file does not exist: $mapFile" -ForegroundColor Red
+        return $false
+    }
+}
+
+# Function to create a map documentation file
+function Create-MapDocumentation {
+    param (
+        [string]$outputFile = "Map_Documentation.md"
+    )
+    
+    $content = @"
+# RPG Maker MV Map Documentation
+
+## Map File Structure
+
+Map files in RPG Maker MV are JSON files with the following structure:
+
+```json
+{
+  "autoplayBgm": boolean,
+  "autoplayBgs": boolean,
+  "battleback1Name": string,
+  "battleback2Name": string,
+  "bgm": object,
+  "bgs": object,
+  "disableDashing": boolean,
+  "displayName": string,
+  "encounterList": array,
+  "encounterStep": number,
+  "height": number,
+  "note": string,
+  "parallaxLoopX": boolean,
+  "parallaxLoopY": boolean,
+  "parallaxName": string,
+  "parallaxShow": boolean,
+  "parallaxSx": number,
+  "parallaxSy": number,
+  "scrollType": number,
+  "specifyBattleback": boolean,
+  "tilesetId": number,
+  "width": number,
+  "data": array,
+  "events": array
+}
+```
+
+## Key Components
+
+1. **Basic Properties**: displayName, width, height, tilesetId
+2. **Data Array**: Contains all tile IDs for the map
+3. **Events Array**: Contains all events on the map
+
+## Tools
+
+Several PowerShell scripts are available for working with map files:
+
+- `List-Maps`: Lists all map files in the data directory
+- `Test-Map`: Checks if a specific map file exists
+- `Create-MapDocumentation`: Creates this documentation file
+
+## Usage
+
+```powershell
+# List all maps
+List-Maps
+
+# Check if a map exists
+Test-Map -mapFile "data/Map001.json"
+
+# Create documentation
+Create-MapDocumentation -outputFile "Map_Documentation.md"
+```
+"@
+    
+    # Write the content to the output file
+    $content | Out-File -FilePath $outputFile -Encoding utf8
+    
+    Write-Host "Created map documentation at $outputFile" -ForegroundColor Green
+}
+
+# Export functions
+Export-ModuleMember -Function List-Maps, Test-Map, Create-MapDocumentation

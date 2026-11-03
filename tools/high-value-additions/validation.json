@@ -1,0 +1,227 @@
+{
+  "passed": true,
+  "checks": [
+    "sample inflicts 27",
+    "named cure 165",
+    "sample respects immunity 0",
+    "enemy skill applies 0",
+    "sample inflicts 28",
+    "named cure 166",
+    "sample respects immunity 1",
+    "enemy skill applies 1",
+    "sample inflicts 29",
+    "named cure 167",
+    "sample respects immunity 2",
+    "enemy skill applies 2",
+    "sample inflicts 30",
+    "named cure 168",
+    "sample respects immunity 3",
+    "enemy skill applies 3",
+    "sample inflicts 31",
+    "named cure 169",
+    "sample respects immunity 4",
+    "enemy skill applies 4",
+    "Herb heals exactly80 and clears Poison/Queasy",
+    "Panacea covers explicit ailments",
+    "Panacea preserves immortality and positive plating",
+    "Panacea excludes KO and scripted quarantine",
+    "potion exact outcome 0",
+    "potion exact outcome 1",
+    "potion exact outcome 2",
+    "potion exact outcome 3",
+    "personal ninja skills accessible 5",
+    "ninja controllable 5",
+    "ninja equipment limits 5",
+    "specialties exclusive 5",
+    "personal ninja skills accessible 6",
+    "ninja controllable 6",
+    "ninja equipment limits 6",
+    "specialties exclusive 6",
+    "personal ninja skills accessible 7",
+    "ninja controllable 7",
+    "ninja equipment limits 7",
+    "specialties exclusive 7",
+    "Pink healing and cleanse",
+    "Pink mutual aid",
+    "Blue defensive stance",
+    "boss disease resistance 115",
+    "boss disease resistance 117",
+    "boss disease resistance 142",
+    "boss disease resistance 143",
+    "boss disease resistance 144",
+    "boss disease resistance 145",
+    "boss disease resistance 146",
+    "boss disease resistance 147",
+    "boss disease resistance 148",
+    "boss disease resistance 149",
+    "boss disease resistance 150",
+    "boss disease resistance 151",
+    "enemy disease usable turn2 41",
+    "disease cadence 41",
+    "enemy disease usable turn2 38",
+    "disease cadence 38",
+    "enemy disease usable turn2 11",
+    "disease cadence 11",
+    "enemy disease usable turn2 94",
+    "disease cadence 94",
+    "enemy disease usable turn2 67",
+    "disease cadence 67",
+    "event finishes 2",
+    "upgrade rejects absent inputs",
+    "event finishes 2",
+    "cancel upgrade 0",
+    "event finishes 2",
+    "atomic upgrade 0",
+    "event finishes 2",
+    "upgrade needs new base 0",
+    "event finishes 2",
+    "cancel upgrade 1",
+    "event finishes 2",
+    "atomic upgrade 1",
+    "event finishes 2",
+    "upgrade needs new base 1",
+    "event finishes 2",
+    "cancel upgrade 2",
+    "event finishes 2",
+    "atomic upgrade 2",
+    "event finishes 2",
+    "upgrade needs new base 2",
+    "event finishes 5",
+    "Third Eye required for free bypass",
+    "event finishes 5",
+    "unsafe override denied",
+    "event finishes 5",
+    "filter requires consumable",
+    "event finishes 5",
+    "filter route consumes one purge",
+    "event finishes 5",
+    "Third Eye route preserves mod",
+    "route leaves campaign gates unchanged",
+    "event finishes 2",
+    "event finishes 2",
+    "cache reward once",
+    "event finishes 1",
+    "unconditional exit",
+    "annex interaction reachable 1",
+    "annex interaction reachable 2",
+    "annex interaction reachable 3",
+    "return landing passable",
+    "specialty survives save roundtrip",
+    "cache completion survives save"
+  ],
+  "executed": [
+    [
+      "skill",
+      255
+    ],
+    [
+      "skill",
+      256
+    ],
+    [
+      "skill",
+      257
+    ],
+    [
+      "skill",
+      258
+    ],
+    [
+      "skill",
+      259
+    ],
+    [
+      "skill",
+      260
+    ],
+    [
+      "skill",
+      261
+    ],
+    [
+      "skill",
+      262
+    ],
+    [
+      "skill",
+      262
+    ],
+    [
+      "skill",
+      263
+    ],
+    [
+      "skill",
+      264
+    ],
+    [
+      "skill",
+      265
+    ],
+    [
+      "skill",
+      266
+    ],
+    [
+      "skill",
+      267
+    ],
+    [
+      "skill",
+      268
+    ],
+    [
+      "item",
+      165
+    ],
+    [
+      "item",
+      166
+    ],
+    [
+      "item",
+      167
+    ],
+    [
+      "item",
+      168
+    ],
+    [
+      "item",
+      169
+    ],
+    [
+      "item",
+      170
+    ],
+    [
+      "item",
+      171
+    ],
+    [
+      "item",
+      172
+    ],
+    [
+      "item",
+      173
+    ],
+    [
+      "item",
+      174
+    ],
+    [
+      "item",
+      175
+    ],
+    [
+      "item",
+      176
+    ],
+    [
+      "item",
+      177
+    ]
+  ],
+  "errors": []
+}

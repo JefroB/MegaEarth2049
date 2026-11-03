@@ -1,0 +1,14 @@
+﻿Tileset ID: 1
+Name: Overworld
+Mode: 0
+Note: 
+Tileset Names:
+  - World_A1
+  - World_A2
+  - 
+  - 
+  - 
+  - World_B
+  - World_C
+  - 
+  - 

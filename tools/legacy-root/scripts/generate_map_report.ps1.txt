@@ -1,0 +1,258 @@
+# MegaEarth2049 Comprehensive Map Report Generator
+# This script generates a comprehensive report about all maps in the game
+
+# Function to generate a comprehensive map report
+function Generate-ComprehensiveMapReport {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_comprehensive_report"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Create a summary report file
+    $summaryFile = "$outputDir/map_summary_report.md"
+    
+    # Write report header
+    "# MegaEarth2049 Map Summary Report" | Out-File -FilePath $summaryFile -Encoding utf8
+    "**Generated on:** $(Get-Date)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    
+    # Write overview section
+    "## Overview" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "This report provides a comprehensive analysis of all maps in the MegaEarth2049 game." | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "Total Maps: $($mapFiles.Count)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    
+    # Create a table of maps
+    "## Map List" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "| Map ID | Display Name | Dimensions | Tileset ID | Events |" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "|--------|--------------|------------|------------|--------|" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    
+    # Variables to track statistics
+    $totalEvents = 0
+    $largestMap = @{
+        "id" = ""
+        "width" = 0
+        "height" = 0
+        "area" = 0
+    }
+    $mostEvents = @{
+        "id" = ""
+        "count" = 0
+    }
+    $tilesetCounts = @{}
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        try {
+            # Get map ID from filename
+            $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+            
+            # Read the map file
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            
+            # Count events
+            $eventCount = 0
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null) {
+                    $eventCount++
+                }
+            }
+            
+            # Update statistics
+            $totalEvents += $eventCount
+            
+            # Check if this is the largest map
+            $area = $mapContent.width * $mapContent.height
+            if ($area -gt $largestMap.area) {
+                $largestMap.id = $mapId
+                $largestMap.width = $mapContent.width
+                $largestMap.height = $mapContent.height
+                $largestMap.area = $area
+            }
+            
+            # Check if this map has the most events
+            if ($eventCount -gt $mostEvents.count) {
+                $mostEvents.id = $mapId
+                $mostEvents.count = $eventCount
+            }
+            
+            # Count tilesets
+            $tilesetId = $mapContent.tilesetId
+            if (-not $tilesetCounts.ContainsKey($tilesetId)) {
+                $tilesetCounts[$tilesetId] = 0
+            }
+            $tilesetCounts[$tilesetId]++
+            
+            # Add to the table
+            "| $mapId | $($mapContent.displayName) | $($mapContent.width) × $($mapContent.height) | $($mapContent.tilesetId) | $eventCount |" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+            
+            # Create individual map report
+            $mapReportFile = "$outputDir/Map${mapId}_report.md"
+            
+            # Write map report header
+            "# Map $mapId: $($mapContent.displayName)" | Out-File -FilePath $mapReportFile -Encoding utf8
+            "**Generated on:** $(Get-Date)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            
+            # Basic map information
+            "## Basic Information" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **File:** $($mapFile.Name)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Display Name:** $($mapContent.displayName)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Dimensions:** $($mapContent.width) × $($mapContent.height)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Tileset ID:** $($mapContent.tilesetId)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Note:** $($mapContent.note)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            
+            # Map settings
+            "## Map Settings" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Disable Dashing:** $($mapContent.disableDashing)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Scroll Type:** $($mapContent.scrollType)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Specify Battleback:** $($mapContent.specifyBattleback)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Battleback1 Name:** $($mapContent.battleback1Name)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Battleback2 Name:** $($mapContent.battleback2Name)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            
+            # Background music and sound
+            "## Background Music and Sound" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Autoplay BGM:** $($mapContent.autoplayBgm)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **BGM Name:** $($mapContent.bgm.name)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Autoplay BGS:** $($mapContent.autoplayBgs)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **BGS Name:** $($mapContent.bgs.name)" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            
+            # Events information
+            "## Events" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            "- **Total Events:** $eventCount" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+            
+            if ($eventCount -gt 0) {
+                "### Event List" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+                foreach ($event in $mapContent.events) {
+                    if ($event -ne $null) {
+                        "- **ID $($event.id):** $($event.name) at ($($event.x), $($event.y))" | Out-File -FilePath $mapReportFile -Encoding utf8 -Append
+                    }
+                }
+            }
+            
+            Write-Host "  Created report for Map $mapId" -ForegroundColor Green
+        }
+        catch {
+            Write-Host "  Error processing Map $mapId: $_" -ForegroundColor Red
+        }
+    }
+    
+    # Add statistics to the summary report
+    "" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "## Statistics" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "- **Total Maps:** $($mapFiles.Count)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "- **Total Events:** $totalEvents" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "- **Largest Map:** Map $($largestMap.id) ($($largestMap.width) × $($largestMap.height))" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "- **Map with Most Events:** Map $($mostEvents.id) ($($mostEvents.count) events)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    
+    # Add tileset usage
+    "" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    "## Tileset Usage" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    foreach ($tilesetId in $tilesetCounts.Keys | Sort-Object) {
+        "- **Tileset $tilesetId:** Used in $($tilesetCounts[$tilesetId]) maps" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+    }
+    
+    # Create an index file
+    $indexFile = "$outputDir/index.html"
+    
+    $indexContent = @"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MegaEarth2049 Map Reports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        .map-list {
+            margin-top: 20px;
+        }
+        .map-item {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>MegaEarth2049 Map Reports</h1>
+    <p>Generated on: $(Get-Date)</p>
+    
+    <h2>Summary Report</h2>
+    <p><a href="map_summary_report.md">View Summary Report</a></p>
+    
+    <h2>Individual Map Reports</h2>
+    <div class="map-list">
+"@
+    
+    # Add links to individual map reports
+    foreach ($mapFile in $mapFiles) {
+        $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+        try {
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            $indexContent += "        <div class='map-item'><a href='Map${mapId}_report.md'>Map $mapId: $($mapContent.displayName)</a></div>`n"
+        }
+        catch {
+            $indexContent += "        <div class='map-item'><a href='Map${mapId}_report.md'>Map $mapId</a></div>`n"
+        }
+    }
+    
+    $indexContent += @"
+    </div>
+</body>
+</html>
+"@
+    
+    $indexContent | Out-File -FilePath $indexFile -Encoding utf8
+    
+    Write-Host "Created comprehensive map reports in $outputDir" -ForegroundColor Green
+    Write-Host "  Summary report: $summaryFile" -ForegroundColor Green
+    Write-Host "  Index file: $indexFile" -ForegroundColor Green
+    Write-Host "  Individual reports: $($mapFiles.Count) files" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# Generate-ComprehensiveMapReport
+
+# If script is run directly (not imported as a module)
+if ($MyInvocation.InvocationName -eq $MyInvocation.MyCommand.Name) {
+    Generate-ComprehensiveMapReport
+}

@@ -1,0 +1,217 @@
+{
+  "items": [
+    {
+      "id": 165,
+      "name": "Acme Herpicin"
+    },
+    {
+      "id": 166,
+      "name": "Acme Retroviral Relief"
+    },
+    {
+      "id": 167,
+      "name": "Acme Gon-A-Gone"
+    },
+    {
+      "id": 168,
+      "name": "Acme Syph-Off"
+    },
+    {
+      "id": 169,
+      "name": "Acme Clapback"
+    },
+    {
+      "id": 170,
+      "name": "Green Herb"
+    },
+    {
+      "id": 171,
+      "name": "Panacea"
+    },
+    {
+      "id": 172,
+      "name": "Probably Not Poison"
+    },
+    {
+      "id": 173,
+      "name": "Herpes Sample"
+    },
+    {
+      "id": 174,
+      "name": "Retroviral Sample"
+    },
+    {
+      "id": 175,
+      "name": "Gonorrhea Sample"
+    },
+    {
+      "id": 176,
+      "name": "Syphalis Sample"
+    },
+    {
+      "id": 177,
+      "name": "Clap Sample"
+    }
+  ],
+  "skills": [
+    {
+      "id": 255,
+      "name": "Herpetic Sample"
+    },
+    {
+      "id": 256,
+      "name": "Retroviral Invoice"
+    },
+    {
+      "id": 257,
+      "name": "Gonococcal Spray"
+    },
+    {
+      "id": 258,
+      "name": "Spirochete Static"
+    },
+    {
+      "id": 259,
+      "name": "Claptrap Culture"
+    },
+    {
+      "id": 260,
+      "name": "Smoke Severance"
+    },
+    {
+      "id": 261,
+      "name": "Cut the Feed"
+    },
+    {
+      "id": 262,
+      "name": "Blue Crosscut"
+    },
+    {
+      "id": 263,
+      "name": "Hold the Line"
+    },
+    {
+      "id": 264,
+      "name": "Field Dressing"
+    },
+    {
+      "id": 265,
+      "name": "Mutual Aid"
+    },
+    {
+      "id": 266,
+      "name": "Union Rubber Chicken"
+    },
+    {
+      "id": 267,
+      "name": "Reinforced Safety Brick"
+    },
+    {
+      "id": 268,
+      "name": "Tenured Stapler"
+    }
+  ],
+  "recipes": [
+    {
+      "base": 66,
+      "result": 73,
+      "cost": 180,
+      "skill": 266
+    },
+    {
+      "base": 68,
+      "result": 74,
+      "cost": 240,
+      "skill": 267
+    },
+    {
+      "base": 61,
+      "result": 75,
+      "cost": 220,
+      "skill": 268
+    }
+  ],
+  "scope": [
+    "A01",
+    "A03",
+    "A08",
+    "A09",
+    "A10",
+    "A11"
+  ],
+  "potion": 172,
+  "queasy": 76,
+  "panaceaStates": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    21,
+    22,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    39,
+    42,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "annex": 240,
+  "ninjaSkills": [
+    260,
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "diseaseSkills": [
+    255,
+    256,
+    257,
+    258,
+    259
+  ],
+  "sampleItems": [
+    173,
+    174,
+    175,
+    176,
+    177
+  ],
+  "animationContract": "Native MV target-relative effects; existing approved animation IDs/sizes, no new projectile scaling or shared battle-core changes."
+}

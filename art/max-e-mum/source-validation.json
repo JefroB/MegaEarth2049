@@ -1,0 +1,17 @@
+{
+  "manifest": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\source-crops.json",
+  "passed": true,
+  "checked_cells": [
+    "side",
+    "front",
+    "back",
+    "armSide",
+    "armFront",
+    "armBack",
+    "wheel",
+    "claw",
+    "portrait"
+  ],
+  "errors": [],
+  "limitation": "Does not verify subject ownership, complete anatomy or intended motion; inspect exact packed cells visually."
+}

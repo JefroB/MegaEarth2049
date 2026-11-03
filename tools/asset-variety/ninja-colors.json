@@ -1,0 +1,37 @@
+[
+  {
+    "color": "Red",
+    "faceName": "ninja1",
+    "faceIndex": 0
+  },
+  {
+    "color": "Black",
+    "faceName": "ninja1",
+    "faceIndex": 1
+  },
+  {
+    "color": "Pink",
+    "faceName": "ninja2",
+    "faceIndex": 0
+  },
+  {
+    "color": "Green",
+    "faceName": "ninja2",
+    "faceIndex": 1
+  },
+  {
+    "color": "Blue",
+    "faceName": "ninja2",
+    "faceIndex": 2
+  },
+  {
+    "color": "Brown",
+    "faceName": "ninja2",
+    "faceIndex": 3
+  },
+  {
+    "color": "Purple",
+    "faceName": "ninja2",
+    "faceIndex": 4
+  }
+]

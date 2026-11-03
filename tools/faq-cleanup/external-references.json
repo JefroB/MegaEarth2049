@@ -1,0 +1,39 @@
+{
+  "changed": [
+    ".agent/skills/actors/SKILL.md",
+    "docs/story/STORY_PROGRESSION.md",
+    "art/companions-final/preview.html",
+    "art/completion-log/preview.html",
+    "art/cosmetic-skins/preview.html",
+    "art/illusion-room/preview.html",
+    "art/jen-story/preview.html",
+    "art/local-projects/preview.html",
+    "art/map-placement/preview.html",
+    "art/max-e-mum/preview.html",
+    "art/pink-story/preview.html",
+    "art/zack-story/preview.html",
+    "art/zed-story/preview.html",
+    "tools/backlog-repairs/docs.py",
+    "tools/bounded-additions/README.md",
+    "tools/burlap-quest/README.md",
+    "tools/companions-final/README.md",
+    "tools/cosmetic-skins/README.md",
+    "tools/faq-audit/rewrite.py",
+    "tools/hidden-dojo/README.md",
+    "tools/high-value-additions/README.md",
+    "tools/illusion-room/README.md",
+    "tools/local-projects/README.md",
+    "tools/map-placement-audit/README.md",
+    "tools/max-e-mum/README.md",
+    "tools/mod-clinic/README.md",
+    "tools/state-expansion-2/README.md",
+    "tools/state-expansion-2/build.py",
+    "tools/state-expansion-2/manifest.json",
+    "tools/vending-uprising/README.md",
+    "tools/zack-story/README.md"
+  ],
+  "retiredWriters": [
+    "tools/faq-audit/rewrite.py",
+    "tools/backlog-repairs/docs.py"
+  ]
+}

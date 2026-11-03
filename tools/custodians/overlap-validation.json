@@ -1,0 +1,30 @@
+{
+  "Duke": {
+    "recoveryAndIdleStrayPixels": [
+      0,
+      0
+    ],
+    "attackExtensionPixels": 2085
+  },
+  "Clap": {
+    "recoveryAndIdleStrayPixels": [
+      0,
+      0
+    ],
+    "attackExtensionPixels": 6333
+  },
+  "REM": {
+    "recoveryAndIdleStrayPixels": [
+      0,
+      0
+    ],
+    "attackExtensionPixels": 7912
+  },
+  "Septic": {
+    "recoveryAndIdleStrayPixels": [
+      0,
+      0
+    ],
+    "attackExtensionPixels": 4886
+  }
+}

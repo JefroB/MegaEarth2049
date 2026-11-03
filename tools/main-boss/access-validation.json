@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "locked",
+    "public",
+    "private",
+    "completed"
+  ]
+}

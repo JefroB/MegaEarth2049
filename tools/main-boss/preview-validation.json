@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "motions": [
+    "1:idle",
+    "1:warn_slam",
+    "1:slam",
+    "1:recover",
+    "1:warn_spit",
+    "1:spit",
+    "2:transition",
+    "2:warn_outbreak",
+    "2:outbreak",
+    "2:recover",
+    "2:warn_slam",
+    "2:slam",
+    "2:warn_siphon",
+    "2:siphon"
+  ],
+  "poses": [
+    0,
+    5,
+    1,
+    2,
+    3,
+    4
+  ]
+}

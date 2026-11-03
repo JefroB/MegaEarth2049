@@ -1,0 +1,46 @@
+{
+  "scope": "A15 first companion story only",
+  "title": "Weight Bearing",
+  "actor": 3,
+  "giver": [
+    103,
+    5
+  ],
+  "socket": [
+    108,
+    5
+  ],
+  "cache": [
+    110,
+    8
+  ],
+  "indicator": [
+    103,
+    17
+  ],
+  "locations": {
+    "8": [
+      12,
+      22
+    ],
+    "17": [
+      10,
+      5
+    ]
+  },
+  "switches": [
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "reward": {
+    "credits": 100,
+    "item": 170,
+    "quantity": 1,
+    "actorExp": 200
+  },
+  "paidBraceCost": 80
+}

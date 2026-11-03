@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "Absorb1",
+    "duration": 1.456,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0972,
+    "rms": 0.119,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Absorb2",
+    "duration": 1.156,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.941,
+    "rms": 0.1861,
+    "leading": 0.001,
+    "trailing": 0.051
+  },
+  {
+    "name": "accept",
+    "duration": 1.846,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.1172,
+    "rms": 0.0061,
+    "leading": 0.0,
+    "trailing": 1.748
+  },
+  {
+    "name": "Applause1",
+    "duration": 5.0,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9187,
+    "rms": 0.1477,
+    "leading": 0.001,
+    "trailing": 0.057
+  },
+  {
+    "name": "Applause2",
+    "duration": 3.591,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.6922,
+    "rms": 0.0635,
+    "leading": 0.0,
+    "trailing": 0.005
+  },
+  {
+    "name": "Attack1",
+    "duration": 0.527,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0497,
+    "rms": 0.2007,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Attack2",
+    "duration": 0.697,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9423,
+    "rms": 0.126,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Attack3",
+    "duration": 0.498,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0873,
+    "rms": 0.3278,
+    "leading": 0.002,
+    "trailing": 0.001
+  },
+  {
+    "name": "Battle1",
+    "duration": 1.95,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.414,
+    "rms": 0.1712,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Battle2",
+    "duration": 1.474,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9816,
+    "rms": 0.113,
+    "leading": 0.0,
+    "trailing": 0.05
+  },
+  {
+    "name": "Battle3",
+    "duration": 1.649,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 0.9973,
+    "rms": 0.2078,
+    "leading": 0.001,
+    "trailing": 0.007
+  },
+  {
+    "name": "Bell1",
+    "duration": 2.78,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0268,
+    "rms": 0.1539,
+    "leading": 0.0,
+    "trailing": 0.032
+  },
+  {
+    "name": "Bell2",
+    "duration": 1.008,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9886,
+    "rms": 0.1249,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Bell3",
+    "duration": 1.048,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0432,
+    "rms": 0.1518,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Blind",
+    "duration": 1.379,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0157,
+    "rms": 0.199,
+    "leading": 0.0,
+    "trailing": 0.009
+  },
+  {
+    "name": "Blow1",
+    "duration": 0.317,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9688,
+    "rms": 0.1406,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Blow2",
+    "duration": 0.278,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9968,
+    "rms": 0.238,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Blow3",
+    "duration": 0.27,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.025,
+    "rms": 0.2737,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Book1",
+    "duration": 0.5,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9008,
+    "rms": 0.054,
+    "leading": 0.029,
+    "trailing": 0.088
+  },
+  {
+    "name": "Book2",
+    "duration": 0.663,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1213,
+    "rms": 0.135,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Break",
+    "duration": 1.105,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7553,
+    "rms": 0.1634,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Buzzer1",
+    "duration": 0.306,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7007,
+    "rms": 0.3106,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Buzzer2",
+    "duration": 0.595,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9046,
+    "rms": 0.3582,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Cancel1",
+    "duration": 0.211,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8042,
+    "rms": 0.1091,
+    "leading": 0.0,
+    "trailing": 0.004
+  },
+  {
+    "name": "Cancel2",
+    "duration": 0.456,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 0.9739,
+    "rms": 0.165,
+    "leading": 0.003,
+    "trailing": 0.054
+  },
+  {
+    "name": "Cat",
+    "duration": 0.985,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.6738,
+    "rms": 0.2091,
+    "leading": 0.0,
+    "trailing": 0.003
+  },
+  {
+    "name": "Chainsaw1",
+    "duration": 2.368,
+    "rate": 48000,
+    "channels": 2,
+    "peak": 0.4522,
+    "rms": 0.0679,
+    "leading": 0.03,
+    "trailing": 0.008
+  },
+  {
+    "name": "Chest1",
+    "duration": 3.01,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.3962,
+    "rms": 0.0423,
+    "leading": 0.011,
+    "trailing": 0.683
+  },
+  {
+    "name": "Chest2",
+    "duration": 0.75,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9982,
+    "rms": 0.1473,
+    "leading": 0.003,
+    "trailing": 0.007
+  },
+  {
+    "name": "Close1",
+    "duration": 0.749,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7698,
+    "rms": 0.126,
+    "leading": 0.0,
+    "trailing": 0.027
+  },
+  {
+    "name": "Close2",
+    "duration": 0.778,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8333,
+    "rms": 0.131,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Close3",
+    "duration": 0.8,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9868,
+    "rms": 0.1663,
+    "leading": 0.005,
+    "trailing": 0.036
+  },
+  {
+    "name": "Coin",
+    "duration": 0.235,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0374,
+    "rms": 0.254,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Collapse1",
+    "duration": 3.0,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0026,
+    "rms": 0.1533,
+    "leading": 0.0,
+    "trailing": 0.243
+  },
+  {
+    "name": "Collapse2",
+    "duration": 2.6,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0096,
+    "rms": 0.2028,
+    "leading": 0.0,
+    "trailing": 0.054
+  },
+  {
+    "name": "Collapse3",
+    "duration": 2.0,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9923,
+    "rms": 0.129,
+    "leading": 0.001,
+    "trailing": 0.031
+  },
+  {
+    "name": "Collapse4",
+    "duration": 4.4,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0029,
+    "rms": 0.1603,
+    "leading": 0.0,
+    "trailing": 0.227
+  },
+  {
+    "name": "Computer",
+    "duration": 1.6,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.5134,
+    "rms": 0.0752,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Cow",
+    "duration": 1.811,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.2981,
+    "rms": 0.0815,
+    "leading": 0.003,
+    "trailing": 0.004
+  },
+  {
+    "name": "Crash",
+    "duration": 1.92,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.5079,
+    "rms": 0.2562,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Crossbow",
+    "duration": 0.532,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.019,
+    "rms": 0.0993,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Crow",
+    "duration": 1.2,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7076,
+    "rms": 0.1563,
+    "leading": 0.005,
+    "trailing": 0.028
+  },
+  {
+    "name": "Cursor1",
+    "duration": 0.028,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8998,
+    "rms": 0.2569,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Cursor2",
+    "duration": 2.0,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.4351,
+    "rms": 0.0215,
+    "leading": 0.001,
+    "trailing": 1.571
+  },
+  {
+    "name": "Damage1",
+    "duration": 0.41,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9588,
+    "rms": 0.3033,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Damage2",
+    "duration": 0.61,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9232,
+    "rms": 0.1897,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Damage3",
+    "duration": 0.444,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9733,
+    "rms": 0.2718,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Damage4",
+    "duration": 0.596,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0552,
+    "rms": 0.3964,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Damage5",
+    "duration": 0.449,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0698,
+    "rms": 0.362,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Darkness1",
+    "duration": 1.625,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9313,
+    "rms": 0.1585,
+    "leading": 0.004,
+    "trailing": 0.047
+  },
+  {
+    "name": "Darkness2",
+    "duration": 1.512,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9707,
+    "rms": 0.1378,
+    "leading": 0.004,
+    "trailing": 0.139
+  },
+  {
+    "name": "Darkness3",
+    "duration": 1.335,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0283,
+    "rms": 0.1748,
+    "leading": 0.015,
+    "trailing": 0.028
+  },
+  {
+    "name": "Darkness4",
+    "duration": 1.045,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0906,
+    "rms": 0.4539,
+    "leading": 0.0,
+    "trailing": 0.064
+  },
+  {
+    "name": "Darkness5",
+    "duration": 1.913,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.057,
+    "rms": 0.2014,
+    "leading": 0.004,
+    "trailing": 0.0
+  },
+  {
+    "name": "Decision1",
+    "duration": 2.25,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.4898,
+    "rms": 0.0584,
+    "leading": 0.0,
+    "trailing": 0.71
+  },
+  {
+    "name": "Decision2",
+    "duration": 0.253,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9832,
+    "rms": 0.2265,
+    "leading": 0.0,
+    "trailing": 0.008
+  },
+  {
+    "name": "Devil1",
+    "duration": 4.163,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0171,
+    "rms": 0.1229,
+    "leading": 0.0,
+    "trailing": 0.12
+  },
+  {
+    "name": "Devil2",
+    "duration": 4.0,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9104,
+    "rms": 0.1553,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Disappointment",
+    "duration": 2.139,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.4376,
+    "rms": 0.0721,
+    "leading": 0.016,
+    "trailing": 0.116
+  },
+  {
+    "name": "Dive",
+    "duration": 2.5,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8453,
+    "rms": 0.1399,
+    "leading": 0.0,
+    "trailing": 0.126
+  },
+  {
+    "name": "Dog",
+    "duration": 0.324,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0682,
+    "rms": 0.2192,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Door1",
+    "duration": 0.451,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8444,
+    "rms": 0.1492,
+    "leading": 0.001,
+    "trailing": 0.0
+  },
+  {
+    "name": "Door2",
+    "duration": 1.0,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.7791,
+    "rms": 0.1971,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Door3",
+    "duration": 0.902,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0043,
+    "rms": 0.2688,
+    "leading": 0.0,
+    "trailing": 0.193
+  },
+  {
+    "name": "Door4",
+    "duration": 3.2,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0032,
+    "rms": 0.17,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Down1",
+    "duration": 1.683,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0553,
+    "rms": 0.1331,
+    "leading": 0.0,
+    "trailing": 0.012
+  },
+  {
+    "name": "Down2",
+    "duration": 1.088,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9703,
+    "rms": 0.1949,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Earth1",
+    "duration": 0.819,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.2233,
+    "rms": 0.2511,
+    "leading": 0.0,
+    "trailing": 0.013
+  },
+  {
+    "name": "Earth2",
+    "duration": 1.225,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.084,
+    "rms": 0.2132,
+    "leading": 0.0,
+    "trailing": 0.123
+  },
+  {
+    "name": "Earth3",
+    "duration": 0.411,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1472,
+    "rms": 0.2957,
+    "leading": 0.0,
+    "trailing": 0.022
+  },
+  {
+    "name": "Earth4",
+    "duration": 1.358,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1375,
+    "rms": 0.3358,
+    "leading": 0.0,
+    "trailing": 0.031
+  },
+  {
+    "name": "Earth5",
+    "duration": 0.964,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1304,
+    "rms": 0.3846,
+    "leading": 0.0,
+    "trailing": 0.187
+  },
+  {
+    "name": "Electrocardiogram",
+    "duration": 0.858,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.7093,
+    "rms": 0.0932,
+    "leading": 0.0,
+    "trailing": 0.023
+  },
+  {
+    "name": "Equip1",
+    "duration": 0.35,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9072,
+    "rms": 0.1314,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Equip2",
+    "duration": 0.714,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0254,
+    "rms": 0.0967,
+    "leading": 0.006,
+    "trailing": 0.009
+  },
+  {
+    "name": "Evasion1",
+    "duration": 0.395,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.036,
+    "rms": 0.1658,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Evasion2",
+    "duration": 0.524,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.025,
+    "rms": 0.2793,
+    "leading": 0.0,
+    "trailing": 0.005
+  },
+  {
+    "name": "Explosion1",
+    "duration": 1.602,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0482,
+    "rms": 0.1447,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Explosion2",
+    "duration": 1.823,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0526,
+    "rms": 0.2411,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Fall",
+    "duration": 0.8,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.885,
+    "rms": 0.2106,
+    "leading": 0.001,
+    "trailing": 0.0
+  },
+  {
+    "name": "Fire1",
+    "duration": 0.894,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0752,
+    "rms": 0.1791,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Fire2",
+    "duration": 1.324,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0202,
+    "rms": 0.2294,
+    "leading": 0.002,
+    "trailing": 0.008
+  },
+  {
+    "name": "Fire3",
+    "duration": 1.138,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9341,
+    "rms": 0.2428,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Flash1",
+    "duration": 0.74,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9819,
+    "rms": 0.1244,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Flash2",
+    "duration": 1.649,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0598,
+    "rms": 0.145,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Frog",
+    "duration": 1.492,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8626,
+    "rms": 0.1667,
+    "leading": 0.033,
+    "trailing": 0.01
+  },
+  {
+    "name": "Growl",
+    "duration": 4.4,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8676,
+    "rms": 0.2121,
+    "leading": 0.0,
+    "trailing": 0.018
+  },
+  {
+    "name": "Gun1",
+    "duration": 0.705,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0074,
+    "rms": 0.1606,
+    "leading": 0.0,
+    "trailing": 0.013
+  },
+  {
+    "name": "Gun2",
+    "duration": 1.198,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0147,
+    "rms": 0.1654,
+    "leading": 0.0,
+    "trailing": 0.051
+  },
+  {
+    "name": "Hammer",
+    "duration": 0.706,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0213,
+    "rms": 0.1537,
+    "leading": 0.0,
+    "trailing": 0.021
+  },
+  {
+    "name": "Heal1",
+    "duration": 0.531,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9349,
+    "rms": 0.1778,
+    "leading": 0.002,
+    "trailing": 0.004
+  },
+  {
+    "name": "Heal2",
+    "duration": 0.932,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0045,
+    "rms": 0.1567,
+    "leading": 0.003,
+    "trailing": 0.012
+  },
+  {
+    "name": "Heal3",
+    "duration": 1.077,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0061,
+    "rms": 0.1582,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Horn",
+    "duration": 2.6,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.5889,
+    "rms": 0.1561,
+    "leading": 0.006,
+    "trailing": 0.101
+  },
+  {
+    "name": "Horse",
+    "duration": 1.371,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0395,
+    "rms": 0.1562,
+    "leading": 0.004,
+    "trailing": 0.033
+  },
+  {
+    "name": "Ice1",
+    "duration": 0.557,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.5445,
+    "rms": 0.1268,
+    "leading": 0.0,
+    "trailing": 0.003
+  },
+  {
+    "name": "Ice2",
+    "duration": 0.882,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.966,
+    "rms": 0.1061,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Ice3",
+    "duration": 0.685,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8766,
+    "rms": 0.1634,
+    "leading": 0.0,
+    "trailing": 0.014
+  },
+  {
+    "name": "Ice4",
+    "duration": 1.431,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0094,
+    "rms": 0.1541,
+    "leading": 0.0,
+    "trailing": 0.036
+  },
+  {
+    "name": "Ice5",
+    "duration": 0.788,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7636,
+    "rms": 0.1675,
+    "leading": 0.0,
+    "trailing": 0.014
+  },
+  {
+    "name": "Item1",
+    "duration": 0.714,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.037,
+    "rms": 0.2763,
+    "leading": 0.0,
+    "trailing": 0.016
+  },
+  {
+    "name": "Item2",
+    "duration": 1.14,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0821,
+    "rms": 0.1977,
+    "leading": 0.0,
+    "trailing": 0.035
+  },
+  {
+    "name": "Item3",
+    "duration": 1.108,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 0.9804,
+    "rms": 0.151,
+    "leading": 0.0,
+    "trailing": 0.047
+  },
+  {
+    "name": "Jump1",
+    "duration": 0.244,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.828,
+    "rms": 0.1734,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Jump2",
+    "duration": 0.292,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.6321,
+    "rms": 0.1642,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Key",
+    "duration": 0.171,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0594,
+    "rms": 0.1412,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Knock",
+    "duration": 0.18,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0088,
+    "rms": 0.0891,
+    "leading": 0.0,
+    "trailing": 0.005
+  },
+  {
+    "name": "Laser1",
+    "duration": 1.089,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0822,
+    "rms": 0.1833,
+    "leading": 0.0,
+    "trailing": 0.069
+  },
+  {
+    "name": "Laser2",
+    "duration": 4.8,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.974,
+    "rms": 0.1917,
+    "leading": 0.024,
+    "trailing": 0.007
+  },
+  {
+    "name": "Laugh",
+    "duration": 3.8,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.4847,
+    "rms": 0.0811,
+    "leading": 0.063,
+    "trailing": 0.165
+  },
+  {
+    "name": "Launch",
+    "duration": 3.159,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8299,
+    "rms": 0.1278,
+    "leading": 0.0,
+    "trailing": 0.543
+  },
+  {
+    "name": "Leakage",
+    "duration": 2.013,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8659,
+    "rms": 0.1198,
+    "leading": 0.001,
+    "trailing": 0.0
+  },
+  {
+    "name": "Liquid",
+    "duration": 2.655,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 1.0042,
+    "rms": 0.0418,
+    "leading": 0.0,
+    "trailing": 0.119
+  },
+  {
+    "name": "Load",
+    "duration": 2.25,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9974,
+    "rms": 0.0735,
+    "leading": 0.0,
+    "trailing": 0.404
+  },
+  {
+    "name": "Machine",
+    "duration": 3.661,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0151,
+    "rms": 0.332,
+    "leading": 0.0,
+    "trailing": 0.036
+  },
+  {
+    "name": "Magic1",
+    "duration": 1.0,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.5992,
+    "rms": 0.1272,
+    "leading": 0.005,
+    "trailing": 0.006
+  },
+  {
+    "name": "Magic2",
+    "duration": 1.556,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.842,
+    "rms": 0.1418,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Magic3",
+    "duration": 4.766,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0772,
+    "rms": 0.1006,
+    "leading": 0.0,
+    "trailing": 0.494
+  },
+  {
+    "name": "Magic4",
+    "duration": 1.332,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0311,
+    "rms": 0.2453,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Miss",
+    "duration": 0.382,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0169,
+    "rms": 0.1503,
+    "leading": 0.001,
+    "trailing": 0.003
+  },
+  {
+    "name": "Monster1",
+    "duration": 1.091,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1495,
+    "rms": 0.3158,
+    "leading": 0.0,
+    "trailing": 0.021
+  },
+  {
+    "name": "Monster2",
+    "duration": 1.515,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1039,
+    "rms": 0.2051,
+    "leading": 0.0,
+    "trailing": 0.033
+  },
+  {
+    "name": "Monster3",
+    "duration": 1.4,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9379,
+    "rms": 0.2345,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Monster4",
+    "duration": 1.6,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.002,
+    "rms": 0.3313,
+    "leading": 0.001,
+    "trailing": 0.0
+  },
+  {
+    "name": "Monster5",
+    "duration": 1.994,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0868,
+    "rms": 0.268,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Move1",
+    "duration": 0.8,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9975,
+    "rms": 0.0921,
+    "leading": 0.019,
+    "trailing": 0.016
+  },
+  {
+    "name": "Move2",
+    "duration": 0.75,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9933,
+    "rms": 0.1731,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Move3",
+    "duration": 0.75,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9957,
+    "rms": 0.1834,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Move4",
+    "duration": 0.75,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.9959,
+    "rms": 0.2101,
+    "leading": 0.001,
+    "trailing": 0.0
+  },
+  {
+    "name": "Move5",
+    "duration": 3.125,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.1762,
+    "rms": 0.0219,
+    "leading": 0.002,
+    "trailing": 0.0
+  },
+  {
+    "name": "Neon",
+    "duration": 0.988,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.6211,
+    "rms": 0.1388,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Noise",
+    "duration": 1.581,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.5554,
+    "rms": 0.1333,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Open1",
+    "duration": 0.371,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0481,
+    "rms": 0.1015,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Open2",
+    "duration": 0.62,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0154,
+    "rms": 0.1384,
+    "leading": 0.0,
+    "trailing": 0.011
+  },
+  {
+    "name": "Open3",
+    "duration": 0.8,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0315,
+    "rms": 0.1487,
+    "leading": 0.002,
+    "trailing": 0.013
+  },
+  {
+    "name": "Open4",
+    "duration": 0.464,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0755,
+    "rms": 0.2235,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Open5",
+    "duration": 0.909,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1372,
+    "rms": 0.1085,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Paralyze1",
+    "duration": 0.337,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0001,
+    "rms": 0.1213,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Paralyze2",
+    "duration": 0.308,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.01,
+    "rms": 0.2246,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Paralyze3",
+    "duration": 0.842,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9842,
+    "rms": 0.136,
+    "leading": 0.002,
+    "trailing": 0.0
+  },
+  {
+    "name": "Parry",
+    "duration": 0.58,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9698,
+    "rms": 0.2162,
+    "leading": 0.0,
+    "trailing": 0.007
+  },
+  {
+    "name": "Phone",
+    "duration": 2.223,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 0.997,
+    "rms": 0.2292,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Poison",
+    "duration": 1.614,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0487,
+    "rms": 0.1673,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Pollen",
+    "duration": 1.962,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.028,
+    "rms": 0.097,
+    "leading": 0.0,
+    "trailing": 0.02
+  },
+  {
+    "name": "Powerup",
+    "duration": 2.206,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1929,
+    "rms": 0.1637,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Push",
+    "duration": 0.906,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8027,
+    "rms": 0.1593,
+    "leading": 0.004,
+    "trailing": 0.014
+  },
+  {
+    "name": "Raise1",
+    "duration": 1.115,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0478,
+    "rms": 0.216,
+    "leading": 0.0,
+    "trailing": 0.011
+  },
+  {
+    "name": "Raise2",
+    "duration": 1.129,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8422,
+    "rms": 0.1553,
+    "leading": 0.002,
+    "trailing": 0.011
+  },
+  {
+    "name": "Recovery",
+    "duration": 0.865,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0539,
+    "rms": 0.1568,
+    "leading": 0.0,
+    "trailing": 0.024
+  },
+  {
+    "name": "Reflection",
+    "duration": 0.742,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0614,
+    "rms": 0.189,
+    "leading": 0.0,
+    "trailing": 0.023
+  },
+  {
+    "name": "Run",
+    "duration": 0.461,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9591,
+    "rms": 0.19,
+    "leading": 0.001,
+    "trailing": 0.002
+  },
+  {
+    "name": "Saint1",
+    "duration": 1.637,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9995,
+    "rms": 0.1713,
+    "leading": 0.033,
+    "trailing": 0.128
+  },
+  {
+    "name": "Saint2",
+    "duration": 1.84,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9111,
+    "rms": 0.1399,
+    "leading": 0.0,
+    "trailing": 0.237
+  },
+  {
+    "name": "Saint3",
+    "duration": 0.543,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0594,
+    "rms": 0.1981,
+    "leading": 0.0,
+    "trailing": 0.043
+  },
+  {
+    "name": "Saint4",
+    "duration": 1.788,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9634,
+    "rms": 0.1373,
+    "leading": 0.021,
+    "trailing": 0.02
+  },
+  {
+    "name": "Saint5",
+    "duration": 0.83,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9795,
+    "rms": 0.1669,
+    "leading": 0.0,
+    "trailing": 0.025
+  },
+  {
+    "name": "Sand",
+    "duration": 1.533,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9713,
+    "rms": 0.1428,
+    "leading": 0.004,
+    "trailing": 0.02
+  },
+  {
+    "name": "Save",
+    "duration": 2.4,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.6481,
+    "rms": 0.0604,
+    "leading": 0.0,
+    "trailing": 0.464
+  },
+  {
+    "name": "Scream",
+    "duration": 2.769,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1481,
+    "rms": 0.3482,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Sheep",
+    "duration": 0.954,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.903,
+    "rms": 0.2083,
+    "leading": 0.0,
+    "trailing": 0.013
+  },
+  {
+    "name": "Shop1",
+    "duration": 2.6,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.4019,
+    "rms": 0.0492,
+    "leading": 0.0,
+    "trailing": 0.76
+  },
+  {
+    "name": "Shop2",
+    "duration": 0.6,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9905,
+    "rms": 0.0965,
+    "leading": 0.003,
+    "trailing": 0.011
+  },
+  {
+    "name": "Shot1",
+    "duration": 0.848,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.5627,
+    "rms": 0.0536,
+    "leading": 0.0,
+    "trailing": 0.003
+  },
+  {
+    "name": "Shot2",
+    "duration": 0.522,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9659,
+    "rms": 0.1223,
+    "leading": 0.0,
+    "trailing": 0.003
+  },
+  {
+    "name": "Shot3",
+    "duration": 0.911,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0082,
+    "rms": 0.2118,
+    "leading": 0.0,
+    "trailing": 0.009
+  },
+  {
+    "name": "Silence",
+    "duration": 0.572,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0923,
+    "rms": 0.1368,
+    "leading": 0.007,
+    "trailing": 0.004
+  },
+  {
+    "name": "Siren",
+    "duration": 2.406,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8239,
+    "rms": 0.1305,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Skill1",
+    "duration": 0.9,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.5975,
+    "rms": 0.1037,
+    "leading": 0.007,
+    "trailing": 0.065
+  },
+  {
+    "name": "Skill2",
+    "duration": 0.987,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0857,
+    "rms": 0.2444,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Skill3",
+    "duration": 1.099,
+    "rate": 44100,
+    "channels": 1,
+    "peak": 1.0816,
+    "rms": 0.307,
+    "leading": 0.007,
+    "trailing": 0.008
+  },
+  {
+    "name": "Slash1",
+    "duration": 0.547,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0667,
+    "rms": 0.2626,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Slash2",
+    "duration": 0.42,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.059,
+    "rms": 0.2852,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Slash3",
+    "duration": 0.436,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1419,
+    "rms": 0.333,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Slash4",
+    "duration": 0.39,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9774,
+    "rms": 0.2559,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Slash5",
+    "duration": 0.388,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9563,
+    "rms": 0.2185,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Sleep",
+    "duration": 0.94,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.002,
+    "rms": 0.1662,
+    "leading": 0.0,
+    "trailing": 0.074
+  },
+  {
+    "name": "Sound1",
+    "duration": 0.842,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0047,
+    "rms": 0.2553,
+    "leading": 0.0,
+    "trailing": 0.013
+  },
+  {
+    "name": "Sound2",
+    "duration": 1.016,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.061,
+    "rms": 0.2065,
+    "leading": 0.0,
+    "trailing": 0.019
+  },
+  {
+    "name": "Sound3",
+    "duration": 1.448,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1847,
+    "rms": 0.293,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Splash",
+    "duration": 1.264,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.8821,
+    "rms": 0.1037,
+    "leading": 0.0,
+    "trailing": 0.185
+  },
+  {
+    "name": "Stare",
+    "duration": 1.318,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9349,
+    "rms": 0.1073,
+    "leading": 0.0,
+    "trailing": 0.01
+  },
+  {
+    "name": "Starlight",
+    "duration": 3.065,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.6514,
+    "rms": 0.0898,
+    "leading": 0.0,
+    "trailing": 0.184
+  },
+  {
+    "name": "Switch1",
+    "duration": 0.166,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0108,
+    "rms": 0.0875,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Switch2",
+    "duration": 0.4,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7845,
+    "rms": 0.1023,
+    "leading": 0.0,
+    "trailing": 0.042
+  },
+  {
+    "name": "Switch3",
+    "duration": 0.5,
+    "rate": 32000,
+    "channels": 1,
+    "peak": 0.8713,
+    "rms": 0.1786,
+    "leading": 0.001,
+    "trailing": 0.002
+  },
+  {
+    "name": "Sword1",
+    "duration": 0.515,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8002,
+    "rms": 0.106,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Sword2",
+    "duration": 1.358,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0368,
+    "rms": 0.124,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Sword3",
+    "duration": 0.788,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1768,
+    "rms": 0.1587,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Sword4",
+    "duration": 1.076,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9928,
+    "rms": 0.1364,
+    "leading": 0.0,
+    "trailing": 0.064
+  },
+  {
+    "name": "Sword5",
+    "duration": 1.039,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.3713,
+    "rms": 0.0986,
+    "leading": 0.0,
+    "trailing": 0.256
+  },
+  {
+    "name": "Teleport",
+    "duration": 6.0,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0035,
+    "rms": 0.1108,
+    "leading": 0.008,
+    "trailing": 1.007
+  },
+  {
+    "name": "Thunder1",
+    "duration": 1.086,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1658,
+    "rms": 0.2614,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Thunder10",
+    "duration": 0.969,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.2743,
+    "rms": 0.1883,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Thunder2",
+    "duration": 0.411,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1569,
+    "rms": 0.2469,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Thunder3",
+    "duration": 0.707,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0898,
+    "rms": 0.1826,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Thunder4",
+    "duration": 0.987,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.3003,
+    "rms": 0.3869,
+    "leading": 0.004,
+    "trailing": 0.01
+  },
+  {
+    "name": "Thunder5",
+    "duration": 0.795,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1527,
+    "rms": 0.2838,
+    "leading": 0.0,
+    "trailing": 0.009
+  },
+  {
+    "name": "Thunder6",
+    "duration": 1.236,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.2181,
+    "rms": 0.2084,
+    "leading": 0.0,
+    "trailing": 0.005
+  },
+  {
+    "name": "Thunder7",
+    "duration": 1.245,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.8521,
+    "rms": 0.1806,
+    "leading": 0.0,
+    "trailing": 0.006
+  },
+  {
+    "name": "Thunder8",
+    "duration": 0.807,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0967,
+    "rms": 0.1898,
+    "leading": 0.0,
+    "trailing": 0.001
+  },
+  {
+    "name": "Thunder9",
+    "duration": 1.916,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1807,
+    "rms": 0.3209,
+    "leading": 0.0,
+    "trailing": 0.002
+  },
+  {
+    "name": "Transceiver",
+    "duration": 0.802,
+    "rate": 44100,
+    "channels": 2,
+    "peak": 0.6841,
+    "rms": 0.0858,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Twine",
+    "duration": 0.908,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9887,
+    "rms": 0.2114,
+    "leading": 0.0,
+    "trailing": 0.004
+  },
+  {
+    "name": "Up1",
+    "duration": 1.057,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.004,
+    "rms": 0.1364,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Up2",
+    "duration": 1.947,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0415,
+    "rms": 0.2105,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Up3",
+    "duration": 2.011,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.7259,
+    "rms": 0.1418,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Up4",
+    "duration": 1.669,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9079,
+    "rms": 0.1664,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Water1",
+    "duration": 1.149,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1841,
+    "rms": 0.1797,
+    "leading": 0.0,
+    "trailing": 0.16
+  },
+  {
+    "name": "Water2",
+    "duration": 1.033,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1736,
+    "rms": 0.1523,
+    "leading": 0.0,
+    "trailing": 0.158
+  },
+  {
+    "name": "Water3",
+    "duration": 1.086,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.141,
+    "rms": 0.1911,
+    "leading": 0.0,
+    "trailing": 0.121
+  },
+  {
+    "name": "Water4",
+    "duration": 0.952,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.3271,
+    "rms": 0.3341,
+    "leading": 0.001,
+    "trailing": 0.092
+  },
+  {
+    "name": "Water5",
+    "duration": 1.608,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1515,
+    "rms": 0.2111,
+    "leading": 0.002,
+    "trailing": 0.168
+  },
+  {
+    "name": "Wind1",
+    "duration": 1.045,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1144,
+    "rms": 0.1518,
+    "leading": 0.024,
+    "trailing": 0.079
+  },
+  {
+    "name": "Wind2",
+    "duration": 1.614,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.1403,
+    "rms": 0.1961,
+    "leading": 0.0,
+    "trailing": 0.185
+  },
+  {
+    "name": "Wind3",
+    "duration": 0.969,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0695,
+    "rms": 0.1642,
+    "leading": 0.013,
+    "trailing": 0.0
+  },
+  {
+    "name": "Wind4",
+    "duration": 0.257,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0543,
+    "rms": 0.1338,
+    "leading": 0.0,
+    "trailing": 0.057
+  },
+  {
+    "name": "Wind5",
+    "duration": 1.289,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.3346,
+    "rms": 0.3028,
+    "leading": 0.007,
+    "trailing": 0.019
+  },
+  {
+    "name": "Wind6",
+    "duration": 1.152,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.3398,
+    "rms": 0.4238,
+    "leading": 0.003,
+    "trailing": 0.072
+  },
+  {
+    "name": "Wind7",
+    "duration": 0.12,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 1.0213,
+    "rms": 0.204,
+    "leading": 0.0,
+    "trailing": 0.0
+  },
+  {
+    "name": "Wolf",
+    "duration": 2.543,
+    "rate": 22050,
+    "channels": 1,
+    "peak": 0.9044,
+    "rms": 0.2318,
+    "leading": 0.0,
+    "trailing": 0.0
+  }
+]

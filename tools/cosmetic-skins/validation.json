@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "checks": [
+    "old/new actor without cosmetic fields uses original appearance",
+    "original loader names unchanged by default",
+    "unknown preset cannot charge",
+    "insufficient Credits cause no partial purchase",
+    "unconscious Rex cannot use fitting service",
+    "reserve Rex requires Formation",
+    "no fitting/opening during battle",
+    "Mint unlock charges exactly80 Credits",
+    "Mint selects matching walk, face and battler aliases",
+    "fitting preserves mechanics, states, gear, quests and original art fields",
+    "explicit Rex dialogue portrait follows the selected finish",
+    "other dialogue portraits are untouched",
+    "other actors keep all original art",
+    "active/owned refitting never charges again",
+    "selection, ownership and existing states survive native save round-trip",
+    "save thumbnails retain supported matching virtual names",
+    "Ultraviolet unlock charges exactly120 Credits",
+    "original appearance restores for free at zero Credits",
+    "restoration restores all canonical loader names",
+    "both owned finishes refit free after restoration",
+    "both purchases remain unlocked across saves",
+    "story appearance overrides take precedence without overwriting the story image",
+    "selected finish resumes when the canonical body returns",
+    "legacy save migration needs no preset or forced purchase",
+    "reversible cosmetic service adds no quest completion",
+    "native bitmap load/reserve/request paths resolve without virtual-file requests",
+    "all full-sheet alpha pixels preserve12 walk frames,54 SV cells and face registration in both finishes",
+    "live catalog preview does not fit, unlock or spend",
+    "native confirmation shows actual80-Credit price and cancel leaves state intact",
+    "native fit commits exact price only after confirmation",
+    "catalog and confirmation windows fit the native816x624 screen",
+    "existing clinic reaches cosmetic service without new charges 25",
+    "existing clinic reaches cosmetic service without new charges 45",
+    "existing clinic reaches cosmetic service without new charges 83",
+    "free original restoration preserves both paid unlocks"
+  ],
+  "geometry": [
+    {
+      "scene": "catalog",
+      "bounded": true
+    }
+  ],
+  "errors": [],
+  "missing": []
+}

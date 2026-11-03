@@ -1,0 +1,1583 @@
+{
+  "assignments": [
+    {
+      "kind": "Items",
+      "slot": 2,
+      "name": "Necklace Piece 1",
+      "old": 144,
+      "new": 1680
+    },
+    {
+      "kind": "Items",
+      "slot": 3,
+      "name": "Complete Necklace",
+      "old": 145,
+      "new": 1681
+    },
+    {
+      "kind": "Items",
+      "slot": 4,
+      "name": "Necklace Piece 2",
+      "old": 144,
+      "new": 1682
+    },
+    {
+      "kind": "Items",
+      "slot": 5,
+      "name": "Necklace Piece 3",
+      "old": 144,
+      "new": 1683
+    },
+    {
+      "kind": "Items",
+      "slot": 6,
+      "name": "Necklace Piece 4",
+      "old": 144,
+      "new": 1684
+    },
+    {
+      "kind": "Items",
+      "slot": 14,
+      "name": "Engine",
+      "old": 223,
+      "new": 1685
+    },
+    {
+      "kind": "Items",
+      "slot": 15,
+      "name": "Engine Blueprint",
+      "old": 222,
+      "new": 1686
+    },
+    {
+      "kind": "Items",
+      "slot": 16,
+      "name": "Engine Component A",
+      "old": 223,
+      "new": 1687
+    },
+    {
+      "kind": "Items",
+      "slot": 17,
+      "name": "Engine Component B",
+      "old": 223,
+      "new": 1688
+    },
+    {
+      "kind": "Items",
+      "slot": 18,
+      "name": "Engine Component C",
+      "old": 223,
+      "new": 1689
+    },
+    {
+      "kind": "Items",
+      "slot": 19,
+      "name": "Experimental Neural Enhancer",
+      "old": 176,
+      "new": 1690
+    },
+    {
+      "kind": "Items",
+      "slot": 20,
+      "name": "Disco Implant",
+      "old": 176,
+      "new": 1691
+    },
+    {
+      "kind": "Items",
+      "slot": 21,
+      "name": "Third Eye Mod",
+      "old": 176,
+      "new": 1692
+    },
+    {
+      "kind": "Items",
+      "slot": 22,
+      "name": "Mysterious Burlap Package",
+      "old": 176,
+      "new": 1693
+    },
+    {
+      "kind": "Items",
+      "slot": 23,
+      "name": "Productivity Fabric Sample",
+      "old": 176,
+      "new": 1694
+    },
+    {
+      "kind": "Items",
+      "slot": 24,
+      "name": "AI Control Module",
+      "old": 176,
+      "new": 1695
+    },
+    {
+      "kind": "Items",
+      "slot": 25,
+      "name": "Court Summons",
+      "old": 176,
+      "new": 1696
+    },
+    {
+      "kind": "Items",
+      "slot": 26,
+      "name": "Pie-Based Evidence",
+      "old": 176,
+      "new": 1697
+    },
+    {
+      "kind": "Items",
+      "slot": 27,
+      "name": "Vending Machine Manifesto",
+      "old": 176,
+      "new": 1698
+    },
+    {
+      "kind": "Items",
+      "slot": 28,
+      "name": "Premium Grade Lubricant",
+      "old": 176,
+      "new": 1699
+    },
+    {
+      "kind": "Items",
+      "slot": 29,
+      "name": "Niles's Embarrassing Photos",
+      "old": 176,
+      "new": 1700
+    },
+    {
+      "kind": "Items",
+      "slot": 128,
+      "name": "Engine Blueprint",
+      "old": 189,
+      "new": 1686
+    },
+    {
+      "kind": "Items",
+      "slot": 129,
+      "name": "Engine Component A",
+      "old": 223,
+      "new": 1687
+    },
+    {
+      "kind": "Items",
+      "slot": 130,
+      "name": "Engine Component B",
+      "old": 223,
+      "new": 1688
+    },
+    {
+      "kind": "Items",
+      "slot": 131,
+      "name": "Engine Component C",
+      "old": 223,
+      "new": 1689
+    },
+    {
+      "kind": "Items",
+      "slot": 132,
+      "name": "Completed Engine",
+      "old": 121,
+      "new": 1685
+    },
+    {
+      "kind": "Items",
+      "slot": 137,
+      "name": "SEAM-3000 Control Module",
+      "old": 223,
+      "new": 1695
+    },
+    {
+      "kind": "Items",
+      "slot": 143,
+      "name": "Alien Research Notes",
+      "old": 193,
+      "new": 1701
+    },
+    {
+      "kind": "Items",
+      "slot": 144,
+      "name": "Ship Transponder",
+      "old": 223,
+      "new": 1702
+    },
+    {
+      "kind": "Items",
+      "slot": 145,
+      "name": "Golden Gear",
+      "old": 210,
+      "new": 1703
+    },
+    {
+      "kind": "Items",
+      "slot": 146,
+      "name": "Jen's Necklace",
+      "old": 145,
+      "new": 1704
+    },
+    {
+      "kind": "Weapons",
+      "slot": 15,
+      "name": "Yo-Yo",
+      "old": 0,
+      "new": 1705
+    },
+    {
+      "kind": "Weapons",
+      "slot": 19,
+      "name": "Slingshot",
+      "old": 96,
+      "new": 1706
+    },
+    {
+      "kind": "Weapons",
+      "slot": 21,
+      "name": "Belt Fed Machine Gun",
+      "old": 116,
+      "new": 1707
+    },
+    {
+      "kind": "Weapons",
+      "slot": 23,
+      "name": "BFG",
+      "old": 116,
+      "new": 1708
+    },
+    {
+      "kind": "Weapons",
+      "slot": 24,
+      "name": "S.A.W.",
+      "old": 116,
+      "new": 1707
+    },
+    {
+      "kind": "Weapons",
+      "slot": 25,
+      "name": "M1",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 26,
+      "name": "M16",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 27,
+      "name": "AK",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 28,
+      "name": "Snipetastic",
+      "old": 116,
+      "new": 1710
+    },
+    {
+      "kind": "Weapons",
+      "slot": 29,
+      "name": "M17",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 30,
+      "name": "UZI",
+      "old": 116,
+      "new": 1711
+    },
+    {
+      "kind": "Weapons",
+      "slot": 31,
+      "name": "Gnarly Machine Gun",
+      "old": 116,
+      "new": 1707
+    },
+    {
+      "kind": "Weapons",
+      "slot": 32,
+      "name": "Gnarly AK",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 33,
+      "name": "Old Fashioned Sniper Rifle",
+      "old": 116,
+      "new": 1710
+    },
+    {
+      "kind": "Weapons",
+      "slot": 34,
+      "name": "SemiAuto Rifle",
+      "old": 116,
+      "new": 1709
+    },
+    {
+      "kind": "Weapons",
+      "slot": 35,
+      "name": "Hand Laser",
+      "old": 116,
+      "new": 1708
+    },
+    {
+      "kind": "Weapons",
+      "slot": 36,
+      "name": "Pulse Canon",
+      "old": 116,
+      "new": 1708
+    },
+    {
+      "kind": "Weapons",
+      "slot": 37,
+      "name": "Fire Pistol",
+      "old": 116,
+      "new": 1712
+    },
+    {
+      "kind": "Weapons",
+      "slot": 38,
+      "name": "Ice Pistol",
+      "old": 116,
+      "new": 1713
+    },
+    {
+      "kind": "Weapons",
+      "slot": 39,
+      "name": "Lazer Shotgun",
+      "old": 116,
+      "new": 1714
+    },
+    {
+      "kind": "Weapons",
+      "slot": 40,
+      "name": "Ice Shotgun",
+      "old": 116,
+      "new": 1715
+    },
+    {
+      "kind": "Weapons",
+      "slot": 41,
+      "name": "Railgun",
+      "old": 116,
+      "new": 1710
+    },
+    {
+      "kind": "Weapons",
+      "slot": 42,
+      "name": "Alien Lazer Canon",
+      "old": 116,
+      "new": 1708
+    },
+    {
+      "kind": "Weapons",
+      "slot": 45,
+      "name": "Green Lazer Canon",
+      "old": 116,
+      "new": 1716
+    },
+    {
+      "kind": "Armors",
+      "slot": 2,
+      "name": "Hat",
+      "old": 1627,
+      "new": 1717
+    },
+    {
+      "kind": "Armors",
+      "slot": 7,
+      "name": "Running Shoes",
+      "old": 1654,
+      "new": 1718
+    },
+    {
+      "kind": "Armors",
+      "slot": 8,
+      "name": "Red Gloves",
+      "old": 1663,
+      "new": 1719
+    },
+    {
+      "kind": "Armors",
+      "slot": 9,
+      "name": "Red Pants",
+      "old": 1645,
+      "new": 1720
+    },
+    {
+      "kind": "Armors",
+      "slot": 10,
+      "name": "Red Jacket",
+      "old": 1667,
+      "new": 1721
+    },
+    {
+      "kind": "Armors",
+      "slot": 11,
+      "name": "Red Helmet",
+      "old": 1620,
+      "new": 1722
+    },
+    {
+      "kind": "Armors",
+      "slot": 12,
+      "name": "Yellow Gloves",
+      "old": 1662,
+      "new": 1723
+    },
+    {
+      "kind": "Armors",
+      "slot": 13,
+      "name": "Yellow Pants",
+      "old": 1644,
+      "new": 1724
+    },
+    {
+      "kind": "Armors",
+      "slot": 14,
+      "name": "Yellow Helmet",
+      "old": 1665,
+      "new": 1725
+    },
+    {
+      "kind": "Armors",
+      "slot": 15,
+      "name": "Yellow Jacket",
+      "old": 1668,
+      "new": 1726
+    },
+    {
+      "kind": "Armors",
+      "slot": 16,
+      "name": "Purple Gloves",
+      "old": 1661,
+      "new": 1727
+    },
+    {
+      "kind": "Armors",
+      "slot": 17,
+      "name": "Purple Pants",
+      "old": 1643,
+      "new": 1728
+    },
+    {
+      "kind": "Armors",
+      "slot": 18,
+      "name": "Purple Helmet",
+      "old": 1621,
+      "new": 1729
+    },
+    {
+      "kind": "Armors",
+      "slot": 19,
+      "name": "Purple Jacket",
+      "old": 1669,
+      "new": 1730
+    },
+    {
+      "kind": "Armors",
+      "slot": 20,
+      "name": "Blue Gloves",
+      "old": 1660,
+      "new": 1731
+    },
+    {
+      "kind": "Armors",
+      "slot": 21,
+      "name": "Blue Pants",
+      "old": 1642,
+      "new": 1732
+    },
+    {
+      "kind": "Armors",
+      "slot": 22,
+      "name": "Blue Helmet",
+      "old": 1622,
+      "new": 1733
+    },
+    {
+      "kind": "Armors",
+      "slot": 23,
+      "name": "Blue Jacket",
+      "old": 1670,
+      "new": 1734
+    },
+    {
+      "kind": "Armors",
+      "slot": 24,
+      "name": "Green Gloves",
+      "old": 1659,
+      "new": 1735
+    },
+    {
+      "kind": "Armors",
+      "slot": 25,
+      "name": "Green Pants",
+      "old": 1641,
+      "new": 1736
+    },
+    {
+      "kind": "Armors",
+      "slot": 26,
+      "name": "Green Jacket",
+      "old": 1671,
+      "new": 1737
+    },
+    {
+      "kind": "Armors",
+      "slot": 27,
+      "name": "Black Gloves",
+      "old": 1679,
+      "new": 1719
+    },
+    {
+      "kind": "Armors",
+      "slot": 28,
+      "name": "Black Pants",
+      "old": 1640,
+      "new": 1720
+    },
+    {
+      "kind": "Armors",
+      "slot": 29,
+      "name": "Black Jacket",
+      "old": 1672,
+      "new": 1721
+    },
+    {
+      "kind": "Armors",
+      "slot": 31,
+      "name": "Red Shoes",
+      "old": 1648,
+      "new": 1718
+    },
+    {
+      "kind": "Armors",
+      "slot": 32,
+      "name": "Yellow Shoes",
+      "old": 1649,
+      "new": 1738
+    },
+    {
+      "kind": "Armors",
+      "slot": 33,
+      "name": "Purple Shoes",
+      "old": 1650,
+      "new": 1739
+    },
+    {
+      "kind": "Armors",
+      "slot": 34,
+      "name": "Green Shoes",
+      "old": 1651,
+      "new": 1740
+    },
+    {
+      "kind": "Armors",
+      "slot": 35,
+      "name": "Black Shoes",
+      "old": 1652,
+      "new": 1718
+    },
+    {
+      "kind": "Armors",
+      "slot": 39,
+      "name": "Armortech Gloves",
+      "old": 1657,
+      "new": 1719
+    },
+    {
+      "kind": "Armors",
+      "slot": 40,
+      "name": "Armortech Jacket",
+      "old": 1666,
+      "new": 1721
+    },
+    {
+      "kind": "Armors",
+      "slot": 41,
+      "name": "Armortech Helmet",
+      "old": 1625,
+      "new": 1722
+    },
+    {
+      "kind": "Armors",
+      "slot": 49,
+      "name": "Nice Gloves",
+      "old": 1656,
+      "new": 1719
+    },
+    {
+      "kind": "Armors",
+      "slot": 52,
+      "name": "Killer Orange Jacket",
+      "old": 1677,
+      "new": 1741
+    },
+    {
+      "kind": "Armors",
+      "slot": 53,
+      "name": "Killer White Jacket",
+      "old": 1676,
+      "new": 1742
+    },
+    {
+      "kind": "Armors",
+      "slot": 54,
+      "name": "Killer Blue Jacket",
+      "old": 1675,
+      "new": 1734
+    },
+    {
+      "kind": "Armors",
+      "slot": 55,
+      "name": "Neat Helmet",
+      "old": 1624,
+      "new": 1722
+    },
+    {
+      "kind": "Armors",
+      "slot": 56,
+      "name": "Killer Gloves",
+      "old": 1658,
+      "new": 1719
+    },
+    {
+      "kind": "Armors",
+      "slot": 57,
+      "name": "Killer Helmet",
+      "old": 1617,
+      "new": 1722
+    },
+    {
+      "kind": "Armors",
+      "slot": 58,
+      "name": "Coolt White Helmet",
+      "old": 1623,
+      "new": 1743
+    },
+    {
+      "kind": "Armors",
+      "slot": 60,
+      "name": "Blue Shoes",
+      "old": 1655,
+      "new": 1744
+    },
+    {
+      "kind": "Armors",
+      "slot": 61,
+      "name": "Green Helmet",
+      "old": 1619,
+      "new": 1745
+    },
+    {
+      "kind": "Skills",
+      "slot": 70,
+      "name": "Shuriken",
+      "old": 0,
+      "new": 1746
+    },
+    {
+      "kind": "Skills",
+      "slot": 87,
+      "name": "Poke",
+      "old": 0,
+      "new": 1747
+    },
+    {
+      "kind": "Skills",
+      "slot": 90,
+      "name": "Gag",
+      "old": 0,
+      "new": 1748
+    },
+    {
+      "kind": "Skills",
+      "slot": 91,
+      "name": "Trick",
+      "old": 0,
+      "new": 1748
+    },
+    {
+      "kind": "Skills",
+      "slot": 92,
+      "name": "Prank",
+      "old": 0,
+      "new": 1748
+    },
+    {
+      "kind": "Skills",
+      "slot": 103,
+      "name": "Botnet",
+      "old": 0,
+      "new": 1749
+    },
+    {
+      "kind": "Skills",
+      "slot": 107,
+      "name": "Drunken Monkey",
+      "old": 0,
+      "new": 1747
+    },
+    {
+      "kind": "Skills",
+      "slot": 108,
+      "name": "Fists of Fury",
+      "old": 0,
+      "new": 1747
+    },
+    {
+      "kind": "Skills",
+      "slot": 109,
+      "name": "Punch 36",
+      "old": 0,
+      "new": 1747
+    },
+    {
+      "kind": "Skills",
+      "slot": 111,
+      "name": "Kidney Punch",
+      "old": 0,
+      "new": 1750
+    },
+    {
+      "kind": "Skills",
+      "slot": 114,
+      "name": "Delay",
+      "old": 0,
+      "new": 1751
+    },
+    {
+      "kind": "Skills",
+      "slot": 115,
+      "name": "Traffic Jam",
+      "old": 0,
+      "new": 1752
+    },
+    {
+      "kind": "Skills",
+      "slot": 120,
+      "name": "Tickle",
+      "old": 0,
+      "new": 1753
+    },
+    {
+      "kind": "Skills",
+      "slot": 121,
+      "name": "Center Ring Act",
+      "old": 0,
+      "new": 1754
+    },
+    {
+      "kind": "Skills",
+      "slot": 43,
+      "name": "Poop Fling",
+      "old": 1600,
+      "new": 1755
+    },
+    {
+      "kind": "Skills",
+      "slot": 45,
+      "name": "Chocolate Thunder",
+      "old": 1600,
+      "new": 1756
+    },
+    {
+      "kind": "Skills",
+      "slot": 76,
+      "name": "Smoke Bomb",
+      "old": 1615,
+      "new": 1752
+    },
+    {
+      "kind": "Skills",
+      "slot": 151,
+      "name": "Identify Collateral",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 152,
+      "name": "Clamp Charging",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 153,
+      "name": "Repossession Clamp",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 154,
+      "name": "Reset Actuators",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 155,
+      "name": "Jam Scanner",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 156,
+      "name": "Mandatory Hemming",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 157,
+      "name": "Security Pulse",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 158,
+      "name": "Prepare Terms and Lacerations",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 159,
+      "name": "Terms and Lacerations",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 160,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 161,
+      "name": "Prepare Out-of-Network Extraction",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 162,
+      "name": "Out-of-Network Extraction",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 163,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 164,
+      "name": "Prepare Express Infection",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 165,
+      "name": "Express Infection",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 166,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 167,
+      "name": "Prepare Premium Pressure",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 168,
+      "name": "Premium Pressure",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 169,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 170,
+      "name": "Prepare Mandatory Lullaby",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 171,
+      "name": "Mandatory Lullaby",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 172,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 173,
+      "name": "Prepare Final Escalation",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 174,
+      "name": "Final Escalation",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 175,
+      "name": "Recalibrate Policy",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "Skills",
+      "slot": 176,
+      "name": "Prepare Claim Denied",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 177,
+      "name": "Claim Denied",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 178,
+      "name": "Prepare Herpes Fine Print",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 179,
+      "name": "Herpes Fine Print",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 180,
+      "name": "Prepare Open Enrollment Outbreak",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 181,
+      "name": "Open Enrollment Outbreak",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 182,
+      "name": "Prepare Premium Extraction",
+      "old": 77,
+      "new": 1757
+    },
+    {
+      "kind": "Skills",
+      "slot": 183,
+      "name": "Premium Extraction",
+      "old": 77,
+      "new": 1758
+    },
+    {
+      "kind": "Skills",
+      "slot": 184,
+      "name": "Audit Recess",
+      "old": 77,
+      "new": 1759
+    },
+    {
+      "kind": "States",
+      "slot": 11,
+      "name": "Diarrhea",
+      "old": 1600,
+      "new": 1755
+    },
+    {
+      "kind": "States",
+      "slot": 12,
+      "name": "Constipation",
+      "old": 1601,
+      "new": 1760
+    },
+    {
+      "kind": "States",
+      "slot": 13,
+      "name": "Dysentary",
+      "old": 1602,
+      "new": 1756
+    },
+    {
+      "kind": "States",
+      "slot": 27,
+      "name": "Herpes",
+      "old": 1605,
+      "new": 1761
+    },
+    {
+      "kind": "States",
+      "slot": 28,
+      "name": "Aids",
+      "old": 1606,
+      "new": 1762
+    },
+    {
+      "kind": "States",
+      "slot": 29,
+      "name": "Gonorrhea",
+      "old": 1607,
+      "new": 1763
+    },
+    {
+      "kind": "States",
+      "slot": 30,
+      "name": "Syphalis",
+      "old": 1608,
+      "new": 1764
+    },
+    {
+      "kind": "States",
+      "slot": 31,
+      "name": "The Clap",
+      "old": 1609,
+      "new": 1765
+    },
+    {
+      "kind": "States",
+      "slot": 32,
+      "name": "Hepatitis B",
+      "old": 1610,
+      "new": 1766
+    },
+    {
+      "kind": "States",
+      "slot": 37,
+      "name": "Fever",
+      "old": 1611,
+      "new": 1767
+    },
+    {
+      "kind": "States",
+      "slot": 38,
+      "name": "Sickness",
+      "old": 1612,
+      "new": 1768
+    },
+    {
+      "kind": "States",
+      "slot": 39,
+      "name": "Hysterical",
+      "old": 1613,
+      "new": 1769
+    },
+    {
+      "kind": "States",
+      "slot": 21,
+      "name": "Bummed",
+      "old": 1604,
+      "new": 1768
+    }
+  ],
+  "icons": [
+    {
+      "id": 1680,
+      "cell": 0,
+      "hue": 0
+    },
+    {
+      "id": 1681,
+      "cell": 4,
+      "hue": 0
+    },
+    {
+      "id": 1682,
+      "cell": 1,
+      "hue": 0
+    },
+    {
+      "id": 1683,
+      "cell": 2,
+      "hue": 0
+    },
+    {
+      "id": 1684,
+      "cell": 3,
+      "hue": 0
+    },
+    {
+      "id": 1685,
+      "cell": 6,
+      "hue": 0
+    },
+    {
+      "id": 1686,
+      "cell": 7,
+      "hue": 0
+    },
+    {
+      "id": 1687,
+      "cell": 8,
+      "hue": 0
+    },
+    {
+      "id": 1688,
+      "cell": 9,
+      "hue": 0
+    },
+    {
+      "id": 1689,
+      "cell": 10,
+      "hue": 0
+    },
+    {
+      "id": 1690,
+      "cell": 12,
+      "hue": 0
+    },
+    {
+      "id": 1691,
+      "cell": 13,
+      "hue": 0
+    },
+    {
+      "id": 1692,
+      "cell": 14,
+      "hue": 0
+    },
+    {
+      "id": 1693,
+      "cell": 15,
+      "hue": 0
+    },
+    {
+      "id": 1694,
+      "cell": 16,
+      "hue": 0
+    },
+    {
+      "id": 1695,
+      "cell": 17,
+      "hue": 0
+    },
+    {
+      "id": 1696,
+      "cell": 18,
+      "hue": 0
+    },
+    {
+      "id": 1697,
+      "cell": 19,
+      "hue": 0
+    },
+    {
+      "id": 1698,
+      "cell": 20,
+      "hue": 0
+    },
+    {
+      "id": 1699,
+      "cell": 21,
+      "hue": 0
+    },
+    {
+      "id": 1700,
+      "cell": 22,
+      "hue": 0
+    },
+    {
+      "id": 1701,
+      "cell": 23,
+      "hue": 0
+    },
+    {
+      "id": 1702,
+      "cell": 24,
+      "hue": 0
+    },
+    {
+      "id": 1703,
+      "cell": 11,
+      "hue": 0
+    },
+    {
+      "id": 1704,
+      "cell": 5,
+      "hue": 0
+    },
+    {
+      "id": 1705,
+      "cell": 25,
+      "hue": 0
+    },
+    {
+      "id": 1706,
+      "cell": 26,
+      "hue": 0
+    },
+    {
+      "id": 1707,
+      "cell": 59,
+      "hue": 0
+    },
+    {
+      "id": 1708,
+      "cell": 60,
+      "hue": 0
+    },
+    {
+      "id": 1709,
+      "cell": 56,
+      "hue": 0
+    },
+    {
+      "id": 1710,
+      "cell": 57,
+      "hue": 0
+    },
+    {
+      "id": 1711,
+      "cell": 55,
+      "hue": 0
+    },
+    {
+      "id": 1712,
+      "cell": 54,
+      "hue": 0
+    },
+    {
+      "id": 1713,
+      "cell": 54,
+      "hue": 180
+    },
+    {
+      "id": 1714,
+      "cell": 58,
+      "hue": 0
+    },
+    {
+      "id": 1715,
+      "cell": 58,
+      "hue": 180
+    },
+    {
+      "id": 1716,
+      "cell": 60,
+      "hue": 90
+    },
+    {
+      "id": 1717,
+      "cell": 48,
+      "hue": 0
+    },
+    {
+      "id": 1718,
+      "cell": 53,
+      "hue": 0
+    },
+    {
+      "id": 1719,
+      "cell": 49,
+      "hue": 0
+    },
+    {
+      "id": 1720,
+      "cell": 50,
+      "hue": 0
+    },
+    {
+      "id": 1721,
+      "cell": 51,
+      "hue": 0
+    },
+    {
+      "id": 1722,
+      "cell": 52,
+      "hue": 0
+    },
+    {
+      "id": 1723,
+      "cell": 49,
+      "hue": 55
+    },
+    {
+      "id": 1724,
+      "cell": 50,
+      "hue": 55
+    },
+    {
+      "id": 1725,
+      "cell": 52,
+      "hue": 55
+    },
+    {
+      "id": 1726,
+      "cell": 51,
+      "hue": 55
+    },
+    {
+      "id": 1727,
+      "cell": 49,
+      "hue": 275
+    },
+    {
+      "id": 1728,
+      "cell": 50,
+      "hue": 275
+    },
+    {
+      "id": 1729,
+      "cell": 52,
+      "hue": 275
+    },
+    {
+      "id": 1730,
+      "cell": 51,
+      "hue": 275
+    },
+    {
+      "id": 1731,
+      "cell": 49,
+      "hue": 210
+    },
+    {
+      "id": 1732,
+      "cell": 50,
+      "hue": 210
+    },
+    {
+      "id": 1733,
+      "cell": 52,
+      "hue": 210
+    },
+    {
+      "id": 1734,
+      "cell": 51,
+      "hue": 210
+    },
+    {
+      "id": 1735,
+      "cell": 49,
+      "hue": 110
+    },
+    {
+      "id": 1736,
+      "cell": 50,
+      "hue": 110
+    },
+    {
+      "id": 1737,
+      "cell": 51,
+      "hue": 110
+    },
+    {
+      "id": 1738,
+      "cell": 53,
+      "hue": 55
+    },
+    {
+      "id": 1739,
+      "cell": 53,
+      "hue": 275
+    },
+    {
+      "id": 1740,
+      "cell": 53,
+      "hue": 110
+    },
+    {
+      "id": 1741,
+      "cell": 51,
+      "hue": 25
+    },
+    {
+      "id": 1742,
+      "cell": 51,
+      "hue": 180
+    },
+    {
+      "id": 1743,
+      "cell": 52,
+      "hue": 180
+    },
+    {
+      "id": 1744,
+      "cell": 53,
+      "hue": 210
+    },
+    {
+      "id": 1745,
+      "cell": 52,
+      "hue": 110
+    },
+    {
+      "id": 1746,
+      "cell": 27,
+      "hue": 0
+    },
+    {
+      "id": 1747,
+      "cell": 32,
+      "hue": 0
+    },
+    {
+      "id": 1748,
+      "cell": 29,
+      "hue": 0
+    },
+    {
+      "id": 1749,
+      "cell": 28,
+      "hue": 0
+    },
+    {
+      "id": 1750,
+      "cell": 33,
+      "hue": 0
+    },
+    {
+      "id": 1751,
+      "cell": 35,
+      "hue": 0
+    },
+    {
+      "id": 1752,
+      "cell": 34,
+      "hue": 0
+    },
+    {
+      "id": 1753,
+      "cell": 30,
+      "hue": 0
+    },
+    {
+      "id": 1754,
+      "cell": 31,
+      "hue": 0
+    },
+    {
+      "id": 1755,
+      "cell": 43,
+      "hue": 0
+    },
+    {
+      "id": 1756,
+      "cell": 44,
+      "hue": 0
+    },
+    {
+      "id": 1757,
+      "cell": 61,
+      "hue": 0
+    },
+    {
+      "id": 1758,
+      "cell": 62,
+      "hue": 0
+    },
+    {
+      "id": 1759,
+      "cell": 63,
+      "hue": 0
+    },
+    {
+      "id": 1760,
+      "cell": 42,
+      "hue": 0
+    },
+    {
+      "id": 1761,
+      "cell": 36,
+      "hue": 0
+    },
+    {
+      "id": 1762,
+      "cell": 37,
+      "hue": 0
+    },
+    {
+      "id": 1763,
+      "cell": 38,
+      "hue": 0
+    },
+    {
+      "id": 1764,
+      "cell": 39,
+      "hue": 0
+    },
+    {
+      "id": 1765,
+      "cell": 40,
+      "hue": 0
+    },
+    {
+      "id": 1766,
+      "cell": 41,
+      "hue": 0
+    },
+    {
+      "id": 1767,
+      "cell": 45,
+      "hue": 0
+    },
+    {
+      "id": 1768,
+      "cell": 46,
+      "hue": 0
+    },
+    {
+      "id": 1769,
+      "cell": 47,
+      "hue": 0
+    }
+  ]
+}

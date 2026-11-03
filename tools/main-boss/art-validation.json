@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "poses": [
+    {
+      "name": "idle",
+      "pixels": 155395
+    },
+    {
+      "name": "slam",
+      "pixels": 145347
+    },
+    {
+      "name": "spit",
+      "pixels": 145593
+    },
+    {
+      "name": "outbreak",
+      "pixels": 181574
+    },
+    {
+      "name": "siphon",
+      "pixels": 139908
+    },
+    {
+      "name": "transition",
+      "pixels": 147278
+    }
+  ]
+}

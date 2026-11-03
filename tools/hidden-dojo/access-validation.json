@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": [
+    "All previously reachable Matrix exits retain an approach.",
+    "Every authored transfer in the access/trial maps lands on a passable, unoccupied tile."
+  ]
+}

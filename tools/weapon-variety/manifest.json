@@ -1,0 +1,122 @@
+[
+  {
+    "id": 61,
+    "name": "Pink-Slip Stapler",
+    "skill": 185,
+    "animation": 176,
+    "icon": 1984,
+    "description": "35% chance to Staple: AGI -40% for 2 turns. HR has pinned you down.",
+    "mode": "line",
+    "scalePercent": 18
+  },
+  {
+    "id": 62,
+    "name": "Terms & Conditions",
+    "skill": 186,
+    "animation": 177,
+    "icon": 1985,
+    "description": "30% Fine Print: MDF -25% for 3 turns. Binding arbitration, literally.",
+    "mode": "arc",
+    "scalePercent": 25
+  },
+  {
+    "id": 63,
+    "name": "Rail-Spike Driver",
+    "skill": 187,
+    "animation": 178,
+    "icon": 1986,
+    "description": "40% bonus damage against Stapled foes. Management calls this follow-through.",
+    "mode": "line",
+    "scalePercent": 20
+  },
+  {
+    "id": 64,
+    "name": "Bloodwork Letter Opener",
+    "skill": 188,
+    "animation": 179,
+    "icon": 1987,
+    "description": "Drains HP with a weaker strike. Your blood is our business.",
+    "mode": "slash",
+    "scalePercent": 24
+  },
+  {
+    "id": 65,
+    "name": "Glitter Compliance Cannon",
+    "skill": 189,
+    "animation": 180,
+    "icon": 1988,
+    "description": "Weak damage; 55% Glitterblind: HIT -25% for 2 turns. Mandatory fun.",
+    "mode": "line",
+    "scalePercent": 30
+  },
+  {
+    "id": 66,
+    "name": "Executive Rubber Chicken",
+    "skill": 190,
+    "animation": 181,
+    "icon": 1989,
+    "description": "Feeble damage, drains 15 target TP; grants 10 user TP. HONK if you hate work.",
+    "mode": "arc",
+    "scalePercent": 28
+  },
+  {
+    "id": 67,
+    "name": "Boomerang Invoice",
+    "skill": 191,
+    "animation": 182,
+    "icon": 1990,
+    "description": "Drains a little MP instead of HP. The bill always comes back.",
+    "mode": "return",
+    "scalePercent": 25
+  },
+  {
+    "id": 68,
+    "name": "OSHA-Approved Brick",
+    "skill": 192,
+    "animation": 183,
+    "icon": 1991,
+    "description": "Slow throw. Attempts DEF down for 2 turns. Safety is a blunt instrument.",
+    "mode": "arc",
+    "scalePercent": 25
+  },
+  {
+    "id": 69,
+    "name": "Motivational Foam Finger",
+    "skill": 193,
+    "animation": 184,
+    "icon": 1992,
+    "description": "Attack targets an ally: small heal and ATK up for 2 turns. Zero useful punching.",
+    "mode": "heal",
+    "scalePercent": 32
+  },
+  {
+    "id": 70,
+    "name": "Coupon Cutter",
+    "skill": 194,
+    "animation": 185,
+    "icon": 1993,
+    "description": "40% bonus damage vs buffed foes; removes DEF buffs. Savings that hurt.",
+    "mode": "slash",
+    "scalePercent": 24
+  },
+  {
+    "id": 71,
+    "name": "Unlicensed Culture Swab",
+    "skill": 195,
+    "animation": 186,
+    "icon": 1994,
+    "description": "40% Recall Rash: loses 2% HP per turn for 3 turns. Lab coat sold separately.",
+    "mode": "slash",
+    "scalePercent": 22
+  },
+  {
+    "id": 72,
+    "name": "Percussive Care Manual",
+    "skill": 196,
+    "animation": 187,
+    "icon": 1995,
+    "description": "Attack targets an ally: restores 80 + half MAT HP and clears Recall Rash.",
+    "mode": "heal",
+    "scalePercent": 32
+  }
+]

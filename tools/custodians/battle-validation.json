@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "rounds": [
+    {
+      "key": "Compliance",
+      "trace": [
+        {
+          "id": 158,
+          "turn": 1
+        },
+        {
+          "id": 159,
+          "turn": 2
+        },
+        {
+          "id": 160,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "Chief Compliance Orifice emerged!"
+      ],
+      "charged": 0,
+      "rig": "Compliance"
+    },
+    {
+      "key": "Duke",
+      "trace": [
+        {
+          "id": 161,
+          "turn": 1
+        },
+        {
+          "id": 162,
+          "turn": 2
+        },
+        {
+          "id": 163,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "The Deductible Duke emerged!",
+        "The Deductible Duke sings:",
+        "Having a body? Pre-existing condition!",
+        "Your pain is excluded; I keep the",
+        "commission!",
+        "The Deductible Duke sings:",
+        "Herpes? Excluded. The fine print is tight.",
+        "Pay for the letter that says you have no",
+        "right."
+      ],
+      "charged": 0,
+      "rig": "Duke"
+    },
+    {
+      "key": "Septic",
+      "trace": [
+        {
+          "id": 164,
+          "turn": 1
+        },
+        {
+          "id": 165,
+          "turn": 2
+        },
+        {
+          "id": 166,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "Postmaster Septic emerged!"
+      ],
+      "charged": 0,
+      "rig": "Septic"
+    },
+    {
+      "key": "Clap",
+      "trace": [
+        {
+          "id": 167,
+          "turn": 1
+        },
+        {
+          "id": 168,
+          "turn": 2
+        },
+        {
+          "id": 169,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "Admiral Clap emerged!",
+        "Admiral Clap sings:",
+        "Oh, I am the Admiral! Give me a clap!",
+        "Your clinic and floodgate are caught in my",
+        "trap!",
+        "Admiral Clap sings:",
+        "Your premium rose while your trousers came",
+        "down;",
+        "Now pay for your pills, or I bill half the",
+        "town!"
+      ],
+      "charged": 0,
+      "rig": "Clap"
+    },
+    {
+      "key": "REM",
+      "trace": [
+        {
+          "id": 170,
+          "turn": 1
+        },
+        {
+          "id": 171,
+          "turn": 2
+        },
+        {
+          "id": 172,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "The REMployee of the Month emerged!"
+      ],
+      "charged": 0,
+      "rig": "REM"
+    },
+    {
+      "key": "Widow",
+      "trace": [
+        {
+          "id": 173,
+          "turn": 1
+        },
+        {
+          "id": 174,
+          "turn": 2
+        },
+        {
+          "id": 175,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "The Ticket Widow emerged!",
+        "The Ticket Widow sings:",
+        "Your call is important. Please stay on",
+        "hold.",
+        "Our hearts are of brass and your beds are",
+        "of cold.",
+        "The Ticket Widow sings:",
+        "The furnace burns bright for the men with",
+        "the gold;",
+        "Your ticket stays open. Your blanket was",
+        "sold."
+      ],
+      "charged": 0,
+      "rig": "Widow"
+    }
+  ],
+  "skippedWarning": {
+    "id": 160,
+    "charge": 0
+  },
+  "errors": []
+}

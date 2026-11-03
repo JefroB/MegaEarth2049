@@ -1,0 +1,926 @@
+[
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: What the hell is MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: How do I start playing this insanity?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: What are the controls?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: What character should I play as?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: How do I level up and get stronger?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: What's with all the STDs in this game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: I'm stuck in Timbuc. How do I progress?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: How do I deal with the Burlap Pants Conspiracy?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: What's the deal with the Necklace pieces?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_01_Getting_Started.md",
+    "question": "Q: Is there anything I should absolutely NOT do?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_01_Getting_Started.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: How does combat work in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What types of attacks can I use?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What are the damage elements in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What status effects should I watch out for?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: How do I cure these ridiculous status effects?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What's the best strategy for tough battles?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What are Action Sequences?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: How do I unlock new combat abilities?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What's the deal with the \"Finger Guns\" weapon?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: How do I defeat the Trash Octopus?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_02_Combat_System.md",
+    "question": "Q: What happens if my entire party gets infected with STDs?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_02_Combat_System.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: What are the main locations in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: I'm new to the game. Where should I go first?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: How do I get to Planet Ork?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: What's the deal with the Floating Mansion?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: I keep dying in the B.M.N.E.C. Any tips?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: What's in Timbuc 2 that's worth visiting?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: How do I navigate Planet Needsaname?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: What's the most dangerous location in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: Are there any secret locations?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_03_Locations_Guide.md",
+    "question": "Q: How do I unlock fast travel?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_03_Locations_Guide.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Who are the main playable characters in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: What are each character's special abilities?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Who are the most memorable NPCs in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: How do I recruit all the party members?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Can I romance any of the characters?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: How do I increase my reputation with different factions?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: What happens if I make enemies with everyone?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Who is the final boss?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Can NPCs die permanently?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_04_Characters_and_NPCs.md",
+    "question": "Q: Is there any way to bring back dead NPCs?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_04_Characters_and_NPCs.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What types of equipment can I find in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What are the best weapons in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What's the deal with the weird armor options?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: How do cybernetic enhancements work?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What consumable items should I always keep in my inventory?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: Where can I find rare equipment?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What's the deal with the \"Probably Not Poison\" healing potion?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: How do I upgrade my equipment?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What are the most useless items in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: How does the inventory system work?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_05_Equipment_and_Items.md",
+    "question": "Q: What's the most overpowered item combination?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_05_Equipment_and_Items.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What's the main storyline about?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: How many side quests are there?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What are the most ridiculous side quests?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: Are there different endings?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: How do I unlock all the companion quests?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What are the optional quest lines?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What are the most challenging quests?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: How do I solve the \"Burlap Pants Conspiracy\" quest?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: How do romance options affect the story?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What are the faction reputation effects?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: Are there missable quests or content?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: What's the recommended quest order?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_06_Quests_and_Storylines.md",
+    "question": "Q: How do I access the secret \"Developer's Cut\" ending?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_06_Quests_and_Storylines.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: What are the best hidden secrets in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: Are there any references to other games or media?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: What are the most obscure easter eggs?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: Are there any secret characters or companions?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: What are the best hidden locations?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: What are the most powerful secret items?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: Are there any secret minigames?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: What are the funniest hidden jokes?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: Are there any secret achievements?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "question": "Q: How do I access the debug menu?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_07_Secrets_and_Easter_Eggs.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: What should I know about game stability?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: The game is running very slowly. How can I improve performance?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: My save files disappeared! Can I recover them?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: The game won't launch at all. What can I do?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: Audio issues - no sound, distorted sound, or random STD noises?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: My character is stuck in a wall/floor/object! How do I get out?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: My quests are bugged and won't complete. What can I do?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: The game's text is displaying as random characters or corporate jargon. How do I fix this?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: My character's appearance changed randomly or has missing body parts!",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: The game's colors are inverted or everything is burlap-textured!",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: My game is stuck in an infinite loading screen!",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_08_Technical_Issues.md",
+    "question": "Q: How do I report bugs to the developers?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_08_Technical_Issues.md"
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Can I mod MegaEarth 2049?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: How do I install mods?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: What are the most popular mods?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: How do I create my own mods?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Are there any restrictions on modding?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Will mods disable achievements?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: What are the best tools for modding?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Can I modify the game's story or endings?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Are there any multiplayer mods?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Can I create custom characters?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: How do I resolve mod conflicts?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: Are there any must-have quality of life mods?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_09_Modding_and_Customization.md",
+    "question": "Q: How do I back up my mods and mod configurations?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: Where can I find the official MegaEarth 2049 community?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: Are there any good guides or walkthroughs available?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: How do I report bugs or provide feedback to the developers?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: Are there any community events or competitions?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: What are some fun community challenges or self-imposed restrictions?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: Are there any community-created resources for lore and world-building?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: How can I contribute to the community?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: What are some common community terms and inside jokes?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: Are there any community-run databases or tools?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: What's the deal with the community's obsession with burlap?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_10_Community_and_Resources.md",
+    "question": "Q: How do I stay updated on game news and updates?",
+    "disposition": "Page removed at user request: fabricated tooling/community claims",
+    "currentPage": null
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: What are diseases in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: How do I get infected with diseases?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: How do I cure diseases?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: What diseases are in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: How do disease cures work?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: Are there any benefits to having diseases?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: Can I use diseases strategically?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: Are there characters who specialize in diseases?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: What's the most dangerous disease?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: What's the weirdest disease?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: How does the ridicule system work with minor ailments and mental illnesses?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: How can I use mental illnesses strategically?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_11_Disease_System.md",
+    "question": "Q: Any tips for managing diseases, ailments, and mental illnesses?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_11_Disease_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What are the ninjas in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: Why do ninjas randomly attack me in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What's the significance of the different ninja colors?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: Who leads the Digital Shadow Collective?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: How do I recruit ninjas to my party?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: Where can I find the Hidden Dojo?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What special abilities do ninja characters have?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What is the \"Shadows in the Code\" quest line?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: Is there special equipment associated with the ninjas?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: How do the ninjas fit into the overall story of MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What's the connection between the ninjas and A.S.P.?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: Are there any Easter eggs or secrets related to the ninjas?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: What anti-corporate messages do the ninjas represent?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_12_Ninja_System.md",
+    "question": "Q: How can I maximize my relationship with the Digital Shadow Collective?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_12_Ninja_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are body modifications in MegaEarth 2049?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: Why would I want to get modified?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: Who is Zed and what is \"The Squeaky Clean\"?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What types of modifications are available?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: How do I get modifications installed?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are the risks of body modification?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are some of the most popular modifications?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are the legendary modifications?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: How do modifications affect gameplay?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: Can modifications be removed or upgraded?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: Are there different styles or brands of modifications?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are some tips for using the body modification system effectively?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: How do I access Zed's clinic from anywhere in the game?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: What are some of the strangest modifications available?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: Are there any achievements related to body modifications?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  },
+  {
+    "source": "FAQ_13_Body_Modification_System.md",
+    "question": "Q: How does the body modification system tie into the main story?",
+    "disposition": "Replaced with evidence-based current FAQ; feasible missing features grouped in ADDITIONS_BACKLOG.md",
+    "currentPage": "GameFAQs/FAQ_13_Body_Modification_System.md"
+  }
+]

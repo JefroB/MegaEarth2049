@@ -1,0 +1,29 @@
+# MegaEarth2049 Map Counter
+# This script counts the number of map files in the data directory
+
+# Function to count map files
+function Count-Maps {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    $mapCount = $mapFiles.Count
+    
+    # Display the count
+    Write-Host "Found $mapCount map files in $mapDir" -ForegroundColor Cyan
+    
+    # Return the count
+    return $mapCount
+}
+
+# Main script execution
+$count = Count-Maps
+Write-Host "Total maps: $count" -ForegroundColor Green

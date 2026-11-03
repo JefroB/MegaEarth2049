@@ -1,0 +1,38 @@
+{
+  "scope": "A15 second companion chapter; remaining companions open",
+  "title": "Without a Badge",
+  "actor": 2,
+  "patient": [
+    26,
+    4
+  ],
+  "patientPosition": [
+    19,
+    5
+  ],
+  "intake": [
+    25,
+    4
+  ],
+  "analyst": [
+    27,
+    3
+  ],
+  "switches": [
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+  ],
+  "reward": {
+    "item": 157,
+    "quantity": 1,
+    "actorExp": 200
+  },
+  "careFlag": 213,
+  "rewardFlag": 215
+}

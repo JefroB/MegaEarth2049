@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "actor 5 loads its existing sideview art and completes a native Attack action",
+    "actor 6 loads its existing sideview art and completes a native Attack action",
+    "actor 8 loads its existing sideview art and completes a native Attack action",
+    "actor 9 loads its existing sideview art and completes a native Attack action",
+    "actor 10 loads its existing sideview art and completes a native Attack action",
+    "native Formation menu moves reserve Jack into walking party"
+  ],
+  "errors": [],
+  "missing": []
+}

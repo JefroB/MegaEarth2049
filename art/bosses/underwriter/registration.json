@@ -1,0 +1,305 @@
+{
+  "Underwriter": {
+    "image": "Underwriter",
+    "defeatArt": {
+      "image": "UnderwriterDefeat",
+      "scale": 0.24,
+      "anchor": [
+        724,
+        969
+      ]
+    },
+    "scale": 0.51,
+    "phaseAt": 0.5,
+    "recover": 184,
+    "transitionText": "HOSTILE ACQUISITION! Old claims cancelled. New attacks unlock.",
+    "rects": [
+      [
+        0,
+        0,
+        520,
+        490
+      ],
+      [
+        520,
+        0,
+        500,
+        490
+      ],
+      [
+        1020,
+        0,
+        516,
+        490
+      ],
+      [
+        0,
+        490,
+        590,
+        534
+      ],
+      [
+        570,
+        490,
+        480,
+        534
+      ],
+      [
+        1050,
+        490,
+        486,
+        534
+      ]
+    ],
+    "anchors": [
+      [
+        260,
+        477
+      ],
+      [
+        260,
+        477
+      ],
+      [
+        270,
+        477
+      ],
+      [
+        290,
+        480
+      ],
+      [
+        220,
+        480
+      ],
+      [
+        260,
+        480
+      ]
+    ],
+    "exclude": {
+      "3": [
+        [
+          570,
+          250,
+          20,
+          284
+        ]
+      ],
+      "4": [
+        [
+          0,
+          0,
+          20,
+          180
+        ]
+      ]
+    },
+    "phases": {
+      "1": [
+        "slam",
+        "spit"
+      ],
+      "2": [
+        "outbreak",
+        "slam",
+        "siphon",
+        "spit"
+      ]
+    },
+    "attacks": {
+      "slam": {
+        "warn": 176,
+        "skill": 177,
+        "phase": 1,
+        "target": "one",
+        "text": "CLAIM DENIED: {target}. Guard next turn!",
+        "motion": "slam"
+      },
+      "spit": {
+        "warn": 178,
+        "skill": 179,
+        "phase": 1,
+        "target": "one",
+        "text": "HERPES FINE PRINT: {target}. Guard! Parcel Fever lasts two turns.",
+        "motion": "spit"
+      },
+      "outbreak": {
+        "warn": 180,
+        "skill": 181,
+        "phase": 2,
+        "target": "all",
+        "text": "OPEN ENROLLMENT: whole party. Guard next turn, then heal!",
+        "motion": "outbreak"
+      },
+      "siphon": {
+        "warn": 182,
+        "skill": 183,
+        "phase": 2,
+        "target": "one",
+        "text": "PREMIUM EXTRACTION: {target}. Guard to reduce his healing!",
+        "motion": "siphon"
+      }
+    },
+    "sequences": {
+      "idle": [
+        [
+          0,
+          90
+        ]
+      ],
+      "warn_slam": [
+        [
+          0,
+          12
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "warn_spit": [
+        [
+          0,
+          12
+        ],
+        [
+          2,
+          24
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "warn_outbreak": [
+        [
+          0,
+          12
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "warn_siphon": [
+        [
+          0,
+          12
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "slam": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          26
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "spit": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          30
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "outbreak": [
+        [
+          5,
+          8
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "siphon": [
+        [
+          0,
+          8
+        ],
+        [
+          4,
+          40
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "transition": [
+        [
+          5,
+          18
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          5,
+          24
+        ]
+      ],
+      "recover": [
+        [
+          5,
+          20
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "hit": [
+        [
+          5,
+          12
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "defeat": [
+        [
+          5,
+          150
+        ]
+      ]
+    }
+  }
+}

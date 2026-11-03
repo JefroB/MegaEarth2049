@@ -1,0 +1,14 @@
+﻿Tileset ID: 3
+Name: Inside
+Mode: 1
+Note: 
+Tileset Names:
+  - Inside_A1
+  - Inside_A2
+  - 
+  - Inside_A4
+  - Inside_A5
+  - Inside_B
+  - Inside_C
+  - 
+  - 

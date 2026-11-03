@@ -1,0 +1,92 @@
+# Simple script to count animations in Animations.json
+
+# Function to count animations
+function Count-Animations {
+    param (
+        [string]$animationsFile = "data/Animations.json"
+    )
+    
+    # Check if the animations file exists
+    if (-not (Test-Path $animationsFile)) {
+        Write-Host "Error: Animations file $animationsFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    Write-Host "Counting animations in $animationsFile..." -ForegroundColor Cyan
+    
+    # Read the file content
+    $fileContent = Get-Content $animationsFile -Raw
+    
+    # Count animation objects by looking for "id": pattern
+    $idPattern = '"id":'
+    $matches = [regex]::Matches($fileContent, $idPattern)
+    $animationCount = $matches.Count
+    
+    Write-Host "Found $animationCount animation objects in the file." -ForegroundColor Green
+    
+    # Count animation names
+    $namePattern = '"name":"([^"]*)"'
+    $nameMatches = [regex]::Matches($fileContent, $namePattern)
+    
+    Write-Host "Found $($nameMatches.Count) animation names in the file." -ForegroundColor Green
+    
+    # List the first 20 animation names
+    Write-Host "First 20 animation names:" -ForegroundColor Yellow
+    for ($i = 0; $i -lt [Math]::Min(20, $nameMatches.Count); $i++) {
+        $name = $nameMatches[$i].Groups[1].Value
+        Write-Host "  $($i+1). $name" -ForegroundColor White
+    }
+    
+    # Count animation positions
+    $positionPattern = '"position":(\d+)'
+    $positionMatches = [regex]::Matches($fileContent, $positionPattern)
+    
+    $screenCount = 0
+    $targetCount = 0
+    $centerCount = 0
+    $behindCount = 0
+    
+    foreach ($match in $positionMatches) {
+        $position = [int]$match.Groups[1].Value
+        switch ($position) {
+            0 { $screenCount++ }
+            1 { $targetCount++ }
+            2 { $centerCount++ }
+            3 { $behindCount++ }
+        }
+    }
+    
+    Write-Host "Animation positions:" -ForegroundColor Yellow
+    Write-Host "  Screen: $screenCount" -ForegroundColor White
+    Write-Host "  Target: $targetCount" -ForegroundColor White
+    Write-Host "  Center: $centerCount" -ForegroundColor White
+    Write-Host "  Behind: $behindCount" -ForegroundColor White
+    
+    # Count animation graphics
+    $graphicsPattern = '"animation1Name":"([^"]*)"'
+    $graphicsMatches = [regex]::Matches($fileContent, $graphicsPattern)
+    
+    $graphicsUsage = @{}
+    
+    foreach ($match in $graphicsMatches) {
+        $graphic = $match.Groups[1].Value
+        if ($graphic -and $graphic -ne "") {
+            if (-not $graphicsUsage.ContainsKey($graphic)) {
+                $graphicsUsage[$graphic] = 0
+            }
+            $graphicsUsage[$graphic]++
+        }
+    }
+    
+    Write-Host "Top 10 animation graphics:" -ForegroundColor Yellow
+    $i = 0
+    foreach ($graphic in ($graphicsUsage.GetEnumerator() | Sort-Object -Property Value -Descending)) {
+        if ($i -lt 10 -and $graphic.Key -ne "") {
+            Write-Host "  $($graphic.Key): $($graphic.Value)" -ForegroundColor White
+            $i++
+        }
+    }
+}
+
+# Main script execution
+Count-Animations

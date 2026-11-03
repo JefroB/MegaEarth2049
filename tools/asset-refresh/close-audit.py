@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('tools/art-audit/OTHER-ASSETS.md');s=p.read_text();p.write_text('# Status: implemented\n\nThe findings below are the original audit. Repairs, validation, save compatibility notes and generated source locations are documented in [the asset-refresh report](../asset-refresh/README.md). Review [the finished artwork](../../art/ui/preview.html).\n\n'+s,encoding='utf-8')
+p=Path('tools/asset-refresh/README.md');s=p.read_text();s+='\n## Source art and prompts\n\n- [Inventory atlas](../../img/ui/InventoryAtlas.png)\n- [Clothing atlas](../../img/ui/ClothingAtlas.png)\n- [Supplies atlas](../../img/ui/SuppliesAtlas.png)\n- [Generation prompt set](PROMPTS.md)\n- [Native preview](../../art/ui/preview.html)\n';p.write_text(s,encoding='utf-8')
+p=Path('tools/art-audit/index.html');s=p.read_text();s+='<h2>Implemented fixes</h2><p><a href="../../art/ui/preview.html">Open the finished asset preview</a></p>';p.write_text(s,encoding='utf-8')

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Actors original records unchanged; new records appended",
+    "Classes original records unchanged; new records appended",
+    "Skills original records unchanged; new records appended",
+    "MapInfos original records unchanged; new records appended",
+    "System unchanged except four appended local switches",
+    "All original Timbuc tiles/events unchanged; one public lift appended",
+    "Completion Log original definitions and runtime unchanged; one read-only project appended"
+  ]
+}

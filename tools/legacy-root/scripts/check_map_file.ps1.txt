@@ -1,0 +1,21 @@
+# MegaEarth2049 Map File Checker
+# This script checks if a map file exists
+
+# Function to check if a map file exists
+function Test-MapFile {
+    param (
+        [string]$mapFile
+    )
+    
+    # Check if the map file exists
+    if (Test-Path $mapFile) {
+        Write-Host "Map file exists: $mapFile" -ForegroundColor Green
+    }
+    else {
+        Write-Host "Map file does not exist: $mapFile" -ForegroundColor Red
+    }
+}
+
+# Main script execution
+# Example usage:
+# Test-MapFile -mapFile "data/Map001.json"

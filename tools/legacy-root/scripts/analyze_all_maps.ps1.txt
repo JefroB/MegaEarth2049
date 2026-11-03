@@ -1,0 +1,99 @@
+# MegaEarth2049 Map Analysis Suite
+# This script runs all map analysis tools in sequence
+
+# Function to run all map analysis tools
+function Analyze-AllMaps {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_analysis"
+    )
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    Write-Host "Starting comprehensive map analysis..." -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        $mapPath = $mapFile.FullName
+        $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+        
+        Write-Host "Analyzing map $mapId..." -ForegroundColor Yellow
+        
+        # Check if the map file exists
+        Write-Host "  Checking map file..." -ForegroundColor Gray
+        if (Test-Path $mapPath) {
+            Write-Host "  Map file exists: $mapPath" -ForegroundColor Green
+            
+            try {
+                # Read basic map info
+                Write-Host "  Reading basic map info..." -ForegroundColor Gray
+                $mapContent = Get-Content $mapPath -Raw | ConvertFrom-Json
+                
+                # Create a map summary file
+                $summaryFile = "$outputDir/Map${mapId}_summary.txt"
+                "Map Summary for Map $mapId" | Out-File -FilePath $summaryFile -Encoding utf8
+                "File: $($mapFile.Name)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                "Display Name: $($mapContent.displayName)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                "Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                "Tileset ID: $($mapContent.tilesetId)" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                
+                # Count events
+                $eventCount = 0
+                foreach ($event in $mapContent.events) {
+                    if ($event -ne $null) {
+                        $eventCount++
+                    }
+                }
+                "Total Events: $eventCount" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                
+                # Count data array items
+                "Data Array Size: $($mapContent.data.Count) tiles" | Out-File -FilePath $summaryFile -Encoding utf8 -Append
+                
+                Write-Host "  Created map summary at $summaryFile" -ForegroundColor Green
+            }
+            catch {
+                Write-Host "  Error analyzing map $mapId: $_" -ForegroundColor Red
+            }
+        }
+        else {
+            Write-Host "  Map file does not exist: $mapPath" -ForegroundColor Red
+        }
+        
+        Write-Host "Completed analyzing map $mapId" -ForegroundColor Green
+        Write-Host "" -ForegroundColor Gray
+    }
+    
+    # Create an index file
+    $indexFile = "$outputDir/map_analysis_index.txt"
+    "MegaEarth2049 Map Analysis Index" | Out-File -FilePath $indexFile -Encoding utf8
+    "Generated on $(Get-Date)" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+    "Total Maps Analyzed: $($mapFiles.Count)" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+    
+    "Map List:" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+    foreach ($mapFile in $mapFiles) {
+        $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+        try {
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            "  Map $mapId: $($mapContent.displayName)" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+        }
+        catch {
+            "  Map $mapId: [Error reading map data]" | Out-File -FilePath $indexFile -Encoding utf8 -Append
+        }
+    }
+    
+    Write-Host "Created analysis index at $indexFile" -ForegroundColor Green
+    Write-Host "Completed comprehensive map analysis" -ForegroundColor Cyan
+}
+
+# Main script execution
+# Example usage:
+# Analyze-AllMaps

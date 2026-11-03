@@ -1,0 +1,48 @@
+{
+  "originalFiles": 34,
+  "finalFiles": 12,
+  "renames": {
+    "FAQ_11_Disease_System.md": "FAQ_09_Disease_System.md",
+    "FAQ_12_Ninja_System.md": "FAQ_10_Ninja_System.md",
+    "FAQ_13_Body_Modification_System.md": "FAQ_11_Body_Modification_System.md"
+  },
+  "absorbed": {
+    "README.md": "FAQ_01_Getting_Started.md",
+    "ADDITIONS_BACKLOG.md": "ROADMAP.md",
+    "CURRENT_IMPLEMENTATION_AUDIT.md": "FAQ_08_Technical_Issues.md#documentation-audit-and-current-status",
+    "BACKLOG_REPAIRS.md": "FAQ_08_Technical_Issues.md#legacy-repair-record",
+    "MAP_PLACEMENT_AUDIT.md": "FAQ_08_Technical_Issues.md#map-placement-and-passage-audit",
+    "HIGH_VALUE_ADDITIONS.md": "FAQ_05_Equipment_and_Items.md#fixed-weapon-exchanges-and-remedies",
+    "BOUNDED_ADDITIONS.md": "FAQ_07_Secrets_and_Easter_Eggs.md#off-clock-collections-and-salvage",
+    "LOCAL_PROJECTS.md": "FAQ_06_Quests_and_Storylines.md#rivet-local-projects",
+    "BURLAP_QUEST.md": "FAQ_06_Quests_and_Storylines.md#burlap-pants-conspiracy",
+    "CLOWN_COURT.md": "FAQ_06_Quests_and_Storylines.md#clown-court",
+    "VENDING_UPRISING.md": "FAQ_06_Quests_and_Storylines.md#vending-machine-uprising",
+    "ILLUSION_ROOM.md": "FAQ_06_Quests_and_Storylines.md#the-perfect-fit",
+    "COMPLETION_LOG.md": "FAQ_06_Quests_and_Storylines.md#local-completion-log",
+    "COMPANION_CHAPTERS.md": "FAQ_04_Characters_and_NPCs.md#companion-chapters",
+    "ZACK_STORY.md": "FAQ_04_Characters_and_NPCs.md#zack-weight-bearing",
+    "JEN_STORY.md": "FAQ_04_Characters_and_NPCs.md#jen-without-a-badge",
+    "ZED_STORY.md": "FAQ_04_Characters_and_NPCs.md#zed-bench-warranty",
+    "PINK_STORY.md": "FAQ_04_Characters_and_NPCs.md#pink-a-thought-of-her-own",
+    "MAX_E_MUM.md": "FAQ_04_Characters_and_NPCs.md#max-e-mum",
+    "MOD_CLINIC.md": "FAQ_11_Body_Modification_System.md#prototype-mod-clinic",
+    "COSMETIC_SKINS.md": "FAQ_11_Body_Modification_System.md#chromatic-skin",
+    "FIELD_GUIDE.md": "FAQ_09_Disease_System.md#body-and-firmware-field-guide",
+    "HIDDEN_DOJO.md": "FAQ_10_Ninja_System.md#hidden-dojo-first-trial"
+  },
+  "stagedNames": [
+    "FAQ_01_Getting_Started.md",
+    "FAQ_02_Combat_System.md",
+    "FAQ_03_Locations_Guide.md",
+    "FAQ_04_Characters_and_NPCs.md",
+    "FAQ_05_Equipment_and_Items.md",
+    "FAQ_06_Quests_and_Storylines.md",
+    "FAQ_07_Secrets_and_Easter_Eggs.md",
+    "FAQ_08_Technical_Issues.md",
+    "FAQ_09_Disease_System.md",
+    "FAQ_10_Ninja_System.md",
+    "FAQ_11_Body_Modification_System.md",
+    "ROADMAP.md"
+  ]
+}

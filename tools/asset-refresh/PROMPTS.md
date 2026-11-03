@@ -1,0 +1,9 @@
+# Generation prompt set
+
+Built-in image_gen, transparent background, no labels or grid. Final source outputs: img/ui/InventoryAtlas.png, SuppliesAtlas.png, ClothingAtlas.png.
+
+InventoryAtlas: 8×8 equal-cell production inventory atlas, crisp dark outlines, strong silhouettes and3-tone shading for32px RPG display. Row-major subjects: pendant quarters1–4, assembled pendant, blue teardrop necklace, industrial engine, blueprint; piston, circuitboard, turbine, gear, neural chip, disco implant, third-eye implant, burlap parcel; cloth, control module, summons, pie evidence, manifesto, oilcan, photographs, research notebook; transponder, yo-yo, slingshot, shuriken, network, prank box, feather, circus spotlight; fist, kidney impact, barricade, hourglass, blisters, cracked immune shield, bacteria, corkscrew pathogen; infected clapping hands, liver, toilet, waste, bloody waste, thermometer, queasy face, laughing face; cap, glove, trousers, jacket, helmet, shoe, pistol, SMG; rifle, sniper rifle, shotgun, rotary cannon, plasma cannon, warning, impact, wrench.
+
+SuppliesAtlas: 4×2 equal-cell transparent production atlas, dark outlines and bold3-tone silhouettes legible at32px. Row1: spicy sausages in tray, burrito, blue energy can with lightning bolt, purple stimulant vial. Row2: green medical bottle with white cross, painkiller blister pack, first-aid tin, juice carton. No text.
+
+ClothingAtlas (final revision): 8×8, bright polished urban sci-fi pixel-art equipment, body colors not black objects with colored trim; generous cell margins, no text. Columns: cap, armored glove, tactical pants, jacket, motorcycle helmet, running shoe, cargo shorts, work boot. Rows: red, yellow, purple, blue, green, charcoal with silver highlights, ivory white with cool shadows, orange. Dark navy outlines, broad3-tone shading, strong32px silhouettes.
