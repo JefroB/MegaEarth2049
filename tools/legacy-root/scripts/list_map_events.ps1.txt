@@ -1,0 +1,60 @@
+# MegaEarth2049 Map Events Lister
+# This script lists events from RPG Maker MV map files
+
+# Function to list events from a map file
+function List-MapEvents {
+    param (
+        [string]$mapFile
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Listing events from map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Display basic map info
+        Write-Host "Map ID: $mapId" -ForegroundColor Green
+        Write-Host "Map Name: $($mapContent.displayName)" -ForegroundColor Green
+        Write-Host "Map Dimensions: $($mapContent.width) x $($mapContent.height)" -ForegroundColor Green
+        
+        # Count non-null events
+        $eventCount = 0
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+            }
+        }
+        Write-Host "Total Events: $eventCount" -ForegroundColor Green
+        
+        # List events
+        Write-Host "Events:" -ForegroundColor Yellow
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                Write-Host "  ID: $($event.id), Name: $($event.name), Position: ($($event.x), $($event.y))" -ForegroundColor Green
+            }
+        }
+        
+        Write-Host "Completed listing events from map $mapId" -ForegroundColor Cyan
+    }
+    catch {
+        Write-Host "Error listing events from map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Main script execution
+# Example usage:
+# List events from a map:
+# List-MapEvents -mapFile "data/Map001.json"

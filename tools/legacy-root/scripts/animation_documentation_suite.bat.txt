@@ -1,0 +1,70 @@
+@echo off
+title MegaEarth2049 Animation Documentation Suite
+
+echo MegaEarth2049 Animation Documentation Suite
+echo =========================================
+echo.
+echo This batch file provides access to all animation documentation tools.
+echo.
+
+:menu
+echo Please select an option:
+echo.
+echo 1. Count animations and show basic statistics
+echo 2. Generate comprehensive animation catalog
+echo 3. Update animation documentation
+echo 4. View animation code examples
+echo 5. Exit
+echo.
+
+set /p choice=Enter your choice (1-5): 
+
+if "%choice%"=="1" goto count_animations
+if "%choice%"=="2" goto generate_catalog
+if "%choice%"=="3" goto update_documentation
+if "%choice%"=="4" goto view_code_examples
+if "%choice%"=="5" goto exit
+
+echo Invalid choice. Please try again.
+goto menu
+
+:count_animations
+echo.
+echo Counting animations and showing basic statistics...
+powershell -ExecutionPolicy Bypass -File count_animations.ps1
+echo.
+pause
+goto menu
+
+:generate_catalog
+echo.
+echo Generating comprehensive animation catalog...
+powershell -ExecutionPolicy Bypass -File generate_animations_catalog.ps1
+echo.
+echo Animation catalog has been generated at MegaEarth2049_Animations_Catalog.md
+echo.
+pause
+goto menu
+
+:update_documentation
+echo.
+echo Updating animation documentation...
+powershell -ExecutionPolicy Bypass -File generate_animations_catalog.ps1
+echo.
+echo Animation documentation has been updated.
+echo.
+pause
+goto menu
+
+:view_code_examples
+echo.
+echo Opening animation code examples...
+start MegaEarth2049_Animation_Code_Examples.md
+echo.
+pause
+goto menu
+
+:exit
+echo.
+echo Thank you for using the MegaEarth2049 Animation Documentation Suite.
+exit

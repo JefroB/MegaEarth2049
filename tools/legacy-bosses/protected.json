@@ -1,0 +1,467 @@
+{
+  "punkEnemy": {
+    "id": 117,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 4
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 43
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Bat",
+    "dropItems": [
+      {
+        "kind": 1,
+        "dataId": 14,
+        "denominator": 1
+      },
+      {
+        "kind": 1,
+        "dataId": 13,
+        "denominator": 1
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 500,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 4,
+        "value": 1
+      },
+      {
+        "code": 43,
+        "dataId": 43,
+        "value": 1
+      }
+    ],
+    "gold": 0,
+    "name": "PunkBoss",
+    "note": "<Sideview Battler: punkBoss1>\n<Starting Level Type: 3>\n<Show Level>\n<Minimum Level: 1>\n<Maximum Level: 25>\n<Positive Level Fluctuation: 1>\n<Negative Level Fluctuation: 3>",
+    "params": [
+      1000,
+      100,
+      20,
+      35,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "poopTroop": {
+    "id": 36,
+    "members": [
+      {
+        "enemyId": 115,
+        "x": 252,
+        "y": 406,
+        "hidden": false
+      },
+      {
+        "enemyId": 116,
+        "x": 390,
+        "y": 292,
+        "hidden": false
+      },
+      {
+        "enemyId": 116,
+        "x": 453,
+        "y": 298,
+        "hidden": true
+      },
+      {
+        "enemyId": 116,
+        "x": 408,
+        "y": 355,
+        "hidden": false
+      },
+      {
+        "enemyId": 116,
+        "x": 465,
+        "y": 358,
+        "hidden": true
+      },
+      {
+        "enemyId": 116,
+        "x": 405,
+        "y": 400,
+        "hidden": false
+      },
+      {
+        "enemyId": 116,
+        "x": 450,
+        "y": 403,
+        "hidden": true
+      },
+      {
+        "enemyId": 116,
+        "x": 369,
+        "y": 379,
+        "hidden": true
+      }
+    ],
+    "name": "Poopoo Caca",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 90,
+          "enemyIndex": 0,
+          "enemyValid": true,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "Oh Shit. You might actually beat the crap out of me."
+            ]
+          },
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "Take this!"
+            ]
+          },
+          {
+            "code": 335,
+            "indent": 0,
+            "parameters": [
+              2
+            ]
+          },
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      },
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 70,
+          "enemyIndex": 0,
+          "enemyValid": true,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "Fuck you, Ass Monkey!"
+            ]
+          },
+          {
+            "code": 335,
+            "indent": 0,
+            "parameters": [
+              4
+            ]
+          },
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      },
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 55,
+          "enemyIndex": 0,
+          "enemyValid": true,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "Eat shit for breakfast."
+            ]
+          },
+          {
+            "code": 335,
+            "indent": 0,
+            "parameters": [
+              6
+            ]
+          },
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      },
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 40,
+          "enemyIndex": 0,
+          "enemyValid": true,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "Have a shit sandwich!"
+            ]
+          },
+          {
+            "code": 335,
+            "indent": 0,
+            "parameters": [
+              7
+            ]
+          },
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  "placeholderTroops": [
+    {
+      "id": 5,
+      "members": [
+        {
+          "enemyId": 2,
+          "x": 375,
+          "y": 304,
+          "hidden": false
+        }
+      ],
+      "name": "Bat",
+      "pages": [
+        {
+          "conditions": {
+            "actorHp": 50,
+            "actorId": 1,
+            "actorValid": false,
+            "enemyHp": 50,
+            "enemyIndex": 0,
+            "enemyValid": false,
+            "switchId": 1,
+            "switchValid": false,
+            "turnA": 0,
+            "turnB": 0,
+            "turnEnding": false,
+            "turnValid": false
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "span": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "members": [
+        {
+          "enemyId": 12,
+          "x": 188,
+          "y": 397,
+          "hidden": false
+        },
+        {
+          "enemyId": 14,
+          "x": 270,
+          "y": 358,
+          "hidden": true
+        },
+        {
+          "enemyId": 15,
+          "x": 313,
+          "y": 444,
+          "hidden": true
+        },
+        {
+          "enemyId": 16,
+          "x": 398,
+          "y": 307,
+          "hidden": false
+        },
+        {
+          "enemyId": 17,
+          "x": 159,
+          "y": 346,
+          "hidden": true
+        },
+        {
+          "enemyId": 18,
+          "x": 451,
+          "y": 406,
+          "hidden": false
+        }
+      ],
+      "name": "Rainbow Ninja",
+      "pages": [
+        {
+          "conditions": {
+            "actorHp": 50,
+            "actorId": 1,
+            "actorValid": false,
+            "enemyHp": 50,
+            "enemyIndex": 0,
+            "enemyValid": false,
+            "switchId": 1,
+            "switchValid": false,
+            "turnA": 0,
+            "turnB": 0,
+            "turnEnding": false,
+            "turnValid": false
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "span": 0
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "img/sv_actors/punkBoss1.png": "556fdb3e9f096242092dc8fa2edb8c25f94c0d01436ad8f5eab6d4428ca6f544",
+    "img/bosses/RepossessorNormal.png": "ca7fe959da30e2a28961500edfa3a24a932b7d69d3c56a8cb1988acd73aa8b80",
+    "img/bosses/RepossessorDamaged.png": "c4ddaf7f8a0d13052a34a4f24134713fb2ce608b057d395ad8e26aae048849cb",
+    "js/plugins/ME_Boss.js": "028c3ae8f8147218ad73fe8f804a8dc199710334edbf0955b6045ad07760d364"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Compliance": {
+    "changed": 24820,
+    "changedInSampledFixedRegion": 0
+  },
+  "Duke": {
+    "changed": 41163,
+    "changedInSampledFixedRegion": 0
+  },
+  "Septic": {
+    "changed": 38286,
+    "changedInSampledFixedRegion": 0
+  },
+  "Clap": {
+    "changed": 42576,
+    "changedInSampledFixedRegion": 0
+  },
+  "REM": {
+    "changed": 23791,
+    "changedInSampledFixedRegion": 0
+  },
+  "Widow": {
+    "changed": 4145,
+    "changedInSampledFixedRegion": 0
+  }
+}

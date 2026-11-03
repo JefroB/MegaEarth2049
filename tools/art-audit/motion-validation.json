@@ -1,0 +1,18 @@
+{
+  "url": "img/sv_actors/punkBoss1.png",
+  "idle": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "next": [
+    64,
+    0,
+    64,
+    64
+  ],
+  "attack": 6,
+  "damage": 4,
+  "recovered": 0
+}

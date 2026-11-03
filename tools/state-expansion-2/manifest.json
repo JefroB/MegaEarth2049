@@ -1,0 +1,337 @@
+{
+  "states": [
+    {
+      "state": 64,
+      "name": "Athlete's Foot",
+      "category": "disease",
+      "turns": 3,
+      "description": "AGI -20%. Corporate showers charge extra for fungus.",
+      "skill": 227,
+      "skillName": "Locker-Room Dividend",
+      "animation": 204,
+      "icon": 2048,
+      "chance": 0.8,
+      "classes": [
+        5,
+        7
+      ],
+      "enemy": 82,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 243
+    },
+    {
+      "state": 65,
+      "name": "Beneficial Parasites",
+      "category": "disease",
+      "turns": 3,
+      "description": "ATK +15%, AGI +10%; lose 3% HP each turn. Your tenant eats rent.",
+      "skill": 228,
+      "skillName": "Symbiotic Contract",
+      "animation": 205,
+      "icon": 2049,
+      "chance": 1,
+      "classes": [
+        6,
+        7
+      ],
+      "enemy": 93,
+      "ally": true,
+      "scalePercent": 26,
+      "enemySkill": 244
+    },
+    {
+      "state": 66,
+      "name": "Wi-Fi Allergy",
+      "category": "disease",
+      "turns": 3,
+      "description": "Lose 2% HP per turn; Thunder damage -35%. Allergic to connectivity.",
+      "skill": 229,
+      "skillName": "Broadcast Irritant",
+      "animation": 206,
+      "icon": 2050,
+      "chance": 0.75,
+      "classes": [
+        1,
+        7
+      ],
+      "enemy": 110,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 245
+    },
+    {
+      "state": 67,
+      "name": "Digital Dementia",
+      "category": "disease",
+      "turns": 3,
+      "description": "HIT -15%, CRI +8%. Forgot the plan; remembered the weak spot.",
+      "skill": 230,
+      "skillName": "Memory Leak",
+      "animation": 207,
+      "icon": 2051,
+      "chance": 0.75,
+      "classes": [
+        1,
+        6
+      ],
+      "enemy": 111,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 246
+    },
+    {
+      "state": 68,
+      "name": "Aim Assist",
+      "category": "buff",
+      "turns": 3,
+      "description": "HIT +10%, CRI +10%. Premium aiming subscription.",
+      "skill": 231,
+      "skillName": "Calibrate Optics",
+      "animation": 208,
+      "icon": 2052,
+      "chance": 1,
+      "classes": [
+        1,
+        5
+      ],
+      "enemy": 7,
+      "ally": true,
+      "scalePercent": 26,
+      "enemySkill": 247
+    },
+    {
+      "state": 69,
+      "name": "Reflex Cache",
+      "category": "buff",
+      "turns": 3,
+      "description": "EVA +15%. Dodge now, process the paperwork later.",
+      "skill": 232,
+      "skillName": "Cache Reflexes",
+      "animation": 209,
+      "icon": 2053,
+      "chance": 1,
+      "classes": [
+        1,
+        5
+      ],
+      "enemy": 12,
+      "ally": true,
+      "scalePercent": 26,
+      "enemySkill": 248
+    },
+    {
+      "state": 70,
+      "name": "Countermeasure",
+      "category": "buff",
+      "turns": 3,
+      "description": "15% magic reflection chance. Returns incoming spell hostility.",
+      "skill": 233,
+      "skillName": "Arm Countermeasure",
+      "animation": 210,
+      "icon": 2054,
+      "chance": 1,
+      "classes": [
+        2,
+        3
+      ],
+      "enemy": 106,
+      "ally": true,
+      "scalePercent": 26,
+      "enemySkill": 249
+    },
+    {
+      "state": 71,
+      "name": "Capacitor Reserve",
+      "category": "buff",
+      "turns": 3,
+      "description": "Restore 4% MP per turn. Electricity billed to your employer.",
+      "skill": 234,
+      "skillName": "Charge Reserve",
+      "animation": 211,
+      "icon": 2055,
+      "chance": 1,
+      "classes": [
+        1,
+        4
+      ],
+      "enemy": 107,
+      "ally": true,
+      "scalePercent": 26,
+      "enemySkill": 250
+    },
+    {
+      "state": 72,
+      "name": "Exposed",
+      "category": "debuff",
+      "turns": 3,
+      "description": "Physical damage taken +20%. Your protection plan has a hole.",
+      "skill": 235,
+      "skillName": "Open Liability",
+      "animation": 212,
+      "icon": 2056,
+      "chance": 0.8,
+      "classes": [
+        2,
+        3
+      ],
+      "enemy": 63,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 251
+    },
+    {
+      "state": 73,
+      "name": "Curse",
+      "category": "debuff",
+      "turns": 3,
+      "description": "LUK -30%; lose 3% MP each turn. Interest compounds in the dark.",
+      "skill": 236,
+      "skillName": "Compound Misfortune",
+      "animation": 213,
+      "icon": 2057,
+      "chance": 0.75,
+      "classes": [
+        4
+      ],
+      "enemy": 102,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 252
+    },
+    {
+      "state": 74,
+      "name": "Heat Lock",
+      "category": "debuff",
+      "turns": 2,
+      "description": "MP costs +40%. Thermal throttling has reached your brain.",
+      "skill": 237,
+      "skillName": "Thermal Throttle",
+      "animation": 214,
+      "icon": 2058,
+      "chance": 0.8,
+      "classes": [
+        1,
+        3
+      ],
+      "enemy": 112,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 253
+    },
+    {
+      "state": 75,
+      "name": "Target Painted",
+      "category": "debuff",
+      "turns": 2,
+      "description": "Target weight doubled; EVA -5%. Applies to random enemy targeting.",
+      "skill": 238,
+      "skillName": "Sell Location Data",
+      "animation": 215,
+      "icon": 2059,
+      "chance": 0.8,
+      "classes": [
+        1,
+        5
+      ],
+      "enemy": 113,
+      "ally": false,
+      "scalePercent": 26,
+      "enemySkill": 254
+    }
+  ],
+  "removers": [
+    {
+      "skill": 239,
+      "name": "Parasite Eviction",
+      "states": [
+        65
+      ],
+      "animation": 216
+    },
+    {
+      "skill": 240,
+      "name": "Grounding Routine",
+      "states": [
+        66,
+        67,
+        74,
+        75
+      ],
+      "animation": 217
+    },
+    {
+      "skill": 241,
+      "name": "Clear Liability",
+      "states": [
+        64,
+        65,
+        66,
+        67,
+        72,
+        73,
+        74,
+        75
+      ],
+      "animation": 218
+    },
+    {
+      "skill": 242,
+      "name": "Deauthorize",
+      "states": [
+        56,
+        57,
+        58,
+        59,
+        68,
+        69,
+        70,
+        71
+      ],
+      "animation": 219
+    }
+  ],
+  "items": [
+    {
+      "id": 161,
+      "name": "Acme Footloose",
+      "states": [
+        64
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Acme Evict-A-Worm",
+      "states": [
+        65
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Acme Airplane Mode",
+      "states": [
+        66,
+        67
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Acme Clean Slate",
+      "states": [
+        64,
+        65,
+        66,
+        67,
+        72,
+        73,
+        74,
+        75
+      ]
+    }
+  ],
+  "sources": [
+    "GameFAQs/FAQ_09_Disease_System.md",
+    "GameFAQs/FAQ_11_Body_Modification_System.md",
+    "DICTIONARY/DICTIONARY.md"
+  ]
+}

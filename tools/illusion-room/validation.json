@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "checks": [
+    "post-SEAM inspection waits for original researcher hand-in",
+    "original Leave choice remains index1",
+    "inspection can be declined",
+    "inspection starts through existing shop option2 at reviewed floor",
+    "calibration requires both records",
+    "first record persists across save and comparison",
+    "maintenance record found in the reflected display",
+    "wrong left count keeps both clues",
+    "wrong centre count does not commit an adjustment",
+    "wrong right count does not commit an adjustment",
+    "calibration may be cancelled",
+    "failed projection checks leave money, gear and party unchanged",
+    "correct4-1-3 solves calibration with policy still pending",
+    "solved calibration alone cannot pay reward",
+    "opt-in policy records separately from calibration",
+    "full item stack defers entire payment",
+    "full wallet defers item as well as Credits",
+    "one guarded150-Credit and Panacea reward",
+    "revisit/save cannot duplicate reward or change settled policy",
+    "projection leaves all earlier campaign and companion switches untouched",
+    "Completion Log tracks policy and38 total activities",
+    "legacy researcher completion supports disconnected policy",
+    "disconnected pitch still permits explicit archive comparison",
+    "disconnected route earns same finite reward",
+    "log distinguishes disconnected outcome",
+    "legacy hand-in repairs post-SEAM page access without a fight or reward",
+    "legacy completed save can enter the new room on next interaction",
+    "unconditional floor exit 249/0",
+    "unconditional floor exit 249/1",
+    "unconditional floor exit 249/2",
+    "unconditional floor exit 250/0",
+    "unconditional floor exit 250/1",
+    "unconditional floor exit 250/2",
+    "clear-floor fixture approach 249/1",
+    "clear-floor fixture approach 249/2",
+    "clear-floor fixture approach 249/3",
+    "clear-floor fixture approach 249/4",
+    "clear-floor fixture approach 249/5",
+    "clear-floor fixture approach 249/6",
+    "comparison landing clear and connected 249",
+    "clear-floor fixture approach 250/1",
+    "clear-floor fixture approach 250/2",
+    "clear-floor fixture approach 250/3",
+    "clear-floor fixture approach 250/4",
+    "clear-floor fixture approach 250/5",
+    "clear-floor fixture approach 250/6",
+    "comparison landing clear and connected 250",
+    "room dialogue fits native font and four-line window",
+    "native shop entry, walking comparison,4-1-3 calibration, disconnected policy, unconditional exit and reward"
+  ],
+  "walking": [
+    {
+      "map": 2,
+      "event": 23,
+      "x": 15,
+      "y": 9,
+      "steps": 0
+    },
+    {
+      "map": 249,
+      "event": 4,
+      "x": 4,
+      "y": 6,
+      "steps": 8
+    },
+    {
+      "map": 249,
+      "event": 2,
+      "x": 7,
+      "y": 8,
+      "steps": 5
+    },
+    {
+      "map": 250,
+      "event": 5,
+      "x": 12,
+      "y": 6,
+      "steps": 7
+    },
+    {
+      "map": 250,
+      "event": 3,
+      "x": 8,
+      "y": 5,
+      "steps": 5
+    },
+    {
+      "map": 250,
+      "event": 1,
+      "x": 7,
+      "y": 11,
+      "steps": 7
+    },
+    {
+      "map": 2,
+      "event": 23,
+      "x": 15,
+      "y": 9,
+      "steps": 0
+    }
+  ],
+  "errors": []
+}

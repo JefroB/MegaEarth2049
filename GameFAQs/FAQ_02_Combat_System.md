@@ -1,95 +1,31 @@
-# MegaEarth 2049 A.E. - FAQ: Combat System
+# MegaEarth 2049 — Combat
 
-## Q: How does combat work in MegaEarth 2049?
+## How does combat work?
 
-A: Combat in MegaEarth 2049 uses a side-view battle system enhanced by Yanfly Engine Plugins. It's turn-based with a twist of insanity. You select actions for your party members, they execute those actions, and then the enemies take their turns trying to kill you, infect you with STDs, or make you wear burlap pants.
+The current game uses RPG Maker MV side-view, turn-based battle flow with custom animated-enemy and boss plugins. WeaponSkill supplies per-weapon Attack skills. The enabled QuestJournal file contains descriptions only, without a journal interface; the installed Yanfly Battle Engine Core and action-sequence packs are not currently enabled. Installing a plugin file or writing its notetags does not activate it.
 
-## Q: What types of attacks can I use?
+## Which skill types and elements exist?
 
-A: MegaEarth 2049 features several skill types:
+Skill types: **Incantation, Ability, Tech, Squad Attack, Cheer**. Basic Attack/Guard are separate battle commands. Actor commands and access depend on their current class/equipment.
 
-- **Magic**: Spell-based abilities that might turn enemies into toasters
-- **Special**: Unique character abilities with questionable side effects
-- **Squad Attack**: Team moves with names like "The Flying Burlap Surprise"
-- **Cheer/Rally**: Support abilities that sometimes insult the enemy's fashion choices
-- **Standard**: Attack/Guard/Item/Wait (boring but reliable)
+Elements: **Physical, Fire, Ice, Thunder, Water, Earth, Wind, Light, Darkness**. Funk, radiation and a separate Tech damage element are not in the current element list. An elemental attack applies an ailment only when its actual skill effects specify one.
 
-## Q: What are the damage elements in the game?
+## What makes the new weapons different?
 
-A: The game features the following elements:
-- Physical: Standard physical damage
-- Fire: Burns enemies and may cause the Burn status
-- Ice: Freezes enemies and may cause Frostbite
-- Thunder: Shocks enemies and may cause Paralysis
-- Water: Soaks enemies and may increase vulnerability to Thunder
-- Earth: Solid damage that's hard to resist
-- Wind: Fast damage that may increase evasion
-- Light: Effective against demons and dark creatures
-- Darkness: Effective against holy and light creatures
-- Funk: A mysterious element that causes enemies to break into uncontrollable dancing
+The twelve surplus weapons use distinct Attack skills and native animations. Examples include a slowing stapler, a spike driver that benefits from Stapled, an MP-draining Boomerang Invoice, and a weak Rubber Chicken that reduces enemy TP. Foam Finger and Percussive Care Manual target allies. They are not an unlimited upgrade system.
 
-## Q: What status effects should I watch out for?
+See [weapon preview](../art/weapons/preview.html) and [equipment FAQ](FAQ_05_Equipment_and_Items.md).
 
-A: MegaEarth 2049 has the most ridiculous status effect system ever created:
+## Which status effects work?
 
-- **Standard RPG Effects**: Poison, Blind, Silence, Sleep, Paralysis, Petrify, Curse, Doom, Stop
-- **Unique/Modern**: Bleed, Frostbite, Burn, Shock
-- **Bodily Functions**: Diarrhea, Constipation, Dysentery, Rabies
-- **STDs**: Herpes, AIDS, Gonorrhea, Syphilis, The Clap, Hepatitis B
-- **Mental States**: Existential Crisis, Corporate Drone, Hysterical, Disco Fever
-- **Buffs/Debuffs**: For all stats, including the rarely used "Fashion Sense" stat
+States52–75 provide24 temporary ailments, buffs and debuffs. Later additions include Paralysis77, Temporal Stasis78 and Stone Skin79, with application/removal paths and remedies. These additions expire and clear after battle. Some diseases deliberately combine benefits and costs. Legacy state names must not be treated as complete implementations; see [diseases](FAQ_09_Disease_System.md).
 
-## Q: How do I cure these ridiculous status effects?
+## Are bosses phased?
 
-A: Each status effect has a specific cure:
-- For standard effects, use common items like Dried Green Herb
-- For bodily functions, use Acme products like Colon Blow (for Constipation) or Corkinex (for Diarrhea)
-- For STDs, use Acme's branded medications: Rabinex, Gon-A-Gone, Hep-A-Leave, Clapinex, Syphinex, etc.
-- For mental states, try therapy (just kidding, use alcohol)
-- To prevent STDs, use Protection™ by Acme (60% of the time, it works every time)
+Custom miniboss and main-boss controllers exist. The Underwriter is a regional boss, not the game's final encounter. Follow its telegraphs and the actual fight's move set. Enemy vulnerabilities must be checked individually; there is no general rule that all ninjas lose to area attacks or all trash enemies are physically immune.
 
-## Q: What's the best strategy for tough battles?
+## Can we add more cinematic attacks?
 
-A: 
-1. **Know your enemy**: Different enemies have different weaknesses. Punks are vulnerable to intimidation, Ninjas to area attacks, and Corporate Drones to any suggestion of independent thought.
+Yes. Native animation cells already support authored projectile positions and rotation. Yanfly choreography is a feasible integration task with compatibility testing, not currently active behavior. There is no implemented universal Pandemic Party bonus, disease achievement, or Charisma/Finger Dexterity damage system.
 
-2. **Exploit elemental weaknesses**: Use Fire against Ice enemies, Thunder against Water enemies, and Funk against enemies with no rhythm.
-
-3. **Status effects are your friends**: Inflicting Existential Crisis on Corporate Drones makes them question their life choices instead of attacking.
-
-4. **Team composition matters**: Balance your party with different roles:
-   - Rex for hacking and reality manipulation
-   - Jen for healing and STD management
-   - Zack/Jose for heavy damage and explosives
-   - Zed for buffs and unpredictable enhancements
-   - Jack for ranged attacks and escape options
-   - Dick for stealing useful items during battle
-
-5. **When all else fails**: Run away and come back with more Protection™.
-
-## Q: What are Action Sequences?
-
-A: Action Sequences are special combat moves that create cinematic battle moments. They're pre-programmed sequences of attacks, effects, and camera movements that make combat more dynamic and ridiculous. For example, "The Flying Burlap Surprise" might involve Zack throwing Dick (who's wearing burlap pants) at an enemy while Jen provides covering fire with a syringe launcher.
-
-## Q: How do I unlock new combat abilities?
-
-A: New abilities are unlocked through:
-1. Leveling up
-2. Completing specific quests
-3. Getting cybernetic enhancements from Zed
-4. Finding special equipment
-5. Contracting and managing certain STDs (yes, really)
-6. Reading forbidden corporate manuals
-7. Consuming questionable substances from Acme Pharmaceuticals
-
-## Q: What's the deal with the "Finger Guns" weapon?
-
-A: Finger Guns are surprisingly effective weapons that deal damage based on your Charisma and Finger Dexterity stats. They're especially powerful when used by characters with the "Overconfidence" trait. To maximize their effectiveness, upgrade them with the "Finger Gun Mods" from Zed's shop, such as the "Pew Pew Enhancer" or the "Finger Silencer" for stealth missions.
-
-## Q: How do I defeat the Trash Octopus?
-
-A: The Trash Octopus is immune to physical attacks because trash can't feel pain. Use Fire elements to burn the trash, or Water elements to make it soggy and less dangerous. Avoid using any Acme products against it - it was created by improperly disposed pharmaceutical waste and will absorb them to become stronger. If you have the "Recycling" skill, you can convert parts of it into useful items during battle.
-
-## Q: What happens if my entire party gets infected with STDs?
-
-A: If your entire party contracts STDs, you'll get the special "Pandemic Party" combat bonus, which increases all stats by 10% but causes continuous HP drain. You'll also unlock the secret "Patient Zero" achievement and gain access to the hidden "Quarantine Zone" area where you can find rare Acme medications and meet Dr. Frankenstein, who's researching a universal STD cure (that definitely won't cause any horrific mutations, she promises).
+Evidence: `data/System.json`, `data/Weapons.json` 61–72, `data/Skills.json` 185–254, `js/plugins.js`, `js/plugins/ME_MainBoss.js`.

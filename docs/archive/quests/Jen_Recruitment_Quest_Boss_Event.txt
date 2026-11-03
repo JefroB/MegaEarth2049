@@ -1,0 +1,86 @@
+# Jen Recruitment Quest - Boss Event Implementation
+
+This document provides the implementation details for the Trash Octopus boss event in Timbuc Cellar (Map015.json) that is required for the Jen recruitment quest.
+
+## Event Details
+
+- **Event Name**: Trash Octopus Boss
+- **Location**: Timbuc Cellar (Map015.json)
+- **Recommended Position**: Near coordinates (65, 43) in a corner area
+- **Event ID**: Use the next available event ID (likely 30)
+- **Purpose**: Trigger a battle with the Trash Octopus boss, set Switch 9 to ON, and give the player Jen's Necklace
+
+## Event Script
+
+```
+@>Conditional Branch: Self Switch A is OFF
+    @>Show Text: \C[4]A large, mutated octopus appears to be guarding something shiny.\C[0]
+    @>Show Choices: [Fight][Run away]
+        @>When [Fight]
+            @>Battle Processing: Troop 10 (Trash Octopus), Can Escape = OFF, Can Lose = OFF
+            @>If Win
+                @>Show Text: You defeated the Trash Octopus!
+                @>Show Text: You found Jen's Necklace among the debris!
+                @>Change Items: Jen's Necklace (ID: 146) + 1
+                @>Control Switches: #9 (Jen's Quest) = ON
+                @>Plugin Command: Quest Add 6
+                @>Plugin Command: Quest Update 6 1 Completed
+                @>Plugin Command: Quest Update 6 2 Active
+                @>Self Switch A = ON
+            @>End
+        @>When [Run away]
+            @>Show Text: You decide to leave the octopus alone for now.
+        @>Branch End
+@>Else
+    @>Show Text: The defeated octopus lies motionless in the murky water.
+@>End
+```
+
+## Implementation Notes
+
+1. **Battle Processing**:
+   - Use Troop ID 10 which should contain the Trash Octopus enemy (ID 10)
+   - If this troop doesn't exist, create it with the Trash Octopus enemy
+
+2. **Quest Journal Integration**:
+   - `Quest Add 6` adds Quest ID 6 (Jen's Lost Necklace) to the player's journal
+   - `Quest Update 6 1 Completed` marks the first objective (Find the necklace) as completed
+   - `Quest Update 6 2 Active` activates the second objective (Return the necklace to Jen)
+
+3. **Switch Usage**:
+   - Switch 9 is used for Jen's recruitment quest
+   - Setting it to ON allows the player to enter Jen's house and trigger the recruitment event
+
+4. **Item Usage**:
+   - Item ID 146 is Jen's Necklace, which is required for the recruitment event
+   - This is different from the necklace pieces (item ID 10) found in other events
+
+## Visual Appearance
+
+- **Image**: Use the "Monster" character set or another appropriate enemy sprite
+- **Direction**: Down (2)
+- **Pattern**: 1
+- **Step Animation**: ON
+- **Direction Fix**: ON
+- **Through**: OFF
+- **Priority Type**: Same as characters (1)
+- **Trigger**: Player Touch (2)
+
+## Additional Recommendations
+
+1. **Event Position**:
+   - Place the boss in a location that makes sense narratively
+   - Consider placing it in a corner or at the end of a corridor to create a "boss room" feel
+
+2. **Event Conditions**:
+   - Consider adding additional conditions if needed (e.g., requiring a certain item or switch)
+   - For simplicity, the current implementation only uses Self Switch A
+
+3. **Testing**:
+   - After implementation, test the complete quest flow:
+     1. Defeat the Trash Octopus boss
+     2. Verify Switch 9 is set to ON
+     3. Verify Jen's Necklace (item ID 146) is added to inventory
+     4. Verify quest journal is updated correctly
+     5. Enter Jen's house and trigger the recruitment event
+     6. Verify Jen joins the party

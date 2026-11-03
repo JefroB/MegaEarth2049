@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "checks": [
+    "cancelled physical-door choice emits no door cue",
+    "native walked door transfer emits one quiet Door3 cue",
+    "unfunded clinic service emits no recovery cue",
+    "paid native clinic recovery emits exactly one recovery cue",
+    "unaccepted gym test emits no success cue",
+    "wrong bench test emits no success cue",
+    "verified native bench test emits one cutoff click",
+    "rereading completed test does not replay success",
+    "full native action51 emits Noise once after correct animation starts",
+    "full native action269 emits Paralyze2 once after correct animation starts",
+    "full native action271 emits Earth1 once after correct animation starts",
+    "full native action274 emits Break once after correct animation starts",
+    "full native action280 emits Equip1 once after correct animation starts",
+    "full native action281 emits Recovery once after correct animation starts",
+    "full native action1 emits Laser1 once after correct animation starts",
+    "audio-only animation225 plays once with no missing bitmap",
+    "audio-only animation226 plays once with no missing bitmap",
+    "audio-only animation227 plays once with no missing bitmap"
+  ],
+  "actions": [
+    {
+      "skill": 51,
+      "expected": "Noise",
+      "heard": [
+        {
+          "name": "Noise",
+          "volume": 45,
+          "pitch": 100,
+          "frame": 372
+        }
+      ]
+    },
+    {
+      "skill": 269,
+      "expected": "Paralyze2",
+      "heard": [
+        {
+          "name": "Paralyze2",
+          "volume": 50,
+          "pitch": 100,
+          "frame": 469
+        }
+      ]
+    },
+    {
+      "skill": 271,
+      "expected": "Earth1",
+      "heard": [
+        {
+          "name": "Earth1",
+          "volume": 50,
+          "pitch": 95,
+          "frame": 542
+        }
+      ]
+    },
+    {
+      "skill": 274,
+      "expected": "Break",
+      "heard": [
+        {
+          "name": "Break",
+          "volume": 50,
+          "pitch": 110,
+          "frame": 616
+        }
+      ]
+    },
+    {
+      "skill": 280,
+      "expected": "Equip1",
+      "heard": [
+        {
+          "name": "Equip1",
+          "volume": 55,
+          "pitch": 90,
+          "frame": 685
+        }
+      ]
+    },
+    {
+      "skill": 281,
+      "expected": "Recovery",
+      "heard": [
+        {
+          "name": "Recovery",
+          "volume": 50,
+          "pitch": 110,
+          "frame": 767
+        }
+      ]
+    },
+    {
+      "skill": 1,
+      "expected": "Laser1",
+      "heard": [
+        {
+          "name": "Laser1",
+          "volume": 50,
+          "pitch": 110,
+          "frame": 839
+        },
+        {
+          "name": "Gun1",
+          "volume": 90,
+          "pitch": 110,
+          "frame": 839
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "scope": "Native emitted playback calls and completed event/actions; not a calibrated speaker/headphone listening certification."
+}

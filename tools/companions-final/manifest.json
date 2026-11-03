@@ -1,0 +1,571 @@
+{
+  "chapters": [
+    {
+      "id": "fixedPoint",
+      "name": "A Fixed Point",
+      "actor": 5,
+      "base": 229,
+      "map": 245,
+      "spot": [
+        4,
+        8
+      ],
+      "gate": "$gameSwitches.value(189)",
+      "location": "Black Ninja, Collective Dojo hall, after the first credential.",
+      "intro": "BLACK: Quantum Dynamics called a moving emergency exit a productivity feature. I kept a fixed reference so people could actually leave. Help me rebuild that anchor without rewriting anybody's body coordinates.",
+      "tasks": [
+        [
+          246,
+          [
+            5,
+            10
+          ],
+          "Anchor reference rig",
+          "POSTED RULE: the doorway is the fixed reference. The dummy marker drifts when the model moves. What stays fixed?",
+          [
+            [
+              "Fix the doorway reference",
+              true
+            ],
+            [
+              "Move the dummy through a wall",
+              false
+            ]
+          ],
+          "Reference fixed. Now verify the isolated model at the Matrix anchor console."
+        ],
+        [
+          9,
+          [
+            12,
+            12
+          ],
+          "Isolated Matrix anchor",
+          "POSTED RULE: this isolated model must not overwrite physical-world coordinates. Which record should be retained?",
+          [
+            [
+              "Overwrite world coordinates",
+              false
+            ],
+            [
+              "Keep the local reference",
+              true
+            ]
+          ],
+          "The anchor remains local. Return to Black in the Dojo hall."
+        ]
+      ],
+      "endings": [
+        "Share the reference with the Dojo",
+        "Keep a crew-only reference"
+      ],
+      "outcomes": [
+        "The Dojo receives the fixed-reference method.",
+        "The crew keeps the fixed-reference method."
+      ],
+      "closing": "BLACK: A door in the same place twice. Quantum will patent it as a miracle. The rest of us call it a fucking door.",
+      "credits": 0,
+      "item": 9,
+      "flags": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "taskEvents": [
+        [
+          246,
+          22
+        ],
+        [
+          9,
+          6
+        ]
+      ],
+      "taskPositions": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          12
+        ]
+      ],
+      "giverMenu": [
+        0,
+        1
+      ],
+      "giver": [
+        245,
+        7
+      ],
+      "giverPosition": [
+        4,
+        8
+      ],
+      "prefix": [],
+      "reward": {
+        "exp": 200,
+        "credits": 0,
+        "item": 9
+      }
+    },
+    {
+      "id": "standDown",
+      "name": "Stand Down",
+      "actor": 6,
+      "base": 235,
+      "map": 247,
+      "spot": null,
+      "gate": "$gameSwitches.value(189)",
+      "location": "Blue instructor, Collective Dojo practice room, after the first credential.",
+      "intro": "BLUE: OmniCorp taught me that hesitation was a defect. Then they billed the families for ammunition. I am replacing one old order: an unarmed person is not a target. Help me write an actual withdrawal plan.",
+      "tasks": [
+        [
+          247,
+          [
+            5,
+            9
+          ],
+          "Rules of engagement board",
+          "EXERCISE: an unarmed entrant crosses the training line. Posted rule: no weapon or threat is present. Choose the response.",
+          [
+            [
+              "Hold fire and open communication",
+              true
+            ],
+            [
+              "Fire a warning into the entrant",
+              false
+            ]
+          ],
+          "Hold-fire rule recorded. Review an exit plan at the care-ward safety board."
+        ],
+        [
+          248,
+          [
+            14,
+            9
+          ],
+          "Care-ward safety board",
+          "POSTED RULE: the apprentice can leave without surrendering medical data. Choose the withdrawal plan.",
+          [
+            [
+              "Transmit the patient identity",
+              false
+            ],
+            [
+              "Keep the exit open",
+              true
+            ]
+          ],
+          "Exit plan recorded. Return to Blue in the practice room."
+        ]
+      ],
+      "endings": [
+        "Post the standing order",
+        "Keep it as a crew order"
+      ],
+      "outcomes": [
+        "The Dojo posts the hold-fire standing order.",
+        "The crew records its hold-fire order."
+      ],
+      "closing": "BLUE: Nobody gets a medal for not shooting a patient. Good. Maybe we can stop treating that as advanced fucking tactics.",
+      "credits": 0,
+      "item": 171,
+      "flags": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "taskEvents": [
+        [
+          247,
+          4
+        ],
+        [
+          248,
+          6
+        ]
+      ],
+      "taskPositions": [
+        [
+          5,
+          9
+        ],
+        [
+          14,
+          9
+        ]
+      ],
+      "giverMenu": [
+        0,
+        1
+      ],
+      "giver": [
+        247,
+        2
+      ],
+      "prefix": [
+        2
+      ],
+      "reward": {
+        "exp": 200,
+        "credits": 0,
+        "item": 171
+      },
+      "giverPosition": [
+        10,
+        4
+      ]
+    },
+    {
+      "id": "ownFuse",
+      "name": "Nobody Rents My Fuse",
+      "actor": 8,
+      "base": 241,
+      "map": 10,
+      "spot": [
+        6,
+        8
+      ],
+      "gate": "true",
+      "location": "Niles, Timbuc, near the package square.",
+      "intro": "NILES: Armatek sold my cache a remote eviction trigger. It calls blowing up the whole block a lease adjustment. Help me isolate the bastard. We use a dead training casing first. I like explosions; I like my customers alive longer.",
+      "tasks": [
+        [
+          15,
+          [
+            4,
+            42
+          ],
+          "Dead timer casing",
+          "DEAD TRAINING CASING: its battery is a removable dummy. Posted rule: isolate the power before handling the trigger. No live explosive is connected.",
+          [
+            [
+              "Remove the dummy battery",
+              true
+            ],
+            [
+              "Bridge the trigger contacts",
+              false
+            ]
+          ],
+          "Casing isolated. Return to the cache relay in Timbuc to inspect its separate trigger."
+        ],
+        [
+          10,
+          [
+            6,
+            9
+          ],
+          "Niles cache relay",
+          "POSTED RULE: the cache trigger must be separate from residential alarms. Choose the wiring plan. This checks the plan; it detonates nothing.",
+          [
+            [
+              "Chain every housing alarm",
+              false
+            ],
+            [
+              "Isolate the cache trigger",
+              true
+            ]
+          ],
+          "Residential alarms stay separate. Niles wants your decision about the inspection label."
+        ]
+      ],
+      "endings": [
+        "Credit the neighbourhood crew",
+        "Leave the cache unmarked"
+      ],
+      "outcomes": [
+        "The inspection credits the neighbourhood crew.",
+        "The cache keeps an unmarked inspection record."
+      ],
+      "closing": "NILES: There. My fuse, my fucking problem. The landlord can repossess the invoice. No new Smelly Key, no new turf war. Just one less button pointed at our flats.",
+      "credits": 75,
+      "item": 0,
+      "flags": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "taskEvents": [
+        [
+          15,
+          30
+        ],
+        [
+          10,
+          17
+        ]
+      ],
+      "taskPositions": [
+        [
+          4,
+          42
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "giverMenu": [
+        0,
+        1
+      ],
+      "giver": [
+        10,
+        18
+      ],
+      "giverPosition": [
+        4,
+        8
+      ],
+      "prefix": [],
+      "reward": {
+        "exp": 200,
+        "credits": 75,
+        "item": 0
+      }
+    },
+    {
+      "id": "notFreight",
+      "name": "Passengers Are Not Freight",
+      "actor": 9,
+      "base": 247,
+      "map": 50,
+      "spot": [
+        11,
+        7
+      ],
+      "gate": "true",
+      "location": "Jack, Marcus Garvey 2.0 bridge.",
+      "intro": "JACK: You borrowed my ship. Fine. Let us negotiate the bit where its captain comes along. A carrier wants to list our passengers as biological freight. After the alien-STD shipment Jen still hates me for, I am not putting people on a specimen manifest.",
+      "tasks": [
+        [
+          52,
+          [
+            10,
+            7
+          ],
+          "Cargo isolation panel",
+          "POSTED RULE: passenger supplies and sealed biological samples travel separately. The sample crate is sealed; choose its bay assignment.",
+          [
+            [
+              "Separate the sealed sample crate",
+              true
+            ],
+            [
+              "Pack it with passenger supplies",
+              false
+            ]
+          ],
+          "Cargo assignment checked. Ask the sickbay release desk about the passenger manifest."
+        ],
+        [
+          54,
+          [
+            10,
+            7
+          ],
+          "Sickbay release desk",
+          "POSTED RULE: the carrier needs bay clearance, not diagnoses or passenger identities. What should the release disclose?",
+          [
+            [
+              "Publish names and diagnoses",
+              false
+            ],
+            [
+              "Release bay clearance only",
+              true
+            ]
+          ],
+          "Only bay clearance leaves sickbay. Return to Jack on the bridge."
+        ]
+      ],
+      "endings": [
+        "Keep the sealed route copy",
+        "Destroy the spare route copy"
+      ],
+      "outcomes": [
+        "A sealed route copy stays aboard.",
+        "The spare route copy is destroyed."
+      ],
+      "closing": "JACK: Names stay offline either way. Having a body is a pre-existing condition; having a boarding pass is apparently evidence. Cargo can be repossessed. People get an exit.",
+      "credits": 0,
+      "item": 157,
+      "flags": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "taskEvents": [
+        [
+          52,
+          3
+        ],
+        [
+          54,
+          3
+        ]
+      ],
+      "taskPositions": [
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          7
+        ]
+      ],
+      "giverMenu": [
+        0,
+        1
+      ],
+      "giver": [
+        50,
+        3
+      ],
+      "giverPosition": [
+        9,
+        7
+      ],
+      "prefix": [],
+      "reward": {
+        "exp": 200,
+        "credits": 0,
+        "item": 157
+      }
+    },
+    {
+      "id": "emptyHeist",
+      "name": "Nothing Worth Stealing",
+      "actor": 10,
+      "base": 253,
+      "map": 8,
+      "spot": [
+        6,
+        5
+      ],
+      "gate": "true",
+      "location": "Dick, Internet Cafe, Timbuc.",
+      "intro": "DICK: I came to lift NeuraTech data. Your implant made the alarm swear at its own mother. Beautiful. There is an empty decoy index in the public Matrix sandbox. Help me prove I can get in without stealing some worker's life.",
+      "tasks": [
+        [
+          9,
+          [
+            7,
+            12
+          ],
+          "Decoy index lock",
+          "POSTED SCOPE: copy only the empty decoy index in this sandbox. The public Matrix connection remains open. Choose the target.",
+          [
+            [
+              "Copy the empty decoy index",
+              true
+            ],
+            [
+              "Export workers' memories",
+              false
+            ]
+          ],
+          "Decoy copied. Check the owner-access rig at the Internet Cafe."
+        ],
+        [
+          8,
+          [
+            7,
+            5
+          ],
+          "Owner-access test rig",
+          "POSTED RULE: opening the decoy must leave the owner's access intact. Choose the final test.",
+          [
+            [
+              "Revoke everyone else's access",
+              false
+            ],
+            [
+              "Verify owner access still works",
+              true
+            ]
+          ],
+          "Owner access survives. Return to Dick here in the cafe."
+        ]
+      ],
+      "endings": [
+        "Teach the crew the trick",
+        "Keep the trick private"
+      ],
+      "outcomes": [
+        "Dick shares the decoy method with the crew.",
+        "Dick keeps his decoy method private."
+      ],
+      "closing": "DICK: An empty index. Absolutely nothing worth stealing. Hardest job I have ever done. Apparently the real challenge was leaving everybody else's shit alone.",
+      "credits": 100,
+      "item": 0,
+      "flags": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "taskEvents": [
+        [
+          9,
+          7
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "taskPositions": [
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "giverMenu": [
+        0,
+        1
+      ],
+      "giver": [
+        8,
+        5
+      ],
+      "giverPosition": [
+        6,
+        5
+      ],
+      "prefix": [],
+      "reward": {
+        "exp": 200,
+        "credits": 100,
+        "item": 0
+      }
+    }
+  ],
+  "logTotal": 36,
+  "projectTotal": 23,
+  "scope": "One bounded chapter for each existing companion actor2\u201310, excluding protagonist and antagonist-only records."
+}

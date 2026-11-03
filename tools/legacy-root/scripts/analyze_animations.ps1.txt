@@ -1,0 +1,256 @@
+# MegaEarth2049 Animation Analyzer
+# This script analyzes the Animations.json file in chunks to avoid memory issues
+
+# Function to analyze animations
+function Analyze-Animations {
+    param (
+        [string]$animationsFile = "data/Animations.json",
+        [string]$outputFile = "animations_analysis_report.txt",
+        [string]$detailedOutputFile = "animations_detailed_catalog.md"
+    )
+    
+    # Check if the animations file exists
+    if (-not (Test-Path $animationsFile)) {
+        Write-Host "Error: Animations file $animationsFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    Write-Host "Analyzing animations file $animationsFile..." -ForegroundColor Cyan
+    
+    # Create a report file
+    "MegaEarth2049 Animations Analysis Report" | Out-File -FilePath $outputFile -Encoding utf8
+    "Generated on: $(Get-Date)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # Create a detailed catalog file
+    "# MegaEarth2049 Animations Detailed Catalog" | Out-File -FilePath $detailedOutputFile -Encoding utf8
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "Generated on: $(Get-Date)" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "## Table of Contents" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "- [Overview](#overview)" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "- [Animation Categories](#animation-categories)" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "- [Complete Animation Catalog](#complete-animation-catalog)" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "## Overview" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "This document provides a detailed catalog of all animations in the MegaEarth2049 game. Each animation is listed with its properties, including name, position, graphics used, and other relevant details." | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    
+    # Process the file in chunks
+    $reader = [System.IO.File]::OpenText($animationsFile)
+    $content = ""
+    $buffer = New-Object char[] 8192
+    $openBrackets = 0
+    $closeBrackets = 0
+    $inAnimation = $false
+    $currentAnimation = ""
+    $animations = @()
+    
+    try {
+        while ($reader.Read($buffer, 0, $buffer.Length) -gt 0) {
+            $chunk = New-Object System.String ($buffer)
+            $content += $chunk
+            
+            # Count brackets to track JSON structure
+            $openBrackets += ($chunk.ToCharArray() | Where-Object { $_ -eq '[' } | Measure-Object).Count
+            $closeBrackets += ($chunk.ToCharArray() | Where-Object { $_ -eq ']' } | Measure-Object).Count
+            
+            # Process complete animations
+            while ($content -match '(\{[^\{\}]*\})') {
+                $match = $matches[1]
+                $content = $content.Replace($match, "")
+                
+                # Check if this is an animation object
+                if ($match -match '"id"\s*:') {
+                    try {
+                        $animation = $match | ConvertFrom-Json
+                        $animations += $animation
+                        Write-Host "  Processed Animation $($animation.id): $($animation.name)" -ForegroundColor Green
+                    }
+                    catch {
+                        Write-Host "  Error processing animation: $_" -ForegroundColor Red
+                    }
+                }
+            }
+        }
+    }
+    finally {
+        $reader.Close()
+    }
+    
+    # Sort animations by ID
+    $animations = $animations | Sort-Object -Property id
+    
+    # Analyze animations
+    $totalAnimations = $animations.Count
+    $animationsWithSound = ($animations | Where-Object { $_.timings -and $_.timings.Count -gt 0 -and $_.timings[0].se -and $_.timings[0].se.name } | Measure-Object).Count
+    $animationsWithFlash = ($animations | Where-Object { $_.timings -and $_.timings.Count -gt 0 -and $_.timings[0].flashScope -gt 0 } | Measure-Object).Count
+    $animationsByPosition = @{
+        "Screen" = ($animations | Where-Object { $_.position -eq 0 } | Measure-Object).Count
+        "Target" = ($animations | Where-Object { $_.position -eq 1 } | Measure-Object).Count
+        "Center" = ($animations | Where-Object { $_.position -eq 2 } | Measure-Object).Count
+        "Behind" = ($animations | Where-Object { $_.position -eq 3 } | Measure-Object).Count
+    }
+    
+    # Group animations by category
+    $animationCategories = @{}
+    $animationCategories["Basic Attack"] = ($animations | Where-Object { $_.id -ge 1 -and $_.id -le 20 } | Measure-Object).Count
+    $animationCategories["Elemental"] = ($animations | Where-Object { 
+        ($_.id -ge 3 -and $_.id -le 5) -or 
+        ($_.id -ge 8 -and $_.id -le 10) -or 
+        ($_.id -ge 13 -and $_.id -le 15) -or
+        ($_.id -ge 81 -and $_.id -le 100)
+    } | Measure-Object).Count
+    $animationCategories["Special Effect"] = ($animations | Where-Object { $_.id -ge 21 -and $_.id -le 40 } | Measure-Object).Count
+    $animationCategories["Powerful Attack"] = ($animations | Where-Object { $_.id -ge 41 -and $_.id -le 80 } | Measure-Object).Count
+    $animationCategories["Environmental"] = ($animations | Where-Object { $_.id -ge 81 -and $_.id -le 100 } | Measure-Object).Count
+    $animationCategories["Other"] = ($animations | Where-Object { $_.id -gt 100 } | Measure-Object).Count
+    
+    # Write the report
+    "Total Animations: $totalAnimations" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Animations with Sound Effects: $animationsWithSound" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Animations with Flash Effects: $animationsWithFlash" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    "Animation Positions:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Screen: $($animationsByPosition.Screen)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Target: $($animationsByPosition.Target)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Center: $($animationsByPosition.Center)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Behind: $($animationsByPosition.Behind)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    "Animation Categories:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Basic Attack (1-20): $($animationCategories['Basic Attack'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Elemental: $($animationCategories['Elemental'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Special Effect (21-40): $($animationCategories['Special Effect'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Powerful Attack (41-80): $($animationCategories['Powerful Attack'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Environmental (81-100): $($animationCategories['Environmental'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Other (101+): $($animationCategories['Other'])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # Write animation graphics usage
+    $graphicsUsage = @{}
+    foreach ($animation in $animations) {
+        if ($animation.animation1Name) {
+            if (-not $graphicsUsage.ContainsKey($animation.animation1Name)) {
+                $graphicsUsage[$animation.animation1Name] = 0
+            }
+            $graphicsUsage[$animation.animation1Name]++
+        }
+        if ($animation.animation2Name) {
+            if (-not $graphicsUsage.ContainsKey($animation.animation2Name)) {
+                $graphicsUsage[$animation.animation2Name] = 0
+            }
+            $graphicsUsage[$animation.animation2Name]++
+        }
+    }
+    
+    "Animation Graphics Usage:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    foreach ($graphic in ($graphicsUsage.Keys | Sort-Object)) {
+        "$graphic: $($graphicsUsage[$graphic])" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # Write detailed catalog
+    "## Animation Categories" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "Animations in MegaEarth2049 are organized into several categories:" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "1. **Basic Attack Animations (IDs 1-20)**: Basic physical attacks and weapon effects" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "2. **Elemental Animations**: Fire, Ice, Thunder, Water, Earth, Wind, Light effects" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "3. **Special Effect Animations (IDs 21-40)**: Healing, buffs, debuffs, and status effects" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "4. **Powerful Attack Animations (IDs 41-80)**: High-level skills and limit breaks" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "5. **Environmental Effect Animations (IDs 81-100)**: Environmental effects" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "6. **Other Animations (IDs 101+)**: Miscellaneous and custom animations" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    
+    "## Complete Animation Catalog" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    
+    # Group animations by category for the catalog
+    $categoryRanges = @(
+        @{Name = "Basic Attack Animations"; Start = 1; End = 20},
+        @{Name = "Special Effect Animations"; Start = 21; End = 40},
+        @{Name = "Powerful Attack Animations"; Start = 41; End = 80},
+        @{Name = "Environmental Effect Animations"; Start = 81; End = 100},
+        @{Name = "Other Animations"; Start = 101; End = 999999}
+    )
+    
+    foreach ($range in $categoryRanges) {
+        $categoryAnimations = $animations | Where-Object { $_.id -ge $range.Start -and $_.id -le $range.End }
+        
+        if ($categoryAnimations.Count -gt 0) {
+            "### $($range.Name)" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+            
+            "| ID | Name | Position | Graphics | Frames | Timings |" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+            "|-------|------|----------|----------|--------|---------|" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+            
+            foreach ($animation in $categoryAnimations) {
+                $positionText = switch ($animation.position) {
+                    0 { "Screen" }
+                    1 { "Target" }
+                    2 { "Center" }
+                    3 { "Behind" }
+                    default { "Unknown" }
+                }
+                
+                $graphics = @()
+                if ($animation.animation1Name) {
+                    $graphics += $animation.animation1Name
+                    if ($animation.animation1Hue -ne 0) {
+                        $graphics[-1] += " (Hue: $($animation.animation1Hue))"
+                    }
+                }
+                if ($animation.animation2Name) {
+                    $graphics += $animation.animation2Name
+                    if ($animation.animation2Hue -ne 0) {
+                        $graphics[-1] += " (Hue: $($animation.animation2Hue))"
+                    }
+                }
+                $graphicsText = $graphics -join ", "
+                
+                $frameCount = if ($animation.frames) { $animation.frames.Count } else { 0 }
+                $timingCount = if ($animation.timings) { $animation.timings.Count } else { 0 }
+                
+                "| $($animation.id) | $($animation.name) | $positionText | $graphicsText | $frameCount | $timingCount |" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+            }
+            
+            "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+        }
+    }
+    
+    # Add a section for animation graphics
+    "## Animation Graphics" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "The following animation graphics are used in the game:" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "| Graphic Name | Usage Count |" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "|-------------|------------|" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    
+    foreach ($graphic in ($graphicsUsage.Keys | Sort-Object)) {
+        if ($graphic) {
+            "| $graphic | $($graphicsUsage[$graphic]) |" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+        }
+    }
+    
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "## Conclusion" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "This catalog provides a comprehensive overview of all animations in the MegaEarth2049 game. Use this as a reference when creating or modifying animations, or when integrating animations with skills and other game systems." | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "---" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    "*This documentation was generated on $(Get-Date) using the MegaEarth2049 Animation Analysis Tools.*" | Out-File -FilePath $detailedOutputFile -Encoding utf8 -Append
+    
+    Write-Host "Created animations analysis report at $outputFile" -ForegroundColor Green
+    Write-Host "Created detailed animations catalog at $detailedOutputFile" -ForegroundColor Green
+}
+
+# Main script execution
+Analyze-Animations

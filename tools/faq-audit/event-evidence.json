@@ -1,0 +1,65 @@
+{
+  "SEAM": [
+    "Map002/event23 Pants-O-Rama Shop",
+    "Map002/event26 Pants-O-Rama Shop",
+    "Map010/event11 Armatek AI Researcher",
+    "Map010/event13 Armatek AI Researcher"
+  ],
+  "Clown Court": [],
+  "Vending": [],
+  "Calamari": [],
+  "MAX-E-MUM": [],
+  "Narrator": [],
+  "Compiler": [],
+  "Shadow": [],
+  "Necklace": [
+    "Map014/event2 Inn Guest",
+    "Map015/event22 Necklace piece #1",
+    "Map015/event23 Necklace piece #2",
+    "Map015/event24 Necklace piece #1",
+    "Map015/event25 Necklace piece #1",
+    "Map025/event1 Necklace piece #2",
+    "Map028/event4 Necklace piece #3",
+    "Map040/event1 Necklace piece #4",
+    "Map057/event2 Jen Recruitment",
+    "Map127/event1 Room marker [Custodian story]",
+    "Map145/event1 Room marker [Custodian story]",
+    "Map163/event1 Room marker [Custodian story]",
+    "Map181/event1 Room marker [Custodian story]",
+    "Map199/event1 Room marker [Custodian story]",
+    "Map217/event1 Room marker [Custodian story]",
+    "Map237/event2 Protocol Zero service record",
+    "Map237/event3 Sealed inner Core access",
+    "Map239/event2 Dorlund compensation ruling"
+  ],
+  "Blueprint": [
+    "Map001/event10 Engine Completion",
+    "Map001/event17 Engine Completion",
+    "Map015/event28 Engine Blueprint",
+    "Map015/event29 Engine Blueprint"
+  ],
+  "Burlap": [
+    "Map002/event23 Pants-O-Rama Shop",
+    "Map002/event26 Pants-O-Rama Shop",
+    "Map010/event10 Burlap Pants Package",
+    "Map010/event12 Burlap Pants Package"
+  ],
+  "Third Eye": [],
+  "Disco Implant": [],
+  "Mod Doctor Hotline": [],
+  "Quantum": [
+    "Map049/event12 Disgruntled duck accountant"
+  ],
+  "upgrade": [
+    "Map012/event3 Weapon store customer"
+  ],
+  "reputation": [],
+  "romance": [],
+  "casino": [],
+  "Secret Cow": [],
+  "Developer": [],
+  "Ninja": [
+    "Map002/event20 EV020",
+    "Map007/event8 EV008"
+  ]
+}

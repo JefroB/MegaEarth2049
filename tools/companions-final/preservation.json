@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "data/Map008.json original tiles/settings/events preserved",
+    "data/Map009.json original tiles/settings/events preserved",
+    "data/Map010.json original tiles/settings/events preserved",
+    "data/Map015.json original tiles/settings/events preserved",
+    "data/Map050.json original tiles/settings/events preserved",
+    "data/Map052.json original tiles/settings/events preserved",
+    "data/Map054.json original tiles/settings/events preserved",
+    "data/Map245.json original tiles/settings/events preserved",
+    "data/Map246.json original tiles/settings/events preserved",
+    "data/Map247.json original tiles/settings/events preserved",
+    "data/Map248.json original tiles/settings/events preserved",
+    "Blue instructor original practice and Pink branches are byte-for-byte equivalent"
+  ]
+}

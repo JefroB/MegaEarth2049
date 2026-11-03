@@ -1,0 +1,184 @@
+Quest 1: The Mysterious Necklace
+Category: 1
+Difficulty: 2
+From: Found in Timbuc Cellar
+Location: Various locations throughout the game
+Description: You've discovered a strange necklace piece in the Timbuc Cellar. It seems to be part of a larger artifact with mysterious powers. Collect all the pieces to unlock its true potential.
+Objectives:
+- Find the necklace piece in Timbuc Cellar
+- Locate the second piece in the Abandoned Mine
+- Discover the third piece in the Floating Mansion
+- Find the final piece in the A.S.P. Facility
+- Assemble the complete necklace
+Rewards:
+- Complete Necklace (Key Item)
+- Enhanced neural implant capabilities
+- Access to new areas
+Subtext: The necklace appears to interact with your neural implant in strange ways.
+Quotes:
+- "This artifact predates the corporate wars. Handle with care." - Zed
+- "I've seen symbols like these before, in the old Earth archives." - Jen
+
+Quest 2: The Engine Reconstruction
+Category: 2
+Difficulty: 3
+From: Armatek Engineer in Timbuc Cellar
+Location: Various locations
+Description: An Armatek engineer needs your help to reconstruct an advanced engine. The components are scattered across different locations, and you'll need to find them all to complete the engine.
+Objectives:
+- Obtain the engine blueprint from the Armatek engineer
+- Find Component A at the construction site
+- Find Component B from a malfunctioning A.S.P. drone
+- Find Component C from the Armatek office
+- Return all components to the engineer
+Rewards:
+- Advanced Engine (Key Item)
+- Engineering skill increase
+- 500 credits
+Subtext: This engine design seems unusually advanced for current technology. The engineer believes it could revolutionize transportation in the wasteland.
+Quotes:
+- "With this engine, we could revolutionize transportation in the wasteland." - Armatek Engineer
+- "I haven't seen technology like this since before the collapse." - Zed
+
+Quest 9: The Mysterious Smelly Keys
+Category: 3
+Difficulty: 2
+From: Found in Timbuc Cellar
+Location: Timbuc Cellar
+Description: Strange, smelly keys have been scattered throughout Timbuc Cellar. Each key unlocks a specific door, potentially leading to valuable treasures.
+Objectives:
+- Find Smelly Key #1 in central Timbuc Cellar
+- Unlock the door to Map020 using Smelly Key #1
+- Find Smelly Key #2 and unlock the door to Map021
+- Find Smelly Key #3 and unlock the door to Map017
+- Find Smelly Key #4 and unlock the door to Map032
+- Find Smelly Key #5 and unlock the door to Map018
+- Find Smelly Key #6 and unlock the door to Map019
+- Find Smelly Key #7 and unlock the door to Map016
+Rewards:
+- Access to hidden areas with valuable items
+- 1000 credits total (distributed across the hidden areas)
+- Unique equipment items in the final area
+Subtext: These keys have a distinct, unpleasant smell. Who would create such foul-smelling keys, and what treasures might they protect?
+Quotes:
+- "I've heard rumors of hidden treasures in Timbuc Cellar, but the smell of those keys is almost not worth it." - Timbuc Resident
+- "Each key has a unique smell. Some say the smell corresponds to what's behind each door." - Mysterious Vendor
+
+Quest 11: The Ancient Necklace
+Category: 4
+Difficulty: 2
+From: Found in Timbuc Cellar
+Location: Timbuc Cellar
+Description: Ancient necklace pieces have been scattered throughout Timbuc Cellar. According to local legends, when combined, these pieces form a powerful artifact that grants enhanced abilities to the wearer.
+Objectives:
+- Find Necklace Piece 1 in Timbuc Cellar
+- Find Necklace Piece 2 in Timbuc Cellar
+- Find Necklace Piece 3 in Timbuc Cellar
+- Find Necklace Piece 4 in Timbuc Cellar
+- Combine the necklace pieces
+Rewards:
+- Ancient Necklace (Equipment - Accessory)
+- +5 to all stats when equipped
+Subtext: The necklace pieces emit a faint glow when brought near each other. They seem to be made of a material not found in the wasteland.
+Quotes:
+- "I've heard tales of an ancient artifact hidden in Timbuc Cellar. They say it grants great power to whoever wears it." - Timbuc Resident
+- "Those necklace pieces are different from Jen's necklace. They're much older, possibly pre-collapse technology." - Armatek Researcher
+
+Quest 4: Zed's Clinic
+Category: 4
+Difficulty: 2
+From: Zed
+Location: Zed's Clinic in Timbuc
+Description: Zed, the eccentric cybernetic surgeon, needs rare materials for his experimental treatments. Help him gather these materials and you might benefit from his unique skills.
+Objectives:
+- Collect rare metals from the Junkyard
+- Obtain synthetic tissue from the Corporate District
+- Find experimental nanites in the Abandoned Lab
+- Return the materials to Zed
+- Undergo the experimental treatment (optional)
+Rewards:
+- Unique cybernetic enhancement
+- Discount on future treatments
+- Access to Zed's special inventory
+Subtext: Zed's methods are unorthodox, but his results are undeniable. Just don't ask where he learned his techniques.
+Quotes:
+- "Don't worry about the side effects. They're mostly temporary." - Zed
+- "I've never seen someone's body accept the implants so well!" - Zed
+
+Quest 5: Digital Detox
+Category: 5
+Difficulty: 4
+From: Research Terminal
+Location: Floating Mansion Hidden Laboratory
+Description: You've discovered plans for a device that can purify digital corruption from A.S.P. systems. Creating this device could provide a powerful tool against A.S.P.'s influence.
+Objectives:
+- Download the research data
+- Collect the Quantum Purifier component
+- Obtain the Neural Stabilizer component
+- Assemble the A.S.P. Purification Device
+- Test the device in the laboratory
+Rewards:
+- A.S.P. Purification Device (Key Item)
+- Ability to temporarily disable A.S.P. drones
+- Knowledge about A.S.P.'s weaknesses
+Subtext: This technology seems to have been developed by someone who understood A.S.P.'s core programming.
+Quotes:
+- "This device could be our best chance against A.S.P.'s digital corruption." - Rex
+- "The creator must have known A.S.P. would eventually go rogue." - Jen
+
+Quest 6: Jen's Lost Necklace
+Category: 4
+Difficulty: 2
+From: Timbuc Cellar
+Location: Timbuc and surrounding areas
+Description: You've discovered that Jen is missing her necklace. It appears to have been stolen and taken to the Timbuc Cellar. Retrieve the necklace and return it to Jen to gain her trust and expertise.
+Objectives:
+- Defeat the boss in Timbuc Cellar
+- Retrieve Jen's necklace
+- Return the necklace to Jen
+Rewards:
+- Jen joins your party
+- Access to healing and support magic
+- Information about the neural implant technology
+Subtext: Jen seems to have a special connection to this necklace beyond its monetary value.
+Quotes:
+- "That necklace is all I have left from before..." - Jen
+- "Thanks for bringing my necklace back! I'll help you on your journey." - Jen
+
+Quest 7: Ninja Recruitment
+Category: 4
+Difficulty: 3
+From: Church Street
+Location: Timbuc 2 - Church Street
+Description: You've encountered ninjas on Church Street. Defeat different colored ninjas to learn about their clan and potentially recruit them to your cause.
+Objectives:
+- Defeat a Green Ninja
+- Defeat a Brown Ninja
+- Defeat a Blue Ninja
+- Defeat the Pink Ninja leader
+Rewards:
+- Pink Ninja joins your party
+- Access to ninja techniques
+Subtext: The ninjas seem to be testing your combat abilities before deciding whether to join you.
+Quotes:
+- "A test of will, and you have endured." - Pink Ninja
+- "Our clan values strength and honor. You have demonstrated both." - Ninja Master
+
+Quest 8: Bridge to Timbuc 2
+Category: 4
+Difficulty: 2
+From: Zack
+Location: Zack's House and Timbuc Cellar
+Description: Zack's grandfather is sick and needs medicine from Timbuc 2, but the bridge is broken. Help Zack retrieve his stolen engine from a thief hiding in Timbuc Cellar so he can repair the bridge.
+Objectives:
+- Find the thief in Timbuc Cellar
+- Defeat the thief and retrieve the engine
+- Return the engine to Zack
+Rewards:
+- Access to Timbuc 2
+- Zack potentially joins your party
+- Smelly Key #1 (obtained during quest)
+Subtext: Zack's grandfather is very ill and needs medicine from Timbuc 2. The bridge is the only way to get there.
+Quotes:
+- "My grandpa is SUPER sick, which sucks." - Zack
+- "I would just fix it myself but some asshole stole the engine out of my crane." - Zack

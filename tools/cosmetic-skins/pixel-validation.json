@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "proof": [
+    {
+      "id": "base",
+      "type": "walk",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 0,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "base",
+      "type": "face",
+      "width": 576,
+      "height": 288,
+      "changedVisiblePixels": 0,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "base",
+      "type": "battle",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 0,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "mint",
+      "type": "walk",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 9822,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "mint",
+      "type": "face",
+      "width": 576,
+      "height": 288,
+      "changedVisiblePixels": 12007,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "mint",
+      "type": "battle",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 76418,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "ultraviolet",
+      "type": "walk",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 9822,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "ultraviolet",
+      "type": "face",
+      "width": 576,
+      "height": 288,
+      "changedVisiblePixels": 12007,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    },
+    {
+      "id": "ultraviolet",
+      "type": "battle",
+      "width": 576,
+      "height": 384,
+      "changedVisiblePixels": 76418,
+      "alphaIdentical": true,
+      "registrationScale": 1
+    }
+  ],
+  "usedCellsPerFinish": {
+    "walk": 12,
+    "face": 1,
+    "battle": 54
+  },
+  "note": "All alpha pixels and canvas dimensions match canonical art; these PNGs are diagnostic runtime exports, not replacement game assets."
+}

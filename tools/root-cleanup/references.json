@@ -1,0 +1,162 @@
+{
+  "changedFiles": [
+    "tools/legacy-root/docs/Animation_Documentation_Tools_README.md",
+    "docs/reference/plugins/Battle_System_Plugins.md",
+    "docs/reference/plugins/Character_Party_Plugins.md",
+    "docs/archive/quests/Engine_Blueprint_Quest_Implementation.md",
+    "docs/reference/plugins/Item_Equipment_Plugins.md",
+    "docs/archive/quests/Jen_Recruitment_Quest_Implementation_Summary.md",
+    "tools/legacy-root/docs/Map_Documentation_Tools_README.md",
+    "docs/reference/database/MegaEarth2049_Actors_Classes_Documentation.md",
+    "docs/archive/guides/MegaEarth2049_AI_Development_Guide.md",
+    "docs/reference/battle/MegaEarth2049_Animations_Catalog.md",
+    "docs/reference/battle/MegaEarth2049_Animations_Documentation.md",
+    "docs/reference/battle/MegaEarth2049_Animation_Code_Examples.md",
+    "docs/reference/database/MegaEarth2049_Armors_Documentation.md",
+    "docs/reference/database/MegaEarth2049_CommonEvents_Documentation.md",
+    "docs/archive/guides/MegaEarth2049_Documentation_Index.md",
+    "docs/reference/database/MegaEarth2049_Enemies_Documentation.md",
+    "docs/story/MegaEarth2049_GameStory.md",
+    "docs/reference/database/MegaEarth2049_Items_Documentation.md",
+    "docs/reference/database/MegaEarth2049_Item_ID_Standardization_Guide.md",
+    "tools/legacy-root/docs/MegaEarth2049_Map_Analysis_Tools_README.md",
+    "docs/reference/maps/MegaEarth2049_Map_Documentation.md",
+    "docs/reference/maps/MegaEarth2049_Map_JSON_Documentation.md",
+    "docs/reference/maps/MegaEarth2049_Map_JSON_Structure.md",
+    "docs/reference/maps/MegaEarth2049_Map_Structure_Documentation.md",
+    "docs/archive/quests/MegaEarth2049_Quest_Design_Documentation.md",
+    "docs/archive/quests/MegaEarth2049_Quest_Implementation_Guide.md",
+    "docs/archive/quests/MegaEarth2049_Quest_Logic_Fixes.md",
+    "docs/archive/quests/MegaEarth2049_Quest_Logic_Issues.md",
+    "docs/archive/quests/MegaEarth2049_Quest_Plugin_Commands.md",
+    "docs/reference/database/MegaEarth2049_Quest_Switch_Documentation.md",
+    "docs/archive/quests/MegaEarth2049_Quest_System_Analysis_Summary.md",
+    "docs/archive/quests/MegaEarth2049_Quest_System_Improvement_Plan.md",
+    "docs/reference/database/MegaEarth2049_Skills_Documentation.md",
+    "docs/reference/database/MegaEarth2049_States_Documentation.md",
+    "docs/reference/database/MegaEarth2049_Switch_Documentation_Template.md",
+    "docs/archive/guides/MegaEarth2049_Technical_Documentation.md",
+    "docs/archive/guides/MegaEarth2049_Tileset_Documentation_Plan.md",
+    "docs/reference/maps/MegaEarth2049_Tileset_Flag_Documentation.md",
+    "tools/legacy-root/docs/MegaEarth2049_Tileset_Tools_README.md",
+    "docs/archive/quests/MegaEarth2049_Timbuc_Cellar_Quest_Analysis.md",
+    "docs/reference/database/MegaEarth2049_Troops_Documentation.md",
+    "docs/archive/quests/MegaEarth2049_Undocumented_Quests_Summary.md",
+    "docs/reference/database/MegaEarth2049_Weapons_Documentation.md",
+    "docs/reference/plugins/Miscellaneous_Plugins.md",
+    "docs/archive/quests/Necklace_Pieces_Collection_Implementation.md",
+    "docs/archive/quests/Ninja_Recruitment_Quest_Implementation.md",
+    "docs/archive/quests/Quest_Journal_Plugin.md",
+    "docs/reference/plugins/RPG_Maker_MV_Plugins_Documentation.md",
+    "docs/reference/plugins/RPG_Maker_MV_Plugins_README.md",
+    "docs/archive/quests/Smelly_Keys_Quest_Implementation.md",
+    "docs/reference/plugins/States_Effects_Plugins.md",
+    "docs/story/STORY_PROGRESSION.md",
+    "docs/archive/quests/Timbuc_Cellar_Quests_Implementation_Summary.md",
+    "docs/reference/plugins/UI_Message_Plugins.md",
+    "docs/reference/plugins/WeaponSkill_Implementation_README.md",
+    "docs/reference/plugins/YEP_CoreEngine_Documentation.md",
+    "docs/reference/plugins/YEP_ItemCore_EquipCore_Documentation.md",
+    "docs/archive/quests/Zack_Bridge_Repair_Quest_Implementation.md",
+    "GameFAQs/FAQ_03_Locations_Guide.md",
+    "GameFAQs/FAQ_04_Characters_and_NPCs.md",
+    "GameFAQs/FAQ_06_Quests_and_Storylines.md",
+    "GameFAQs/ROADMAP.md",
+    ".agent/skills/debug-room/SKILL.md",
+    ".agent/skills/main-boss/SKILL.md",
+    ".agent/skills/mini-boss/SKILL.md",
+    ".agent/skills/npcs/SKILL.md",
+    ".agent/skills/quests/SKILL.md",
+    ".agent/skills/theme-and-story/SKILL.md",
+    ".agent/skills/mini-boss/references/project-integration.md",
+    ".kiro/skills/npcs/SKILL.md",
+    ".kiro/skills/quests/SKILL.md",
+    ".kiro/skills/theme-and-story/SKILL.md",
+    "tools/backlog-repairs/repair.py",
+    "tools/clown-court/build.py",
+    "tools/clown-court/manifest.json",
+    "tools/faq-cleanup/consolidate.py",
+    "tools/faq-cleanup/external-references.json",
+    "tools/faq-cleanup/staged/FAQ_03_Locations_Guide.md",
+    "tools/faq-cleanup/staged/FAQ_04_Characters_and_NPCs.md",
+    "tools/faq-cleanup/staged/FAQ_06_Quests_and_Storylines.md",
+    "tools/faq-cleanup/staged/ROADMAP.md"
+  ],
+  "links": [
+    {
+      "source": "MegaEarth2049_Map_Analysis_Tools_README.md",
+      "old": "MegaEarth2049_Map_JSON_Documentation.md",
+      "new": "../../../docs/reference/maps/MegaEarth2049_Map_JSON_Documentation.md"
+    },
+    {
+      "source": "MegaEarth2049_Quest_System_Analysis_Summary.md",
+      "old": "MegaEarth2049_Quest_Switch_Documentation.md",
+      "new": "../../reference/database/MegaEarth2049_Quest_Switch_Documentation.md"
+    },
+    {
+      "source": "RPG_Maker_MV_Plugins_README.md",
+      "old": "Quest_Journal_Plugin.md",
+      "new": "../../archive/quests/Quest_Journal_Plugin.md"
+    },
+    {
+      "source": "RPG_Maker_MV_Plugins_README.md",
+      "old": "Quest_Journal_Plugin.md",
+      "new": "../../archive/quests/Quest_Journal_Plugin.md"
+    },
+    {
+      "source": "Timbuc_Cellar_Quests_Implementation_Summary.md",
+      "old": "MegaEarth2049_Quest_Switch_Documentation.md",
+      "new": "../../reference/database/MegaEarth2049_Quest_Switch_Documentation.md"
+    },
+    {
+      "source": "GameFAQs/FAQ_03_Locations_Guide.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "GameFAQs/FAQ_04_Characters_and_NPCs.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "GameFAQs/FAQ_06_Quests_and_Storylines.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "GameFAQs/ROADMAP.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "GameFAQs/ROADMAP.md",
+      "old": "../MegaEarth2049_Story.md",
+      "new": "../docs/story/MegaEarth2049_Story.md"
+    },
+    {
+      "source": "tools/faq-cleanup/staged/FAQ_03_Locations_Guide.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "tools/faq-cleanup/staged/FAQ_04_Characters_and_NPCs.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "tools/faq-cleanup/staged/FAQ_06_Quests_and_Storylines.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "tools/faq-cleanup/staged/ROADMAP.md",
+      "old": "../STORY_PROGRESSION.md",
+      "new": "../docs/story/STORY_PROGRESSION.md"
+    },
+    {
+      "source": "tools/faq-cleanup/staged/ROADMAP.md",
+      "old": "../MegaEarth2049_Story.md",
+      "new": "../docs/story/MegaEarth2049_Story.md"
+    }
+  ]
+}

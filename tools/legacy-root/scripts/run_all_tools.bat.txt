@@ -1,0 +1,17 @@
+@echo off
+echo MegaEarth2049 Map Analysis Tools Runner
+echo ======================================
+echo.
+
+echo This batch file will run all the map analysis tools in sequence.
+echo Results will be saved in the map_analysis_results directory.
+echo.
+
+echo Running PowerShell script...
+powershell -ExecutionPolicy Bypass -File run_all_tools.ps1
+echo.
+
+echo All tools have been executed.
+echo.
+
+pause

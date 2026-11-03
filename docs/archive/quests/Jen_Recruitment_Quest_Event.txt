@@ -1,0 +1,177 @@
+# Jen Recruitment Quest Implementation
+
+This file provides a practical example of how to implement the "Jen's Lost Necklace" quest using the YEP_QuestJournal plugin. This quest will allow the player to recruit Jen as a party member.
+
+## Quest Overview
+
+- **Quest ID**: 6
+- **Name**: Jen's Lost Necklace
+- **Category**: Character Quests
+- **Difficulty**: 2
+- **From**: Timbuc Cellar
+- **Location**: Timbuc and surrounding areas
+- **Availability**: After player reaches level 3
+
+## Event Implementation
+
+### Common Event for Level Check (Parallel Process)
+
+```
+// Common Event: Jen Availability Check
+Trigger: Parallel Process
+Event Commands:
+- Conditional Branch: Actor 1's Level ≥ 3
+  - If true AND Switch 21 is OFF:
+    - Set Switch 21 ON (Jen is home)
+    - Show Text: "You hear rumors about a former OmniCorp specialist living in Timbuc."
+  - End If
+- End Branch
+```
+
+### Timbuc Cellar Boss Event (where the necklace is found)
+
+```
+// Event Page 1: Boss Not Defeated
+Conditions: Switch 9 OFF (Jen's Boss Not Defeated)
+Event Commands:
+- Show Text: "A menacing figure guards something shiny in the corner..."
+- Battle Processing: Trash Octopus (or appropriate boss)
+- If Win:
+  - Show Text: "You defeated the creature! You found Jen's necklace among its possessions."
+  - Change Items: Add "Jen's Necklace" to inventory
+  - Set Switch 9 ON (Jen's Boss Defeated)
+  - Plugin Command: Quest Add 6
+  - Plugin Command: Quest SetObjective 6 1 complete
+  - Plugin Command: Quest SetObjective 6 2 complete
+  - Show Text: "This appears to be a personal item. Perhaps you should find its owner."
+- If Escape/Lose:
+  - Show Text: "You retreat from the powerful creature. It continues to guard its treasure."
+
+// Event Page 2: Boss Defeated
+Conditions: Switch 9 ON (Jen's Boss Defeated)
+Event Commands:
+- Show Text: "You've already defeated the creature and claimed its treasure."
+```
+
+### Map056 (Outside Jen's House) Event
+
+```
+// Event Page 1: Jen Not Home
+Conditions: Switch 21 OFF
+Event Commands:
+- Show Text: "The house appears to be empty. Nobody answers the door."
+- (Prevent entry to Map057)
+
+// Event Page 2: Jen Home
+Conditions: Switch 21 ON
+Event Commands:
+- Show Text: "This appears to be the home of the former OmniCorp specialist."
+- Transfer Player: Map057 (entry coordinates)
+```
+
+### Map057 (Inside Jen's House) Entry Event
+
+```
+// Map Entry Event for Jen's House (Map057)
+Conditions: None
+Event Commands:
+- Comment: "DO NOT set Switch 9 to OFF here"
+- Other map entry logic...
+```
+
+### Jen NPC Event in Map057
+
+```
+// Event Page 1: First Meeting
+Conditions: Switch 21 ON, Switch 10 OFF
+Event Commands:
+- Show Text: "\\c[6]Jen:\\c[0] Hello there. I'm Jen, a former OmniCorp Security specialist."
+- Show Text: "\\c[6]Jen:\\c[0] I'd love to help you, but I'm currently searching for something important that was stolen from me."
+- Show Text: "\\c[6]Jen:\\c[0] If you happen to find a silver necklace with a blue pendant, please bring it to me. It means a lot to me."
+- Conditional Branch: Has Item "Jen's Necklace"
+  - If true:
+    - (Jump to necklace return dialogue)
+  - End If
+
+// Event Page 2: After Boss Defeated, Before Recruitment
+Conditions: Switch 9 ON, Switch 10 OFF
+Event Commands:
+- Conditional Branch: Has Item "Jen's Necklace"
+  - If true:
+    - Show Text: "\\c[6]Jen:\\c[0] Wait, is that... my necklace? You found it!"
+    - Show Choices: ["Give her the necklace", "Keep it for now"]
+    - If "Give her the necklace":
+      - Change Items: Remove "Jen's Necklace" from inventory
+      - Show Text: "\\c[6]Jen:\\c[0] Thank you so much! This necklace is all I have left from before the corporate wars."
+      - Show Text: "\\c[6]Jen:\\c[0] I'd be happy to join you on your journey. My healing skills should come in handy."
+      - Plugin Command: Quest SetObjective 6 3 complete
+      - Plugin Command: Quest Complete 6
+      - Change Party Member: Add Jen to party
+      - Set Switch 10 ON (Jen Recruited)
+      - Show Text: "Jen has joined your party!"
+    - If "Keep it for now":
+      - Show Text: "\\c[6]Jen:\\c[0] Oh... I understand. Please bring it back when you're ready."
+  - If false:
+    - Show Text: "\\c[6]Jen:\\c[0] Any luck finding my necklace? I believe it was taken to the Timbuc Cellar."
+    - Show Text: "\\c[6]Jen:\\c[0] Be careful if you go looking for it. There's a dangerous creature down there."
+
+// Event Page 3: Jen Recruited
+Conditions: Switch 10 ON (Jen Recruited)
+Event Commands:
+- Show Text: "\\c[6]Jen:\\c[0] I'm glad to be part of your team. My healing abilities should help keep everyone safe."
+- Show Text: "\\c[6]Jen:\\c[0] If you need any information about neural implants or OmniCorp, just ask."
+```
+
+## Required Switches
+
+- **Switch 9**: Jen's Boss Defeated (ON = defeated, OFF = not defeated)
+- **Switch 10**: Jen Recruited (ON = recruited, OFF = not recruited)
+- **Switch 21**: Jen is home (ON = Jen is home, OFF = Jen is not home)
+
+## Required Items
+
+- **Jen's Necklace**: A key item that is obtained after defeating the boss in Timbuc Cellar
+
+## Switch Logic
+
+1. **Initial State**:
+   - Switch 9: OFF (Boss not defeated)
+   - Switch 10: OFF (Jen not recruited)
+   - Switch 21: OFF (Jen not home)
+
+2. **Level 3 Trigger**:
+   - When player reaches level 3, Switch 21 is set to ON (Jen is now home)
+   - This allows the player to enter Jen's house and meet her
+
+3. **Boss Defeat**:
+   - When the boss is defeated, Switch 9 is set to ON
+   - This tracks quest progression and enables the necklace return dialogue
+
+4. **Recruitment**:
+   - When the necklace is returned, Switch 10 is set to ON
+   - This completes the quest and adds Jen to the party
+
+## Best Practices for Implementation
+
+1. **Ensure Switch Consistency**: Make sure Switch 9 is not inadvertently turned OFF by other events.
+
+2. **Update Quest Journal at Key Points**:
+   - When starting the quest: `Quest Add 6`
+   - When defeating the boss: `Quest SetObjective 6 1 complete`
+   - When obtaining the necklace: `Quest SetObjective 6 2 complete`
+   - When returning the necklace: `Quest SetObjective 6 3 complete`
+   - When Jen joins the party: `Quest Complete 6`
+
+3. **Provide Clear Feedback**: Use text messages to clearly indicate quest progress to the player.
+
+4. **Check for Item Possession**: Use conditional branches to check if the player has Jen's necklace.
+
+5. **Party Management**: Use the "Change Party Member" command to add Jen to the party when the quest is completed.
+
+## Integration with Main Story
+
+This quest becomes available after the player reaches level 3, giving them time to learn the game mechanics before encountering Jen. Her healing abilities will be valuable for the player as they progress through the game.
+
+The quest serves as an introduction to Jen's character and her background with OmniCorp Security, which will be relevant to the main story involving the neural implant and A.S.P.
+
+After completing this quest, Jen can provide additional information about the neural implant technology and the corporate wars, which helps contextualize the main story quests.

@@ -1,0 +1,339 @@
+{
+  "states": [
+    {
+      "state": 52,
+      "name": "Influenza",
+      "category": "disease",
+      "turns": 3,
+      "description": "AGI -20%, healing received -20%. Sick leave denied.",
+      "skill": 199,
+      "skillName": "Aerosol Benefits",
+      "animation": 188,
+      "icon": 2016,
+      "chance": 0.75,
+      "classes": [
+        6,
+        7
+      ],
+      "enemy": 6,
+      "scalePercent": 24,
+      "enemySkill": 215
+    },
+    {
+      "state": 53,
+      "name": "Scabies",
+      "category": "disease",
+      "turns": 3,
+      "description": "HIT -15%, AGI -10%. Mandatory team infestation.",
+      "skill": 200,
+      "skillName": "Mite Shift",
+      "animation": 189,
+      "icon": 2017,
+      "chance": 0.75,
+      "classes": [
+        5,
+        6,
+        7
+      ],
+      "enemy": 5,
+      "scalePercent": 24,
+      "enemySkill": 216
+    },
+    {
+      "state": 54,
+      "name": "Chrome Rot",
+      "category": "disease",
+      "turns": 3,
+      "description": "DEF and MDF -15%. Your implant warranty has dissolved.",
+      "skill": 201,
+      "skillName": "Corrupt Implant",
+      "animation": 190,
+      "icon": 2018,
+      "chance": 0.75,
+      "classes": [
+        1,
+        6
+      ],
+      "enemy": 48,
+      "scalePercent": 24,
+      "enemySkill": 217
+    },
+    {
+      "state": 55,
+      "name": "Nanite Sepsis",
+      "category": "disease",
+      "turns": 3,
+      "description": "Lose 3% HP per turn; healing received -20%. Internal hostile takeover.",
+      "skill": 202,
+      "skillName": "Dirty Nanites",
+      "animation": 191,
+      "icon": 2019,
+      "chance": 0.65,
+      "classes": [
+        1,
+        6
+      ],
+      "enemy": 100,
+      "scalePercent": 24,
+      "enemySkill": 218
+    },
+    {
+      "state": 56,
+      "name": "Adrenal Surge",
+      "category": "buff",
+      "turns": 3,
+      "description": "ATK +20%, AGI +15%. Overtime in a syringe.",
+      "skill": 203,
+      "skillName": "Adrenal Surge",
+      "animation": 192,
+      "icon": 2020,
+      "chance": 1,
+      "classes": [
+        2,
+        3
+      ],
+      "enemy": 27,
+      "scalePercent": 30,
+      "enemySkill": 219
+    },
+    {
+      "state": 57,
+      "name": "Nanite Repair",
+      "category": "buff",
+      "turns": 3,
+      "description": "Restore 4% HP per turn. Your body has opened a repair ticket.",
+      "skill": 204,
+      "skillName": "Repair Swarm",
+      "animation": 193,
+      "icon": 2021,
+      "chance": 1,
+      "classes": [
+        1,
+        6
+      ],
+      "enemy": 50,
+      "scalePercent": 30,
+      "enemySkill": 220
+    },
+    {
+      "state": 58,
+      "name": "Dermal Plating",
+      "category": "buff",
+      "turns": 3,
+      "description": "Physical damage taken -20%. Skin now meets building code.",
+      "skill": 205,
+      "skillName": "Install Plating",
+      "animation": 194,
+      "icon": 2022,
+      "chance": 1,
+      "classes": [
+        1,
+        3
+      ],
+      "enemy": 51,
+      "scalePercent": 30,
+      "enemySkill": 221
+    },
+    {
+      "state": 59,
+      "name": "Signal Focus",
+      "category": "buff",
+      "turns": 3,
+      "description": "MAT +20%, MP costs -20%. Premium brain bandwidth.",
+      "skill": 206,
+      "skillName": "Tune Signal",
+      "animation": 195,
+      "icon": 2023,
+      "chance": 1,
+      "classes": [
+        1,
+        4
+      ],
+      "enemy": 39,
+      "scalePercent": 30,
+      "enemySkill": 222
+    },
+    {
+      "state": 60,
+      "name": "Enfeebled",
+      "category": "debuff",
+      "turns": 3,
+      "description": "ATK -25%. Strength has been outsourced.",
+      "skill": 207,
+      "skillName": "Outsource Strength",
+      "animation": 196,
+      "icon": 2024,
+      "chance": 0.8,
+      "classes": [
+        4
+      ],
+      "enemy": 40,
+      "scalePercent": 24,
+      "enemySkill": 223
+    },
+    {
+      "state": 61,
+      "name": "Armor Fracture",
+      "category": "debuff",
+      "turns": 3,
+      "description": "DEF -25%. Structural integrity is a paid extra.",
+      "skill": 208,
+      "skillName": "Stress Fracture",
+      "animation": 197,
+      "icon": 2025,
+      "chance": 0.8,
+      "classes": [
+        2,
+        3
+      ],
+      "enemy": 62,
+      "scalePercent": 24,
+      "enemySkill": 224
+    },
+    {
+      "state": 62,
+      "name": "Packet Loss",
+      "category": "debuff",
+      "turns": 2,
+      "description": "Tech skills sealed. Basic attacks, Ability and items still work.",
+      "skill": 209,
+      "skillName": "Throttle Connection",
+      "animation": 198,
+      "icon": 2026,
+      "chance": 0.7,
+      "classes": [
+        1,
+        5
+      ],
+      "enemy": 47,
+      "scalePercent": 24,
+      "enemySkill": 225
+    },
+    {
+      "state": 63,
+      "name": "Optic Desync",
+      "category": "debuff",
+      "turns": 2,
+      "description": "HIT -20%, EVA -10%. Your eyes are buffering.",
+      "skill": 210,
+      "skillName": "Scramble Optics",
+      "animation": 199,
+      "icon": 2027,
+      "chance": 0.8,
+      "classes": [
+        1,
+        5
+      ],
+      "enemy": 49,
+      "scalePercent": 24,
+      "enemySkill": 226
+    }
+  ],
+  "removers": [
+    {
+      "skill": 211,
+      "name": "Clinical Flush",
+      "states": [
+        52,
+        53,
+        54,
+        55,
+        47,
+        50
+      ],
+      "animation": 200
+    },
+    {
+      "skill": 212,
+      "name": "Neural Reboot",
+      "states": [
+        60,
+        61,
+        62,
+        63,
+        48,
+        49,
+        51
+      ],
+      "animation": 201
+    },
+    {
+      "skill": 213,
+      "name": "Revoke Benefits",
+      "states": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "animation": 202
+    },
+    {
+      "skill": 214,
+      "name": "Safe Mode",
+      "states": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "animation": 203
+    }
+  ],
+  "items": [
+    {
+      "id": 157,
+      "name": "Pathogen Purge",
+      "states": [
+        52,
+        53,
+        54,
+        55,
+        47,
+        50
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Neural Reset Cartridge",
+      "states": [
+        60,
+        61,
+        62,
+        63,
+        48,
+        49,
+        51
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Benefit Revocation",
+      "states": [
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Emergency Rollback",
+      "states": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
+    }
+  ],
+  "enemySchedule": "Turn 2, then every 4 turns; rating 4 versus normal attack rating 5."
+}

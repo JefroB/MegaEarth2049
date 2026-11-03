@@ -1,0 +1,63 @@
+{
+  "machines": [
+    {
+      "map": 10,
+      "event": 15,
+      "position": [
+        14,
+        9
+      ],
+      "diagnosticSwitch": 180,
+      "sprite": "$!ME_SLF_Machine1"
+    },
+    {
+      "map": 2,
+      "event": 29,
+      "position": [
+        20,
+        19
+      ],
+      "diagnosticSwitch": 181,
+      "sprite": "$!ME_SLF_Machine2"
+    },
+    {
+      "map": 24,
+      "event": 9,
+      "position": [
+        12,
+        10
+      ],
+      "diagnosticSwitch": 182,
+      "sprite": "$!ME_SLF_Machine3"
+    }
+  ],
+  "outcomes": {
+    "negotiate": "100 Credits; opt-in advice, Hot Links32 and Energy Drink72 at all three machines",
+    "disable": "100 Credits,2 Hot Links,2 Energy Drinks once; advice off and normal40/90 prices"
+  },
+  "switches": [
+    179,
+    180,
+    181,
+    182,
+    183,
+    184
+  ],
+  "entrance": {
+    "map": 10,
+    "event": 16,
+    "position": [
+      4,
+      7
+    ],
+    "returnPosition": [
+      4,
+      8
+    ]
+  },
+  "hq": 244,
+  "terminal": 5,
+  "started": 179,
+  "resolved": 183,
+  "cooperative": 184
+}

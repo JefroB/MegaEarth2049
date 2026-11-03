@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "widths": [
+    1200,
+    360
+  ],
+  "library": 220,
+  "requests": 14,
+  "filter": true,
+  "actualSamplePlayback": [
+    "Chainsaw1",
+    "Door3"
+  ],
+  "errors": [],
+  "missing": []
+}

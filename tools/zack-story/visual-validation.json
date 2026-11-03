@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "Zack accepts through native welder conversation",
+    "Socket provides free load sheet through preserved three-page NPC",
+    "native clean-cache salvage stages brace at no cost",
+    "free route completes with chosen crew credit and exact personal reward",
+    "real event page changes inspection indicator from red to green",
+    "paid alternative charges80 and completes with nameless inspection label",
+    "native Completion Log records this companion quest as one of28 activities"
+  ],
+  "freeRoute": {
+    "complete": true,
+    "credited": true,
+    "gold": 100,
+    "herb": 1,
+    "xp": 895
+  },
+  "errors": []
+}

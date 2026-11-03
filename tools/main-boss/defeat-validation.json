@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "held": {
+    "opacity": 255,
+    "duration": 114,
+    "loaded": true,
+    "stamp": "defeat:5"
+  },
+  "victory": true,
+  "errors": []
+}

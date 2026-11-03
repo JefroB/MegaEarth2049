@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "edges": [
+    "above threshold",
+    "exact midpoint",
+    "healing latches",
+    "threshold crossing retained before boundary",
+    "below threshold",
+    "death beats transition",
+    "fresh retry",
+    "forced locked strike blocked",
+    "forced locked warning blocked",
+    "unwarned strike blocked",
+    "warning arms due turn",
+    "same turn strike blocked",
+    "warned strike permitted",
+    "extra action blocked",
+    "dead marked target cancels",
+    "restriction cancels",
+    "late charge expires",
+    "transition clears warning",
+    "transition turn no strike",
+    "native guard reduces signature damage {\"normal\":75,\"guarded\":38,\"grd\":1,\"states\":[2],\"alive\":true,\"guard\":true}"
+  ],
+  "trace": [
+    {
+      "skill": 176,
+      "phase": 1,
+      "turn": 1
+    },
+    {
+      "skill": 177,
+      "phase": 1,
+      "turn": 2
+    },
+    {
+      "skill": 184,
+      "phase": 1,
+      "turn": 3
+    },
+    {
+      "skill": 178,
+      "phase": 1,
+      "turn": 4
+    },
+    {
+      "skill": 179,
+      "phase": 1,
+      "turn": 5
+    },
+    {
+      "skill": 184,
+      "phase": 1,
+      "turn": 6
+    },
+    {
+      "skill": 184,
+      "phase": 2,
+      "turn": 7
+    },
+    {
+      "skill": 180,
+      "phase": 2,
+      "turn": 8
+    },
+    {
+      "skill": 181,
+      "phase": 2,
+      "turn": 9
+    },
+    {
+      "skill": 184,
+      "phase": 2,
+      "turn": 10
+    },
+    {
+      "skill": 176,
+      "phase": 2,
+      "turn": 11
+    },
+    {
+      "skill": 177,
+      "phase": 2,
+      "turn": 12
+    },
+    {
+      "skill": 184,
+      "phase": 2,
+      "turn": 13
+    },
+    {
+      "skill": 182,
+      "phase": 2,
+      "turn": 14
+    },
+    {
+      "skill": 183,
+      "phase": 2,
+      "turn": 15
+    },
+    {
+      "skill": 184,
+      "phase": 2,
+      "turn": 16
+    },
+    {
+      "skill": 178,
+      "phase": 2,
+      "turn": 17
+    },
+    {
+      "skill": 179,
+      "phase": 2,
+      "turn": 18
+    }
+  ],
+  "outcomes": [
+    "escape",
+    "defeat",
+    "victory",
+    "reward once",
+    "archive transfer"
+  ],
+  "errors": []
+}

@@ -1,0 +1,25 @@
+﻿MegaEarth2049 Animations Analysis Report
+Generated on: 04/19/2025 06:48:20
+----------------------------------------
+
+Total Animations: 0
+
+Animation Positions:
+----------------------------------------
+Screen: 0
+Target: 0
+Center: 0
+Behind: 0
+
+Animation Categories:
+----------------------------------------
+Basic Attack (1-20): 0
+Elemental: 0
+Special Effect (21-40): 0
+Powerful Attack (41-80): 0
+Environmental (81-100): 0
+Other (101+): 0
+
+Animation Graphics Usage:
+----------------------------------------
+

@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "checks": [],
+  "initial": 4,
+  "actions": [
+    {
+      "turn": 1,
+      "subject": "Zack",
+      "skill": 2
+    },
+    {
+      "turn": 1,
+      "subject": "Rex",
+      "skill": 2
+    },
+    {
+      "turn": 1,
+      "subject": "Jen",
+      "skill": 2
+    },
+    {
+      "turn": 1,
+      "subject": "Crap A",
+      "skill": 43
+    },
+    {
+      "turn": 1,
+      "subject": "Poopoo Caca",
+      "skill": 45
+    },
+    {
+      "turn": 1,
+      "subject": "Crap B",
+      "skill": 1
+    },
+    {
+      "turn": 1,
+      "subject": "Crap C",
+      "skill": 43
+    }
+  ],
+  "reinforcements": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "errors": []
+}

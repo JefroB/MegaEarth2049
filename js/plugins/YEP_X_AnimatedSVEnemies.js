@@ -1850,12 +1850,12 @@ DataManager.processSVENotetags1 = function(group) {
 
     for (var i = 0; i < notedata.length; i++) {
       var line = notedata[i];
-       if (line.match(/<(?:SCALE SPRITE):[ ](\d+)([%％])>/i)) {
+       if (line.match(/<(?:SCALE SPRITE):[ ](\d+)([%ï¼…])>/i)) {
         obj.spriteScaleX = parseFloat(RegExp.$1) * 0.01;
         obj.spriteScaleY = obj.spriteScaleX;
-      } else if (line.match(/<(?:SCALE SPRITE WIDTH):[ ](\d+)([%％])>/i)) {
+      } else if (line.match(/<(?:SCALE SPRITE WIDTH):[ ](\d+)([%ï¼…])>/i)) {
         obj.spriteScaleX = parseFloat(RegExp.$1) * 0.01;
-      } else if (line.match(/<(?:SCALE SPRITE HEIGHT):[ ](\d+)([%％])>/i)) {
+      } else if (line.match(/<(?:SCALE SPRITE HEIGHT):[ ](\d+)([%ï¼…])>/i)) {
         obj.spriteScaleY = parseFloat(RegExp.$1) * 0.01;
       } else if (line.match(/<(?:SIDEVIEW BATTLER):[ ](.*)>/i)) {
         obj.sideviewBattler.push(String(RegExp.$1));
@@ -1908,9 +1908,9 @@ DataManager.processSVENotetags1 = function(group) {
         obj.sideviewShadowShow = true;
       } else if (line.match(/<(?:SIDEVIEW HIDE SHADOW)>/i)) {
         obj.sideviewShadowShow = false;
-      } else if (line.match(/<(?:SIDEVIEW SHADOW WIDTH):[ ](\d+)([%％])>/i)) {
+      } else if (line.match(/<(?:SIDEVIEW SHADOW WIDTH):[ ](\d+)([%ï¼…])>/i)) {
         obj.sideviewShadowScaleX = parseFloat(RegExp.$1 * 0.01);
-      } else if (line.match(/<(?:SIDEVIEW SHADOW HEIGHT):[ ](\d+)([%％])>/i)) {
+      } else if (line.match(/<(?:SIDEVIEW SHADOW HEIGHT):[ ](\d+)([%ï¼…])>/i)) {
         obj.sideviewShadowScaleY = parseFloat(RegExp.$1 * 0.01);
       } else if (line.match(/<(?:SIDEVIEW FRAME SPEED):[ ](\d+)>/i)) {
         obj.sideviewFrameSpeed = parseInt(RegExp.$1);

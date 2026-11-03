@@ -1,0 +1,12 @@
+{
+  "Seam": {
+    "changedPixels": 20113,
+    "changedOutsideMovingRegions": 0,
+    "examples": []
+  },
+  "Drone": {
+    "changedPixels": 8307,
+    "changedOutsideMovingRegions": 0,
+    "examples": []
+  }
+}

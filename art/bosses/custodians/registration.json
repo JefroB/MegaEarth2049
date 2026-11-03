@@ -1,0 +1,152 @@
+{
+  "Compliance": {
+    "source": "Compliance.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      11,
+      11,
+      1298,
+      1178
+    ],
+    "anchor": [
+      656.0,
+      1178
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  },
+  "Duke": {
+    "source": "Duke.png",
+    "width": 1342,
+    "height": 1172,
+    "alphaBounds": [
+      59,
+      5,
+      1332,
+      1146
+    ],
+    "anchor": [
+      671.0,
+      1146
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  },
+  "Septic": {
+    "source": "Septic.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      17,
+      10,
+      1303,
+      1186
+    ],
+    "anchor": [
+      656.0,
+      1186
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  },
+  "Clap": {
+    "source": "Clap.png",
+    "width": 1347,
+    "height": 1167,
+    "alphaBounds": [
+      54,
+      9,
+      1301,
+      1156
+    ],
+    "anchor": [
+      673.5,
+      1156
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  },
+  "REM": {
+    "source": "REM.png",
+    "width": 1142,
+    "height": 1377,
+    "alphaBounds": [
+      40,
+      2,
+      1128,
+      1369
+    ],
+    "anchor": [
+      571.0,
+      1369
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  },
+  "Widow": {
+    "source": "Widow.png",
+    "width": 1374,
+    "height": 1145,
+    "alphaBounds": [
+      9,
+      10,
+      1365,
+      1129
+    ],
+    "anchor": [
+      687.0,
+      1129
+    ],
+    "poses": [
+      "idle",
+      "warning",
+      "signature",
+      "recovery"
+    ],
+    "phases": [
+      "normal",
+      "agitated (same artwork)"
+    ]
+  }
+}

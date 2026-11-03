@@ -1,0 +1,425 @@
+{
+  "slotToCanonicalId": {
+    "2": 10,
+    "3": 11,
+    "4": 125,
+    "5": 126,
+    "6": 127,
+    "7": 12,
+    "8": 28,
+    "9": 29,
+    "10": 30,
+    "11": 31,
+    "12": 32,
+    "13": 33,
+    "14": 27,
+    "15": 128,
+    "16": 129,
+    "17": 130,
+    "18": 131,
+    "19": 153,
+    "20": 133,
+    "21": 134,
+    "22": 135,
+    "23": 136,
+    "24": 137,
+    "25": 138,
+    "26": 139,
+    "27": 140,
+    "28": 141,
+    "29": 142,
+    "128": 128,
+    "129": 129,
+    "130": 130,
+    "131": 131,
+    "132": 132,
+    "137": 137,
+    "143": 143,
+    "144": 144,
+    "145": 145,
+    "146": 146,
+    "151": 151,
+    "152": 152
+  },
+  "referenceChanges": [
+    [
+      "data\\Map002.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map002.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map002.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map002.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map003.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map003.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map011.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map012.json",
+      "shop",
+      21,
+      134
+    ],
+    [
+      "data\\Map012.json",
+      "shop",
+      22,
+      135
+    ],
+    [
+      "data\\Map012.json",
+      "shop",
+      23,
+      136
+    ],
+    [
+      "data\\Map012.json",
+      "shop",
+      24,
+      137
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      14,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      15,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      16,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      17,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      18,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      19,
+      13
+    ],
+    [
+      "data\\Map069.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      14,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      15,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      16,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      17,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      18,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      19,
+      13
+    ],
+    [
+      "data\\Map074.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      26,
+      139
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      14,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      15,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      16,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      17,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      18,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      19,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      25,
+      138
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      21,
+      134
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      22,
+      135
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      23,
+      136
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      24,
+      137
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      5,
+      6
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      2,
+      1
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      26,
+      139
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      3,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      14,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      15,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      16,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      17,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      18,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      19,
+      13
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      25,
+      138
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      21,
+      134
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      22,
+      135
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      23,
+      136
+    ],
+    [
+      "data\\Map081.json",
+      "shop",
+      24,
+      137
+    ],
+    [
+      "Enemies",
+      13,
+      3,
+      1
+    ],
+    [
+      "Enemies",
+      14,
+      2,
+      1
+    ],
+    [
+      "Enemies",
+      18,
+      2,
+      1
+    ],
+    [
+      "Enemies",
+      117,
+      14,
+      1
+    ]
+  ],
+  "saveNote": "Legacy inventory keys already used stored IDs. Preserve them. ID132 was ambiguous between neural enhancer and completed engine; retain engine132, preserve original inventory snapshot in save migration, do not grant unearned quest completion. New enhancer is153."
+}

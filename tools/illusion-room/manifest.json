@@ -1,0 +1,56 @@
+{
+  "name": "The Perfect Fit",
+  "maps": [
+    249,
+    250
+  ],
+  "entry": [
+    2,
+    23
+  ],
+  "entryChoice": 2,
+  "entryLanding": [
+    249,
+    8,
+    10
+  ],
+  "exitLanding": [
+    2,
+    15,
+    9
+  ],
+  "comparisonLanding": [
+    8,
+    9
+  ],
+  "flags": [
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "tape": [
+    249,
+    4
+  ],
+  "maintenance": [
+    250,
+    5
+  ],
+  "control": 3,
+  "crystal": 2,
+  "exit": 1,
+  "codeChoices": [
+    2,
+    0,
+    1
+  ],
+  "reward": {
+    "credits": 150,
+    "item": 171,
+    "count": 1
+  }
+}

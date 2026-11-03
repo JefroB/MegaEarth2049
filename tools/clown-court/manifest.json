@@ -1,0 +1,45 @@
+{
+  "entry": {
+    "map": 10,
+    "event": 14,
+    "position": [
+      4,
+      10
+    ],
+    "returnPosition": [
+      3,
+      10
+    ]
+  },
+  "maps": [
+    241,
+    242,
+    243
+  ],
+  "landings": {
+    "241": [
+      9,
+      10
+    ],
+    "242": [
+      8,
+      10
+    ],
+    "243": [
+      11,
+      12
+    ]
+  },
+  "switches": {
+    "started": 175,
+    "verdict": 176,
+    "mime": 177,
+    "ledger": 178
+  },
+  "rewardCredits": 250,
+  "paths": [
+    "pie + ledger / juggling causality",
+    "pie + mime / interpretive testimony"
+  ],
+  "storySource": "docs/story/MegaEarth2049_GameStory.md Clown Court; docs/story/MegaEarth2049_Story.md side quests"
+}

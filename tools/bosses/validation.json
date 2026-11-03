@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual first round marks a target",
+    "Charge persists through a full response round",
+    "Real animated clamp resolves and clears its mark",
+    "Map event escape outcome",
+    "Map event defeat outcome",
+    "Map event victory outcome",
+    "Victory page prevents repeat encounters"
+  ],
+  "scan": {
+    "phase": 1,
+    "charge": {
+      "target": 1,
+      "turn": 1
+    },
+    "hits": 0,
+    "exposedUntil": -1,
+    "frame": 1,
+    "motionUntil": 0
+  },
+  "afterClamp": [
+    1000,
+    633,
+    1576
+  ],
+  "mechanics": {
+    "jamInterrupt": true,
+    "twoHitInterrupt": true,
+    "damagedPhase": true,
+    "bossSurvivesChecks": true,
+    "normalEnemyUnaffected": true,
+    "deadTargetNotRetargeted": true,
+    "temporaryJamCommand": true,
+    "jamCancelReturnsToCommands": true
+  },
+  "registration": [
+    {
+      "phase": 1,
+      "frame": 0,
+      "baseline": 435,
+      "anchor": 0.9314194577352473
+    },
+    {
+      "phase": 1,
+      "frame": 1,
+      "baseline": 435,
+      "anchor": 0.9314194577352473
+    },
+    {
+      "phase": 1,
+      "frame": 2,
+      "baseline": 435,
+      "anchor": 0.8644338118022329
+    },
+    {
+      "phase": 1,
+      "frame": 3,
+      "baseline": 435,
+      "anchor": 0.8644338118022329
+    },
+    {
+      "phase": 2,
+      "frame": 0,
+      "baseline": 435,
+      "anchor": 0.937799043062201
+    },
+    {
+      "phase": 2,
+      "frame": 1,
+      "baseline": 435,
+      "anchor": 0.9346092503987241
+    },
+    {
+      "phase": 2,
+      "frame": 2,
+      "baseline": 435,
+      "anchor": 0.8660287081339713
+    },
+    {
+      "phase": 2,
+      "frame": 3,
+      "baseline": 435,
+      "anchor": 0.8660287081339713
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "directions": [
+    {
+      "direction": "down",
+      "changedPixels": 90,
+      "alphaUnchanged": true
+    },
+    {
+      "direction": "left",
+      "changedPixels": 76,
+      "alphaUnchanged": true
+    },
+    {
+      "direction": "right",
+      "changedPixels": 76,
+      "alphaUnchanged": true
+    },
+    {
+      "direction": "up",
+      "changedPixels": 111,
+      "alphaUnchanged": true
+    }
+  ],
+  "restFrameUnchanged": true,
+  "chassisAndHeadUnchanged": true,
+  "battleAndFaceUnchanged": true
+}

@@ -1,0 +1,65 @@
+{
+  "Duke": {
+    "style": "An insurance jingle, sung with unbearable cheer",
+    "intro": [
+      "Having a body? Pre-existing condition!",
+      "Your pain is excluded; I keep the commission!"
+    ],
+    "verses": [
+      [
+        "Herpes? Excluded. The fine print is tight.",
+        "Pay for the letter that says you have no right."
+      ],
+      [
+        "Your claim has been shredded; your glands are inflamed.",
+        "Our profits are healthy. You should be ashamed."
+      ]
+    ],
+    "defeat": [
+      "My policy promised a lifetime of wealth;",
+      "It seems I excluded my own bloody health!"
+    ]
+  },
+  "Clap": {
+    "style": "A swaggering corporate sea shanty",
+    "intro": [
+      "Oh, I am the Admiral! Give me a clap!",
+      "Your clinic and floodgate are caught in my trap!"
+    ],
+    "verses": [
+      [
+        "Your premium rose while your trousers came down;",
+        "Now pay for your pills, or I bill half the town!"
+      ],
+      [
+        "A dose of the clap and a fee at the quay;",
+        "Your intimate business is income to me!"
+      ]
+    ],
+    "defeat": [
+      "My glands have gone bust and my shares took a dive;",
+      "Tell Legal to bill you for staying alive!"
+    ]
+  },
+  "Widow": {
+    "style": "Sweet, maddening telephone hold music",
+    "intro": [
+      "Your call is important. Please stay on hold.",
+      "Our hearts are of brass and your beds are of cold."
+    ],
+    "verses": [
+      [
+        "The furnace burns bright for the men with the gold;",
+        "Your ticket stays open. Your blanket was sold."
+      ],
+      [
+        "We value your patience. We treasure your time.",
+        "Each minute of waiting earns us one more dime."
+      ]
+    ],
+    "defeat": [
+      "Your case is now closed; there is nothing to pay.",
+      "Please rate our collapse at the end of your stay."
+    ]
+  }
+}

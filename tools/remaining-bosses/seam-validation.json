@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "checks": [
+    "SEAM completes a native guarded turn with anticipation/strike/recovery",
+    "Map 2 defeat callback, correct reward and both entrance flags",
+    "Map 2 victory callback, correct reward and both entrance flags",
+    "Map 30 defeat callback, correct reward and both entrance flags",
+    "Map 30 victory callback, correct reward and both entrance flags",
+    "Old-save completion synchronizes duplicate entrances"
+  ],
+  "rounds": [
+    {
+      "tid": 52,
+      "actions": [
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 0,
+          "skill": 2
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        },
+        {
+          "enemy": 143,
+          "skill": 156
+        }
+      ],
+      "poses": [
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        },
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        },
+        {
+          "enemy": 143,
+          "stage": 1
+        },
+        {
+          "enemy": 143,
+          "stage": 2
+        },
+        {
+          "enemy": 143,
+          "stage": 3
+        }
+      ],
+      "rigs": [
+        {
+          "enemy": 143,
+          "key": "Seam"
+        }
+      ]
+    }
+  ],
+  "lastOutcome": {
+    "cfg": {
+      "map": 30,
+      "slot": 2,
+      "slots": [
+        1,
+        2
+      ],
+      "tid": 53,
+      "item": 130,
+      "choices": true
+    },
+    "outcome": "victory",
+    "before": {
+      "item": 0,
+      "tid": 53,
+      "canEscape": false,
+      "canLose": true
+    },
+    "after": {
+      "count": 1,
+      "flags": [
+        true,
+        true
+      ],
+      "repeat": [
+        false,
+        false
+      ],
+      "alive": true
+    },
+    "results": [
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "branch": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    }
+  },
+  "errors": []
+}

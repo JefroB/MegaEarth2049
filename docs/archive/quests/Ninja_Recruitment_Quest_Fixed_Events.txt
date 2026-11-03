@@ -1,0 +1,250 @@
+# Ninja Recruitment Quest Fixed Events
+
+This document provides the complete event scripts for the Ninja Recruitment quest with all necessary plugin commands and switch logic properly implemented. Use these scripts as a reference when implementing or fixing the quest in the game.
+
+## Switch Setup
+
+- **Switch 101**: Green Ninja Defeated
+- **Switch 102**: Brown Ninja Defeated
+- **Switch 103**: Blue Ninja Defeated
+- **Switch 104**: Pink Ninja Defeated (and Recruited)
+- **Switch 105**: Ninja Quest Added to Journal
+
+## Map005 (Church Street) Green Ninja Event
+
+```
+// Event: Green Ninja
+// Page 1: Not Defeated
+Conditions: Switch 101 OFF
+Event Commands:
+- Show Text: "A green-clad figure watches you from the shadows..."
+- Show Choices: ["Approach", "Leave it alone"]
+- If "Approach":
+  - Show Text: "The figure reveals itself as a Green Ninja and attacks!"
+  - Battle Processing: Green Ninja
+  - If Win:
+    - Show Text: "You defeated the Green Ninja!"
+    - Set Switch 101 ON (Green Ninja Defeated)
+    - Conditional Branch: Switch 105 OFF (Quest Not Added)
+      - Plugin Command: Quest Add 7
+      - Plugin Command: Quest SetObjective 7 1 complete
+      - Set Switch 105 ON (Quest Added)
+      - Show Text: "You've encountered a mysterious ninja. There may be others in the area."
+    - Else:
+      - Plugin Command: Quest SetObjective 7 1 complete
+      - Show Text: "You've defeated the Green Ninja. There are other ninja types to find."
+  - If Escape/Lose:
+    - Show Text: "The Green Ninja disappears back into the shadows."
+- If "Leave it alone":
+  - Show Text: "You decide to leave the mysterious figure alone for now."
+
+// Page 2: Defeated
+Conditions: Switch 101 ON
+Event Commands:
+- Show Text: "This is where you defeated the Green Ninja."
+```
+
+## Map005 (Church Street) Brown Ninja Event
+
+```
+// Event: Brown Ninja
+// Page 1: Not Defeated
+Conditions: Switch 102 OFF
+Event Commands:
+- Show Text: "A brown-clad figure watches you from behind a pillar..."
+- Show Choices: ["Approach", "Leave it alone"]
+- If "Approach":
+  - Show Text: "The figure reveals itself as a Brown Ninja and attacks!"
+  - Battle Processing: Brown Ninja
+  - If Win:
+    - Show Text: "You defeated the Brown Ninja!"
+    - Set Switch 102 ON (Brown Ninja Defeated)
+    - Conditional Branch: Switch 105 OFF (Quest Not Added)
+      - Plugin Command: Quest Add 7
+      - Plugin Command: Quest SetObjective 7 2 complete
+      - Set Switch 105 ON (Quest Added)
+      - Show Text: "You've encountered a mysterious ninja. There may be others in the area."
+    - Else:
+      - Plugin Command: Quest SetObjective 7 2 complete
+      - Show Text: "You've defeated the Brown Ninja. There are other ninja types to find."
+  - If Escape/Lose:
+    - Show Text: "The Brown Ninja disappears back into the shadows."
+- If "Leave it alone":
+  - Show Text: "You decide to leave the mysterious figure alone for now."
+
+// Page 2: Defeated
+Conditions: Switch 102 ON
+Event Commands:
+- Show Text: "This is where you defeated the Brown Ninja."
+```
+
+## Map005 (Church Street) Blue Ninja Event
+
+```
+// Event: Blue Ninja
+// Page 1: Not Defeated
+Conditions: Switch 103 OFF
+Event Commands:
+- Show Text: "A blue-clad figure watches you from the rooftop..."
+- Show Choices: ["Approach", "Leave it alone"]
+- If "Approach":
+  - Show Text: "The figure reveals itself as a Blue Ninja and attacks!"
+  - Battle Processing: Blue Ninja
+  - If Win:
+    - Show Text: "You defeated the Blue Ninja!"
+    - Set Switch 103 ON (Blue Ninja Defeated)
+    - Conditional Branch: Switch 105 OFF (Quest Not Added)
+      - Plugin Command: Quest Add 7
+      - Plugin Command: Quest SetObjective 7 3 complete
+      - Set Switch 105 ON (Quest Added)
+      - Show Text: "You've encountered a mysterious ninja. There may be others in the area."
+    - Else:
+      - Plugin Command: Quest SetObjective 7 3 complete
+      - Show Text: "You've defeated the Blue Ninja. There are other ninja types to find."
+  - If Escape/Lose:
+    - Show Text: "The Blue Ninja disappears back into the shadows."
+- If "Leave it alone":
+  - Show Text: "You decide to leave the mysterious figure alone for now."
+
+// Page 2: Defeated
+Conditions: Switch 103 ON
+Event Commands:
+- Show Text: "This is where you defeated the Blue Ninja."
+```
+
+## Map005 (Church Street) Pink Ninja Event
+
+```
+// Event: Pink Ninja
+// Page 1: Not Defeated, Other Ninjas Defeated
+Conditions: Switch 104 OFF, Switch 101 ON, Switch 102 ON, Switch 103 ON
+Event Commands:
+- Show Text: "A pink-clad figure stands in the center of the street, seemingly waiting for you..."
+- Show Choices: ["Approach", "Leave it alone"]
+- If "Approach":
+  - Show Text: "The figure reveals itself as a Pink Ninja, the leader of the ninja clan!"
+  - Show Text: "Pink Ninja: You have proven your strength by defeating my disciples. Now face me in combat!"
+  - Battle Processing: Pink Ninja
+  - If Win:
+    - Show Text: "You defeated the Pink Ninja!"
+    - Show Text: "Pink Ninja: Your skills are impressive. I would be honored to join your cause."
+    - Set Switch 104 ON (Pink Ninja Defeated)
+    - Plugin Command: Quest SetObjective 7 4 complete
+    - Plugin Command: Quest Complete 7
+    - Change Party Member: Add Pink Ninja to party
+    - Show Text: "Pink Ninja has joined your party!"
+    - Show Text: "Pink Ninja: My stealth abilities will serve you well. I can detect hidden passages and enemies."
+  - If Escape/Lose:
+    - Show Text: "The Pink Ninja disappears back into the shadows."
+- If "Leave it alone":
+  - Show Text: "You decide to leave the mysterious figure alone for now."
+
+// Page 2: Defeated
+Conditions: Switch 104 ON
+Event Commands:
+- Show Text: "This is where you recruited the Pink Ninja."
+```
+
+## Map005 (Church Street) Quest Hint NPC
+
+```
+// Event: Church Street Resident
+// Page 1: Before Any Ninjas Defeated
+Conditions: Switch 101 OFF, Switch 102 OFF, Switch 103 OFF, Switch 104 OFF
+Event Commands:
+- Show Text: "Resident: I've been seeing strange figures in colorful outfits around Church Street lately. They move like shadows... it's unsettling."
+
+// Page 2: Some Ninjas Defeated
+Conditions: (Switch 101 ON OR Switch 102 ON OR Switch 103 ON) AND Switch 104 OFF
+Event Commands:
+- Show Text: "Resident: You've encountered those ninja figures? Be careful! I've heard there are several of them, each wearing a different color."
+- Show Text: "Resident: Some say their leader wears pink and is the most skilled of them all."
+
+// Page 3: All Ninjas Defeated
+Conditions: Switch 104 ON
+Event Commands:
+- Show Text: "Resident: I haven't seen those ninja figures lately. Did you have something to do with their disappearance?"
+- Show Text: "Resident: That pink-clad one with you looks familiar though..."
+```
+
+## Troop Event for Pink Ninja Battle
+
+This event should be added to the Troop tab in the database for the Pink Ninja battle.
+
+```
+// Troop Event: Pink Ninja Battle End
+Trigger: Battle End
+Span: Once
+Conditions: None
+Event Commands:
+- Comment: "This event runs when the Pink Ninja battle ends"
+- Conditional Branch: Turn Escaped
+  - If true:
+    - Comment: "Player escaped"
+  - If false:
+    - Conditional Branch: Turn Defeated
+      - If true:
+        - Comment: "Player was defeated"
+      - If false:
+        - Comment: "Player won the battle"
+        - Set Switch 104 ON (Pink Ninja Defeated)
+        - Plugin Command: Quest SetObjective 7 4 complete
+        - Plugin Command: Quest Complete 7
+```
+
+## Switch Logic Summary
+
+Here's a summary of the switch logic for the Ninja Recruitment quest:
+
+1. **Initial State**:
+   - Switch 101: OFF (Green Ninja not defeated)
+   - Switch 102: OFF (Brown Ninja not defeated)
+   - Switch 103: OFF (Blue Ninja not defeated)
+   - Switch 104: OFF (Pink Ninja not defeated/recruited)
+   - Switch 105: OFF (Quest not added to journal)
+
+2. **Ninja Defeats**:
+   - When a ninja is defeated, its corresponding switch is set to ON
+   - The first ninja defeated also sets Switch 105 ON and adds the quest to the journal
+
+3. **Pink Ninja Availability**:
+   - The Pink Ninja only appears when all other ninjas are defeated
+   - This is controlled by the page conditions on the Pink Ninja event
+
+4. **Recruitment**:
+   - When the Pink Ninja is defeated, Switch 104 is set to ON
+   - This completes the quest and adds the Pink Ninja to the party
+
+## Plugin Command Summary
+
+Here's a summary of the plugin commands used in the Ninja Recruitment quest:
+
+1. **Quest Addition**:
+   - `Quest Add 7` - Adds the Ninja Recruitment quest to the journal
+   - Used after defeating the first ninja (whichever one the player encounters first)
+
+2. **Objective Updates**:
+   - `Quest SetObjective 7 1 complete` - Marks "Defeat the Green Ninja" as complete
+   - `Quest SetObjective 7 2 complete` - Marks "Defeat the Brown Ninja" as complete
+   - `Quest SetObjective 7 3 complete` - Marks "Defeat the Blue Ninja" as complete
+   - `Quest SetObjective 7 4 complete` - Marks "Defeat the Pink Ninja" as complete
+   - Used when each respective ninja is defeated
+
+3. **Quest Completion**:
+   - `Quest Complete 7` - Marks the Ninja Recruitment quest as complete
+   - Used after defeating the Pink Ninja and recruiting them
+
+## Testing Instructions
+
+To test the fixed Ninja Recruitment quest:
+
+1. Start a new game or load a save before encountering any ninjas
+2. Go to Church Street (Map005) and find the ninja events
+3. Defeat the Green, Brown, and Blue Ninjas in any order
+4. Verify that the quest appears in the journal after defeating the first ninja
+5. Verify that each objective is marked as complete when the corresponding ninja is defeated
+6. After defeating all three ninjas, find and defeat the Pink Ninja
+7. Verify that the Pink Ninja joins the party and the quest is marked as complete
+8. Check that Switch 104 is ON, indicating the Pink Ninja has been recruited
+
+By following these event scripts and testing instructions, you can ensure that the Ninja Recruitment quest works correctly with both proper switch logic and quest journal integration.

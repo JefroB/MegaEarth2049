@@ -1,0 +1,339 @@
+{
+  "changed": [
+    60,
+    103,
+    104,
+    106,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "newMaps": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "events": {
+    "rivet_entry_in": [
+      103,
+      10
+    ],
+    "rivet_entry_out": [
+      110,
+      1
+    ],
+    "rivet_depth_in": [
+      110,
+      2
+    ],
+    "rivet_depth_out": [
+      111,
+      1
+    ],
+    "thaw_entry_in": [
+      104,
+      5
+    ],
+    "thaw_entry_out": [
+      112,
+      1
+    ],
+    "thaw_depth_in": [
+      112,
+      2
+    ],
+    "thaw_depth_out": [
+      113,
+      1
+    ],
+    "mine_entry_in": [
+      60,
+      6
+    ],
+    "mine_entry_out": [
+      114,
+      1
+    ],
+    "mine_depth_in": [
+      114,
+      2
+    ],
+    "mine_depth_out": [
+      115,
+      1
+    ],
+    "lien_giver": [
+      103,
+      11
+    ],
+    "meter": [
+      110,
+      3
+    ],
+    "billing": [
+      110,
+      4
+    ],
+    "ledger": [
+      111,
+      2
+    ],
+    "rivet_clue": [
+      110,
+      5
+    ],
+    "rivet_lore": [
+      111,
+      3
+    ],
+    "rivet_cache": [
+      110,
+      6
+    ],
+    "registry_cache": [
+      111,
+      4
+    ],
+    "thaw_giver": [
+      104,
+      6
+    ],
+    "vent": [
+      112,
+      3
+    ],
+    "drain": [
+      112,
+      4
+    ],
+    "heater": [
+      112,
+      5
+    ],
+    "rescue": [
+      113,
+      2
+    ],
+    "rescued_worker": [
+      104,
+      7
+    ],
+    "thaw_clue": [
+      112,
+      6
+    ],
+    "thaw_lore": [
+      113,
+      3
+    ],
+    "ice_cache": [
+      112,
+      7
+    ],
+    "ward_cache": [
+      113,
+      4
+    ],
+    "shift_giver": [
+      106,
+      3
+    ],
+    "airlog": [
+      114,
+      3
+    ],
+    "timecards": [
+      114,
+      4
+    ],
+    "interlock": [
+      114,
+      5
+    ],
+    "roster": [
+      115,
+      2
+    ],
+    "mine_clue": [
+      114,
+      6
+    ],
+    "mine_lore": [
+      115,
+      3
+    ],
+    "mine_cache": [
+      114,
+      7
+    ],
+    "archive_cache": [
+      115,
+      4
+    ],
+    "memorial": [
+      106,
+      5
+    ]
+  },
+  "routes": [
+    [
+      103,
+      10,
+      110,
+      7,
+      24,
+      []
+    ],
+    [
+      110,
+      1,
+      103,
+      18,
+      6,
+      []
+    ],
+    [
+      110,
+      2,
+      111,
+      5,
+      18,
+      [
+        101,
+        102,
+        103
+      ]
+    ],
+    [
+      111,
+      1,
+      110,
+      30,
+      22,
+      []
+    ],
+    [
+      104,
+      5,
+      112,
+      7,
+      27,
+      []
+    ],
+    [
+      112,
+      1,
+      104,
+      9,
+      5,
+      []
+    ],
+    [
+      112,
+      2,
+      113,
+      10,
+      21,
+      [
+        111,
+        114
+      ]
+    ],
+    [
+      113,
+      1,
+      112,
+      26,
+      11,
+      []
+    ],
+    [
+      60,
+      6,
+      114,
+      6,
+      27,
+      []
+    ],
+    [
+      114,
+      1,
+      60,
+      43,
+      25,
+      []
+    ],
+    [
+      114,
+      2,
+      115,
+      6,
+      23,
+      [
+        121,
+        124
+      ]
+    ],
+    [
+      115,
+      1,
+      114,
+      35,
+      9,
+      []
+    ]
+  ],
+  "switches": {
+    "101": "Lien - Accepted",
+    "102": "Lien - Meter bypassed",
+    "103": "Lien - Billing isolated",
+    "104": "Lien - Ledger recovered",
+    "105": "Lien - Public disclosure",
+    "106": "Lien - Reward claimed",
+    "111": "Cold Storage - Accepted",
+    "112": "Cold Storage - Pressure vented",
+    "113": "Cold Storage - Coolant drained",
+    "114": "Cold Storage - Heat restored",
+    "115": "Cold Storage - Staff released",
+    "116": "Cold Storage - Reward claimed",
+    "117": "Cold Storage - Names protected",
+    "121": "Haunted Shift - Accepted",
+    "122": "Haunted Shift - Air log",
+    "123": "Haunted Shift - Timecards",
+    "124": "Haunted Shift - Archive unlocked",
+    "125": "Haunted Shift - Roster recovered",
+    "126": "Haunted Shift - Public memorial",
+    "127": "Haunted Shift - Reward claimed"
+  },
+  "fieldNotesItem": 151,
+  "fieldNotesCommonEvent": 5,
+  "quests": [
+    {
+      "key": "lien",
+      "active": 101,
+      "evidence": 104,
+      "complete": 106,
+      "reward": 260
+    },
+    {
+      "key": "thaw",
+      "active": 111,
+      "evidence": 115,
+      "complete": 116,
+      "reward": 300
+    },
+    {
+      "key": "shift",
+      "active": 121,
+      "evidence": 125,
+      "complete": 127,
+      "reward": 360
+    }
+  ]
+}

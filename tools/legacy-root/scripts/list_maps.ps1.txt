@@ -1,0 +1,37 @@
+# MegaEarth2049 Map Lister
+# This script lists RPG Maker MV map files
+
+# Function to list map files
+function List-Maps {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # List each map file
+    foreach ($mapFile in $mapFiles) {
+        # Get map ID from filename
+        $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+        if (-not $mapId) {
+            $mapId = "unknown"
+        }
+        
+        Write-Host "Map $mapId : $($mapFile.Name)" -ForegroundColor Green
+    }
+    
+    Write-Host "Completed listing maps" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# List-Maps

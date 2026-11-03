@@ -1,0 +1,24 @@
+{
+  "masterSize": [
+    1462,
+    1076
+  ],
+  "draftSize": [
+    1462,
+    1076
+  ],
+  "installed": false,
+  "rigidRegionMeanChannelDifference": [
+    32.58766800966962,
+    26.696589846897663,
+    20.18181144238517,
+    10.975442385173247
+  ],
+  "rigidRegionChangedBounds": [
+    11,
+    0,
+    850,
+    730
+  ],
+  "mechanicalPixelParity": false
+}

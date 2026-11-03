@@ -1,0 +1,14 @@
+@echo off
+echo MegaEarth2049 Map Monitor
+echo =======================
+echo.
+
+echo This batch file will start monitoring map files for changes.
+echo When changes are detected, the map documentation will be automatically updated.
+echo.
+
+echo Starting map file monitor...
+powershell -ExecutionPolicy Bypass -File update_map_documentation.ps1 monitor
+echo.
+
+pause

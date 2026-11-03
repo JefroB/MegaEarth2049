@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "Map025: original map, services, choice indices and cancellation unchanged",
+    "Map045: original map, services, choice indices and cancellation unchanged",
+    "Map083: original map, services, choice indices and cancellation unchanged",
+    "Map099: original map, services, choice indices and cancellation unchanged",
+    "Actors database byte-identical",
+    "Existing plugin order and configuration unchanged; cosmetic plugin appended",
+    "img/characters/Rex_walk.png original source hash unchanged",
+    "img/faces/Rex.png original source hash unchanged",
+    "img/sv_actors/Rex.png original source hash unchanged"
+  ]
+}

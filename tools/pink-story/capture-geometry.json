@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "captures": [
+    {
+      "file": "tools/pink-story/trace-source.png",
+      "width": 816,
+      "height": 624,
+      "windows": [
+        {
+          "name": "Window_Message",
+          "x": 0,
+          "y": 444,
+          "width": 816,
+          "height": 180
+        },
+        {
+          "name": "Window_ChoiceList",
+          "x": 311.25,
+          "y": 300,
+          "width": 504.75,
+          "height": 144
+        }
+      ],
+      "canvas": {
+        "width": 816,
+        "height": 624
+      }
+    },
+    {
+      "file": "tools/pink-story/directive-echo.png",
+      "width": 816,
+      "height": 624,
+      "windows": [
+        {
+          "name": "Window_BattleLog",
+          "x": 0,
+          "y": 0,
+          "width": 816,
+          "height": 396
+        },
+        {
+          "name": "Window_BattleStatus",
+          "x": 192,
+          "y": 444,
+          "width": 624,
+          "height": 180
+        },
+        {
+          "name": "Window_PartyCommand",
+          "x": 0,
+          "y": 444,
+          "width": 192,
+          "height": 180
+        }
+      ],
+      "canvas": {
+        "width": 816,
+        "height": 624
+      }
+    },
+    {
+      "file": "tools/pink-story/completion-log.png",
+      "width": 816,
+      "height": 624,
+      "windows": [
+        {
+          "name": "Window_Base",
+          "x": 0,
+          "y": 0,
+          "width": 816,
+          "height": 96
+        },
+        {
+          "name": "Tabs",
+          "x": 0,
+          "y": 96,
+          "width": 816,
+          "height": 72
+        },
+        {
+          "name": "List",
+          "x": 0,
+          "y": 168,
+          "width": 340,
+          "height": 384
+        },
+        {
+          "name": "Detail",
+          "x": 340,
+          "y": 168,
+          "width": 476,
+          "height": 384
+        },
+        {
+          "name": "Window_Base",
+          "x": 0,
+          "y": 552,
+          "width": 816,
+          "height": 72
+        }
+      ],
+      "canvas": {
+        "width": 816,
+        "height": 624
+      }
+    }
+  ]
+}

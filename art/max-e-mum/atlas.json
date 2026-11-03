@@ -1,0 +1,1567 @@
+{
+  "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\master.png",
+  "alpha_threshold": 8,
+  "source_margin": 1,
+  "target_margin": 1,
+  "cells": [
+    {
+      "name": "motion0-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-00-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion0-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-00-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion0-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-00-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion1-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-01-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion1-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-01-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion1-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-01-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion2-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-02-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion2-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-02-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion2-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-02-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion3-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-03-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion3-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-03-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion3-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-03-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion4-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-04-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion4-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-04-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion4-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-04-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion5-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-05-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion5-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-05-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        96,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion5-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-05-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        192,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion6-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-06-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion6-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-06-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion6-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-06-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion7-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-07-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion7-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-07-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion7-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-07-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion8-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-08-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion8-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-08-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion8-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-08-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion9-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-09-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion9-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-09-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion9-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-09-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion10-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-10-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion10-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-10-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion10-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-10-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion11-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-11-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        288,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion11-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-11-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        384,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion11-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-11-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        480,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion12-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-12-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion12-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-12-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion12-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-12-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        0,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion13-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-13-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion13-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-13-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion13-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-13-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        96,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion14-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-14-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion14-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-14-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion14-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-14-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        192,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion15-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-15-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion15-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-15-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion15-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-15-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        288,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion16-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-16-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion16-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-16-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion16-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-16-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        384,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion17-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-17-0.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        576,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion17-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-17-1.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        672,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "motion17-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\sv-17-2.png",
+      "source_rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\sv_actors\\MAXEMUM.png",
+      "target_rect": [
+        768,
+        480,
+        96,
+        96
+      ],
+      "group": "battle",
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    {
+      "name": "walk0-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-0-0.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk0-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-0-1.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        48,
+        0,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk0-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-0-2.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        96,
+        0,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk1-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-1-0.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        0,
+        48,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk1-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-1-1.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk1-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-1-2.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        96,
+        48,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk2-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-2-0.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        0,
+        96,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk2-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-2-1.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        48,
+        96,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk2-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-2-2.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        96,
+        96,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk3-frame0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-3-0.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        0,
+        144,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk3-frame1",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-3-1.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        48,
+        144,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "walk3-frame2",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\walk-3-2.png",
+      "source_rect": [
+        0,
+        0,
+        48,
+        48
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\characters\\$MAXEMUM.png",
+      "target_rect": [
+        96,
+        144,
+        48,
+        48
+      ],
+      "group": "walk",
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    },
+    {
+      "name": "portrait-cell0",
+      "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\face-fitted.png",
+      "source_rect": [
+        0,
+        0,
+        144,
+        144
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\img\\faces\\MAXEMUM.png",
+      "target_rect": [
+        0,
+        0,
+        144,
+        144
+      ]
+    }
+  ],
+  "animation_groups": {
+    "battle": {
+      "frame_size": [
+        96,
+        96
+      ],
+      "scale": 1,
+      "pivot": [
+        48,
+        94
+      ]
+    },
+    "walk": {
+      "frame_size": [
+        48,
+        48
+      ],
+      "scale": 1,
+      "pivot": [
+        24,
+        46
+      ]
+    }
+  }
+}

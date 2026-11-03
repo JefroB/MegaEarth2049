@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Custodian minibosses</title>
+<style>body{background:#202b31;color:#f4ead7;font:17px system-ui;margin:24px}canvas{background:#394541;border:1px solid #688179;max-width:100%}button,select{font:inherit;margin:6px;padding:8px}p{max-width:900px}</style>
+<h1>Six corporate custodians</h1><p>Action-pose revision: stamping, accusing, throwing, singing, and recoiling. No tissue-warp animation. The Widow uses hinged legs and a rotating valve.</p>
+<select id="kind"></select><button id="play">Pause</button><button id="step">Next pose</button><select id="zoom"><option value="1">Battle size</option><option value="2">2× inspection</option></select><span id="label"></span><br><canvas width="1000" height="600"></canvas>
+<p>Battle sequence: warning round → signature round → recovery round. Three singers use native troop dialogue. These enemies are ready for battle testing; dungeon arenas and progression gates remain a separate build.</p>
+<script src="../../../js/plugins/ME_Custodians.js"></script><script>
+const images={},ctx=document.querySelector('canvas').getContext('2d');let running=true,stage=0,t=0,last=0;
+for(const key of Object.keys(ME_Custodians.definitions)){kind.add(new Option(key,key));const im=images[key]=new Image();im.src=ME_Custodians.definitions[key].image+'.png';if(ME_Custodians.definitions[key].idleImage){im._custodianIdle=new Image();im._custodianIdle.src=ME_Custodians.definitions[key].idleImage+'.png';}}
+play.onclick=()=>{running=!running;play.textContent=running?'Pause':'Play'};step.onclick=()=>{running=false;stage=(stage+1)%4;t=0;play.textContent='Play';draw()};kind.onchange=()=>{stage=0;t=0;draw()};zoom.onchange=draw;
+function draw(){ctx.clearRect(0,0,1000,600);ctx.strokeStyle='#78978c';ctx.beginPath();ctx.moveTo(10,550);ctx.lineTo(990,550);ctx.stroke();let im=images[kind.value];if(im.complete&&im.naturalWidth){ctx.save();ctx.translate(470,550);ctx.scale(+zoom.value,+zoom.value);ME_Custodians.draw(ctx,kind.value,im,stage,t,1);ctx.restore()}label.textContent=['Idle','Warning','Signature','Recovery'][stage];}
+function tick(now){let dt=last?Math.min(now-last,60):0;last=now;if(running){t+=dt/16.667;if(t>[100,65,45,40][stage]){t=0;stage=(stage+1)%4}}draw();requestAnimationFrame(tick)}requestAnimationFrame(tick);
+</script></html>

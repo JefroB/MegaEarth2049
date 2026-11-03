@@ -1,0 +1,202 @@
+# Zack's Bridge Repair Quest Fixed Events
+
+This document provides the complete event scripts for Zack's Bridge Repair quest with all necessary plugin commands and switch logic properly implemented. Use these scripts as a reference when implementing or fixing the quest in the game.
+
+## Switch Setup
+
+- **Switch 11**: Zack's Quest Active
+- **Switch 12**: Zack's Quest Completed
+- **Switch 13**: Engine Found
+
+## Map035 (Zack's House) Zack NPC Event
+
+```
+// Event: Zack NPC
+// Page 1: Quest Not Started
+Conditions: Switch 11 OFF, Switch 12 OFF
+Event Commands:
+- Show Text: "\\c[6]Zack:\\c[0] Hey there! I'm Zack, the local engineer."
+- Show Text: "\\c[6]Zack:\\c[0] I've been trying to repair the bridge to Timbuc 2, but someone stole the engine I was going to use."
+- Show Text: "\\c[6]Zack:\\c[0] I heard the thief might be hiding in Timbuc Cellar. If you happen to go there, could you keep an eye out for my engine?"
+- Show Choices: ["Offer to help", "Not interested"]
+- If "Offer to help":
+  - Show Text: "\\c[6]Zack:\\c[0] Really? That would be great! The engine is about this big and has my name engraved on it."
+  - Show Text: "\\c[6]Zack:\\c[0] The thief is probably hiding in the deeper parts of Timbuc Cellar. Be careful down there!"
+  - Set Switch 11 ON (Zack's Quest Active)
+  - Plugin Command: Quest Add 8
+  - Show Text: "\\c[6]Zack:\\c[0] If you find my engine, I'll make it worth your while. I've got a special key that might interest you."
+- If "Not interested":
+  - Show Text: "\\c[6]Zack:\\c[0] I understand. If you change your mind, you know where to find me."
+
+// Page 2: Quest Active, Engine Not Found
+Conditions: Switch 11 ON, Switch 13 OFF, Switch 12 OFF
+Event Commands:
+- Show Text: "\\c[6]Zack:\\c[0] Any luck finding my engine in Timbuc Cellar?"
+- Show Text: "\\c[6]Zack:\\c[0] The thief is probably hiding in the deeper parts of the cellar. Be careful down there!"
+
+// Page 3: Engine Found, Quest Not Completed
+Conditions: Switch 11 ON, Switch 13 ON, Switch 12 OFF
+Event Commands:
+- Conditional Branch: Has Item "Engine"
+  - If true:
+    - Show Text: "\\c[6]Zack:\\c[0] You found my engine! Thank you so much!"
+    - Change Items: Remove "Engine" from inventory
+    - Show Text: "\\c[6]Zack:\\c[0] Now I can finally repair the bridge to Timbuc 2. This will make travel so much easier for everyone."
+    - Show Text: "\\c[6]Zack:\\c[0] As promised, here's something for your trouble. It's a special key I found while scavenging."
+    - Change Items: Add "Smelly Key #1" to inventory
+    - Set Switch 12 ON (Zack's Quest Completed)
+    - Plugin Command: Quest SetObjective 8 3 complete
+    - Plugin Command: Quest Complete 8
+    - Show Text: "\\c[6]Zack:\\c[0] I've heard there are other keys like this one scattered around Timbuc. They supposedly open hidden caches with valuable supplies."
+    - Conditional Branch: $gameSystem.isQuestKnown(3)
+      - If true:
+        - Plugin Command: Quest SetObjective 3 1 complete
+        - Show Text: "You've found Smelly Key #1!"
+  - If false:
+    - Show Text: "\\c[6]Zack:\\c[0] Did you find my engine? You said you had it..."
+    - Show Text: "\\c[6]Zack:\\c[0] Please bring it to me as soon as you can. I really need it to repair the bridge."
+
+// Page 4: Quest Completed
+Conditions: Switch 12 ON
+Event Commands:
+- Show Text: "\\c[6]Zack:\\c[0] Thanks again for finding my engine! The bridge to Timbuc 2 should be repaired soon."
+- Show Text: "\\c[6]Zack:\\c[0] Have you found any use for that key I gave you? I've heard there are more like it around Timbuc."
+```
+
+## Map015 (Timbuc Cellar) Thief Event
+
+```
+// Event: Thief Hiding Spot
+// Page 1: Quest Active, Thief Not Defeated
+Conditions: Switch 11 ON, Switch 13 OFF
+Event Commands:
+- Show Text: "You notice a suspicious figure hiding behind some crates..."
+- Show Choices: ["Approach", "Leave it alone"]
+- If "Approach":
+  - Show Text: "As you approach, the figure jumps out! It's a thief, and they're holding what looks like an engine."
+  - Show Text: "\\c[6]Thief:\\c[0] Stay back! This engine is my ticket to a better life!"
+  - Battle Processing: Thief
+  - If Win:
+    - Show Text: "You defeated the thief! They dropped the engine as they fled."
+    - Show Text: "You found Zack's engine! It has his name engraved on it, just as he described."
+    - Change Items: Add "Engine" to inventory
+    - Set Switch 13 ON (Engine Found)
+    - Plugin Command: Quest SetObjective 8 1 complete
+    - Plugin Command: Quest SetObjective 8 2 complete
+    - Show Text: "You should return the engine to Zack."
+  - If Escape/Lose:
+    - Show Text: "The thief manages to escape with the engine."
+- If "Leave it alone":
+  - Show Text: "You decide to leave the suspicious figure alone for now."
+
+// Page 2: Engine Found
+Conditions: Switch 13 ON
+Event Commands:
+- Show Text: "This is where you found Zack's engine after defeating the thief."
+```
+
+## Map037 (Bridge to Timbuc 2) Bridge Event
+
+```
+// Event: Broken Bridge
+// Page 1: Quest Not Completed
+Conditions: Switch 12 OFF
+Event Commands:
+- Show Text: "The bridge to Timbuc 2 is broken. It looks like it's missing an engine component."
+- Conditional Branch: Switch 11 OFF
+  - If true:
+    - Show Text: "Perhaps someone in Timbuc knows how to repair it."
+  - If false:
+    - Show Text: "This must be the bridge Zack mentioned. He needs his engine to repair it."
+
+// Page 2: Quest Completed, Bridge Being Repaired
+Conditions: Switch 12 ON
+Event Commands:
+- Show Text: "Zack is working on repairing the bridge with the engine you recovered."
+- Show Text: "\\c[6]Zack:\\c[0] Almost done! Just a few more adjustments..."
+- Show Text: "The bridge should be operational soon, allowing access to Timbuc 2."
+```
+
+## Armatek Official Event (for Engine Component C)
+
+This event connects to the Engine Reconstruction quest (Quest 2).
+
+```
+// Event: Armatek Official
+// Page 1: Default
+Conditions: None
+Event Commands:
+- Show Text: "\\c[6]Armatek Official:\\c[0] Hello there. I'm an engineer from Armatek Corporation."
+- Show Text: "\\c[6]Armatek Official:\\c[0] I've been studying the local engineering techniques. Quite primitive, but fascinating."
+- Conditional Branch: $gameSystem.isQuestKnown(2)
+  - If true:
+    - Show Text: "\\c[6]Armatek Official:\\c[0] You're working on an engine reconstruction? I might be able to help."
+    - Show Text: "\\c[6]Armatek Official:\\c[0] Here's a component from our latest engine design. It should be compatible with what you're building."
+    - Change Items: Add "Engine Component C" to inventory
+    - Plugin Command: Quest SetObjective 2 4 complete
+    - Show Text: "You received Engine Component C!"
+    - Show Text: "\\c[6]Armatek Official:\\c[0] Don't tell my superiors I gave you that. It's technically company property."
+  - If false:
+    - Show Text: "\\c[6]Armatek Official:\\c[0] If you're ever working on any engineering projects, come see me. I might have some components that could help."
+```
+
+## Switch Logic Summary
+
+Here's a summary of the switch logic for Zack's Bridge Repair quest:
+
+1. **Initial State**:
+   - Switch 11: OFF (Zack's Quest not active)
+   - Switch 12: OFF (Zack's Quest not completed)
+   - Switch 13: OFF (Engine not found)
+
+2. **Quest Activation**:
+   - When the player accepts Zack's quest, Switch 11 is set to ON
+   - This activates the thief event in Timbuc Cellar
+
+3. **Engine Recovery**:
+   - When the thief is defeated and the engine is obtained, Switch 13 is set to ON
+   - This enables the engine return dialogue with Zack
+
+4. **Quest Completion**:
+   - When the engine is returned to Zack, Switch 12 is set to ON
+   - This completes the quest and updates the bridge event
+
+## Plugin Command Summary
+
+Here's a summary of the plugin commands used in Zack's Bridge Repair quest:
+
+1. **Quest Addition**:
+   - `Quest Add 8` - Adds Zack's Bridge Repair quest to the journal
+   - Used when the player accepts the quest from Zack
+
+2. **Objective Updates**:
+   - `Quest SetObjective 8 1 complete` - Marks "Find the thief in Timbuc Cellar" as complete
+   - `Quest SetObjective 8 2 complete` - Marks "Retrieve the engine" as complete
+   - `Quest SetObjective 8 3 complete` - Marks "Return the engine to Zack" as complete
+   - Used at appropriate points in the quest progression
+
+3. **Quest Completion**:
+   - `Quest Complete 8` - Marks Zack's Bridge Repair quest as complete
+   - Used after returning the engine to Zack
+
+4. **Connected Quest Updates**:
+   - `Quest SetObjective 3 1 complete` - Marks "Find Smelly Key #1" as complete in the Smelly Keys quest
+   - Used when Zack gives the player Smelly Key #1 as a reward
+
+## Testing Instructions
+
+To test the fixed Zack's Bridge Repair quest:
+
+1. Start a new game or load a save before encountering Zack
+2. Go to Zack's House (Map035) and talk to Zack to accept the quest
+3. Verify that the quest appears in the journal
+4. Go to Timbuc Cellar (Map015) and find the thief
+5. Defeat the thief and obtain the engine
+6. Verify that objectives 1 and 2 are marked as complete in the journal
+7. Return to Zack's House and give him the engine
+8. Verify that you receive Smelly Key #1 as a reward
+9. Verify that the quest is marked as complete in the journal
+10. Check that Switch 12 is ON, indicating the quest has been completed
+11. If the Smelly Keys quest (Quest 3) is active, verify that the first objective is marked as complete
+
+By following these event scripts and testing instructions, you can ensure that Zack's Bridge Repair quest works correctly with both proper switch logic and quest journal integration.

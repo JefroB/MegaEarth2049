@@ -1,0 +1,14 @@
+﻿Tileset ID: 4
+Name: Dungeon
+Mode: 1
+Note: 
+Tileset Names:
+  - Dungeon_A1
+  - Dungeon_A2
+  - 
+  - Dungeon_A4
+  - Dungeon_A5
+  - Dungeon_B
+  - Dungeon_C
+  - SciFi_Armory
+  - 

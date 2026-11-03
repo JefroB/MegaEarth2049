@@ -1,0 +1,3758 @@
+{
+  "changes": [
+    {
+      "kind": "animation-palette",
+      "animation": 176,
+      "name": "Pink-Slip Stapler - line",
+      "frame": 12,
+      "before": {
+        "name": "Gun1",
+        "pan": 0,
+        "pitch": 100,
+        "volume": 65
+      },
+      "after": {
+        "name": "Switch1",
+        "volume": 60,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 178,
+      "name": "Rail-Spike Driver - line",
+      "frame": 12,
+      "before": {
+        "name": "Gun1",
+        "pan": 0,
+        "pitch": 100,
+        "volume": 65
+      },
+      "after": {
+        "name": "Hammer",
+        "volume": 55,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 179,
+      "name": "Bloodwork Letter Opener - slash",
+      "frame": 12,
+      "before": {
+        "name": "Blow1",
+        "pan": 0,
+        "pitch": 100,
+        "volume": 65
+      },
+      "after": {
+        "name": "Slash2",
+        "volume": 50,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 185,
+      "name": "Coupon Cutter - slash",
+      "frame": 12,
+      "before": {
+        "name": "Blow1",
+        "pan": 0,
+        "pitch": 100,
+        "volume": 65
+      },
+      "after": {
+        "name": "Slash1",
+        "volume": 50,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 186,
+      "name": "Unlicensed Culture Swab - slash",
+      "frame": 12,
+      "before": {
+        "name": "Blow1",
+        "pan": 0,
+        "pitch": 100,
+        "volume": 65
+      },
+      "after": {
+        "name": "Poison",
+        "volume": 40,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 188,
+      "name": "Aerosol Benefits - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 95,
+        "volume": 55
+      },
+      "after": {
+        "name": "Poison",
+        "volume": 45,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 189,
+      "name": "Mite Shift - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 97,
+        "volume": 55
+      },
+      "after": {
+        "name": "Poison",
+        "volume": 40,
+        "pitch": 120,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 190,
+      "name": "Corrupt Implant - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 99,
+        "volume": 55
+      },
+      "after": {
+        "name": "Paralyze1",
+        "volume": 50,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 191,
+      "name": "Dirty Nanites - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 101,
+        "volume": 55
+      },
+      "after": {
+        "name": "Poison",
+        "volume": 45,
+        "pitch": 95,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 193,
+      "name": "Repair Swarm - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 105,
+        "volume": 55
+      },
+      "after": {
+        "name": "Recovery",
+        "volume": 50,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 194,
+      "name": "Install Plating - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 107,
+        "volume": 55
+      },
+      "after": {
+        "name": "Equip1",
+        "volume": 55,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 195,
+      "name": "Tune Signal - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 109,
+        "volume": 55
+      },
+      "after": {
+        "name": "Sound1",
+        "volume": 45,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 197,
+      "name": "Armor Fracture - shatter and fall",
+      "frame": 2,
+      "before": {
+        "name": "Blow1",
+        "pan": 0,
+        "pitch": 120,
+        "volume": 65
+      },
+      "after": {
+        "name": "Break",
+        "volume": 55,
+        "pitch": 100,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 198,
+      "name": "Throttle Connection - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 115,
+        "volume": 55
+      },
+      "after": {
+        "name": "Noise",
+        "volume": 45,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 199,
+      "name": "Scramble Optics - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 117,
+        "volume": 55
+      },
+      "after": {
+        "name": "Blind",
+        "volume": 45,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 201,
+      "name": "Neural Reboot - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 121,
+        "volume": 55
+      },
+      "after": {
+        "name": "Sound1",
+        "volume": 45,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 202,
+      "name": "Revoke Benefits - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 123,
+        "volume": 55
+      },
+      "after": {
+        "name": "Down1",
+        "volume": 45,
+        "pitch": 100,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 203,
+      "name": "Safe Mode - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 125,
+        "volume": 55
+      },
+      "after": {
+        "name": "Switch3",
+        "volume": 45,
+        "pitch": 100,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 205,
+      "name": "Symbiotic Contract - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 106,
+        "volume": 55
+      },
+      "after": {
+        "name": "Absorb1",
+        "volume": 45,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 206,
+      "name": "Broadcast Irritant - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 107,
+        "volume": 55
+      },
+      "after": {
+        "name": "Noise",
+        "volume": 40,
+        "pitch": 120,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 207,
+      "name": "Memory Leak - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 108,
+        "volume": 55
+      },
+      "after": {
+        "name": "Noise",
+        "volume": 45,
+        "pitch": 85,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 208,
+      "name": "Calibrate Optics - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 109,
+        "volume": 55
+      },
+      "after": {
+        "name": "Sound1",
+        "volume": 45,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 209,
+      "name": "Cache Reflexes - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Evasion1",
+        "volume": 45,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 210,
+      "name": "Arm Countermeasure - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 111,
+        "volume": 55
+      },
+      "after": {
+        "name": "Reflection",
+        "volume": 45,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 211,
+      "name": "Charge Reserve - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 112,
+        "volume": 55
+      },
+      "after": {
+        "name": "Paralyze2",
+        "volume": 40,
+        "pitch": 95,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 213,
+      "name": "Compound Misfortune - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 114,
+        "volume": 55
+      },
+      "after": {
+        "name": "Darkness1",
+        "volume": 40,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 214,
+      "name": "Thermal Throttle - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 115,
+        "volume": 55
+      },
+      "after": {
+        "name": "Paralyze3",
+        "volume": 45,
+        "pitch": 85,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 215,
+      "name": "Sell Location Data - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 116,
+        "volume": 55
+      },
+      "after": {
+        "name": "Computer",
+        "volume": 40,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 216,
+      "name": "Parasite Eviction - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 117,
+        "volume": 55
+      },
+      "after": {
+        "name": "Recovery",
+        "volume": 50,
+        "pitch": 115,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 217,
+      "name": "Grounding Routine - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 118,
+        "volume": 55
+      },
+      "after": {
+        "name": "Switch2",
+        "volume": 50,
+        "pitch": 100,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 218,
+      "name": "Clear Liability - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Heal1",
+        "pan": 0,
+        "pitch": 119,
+        "volume": 55
+      },
+      "after": {
+        "name": "Recovery",
+        "volume": 50,
+        "pitch": 105,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 219,
+      "name": "Deauthorize - status effect",
+      "frame": 6,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 120,
+        "volume": 55
+      },
+      "after": {
+        "name": "Switch3",
+        "volume": 45,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 220,
+      "name": "Nerve Clamp - bounded effect",
+      "frame": 0,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Paralyze2",
+        "volume": 50,
+        "pitch": 100,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 221,
+      "name": "Borrowed Second - bounded effect",
+      "frame": 0,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Down1",
+        "volume": 45,
+        "pitch": 80,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 222,
+      "name": "Stone Skin - bounded effect",
+      "frame": 0,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Earth1",
+        "volume": 50,
+        "pitch": 95,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 223,
+      "name": "Release Motor Lock - bounded effect",
+      "frame": 0,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Switch2",
+        "volume": 50,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-palette",
+      "animation": 224,
+      "name": "Shed Stone - bounded effect",
+      "frame": 0,
+      "before": {
+        "name": "Magic1",
+        "pan": 0,
+        "pitch": 110,
+        "volume": 55
+      },
+      "after": {
+        "name": "Break",
+        "volume": 50,
+        "pitch": 110,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 177,
+      "name": "Terms & Conditions - arc",
+      "frame": 0,
+      "sound": "Book1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 182,
+      "name": "Boomerang Invoice - return",
+      "frame": 0,
+      "sound": "Book1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 140,
+      "name": "Bulldozer",
+      "frame": 0,
+      "sound": "Machine"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 140,
+      "name": "Bulldozer",
+      "frame": 21,
+      "sound": "Crash"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 142,
+      "name": "Toss Grenade",
+      "frame": 0,
+      "sound": "Evasion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 141,
+      "name": "Grenade Hit",
+      "frame": 13,
+      "sound": "Explosion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 141,
+      "name": "Grenade Hit",
+      "frame": 0,
+      "sound": "Evasion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 143,
+      "name": "Flash Grenade Hit",
+      "frame": 13,
+      "sound": "Flash1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 143,
+      "name": "Flash Grenade Hit",
+      "frame": 0,
+      "sound": "Evasion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 144,
+      "name": "Smoke Grenade Hit",
+      "frame": 13,
+      "sound": "Wind2"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 144,
+      "name": "Smoke Grenade Hit",
+      "frame": 0,
+      "sound": "Evasion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 145,
+      "name": "Poison Grenade Hit",
+      "frame": 13,
+      "sound": "Poison"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 145,
+      "name": "Poison Grenade Hit",
+      "frame": 0,
+      "sound": "Evasion1"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 148,
+      "name": "DDOS",
+      "frame": 0,
+      "sound": "Noise"
+    },
+    {
+      "kind": "animation-cue",
+      "animation": 155,
+      "name": "Laser Blast",
+      "frame": 0,
+      "sound": "Laser1"
+    },
+    {
+      "kind": "audio-only-animation",
+      "animation": 225,
+      "name": "Corporate warning - audio only",
+      "sound": "Computer"
+    },
+    {
+      "kind": "audio-only-animation",
+      "animation": 226,
+      "name": "Repossession clamp - audio only",
+      "sound": "Hammer"
+    },
+    {
+      "kind": "audio-only-animation",
+      "animation": 227,
+      "name": "Scanner jam - audio only",
+      "sound": "Paralyze1"
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 153,
+      "name": "Repossession Clamp",
+      "before": 0,
+      "after": 226
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 155,
+      "name": "Jam Scanner",
+      "before": 0,
+      "after": 227
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 158,
+      "name": "Prepare Terms and Lacerations",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 161,
+      "name": "Prepare Out-of-Network Extraction",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 164,
+      "name": "Prepare Express Infection",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 167,
+      "name": "Prepare Premium Pressure",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 170,
+      "name": "Prepare Mandatory Lullaby",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 173,
+      "name": "Prepare Final Escalation",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 176,
+      "name": "Prepare Claim Denied",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 178,
+      "name": "Prepare Herpes Fine Print",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 180,
+      "name": "Prepare Open Enrollment Outbreak",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "skill-audio",
+      "skill": 182,
+      "name": "Prepare Premium Extraction",
+      "before": 0,
+      "after": 225
+    },
+    {
+      "kind": "missing-reference-fallback",
+      "map": 1,
+      "event": 13,
+      "page": 1,
+      "before": {
+        "name": "Elevator",
+        "volume": 90,
+        "pitch": 100,
+        "pan": 0
+      },
+      "after": {
+        "name": "Machine",
+        "volume": 55,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "missing-reference-fallback",
+      "map": 1,
+      "event": 16,
+      "page": 1,
+      "before": {
+        "name": "Elevator",
+        "volume": 90,
+        "pitch": 100,
+        "pan": 0
+      },
+      "after": {
+        "name": "Machine",
+        "volume": 55,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "missing-reference-fallback",
+      "map": 1,
+      "event": 20,
+      "page": 1,
+      "before": {
+        "name": "Elevator",
+        "volume": 90,
+        "pitch": 100,
+        "pan": 0
+      },
+      "after": {
+        "name": "Machine",
+        "volume": 55,
+        "pitch": 90,
+        "pan": 0
+      }
+    },
+    {
+      "kind": "door",
+      "map": 2,
+      "event": 23,
+      "page": 1,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 13,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 14,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 15,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 16,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 21,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 15,
+      "event": 26,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "interaction",
+      "map": 45,
+      "event": 1,
+      "page": 0,
+      "sound": "Recovery",
+      "afterCommand": 314,
+      "parameters": [
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 83,
+      "event": 3,
+      "page": 0,
+      "sound": "Recovery",
+      "afterCommand": 314,
+      "parameters": [
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 99,
+      "event": 2,
+      "page": 0,
+      "sound": "Recovery",
+      "afterCommand": 314,
+      "parameters": [
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 99,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        218,
+        218,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 99,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        219,
+        219,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 99,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        220,
+        220,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 103,
+      "event": 5,
+      "page": 0,
+      "sound": "Book1",
+      "afterCommand": 126,
+      "parameters": [
+        186,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 103,
+      "event": 14,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        180,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 105,
+      "event": 11,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        181,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 106,
+      "event": 4,
+      "page": 0,
+      "sound": "Book1",
+      "afterCommand": 126,
+      "parameters": [
+        187,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 108,
+      "event": 6,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        182,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 110,
+      "event": 7,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        183,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 110,
+      "event": 7,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        183,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 112,
+      "event": 8,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        184,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 112,
+      "event": 8,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        184,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 114,
+      "event": 8,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        185,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 114,
+      "event": 8,
+      "page": 0,
+      "sound": "Item1",
+      "afterCommand": 126,
+      "parameters": [
+        185,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "door",
+      "map": 116,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 116,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 117,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 117,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 118,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 118,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 119,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 120,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 120,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 121,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 121,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 121,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 122,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 123,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 123,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 123,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 124,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 124,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 125,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 125,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 126,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 126,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 126,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 127,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 127,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 128,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 129,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 129,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 130,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 130,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 131,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 132,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 132,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 132,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 133,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 133,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 134,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 134,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 135,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 135,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 136,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 136,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 137,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 137,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 137,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 138,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 139,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 139,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 140,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 140,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 141,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 141,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 142,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 142,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 143,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 143,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 144,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 144,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 144,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 145,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 146,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 146,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 147,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 147,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 148,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 148,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 149,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 149,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 150,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 150,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 151,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 151,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 152,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 152,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 153,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 153,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 153,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 154,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 154,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 155,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 155,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 156,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 156,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 157,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 157,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 158,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 158,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 159,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 159,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 160,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 161,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 161,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 162,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 162,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 162,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 163,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 163,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 164,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 165,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 165,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 165,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 166,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 166,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 166,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 167,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 168,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 168,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 169,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 170,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 170,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 171,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 171,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 172,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 172,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 173,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 173,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 173,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 174,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 174,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 174,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 175,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 175,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 176,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 177,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 177,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 178,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 179,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 179,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 180,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 180,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 181,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 182,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 182,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 183,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 183,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 183,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 184,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 184,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 185,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 186,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 186,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 186,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 187,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 187,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 188,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 188,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 189,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 189,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 190,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 190,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 191,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 191,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 192,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 192,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 193,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 193,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 193,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 194,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 195,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 195,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 196,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 196,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 197,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 197,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 198,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 198,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 199,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 199,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 200,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 200,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 201,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 201,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 201,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 202,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 202,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 202,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 203,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 204,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 204,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 205,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 206,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 207,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 207,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 207,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 208,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 208,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 209,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 209,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 210,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 210,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 210,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 211,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 211,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 212,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 213,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 213,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 214,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 214,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 215,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 215,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 216,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 216,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 216,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 217,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 217,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 218,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 218,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 219,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 219,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 219,
+      "event": 5,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 220,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 220,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 221,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 222,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 222,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 223,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 224,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 224,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 225,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 226,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 226,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 227,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 227,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 228,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 228,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 229,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 230,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 230,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 231,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 232,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 232,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 233,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 233,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 234,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 234,
+      "event": 3,
+      "page": 1,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 235,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 236,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 236,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 236,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 237,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 241,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 241,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 241,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 242,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 243,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 244,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "interaction",
+      "map": 244,
+      "event": 3,
+      "page": 0,
+      "sound": "Book1",
+      "afterCommand": 126,
+      "parameters": [
+        188,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "door",
+      "map": 245,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 245,
+      "event": 2,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 245,
+      "event": 3,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 245,
+      "event": 4,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 246,
+      "event": 19,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "interaction",
+      "map": 246,
+      "event": 20,
+      "page": 0,
+      "sound": "Switch1",
+      "afterCommand": 121,
+      "parameters": [
+        190,
+        190,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 246,
+      "event": 21,
+      "page": 0,
+      "sound": "Decision2",
+      "afterCommand": 121,
+      "parameters": [
+        186,
+        186,
+        0
+      ]
+    },
+    {
+      "kind": "door",
+      "map": 247,
+      "event": 1,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "door",
+      "map": 248,
+      "event": 1,
+      "page": 0,
+      "sound": "Door1",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 0,
+      "sound": "Computer",
+      "afterCommand": 121,
+      "parameters": [
+        262,
+        262,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 1,
+      "sound": "Computer",
+      "afterCommand": 121,
+      "parameters": [
+        262,
+        262,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 249,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 0,
+      "sound": "Computer",
+      "afterCommand": 121,
+      "parameters": [
+        262,
+        262,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 1,
+      "sound": "Computer",
+      "afterCommand": 121,
+      "parameters": [
+        262,
+        262,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 250,
+      "event": 3,
+      "page": 1,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        265,
+        265,
+        0
+      ]
+    },
+    {
+      "kind": "door",
+      "map": 251,
+      "event": 1,
+      "page": 0,
+      "sound": "Door3",
+      "trigger": "actual transfer branch"
+    },
+    {
+      "kind": "interaction",
+      "map": 251,
+      "event": 3,
+      "page": 0,
+      "sound": "Switch2",
+      "afterCommand": 121,
+      "parameters": [
+        267,
+        267,
+        0
+      ]
+    },
+    {
+      "kind": "interaction",
+      "map": 251,
+      "event": 4,
+      "page": 0,
+      "sound": "Computer",
+      "afterCommand": 121,
+      "parameters": [
+        268,
+        268,
+        0
+      ]
+    },
+    {
+      "kind": "calibration",
+      "commonEvent": 7,
+      "armor": 62,
+      "sound": "Equip1"
+    },
+    {
+      "kind": "calibration",
+      "commonEvent": 7,
+      "armor": 63,
+      "sound": "Equip1"
+    },
+    {
+      "kind": "calibration",
+      "commonEvent": 7,
+      "armor": 64,
+      "sound": "Equip1"
+    }
+  ],
+  "changedMaps": [
+    1,
+    2,
+    15,
+    45,
+    83,
+    99,
+    103,
+    105,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "newAnimations": [
+    225,
+    226,
+    227
+  ],
+  "unchanged": "Battle mechanics, action ordering, animation cells, existing timing frames/flashes, event branches, maps and rewards; audio-only animations add a native short visual-free wait.",
+  "deferredIntegration": [
+    {
+      "skill": 151,
+      "name": "Repossessor scan",
+      "reason": "Scope0 has no animation target; attaching an animation alone does not emit audio. Needs explicit action cue integration with a suitable scanner recording."
+    },
+    {
+      "skill": 154,
+      "name": "Reset Actuators",
+      "reason": "Scope0 recovery has no animation target; needs an explicit action cue if a dedicated reset recording is added."
+    }
+  ]
+}

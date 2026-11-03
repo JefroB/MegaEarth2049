@@ -1,0 +1,70 @@
+@echo off
+echo MegaEarth2049 Map Analysis Suite
+echo ==============================
+echo.
+
+REM Create output directories
+if not exist "map_analysis" mkdir map_analysis
+if not exist "map_events" mkdir map_events
+if not exist "map_structure" mkdir map_structure
+
+echo Creating output directories...
+echo - map_analysis
+echo - map_events
+echo - map_structure
+echo.
+
+REM Count all map files
+echo Counting all map files...
+powershell -ExecutionPolicy Bypass -File count_maps.ps1
+echo.
+
+REM List all map files
+echo Listing all map files...
+powershell -ExecutionPolicy Bypass -File list_maps.ps1
+echo.
+
+REM Analyze a sample map (Map001.json)
+echo Analyzing sample map (Map001.json)...
+powershell -ExecutionPolicy Bypass -File check_map_file.ps1 -mapFile "data/Map001.json"
+echo.
+
+REM Count events in the sample map
+echo Counting events in sample map...
+powershell -ExecutionPolicy Bypass -File count_map_events.ps1 -mapFile "data/Map001.json"
+echo.
+
+REM List properties of all maps
+echo Listing properties of all maps...
+powershell -ExecutionPolicy Bypass -File list_map_properties.ps1
+echo.
+
+REM Extract map structure
+echo Extracting map structure...
+powershell -ExecutionPolicy Bypass -File extract_map_structure.ps1 -mapFile "data/Map001.json" -outputDir "map_structure"
+echo.
+
+REM Create map documentation
+echo Creating map documentation...
+powershell -ExecutionPolicy Bypass -File map_tools.ps1 -Command "Import-Module .\map_tools.ps1; Create-MapDocumentation -outputFile 'Map_Documentation.md'"
+echo.
+
+REM Update README file
+echo Updating README file...
+powershell -ExecutionPolicy Bypass -File update_readme.ps1
+echo.
+
+echo Map analysis complete!
+echo Results are available in the following directories:
+echo - map_analysis
+echo - map_events
+echo - map_structure
+echo.
+echo Documentation files:
+echo - MegaEarth2049_Map_JSON_Documentation.md
+echo - MegaEarth2049_Map_Analysis_Tools_README.md
+echo - Map_Documentation.md
+echo - map_reports (if generated)
+echo.
+
+pause

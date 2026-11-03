@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Enemies: existing records preserved; only spider note tags and restored item137 differ",
+    "Troops: existing records preserved; only spider note tags and restored item137 differ",
+    "Skills: existing records preserved; only spider note tags and restored item137 differ",
+    "Items: existing records preserved; only spider note tags and restored item137 differ",
+    "Map002: only selected encounter command lists changed",
+    "Map030: only selected encounter command lists changed",
+    "PunkBoss, Repossessor and poop source artwork/plugins unchanged"
+  ]
+}

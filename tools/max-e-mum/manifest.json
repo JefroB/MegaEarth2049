@@ -1,0 +1,118 @@
+{
+  "actor": 13,
+  "cls": 12,
+  "map": 251,
+  "entry": {
+    "map": 10,
+    "event": 19,
+    "x": 14,
+    "y": 10,
+    "returnXY": [
+      14,
+      11
+    ]
+  },
+  "flags": [
+    266,
+    267,
+    268,
+    269
+  ],
+  "skills": [
+    280,
+    281,
+    282
+  ],
+  "completionLogTotal": 38,
+  "actions": [
+    {
+      "skill": 280,
+      "name": "Spotter Protocol",
+      "renderer": "Native MV actor motion + existing target-relative animation",
+      "animationId": 194,
+      "animationName": "Install Plating - status effect",
+      "animationPosition": 1,
+      "animationFrames": 16,
+      "scope": 7,
+      "engineMpCost": 6,
+      "engineTpCost": 0,
+      "effectTiming": "Native battle action; one application per target after animation wait",
+      "projectile": false,
+      "camera": "unchanged"
+    },
+    {
+      "skill": 281,
+      "name": "Active Recovery",
+      "renderer": "Native MV actor motion + existing target-relative animation",
+      "animationId": 193,
+      "animationName": "Repair Swarm - status effect",
+      "animationPosition": 1,
+      "animationFrames": 16,
+      "scope": 7,
+      "engineMpCost": 8,
+      "engineTpCost": 0,
+      "effectTiming": "Native battle action; one application per target after animation wait",
+      "projectile": false,
+      "camera": "unchanged"
+    },
+    {
+      "skill": 282,
+      "name": "Deload Slam",
+      "renderer": "Native MV actor motion + existing target-relative animation",
+      "animationId": 1,
+      "animationName": "Hit Physical",
+      "animationPosition": 1,
+      "animationFrames": 5,
+      "scope": 1,
+      "engineMpCost": 0,
+      "engineTpCost": 6,
+      "effectTiming": "Native battle action; one application per target after animation wait",
+      "projectile": false,
+      "camera": "unchanged"
+    }
+  ],
+  "assets": [
+    {
+      "path": "art/max-e-mum/master.png",
+      "sha256": "6f1d647aade818d6ecd6ce3feb73b1e2b41ee5bc5f223efa9d49e286cbcb0ca3"
+    },
+    {
+      "path": "img/characters/$MAXEMUM.png",
+      "sha256": "678eda5536f1073002a9e7779cf4f55a713475d662b5873f754538019f71804b"
+    },
+    {
+      "path": "img/faces/MAXEMUM.png",
+      "sha256": "002dc0ea14efb2850912f2df3fe72ca1692a3038b94ea8f30b5fb33315cb686a"
+    },
+    {
+      "path": "img/sv_actors/MAXEMUM.png",
+      "sha256": "e5fa804a2d2f49a9f7300aff4d4ce5b607629b0061dcd07cd4d6b5a729be96cd"
+    }
+  ],
+  "geometryManifest": "art/max-e-mum/atlas.json",
+  "rigSource": "tools/max-e-mum/pack.py",
+  "builtInImageGenerationPrompt": "art/max-e-mum/prompt.txt",
+  "treadMotion": {
+    "renderer": "Packed walking atlas; cyclic translation of original belt-face pixels only",
+    "phaseOffsets": [
+      -4,
+      0,
+      4
+    ],
+    "phaseUnits": "64x66 chassis pixels before common half-scale walking pack",
+    "nativePatternOrder": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "directions": [
+      "down",
+      "left",
+      "right",
+      "up"
+    ],
+    "restingPattern": 1,
+    "outlineAndAlpha": "unchanged"
+  }
+}

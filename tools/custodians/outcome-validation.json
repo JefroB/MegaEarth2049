@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "tid": 54,
+      "outcome": "victory"
+    },
+    {
+      "tid": 54,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 54,
+      "outcome": "escape"
+    },
+    {
+      "tid": 55,
+      "outcome": "victory"
+    },
+    {
+      "tid": 55,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 55,
+      "outcome": "escape"
+    },
+    {
+      "tid": 56,
+      "outcome": "victory"
+    },
+    {
+      "tid": 56,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 56,
+      "outcome": "escape"
+    },
+    {
+      "tid": 57,
+      "outcome": "victory"
+    },
+    {
+      "tid": 57,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 57,
+      "outcome": "escape"
+    },
+    {
+      "tid": 58,
+      "outcome": "victory"
+    },
+    {
+      "tid": 58,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 58,
+      "outcome": "escape"
+    },
+    {
+      "tid": 59,
+      "outcome": "victory"
+    },
+    {
+      "tid": 59,
+      "outcome": "defeat"
+    },
+    {
+      "tid": 59,
+      "outcome": "escape"
+    }
+  ]
+}

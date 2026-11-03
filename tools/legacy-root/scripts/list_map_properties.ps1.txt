@@ -1,0 +1,55 @@
+# MegaEarth2049 Map Properties Lister
+# This script lists basic properties of RPG Maker MV map files
+
+# Function to list map properties
+function List-MapProperties {
+    param (
+        [string]$mapDir = "data"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        try {
+            # Get map ID from filename
+            $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+            
+            # Read the map file
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            
+            # Display basic properties
+            Write-Host "Map $mapId ($($mapContent.displayName)):" -ForegroundColor Green
+            Write-Host "  Dimensions: $($mapContent.width) x $($mapContent.height)" -ForegroundColor Gray
+            Write-Host "  Tileset ID: $($mapContent.tilesetId)" -ForegroundColor Gray
+            
+            # Count events
+            $eventCount = 0
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null) {
+                    $eventCount++
+                }
+            }
+            Write-Host "  Events: $eventCount" -ForegroundColor Gray
+            Write-Host ""
+        }
+        catch {
+            Write-Host "Error processing map $($mapFile.Name): $_" -ForegroundColor Red
+            Write-Host ""
+        }
+    }
+    
+    Write-Host "Completed listing map properties" -ForegroundColor Cyan
+}
+
+# Main script execution
+List-MapProperties

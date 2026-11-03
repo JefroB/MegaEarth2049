@@ -1,0 +1,1654 @@
+[
+  {
+    "id": 1,
+    "name": "Doll",
+    "static": "SF_Doll",
+    "intended": [],
+    "override": [],
+    "troops": [
+      17,
+      18
+    ],
+    "locations": []
+  },
+  {
+    "id": 2,
+    "name": "Bat",
+    "static": "Bat",
+    "intended": [
+      "bat260403995"
+    ],
+    "override": [],
+    "troops": [
+      4,
+      5
+    ],
+    "locations": [
+      "Map1 event11",
+      "Map1 event14",
+      "Map1 event18",
+      "Map1 random"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Thug",
+    "static": "SF_Thug",
+    "intended": [
+      "thug"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 4,
+    "name": "Mutant Plant",
+    "static": "Plant",
+    "intended": [
+      "plant-default_orig"
+    ],
+    "override": [],
+    "troops": [
+      3,
+      7
+    ],
+    "locations": [
+      "Map1 random"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Parasite",
+    "static": "SF_Parasite",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 6,
+    "name": "Gas Man",
+    "static": "mod_agent_01",
+    "intended": [
+      "gasman"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 7,
+    "name": "Soldier",
+    "static": "colonial-soldier",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 8,
+    "name": "Foot Soldier",
+    "static": "colonial-soldier",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 9,
+    "name": "Grafitti Artist",
+    "static": "SF_Thug",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 10,
+    "name": "Trash Octopus",
+    "static": "mod_mimic_03",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 11,
+    "name": "Octonasty",
+    "static": "mod_mimic_03",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 12,
+    "name": "Green Ninja",
+    "static": "Mimic",
+    "intended": [
+      "greenninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      9
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pink Ninja",
+    "static": "Mimic",
+    "intended": [
+      "pinkninja"
+    ],
+    "override": [],
+    "troops": [
+      15
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Brown Ninja",
+    "static": "Mimic",
+    "intended": [
+      "brownninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      10
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Blue Ninja",
+    "static": "Mimic",
+    "intended": [
+      "blueninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      11
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Red Ninja",
+    "static": "Mimic",
+    "intended": [
+      "redninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      12
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Purple Ninja",
+    "static": "Mimic",
+    "intended": [
+      "purpleninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      13
+    ],
+    "locations": [
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ninja",
+    "static": "Mimic",
+    "intended": [
+      "blackninja"
+    ],
+    "override": [],
+    "troops": [
+      8,
+      14
+    ],
+    "locations": [
+      "Map1 random",
+      "Map5 random"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Halucination",
+    "static": "Death",
+    "intended": [],
+    "override": [],
+    "troops": [
+      16
+    ],
+    "locations": []
+  },
+  {
+    "id": 20,
+    "name": "Earth Sprite",
+    "static": "Earthspirit",
+    "intended": [],
+    "override": [],
+    "troops": [
+      19,
+      20,
+      21,
+      23,
+      24
+    ],
+    "locations": [
+      "Map9 random"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Fire Sprite",
+    "static": "Firespirit",
+    "intended": [],
+    "override": [],
+    "troops": [
+      19,
+      20,
+      22,
+      25,
+      27
+    ],
+    "locations": [
+      "Map9 random"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Wind Sprite",
+    "static": "Windspirit",
+    "intended": [],
+    "override": [],
+    "troops": [
+      19,
+      21,
+      24,
+      25,
+      26,
+      27
+    ],
+    "locations": [
+      "Map9 random"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Water Sprite",
+    "static": "Waterspirit",
+    "intended": [],
+    "override": [],
+    "troops": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "locations": [
+      "Map9 random"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Puppet",
+    "static": "Puppet",
+    "intended": [],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 25,
+    "name": "Punk1",
+    "static": "Bat",
+    "intended": [
+      "punk1"
+    ],
+    "override": [],
+    "troops": [
+      2,
+      28,
+      30
+    ],
+    "locations": [
+      "Map1 random",
+      "Map2 random"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Punk2",
+    "static": "Bat",
+    "intended": [
+      "punk2"
+    ],
+    "override": [],
+    "troops": [
+      1,
+      28,
+      31
+    ],
+    "locations": [
+      "Map2 random"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Punk3",
+    "static": "Bat",
+    "intended": [
+      "punk3"
+    ],
+    "override": [],
+    "troops": [
+      6,
+      28,
+      29
+    ],
+    "locations": [
+      "Map1 random",
+      "Map2 random"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Punk4",
+    "static": "Bat",
+    "intended": [
+      "punk4"
+    ],
+    "override": [],
+    "troops": [
+      29,
+      31
+    ],
+    "locations": [
+      "Map2 random"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Punk5",
+    "static": "Bat",
+    "intended": [
+      "punk5"
+    ],
+    "override": [],
+    "troops": [
+      29,
+      30
+    ],
+    "locations": [
+      "Map2 random"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Punk6",
+    "static": "Bat",
+    "intended": [
+      "punk6"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 31,
+    "name": "Punk7",
+    "static": "Bat",
+    "intended": [
+      "punk1"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 32,
+    "name": "Rat",
+    "static": "Rat",
+    "intended": [
+      "rat657494608"
+    ],
+    "override": [],
+    "troops": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "locations": [
+      "Map1 random",
+      "Map15 random",
+      "Map85 random"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Grey Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-grey-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 34,
+    "name": "Blue Slime",
+    "static": "Slime",
+    "intended": [
+      "Slime518641091"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 35,
+    "name": "Red Slime",
+    "static": "Slime",
+    "intended": [
+      "Slime630683762"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 36,
+    "name": "Tar",
+    "static": "Slime",
+    "intended": [
+      "Slime767690166"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 37,
+    "name": "Purple Slime",
+    "static": "Slime",
+    "intended": [
+      "Slime966520927"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 38,
+    "name": "White Goo",
+    "static": "Slime",
+    "intended": [
+      "Slime112319373"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 39,
+    "name": "Alien",
+    "static": "",
+    "intended": [
+      "Alien210143_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 40,
+    "name": "Blue Alien",
+    "static": "",
+    "intended": [
+      "Alien357178_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 41,
+    "name": "Young Alien",
+    "static": "",
+    "intended": [
+      "Alien7137221_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 42,
+    "name": "Cockatrice",
+    "static": "Bat",
+    "intended": [
+      "cockatrice115023772"
+    ],
+    "override": [],
+    "troops": [
+      40
+    ],
+    "locations": []
+  },
+  {
+    "id": 43,
+    "name": "Yellow Cockatrice",
+    "static": "",
+    "intended": [
+      "cockatrice155586115"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 44,
+    "name": "White Cockatrice",
+    "static": "",
+    "intended": [
+      "cockatrice259886913"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 45,
+    "name": "Black Cockatrice",
+    "static": "",
+    "intended": [
+      "cockatrice446945148"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 46,
+    "name": "Blue Cockatrice",
+    "static": "",
+    "intended": [
+      "cockatrice756463860"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 47,
+    "name": "Drone",
+    "static": "",
+    "intended": [
+      "Drone108499806"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 48,
+    "name": "Military Drone",
+    "static": "",
+    "intended": [
+      "Drone285035104"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 49,
+    "name": "Stealth Drone",
+    "static": "",
+    "intended": [
+      "Drone544904500"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 50,
+    "name": "Fancy Drone",
+    "static": "",
+    "intended": [
+      "Drone579342351"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 51,
+    "name": "Armored Drone",
+    "static": "",
+    "intended": [
+      "Drone924648649"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 52,
+    "name": "Black Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-black-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 53,
+    "name": "Brown Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-brown-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 54,
+    "name": "red Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-red-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 55,
+    "name": "Tawny Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-tawny-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 56,
+    "name": "White Wolf",
+    "static": "Slime",
+    "intended": [
+      "wolf-white-sv_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 57,
+    "name": "Snake",
+    "static": "Slime",
+    "intended": [
+      "snake-hornless_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 58,
+    "name": "Black Snake",
+    "static": "Slime",
+    "intended": [
+      "snake-black-red_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 59,
+    "name": "White Snake",
+    "static": "Slime",
+    "intended": [
+      "snake-black-white_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 60,
+    "name": "Garden Snake",
+    "static": "Slime",
+    "intended": [
+      "snake-green_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 61,
+    "name": "Coral Snake",
+    "static": "Slime",
+    "intended": [
+      "snake-orange-yellow_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 62,
+    "name": "Ogre",
+    "static": "Slime",
+    "intended": [
+      "ogre-default_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 63,
+    "name": "Black Ogre",
+    "static": "Slime",
+    "intended": [
+      "ogre-black_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 64,
+    "name": "Gold Ogre",
+    "static": "Slime",
+    "intended": [
+      "ogre-gold_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 65,
+    "name": "Green Ogre",
+    "static": "Slime",
+    "intended": [
+      "ogre-green_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 66,
+    "name": "red Ogre",
+    "static": "Slime",
+    "intended": [
+      "ogre-red_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 67,
+    "name": "Thug",
+    "static": "SF_Thug",
+    "intended": [
+      "robber"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 68,
+    "name": "Orange Rooster",
+    "static": "SF_Thug",
+    "intended": [
+      "Rooster149380371"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 69,
+    "name": "Black Rooster",
+    "static": "SF_Thug",
+    "intended": [
+      "Rooster363225764_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 70,
+    "name": "Yellow Rooster",
+    "static": "SF_Thug",
+    "intended": [
+      "Rooster149380371"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 71,
+    "name": "White Rooster",
+    "static": "SF_Thug",
+    "intended": [
+      "Rooster447517918_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 72,
+    "name": "Grey Rooster",
+    "static": "SF_Thug",
+    "intended": [
+      "Rooster898196553"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 73,
+    "name": "Yellow Scorpion",
+    "static": "Slime",
+    "intended": [
+      "Scorpion204715142"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 74,
+    "name": "Black Scorpion",
+    "static": "Slime",
+    "intended": [
+      "Scorpion637723660"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 75,
+    "name": "Purple Scorpion",
+    "static": "Slime",
+    "intended": [
+      "Scorpion564165695"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 76,
+    "name": "Blue Scorpion",
+    "static": "Slime",
+    "intended": [
+      "Scorpion518206421_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 77,
+    "name": "Fire Scorpion",
+    "static": "Slime",
+    "intended": [
+      "Scorpion462545871_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 78,
+    "name": "Giant Spider",
+    "static": "Slime",
+    "intended": [
+      "spider213583399"
+    ],
+    "override": [
+      "Spider"
+    ],
+    "troops": [
+      45,
+      46
+    ],
+    "locations": [
+      "Map16 event2",
+      "Map18 event2",
+      "Map19 event2"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Brown Recluse",
+    "static": "Slime",
+    "intended": [
+      "spider456796641"
+    ],
+    "override": [
+      "Recluse"
+    ],
+    "troops": [
+      44,
+      45
+    ],
+    "locations": [
+      "Map18 event2",
+      "Map19 event2",
+      "Map32 event3"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Huge Spider",
+    "static": "Slime",
+    "intended": [
+      "spider570665783"
+    ],
+    "override": [
+      "Huge"
+    ],
+    "troops": [
+      43,
+      44
+    ],
+    "locations": [
+      "Map17 event3",
+      "Map32 event3"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Massive Spider",
+    "static": "Slime",
+    "intended": [
+      "spider776702305_orig"
+    ],
+    "override": [
+      "Massive"
+    ],
+    "troops": [
+      42,
+      43
+    ],
+    "locations": [
+      "Map17 event3"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Icky Spider",
+    "static": "Slime",
+    "intended": [
+      "spider930284473"
+    ],
+    "override": [
+      "Icky"
+    ],
+    "troops": [
+      41,
+      42
+    ],
+    "locations": [
+      "Map20 event2"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Orange Fox",
+    "static": "Slime",
+    "intended": [
+      "fox-orange_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 84,
+    "name": "Sandy Fox",
+    "static": "Slime",
+    "intended": [
+      "fox-sandy_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 85,
+    "name": "Red Fox",
+    "static": "Slime",
+    "intended": [
+      "fox-red_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 86,
+    "name": "Silver Fox",
+    "static": "Slime",
+    "intended": [
+      "fox-silver_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 87,
+    "name": "White Fox",
+    "static": "Slime",
+    "intended": [
+      "fox-white_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 88,
+    "name": "Bumble Bee",
+    "static": "Slime",
+    "intended": [
+      "hornet282287884"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 89,
+    "name": "Soldier Bee",
+    "static": "Slime",
+    "intended": [
+      "hornet458985464"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 90,
+    "name": "Bee",
+    "static": "Slime",
+    "intended": [
+      "hornet467842573"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 91,
+    "name": "Worker Bee",
+    "static": "Slime",
+    "intended": [
+      "hornet733005933"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 92,
+    "name": "Hornet",
+    "static": "Slime",
+    "intended": [
+      "hornet842594948_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 93,
+    "name": "Mutant House Plant",
+    "static": "Plant",
+    "intended": [
+      "plant-green_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 94,
+    "name": "Flowering Plant",
+    "static": "Plant",
+    "intended": [
+      "plant-red_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 95,
+    "name": "Winter Plant",
+    "static": "Plant",
+    "intended": [
+      "plant-white_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 96,
+    "name": "Wilted Plant",
+    "static": "Plant",
+    "intended": [
+      "plant-wilted_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 97,
+    "name": "Mouse",
+    "static": "Rat",
+    "intended": [
+      "rat410648364_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 98,
+    "name": "Sewer Rat",
+    "static": "Rat",
+    "intended": [
+      "rat648556256"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 99,
+    "name": "Field Mouse",
+    "static": "Rat",
+    "intended": [
+      "rat8615651156"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 100,
+    "name": "Lab Rat",
+    "static": "Rat",
+    "intended": [
+      "rat960466383"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 101,
+    "name": "Firefox",
+    "static": "Rat",
+    "intended": [
+      "3-tailed-fox-fire_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 102,
+    "name": "Hellspawn Fox",
+    "static": "Rat",
+    "intended": [
+      "3-tailed-fox-hellspawn_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 103,
+    "name": "Arctic Fox",
+    "static": "Rat",
+    "intended": [
+      "3-tailed-fox-ice_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 104,
+    "name": "Three Tailed Fox",
+    "static": "Rat",
+    "intended": [
+      "3-tailed-fox-normal_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 105,
+    "name": "Nocturnal Fox",
+    "static": "Rat",
+    "intended": [
+      "3-tailed-fox-spirit_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 106,
+    "name": "Guardian",
+    "static": "Rat",
+    "intended": [
+      "dark_lord__b_w_"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 107,
+    "name": "Ice Guardian",
+    "static": "Rat",
+    "intended": [
+      "dark_lord__b_w_"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 108,
+    "name": "Golden Guardian",
+    "static": "Rat",
+    "intended": [
+      "dark_lord__gold_"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 109,
+    "name": "Green Guardian",
+    "static": "Rat",
+    "intended": [
+      "dark_lord__green_"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 110,
+    "name": "Advanced Protection Type 1",
+    "static": "Rat",
+    "intended": [
+      "demon-default_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 111,
+    "name": "Advanced Protection Type 2",
+    "static": "Rat",
+    "intended": [
+      "demon-blue_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 112,
+    "name": "Advanced Protection Type 3",
+    "static": "Rat",
+    "intended": [
+      "demon-brown_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 113,
+    "name": "Advanced Protection Type 4",
+    "static": "Rat",
+    "intended": [
+      "demon-red_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 114,
+    "name": "Advanced Protection Type 1",
+    "static": "Rat",
+    "intended": [
+      "demon-white_1_orig"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 115,
+    "name": "Poopoo Caca",
+    "static": "BigPoop",
+    "intended": [],
+    "override": [
+      "Poop"
+    ],
+    "troops": [
+      36
+    ],
+    "locations": [
+      "Map89 event2"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Crap",
+    "static": "crap",
+    "intended": [],
+    "override": [
+      "Turd"
+    ],
+    "troops": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "locations": [
+      "Map46 event3",
+      "Map85 random",
+      "Map89 event2"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "PunkBoss",
+    "static": "Bat",
+    "intended": [
+      "punkBoss1"
+    ],
+    "override": [],
+    "troops": [
+      46
+    ],
+    "locations": [
+      "Map16 event2"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Foot Soldier",
+    "static": "Rat",
+    "intended": [
+      "Soldier13"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 119,
+    "name": "Foot Soldier",
+    "static": "Rat",
+    "intended": [
+      "Soldier12"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 120,
+    "name": "Foot Soldier",
+    "static": "Rat",
+    "intended": [
+      "Soldier11"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 121,
+    "name": "Foot Soldier",
+    "static": "Rat",
+    "intended": [
+      "Soldier10"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 122,
+    "name": "Foot Soldier",
+    "static": "Rat",
+    "intended": [
+      "Soldier9"
+    ],
+    "override": [],
+    "troops": [],
+    "locations": []
+  },
+  {
+    "id": 142,
+    "name": "The Repossessor",
+    "static": "SF_Doll",
+    "intended": [],
+    "override": [
+      "Repossessor"
+    ],
+    "troops": [
+      51
+    ],
+    "locations": [
+      "Map138 event4"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "SEAM-3000",
+    "static": "Mimic",
+    "intended": [],
+    "override": [
+      "Seam"
+    ],
+    "troops": [
+      52
+    ],
+    "locations": [
+      "Map2 event23",
+      "Map2 event26"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Malfunctioning A.S.P. Drone",
+    "static": "Bat",
+    "intended": [],
+    "override": [
+      "Drone"
+    ],
+    "troops": [
+      53
+    ],
+    "locations": [
+      "Map30 event0",
+      "Map30 event2"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Chief Compliance Orifice",
+    "static": "custodians/Compliance",
+    "intended": [],
+    "override": [
+      "Compliance"
+    ],
+    "troops": [
+      54
+    ],
+    "locations": [
+      "Map224 event2"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "The Deductible Duke",
+    "static": "custodians/Duke",
+    "intended": [],
+    "override": [
+      "Duke"
+    ],
+    "troops": [
+      55
+    ],
+    "locations": [
+      "Map226 event2"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Postmaster Septic",
+    "static": "custodians/Septic",
+    "intended": [],
+    "override": [
+      "Septic"
+    ],
+    "troops": [
+      56
+    ],
+    "locations": [
+      "Map228 event2"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Admiral Clap",
+    "static": "custodians/Clap",
+    "intended": [],
+    "override": [
+      "Clap"
+    ],
+    "troops": [
+      57
+    ],
+    "locations": [
+      "Map230 event2"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "The REMployee of the Month",
+    "static": "custodians/REM",
+    "intended": [],
+    "override": [
+      "REM"
+    ],
+    "troops": [
+      58
+    ],
+    "locations": [
+      "Map232 event2"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "The Ticket Widow",
+    "static": "custodians/Widow",
+    "intended": [],
+    "override": [
+      "Widow"
+    ],
+    "troops": [
+      59
+    ],
+    "locations": [
+      "Map234 event2"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "The Underwriter",
+    "static": "custodians/Compliance",
+    "intended": [],
+    "override": [
+      "Underwriter"
+    ],
+    "troops": [
+      60
+    ],
+    "locations": [
+      "Map238 event2"
+    ]
+  }
+]

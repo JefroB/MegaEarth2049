@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "Jen accepts case at the new outpatient NPC",
+    "patient limits confirmed through native consent choice",
+    "existing lift and analyst review establish treatment-only permit",
+    "existing return lifts reach intact intake and clear local care slot",
+    "authorized care and personal EXP succeed with full kit inventory",
+    "kit collected later without repeating care EXP or charging party",
+    "native Completion Log records the finished Jen chapter",
+    "civilian exemption route and shredded-stub outcome work without money",
+    "native walking reaches all case NPCs and existing lifts"
+  ],
+  "walkedSteps": 214,
+  "errors": []
+}

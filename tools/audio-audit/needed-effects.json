@@ -1,0 +1,142 @@
+[
+  {
+    "id": "SFX01",
+    "priority": "High",
+    "effect": "Elevator start / travel / stop",
+    "proposed_files": "ME_ElevatorStart;ME_ElevatorRun;ME_ElevatorStop",
+    "use": "Beanstalk and explicit lift travel",
+    "current_fallback": "Machine / Door3 stock approximation",
+    "length_and_character": "Start/stop0.2\u20130.7s; travel loop0.8\u20131.5s, seamless",
+    "integration_notes": "Literal Elevator references are repaired with Machine; no dedicated motor/cable/arrival set identified."
+  },
+  {
+    "id": "SFX02",
+    "priority": "High",
+    "effect": "Rubber chicken squeak",
+    "proposed_files": "ME_RubberChickenSqueak",
+    "use": "Executive/Union Rubber Chicken impact",
+    "current_fallback": "Blow1 impact retained",
+    "length_and_character": "0.2\u20130.7s rubber squeak; no animal voice or speech",
+    "integration_notes": "Signature joke weapon currently has impact sound but no identified squeaker recording."
+  },
+  {
+    "id": "SFX03",
+    "priority": "High",
+    "effect": "Sewing machine and cloth feed",
+    "proposed_files": "ME_SeamNeedleRun;ME_ClothFeed",
+    "use": "SEAM-3000 needle, wheel and cloth attack",
+    "current_fallback": "Existing slash/attack audio",
+    "length_and_character": "0.5\u20131s needle loop;0.3\u20130.7s cloth pull",
+    "integration_notes": "Needs an attack-timed cue, not a new sound on every rendered sprite frame."
+  },
+  {
+    "id": "SFX04",
+    "priority": "High",
+    "effect": "Scanner / actuator charge / jam / reset",
+    "proposed_files": "ME_ScannerPing;ME_ClampCharge;ME_ClampJam;ME_ActuatorReset",
+    "use": "Repossessor scan, charge and reset; clamp/jam identity",
+    "current_fallback": "Hammer impact and Paralyze1 jam; scanner/reset still need wiring",
+    "length_and_character": "Ping/reset0.2\u20130.5s; charge0.6\u20131.2s; jam0.2\u20130.5s",
+    "integration_notes": "Skills151/154 have scope0. They require an explicit action cue; assigning an animation alone does not play it. Avoid repeated charge overlap."
+  },
+  {
+    "id": "SFX05",
+    "priority": "Medium",
+    "effect": "Wet body-horror impact / pathogen burst",
+    "proposed_files": "ME_WetImpact;ME_PathogenBurst",
+    "use": "Organic miniboss attacks and disease applications",
+    "current_fallback": "Poison/Liquid-type stock palette",
+    "length_and_character": "0.15\u20130.6s; viscous flesh/pop, not toilet comedy",
+    "integration_notes": "No identified bespoke visceral body/lesion recording; generic poison is a functional fallback."
+  },
+  {
+    "id": "SFX06",
+    "priority": "Medium",
+    "effect": "Cough / sneeze",
+    "proposed_files": "ME_Cough;ME_Sneeze",
+    "use": "Influenza onset or explicitly authored sick NPC action",
+    "current_fallback": "No substitute voice added",
+    "length_and_character": "0.3\u20130.8s, restrained nonverbal performance",
+    "integration_notes": "Trigger on an authored onset/action, not every dialogue line or every turn. Do not imply all STDs cause respiratory symptoms."
+  },
+  {
+    "id": "SFX07",
+    "priority": "Medium",
+    "effect": "Stapler clack / staple bite",
+    "proposed_files": "ME_StaplerClack;ME_StapleHit",
+    "use": "Pink-Slip/Tenured Stapler launch and impact",
+    "current_fallback": "Switch1 replaces the gunshot",
+    "length_and_character": "0.1\u20130.3s mechanical clack;0.1\u20130.25s metal bite",
+    "integration_notes": "Switch1 is a click fallback, not a verified stapler recording."
+  },
+  {
+    "id": "SFX08",
+    "priority": "Medium",
+    "effect": "MAX tread roll",
+    "proposed_files": "ME_TreadStart;ME_TreadLoop;ME_TreadStop",
+    "use": "MAX-E-MUM walking motion",
+    "current_fallback": "No continuous walking SE added",
+    "length_and_character": "Short start/stop; seamless0.6\u20131.2s loop",
+    "integration_notes": "Movement/stop/map-transfer/menu cleanup integration is required. Never restart a loop every animation frame."
+  },
+  {
+    "id": "SFX09",
+    "priority": "Medium",
+    "effect": "Distinct boss warning / phase break",
+    "proposed_files": "ME_BossWarning;ME_PhaseBreak",
+    "use": "Custom boss telegraph and main-boss phase change",
+    "current_fallback": "Computer warning on self-targeted warning actions",
+    "length_and_character": "Warning0.25\u20130.6s; phase0.8\u20131.5s, restrained",
+    "integration_notes": "Keep text primary; dedicated phase-transition cue still needs a controller hook. No vocal performance or music replacement is implied."
+  },
+  {
+    "id": "SFX10",
+    "priority": "Optional polish",
+    "effect": "Paper projectile outbound / return",
+    "proposed_files": "ME_PaperThrow;ME_PaperReturn",
+    "use": "Terms & Conditions and Boomerang Invoice",
+    "current_fallback": "Book1 page flick + existing impact",
+    "length_and_character": "0.2\u20130.5s paper flap/flick with distinct return",
+    "integration_notes": "Stock Book1 already covers the paper material; bespoke travel sound is optional polish, not a broken reference."
+  },
+  {
+    "id": "SFX11",
+    "priority": "Optional polish",
+    "effect": "Cash-register mechanism",
+    "proposed_files": "ME_RegisterOpen;ME_RegisterClose",
+    "use": "Deductible Duke chest-register action",
+    "current_fallback": "Existing drain/impact animation audio",
+    "length_and_character": "0.25\u20130.8s spring drawer / till rattle",
+    "integration_notes": "Requires pose/action timing; do not fake it with an unrelated applause or cash reward cue."
+  },
+  {
+    "id": "SFX12",
+    "priority": "Optional polish",
+    "effect": "Nanite swarm / plating latch",
+    "proposed_files": "ME_NaniteSwarm;ME_PlatingLatch",
+    "use": "Repair Swarm, Active Recovery and Install Plating",
+    "current_fallback": "Recovery / Equip1",
+    "length_and_character": "0.4\u20131s delicate assembly;0.15\u20130.4s armor latch",
+    "integration_notes": "Existing stock cues are usable; dedicated technology textures are optional replacements."
+  },
+  {
+    "id": "FMT01",
+    "priority": "High for M4A-backend release",
+    "effect": "Chainsaw AAC counterpart",
+    "proposed_files": "Chainsaw1.m4a",
+    "use": "Animation125 chainsaw",
+    "current_fallback": "Existing Chainsaw1.ogg",
+    "length_and_character": "Transcode the existing recording; same content/duration",
+    "integration_notes": "Missing format, not a missing sound recording. M4A delivery is still needed; the existing Ogg was not renamed or fabricated."
+  },
+  {
+    "id": "FMT02",
+    "priority": "Low / unused asset",
+    "effect": "Accept AAC counterpart",
+    "proposed_files": "accept.m4a",
+    "use": "Currently unreferenced library effect",
+    "current_fallback": "Existing accept.ogg",
+    "length_and_character": "Transcode only if retaining this asset for M4A-backend use",
+    "integration_notes": "No current native caller was found; this is library/portability housekeeping."
+  }
+]

@@ -1,0 +1,74 @@
+# MegaEarth2049 Simple Map Summary Generator
+# This script generates a simple summary of all maps in the game
+
+# Function to generate a simple map summary
+function Generate-MapSummary {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputFile = "map_summary.txt"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Create a summary file
+    "MegaEarth2049 Map Summary" | Out-File -FilePath $outputFile -Encoding utf8
+    "Generated on: $(Get-Date)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    "Total Maps: $($mapFiles.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    "Map List:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        try {
+            # Get map ID from filename
+            $mapId = [regex]::Match($mapFile.Name, 'Map(\d+)\.json').Groups[1].Value
+            
+            # Read the map file
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            
+            # Count events
+            $eventCount = 0
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null) {
+                    $eventCount++
+                }
+            }
+            
+            # Write map info to the summary file
+            "Map $mapId: $($mapContent.displayName)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "  Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "  Tileset ID: $($mapContent.tilesetId)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "  Events: $eventCount" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            
+            Write-Host "  Processed Map $mapId" -ForegroundColor Green
+        }
+        catch {
+            Write-Host "  Error processing Map $mapId: $_" -ForegroundColor Red
+            
+            # Write error to the summary file
+            "Map $mapId: Error processing map" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "  Error: $_" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+            "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+    }
+    
+    Write-Host "Created map summary at $outputFile" -ForegroundColor Green
+}
+
+# Main script execution
+Generate-MapSummary

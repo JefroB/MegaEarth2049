@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "rounds": [
+    {
+      "key": "Septic",
+      "trace": [
+        {
+          "id": 164,
+          "turn": 1
+        },
+        {
+          "id": 165,
+          "turn": 2
+        },
+        {
+          "id": 166,
+          "turn": 3
+        }
+      ],
+      "lyrics": [
+        "Postmaster Septic emerged!"
+      ],
+      "charged": 0,
+      "rig": "Septic"
+    }
+  ],
+  "skippedWarning": {
+    "id": 160,
+    "charge": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,226 @@
+# MegaEarth2049 Incomplete Map Analyzer
+# This script analyzes map files and identifies potentially incomplete maps
+
+# Function to analyze maps and identify incomplete ones
+function Analyze-IncompleteMaps {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputFile = "incomplete_maps_report.txt"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Create a report file
+    "MegaEarth2049 Incomplete Maps Report" | Out-File -FilePath $outputFile -Encoding utf8
+    "Generated on: $(Get-Date)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    "Total Maps: $($mapFiles.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # Arrays to store different categories of maps
+    $completeMaps = @()
+    $noNameMaps = @()
+    $noEventsMaps = @()
+    $noTilesMaps = @()
+    $smallMaps = @()
+    $errorMaps = @()
+    $largeMaps = @()
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        try {
+            # Get map ID from filename
+            $mapId = $mapFile.Name -replace "Map", "" -replace "\.json", ""
+            
+            # Read the map file
+            $mapContent = Get-Content $mapFile.FullName -Raw | ConvertFrom-Json
+            
+            # Check if the map has a display name
+            $hasName = -not [string]::IsNullOrWhiteSpace($mapContent.displayName)
+            
+            # Count events
+            $eventCount = 0
+            foreach ($event in $mapContent.events) {
+                if ($event -ne $null) {
+                    $eventCount++
+                }
+            }
+            
+            # Check map dimensions
+            $width = $mapContent.width
+            $height = $mapContent.height
+            $isSmall = ($width -lt 5 -or $height -lt 5)
+            $isLarge = ($width -gt 100 -or $height -gt 100)
+            
+            # Check if the map has tiles
+            $hasTiles = $false
+            foreach ($tileValue in $mapContent.data) {
+                if ($tileValue -ne 0) {
+                    $hasTiles = $true
+                    break
+                }
+            }
+            
+            # Categorize the map
+            if (-not $hasTiles) {
+                $noTilesMaps += @{
+                    "id" = $mapId
+                    "name" = if ($hasName) { $mapContent.displayName } else { "No Name" }
+                    "width" = $width
+                    "height" = $height
+                    "events" = $eventCount
+                }
+            }
+            elseif (-not $hasName) {
+                $noNameMaps += @{
+                    "id" = $mapId
+                    "width" = $width
+                    "height" = $height
+                    "events" = $eventCount
+                }
+            }
+            elseif ($eventCount -eq 0) {
+                $noEventsMaps += @{
+                    "id" = $mapId
+                    "name" = $mapContent.displayName
+                    "width" = $width
+                    "height" = $height
+                }
+            }
+            elseif ($isSmall) {
+                $smallMaps += @{
+                    "id" = $mapId
+                    "name" = $mapContent.displayName
+                    "width" = $width
+                    "height" = $height
+                    "events" = $eventCount
+                }
+            }
+            elseif ($isLarge) {
+                $largeMaps += @{
+                    "id" = $mapId
+                    "name" = $mapContent.displayName
+                    "width" = $width
+                    "height" = $height
+                    "events" = $eventCount
+                }
+            }
+            else {
+                $completeMaps += @{
+                    "id" = $mapId
+                    "name" = $mapContent.displayName
+                    "width" = $width
+                    "height" = $height
+                    "events" = $eventCount
+                }
+            }
+            
+            Write-Host "  Processed Map $mapId" -ForegroundColor Green
+        }
+        catch {
+            $mapId = $mapFile.Name -replace "Map", "" -replace "\.json", ""
+            $errorMaps += @{
+                "id" = $mapId
+                "error" = $_.Exception.Message
+            }
+            
+            Write-Host "  Error processing Map $mapId" -ForegroundColor Red
+        }
+    }
+    
+    # Write the report
+    "Complete Maps: $($completeMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Maps Without Names: $($noNameMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Maps Without Events: $($noEventsMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Maps Without Tiles: $($noTilesMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Small Maps (< 5x5): $($smallMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Large Maps (> 100x100): $($largeMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "Maps With Errors: $($errorMaps.Count)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    
+    # List maps without names
+    if ($noNameMaps.Count -gt 0) {
+        "Maps Without Names:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $noNameMaps) {
+            "Map $($map.id): Dimensions: $($map.width) x $($map.height), Events: $($map.events)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List maps without events
+    if ($noEventsMaps.Count -gt 0) {
+        "Maps Without Events:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $noEventsMaps) {
+            "Map $($map.id): $($map.name), Dimensions: $($map.width) x $($map.height)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List maps without tiles
+    if ($noTilesMaps.Count -gt 0) {
+        "Maps Without Tiles:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $noTilesMaps) {
+            "Map $($map.id): $($map.name), Dimensions: $($map.width) x $($map.height), Events: $($map.events)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List small maps
+    if ($smallMaps.Count -gt 0) {
+        "Small Maps (< 5x5):" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $smallMaps) {
+            "Map $($map.id): $($map.name), Dimensions: $($map.width) x $($map.height), Events: $($map.events)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List large maps
+    if ($largeMaps.Count -gt 0) {
+        "Large Maps (> 100x100):" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $largeMaps) {
+            "Map $($map.id): $($map.name), Dimensions: $($map.width) x $($map.height), Events: $($map.events)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List maps with errors
+    if ($errorMaps.Count -gt 0) {
+        "Maps With Errors:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $errorMaps) {
+            "Map $($map.id): Error: $($map.error)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    # List complete maps
+    if ($completeMaps.Count -gt 0) {
+        "Complete Maps:" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        "----------------------------------------" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        foreach ($map in $completeMaps) {
+            "Map $($map.id): $($map.name), Dimensions: $($map.width) x $($map.height), Events: $($map.events)" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+        "" | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+    
+    Write-Host "Created incomplete maps report at $outputFile" -ForegroundColor Green
+}
+
+# Main script execution
+Analyze-IncompleteMaps

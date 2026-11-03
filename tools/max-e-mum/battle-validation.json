@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "personal skills appear in native Ability menu and support action opens ally selector",
+    "skill1 completes native motion/animation/effect with registered96px frame",
+    "skill280 completes native motion/animation/effect with registered96px frame",
+    "skill281 completes native motion/animation/effect with registered96px frame",
+    "skill282 completes native motion/animation/effect with registered96px frame",
+    "battle exit retains companion and clears temporary battle repair"
+  ],
+  "errors": [],
+  "missing": []
+}

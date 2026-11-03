@@ -1,0 +1,9 @@
+{
+  "manifest": "D:\\MegaEarth2049-AI_Round-2\\tools\\pink-story\\crops.json",
+  "passed": true,
+  "checked_cells": [
+    "Own Voice"
+  ],
+  "errors": [],
+  "limitation": "Does not verify subject ownership, complete anatomy or intended motion; inspect exact packed cells visually."
+}

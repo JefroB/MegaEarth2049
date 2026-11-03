@@ -1,3 +1,4 @@
+
 # RPG Maker MV specific
 save/
 node_modules/
@@ -82,3 +83,24 @@ typings/
 .vscode/
 *.swp
 *.swo
+
+# Local editor metadata
+.piggie/
+
+# Local player saves
+*.rpgsave
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local audit/recovery snapshots; source, reports and art remain tracked
+/tools/**/*.zip
+
+# Local environment variants
+.env.*
+!.env.example
+

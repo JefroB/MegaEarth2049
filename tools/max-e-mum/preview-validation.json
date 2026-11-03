@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "widths": [
+    1200,
+    360
+  ],
+  "motions": 18,
+  "directions": 4,
+  "riggedMotionChangesPixels": true,
+  "errors": [],
+  "missing": []
+}

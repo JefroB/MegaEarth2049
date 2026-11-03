@@ -1,0 +1,441 @@
+{
+  "icons": [
+    {
+      "kind": "Items",
+      "slot": 6,
+      "id": 1770,
+      "source": "SuppliesAtlas",
+      "cell": 0
+    },
+    {
+      "kind": "Items",
+      "slot": 8,
+      "id": 1771,
+      "source": "SuppliesAtlas",
+      "cell": 1
+    },
+    {
+      "kind": "Items",
+      "slot": 9,
+      "id": 1772,
+      "source": "SuppliesAtlas",
+      "cell": 2
+    },
+    {
+      "kind": "Items",
+      "slot": 4,
+      "id": 1773,
+      "source": "SuppliesAtlas",
+      "cell": 3
+    },
+    {
+      "kind": "Items",
+      "slot": 13,
+      "id": 1774,
+      "source": "SuppliesAtlas",
+      "cell": 4
+    },
+    {
+      "kind": "Items",
+      "slot": 1,
+      "id": 1775,
+      "source": "SuppliesAtlas",
+      "cell": 5
+    },
+    {
+      "kind": "Armors",
+      "slot": 2,
+      "id": 1776,
+      "source": "ClothingAtlas",
+      "cell": 16
+    },
+    {
+      "kind": "Armors",
+      "slot": 7,
+      "id": 1777,
+      "source": "ClothingAtlas",
+      "cell": 21
+    },
+    {
+      "kind": "Armors",
+      "slot": 8,
+      "id": 1778,
+      "source": "ClothingAtlas",
+      "cell": 1
+    },
+    {
+      "kind": "Armors",
+      "slot": 9,
+      "id": 1779,
+      "source": "ClothingAtlas",
+      "cell": 2
+    },
+    {
+      "kind": "Armors",
+      "slot": 10,
+      "id": 1780,
+      "source": "ClothingAtlas",
+      "cell": 3
+    },
+    {
+      "kind": "Armors",
+      "slot": 11,
+      "id": 1781,
+      "source": "ClothingAtlas",
+      "cell": 4
+    },
+    {
+      "kind": "Armors",
+      "slot": 12,
+      "id": 1782,
+      "source": "ClothingAtlas",
+      "cell": 9
+    },
+    {
+      "kind": "Armors",
+      "slot": 13,
+      "id": 1783,
+      "source": "ClothingAtlas",
+      "cell": 10
+    },
+    {
+      "kind": "Armors",
+      "slot": 14,
+      "id": 1784,
+      "source": "ClothingAtlas",
+      "cell": 12
+    },
+    {
+      "kind": "Armors",
+      "slot": 15,
+      "id": 1785,
+      "source": "ClothingAtlas",
+      "cell": 11
+    },
+    {
+      "kind": "Armors",
+      "slot": 16,
+      "id": 1786,
+      "source": "ClothingAtlas",
+      "cell": 17
+    },
+    {
+      "kind": "Armors",
+      "slot": 17,
+      "id": 1787,
+      "source": "ClothingAtlas",
+      "cell": 18
+    },
+    {
+      "kind": "Armors",
+      "slot": 18,
+      "id": 1788,
+      "source": "ClothingAtlas",
+      "cell": 20
+    },
+    {
+      "kind": "Armors",
+      "slot": 19,
+      "id": 1789,
+      "source": "ClothingAtlas",
+      "cell": 19
+    },
+    {
+      "kind": "Armors",
+      "slot": 20,
+      "id": 1790,
+      "source": "ClothingAtlas",
+      "cell": 25
+    },
+    {
+      "kind": "Armors",
+      "slot": 21,
+      "id": 1791,
+      "source": "ClothingAtlas",
+      "cell": 26
+    },
+    {
+      "kind": "Armors",
+      "slot": 22,
+      "id": 1792,
+      "source": "ClothingAtlas",
+      "cell": 28
+    },
+    {
+      "kind": "Armors",
+      "slot": 23,
+      "id": 1793,
+      "source": "ClothingAtlas",
+      "cell": 27
+    },
+    {
+      "kind": "Armors",
+      "slot": 24,
+      "id": 1794,
+      "source": "ClothingAtlas",
+      "cell": 33
+    },
+    {
+      "kind": "Armors",
+      "slot": 25,
+      "id": 1795,
+      "source": "ClothingAtlas",
+      "cell": 34
+    },
+    {
+      "kind": "Armors",
+      "slot": 26,
+      "id": 1796,
+      "source": "ClothingAtlas",
+      "cell": 35
+    },
+    {
+      "kind": "Armors",
+      "slot": 27,
+      "id": 1797,
+      "source": "ClothingAtlas",
+      "cell": 41
+    },
+    {
+      "kind": "Armors",
+      "slot": 28,
+      "id": 1798,
+      "source": "ClothingAtlas",
+      "cell": 42
+    },
+    {
+      "kind": "Armors",
+      "slot": 29,
+      "id": 1799,
+      "source": "ClothingAtlas",
+      "cell": 43
+    },
+    {
+      "kind": "Armors",
+      "slot": 31,
+      "id": 1800,
+      "source": "ClothingAtlas",
+      "cell": 5
+    },
+    {
+      "kind": "Armors",
+      "slot": 32,
+      "id": 1801,
+      "source": "ClothingAtlas",
+      "cell": 13
+    },
+    {
+      "kind": "Armors",
+      "slot": 33,
+      "id": 1802,
+      "source": "ClothingAtlas",
+      "cell": 21
+    },
+    {
+      "kind": "Armors",
+      "slot": 34,
+      "id": 1803,
+      "source": "ClothingAtlas",
+      "cell": 37
+    },
+    {
+      "kind": "Armors",
+      "slot": 35,
+      "id": 1804,
+      "source": "ClothingAtlas",
+      "cell": 45
+    },
+    {
+      "kind": "Armors",
+      "slot": 37,
+      "id": 1805,
+      "source": "ClothingAtlas",
+      "cell": 38
+    },
+    {
+      "kind": "Armors",
+      "slot": 38,
+      "id": 1806,
+      "source": "ClothingAtlas",
+      "cell": 42
+    },
+    {
+      "kind": "Armors",
+      "slot": 39,
+      "id": 1807,
+      "source": "ClothingAtlas",
+      "cell": 41
+    },
+    {
+      "kind": "Armors",
+      "slot": 40,
+      "id": 1808,
+      "source": "ClothingAtlas",
+      "cell": 43
+    },
+    {
+      "kind": "Armors",
+      "slot": 41,
+      "id": 1809,
+      "source": "ClothingAtlas",
+      "cell": 44
+    },
+    {
+      "kind": "Armors",
+      "slot": 42,
+      "id": 1810,
+      "source": "ClothingAtlas",
+      "cell": 42
+    },
+    {
+      "kind": "Armors",
+      "slot": 43,
+      "id": 1811,
+      "source": "ClothingAtlas",
+      "cell": 46
+    },
+    {
+      "kind": "Armors",
+      "slot": 44,
+      "id": 1812,
+      "source": "ClothingAtlas",
+      "cell": 62
+    },
+    {
+      "kind": "Armors",
+      "slot": 45,
+      "id": 1813,
+      "source": "ClothingAtlas",
+      "cell": 30
+    },
+    {
+      "kind": "Armors",
+      "slot": 46,
+      "id": 1814,
+      "source": "ClothingAtlas",
+      "cell": 58
+    },
+    {
+      "kind": "Armors",
+      "slot": 47,
+      "id": 1815,
+      "source": "ClothingAtlas",
+      "cell": 37
+    },
+    {
+      "kind": "Armors",
+      "slot": 48,
+      "id": 1816,
+      "source": "ClothingAtlas",
+      "cell": 10,
+      "filter": "saturate(0.35)"
+    },
+    {
+      "kind": "Armors",
+      "slot": 49,
+      "id": 1817,
+      "source": "ClothingAtlas",
+      "cell": 1
+    },
+    {
+      "kind": "Armors",
+      "slot": 51,
+      "id": 1818,
+      "source": "ClothingAtlas",
+      "cell": 15,
+      "filter": "saturate(0.35)"
+    },
+    {
+      "kind": "Armors",
+      "slot": 52,
+      "id": 1819,
+      "source": "ClothingAtlas",
+      "cell": 59
+    },
+    {
+      "kind": "Armors",
+      "slot": 53,
+      "id": 1820,
+      "source": "ClothingAtlas",
+      "cell": 51
+    },
+    {
+      "kind": "Armors",
+      "slot": 54,
+      "id": 1821,
+      "source": "ClothingAtlas",
+      "cell": 27
+    },
+    {
+      "kind": "Armors",
+      "slot": 55,
+      "id": 1822,
+      "source": "ClothingAtlas",
+      "cell": 44
+    },
+    {
+      "kind": "Armors",
+      "slot": 56,
+      "id": 1823,
+      "source": "ClothingAtlas",
+      "cell": 41
+    },
+    {
+      "kind": "Armors",
+      "slot": 57,
+      "id": 1824,
+      "source": "ClothingAtlas",
+      "cell": 44
+    },
+    {
+      "kind": "Armors",
+      "slot": 58,
+      "id": 1825,
+      "source": "ClothingAtlas",
+      "cell": 52
+    },
+    {
+      "kind": "Armors",
+      "slot": 60,
+      "id": 1826,
+      "source": "ClothingAtlas",
+      "cell": 29
+    },
+    {
+      "kind": "Armors",
+      "slot": 61,
+      "id": 1827,
+      "source": "ClothingAtlas",
+      "cell": 36
+    },
+    {
+      "kind": "Armors",
+      "slot": 30,
+      "id": 1828,
+      "source": "ClothingAtlas",
+      "cell": 44
+    }
+  ],
+  "xs": [
+    0,
+    164,
+    326,
+    478,
+    655,
+    802,
+    976,
+    1132,
+    1295
+  ],
+  "ys": [
+    0,
+    150,
+    297,
+    442,
+    590,
+    737,
+    884,
+    1033,
+    1214
+  ]
+}

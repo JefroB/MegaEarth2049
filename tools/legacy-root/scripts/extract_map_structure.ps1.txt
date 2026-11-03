@@ -1,0 +1,109 @@
+# MegaEarth2049 Map Structure Extractor
+# This script extracts structure information from RPG Maker MV map files
+
+# Function to extract map structure
+function Extract-MapStructure {
+    param (
+        [string]$mapFile,
+        [string]$outputDir = "map_structure"
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Extracting structure from map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content as text
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Create a structure file
+        $structureFile = "$outputDir/Map${mapId}_structure.txt"
+        "Map Structure for Map $mapId" | Out-File -FilePath $structureFile -Encoding utf8
+        "Display Name: $($mapContent.displayName)" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+        "Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+        "Tileset ID: $($mapContent.tilesetId)" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+        
+        # Count non-null events
+        $eventCount = 0
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+            }
+        }
+        "Total Events: $eventCount" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+        
+        # List named events (not just EV001, etc.)
+        "Named Events:" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                if (-not [string]::IsNullOrEmpty($event.name)) {
+                    if (-not $event.name.StartsWith("EV")) {
+                        "  $($event.name) at ($($event.x),$($event.y))" | Out-File -FilePath $structureFile -Encoding utf8 -Append
+                    }
+                }
+            }
+        }
+        
+        Write-Host "  Created structure file at $structureFile" -ForegroundColor Green
+        Write-Host "Completed extracting structure from map $mapId" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error extracting structure from map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Function to process all maps in a directory
+function Process-AllMaps {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_structure"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        Extract-MapStructure -mapFile $mapFile.FullName -outputDir $outputDir
+    }
+    
+    Write-Host "Completed processing all maps" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# Extract structure from a single map:
+# Extract-MapStructure -mapFile "data/Map001.json"
+#
+# Process all maps in the data directory:
+# Process-AllMaps

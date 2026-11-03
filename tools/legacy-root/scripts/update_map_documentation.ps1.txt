@@ -1,0 +1,132 @@
+# MegaEarth2049 Map Documentation Updater
+# This script updates the map documentation whenever map files are modified
+
+# Function to update map documentation
+function Update-MapDocumentation {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "."
+    )
+    
+    Write-Host "Updating MegaEarth2049 Map Documentation..." -ForegroundColor Cyan
+    
+    # Step 1: Run the analyze_incomplete_maps.ps1 script
+    Write-Host "Step 1: Analyzing maps and identifying incomplete maps..." -ForegroundColor Yellow
+    & "$outputDir\analyze_incomplete_maps.ps1" -mapDir $mapDir -outputFile "$outputDir\incomplete_maps_report.txt"
+    
+    # Step 2: Read the incomplete maps report
+    Write-Host "Step 2: Reading incomplete maps report..." -ForegroundColor Yellow
+    $reportContent = Get-Content "$outputDir\incomplete_maps_report.txt" -Raw
+    
+    # Extract map statistics
+    $totalMaps = [regex]::Match($reportContent, 'Total Maps: (\d+)').Groups[1].Value
+    $completeMaps = [regex]::Match($reportContent, 'Complete Maps: (\d+)').Groups[1].Value
+    $noNameMaps = [regex]::Match($reportContent, 'Maps Without Names: (\d+)').Groups[1].Value
+    $noEventsMaps = [regex]::Match($reportContent, 'Maps Without Events: (\d+)').Groups[1].Value
+    $errorMaps = [regex]::Match($reportContent, 'Maps With Errors: (\d+)').Groups[1].Value
+    
+    # Step 3: Update the map documentation
+    Write-Host "Step 3: Updating map documentation..." -ForegroundColor Yellow
+    
+    # Read the current documentation if it exists
+    $docFile = "$outputDir\MegaEarth2049_Map_Documentation.md"
+    $docContent = ""
+    
+    if (Test-Path $docFile) {
+        $docContent = Get-Content $docFile -Raw
+        
+        # Update the statistics section
+        $docContent = [regex]::Replace($docContent, '- \*\*Total Maps\*\*: \d+', "- **Total Maps**: $totalMaps")
+        $docContent = [regex]::Replace($docContent, '- \*\*Complete Maps\*\*: \d+', "- **Complete Maps**: $completeMaps")
+        $docContent = [regex]::Replace($docContent, '- \*\*Maps Without Names\*\*: \d+', "- **Maps Without Names**: $noNameMaps")
+        $docContent = [regex]::Replace($docContent, '- \*\*Maps Without Events\*\*: \d+', "- **Maps Without Events**: $noEventsMaps")
+        $docContent = [regex]::Replace($docContent, '- \*\*Maps With Errors\*\*: \d+', "- **Maps With Errors**: $errorMaps")
+        
+        # Update the timestamp
+        $docContent = [regex]::Replace($docContent, '\*This documentation was generated on .+\*', "*This documentation was generated on $(Get-Date -Format 'MMMM d, yyyy') using the MegaEarth2049 Map Analysis Tools.*")
+        
+        # Write the updated documentation
+        $docContent | Out-File -FilePath $docFile -Encoding utf8
+    }
+    else {
+        # If the documentation doesn't exist, run the document_maps.bat file
+        Write-Host "  Documentation file not found. Running document_maps.bat..." -ForegroundColor Yellow
+        & "$outputDir\document_maps.bat"
+    }
+    
+    Write-Host "Map documentation updated successfully!" -ForegroundColor Green
+}
+
+# Function to monitor map files for changes
+function Monitor-MapFiles {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = ".",
+        [int]$interval = 60  # Check every 60 seconds
+    )
+    
+    Write-Host "Starting map file monitor..." -ForegroundColor Cyan
+    Write-Host "Monitoring directory: $mapDir" -ForegroundColor Cyan
+    Write-Host "Check interval: $interval seconds" -ForegroundColor Cyan
+    Write-Host "Press Ctrl+C to stop monitoring." -ForegroundColor Cyan
+    Write-Host ""
+    
+    # Get initial file information
+    $lastCheck = Get-ChildItem -Path $mapDir -Filter "Map*.json" | Select-Object Name, LastWriteTime
+    
+    # Initial update
+    Update-MapDocumentation -mapDir $mapDir -outputDir $outputDir
+    
+    # Monitor loop
+    while ($true) {
+        Start-Sleep -Seconds $interval
+        
+        # Get current file information
+        $currentCheck = Get-ChildItem -Path $mapDir -Filter "Map*.json" | Select-Object Name, LastWriteTime
+        
+        # Check for changes
+        $changes = $false
+        
+        # Check for modified files
+        foreach ($file in $currentCheck) {
+            $lastFile = $lastCheck | Where-Object { $_.Name -eq $file.Name }
+            
+            if ($lastFile -eq $null -or $lastFile.LastWriteTime -ne $file.LastWriteTime) {
+                Write-Host "Map file changed: $($file.Name)" -ForegroundColor Yellow
+                $changes = $true
+            }
+        }
+        
+        # Check for deleted files
+        foreach ($file in $lastCheck) {
+            $currentFile = $currentCheck | Where-Object { $_.Name -eq $file.Name }
+            
+            if ($currentFile -eq $null) {
+                Write-Host "Map file deleted: $($file.Name)" -ForegroundColor Red
+                $changes = $true
+            }
+        }
+        
+        # Update documentation if changes were detected
+        if ($changes) {
+            Write-Host "Changes detected. Updating documentation..." -ForegroundColor Yellow
+            Update-MapDocumentation -mapDir $mapDir -outputDir $outputDir
+        }
+        else {
+            Write-Host "No changes detected." -ForegroundColor Gray
+        }
+        
+        # Update last check
+        $lastCheck = $currentCheck
+    }
+}
+
+# Main script execution
+if ($args.Count -gt 0 -and $args[0] -eq "monitor") {
+    # Start monitoring
+    Monitor-MapFiles
+}
+else {
+    # Just update once
+    Update-MapDocumentation
+}

@@ -1,0 +1,152 @@
+{
+  "source": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\master.png",
+  "alpha_threshold": 8,
+  "source_margin": 4,
+  "target_margin": 4,
+  "cells": [
+    {
+      "name": "side",
+      "source_rect": [
+        26,
+        7,
+        379,
+        387
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\side.png",
+      "target_rect": [
+        0,
+        0,
+        379,
+        387
+      ]
+    },
+    {
+      "name": "front",
+      "source_rect": [
+        458,
+        6,
+        369,
+        388
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\front.png",
+      "target_rect": [
+        0,
+        0,
+        369,
+        388
+      ]
+    },
+    {
+      "name": "back",
+      "source_rect": [
+        900,
+        7,
+        368,
+        387
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\back.png",
+      "target_rect": [
+        0,
+        0,
+        368,
+        387
+      ]
+    },
+    {
+      "name": "armSide",
+      "source_rect": [
+        44,
+        448,
+        341,
+        346
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\armSide.png",
+      "target_rect": [
+        0,
+        0,
+        341,
+        346
+      ]
+    },
+    {
+      "name": "armFront",
+      "source_rect": [
+        481,
+        448,
+        287,
+        364
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\armFront.png",
+      "target_rect": [
+        0,
+        0,
+        287,
+        364
+      ]
+    },
+    {
+      "name": "armBack",
+      "source_rect": [
+        904,
+        448,
+        342,
+        359
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\armBack.png",
+      "target_rect": [
+        0,
+        0,
+        342,
+        359
+      ]
+    },
+    {
+      "name": "wheel",
+      "source_rect": [
+        80,
+        904,
+        256,
+        259
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\wheel.png",
+      "target_rect": [
+        0,
+        0,
+        256,
+        259
+      ]
+    },
+    {
+      "name": "claw",
+      "source_rect": [
+        436,
+        933,
+        354,
+        198
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\claw.png",
+      "target_rect": [
+        0,
+        0,
+        354,
+        198
+      ]
+    },
+    {
+      "name": "portrait",
+      "source_rect": [
+        810,
+        822,
+        480,
+        390
+      ],
+      "target": "D:\\MegaEarth2049-AI_Round-2\\art\\max-e-mum\\portrait.png",
+      "target_rect": [
+        0,
+        0,
+        480,
+        390
+      ]
+    }
+  ]
+}

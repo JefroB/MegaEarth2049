@@ -1,0 +1,24 @@
+@echo off
+echo MegaEarth2049 Map Documentation Generator
+echo =========================================
+echo.
+
+echo This batch file will analyze all maps in the game and generate documentation.
+echo.
+
+echo Step 1: Analyzing maps and identifying incomplete maps...
+powershell -ExecutionPolicy Bypass -File analyze_incomplete_maps.ps1
+echo.
+
+echo Step 2: Generating map documentation...
+echo MegaEarth2049_Map_Documentation.md has been created/updated.
+echo.
+
+echo Documentation complete!
+echo.
+echo The following files have been generated:
+echo - incomplete_maps_report.txt: A detailed report of incomplete maps
+echo - MegaEarth2049_Map_Documentation.md: Comprehensive map documentation
+echo.
+
+pause

@@ -1,0 +1,221 @@
+# MegaEarth2049 Map Events Extractor
+# This script extracts event information from RPG Maker MV map files
+
+# Function to extract event information
+function Extract-MapEvents {
+    param (
+        [string]$mapFile,
+        [string]$outputDir = "map_events"
+    )
+    
+    # Check if the map file exists
+    if (-not (Test-Path $mapFile)) {
+        Write-Host "Error: Map file $mapFile does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Get map ID from filename
+    $mapId = [regex]::Match($mapFile, 'Map(\d+)\.json').Groups[1].Value
+    if (-not $mapId) {
+        $mapId = "unknown"
+    }
+    
+    Write-Host "Extracting events from map $mapId..." -ForegroundColor Cyan
+    
+    try {
+        # Read the file content
+        $mapContent = Get-Content $mapFile -Raw | ConvertFrom-Json
+        
+        # Create an events summary file
+        $eventsSummaryFile = "$outputDir/Map${mapId}_events_summary.txt"
+        "Events Summary for Map $mapId ($($mapContent.displayName))" | Out-File -FilePath $eventsSummaryFile -Encoding utf8
+        "Map Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        
+        # Count non-null events
+        $eventCount = 0
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                $eventCount++
+            }
+        }
+        "Total Events: $eventCount" | Out-File -FilePath $eventsSummaryFile -Encoding utf8 -Append
+        
+        # Create a detailed events file
+        $eventsDetailFile = "$outputDir/Map${mapId}_events_detail.txt"
+        "Detailed Events for Map $mapId ($($mapContent.displayName))" | Out-File -FilePath $eventsDetailFile -Encoding utf8
+        
+        # Process each event
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                "Event ID: $($event.id)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                "Name: $($event.name)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                "Position: ($($event.x), $($event.y))" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                "Pages: $($event.pages.Count)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                
+                # Process each page
+                for ($pageIndex = 0; $pageIndex -lt $event.pages.Count; $pageIndex++) {
+                    $page = $event.pages[$pageIndex]
+                    "  Page $($pageIndex + 1):" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    
+                    # Trigger type
+                    $triggerTypes = @{
+                        0 = "Action Button"
+                        1 = "Player Touch"
+                        2 = "Event Touch"
+                        3 = "Autorun"
+                        4 = "Parallel"
+                    }
+                    $triggerType = $triggerTypes[[string]$page.trigger]
+                    "    Trigger: $triggerType" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    
+                    # Conditions
+                    "    Conditions:" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    if ($page.conditions.switch1Valid) {
+                        "      Switch 1: $($page.conditions.switch1Id)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    if ($page.conditions.switch2Valid) {
+                        "      Switch 2: $($page.conditions.switch2Id)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    if ($page.conditions.variableValid) {
+                        "      Variable: $($page.conditions.variableId) >= $($page.conditions.variableValue)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    if ($page.conditions.selfSwitchValid) {
+                        "      Self Switch: $($page.conditions.selfSwitchCh)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    if ($page.conditions.itemValid) {
+                        "      Item: $($page.conditions.itemId)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    if ($page.conditions.actorValid) {
+                        "      Actor: $($page.conditions.actorId)" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                    
+                    # Commands summary
+                    "    Commands:" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    $commandCounts = @{}
+                    foreach ($cmd in $page.list) {
+                        if (-not $commandCounts.ContainsKey([string]$cmd.code)) {
+                            $commandCounts[[string]$cmd.code] = 0
+                        }
+                        $commandCounts[[string]$cmd.code]++
+                    }
+                    
+                    # Define common command codes
+                    $commandCodes = @{
+                        "0" = "End Event Processing"
+                        "101" = "Show Text"
+                        "102" = "Show Choices"
+                        "103" = "Input Number"
+                        "104" = "Select Item"
+                        "108" = "Comment"
+                        "111" = "Conditional Branch"
+                        "117" = "Common Event"
+                        "121" = "Control Switches"
+                        "122" = "Control Variables"
+                        "126" = "Change Items"
+                        "201" = "Transfer Player"
+                        "205" = "Set Movement Route"
+                        "230" = "Wait"
+                        "250" = "Play SE"
+                        "301" = "Battle Processing"
+                        "302" = "Shop Processing"
+                        "355" = "Script"
+                    }
+                    
+                    foreach ($code in $commandCounts.Keys | Sort-Object) {
+                        $cmdName = if ($commandCodes.ContainsKey($code)) { $commandCodes[$code] } else { "Command $code" }
+                        "      $cmdName: $($commandCounts[$code])" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+                    }
+                }
+                
+                "" | Out-File -FilePath $eventsDetailFile -Encoding utf8 -Append
+            }
+        }
+        
+        # Create a map of event locations
+        $eventMapFile = "$outputDir/Map${mapId}_event_map.txt"
+        "Event Map for Map $mapId ($($mapContent.displayName))" | Out-File -FilePath $eventMapFile -Encoding utf8
+        "Map Dimensions: $($mapContent.width) x $($mapContent.height)" | Out-File -FilePath $eventMapFile -Encoding utf8 -Append
+        "" | Out-File -FilePath $eventMapFile -Encoding utf8 -Append
+        
+        # Create a 2D array to represent the map
+        $eventMap = New-Object 'string[,]' $mapContent.height, $mapContent.width
+        for ($y = 0; $y -lt $mapContent.height; $y++) {
+            for ($x = 0; $x -lt $mapContent.width; $x++) {
+                $eventMap[$y, $x] = "."
+            }
+        }
+        
+        # Place events on the map
+        foreach ($event in $mapContent.events) {
+            if ($event -ne $null) {
+                if ($event.x -ge 0 -and $event.x -lt $mapContent.width -and 
+                    $event.y -ge 0 -and $event.y -lt $mapContent.height) {
+                    $eventMap[$event.y, $event.x] = "E"
+                }
+            }
+        }
+        
+        # Output the event map
+        for ($y = 0; $y -lt $mapContent.height; $y++) {
+            $line = ""
+            for ($x = 0; $x -lt $mapContent.width; $x++) {
+                $line += $eventMap[$y, $x]
+            }
+            $line | Out-File -FilePath $eventMapFile -Encoding utf8 -Append
+        }
+        
+        Write-Host "  Created events summary at $eventsSummaryFile" -ForegroundColor Green
+        Write-Host "  Created detailed events at $eventsDetailFile" -ForegroundColor Green
+        Write-Host "  Created event map at $eventMapFile" -ForegroundColor Green
+        Write-Host "Completed extracting events from map $mapId" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Error extracting events from map $mapId: $_" -ForegroundColor Red
+    }
+}
+
+# Function to process all maps in a directory
+function Extract-AllMapEvents {
+    param (
+        [string]$mapDir = "data",
+        [string]$outputDir = "map_events"
+    )
+    
+    # Check if the map directory exists
+    if (-not (Test-Path $mapDir)) {
+        Write-Host "Error: Map directory $mapDir does not exist." -ForegroundColor Red
+        return
+    }
+    
+    # Create output directory if it doesn't exist
+    if (-not (Test-Path $outputDir)) {
+        New-Item -ItemType Directory -Path $outputDir | Out-Null
+        Write-Host "Created output directory: $outputDir" -ForegroundColor Green
+    }
+    
+    # Find all map files
+    $mapFiles = Get-ChildItem -Path $mapDir -Filter "Map*.json"
+    
+    Write-Host "Found $($mapFiles.Count) map files in $mapDir" -ForegroundColor Cyan
+    
+    # Process each map file
+    foreach ($mapFile in $mapFiles) {
+        Extract-MapEvents -mapFile $mapFile.FullName -outputDir $outputDir
+    }
+    
+    Write-Host "Completed extracting events from all maps" -ForegroundColor Green
+}
+
+# Main script execution
+# Example usage:
+# Extract events from a single map:
+# Extract-MapEvents -mapFile "data/Map001.json"
+#
+# Extract events from all maps in the data directory:
+# Extract-AllMapEvents

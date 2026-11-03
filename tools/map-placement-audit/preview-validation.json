@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "page": "map-placement",
+      "width": 360,
+      "w": 360,
+      "scroll": 360
+    },
+    {
+      "page": "map-placement",
+      "width": 600,
+      "w": 600,
+      "scroll": 600
+    },
+    {
+      "page": "map-placement",
+      "width": 1000,
+      "w": 1000,
+      "scroll": 1000
+    },
+    {
+      "page": "companions-final",
+      "width": 360,
+      "w": 360,
+      "scroll": 360
+    },
+    {
+      "page": "companions-final",
+      "width": 600,
+      "w": 600,
+      "scroll": 600
+    },
+    {
+      "page": "companions-final",
+      "width": 1000,
+      "w": 1000,
+      "scroll": 1000
+    }
+  ]
+}

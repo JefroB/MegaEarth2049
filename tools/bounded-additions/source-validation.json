@@ -1,0 +1,32 @@
+{
+  "manifest": "D:\\MegaEarth2049-AI_Round-2\\tools\\bounded-additions\\crops-v2.json",
+  "passed": true,
+  "checked_cells": [
+    "Dead Relay",
+    "Crushed Servo",
+    "Spent Power Cell",
+    "Contaminated Sensor",
+    "Cracked Coolant Filter",
+    "Soot-Clogged Optics",
+    "Joint Venture",
+    "Pre-Existing Body",
+    "Free Trial",
+    "Off-Clock Cookbook",
+    "Off-Clock Scrapbook",
+    "Microwave Love Letter",
+    "Paralysis",
+    "Temporal Stasis",
+    "Stone Skin",
+    "Motor Recall",
+    "Soft Reset",
+    "Nerve Clamp",
+    "Borrowed Second",
+    "Stone Shield",
+    "Release Motor Lock",
+    "Shed Stone",
+    "Break Stone",
+    "Recycling"
+  ],
+  "errors": [],
+  "limitation": "Does not verify subject ownership, complete anatomy or intended motion; inspect exact packed cells visually."
+}
